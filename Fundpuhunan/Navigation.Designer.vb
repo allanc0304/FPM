@@ -150,7 +150,6 @@ Partial Class Navigation
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Fundpuhunan.My.Resources.Resources.FPM
         Me.PictureBox2.Location = New System.Drawing.Point(9, 12)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(81, 73)
@@ -301,7 +300,6 @@ Partial Class Navigation
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.ErrorImage = Nothing
-        Me.PictureBox1.Image = Global.Fundpuhunan.My.Resources.Resources.profile
         Me.PictureBox1.InitialImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(58, 133)
         Me.PictureBox1.Name = "PictureBox1"
