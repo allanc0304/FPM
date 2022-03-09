@@ -119,6 +119,12 @@
     <Compile Include="Navigation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="TEst.Designer.vb">
+      <DependentUpon>TEst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TEst.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Application.resx">
@@ -164,6 +170,7 @@
   <ItemGroup>
     <Content Include="Resources\add-file.png" />
     <Content Include="Resources\key.png" />
+    <Content Include="Resources\profile.png" />
     <Content Include="Resources\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

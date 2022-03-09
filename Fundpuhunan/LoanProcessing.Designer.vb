@@ -52,13 +52,13 @@ Partial Class LoanProcessing
         Me.DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.Column1, Me.Column3, Me.Column2, Me.Column4})
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 133)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 96)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowHeadersWidth = 15
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(916, 588)
+        Me.DataGridView1.Size = New System.Drawing.Size(916, 625)
         Me.DataGridView1.TabIndex = 65
         '
         'DataGridViewTextBoxColumn1
@@ -153,7 +153,7 @@ Partial Class LoanProcessing
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button2.Image = Global.Fundpuhunan.My.Resources.Resources.add_file
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(780, 95)
+        Me.Button2.Location = New System.Drawing.Point(780, 57)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(148, 33)
         Me.Button2.TabIndex = 69
@@ -168,7 +168,7 @@ Partial Class LoanProcessing
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button1.Location = New System.Drawing.Point(362, 107)
+        Me.Button1.Location = New System.Drawing.Point(362, 69)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(104, 21)
         Me.Button1.TabIndex = 68
@@ -178,7 +178,7 @@ Partial Class LoanProcessing
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(17, 107)
+        Me.TextBox1.Location = New System.Drawing.Point(17, 69)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(339, 20)
         Me.TextBox1.TabIndex = 67
