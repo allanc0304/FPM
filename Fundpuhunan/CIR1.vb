@@ -1,4 +1,4 @@
-﻿Public Class CIR
+﻿Public Class CIR1
     Private Sub Label88_Click(sender As Object, e As EventArgs) Handles Label88.Click
 
     End Sub
