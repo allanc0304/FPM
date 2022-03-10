@@ -24,4 +24,16 @@
     Private Sub TextBox27_TextChanged(sender As Object, e As EventArgs) Handles TextBox27.TextChanged
 
     End Sub
+
+    Private Sub Label51_Click(sender As Object, e As EventArgs) Handles Label51.Click
+
+    End Sub
+
+    Private Sub TextBox23_TextChanged(sender As Object, e As EventArgs) Handles TextBox23.TextChanged
+
+    End Sub
+
+    Private Sub Label79_Click(sender As Object, e As EventArgs) Handles Label79.Click
+
+    End Sub
 End Class
