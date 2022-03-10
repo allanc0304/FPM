@@ -91,16 +91,16 @@
     <Compile Include="ApplictaionForm1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CIR1.Designer.vb">
-      <DependentUpon>CIR1.vb</DependentUpon>
+    <Compile Include="CIRFORM1.Designer.vb">
+      <DependentUpon>CIRFORM1.vb</DependentUpon>
     </Compile>
-    <Compile Include="CIR1.vb">
+    <Compile Include="CIRFORM1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CIR2.Designer.vb">
-      <DependentUpon>CIR2.vb</DependentUpon>
+    <Compile Include="CIRFORM2.Designer.vb">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
     </Compile>
-    <Compile Include="CIR2.vb">
+    <Compile Include="CIRFORM2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.vb">
@@ -161,11 +161,11 @@
     <EmbeddedResource Include="ApplictaionForm1.resx">
       <DependentUpon>ApplictaionForm1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CIR1.resx">
-      <DependentUpon>CIR1.vb</DependentUpon>
+    <EmbeddedResource Include="CIRFORM1.resx">
+      <DependentUpon>CIRFORM1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CIR2.resx">
-      <DependentUpon>CIR2.vb</DependentUpon>
+    <EmbeddedResource Include="CIRFORM2.resx">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>

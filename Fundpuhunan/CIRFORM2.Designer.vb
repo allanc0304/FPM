@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class CIR2
+Partial Class CIRFORM2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.

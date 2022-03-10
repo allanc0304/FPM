@@ -1,4 +1,4 @@
-﻿Public Class CIR1
+﻿Public Class CIRFORM1
     Private Sub Label88_Click(sender As Object, e As EventArgs) Handles Label88.Click
 
     End Sub
@@ -7,7 +7,13 @@
 
     End Sub
 
-    Private Sub Label218_Click(sender As Object, e As EventArgs) 
+    Private Sub Label218_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        CIRFORM2.Show()
+        Me.Hide()
 
     End Sub
 End Class
