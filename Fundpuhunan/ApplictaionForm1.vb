@@ -16,4 +16,8 @@
     Private Sub Label37_Click(sender As Object, e As EventArgs) Handles Label37.Click
 
     End Sub
+
+    Private Sub ApplictaionForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
