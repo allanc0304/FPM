@@ -91,6 +91,12 @@
     <Compile Include="ApplictaionForm1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CIR.Designer.vb">
+      <DependentUpon>CIR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CIR.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard.Designer.vb">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
@@ -148,6 +154,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ApplictaionForm1.resx">
       <DependentUpon>ApplictaionForm1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIR.resx">
+      <DependentUpon>CIR.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
