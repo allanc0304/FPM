@@ -79,6 +79,18 @@
     <Compile Include="Application.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ApplicationForm2.Designer.vb">
+      <DependentUpon>ApplicationForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplictaionForm1.Designer.vb">
+      <DependentUpon>ApplictaionForm1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ApplictaionForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Dashboard.Designer.vb">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
@@ -129,6 +141,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Application.resx">
       <DependentUpon>Application.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplicationForm2.resx">
+      <DependentUpon>ApplicationForm2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplictaionForm1.resx">
+      <DependentUpon>ApplictaionForm1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
