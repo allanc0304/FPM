@@ -97,6 +97,7 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="DennisTest.vb" />
     <Compile Include="LoanProcessing.Designer.vb">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
     </Compile>
