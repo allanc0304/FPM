@@ -28,7 +28,6 @@ Partial Class Navigation
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
         Me.loanreleasedbttn = New System.Windows.Forms.Button()
         Me.positions = New System.Windows.Forms.Label()
@@ -38,10 +37,11 @@ Partial Class Navigation
         Me.filebttn = New System.Windows.Forms.Button()
         Me.processingbttn = New System.Windows.Forms.Button()
         Me.applicationbttn = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.dashboardbutton = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Navigationpanel = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -124,7 +124,7 @@ Partial Class Navigation
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.ForeColor = System.Drawing.Color.Lime
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label3.Location = New System.Drawing.Point(96, 39)
         Me.Label3.Name = "Label3"
@@ -138,7 +138,7 @@ Partial Class Navigation
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.ForeColor = System.Drawing.Color.Lime
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label1.Location = New System.Drawing.Point(96, 21)
         Me.Label1.Name = "Label1"
@@ -147,16 +147,6 @@ Partial Class Navigation
         Me.Label1.TabIndex = 61
         Me.Label1.Text = "FUNDPUHUNAN"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox2
-        '
-
-        Me.PictureBox2.Location = New System.Drawing.Point(9, 12)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(81, 73)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 60
-        Me.PictureBox2.TabStop = False
         '
         'Panel6
         '
@@ -295,20 +285,6 @@ Partial Class Navigation
         Me.applicationbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.applicationbttn.UseVisualStyleBackColor = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.ErrorImage = Nothing
-        Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(58, 133)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(107, 93)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
-        '
         'dashboardbutton
         '
         Me.dashboardbutton.BackColor = System.Drawing.Color.SteelBlue
@@ -346,6 +322,31 @@ Partial Class Navigation
         Me.Navigationpanel.Name = "Navigationpanel"
         Me.Navigationpanel.Size = New System.Drawing.Size(940, 761)
         Me.Navigationpanel.TabIndex = 14
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Fundpuhunan.My.Resources.Resources.FPM
+        Me.PictureBox2.Location = New System.Drawing.Point(9, 12)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(81, 73)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 60
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.ErrorImage = Nothing
+        Me.PictureBox1.Image = Global.Fundpuhunan.My.Resources.Resources.profile
+        Me.PictureBox1.InitialImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(65, 133)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 100)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'Navigation
         '
