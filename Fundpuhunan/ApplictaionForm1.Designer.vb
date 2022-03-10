@@ -78,7 +78,6 @@ Partial Class ApplictaionForm1
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
@@ -171,6 +170,7 @@ Partial Class ApplictaionForm1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -735,16 +735,6 @@ Partial Class ApplictaionForm1
         Me.Label34.Size = New System.Drawing.Size(358, 28)
         Me.Label34.TabIndex = 375
         Me.Label34.Text = "FUNDPUHUNAN MICROFINANCE "
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.ErrorImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(502, 24)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(140, 117)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 374
-        Me.PictureBox1.TabStop = False
         '
         'Label33
         '
@@ -1622,12 +1612,22 @@ Partial Class ApplictaionForm1
         Me.Label1.TabIndex = 282
         Me.Label1.Text = "IMPORMASYON NG HUMIHIRAM"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.ErrorImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(502, 24)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(140, 117)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 374
+        Me.PictureBox1.TabStop = False
+        '
         'ApplictaionForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(745, 649)
+        Me.ClientSize = New System.Drawing.Size(762, 649)
         Me.Controls.Add(Me.Label90)
         Me.Controls.Add(Me.Label89)
         Me.Controls.Add(Me.Label88)

@@ -138,6 +138,7 @@ Partial Class Login
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Image = Global.Fundpuhunan.My.Resources.Resources.key
         Me.PictureBox3.Location = New System.Drawing.Point(239, 121)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(24, 24)
@@ -148,6 +149,7 @@ Partial Class Login
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Image = Global.Fundpuhunan.My.Resources.Resources.user
         Me.PictureBox2.Location = New System.Drawing.Point(239, 73)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(24, 24)
@@ -157,6 +159,7 @@ Partial Class Login
         '
         'PictureBox4
         '
+        Me.PictureBox4.Image = Global.Fundpuhunan.My.Resources.Resources.FPM
         Me.PictureBox4.InitialImage = CType(resources.GetObject("PictureBox4.InitialImage"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(28, 71)
         Me.PictureBox4.Name = "PictureBox4"
