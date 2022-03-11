@@ -1597,6 +1597,7 @@ Partial Class ApplictaionForm1
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.DimGray
         Me.PictureBox1.ErrorImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(502, 24)
         Me.PictureBox1.Name = "PictureBox1"
