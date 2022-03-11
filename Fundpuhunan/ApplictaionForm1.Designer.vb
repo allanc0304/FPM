@@ -337,52 +337,52 @@ Partial Class ApplictaionForm1
         'Label74
         '
         Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(330, 991)
+        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Location = New System.Drawing.Point(338, 994)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(65, 12)
+        Me.Label74.Size = New System.Drawing.Size(45, 9)
         Me.Label74.TabIndex = 414
-        Me.Label74.Text = "( LASTNAME)"
+        Me.Label74.Text = "( ex. 3,000 )"
         '
         'Label73
         '
         Me.Label73.AutoSize = True
-        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(330, 951)
+        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Location = New System.Drawing.Point(338, 954)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(65, 12)
+        Me.Label73.Size = New System.Drawing.Size(49, 9)
         Me.Label73.TabIndex = 413
-        Me.Label73.Text = "( LASTNAME)"
+        Me.Label73.Text = "( ex. 15,000 )"
         '
         'Label72
         '
         Me.Label72.AutoSize = True
-        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(330, 913)
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(342, 916)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(65, 12)
+        Me.Label72.Size = New System.Drawing.Size(45, 9)
         Me.Label72.TabIndex = 412
-        Me.Label72.Text = "( LASTNAME)"
+        Me.Label72.Text = "( ex. 6,000 )"
         '
         'Label71
         '
         Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(330, 876)
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(342, 877)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(65, 12)
+        Me.Label71.Size = New System.Drawing.Size(49, 9)
         Me.Label71.TabIndex = 411
-        Me.Label71.Text = "( LASTNAME)"
+        Me.Label71.Text = "( ex. 10,000 )"
         '
         'Label68
         '
         Me.Label68.AutoSize = True
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(330, 838)
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(318, 841)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(65, 12)
+        Me.Label68.Size = New System.Drawing.Size(95, 9)
         Me.Label68.TabIndex = 410
-        Me.Label68.Text = "( LASTNAME)"
+        Me.Label68.Text = "( ex. SARI-SARI STORE )"
         '
         'Label70
         '
