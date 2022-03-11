@@ -1073,7 +1073,7 @@ Partial Class ApplictaionForm1
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.Color.Silver
+        Me.Label31.BackColor = System.Drawing.Color.Transparent
         Me.Label31.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label31.Location = New System.Drawing.Point(395, 1356)
         Me.Label31.Name = "Label31"
