@@ -24,4 +24,9 @@
         ApplicationForm2.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Application.Show()
+        Me.Hide()
+    End Sub
 End Class

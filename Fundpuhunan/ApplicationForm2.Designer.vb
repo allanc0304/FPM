@@ -633,7 +633,7 @@ Partial Class ApplicationForm2
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label21.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label21.Location = New System.Drawing.Point(288, 541)
+        Me.Label21.Location = New System.Drawing.Point(288, 563)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(146, 21)
         Me.Label21.TabIndex = 167

@@ -1630,7 +1630,7 @@ Partial Class ApplictaionForm1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(762, 649)
+        Me.ClientSize = New System.Drawing.Size(779, 649)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label89)

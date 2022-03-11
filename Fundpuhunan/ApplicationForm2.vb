@@ -32,4 +32,10 @@
     Private Sub TextBox23_TextChanged(sender As Object, e As EventArgs) Handles TextBox23.TextChanged
 
     End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        ApplictaionForm1.Show()
+        Me.Hide()
+
+    End Sub
 End Class
