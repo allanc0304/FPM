@@ -273,7 +273,7 @@ Partial Class ApplicationForm2
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(38, 1724)
+        Me.Button3.Location = New System.Drawing.Point(38, 1729)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(83, 20)
         Me.Button3.TabIndex = 203
