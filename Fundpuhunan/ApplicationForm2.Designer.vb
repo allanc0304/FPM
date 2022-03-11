@@ -151,6 +151,9 @@ Partial Class ApplicationForm2
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
+        Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
         Me.SuspendLayout()
         '
         'TextBox31
@@ -1367,6 +1370,18 @@ Partial Class ApplicationForm2
         Me.Button9.Text = "<-- Back"
         Me.Button9.UseVisualStyleBackColor = True
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'OpenFileDialog2
+        '
+        Me.OpenFileDialog2.FileName = "OpenFileDialog2"
+        '
+        'OpenFileDialog3
+        '
+        Me.OpenFileDialog3.FileName = "OpenFileDialog3"
+        '
         'ApplicationForm2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1633,4 +1648,7 @@ Partial Class ApplicationForm2
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents OpenFileDialog2 As OpenFileDialog
+    Friend WithEvents OpenFileDialog3 As OpenFileDialog
 End Class
