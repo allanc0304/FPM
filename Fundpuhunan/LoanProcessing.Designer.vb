@@ -146,15 +146,16 @@ Partial Class LoanProcessing
         '
         'Button2
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button2.BackColor = System.Drawing.Color.SteelBlue
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button2.Location = New System.Drawing.Point(780, 57)
+        Me.Button2.Location = New System.Drawing.Point(754, 57)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(148, 33)
+        Me.Button2.Size = New System.Drawing.Size(174, 33)
         Me.Button2.TabIndex = 69
         Me.Button2.Text = "CIR FORM" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button2.UseCompatibleTextRendering = True

@@ -23,34 +23,34 @@ Partial Class Dashboard
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.filetotal = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.temptotal = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.studentstotal = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Panel9.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel8.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel6.SuspendLayout()
+        Me.Panel7.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel7.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel9
@@ -60,18 +60,23 @@ Partial Class Dashboard
         Me.Panel9.Controls.Add(Me.PictureBox3)
         Me.Panel9.Controls.Add(Me.filetotal)
         Me.Panel9.Controls.Add(Me.Label7)
-        Me.Panel9.Location = New System.Drawing.Point(450, 341)
+        Me.Panel9.Location = New System.Drawing.Point(506, 357)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(276, 135)
         Me.Panel9.TabIndex = 12
         '
-        'PictureBox3
+        'Button4
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(5, 34)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox3.TabIndex = 12
-        Me.PictureBox3.TabStop = False
+        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Button4.Location = New System.Drawing.Point(195, 112)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(81, 23)
+        Me.Button4.TabIndex = 14
+        Me.Button4.Text = "View"
+        Me.Button4.UseVisualStyleBackColor = True
         '
         'filetotal
         '
@@ -102,18 +107,23 @@ Partial Class Dashboard
         Me.Panel8.Controls.Add(Me.PictureBox2)
         Me.Panel8.Controls.Add(Me.temptotal)
         Me.Panel8.Controls.Add(Me.Label6)
-        Me.Panel8.Location = New System.Drawing.Point(450, 137)
+        Me.Panel8.Location = New System.Drawing.Point(506, 153)
         Me.Panel8.Name = "Panel8"
         Me.Panel8.Size = New System.Drawing.Size(276, 135)
         Me.Panel8.TabIndex = 10
         '
-        'PictureBox2
+        'Button3
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(5, 40)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox2.TabIndex = 11
-        Me.PictureBox2.TabStop = False
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Button3.Location = New System.Drawing.Point(193, 111)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(81, 23)
+        Me.Button3.TabIndex = 14
+        Me.Button3.Text = "View"
+        Me.Button3.UseVisualStyleBackColor = True
         '
         'temptotal
         '
@@ -145,19 +155,34 @@ Partial Class Dashboard
         Me.Panel6.Controls.Add(Me.PictureBox1)
         Me.Panel6.Controls.Add(Me.Label4)
         Me.Panel6.ForeColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(59, 137)
+        Me.Panel6.Location = New System.Drawing.Point(115, 153)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(276, 135)
         Me.Panel6.TabIndex = 9
         '
-        'PictureBox1
+        'Button2
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(11, 40)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 10
-        Me.PictureBox1.TabStop = False
+        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Button2.Location = New System.Drawing.Point(192, 111)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(81, 23)
+        Me.Button2.TabIndex = 13
+        Me.Button2.Text = "View"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label8.Location = New System.Drawing.Point(162, 46)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(25, 25)
+        Me.Label8.TabIndex = 12
+        Me.Label8.Text = "0"
         '
         'Label4
         '
@@ -169,14 +194,6 @@ Partial Class Dashboard
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Total Application Pending"
         '
-        'PictureBox4
-        '
-        Me.PictureBox4.Location = New System.Drawing.Point(11, 38)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox4.TabIndex = 11
-        Me.PictureBox4.TabStop = False
-        '
         'Panel7
         '
         Me.Panel7.BackColor = System.Drawing.Color.LimeGreen
@@ -184,10 +201,23 @@ Partial Class Dashboard
         Me.Panel7.Controls.Add(Me.PictureBox4)
         Me.Panel7.Controls.Add(Me.studentstotal)
         Me.Panel7.Controls.Add(Me.Label1)
-        Me.Panel7.Location = New System.Drawing.Point(59, 341)
+        Me.Panel7.Location = New System.Drawing.Point(115, 357)
         Me.Panel7.Name = "Panel7"
         Me.Panel7.Size = New System.Drawing.Size(276, 135)
         Me.Panel7.TabIndex = 11
+        '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.HotTrack
+        Me.Button1.Location = New System.Drawing.Point(192, 109)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(81, 23)
+        Me.Button1.TabIndex = 12
+        Me.Button1.Text = "View"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'studentstotal
         '
@@ -217,103 +247,84 @@ Partial Class Dashboard
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.Label9.Location = New System.Drawing.Point(59, 80)
+        Me.Label9.Location = New System.Drawing.Point(412, 53)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(102, 24)
         Me.Label9.TabIndex = 13
         Me.Label9.Text = "Dashboard"
         '
-        'Label8
+        'PictureBox3
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label8.Location = New System.Drawing.Point(162, 46)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(25, 25)
-        Me.Label8.TabIndex = 12
-        Me.Label8.Text = "0"
+
+        Me.PictureBox3.Location = New System.Drawing.Point(5, 34)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(83, 70)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 12
+        Me.PictureBox3.TabStop = False
         '
-        'Button1
+        'PictureBox2
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button1.Location = New System.Drawing.Point(192, 109)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 23)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "View"
-        Me.Button1.UseVisualStyleBackColor = True
+
+        Me.PictureBox2.Location = New System.Drawing.Point(5, 40)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(83, 70)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 11
+        Me.PictureBox2.TabStop = False
         '
-        'Button2
+        'PictureBox1
         '
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button2.Location = New System.Drawing.Point(192, 111)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(81, 23)
-        Me.Button2.TabIndex = 13
-        Me.Button2.Text = "View"
-        Me.Button2.UseVisualStyleBackColor = True
+
+        Me.PictureBox1.Location = New System.Drawing.Point(11, 40)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(83, 70)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 10
+        Me.PictureBox1.TabStop = False
         '
-        'Button3
+        'PictureBox4
         '
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button3.Location = New System.Drawing.Point(193, 111)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(81, 23)
-        Me.Button3.TabIndex = 14
-        Me.Button3.Text = "View"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button4.Location = New System.Drawing.Point(195, 112)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(81, 23)
-        Me.Button4.TabIndex = 14
-        Me.Button4.Text = "View"
-        Me.Button4.UseVisualStyleBackColor = True
+
+        Me.PictureBox4.Location = New System.Drawing.Point(11, 38)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(83, 70)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 11
+        Me.PictureBox4.TabStop = False
         '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
+
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(940, 761)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Panel9)
         Me.Controls.Add(Me.Panel8)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel7)
+        Me.DoubleBuffered = True
         Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Dashboard"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Dashboard"
+        Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Panel9.ResumeLayout(False)
         Me.Panel9.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel8.ResumeLayout(False)
         Me.Panel8.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel6.ResumeLayout(False)
         Me.Panel6.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel7.ResumeLayout(False)
         Me.Panel7.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

@@ -178,12 +178,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Navigation.resx">
       <DependentUpon>Navigation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEst.resx">
+      <DependentUpon>TEst.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
