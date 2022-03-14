@@ -1342,7 +1342,7 @@ Partial Class ApplictaionForm1
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(402, 697)
+        Me.Label9.Location = New System.Drawing.Point(414, 697)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(93, 21)
         Me.Label9.TabIndex = 306
