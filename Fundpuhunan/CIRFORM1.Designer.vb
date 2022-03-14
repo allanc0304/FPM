@@ -254,6 +254,9 @@ Partial Class CIRFORM1
         Me.ColumnHeader11 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label117 = New System.Windows.Forms.Label()
         Me.Label135 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -640,20 +643,20 @@ Partial Class CIRFORM1
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label27.Location = New System.Drawing.Point(12, 526)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(151, 20)
+        Me.Label27.Size = New System.Drawing.Size(139, 16)
         Me.Label27.TabIndex = 35
         Me.Label27.Text = "Name of Relatives:"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label28.Location = New System.Drawing.Point(12, 582)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(75, 20)
+        Me.Label28.Size = New System.Drawing.Size(69, 16)
         Me.Label28.TabIndex = 44
         Me.Label28.Text = "Relation:"
         '
@@ -674,10 +677,10 @@ Partial Class CIRFORM1
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label29.Location = New System.Drawing.Point(13, 466)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(136, 20)
+        Me.Label29.Size = New System.Drawing.Size(121, 16)
         Me.Label29.TabIndex = 46
         Me.Label29.Text = "Contact Number:"
         '
@@ -721,10 +724,10 @@ Partial Class CIRFORM1
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label33.Location = New System.Drawing.Point(13, 740)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(136, 20)
+        Me.Label33.Size = New System.Drawing.Size(121, 16)
         Me.Label33.TabIndex = 61
         Me.Label33.Text = "Contact Number:"
         '
@@ -816,10 +819,10 @@ Partial Class CIRFORM1
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label39.Location = New System.Drawing.Point(13, 646)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(202, 20)
+        Me.Label39.Size = New System.Drawing.Size(184, 16)
         Me.Label39.TabIndex = 50
         Me.Label39.Text = "Complete Home Address:"
         '
@@ -843,10 +846,10 @@ Partial Class CIRFORM1
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label41.Location = New System.Drawing.Point(573, 980)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(313, 20)
+        Me.Label41.Size = New System.Drawing.Size(285, 16)
         Me.Label41.TabIndex = 87
         Me.Label41.Text = "How many attending Government School"
         '
@@ -938,10 +941,10 @@ Partial Class CIRFORM1
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label47.Location = New System.Drawing.Point(251, 980)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(274, 20)
+        Me.Label47.Size = New System.Drawing.Size(251, 16)
         Me.Label47.TabIndex = 76
         Me.Label47.Text = "How many attending Private School"
         '
@@ -965,10 +968,10 @@ Partial Class CIRFORM1
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label49.Location = New System.Drawing.Point(13, 938)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(101, 20)
+        Me.Label49.Size = New System.Drawing.Size(92, 16)
         Me.Label49.TabIndex = 73
         Me.Label49.Text = "If Schooling:"
         '
@@ -1043,10 +1046,10 @@ Partial Class CIRFORM1
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label54.Location = New System.Drawing.Point(13, 867)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(236, 20)
+        Me.Label54.Size = New System.Drawing.Size(215, 16)
         Me.Label54.TabIndex = 64
         Me.Label54.Text = "How many are Non-Schooling:"
         '
@@ -1073,49 +1076,53 @@ Partial Class CIRFORM1
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label57.Location = New System.Drawing.Point(13, 1047)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(105, 20)
+        Me.Label57.Size = New System.Drawing.Size(95, 16)
         Me.Label57.TabIndex = 92
         Me.Label57.Text = "High School:"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(782, 3981)
+        Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(785, 4033)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(124, 40)
         Me.Button1.TabIndex = 93
         Me.Button1.Text = "NEXT "
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label58.Location = New System.Drawing.Point(13, 1012)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(98, 20)
+        Me.Label58.Size = New System.Drawing.Size(89, 16)
         Me.Label58.TabIndex = 94
         Me.Label58.Text = "Elementary:"
         '
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label59.Location = New System.Drawing.Point(13, 1084)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(70, 20)
+        Me.Label59.Size = New System.Drawing.Size(65, 16)
         Me.Label59.TabIndex = 95
         Me.Label59.Text = "College:"
         '
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label60.Location = New System.Drawing.Point(510, 1136)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(97, 20)
+        Me.Label60.Size = New System.Drawing.Size(89, 16)
         Me.Label60.TabIndex = 96
         Me.Label60.Text = "Tuition Fee:"
         '
@@ -1206,30 +1213,30 @@ Partial Class CIRFORM1
         'Label61
         '
         Me.Label61.AutoSize = True
-        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label61.Location = New System.Drawing.Point(13, 1241)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(70, 20)
+        Me.Label61.Size = New System.Drawing.Size(65, 16)
         Me.Label61.TabIndex = 105
         Me.Label61.Text = "College:"
         '
         'Label62
         '
         Me.Label62.AutoSize = True
-        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label62.Location = New System.Drawing.Point(13, 1169)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(98, 20)
+        Me.Label62.Size = New System.Drawing.Size(89, 16)
         Me.Label62.TabIndex = 104
         Me.Label62.Text = "Elementary:"
         '
         'Label63
         '
         Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label63.Location = New System.Drawing.Point(13, 1204)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(105, 20)
+        Me.Label63.Size = New System.Drawing.Size(95, 16)
         Me.Label63.TabIndex = 103
         Me.Label63.Text = "High School:"
         '
@@ -1314,30 +1321,30 @@ Partial Class CIRFORM1
         'Label66
         '
         Me.Label66.AutoSize = True
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label66.Location = New System.Drawing.Point(13, 1518)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(57, 20)
+        Me.Label66.Size = New System.Drawing.Size(51, 16)
         Me.Label66.TabIndex = 121
         Me.Label66.Text = "Terms"
         '
         'Label67
         '
         Me.Label67.AutoSize = True
-        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label67.Location = New System.Drawing.Point(13, 1420)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(165, 20)
+        Me.Label67.Size = New System.Drawing.Size(151, 16)
         Me.Label67.TabIndex = 120
         Me.Label67.Text = "Amount Applied Php "
         '
         'Label68
         '
         Me.Label68.AutoSize = True
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label68.Location = New System.Drawing.Point(13, 1465)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(76, 20)
+        Me.Label68.Size = New System.Drawing.Size(69, 16)
         Me.Label68.TabIndex = 119
         Me.Label68.Text = "Purpose "
         '
@@ -1358,20 +1365,20 @@ Partial Class CIRFORM1
         'Label69
         '
         Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label69.Location = New System.Drawing.Point(13, 1618)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(153, 20)
+        Me.Label69.Size = New System.Drawing.Size(139, 16)
         Me.Label69.TabIndex = 126
         Me.Label69.Text = "Mode of Payments "
         '
         'Label70
         '
         Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label70.Location = New System.Drawing.Point(13, 1568)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(112, 20)
+        Me.Label70.Size = New System.Drawing.Size(101, 16)
         Me.Label70.TabIndex = 125
         Me.Label70.Text = "Monthly Rate "
         '
@@ -1513,10 +1520,10 @@ Partial Class CIRFORM1
         'Label81
         '
         Me.Label81.AutoSize = True
-        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label81.Location = New System.Drawing.Point(13, 1814)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(202, 20)
+        Me.Label81.Size = New System.Drawing.Size(184, 16)
         Me.Label81.TabIndex = 134
         Me.Label81.Text = "Complete Home Address:"
         '
@@ -1530,10 +1537,10 @@ Partial Class CIRFORM1
         'Label82
         '
         Me.Label82.AutoSize = True
-        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label82.Location = New System.Drawing.Point(13, 1725)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(200, 20)
+        Me.Label82.Size = New System.Drawing.Size(179, 16)
         Me.Label82.TabIndex = 145
         Me.Label82.Text = "Kind / Name of Business:"
         '
@@ -1547,10 +1554,10 @@ Partial Class CIRFORM1
         'Label83
         '
         Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label83.Location = New System.Drawing.Point(13, 1767)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(136, 20)
+        Me.Label83.Size = New System.Drawing.Size(121, 16)
         Me.Label83.TabIndex = 147
         Me.Label83.Text = "Contact Number:"
         '
@@ -1564,10 +1571,10 @@ Partial Class CIRFORM1
         'Label84
         '
         Me.Label84.AutoSize = True
-        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label84.Location = New System.Drawing.Point(13, 1959)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(190, 20)
+        Me.Label84.Size = New System.Drawing.Size(172, 16)
         Me.Label84.TabIndex = 151
         Me.Label84.Text = "No. of Year in Business:"
         '
@@ -1581,10 +1588,10 @@ Partial Class CIRFORM1
         'Label85
         '
         Me.Label85.AutoSize = True
-        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label85.Location = New System.Drawing.Point(13, 1904)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(144, 20)
+        Me.Label85.Size = New System.Drawing.Size(131, 16)
         Me.Label85.TabIndex = 149
         Me.Label85.Text = "Type of Business "
         '
@@ -1598,10 +1605,10 @@ Partial Class CIRFORM1
         'Label86
         '
         Me.Label86.AutoSize = True
-        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label86.Location = New System.Drawing.Point(13, 2011)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(145, 20)
+        Me.Label86.Size = New System.Drawing.Size(133, 16)
         Me.Label86.TabIndex = 153
         Me.Label86.Text = "Beginning Capital:"
         '
@@ -1678,70 +1685,70 @@ Partial Class CIRFORM1
         'Label94
         '
         Me.Label94.AutoSize = True
-        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label94.Location = New System.Drawing.Point(131, 2147)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(110, 20)
+        Me.Label94.Size = New System.Drawing.Size(96, 16)
         Me.Label94.TabIndex = 162
         Me.Label94.Text = "BORROWER"
         '
         'Label95
         '
         Me.Label95.AutoSize = True
-        Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label95.Location = New System.Drawing.Point(625, 2147)
         Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(78, 20)
+        Me.Label95.Size = New System.Drawing.Size(69, 16)
         Me.Label95.TabIndex = 163
         Me.Label95.Text = "SPOUSE"
         '
         'Label96
         '
         Me.Label96.AutoSize = True
-        Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label96.Location = New System.Drawing.Point(12, 2199)
         Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(84, 20)
+        Me.Label96.Size = New System.Drawing.Size(76, 16)
         Me.Label96.TabIndex = 164
         Me.Label96.Text = "Company:"
         '
         'Label97
         '
         Me.Label97.AutoSize = True
-        Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label97.Location = New System.Drawing.Point(13, 2246)
         Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(74, 20)
+        Me.Label97.Size = New System.Drawing.Size(67, 16)
         Me.Label97.TabIndex = 165
         Me.Label97.Text = "Position:"
         '
         'Label98
         '
         Me.Label98.AutoSize = True
-        Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label98.Location = New System.Drawing.Point(13, 2294)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(62, 20)
+        Me.Label98.Size = New System.Drawing.Size(54, 16)
         Me.Label98.TabIndex = 166
         Me.Label98.Text = "Status:"
         '
         'Label99
         '
         Me.Label99.AutoSize = True
-        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label99.Location = New System.Drawing.Point(13, 2341)
         Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(145, 20)
+        Me.Label99.Size = New System.Drawing.Size(131, 16)
         Me.Label99.TabIndex = 167
         Me.Label99.Text = "Length of Service:"
         '
         'Label100
         '
         Me.Label100.AutoSize = True
-        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label100.Location = New System.Drawing.Point(13, 2390)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(124, 20)
+        Me.Label100.Size = New System.Drawing.Size(113, 16)
         Me.Label100.TabIndex = 168
         Me.Label100.Text = "Monthly Salary:"
         '
@@ -1783,50 +1790,50 @@ Partial Class CIRFORM1
         'Label101
         '
         Me.Label101.AutoSize = True
-        Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label101.Location = New System.Drawing.Point(457, 2388)
         Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(124, 20)
+        Me.Label101.Size = New System.Drawing.Size(113, 16)
         Me.Label101.TabIndex = 178
         Me.Label101.Text = "Monthly Salary:"
         '
         'Label102
         '
         Me.Label102.AutoSize = True
-        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label102.Location = New System.Drawing.Point(457, 2339)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(145, 20)
+        Me.Label102.Size = New System.Drawing.Size(131, 16)
         Me.Label102.TabIndex = 177
         Me.Label102.Text = "Length of Service:"
         '
         'Label103
         '
         Me.Label103.AutoSize = True
-        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label103.Location = New System.Drawing.Point(457, 2292)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(62, 20)
+        Me.Label103.Size = New System.Drawing.Size(54, 16)
         Me.Label103.TabIndex = 176
         Me.Label103.Text = "Status:"
         '
         'Label104
         '
         Me.Label104.AutoSize = True
-        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label104.Location = New System.Drawing.Point(457, 2244)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(74, 20)
+        Me.Label104.Size = New System.Drawing.Size(67, 16)
         Me.Label104.TabIndex = 175
         Me.Label104.Text = "Position:"
         '
         'Label105
         '
         Me.Label105.AutoSize = True
-        Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label105.Location = New System.Drawing.Point(456, 2197)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(84, 20)
+        Me.Label105.Size = New System.Drawing.Size(76, 16)
         Me.Label105.TabIndex = 174
         Me.Label105.Text = "Company:"
         '
@@ -1879,7 +1886,7 @@ Partial Class CIRFORM1
         '
         Me.Label107.AutoSize = True
         Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label107.Location = New System.Drawing.Point(419, 2468)
+        Me.Label107.Location = New System.Drawing.Point(422, 2453)
         Me.Label107.Name = "Label107"
         Me.Label107.Size = New System.Drawing.Size(89, 16)
         Me.Label107.TabIndex = 185
@@ -1889,7 +1896,7 @@ Partial Class CIRFORM1
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6})
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(17, 2503)
+        Me.ListView1.Location = New System.Drawing.Point(17, 2525)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(878, 146)
         Me.ListView1.TabIndex = 186
@@ -1954,30 +1961,30 @@ Partial Class CIRFORM1
         'Label110
         '
         Me.Label110.AutoSize = True
-        Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label110.Location = New System.Drawing.Point(13, 2787)
         Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(58, 20)
+        Me.Label110.Size = New System.Drawing.Size(52, 16)
         Me.Label110.TabIndex = 189
         Me.Label110.Text = "Name:"
         '
         'Label111
         '
         Me.Label111.AutoSize = True
-        Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label111.Location = New System.Drawing.Point(13, 2839)
         Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(75, 20)
+        Me.Label111.Size = New System.Drawing.Size(69, 16)
         Me.Label111.TabIndex = 190
         Me.Label111.Text = "Relation:"
         '
         'Label112
         '
         Me.Label112.AutoSize = True
-        Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label112.Location = New System.Drawing.Point(13, 2893)
         Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(99, 20)
+        Me.Label112.Size = New System.Drawing.Size(89, 16)
         Me.Label112.TabIndex = 191
         Me.Label112.Text = "Occupation:"
         '
@@ -2001,20 +2008,20 @@ Partial Class CIRFORM1
         'Label114
         '
         Me.Label114.AutoSize = True
-        Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label114.Location = New System.Drawing.Point(13, 2952)
         Me.Label114.Name = "Label114"
-        Me.Label114.Size = New System.Drawing.Size(76, 20)
+        Me.Label114.Size = New System.Drawing.Size(69, 16)
         Me.Label114.TabIndex = 194
         Me.Label114.Text = "Address:"
         '
         'Label115
         '
         Me.Label115.AutoSize = True
-        Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label115.Location = New System.Drawing.Point(13, 3064)
         Me.Label115.Name = "Label115"
-        Me.Label115.Size = New System.Drawing.Size(131, 20)
+        Me.Label115.Size = New System.Drawing.Size(118, 16)
         Me.Label115.TabIndex = 195
         Me.Label115.Text = "Monthly Income:"
         '
@@ -2061,10 +2068,10 @@ Partial Class CIRFORM1
         'Label138
         '
         Me.Label138.AutoSize = True
-        Me.Label138.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label138.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label138.Location = New System.Drawing.Point(13, 3200)
         Me.Label138.Name = "Label138"
-        Me.Label138.Size = New System.Drawing.Size(341, 20)
+        Me.Label138.Size = New System.Drawing.Size(316, 16)
         Me.Label138.TabIndex = 230
         Me.Label138.Text = "Name and Address of Interviewed Neighbors"
         '
@@ -2099,30 +2106,30 @@ Partial Class CIRFORM1
         'Label139
         '
         Me.Label139.AutoSize = True
-        Me.Label139.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label139.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label139.Location = New System.Drawing.Point(100, 3413)
         Me.Label139.Name = "Label139"
-        Me.Label139.Size = New System.Drawing.Size(61, 20)
+        Me.Label139.Size = New System.Drawing.Size(54, 16)
         Me.Label139.TabIndex = 235
         Me.Label139.Text = "Owned"
         '
         'Label140
         '
         Me.Label140.AutoSize = True
-        Me.Label140.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label140.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label140.Location = New System.Drawing.Point(421, 3413)
         Me.Label140.Name = "Label140"
-        Me.Label140.Size = New System.Drawing.Size(62, 20)
+        Me.Label140.Size = New System.Drawing.Size(57, 16)
         Me.Label140.TabIndex = 236
         Me.Label140.Text = "Rented"
         '
         'Label141
         '
         Me.Label141.AutoSize = True
-        Me.Label141.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label141.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label141.Location = New System.Drawing.Point(621, 3413)
         Me.Label141.Name = "Label141"
-        Me.Label141.Size = New System.Drawing.Size(236, 20)
+        Me.Label141.Size = New System.Drawing.Size(212, 16)
         Me.Label141.TabIndex = 237
         Me.Label141.Text = "Remarks from owner if rented "
         '
@@ -2191,30 +2198,30 @@ Partial Class CIRFORM1
         'Label144
         '
         Me.Label144.AutoSize = True
-        Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label144.Location = New System.Drawing.Point(621, 3579)
         Me.Label144.Name = "Label144"
-        Me.Label144.Size = New System.Drawing.Size(236, 20)
+        Me.Label144.Size = New System.Drawing.Size(212, 16)
         Me.Label144.TabIndex = 244
         Me.Label144.Text = "Remarks from owner if rented "
         '
         'Label145
         '
         Me.Label145.AutoSize = True
-        Me.Label145.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label145.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label145.Location = New System.Drawing.Point(421, 3579)
         Me.Label145.Name = "Label145"
-        Me.Label145.Size = New System.Drawing.Size(62, 20)
+        Me.Label145.Size = New System.Drawing.Size(57, 16)
         Me.Label145.TabIndex = 243
         Me.Label145.Text = "Rented"
         '
         'Label146
         '
         Me.Label146.AutoSize = True
-        Me.Label146.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
+        Me.Label146.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label146.Location = New System.Drawing.Point(100, 3579)
         Me.Label146.Name = "Label146"
-        Me.Label146.Size = New System.Drawing.Size(61, 20)
+        Me.Label146.Size = New System.Drawing.Size(54, 16)
         Me.Label146.TabIndex = 242
         Me.Label146.Text = "Owned"
         '
@@ -2222,7 +2229,7 @@ Partial Class CIRFORM1
         '
         Me.ListView2.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10, Me.ColumnHeader11})
         Me.ListView2.HideSelection = False
-        Me.ListView2.Location = New System.Drawing.Point(28, 3786)
+        Me.ListView2.Location = New System.Drawing.Point(31, 3838)
         Me.ListView2.Name = "ListView2"
         Me.ListView2.Size = New System.Drawing.Size(878, 146)
         Me.ListView2.TabIndex = 249
@@ -2271,19 +2278,61 @@ Partial Class CIRFORM1
         'Label135
         '
         Me.Label135.AutoSize = True
-        Me.Label135.Location = New System.Drawing.Point(14, 3951)
+        Me.Label135.Location = New System.Drawing.Point(17, 4003)
         Me.Label135.Name = "Label135"
         Me.Label135.Size = New System.Drawing.Size(895, 13)
         Me.Label135.TabIndex = 277
         Me.Label135.Text = "_________________________________________________________________________________" &
     "___________________________________________________________________"
         '
-        'CIR1
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.DimGray
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(639, 4033)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(124, 40)
+        Me.Button2.TabIndex = 278
+        Me.Button2.Text = "BACK "
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.DimGray
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
+        Me.Button4.Location = New System.Drawing.Point(423, 2483)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(88, 26)
+        Me.Button4.TabIndex = 280
+        Me.Button4.Text = "ADD"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.DimGray
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.Transparent
+        Me.Button5.Location = New System.Drawing.Point(425, 3786)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(88, 26)
+        Me.Button5.TabIndex = 281
+        Me.Button5.Text = "ADD"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'CIRFORM1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(924, 707)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label135)
         Me.Controls.Add(Me.Label117)
         Me.Controls.Add(Me.ListView2)
@@ -2505,11 +2554,8 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Name = "CIR"
-        Me.Text = "CIR"
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "CIR1"
+        Me.Name = "CIRFORM1"
         Me.Text = "CIR1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -2748,4 +2794,7 @@ Partial Class CIRFORM1
     Friend WithEvents ColumnHeader11 As ColumnHeader
     Friend WithEvents Label117 As Label
     Friend WithEvents Label135 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

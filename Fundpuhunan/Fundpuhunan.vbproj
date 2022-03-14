@@ -162,6 +162,12 @@
     <Compile Include="TEst.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="User Management Account.Designer.vb">
+      <DependentUpon>User Management Account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Management Account.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AccountUserManagement.resx">
@@ -203,8 +209,13 @@
     <EmbeddedResource Include="TEst.resx">
       <DependentUpon>TEst.vb</DependentUpon>
     </EmbeddedResource>
+
+    <EmbeddedResource Include="User Management Account.resx">
+      <DependentUpon>User Management Account.vb</DependentUpon>
+
     <EmbeddedResource Include="AddUserAccount.resx">
       <DependentUpon>AddUserAccount.vb</DependentUpon>
+
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
