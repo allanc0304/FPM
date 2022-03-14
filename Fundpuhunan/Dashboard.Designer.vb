@@ -255,7 +255,7 @@ Partial Class Dashboard
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.Fundpuhunan.My.Resources.Resources.people
+
         Me.PictureBox3.Location = New System.Drawing.Point(5, 34)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(83, 70)
@@ -265,7 +265,7 @@ Partial Class Dashboard
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Fundpuhunan.My.Resources.Resources.people
+
         Me.PictureBox2.Location = New System.Drawing.Point(5, 40)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(83, 70)
@@ -275,7 +275,7 @@ Partial Class Dashboard
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Fundpuhunan.My.Resources.Resources.people
+
         Me.PictureBox1.Location = New System.Drawing.Point(11, 40)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(83, 70)
@@ -285,7 +285,7 @@ Partial Class Dashboard
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.Fundpuhunan.My.Resources.Resources.people
+
         Me.PictureBox4.Location = New System.Drawing.Point(11, 38)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(83, 70)
@@ -298,7 +298,7 @@ Partial Class Dashboard
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.BackgroundImage = Global.Fundpuhunan.My.Resources.Resources.FPM
+
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(940, 761)
         Me.Controls.Add(Me.Label9)
