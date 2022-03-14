@@ -22,7 +22,6 @@ Partial Class ApplictaionForm1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label90 = New System.Windows.Forms.Label()
         Me.Label89 = New System.Windows.Forms.Label()
         Me.Label88 = New System.Windows.Forms.Label()
         Me.Label87 = New System.Windows.Forms.Label()
@@ -87,7 +86,6 @@ Partial Class ApplictaionForm1
         Me.Middlename_3 = New System.Windows.Forms.TextBox()
         Me.Middllename_2 = New System.Windows.Forms.TextBox()
         Me.Middlename_1 = New System.Windows.Forms.TextBox()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
         Me.TextBox44 = New System.Windows.Forms.TextBox()
         Me.TextBox43 = New System.Windows.Forms.TextBox()
         Me.TextBox42 = New System.Windows.Forms.TextBox()
@@ -171,524 +169,517 @@ Partial Class ApplictaionForm1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Label90
-        '
-        Me.Label90.AutoSize = True
-        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label90.Location = New System.Drawing.Point(256, 1389)
-        Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(65, 12)
-        Me.Label90.TabIndex = 430
-        Me.Label90.Text = "( LASTNAME)"
         '
         'Label89
         '
         Me.Label89.AutoSize = True
-        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(256, 1341)
+        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label89.Location = New System.Drawing.Point(247, 1343)
         Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(65, 12)
+        Me.Label89.Size = New System.Drawing.Size(83, 9)
         Me.Label89.TabIndex = 429
-        Me.Label89.Text = "( LASTNAME)"
+        Me.Label89.Text = "( ex. PARTNERSHIP )"
         '
         'Label88
         '
         Me.Label88.AutoSize = True
-        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(256, 1303)
+        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.Location = New System.Drawing.Point(247, 1306)
         Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(65, 12)
+        Me.Label88.Size = New System.Drawing.Size(95, 9)
         Me.Label88.TabIndex = 428
-        Me.Label88.Text = "( LASTNAME)"
+        Me.Label88.Text = "( ex. SARI-SARI STORE )"
         '
         'Label87
         '
         Me.Label87.AutoSize = True
-        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(511, 1306)
+        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.Location = New System.Drawing.Point(521, 1309)
         Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(65, 12)
+        Me.Label87.Size = New System.Drawing.Size(33, 9)
         Me.Label87.TabIndex = 427
-        Me.Label87.Text = "( LASTNAME)"
+        Me.Label87.Text = "( ex. 18)"
         '
         'Label86
         '
         Me.Label86.AutoSize = True
-        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.Location = New System.Drawing.Point(451, 1226)
+        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.Location = New System.Drawing.Point(465, 1229)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(65, 12)
+        Me.Label86.Size = New System.Drawing.Size(56, 9)
         Me.Label86.TabIndex = 426
-        Me.Label86.Text = "( LASTNAME)"
+        Me.Label86.Text = "( PROVINCE )"
         '
         'Label85
         '
         Me.Label85.AutoSize = True
-        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.Location = New System.Drawing.Point(346, 1226)
+        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.Location = New System.Drawing.Point(346, 1229)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(65, 12)
+        Me.Label85.Size = New System.Drawing.Size(70, 9)
         Me.Label85.TabIndex = 425
-        Me.Label85.Text = "( LASTNAME)"
+        Me.Label85.Text = "( MUNICIPALITY )"
         '
         'Label84
         '
         Me.Label84.AutoSize = True
-        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.Location = New System.Drawing.Point(247, 1226)
+        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.Location = New System.Drawing.Point(247, 1229)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(65, 12)
+        Me.Label84.Size = New System.Drawing.Size(55, 9)
         Me.Label84.TabIndex = 424
         Me.Label84.Text = "( LASTNAME)"
         '
         'Label83
         '
         Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.Location = New System.Drawing.Point(583, 1183)
+        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Location = New System.Drawing.Point(587, 1186)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(65, 12)
+        Me.Label83.Size = New System.Drawing.Size(56, 9)
         Me.Label83.TabIndex = 423
-        Me.Label83.Text = "( LASTNAME)"
+        Me.Label83.Text = "( PROVINCE )"
         '
         'Label82
         '
         Me.Label82.AutoSize = True
-        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.Location = New System.Drawing.Point(470, 1183)
+        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Location = New System.Drawing.Point(465, 1186)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(65, 12)
+        Me.Label82.Size = New System.Drawing.Size(70, 9)
         Me.Label82.TabIndex = 422
-        Me.Label82.Text = "( LASTNAME)"
+        Me.Label82.Text = "( MUNICIPALITY )"
         '
         'Label81
         '
         Me.Label81.AutoSize = True
-        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.Location = New System.Drawing.Point(369, 1183)
+        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Location = New System.Drawing.Point(378, 1186)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(65, 12)
+        Me.Label81.Size = New System.Drawing.Size(56, 9)
         Me.Label81.TabIndex = 421
-        Me.Label81.Text = "( LASTNAME)"
+        Me.Label81.Text = "( BARANGAY)"
         '
         'Label80
         '
         Me.Label80.AutoSize = True
-        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(304, 1183)
+        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(308, 1186)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(65, 12)
+        Me.Label80.Size = New System.Drawing.Size(46, 9)
         Me.Label80.TabIndex = 420
-        Me.Label80.Text = "( LASTNAME)"
+        Me.Label80.Text = "( STREET )"
         '
         'Label79
         '
         Me.Label79.AutoSize = True
-        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(238, 1183)
+        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(239, 1186)
         Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(65, 12)
+        Me.Label79.Size = New System.Drawing.Size(59, 9)
         Me.Label79.TabIndex = 419
-        Me.Label79.Text = "( LASTNAME)"
+        Me.Label79.Text = "( HOUSE NO. )"
         '
         'Label78
         '
         Me.Label78.AutoSize = True
-        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(583, 1134)
+        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Location = New System.Drawing.Point(587, 1137)
         Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(65, 12)
+        Me.Label78.Size = New System.Drawing.Size(43, 9)
         Me.Label78.TabIndex = 418
-        Me.Label78.Text = "( LASTNAME)"
+        Me.Label78.Text = "( SUFFIX )"
         '
         'Label77
         '
         Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(487, 1134)
+        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(489, 1137)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(65, 12)
+        Me.Label77.Size = New System.Drawing.Size(70, 9)
         Me.Label77.TabIndex = 417
-        Me.Label77.Text = "( LASTNAME)"
+        Me.Label77.Text = "( MIDDLE NAME )"
         '
         'Label76
         '
         Me.Label76.AutoSize = True
-        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.Location = New System.Drawing.Point(369, 1134)
+        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.Location = New System.Drawing.Point(370, 1137)
         Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(65, 12)
+        Me.Label76.Size = New System.Drawing.Size(64, 9)
         Me.Label76.TabIndex = 416
-        Me.Label76.Text = "( LASTNAME)"
+        Me.Label76.Text = "( GIVEN NAME )"
         '
         'Label75
         '
         Me.Label75.AutoSize = True
-        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(256, 1134)
+        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(262, 1137)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(65, 12)
+        Me.Label75.Size = New System.Drawing.Size(59, 9)
         Me.Label75.TabIndex = 415
-        Me.Label75.Text = "( LASTNAME)"
+        Me.Label75.Text = "( LAST NAME )"
         '
         'Label74
         '
         Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(330, 991)
+        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Location = New System.Drawing.Point(338, 994)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(65, 12)
+        Me.Label74.Size = New System.Drawing.Size(45, 9)
         Me.Label74.TabIndex = 414
-        Me.Label74.Text = "( LASTNAME)"
+        Me.Label74.Text = "( ex. 3,000 )"
         '
         'Label73
         '
         Me.Label73.AutoSize = True
-        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(330, 951)
+        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Location = New System.Drawing.Point(338, 954)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(65, 12)
+        Me.Label73.Size = New System.Drawing.Size(49, 9)
         Me.Label73.TabIndex = 413
-        Me.Label73.Text = "( LASTNAME)"
+        Me.Label73.Text = "( ex. 15,000 )"
         '
         'Label72
         '
         Me.Label72.AutoSize = True
-        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(330, 913)
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(342, 916)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(65, 12)
+        Me.Label72.Size = New System.Drawing.Size(45, 9)
         Me.Label72.TabIndex = 412
-        Me.Label72.Text = "( LASTNAME)"
+        Me.Label72.Text = "( ex. 6,000 )"
         '
         'Label71
         '
         Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(330, 876)
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(342, 877)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(65, 12)
+        Me.Label71.Size = New System.Drawing.Size(49, 9)
         Me.Label71.TabIndex = 411
-        Me.Label71.Text = "( LASTNAME)"
+        Me.Label71.Text = "( ex. 10,000 )"
         '
         'Label68
         '
         Me.Label68.AutoSize = True
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(330, 838)
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(318, 841)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(65, 12)
+        Me.Label68.Size = New System.Drawing.Size(95, 9)
         Me.Label68.TabIndex = 410
-        Me.Label68.Text = "( LASTNAME)"
+        Me.Label68.Text = "( ex. SARI-SARI STORE )"
         '
         'Label70
         '
         Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(530, 682)
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Location = New System.Drawing.Point(533, 685)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(65, 12)
+        Me.Label70.Size = New System.Drawing.Size(67, 9)
         Me.Label70.TabIndex = 409
-        Me.Label70.Text = "( LASTNAME)"
+        Me.Label70.Text = "( ex. CATHOLIC )"
         '
         'Label69
         '
         Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(212, 725)
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(218, 728)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(65, 12)
+        Me.Label69.Size = New System.Drawing.Size(31, 9)
         Me.Label69.TabIndex = 408
-        Me.Label69.Text = "( LASTNAME)"
+        Me.Label69.Text = "( ex. 3 )"
         '
         'Label67
         '
         Me.Label67.AutoSize = True
-        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(212, 682)
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(218, 685)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(65, 12)
+        Me.Label67.Size = New System.Drawing.Size(35, 9)
         Me.Label67.TabIndex = 407
-        Me.Label67.Text = "( LASTNAME)"
+        Me.Label67.Text = "( ex. 18 )"
         '
         'Label66
         '
         Me.Label66.AutoSize = True
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(430, 613)
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(439, 616)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(65, 12)
+        Me.Label66.Size = New System.Drawing.Size(56, 9)
         Me.Label66.TabIndex = 406
-        Me.Label66.Text = "( LASTNAME)"
+        Me.Label66.Text = "( PROVINCE )"
         '
         'Label65
         '
         Me.Label65.AutoSize = True
-        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(328, 613)
+        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label65.Location = New System.Drawing.Point(325, 616)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(65, 12)
+        Me.Label65.Size = New System.Drawing.Size(70, 9)
         Me.Label65.TabIndex = 405
-        Me.Label65.Text = "( LASTNAME)"
+        Me.Label65.Text = "( MUNICIPALITY )"
         '
         'Label64
         '
         Me.Label64.AutoSize = True
-        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(229, 613)
+        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label64.Location = New System.Drawing.Point(225, 616)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(65, 12)
+        Me.Label64.Size = New System.Drawing.Size(58, 9)
         Me.Label64.TabIndex = 404
-        Me.Label64.Text = "( LASTNAME)"
+        Me.Label64.Text = "( BARANGAY )"
         '
         'Label63
         '
         Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(556, 575)
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(566, 578)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(65, 12)
+        Me.Label63.Size = New System.Drawing.Size(56, 9)
         Me.Label63.TabIndex = 403
-        Me.Label63.Text = "( LASTNAME)"
+        Me.Label63.Text = "( PROVINCE )"
         '
         'Label62
         '
         Me.Label62.AutoSize = True
-        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(450, 575)
+        Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label62.Location = New System.Drawing.Point(446, 578)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(65, 12)
+        Me.Label62.Size = New System.Drawing.Size(68, 9)
         Me.Label62.TabIndex = 402
-        Me.Label62.Text = "( LASTNAME)"
+        Me.Label62.Text = "( MUNICIPALITY)"
         '
         'Label61
         '
         Me.Label61.AutoSize = True
-        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(351, 575)
+        Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label61.Location = New System.Drawing.Point(355, 578)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(65, 12)
+        Me.Label61.Size = New System.Drawing.Size(58, 9)
         Me.Label61.TabIndex = 401
-        Me.Label61.Text = "( LASTNAME)"
+        Me.Label61.Text = "( BARANGAY )"
         '
         'Label60
         '
         Me.Label60.AutoSize = True
-        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(278, 575)
+        Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label60.Location = New System.Drawing.Point(287, 578)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(65, 12)
+        Me.Label60.Size = New System.Drawing.Size(46, 9)
         Me.Label60.TabIndex = 400
-        Me.Label60.Text = "( LASTNAME)"
+        Me.Label60.Text = "( STREET )"
         '
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(216, 575)
+        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Location = New System.Drawing.Point(218, 578)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(65, 12)
+        Me.Label59.Size = New System.Drawing.Size(59, 9)
         Me.Label59.TabIndex = 399
-        Me.Label59.Text = "( LASTNAME)"
+        Me.Label59.Text = "( HOUSE NO. )"
         '
         'Label58
         '
         Me.Label58.AutoSize = True
-        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(556, 537)
+        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label58.Location = New System.Drawing.Point(566, 540)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(65, 12)
+        Me.Label58.Size = New System.Drawing.Size(41, 9)
         Me.Label58.TabIndex = 398
-        Me.Label58.Text = "( LASTNAME)"
+        Me.Label58.Text = "( SUFFIX)"
         '
         'Label57
         '
         Me.Label57.AutoSize = True
-        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(476, 537)
+        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label57.Location = New System.Drawing.Point(471, 540)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(65, 12)
+        Me.Label57.Size = New System.Drawing.Size(70, 9)
         Me.Label57.TabIndex = 397
-        Me.Label57.Text = "( LASTNAME)"
+        Me.Label57.Text = "( MIDDLE NAME )"
         '
         'Label56
         '
         Me.Label56.AutoSize = True
-        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(351, 537)
+        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label56.Location = New System.Drawing.Point(349, 540)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(65, 12)
+        Me.Label56.Size = New System.Drawing.Size(64, 9)
         Me.Label56.TabIndex = 396
-        Me.Label56.Text = "( LASTNAME)"
+        Me.Label56.Text = "( GIVEN NAME )"
         '
         'Label55
         '
         Me.Label55.AutoSize = True
-        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(239, 537)
+        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label55.Location = New System.Drawing.Point(241, 540)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(65, 12)
+        Me.Label55.Size = New System.Drawing.Size(59, 9)
         Me.Label55.TabIndex = 395
-        Me.Label55.Text = "( LASTNAME)"
+        Me.Label55.Text = "( LAST NAME )"
         '
         'Label54
         '
         Me.Label54.AutoSize = True
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(529, 345)
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(528, 349)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(65, 12)
+        Me.Label54.Size = New System.Drawing.Size(72, 9)
         Me.Label54.TabIndex = 394
-        Me.Label54.Text = "( LASTNAME)"
+        Me.Label54.Text = "( 09XX-XXX-XXXX)"
         '
         'Label53
         '
         Me.Label53.AutoSize = True
-        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(216, 383)
+        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Location = New System.Drawing.Point(216, 386)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(65, 12)
+        Me.Label53.Size = New System.Drawing.Size(67, 9)
         Me.Label53.TabIndex = 393
-        Me.Label53.Text = "( LASTNAME)"
+        Me.Label53.Text = "( ex. CATHOLIC )"
         '
         'Label52
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(188, 346)
+        Me.Label52.Location = New System.Drawing.Point(202, 346)
         Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(65, 12)
+        Me.Label52.Size = New System.Drawing.Size(38, 12)
         Me.Label52.TabIndex = 392
-        Me.Label52.Text = "( LASTNAME)"
+        Me.Label52.Text = "( ex. 18)"
         '
         'Label51
         '
         Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(361, 278)
+        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Location = New System.Drawing.Point(367, 280)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(65, 12)
+        Me.Label51.Size = New System.Drawing.Size(56, 9)
         Me.Label51.TabIndex = 391
-        Me.Label51.Text = "( LASTNAME)"
+        Me.Label51.Text = "( PROVINCE )"
         '
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(278, 278)
+        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Location = New System.Drawing.Point(278, 280)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(65, 12)
+        Me.Label50.Size = New System.Drawing.Size(68, 9)
         Me.Label50.TabIndex = 390
-        Me.Label50.Text = "( LASTNAME)"
+        Me.Label50.Text = "( MUNICIPALITY)"
         '
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(200, 278)
+        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Location = New System.Drawing.Point(202, 280)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(65, 12)
+        Me.Label49.Size = New System.Drawing.Size(58, 9)
         Me.Label49.TabIndex = 389
-        Me.Label49.Text = "( LASTNAME)"
+        Me.Label49.Text = "( BARANGAY )"
         '
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label47.Location = New System.Drawing.Point(544, 242)
+        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Location = New System.Drawing.Point(544, 243)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(65, 12)
+        Me.Label47.Size = New System.Drawing.Size(56, 9)
         Me.Label47.TabIndex = 388
-        Me.Label47.Text = "( LASTNAME)"
+        Me.Label47.Text = "( PROVINCE )"
         '
         'Label46
         '
         Me.Label46.AutoSize = True
-        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(434, 242)
+        Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label46.Location = New System.Drawing.Point(430, 243)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(65, 12)
+        Me.Label46.Size = New System.Drawing.Size(70, 9)
         Me.Label46.TabIndex = 387
-        Me.Label46.Text = "( LASTNAME)"
+        Me.Label46.Text = "( MUNICIPALITY )"
         '
         'Label45
         '
         Me.Label45.AutoSize = True
-        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label45.Location = New System.Drawing.Point(330, 242)
+        Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label45.Location = New System.Drawing.Point(331, 243)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(65, 12)
+        Me.Label45.Size = New System.Drawing.Size(56, 9)
         Me.Label45.TabIndex = 386
-        Me.Label45.Text = "( LASTNAME)"
+        Me.Label45.Text = "( BARANGAY)"
         '
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(256, 242)
+        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(273, 243)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(65, 12)
+        Me.Label44.Size = New System.Drawing.Size(44, 9)
         Me.Label44.TabIndex = 385
-        Me.Label44.Text = "( LASTNAME)"
+        Me.Label44.Text = "( STREET)"
         '
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label43.Location = New System.Drawing.Point(197, 242)
+        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Location = New System.Drawing.Point(194, 243)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(65, 12)
+        Me.Label43.Size = New System.Drawing.Size(59, 9)
         Me.Label43.TabIndex = 384
-        Me.Label43.Text = "( LASTNAME)"
+        Me.Label43.Text = "( HOUSE NO. )"
         '
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(544, 204)
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(549, 207)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(65, 12)
+        Me.Label42.Size = New System.Drawing.Size(43, 9)
         Me.Label42.TabIndex = 383
-        Me.Label42.Text = "( LASTNAME)"
+        Me.Label42.Text = "( SUFFIX )"
         '
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label41.Location = New System.Drawing.Point(450, 204)
+        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Location = New System.Drawing.Point(447, 207)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(65, 12)
+        Me.Label41.Size = New System.Drawing.Size(68, 9)
         Me.Label41.TabIndex = 382
-        Me.Label41.Text = "( LASTNAME)"
+        Me.Label41.Text = "( MIDDLE NAME)"
         '
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label39.Location = New System.Drawing.Point(330, 204)
+        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Location = New System.Drawing.Point(331, 207)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(65, 12)
+        Me.Label39.Size = New System.Drawing.Size(62, 9)
         Me.Label39.TabIndex = 381
-        Me.Label39.Text = "( LASTNAME)"
+        Me.Label39.Text = "( GIVEN NAME)"
         '
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.Location = New System.Drawing.Point(216, 204)
+        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Location = New System.Drawing.Point(213, 207)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(65, 12)
+        Me.Label48.Size = New System.Drawing.Size(59, 9)
         Me.Label48.TabIndex = 380
-        Me.Label48.Text = "( LASTNAME)"
+        Me.Label48.Text = "( LAST NAME )"
         '
         'Label38
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label38.Location = New System.Drawing.Point(52, 144)
+        Me.Label38.Location = New System.Drawing.Point(59, 144)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(654, 21)
         Me.Label38.TabIndex = 379
@@ -779,7 +770,7 @@ Partial Class ApplictaionForm1
         '
         'Suffix_2
         '
-        Me.Suffix_2.Location = New System.Drawing.Point(568, 554)
+        Me.Suffix_2.Location = New System.Drawing.Point(568, 552)
         Me.Suffix_2.Name = "Suffix_2"
         Me.Suffix_2.Size = New System.Drawing.Size(46, 20)
         Me.Suffix_2.TabIndex = 369
@@ -819,13 +810,6 @@ Partial Class ApplictaionForm1
         Me.Middlename_1.Size = New System.Drawing.Size(114, 20)
         Me.Middlename_1.TabIndex = 365
         Me.Middlename_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox45
-        '
-        Me.TextBox45.Location = New System.Drawing.Point(240, 1404)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(111, 20)
-        Me.TextBox45.TabIndex = 364
         '
         'TextBox44
         '
@@ -1080,7 +1064,7 @@ Partial Class ApplictaionForm1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(576, 1422)
+        Me.Button1.Location = New System.Drawing.Point(585, 1450)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 30)
         Me.Button1.TabIndex = 333
@@ -1090,9 +1074,9 @@ Partial Class ApplictaionForm1
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.BackColor = System.Drawing.Color.Silver
+        Me.Label31.BackColor = System.Drawing.Color.Transparent
         Me.Label31.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label31.Location = New System.Drawing.Point(76, 1401)
+        Me.Label31.Location = New System.Drawing.Point(395, 1356)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(159, 21)
         Me.Label31.TabIndex = 332
@@ -1358,7 +1342,7 @@ Partial Class ApplictaionForm1
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(359, 698)
+        Me.Label9.Location = New System.Drawing.Point(414, 697)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(93, 21)
         Me.Label9.TabIndex = 306
@@ -1534,7 +1518,7 @@ Partial Class ApplictaionForm1
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(111, 21)
         Me.Label8.TabIndex = 289
-        Me.Label8.Text = "Contect No. :"
+        Me.Label8.Text = "Contact No. :"
         '
         'Label7
         '
@@ -1614,6 +1598,7 @@ Partial Class ApplictaionForm1
         '
         'PictureBox1
         '
+        Me.PictureBox1.BackColor = System.Drawing.Color.DimGray
         Me.PictureBox1.ErrorImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(502, 24)
         Me.PictureBox1.Name = "PictureBox1"
@@ -1622,13 +1607,37 @@ Partial Class ApplictaionForm1
         Me.PictureBox1.TabIndex = 374
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(567, 1356)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 430
+        Me.Button2.Text = "Select "
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Button3
+        '
+        Me.Button3.Location = New System.Drawing.Point(467, 1450)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(100, 30)
+        Me.Button3.TabIndex = 431
+        Me.Button3.Text = "<-- Back"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'ApplictaionForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
+        Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(762, 649)
-        Me.Controls.Add(Me.Label90)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label89)
         Me.Controls.Add(Me.Label88)
         Me.Controls.Add(Me.Label87)
@@ -1694,7 +1703,6 @@ Partial Class ApplictaionForm1
         Me.Controls.Add(Me.Middlename_3)
         Me.Controls.Add(Me.Middllename_2)
         Me.Controls.Add(Me.Middlename_1)
-        Me.Controls.Add(Me.TextBox45)
         Me.Controls.Add(Me.TextBox44)
         Me.Controls.Add(Me.TextBox43)
         Me.Controls.Add(Me.TextBox42)
@@ -1780,15 +1788,13 @@ Partial Class ApplictaionForm1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.Name = "ApplictaionForm1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "W"
+        Me.Text = "APPLICATION FORM STEP 1"
         Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label90 As Label
     Friend WithEvents Label89 As Label
     Friend WithEvents Label88 As Label
     Friend WithEvents Label87 As Label
@@ -1854,7 +1860,6 @@ Partial Class ApplictaionForm1
     Friend WithEvents Middlename_3 As TextBox
     Friend WithEvents Middllename_2 As TextBox
     Friend WithEvents Middlename_1 As TextBox
-    Friend WithEvents TextBox45 As TextBox
     Friend WithEvents TextBox44 As TextBox
     Friend WithEvents TextBox43 As TextBox
     Friend WithEvents TextBox42 As TextBox
@@ -1937,4 +1942,7 @@ Partial Class ApplictaionForm1
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
