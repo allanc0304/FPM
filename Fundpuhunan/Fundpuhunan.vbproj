@@ -110,11 +110,7 @@
       <SubType>Form</SubType>
     </Compile>
 
-    <Compile Include="DennisTest.vb" />
-    <Compile Include="Files_record.Designer.vb">
-      <DependentUpon>Files_record.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Files_record.vb">
+    
 
     <Compile Include="AccountUserManagement.Designer.vb">
       <DependentUpon>AccountUserManagement.vb</DependentUpon>
