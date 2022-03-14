@@ -58,4 +58,16 @@
 
         End With
     End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+
+        With Files_record
+            .TopLevel = False
+            .AutoSize = True
+
+            Navigationpanel.Controls.Add(Files_record)
+            .BringToFront()
+            .Show()
+        End With
+    End Sub
 End Class
