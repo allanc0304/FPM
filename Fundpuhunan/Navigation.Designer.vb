@@ -69,7 +69,7 @@ Partial Class Navigation
         Me.Panel1.Controls.Add(Me.dashboardbutton)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Panel1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Panel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Panel1.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
@@ -82,7 +82,7 @@ Partial Class Navigation
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Button2.Location = New System.Drawing.Point(0, 452)
@@ -96,7 +96,7 @@ Partial Class Navigation
         'Label4
         '
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label4.Location = New System.Drawing.Point(96, 57)
@@ -123,7 +123,7 @@ Partial Class Navigation
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Lime
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label3.Location = New System.Drawing.Point(96, 39)
@@ -137,7 +137,7 @@ Partial Class Navigation
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Lime
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label1.Location = New System.Drawing.Point(96, 21)
@@ -171,7 +171,7 @@ Partial Class Navigation
         Me.loanreleasedbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.loanreleasedbttn.FlatAppearance.BorderSize = 0
         Me.loanreleasedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.loanreleasedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loanreleasedbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.loanreleasedbttn.ForeColor = System.Drawing.Color.White
         Me.loanreleasedbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.loanreleasedbttn.Location = New System.Drawing.Point(0, 420)
@@ -185,7 +185,7 @@ Partial Class Navigation
         'positions
         '
         Me.positions.BackColor = System.Drawing.Color.Transparent
-        Me.positions.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.positions.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.positions.ForeColor = System.Drawing.Color.Black
         Me.positions.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.positions.Location = New System.Drawing.Point(83, 257)
@@ -218,7 +218,7 @@ Partial Class Navigation
         Me.accountbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.accountbttn.FlatAppearance.BorderSize = 0
         Me.accountbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.accountbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.accountbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.accountbttn.ForeColor = System.Drawing.Color.White
         Me.accountbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.accountbttn.Location = New System.Drawing.Point(3, 516)
@@ -232,7 +232,7 @@ Partial Class Navigation
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label2.Location = New System.Drawing.Point(11, 232)
@@ -249,7 +249,7 @@ Partial Class Navigation
         Me.filebttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.filebttn.FlatAppearance.BorderSize = 0
         Me.filebttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.filebttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.filebttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.filebttn.ForeColor = System.Drawing.Color.White
         Me.filebttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.filebttn.Location = New System.Drawing.Point(3, 481)
@@ -266,7 +266,7 @@ Partial Class Navigation
         Me.processingbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.processingbttn.FlatAppearance.BorderSize = 0
         Me.processingbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.processingbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.processingbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.processingbttn.ForeColor = System.Drawing.Color.White
         Me.processingbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.processingbttn.Location = New System.Drawing.Point(0, 385)
@@ -283,7 +283,7 @@ Partial Class Navigation
         Me.applicationbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.applicationbttn.FlatAppearance.BorderSize = 0
         Me.applicationbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.applicationbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.applicationbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.applicationbttn.ForeColor = System.Drawing.Color.White
         Me.applicationbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.applicationbttn.Location = New System.Drawing.Point(0, 350)
@@ -314,7 +314,7 @@ Partial Class Navigation
         Me.dashboardbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.dashboardbutton.FlatAppearance.BorderSize = 0
         Me.dashboardbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.dashboardbutton.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashboardbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashboardbutton.ForeColor = System.Drawing.Color.White
         Me.dashboardbutton.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.dashboardbutton.Location = New System.Drawing.Point(0, 315)
@@ -329,7 +329,7 @@ Partial Class Navigation
         '
         Me.Button1.BackColor = System.Drawing.Color.Black
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(740, 252)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(171, 62)

@@ -109,6 +109,13 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
+
+    <Compile Include="DennisTest.vb" />
+    <Compile Include="Files_record.Designer.vb">
+      <DependentUpon>Files_record.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Files_record.vb">
+
     <Compile Include="AccountUserManagement.Designer.vb">
       <DependentUpon>AccountUserManagement.vb</DependentUpon>
     </Compile>
@@ -119,6 +126,7 @@
       <DependentUpon>AddUserAccount.vb</DependentUpon>
     </Compile>
     <Compile Include="AddUserAccount.vb">
+
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoanProcessing.Designer.vb">
@@ -192,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Files_record.resx">
+      <DependentUpon>Files_record.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
