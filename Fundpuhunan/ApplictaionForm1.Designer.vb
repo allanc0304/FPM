@@ -679,7 +679,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label38.Location = New System.Drawing.Point(52, 144)
+        Me.Label38.Location = New System.Drawing.Point(59, 144)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(654, 21)
         Me.Label38.TabIndex = 379
