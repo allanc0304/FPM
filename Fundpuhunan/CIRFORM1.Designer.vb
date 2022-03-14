@@ -254,6 +254,9 @@ Partial Class CIRFORM1
         Me.ColumnHeader11 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label117 = New System.Windows.Forms.Label()
         Me.Label135 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -1082,12 +1085,16 @@ Partial Class CIRFORM1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(782, 3981)
+        Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(785, 4033)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(124, 40)
         Me.Button1.TabIndex = 93
         Me.Button1.Text = "NEXT "
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label58
         '
@@ -1879,7 +1886,7 @@ Partial Class CIRFORM1
         '
         Me.Label107.AutoSize = True
         Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label107.Location = New System.Drawing.Point(419, 2468)
+        Me.Label107.Location = New System.Drawing.Point(422, 2453)
         Me.Label107.Name = "Label107"
         Me.Label107.Size = New System.Drawing.Size(89, 16)
         Me.Label107.TabIndex = 185
@@ -1889,7 +1896,7 @@ Partial Class CIRFORM1
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6})
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(17, 2503)
+        Me.ListView1.Location = New System.Drawing.Point(17, 2525)
         Me.ListView1.Name = "ListView1"
         Me.ListView1.Size = New System.Drawing.Size(878, 146)
         Me.ListView1.TabIndex = 186
@@ -2222,7 +2229,7 @@ Partial Class CIRFORM1
         '
         Me.ListView2.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10, Me.ColumnHeader11})
         Me.ListView2.HideSelection = False
-        Me.ListView2.Location = New System.Drawing.Point(28, 3786)
+        Me.ListView2.Location = New System.Drawing.Point(31, 3838)
         Me.ListView2.Name = "ListView2"
         Me.ListView2.Size = New System.Drawing.Size(878, 146)
         Me.ListView2.TabIndex = 249
@@ -2271,19 +2278,61 @@ Partial Class CIRFORM1
         'Label135
         '
         Me.Label135.AutoSize = True
-        Me.Label135.Location = New System.Drawing.Point(14, 3951)
+        Me.Label135.Location = New System.Drawing.Point(17, 4003)
         Me.Label135.Name = "Label135"
         Me.Label135.Size = New System.Drawing.Size(895, 13)
         Me.Label135.TabIndex = 277
         Me.Label135.Text = "_________________________________________________________________________________" &
     "___________________________________________________________________"
         '
-        'CIR1
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.DimGray
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(639, 4033)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(124, 40)
+        Me.Button2.TabIndex = 278
+        Me.Button2.Text = "BACK "
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.DimGray
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.Transparent
+        Me.Button4.Location = New System.Drawing.Point(423, 2483)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(88, 26)
+        Me.Button4.TabIndex = 280
+        Me.Button4.Text = "ADD"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.DimGray
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.Color.Transparent
+        Me.Button5.Location = New System.Drawing.Point(425, 3786)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(88, 26)
+        Me.Button5.TabIndex = 281
+        Me.Button5.Text = "ADD"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'CIRFORM1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(924, 707)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label135)
         Me.Controls.Add(Me.Label117)
         Me.Controls.Add(Me.ListView2)
@@ -2505,11 +2554,8 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Name = "CIR"
-        Me.Text = "CIR"
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
-        Me.Name = "CIR1"
+        Me.Name = "CIRFORM1"
         Me.Text = "CIR1"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -2748,4 +2794,7 @@ Partial Class CIRFORM1
     Friend WithEvents ColumnHeader11 As ColumnHeader
     Friend WithEvents Label117 As Label
     Friend WithEvents Label135 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Button5 As Button
 End Class

@@ -156,6 +156,7 @@ Partial Class CIRFORM2
         Me.TextBox128 = New System.Windows.Forms.TextBox()
         Me.Label213 = New System.Windows.Forms.Label()
         Me.TextBox127 = New System.Windows.Forms.TextBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -573,10 +574,10 @@ Partial Class CIRFORM2
         'Label136
         '
         Me.Label136.AutoSize = True
-        Me.Label136.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.Label136.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label136.Location = New System.Drawing.Point(386, 15)
         Me.Label136.Name = "Label136"
-        Me.Label136.Size = New System.Drawing.Size(155, 17)
+        Me.Label136.Size = New System.Drawing.Size(164, 16)
         Me.Label136.TabIndex = 325
         Me.Label136.Text = "FOR HOUSE AND LOT"
         '
@@ -1378,14 +1379,31 @@ Partial Class CIRFORM2
         Me.TextBox127.Size = New System.Drawing.Size(413, 20)
         Me.TextBox127.TabIndex = 446
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.DimGray
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Transparent
+        Me.Button2.Location = New System.Drawing.Point(631, 1914)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(124, 40)
+        Me.Button2.TabIndex = 478
+        Me.Button2.Text = "BACK "
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(795, 1916)
+        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Transparent
+        Me.Button1.Location = New System.Drawing.Point(775, 1914)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(104, 38)
-        Me.Button1.TabIndex = 477
+        Me.Button1.Size = New System.Drawing.Size(124, 40)
+        Me.Button1.TabIndex = 479
         Me.Button1.Text = "SUBMIT"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'CIRFORM2
         '
@@ -1394,6 +1412,7 @@ Partial Class CIRFORM2
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(924, 707)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox131)
         Me.Controls.Add(Me.TextBox135)
         Me.Controls.Add(Me.TextBox136)
@@ -1670,5 +1689,6 @@ Partial Class CIRFORM2
     Friend WithEvents TextBox128 As TextBox
     Friend WithEvents Label213 As Label
     Friend WithEvents TextBox127 As TextBox
+    Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
 End Class
