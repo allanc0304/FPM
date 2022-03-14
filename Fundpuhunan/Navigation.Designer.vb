@@ -225,7 +225,7 @@ Partial Class Navigation
         Me.accountbttn.Name = "accountbttn"
         Me.accountbttn.Size = New System.Drawing.Size(251, 26)
         Me.accountbttn.TabIndex = 9
-        Me.accountbttn.Text = "Account"
+        Me.accountbttn.Text = "My Account"
         Me.accountbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.accountbttn.UseVisualStyleBackColor = False
         '
