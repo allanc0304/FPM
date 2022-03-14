@@ -73,34 +73,34 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Application.Designer.vb">
+    <Compile Include="Form\Application.Designer.vb">
       <DependentUpon>Application.vb</DependentUpon>
     </Compile>
-    <Compile Include="Application.vb">
+    <Compile Include="Form\Application.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ApplicationForm2.Designer.vb">
-      <DependentUpon>ApplicationForm2.vb</DependentUpon>
+    <Compile Include="Form\AppFormB.Designer.vb">
+      <DependentUpon>AppFormB.vb</DependentUpon>
     </Compile>
-    <Compile Include="ApplicationForm2.vb">
+    <Compile Include="Form\AppFormB.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ApplictaionForm1.Designer.vb">
-      <DependentUpon>ApplictaionForm1.vb</DependentUpon>
+    <Compile Include="Form\AppFormA.Designer.vb">
+      <DependentUpon>AppFormA.vb</DependentUpon>
     </Compile>
-    <Compile Include="ApplictaionForm1.vb">
+    <Compile Include="Form\AppFormA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CIRFORM1.Designer.vb">
+    <Compile Include="Form\CIRFORM1.Designer.vb">
       <DependentUpon>CIRFORM1.vb</DependentUpon>
     </Compile>
-    <Compile Include="CIRFORM1.vb">
+    <Compile Include="Form\CIRFORM1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CIRFORM2.Designer.vb">
+    <Compile Include="Form\CIRFORM2.Designer.vb">
       <DependentUpon>CIRFORM2.vb</DependentUpon>
     </Compile>
-    <Compile Include="CIRFORM2.vb">
+    <Compile Include="Form\CIRFORM2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Dashboard.Designer.vb">
@@ -109,7 +109,6 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DennisTest.vb" />
     <Compile Include="AccountUserManagement.Designer.vb">
       <DependentUpon>AccountUserManagement.vb</DependentUpon>
     </Compile>
@@ -156,16 +155,16 @@
     <Compile Include="Navigation.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TEst.Designer.vb">
-      <DependentUpon>TEst.vb</DependentUpon>
+    <Compile Include="FilesandRecords.Designer.vb">
+      <DependentUpon>FilesandRecords.vb</DependentUpon>
     </Compile>
-    <Compile Include="TEst.vb">
+    <Compile Include="FilesandRecords.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="User Management Account.Designer.vb">
-      <DependentUpon>User Management Account.vb</DependentUpon>
+    <Compile Include="MyAccount.Designer.vb">
+      <DependentUpon>MyAccount.vb</DependentUpon>
     </Compile>
-    <Compile Include="User Management Account.vb">
+    <Compile Include="MyAccount.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -173,19 +172,22 @@
     <EmbeddedResource Include="AccountUserManagement.resx">
       <DependentUpon>AccountUserManagement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Application.resx">
+    <EmbeddedResource Include="AddUserAccount.resx">
+      <DependentUpon>AddUserAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Application.resx">
       <DependentUpon>Application.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ApplicationForm2.resx">
-      <DependentUpon>ApplicationForm2.vb</DependentUpon>
+    <EmbeddedResource Include="Form\AppFormB.resx">
+      <DependentUpon>AppFormB.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ApplictaionForm1.resx">
-      <DependentUpon>ApplictaionForm1.vb</DependentUpon>
+    <EmbeddedResource Include="Form\AppFormA.resx">
+      <DependentUpon>AppFormA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CIRFORM1.resx">
+    <EmbeddedResource Include="Form\CIRFORM1.resx">
       <DependentUpon>CIRFORM1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CIRFORM2.resx">
+    <EmbeddedResource Include="Form\CIRFORM2.resx">
       <DependentUpon>CIRFORM2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
@@ -206,16 +208,11 @@
     <EmbeddedResource Include="Navigation.resx">
       <DependentUpon>Navigation.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TEst.resx">
-      <DependentUpon>TEst.vb</DependentUpon>
+    <EmbeddedResource Include="FilesandRecords.resx">
+      <DependentUpon>FilesandRecords.vb</DependentUpon>
     </EmbeddedResource>
-
-    <EmbeddedResource Include="User Management Account.resx">
-      <DependentUpon>User Management Account.vb</DependentUpon>
-
-    <EmbeddedResource Include="AddUserAccount.resx">
-      <DependentUpon>AddUserAccount.vb</DependentUpon>
-
+    <EmbeddedResource Include="MyAccount.resx">
+      <DependentUpon>MyAccount.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
