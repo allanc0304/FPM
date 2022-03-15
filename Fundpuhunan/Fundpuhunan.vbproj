@@ -109,9 +109,6 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-
-    
-
     <Compile Include="AccountUserManagement.Designer.vb">
       <DependentUpon>AccountUserManagement.vb</DependentUpon>
     </Compile>
@@ -122,7 +119,12 @@
       <DependentUpon>AddUserAccount.vb</DependentUpon>
     </Compile>
     <Compile Include="AddUserAccount.vb">
-
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\CIRFORM2%28VanDamme%29.Designer.vb">
+      <DependentUpon>CIRFORM2%28VanDamme%29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CIRFORM2%28VanDamme%29.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoanProcessing.Designer.vb">
@@ -199,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Files_record.resx">
       <DependentUpon>Files_record.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CIRFORM2%28VanDamme%29.resx">
+      <DependentUpon>CIRFORM2%28VanDamme%29.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
