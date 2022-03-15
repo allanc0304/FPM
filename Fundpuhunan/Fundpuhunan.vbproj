@@ -97,12 +97,6 @@
     <Compile Include="Form\CIRFORM1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\CIRFORM2.Designer.vb">
-      <DependentUpon>CIRFORM2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\CIRFORM2.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Dashboard.Designer.vb">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </Compile>
@@ -121,10 +115,10 @@
     <Compile Include="AddUserAccount.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\CIRFORM2%28VanDamme%29.Designer.vb">
-      <DependentUpon>CIRFORM2%28VanDamme%29.vb</DependentUpon>
+    <Compile Include="Form\CIRFORM2.Designer.vb">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\CIRFORM2%28VanDamme%29.vb">
+    <Compile Include="Form\CIRFORM2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoanProcessing.Designer.vb">
@@ -193,17 +187,14 @@
     <EmbeddedResource Include="Form\CIRFORM1.resx">
       <DependentUpon>CIRFORM1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\CIRFORM2.resx">
-      <DependentUpon>CIRFORM2.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Files_record.resx">
       <DependentUpon>Files_record.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\CIRFORM2%28VanDamme%29.resx">
-      <DependentUpon>CIRFORM2%28VanDamme%29.vb</DependentUpon>
+    <EmbeddedResource Include="Form\CIRFORM2.resx">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
