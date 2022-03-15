@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Files_record.Designer.vb">
+      <DependentUpon>Files_record.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Files_record.vb" />
     <Compile Include="Form\Application.Designer.vb">
       <DependentUpon>Application.vb</DependentUpon>
     </Compile>
@@ -109,9 +115,6 @@
     <Compile Include="Dashboard.vb">
       <SubType>Form</SubType>
     </Compile>
-
-    
-
     <Compile Include="AccountUserManagement.Designer.vb">
       <DependentUpon>AccountUserManagement.vb</DependentUpon>
     </Compile>
@@ -122,7 +125,6 @@
       <DependentUpon>AddUserAccount.vb</DependentUpon>
     </Compile>
     <Compile Include="AddUserAccount.vb">
-
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoanProcessing.Designer.vb">
@@ -199,6 +201,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Files_record.resx">
       <DependentUpon>Files_record.vb</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Files_record.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
