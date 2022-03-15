@@ -121,6 +121,15 @@
     <Compile Include="AddUserAccount.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Form\CIRFORM2.Designer.vb">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\CIRFORM2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+>>>>>>> a739d2ef06cf69ea3b2dc2ed96ffc0fd35462639
     <Compile Include="LoanProcessing.Designer.vb">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
     </Compile>
@@ -195,6 +204,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Files_record.Designer.vb</LastGenOutput>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <EmbeddedResource Include="Form\CIRFORM2.resx">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> a739d2ef06cf69ea3b2dc2ed96ffc0fd35462639
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
     </EmbeddedResource>
