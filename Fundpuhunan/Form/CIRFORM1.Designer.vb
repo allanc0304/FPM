@@ -28,10 +28,10 @@ Partial Class CIRFORM1
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.NOB_LN = New System.Windows.Forms.TextBox()
+        Me.NOB_GN = New System.Windows.Forms.TextBox()
+        Me.NOB_MN = New System.Windows.Forms.TextBox()
+        Me.NOB_SUFF = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -41,103 +41,103 @@ Partial Class CIRFORM1
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.CIR_AGE = New System.Windows.Forms.ComboBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.CIR_BRGY = New System.Windows.Forms.TextBox()
+        Me.CIR_ST = New System.Windows.Forms.TextBox()
+        Me.CIR_HOUSENO = New System.Windows.Forms.TextBox()
+        Me.CIR_MUN = New System.Windows.Forms.TextBox()
+        Me.CIR_PRO = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.NOR_SUFF = New System.Windows.Forms.TextBox()
+        Me.NOR_MN = New System.Windows.Forms.TextBox()
+        Me.NOR_GN = New System.Windows.Forms.TextBox()
+        Me.NOR_LN = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
+        Me.CIR_RELATION = New System.Windows.Forms.TextBox()
+        Me.CIR_CONTACT = New System.Windows.Forms.TextBox()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
+        Me.CIR_CONTACT1 = New System.Windows.Forms.TextBox()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label35 = New System.Windows.Forms.Label()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.CIR_PRO1 = New System.Windows.Forms.TextBox()
+        Me.CIR_MUN1 = New System.Windows.Forms.TextBox()
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
+        Me.CIR_BRGY1 = New System.Windows.Forms.TextBox()
+        Me.CIR_ST1 = New System.Windows.Forms.TextBox()
+        Me.CIR_HOUSENO1 = New System.Windows.Forms.TextBox()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
+        Me.CC_MI = New System.Windows.Forms.TextBox()
         Me.Label41 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label43 = New System.Windows.Forms.Label()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
+        Me.CC_PRO = New System.Windows.Forms.TextBox()
+        Me.CC_MUN = New System.Windows.Forms.TextBox()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.CC_BRGY = New System.Windows.Forms.TextBox()
+        Me.CC_ST = New System.Windows.Forms.TextBox()
+        Me.CC_HOUSENO = New System.Windows.Forms.TextBox()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label48 = New System.Windows.Forms.Label()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
+        Me.CC_RELATION = New System.Windows.Forms.TextBox()
         Me.Label49 = New System.Windows.Forms.Label()
         Me.Label50 = New System.Windows.Forms.Label()
         Me.Label51 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
+        Me.N_SUFF = New System.Windows.Forms.TextBox()
+        Me.N_MN = New System.Windows.Forms.TextBox()
+        Me.N_GN = New System.Windows.Forms.TextBox()
+        Me.N_LN = New System.Windows.Forms.TextBox()
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label56 = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.CIR_NEXTBTN = New System.Windows.Forms.Button()
         Me.Label58 = New System.Windows.Forms.Label()
         Me.Label59 = New System.Windows.Forms.Label()
         Me.Label60 = New System.Windows.Forms.Label()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
+        Me.ELEM_PS = New System.Windows.Forms.TextBox()
+        Me.HS_PS = New System.Windows.Forms.TextBox()
+        Me.COLLEGE_PS = New System.Windows.Forms.TextBox()
+        Me.COLLEGE_GS = New System.Windows.Forms.TextBox()
+        Me.HS_GS = New System.Windows.Forms.TextBox()
+        Me.ELEM_GS = New System.Windows.Forms.TextBox()
+        Me.COLLEGE_TF = New System.Windows.Forms.TextBox()
+        Me.HS_TF = New System.Windows.Forms.TextBox()
+        Me.ELEM_TF = New System.Windows.Forms.TextBox()
         Me.Label64 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
+        Me.CB_NEW = New System.Windows.Forms.CheckBox()
         Me.Label65 = New System.Windows.Forms.Label()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
+        Me.CB_RENEW = New System.Windows.Forms.CheckBox()
+        Me.CB_RESTUCT = New System.Windows.Forms.CheckBox()
+        Me.TOL_TERMS = New System.Windows.Forms.TextBox()
+        Me.TOL_PURP = New System.Windows.Forms.TextBox()
+        Me.TOL_AAP = New System.Windows.Forms.TextBox()
         Me.Label66 = New System.Windows.Forms.Label()
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Label68 = New System.Windows.Forms.Label()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
+        Me.TOL_MOP = New System.Windows.Forms.TextBox()
+        Me.TOL_MR = New System.Windows.Forms.TextBox()
         Me.Label69 = New System.Windows.Forms.Label()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Label71 = New System.Windows.Forms.Label()
@@ -147,24 +147,24 @@ Partial Class CIRFORM1
         Me.Label75 = New System.Windows.Forms.Label()
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Label77 = New System.Windows.Forms.Label()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.TextBox55 = New System.Windows.Forms.TextBox()
+        Me.BR_PRO = New System.Windows.Forms.TextBox()
+        Me.BR_MUN = New System.Windows.Forms.TextBox()
         Me.Label78 = New System.Windows.Forms.Label()
         Me.Label79 = New System.Windows.Forms.Label()
         Me.Label80 = New System.Windows.Forms.Label()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
-        Me.TextBox57 = New System.Windows.Forms.TextBox()
-        Me.TextBox58 = New System.Windows.Forms.TextBox()
+        Me.BR_BRGY = New System.Windows.Forms.TextBox()
+        Me.BR_ST = New System.Windows.Forms.TextBox()
+        Me.BR_HOUSENO = New System.Windows.Forms.TextBox()
         Me.Label81 = New System.Windows.Forms.Label()
-        Me.TextBox59 = New System.Windows.Forms.TextBox()
+        Me.BR_NOB = New System.Windows.Forms.TextBox()
         Me.Label82 = New System.Windows.Forms.Label()
-        Me.TextBox60 = New System.Windows.Forms.TextBox()
+        Me.BR_CONT = New System.Windows.Forms.TextBox()
         Me.Label83 = New System.Windows.Forms.Label()
-        Me.TextBox61 = New System.Windows.Forms.TextBox()
+        Me.BR_NYB = New System.Windows.Forms.TextBox()
         Me.Label84 = New System.Windows.Forms.Label()
-        Me.TextBox62 = New System.Windows.Forms.TextBox()
+        Me.BR_TOB = New System.Windows.Forms.TextBox()
         Me.Label85 = New System.Windows.Forms.Label()
-        Me.TextBox63 = New System.Windows.Forms.TextBox()
+        Me.BR_BC = New System.Windows.Forms.TextBox()
         Me.Label86 = New System.Windows.Forms.Label()
         Me.Label87 = New System.Windows.Forms.Label()
         Me.Label88 = New System.Windows.Forms.Label()
@@ -180,21 +180,21 @@ Partial Class CIRFORM1
         Me.Label98 = New System.Windows.Forms.Label()
         Me.Label99 = New System.Windows.Forms.Label()
         Me.Label100 = New System.Windows.Forms.Label()
-        Me.TextBox64 = New System.Windows.Forms.TextBox()
-        Me.TextBox65 = New System.Windows.Forms.TextBox()
-        Me.TextBox66 = New System.Windows.Forms.TextBox()
-        Me.TextBox67 = New System.Windows.Forms.TextBox()
-        Me.TextBox68 = New System.Windows.Forms.TextBox()
+        Me.ER_COMP = New System.Windows.Forms.TextBox()
+        Me.ER_POS = New System.Windows.Forms.TextBox()
+        Me.ER_STATUS = New System.Windows.Forms.TextBox()
+        Me.ER_LOS = New System.Windows.Forms.TextBox()
+        Me.ER_MS = New System.Windows.Forms.TextBox()
         Me.Label101 = New System.Windows.Forms.Label()
         Me.Label102 = New System.Windows.Forms.Label()
         Me.Label103 = New System.Windows.Forms.Label()
         Me.Label104 = New System.Windows.Forms.Label()
         Me.Label105 = New System.Windows.Forms.Label()
-        Me.TextBox69 = New System.Windows.Forms.TextBox()
-        Me.TextBox70 = New System.Windows.Forms.TextBox()
-        Me.TextBox71 = New System.Windows.Forms.TextBox()
-        Me.TextBox72 = New System.Windows.Forms.TextBox()
-        Me.TextBox73 = New System.Windows.Forms.TextBox()
+        Me.ER_MS1 = New System.Windows.Forms.TextBox()
+        Me.ER_LOS1 = New System.Windows.Forms.TextBox()
+        Me.ER_STATUS1 = New System.Windows.Forms.TextBox()
+        Me.ER_POS1 = New System.Windows.Forms.TextBox()
+        Me.ER_COMP1 = New System.Windows.Forms.TextBox()
         Me.Label106 = New System.Windows.Forms.Label()
         Me.Label107 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
@@ -209,7 +209,7 @@ Partial Class CIRFORM1
         Me.Label110 = New System.Windows.Forms.Label()
         Me.Label111 = New System.Windows.Forms.Label()
         Me.Label112 = New System.Windows.Forms.Label()
-        Me.TextBox74 = New System.Windows.Forms.TextBox()
+        Me.CC_OCCU = New System.Windows.Forms.TextBox()
         Me.Label113 = New System.Windows.Forms.Label()
         Me.Label114 = New System.Windows.Forms.Label()
         Me.Label115 = New System.Windows.Forms.Label()
@@ -218,13 +218,13 @@ Partial Class CIRFORM1
         Me.Label125 = New System.Windows.Forms.Label()
         Me.Label137 = New System.Windows.Forms.Label()
         Me.Label138 = New System.Windows.Forms.Label()
-        Me.TextBox87 = New System.Windows.Forms.TextBox()
-        Me.TextBox89 = New System.Windows.Forms.TextBox()
+        Me.NF_NAIN1 = New System.Windows.Forms.TextBox()
+        Me.NF_NAIN2 = New System.Windows.Forms.TextBox()
         Me.Label141 = New System.Windows.Forms.Label()
-        Me.TextBox93 = New System.Windows.Forms.TextBox()
+        Me.NF_ROR = New System.Windows.Forms.TextBox()
         Me.Label142 = New System.Windows.Forms.Label()
         Me.Label143 = New System.Windows.Forms.Label()
-        Me.TextBox94 = New System.Windows.Forms.TextBox()
+        Me.NF_ROR1 = New System.Windows.Forms.TextBox()
         Me.Label144 = New System.Windows.Forms.Label()
         Me.ListView2 = New System.Windows.Forms.ListView()
         Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -234,69 +234,59 @@ Partial Class CIRFORM1
         Me.ColumnHeader11 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label117 = New System.Windows.Forms.Label()
         Me.Label135 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
+        Me.CIR_BACKBTN = New System.Windows.Forms.Button()
+        Me.LIA_ADDBTN = New System.Windows.Forms.Button()
+        Me.COL_ADDBTN = New System.Windows.Forms.Button()
         Me.Label61 = New System.Windows.Forms.Label()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.Label63 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
+        Me.CIR_MON = New System.Windows.Forms.ComboBox()
+        Me.CIR_DAY = New System.Windows.Forms.ComboBox()
+        Me.CIR_YR = New System.Windows.Forms.ComboBox()
+        Me.NOD_NS = New System.Windows.Forms.ComboBox()
+        Me.CB_AGRI = New System.Windows.Forms.CheckBox()
+        Me.CB_RESI = New System.Windows.Forms.CheckBox()
+        Me.CB_INDU = New System.Windows.Forms.CheckBox()
+        Me.CB_COM = New System.Windows.Forms.CheckBox()
         Me.Label147 = New System.Windows.Forms.Label()
         Me.Label136 = New System.Windows.Forms.Label()
         Me.Label126 = New System.Windows.Forms.Label()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label121 = New System.Windows.Forms.Label()
-        Me.Label120 = New System.Windows.Forms.Label()
-        Me.Label119 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label118 = New System.Windows.Forms.Label()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
-        Me.Label122 = New System.Windows.Forms.Label()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
-        Me.Label123 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label127 = New System.Windows.Forms.Label()
         Me.Label128 = New System.Windows.Forms.Label()
         Me.Label129 = New System.Windows.Forms.Label()
         Me.Label130 = New System.Windows.Forms.Label()
         Me.Label131 = New System.Windows.Forms.Label()
         Me.Label132 = New System.Windows.Forms.Label()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox75 = New System.Windows.Forms.TextBox()
-        Me.TextBox76 = New System.Windows.Forms.TextBox()
-        Me.TextBox77 = New System.Windows.Forms.TextBox()
-        Me.TextBox78 = New System.Windows.Forms.TextBox()
-        Me.TextBox79 = New System.Windows.Forms.TextBox()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
+        Me.LIA_BL = New System.Windows.Forms.TextBox()
+        Me.LIA_CRED = New System.Windows.Forms.TextBox()
+        Me.LIA_DG = New System.Windows.Forms.TextBox()
+        Me.LIA_DD = New System.Windows.Forms.TextBox()
+        Me.LIA_AL = New System.Windows.Forms.TextBox()
+        Me.LIA_BAL = New System.Windows.Forms.TextBox()
+        Me.LIA_UPBTN = New System.Windows.Forms.Button()
+        Me.LIA_REMBTN = New System.Windows.Forms.Button()
+        Me.LIA_REMALLBTN = New System.Windows.Forms.Button()
         Me.Label133 = New System.Windows.Forms.Label()
         Me.Label134 = New System.Windows.Forms.Label()
         Me.Label148 = New System.Windows.Forms.Label()
         Me.Label149 = New System.Windows.Forms.Label()
         Me.Label150 = New System.Windows.Forms.Label()
-        Me.TextBox80 = New System.Windows.Forms.TextBox()
-        Me.TextBox81 = New System.Windows.Forms.TextBox()
-        Me.TextBox82 = New System.Windows.Forms.TextBox()
-        Me.TextBox83 = New System.Windows.Forms.TextBox()
-        Me.TextBox84 = New System.Windows.Forms.TextBox()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton3 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.Panel1.SuspendLayout()
+        Me.C_KHP = New System.Windows.Forms.TextBox()
+        Me.C_MN = New System.Windows.Forms.TextBox()
+        Me.C_SN = New System.Windows.Forms.TextBox()
+        Me.C_YP = New System.Windows.Forms.TextBox()
+        Me.C_PV = New System.Windows.Forms.TextBox()
+        Me.COL_UPBUTTON = New System.Windows.Forms.Button()
+        Me.COL_REMBTN = New System.Windows.Forms.Button()
+        Me.COL_REMALLBTN = New System.Windows.Forms.Button()
+        Me.NF_OWN = New System.Windows.Forms.RadioButton()
+        Me.NF_RENT = New System.Windows.Forms.RadioButton()
+        Me.NF_OWN1 = New System.Windows.Forms.RadioButton()
+        Me.NF_RENT1 = New System.Windows.Forms.RadioButton()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -360,33 +350,37 @@ Partial Class CIRFORM1
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Name of Borrower:"
         '
-        'TextBox1
+        'NOB_LN
         '
-        Me.TextBox1.Location = New System.Drawing.Point(170, 212)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox1.TabIndex = 6
+        Me.NOB_LN.Location = New System.Drawing.Point(170, 212)
+        Me.NOB_LN.Name = "NOB_LN"
+        Me.NOB_LN.Size = New System.Drawing.Size(212, 20)
+        Me.NOB_LN.TabIndex = 6
+        Me.NOB_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox2
+        'NOB_GN
         '
-        Me.TextBox2.Location = New System.Drawing.Point(388, 212)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox2.TabIndex = 7
+        Me.NOB_GN.Location = New System.Drawing.Point(388, 212)
+        Me.NOB_GN.Name = "NOB_GN"
+        Me.NOB_GN.Size = New System.Drawing.Size(212, 20)
+        Me.NOB_GN.TabIndex = 7
+        Me.NOB_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox3
+        'NOB_MN
         '
-        Me.TextBox3.Location = New System.Drawing.Point(606, 212)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox3.TabIndex = 8
+        Me.NOB_MN.Location = New System.Drawing.Point(606, 212)
+        Me.NOB_MN.Name = "NOB_MN"
+        Me.NOB_MN.Size = New System.Drawing.Size(212, 20)
+        Me.NOB_MN.TabIndex = 8
+        Me.NOB_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox4
+        'NOB_SUFF
         '
-        Me.TextBox4.Location = New System.Drawing.Point(824, 212)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(72, 20)
-        Me.TextBox4.TabIndex = 9
+        Me.NOB_SUFF.Location = New System.Drawing.Point(824, 212)
+        Me.NOB_SUFF.Name = "NOB_SUFF"
+        Me.NOB_SUFF.Size = New System.Drawing.Size(72, 20)
+        Me.NOB_SUFF.TabIndex = 9
+        Me.NOB_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label7
         '
@@ -478,13 +472,14 @@ Partial Class CIRFORM1
         Me.Label15.TabIndex = 21
         Me.Label15.Text = "Age:"
         '
-        'ComboBox1
+        'CIR_AGE
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(170, 301)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(59, 21)
-        Me.ComboBox1.TabIndex = 22
+        Me.CIR_AGE.FormattingEnabled = True
+        Me.CIR_AGE.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80"})
+        Me.CIR_AGE.Location = New System.Drawing.Point(170, 301)
+        Me.CIR_AGE.Name = "CIR_AGE"
+        Me.CIR_AGE.Size = New System.Drawing.Size(59, 21)
+        Me.CIR_AGE.TabIndex = 22
         '
         'Label16
         '
@@ -536,40 +531,45 @@ Partial Class CIRFORM1
         Me.Label20.TabIndex = 28
         Me.Label20.Text = "( HOUSE NO. )"
         '
-        'TextBox8
+        'CIR_BRGY
         '
-        Me.TextBox8.Location = New System.Drawing.Point(632, 366)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox8.TabIndex = 27
+        Me.CIR_BRGY.Location = New System.Drawing.Point(632, 366)
+        Me.CIR_BRGY.Name = "CIR_BRGY"
+        Me.CIR_BRGY.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_BRGY.TabIndex = 27
+        Me.CIR_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox9
+        'CIR_ST
         '
-        Me.TextBox9.Location = New System.Drawing.Point(405, 366)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox9.TabIndex = 26
+        Me.CIR_ST.Location = New System.Drawing.Point(405, 366)
+        Me.CIR_ST.Name = "CIR_ST"
+        Me.CIR_ST.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_ST.TabIndex = 26
+        Me.CIR_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox10
+        'CIR_HOUSENO
         '
-        Me.TextBox10.Location = New System.Drawing.Point(169, 366)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox10.TabIndex = 25
+        Me.CIR_HOUSENO.Location = New System.Drawing.Point(169, 366)
+        Me.CIR_HOUSENO.Name = "CIR_HOUSENO"
+        Me.CIR_HOUSENO.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_HOUSENO.TabIndex = 25
+        Me.CIR_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox11
+        'CIR_MUN
         '
-        Me.TextBox11.Location = New System.Drawing.Point(169, 414)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(213, 20)
-        Me.TextBox11.TabIndex = 31
+        Me.CIR_MUN.Location = New System.Drawing.Point(169, 414)
+        Me.CIR_MUN.Name = "CIR_MUN"
+        Me.CIR_MUN.Size = New System.Drawing.Size(213, 20)
+        Me.CIR_MUN.TabIndex = 31
+        Me.CIR_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox12
+        'CIR_PRO
         '
-        Me.TextBox12.Location = New System.Drawing.Point(405, 414)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox12.TabIndex = 32
+        Me.CIR_PRO.Location = New System.Drawing.Point(405, 414)
+        Me.CIR_PRO.Name = "CIR_PRO"
+        Me.CIR_PRO.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_PRO.TabIndex = 32
+        Me.CIR_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label21
         '
@@ -631,33 +631,37 @@ Partial Class CIRFORM1
         Me.Label26.TabIndex = 40
         Me.Label26.Text = "( LAST NAME )"
         '
-        'TextBox13
+        'NOR_SUFF
         '
-        Me.TextBox13.Location = New System.Drawing.Point(823, 532)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(72, 20)
-        Me.TextBox13.TabIndex = 39
+        Me.NOR_SUFF.Location = New System.Drawing.Point(823, 532)
+        Me.NOR_SUFF.Name = "NOR_SUFF"
+        Me.NOR_SUFF.Size = New System.Drawing.Size(72, 20)
+        Me.NOR_SUFF.TabIndex = 39
+        Me.NOR_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox14
+        'NOR_MN
         '
-        Me.TextBox14.Location = New System.Drawing.Point(605, 532)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox14.TabIndex = 38
+        Me.NOR_MN.Location = New System.Drawing.Point(605, 532)
+        Me.NOR_MN.Name = "NOR_MN"
+        Me.NOR_MN.Size = New System.Drawing.Size(212, 20)
+        Me.NOR_MN.TabIndex = 38
+        Me.NOR_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox15
+        'NOR_GN
         '
-        Me.TextBox15.Location = New System.Drawing.Point(387, 532)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox15.TabIndex = 37
+        Me.NOR_GN.Location = New System.Drawing.Point(387, 532)
+        Me.NOR_GN.Name = "NOR_GN"
+        Me.NOR_GN.Size = New System.Drawing.Size(212, 20)
+        Me.NOR_GN.TabIndex = 37
+        Me.NOR_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox16
+        'NOR_LN
         '
-        Me.TextBox16.Location = New System.Drawing.Point(169, 532)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox16.TabIndex = 36
+        Me.NOR_LN.Location = New System.Drawing.Point(169, 532)
+        Me.NOR_LN.Name = "NOR_LN"
+        Me.NOR_LN.Size = New System.Drawing.Size(212, 20)
+        Me.NOR_LN.TabIndex = 36
+        Me.NOR_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label27
         '
@@ -679,19 +683,21 @@ Partial Class CIRFORM1
         Me.Label28.TabIndex = 44
         Me.Label28.Text = "Relation:"
         '
-        'TextBox17
+        'CIR_RELATION
         '
-        Me.TextBox17.Location = New System.Drawing.Point(169, 588)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox17.TabIndex = 45
+        Me.CIR_RELATION.Location = New System.Drawing.Point(169, 588)
+        Me.CIR_RELATION.Name = "CIR_RELATION"
+        Me.CIR_RELATION.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_RELATION.TabIndex = 45
+        Me.CIR_RELATION.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox18
+        'CIR_CONTACT
         '
-        Me.TextBox18.Location = New System.Drawing.Point(170, 466)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox18.TabIndex = 47
+        Me.CIR_CONTACT.Location = New System.Drawing.Point(170, 466)
+        Me.CIR_CONTACT.Name = "CIR_CONTACT"
+        Me.CIR_CONTACT.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_CONTACT.TabIndex = 47
+        Me.CIR_CONTACT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label29
         '
@@ -733,12 +739,13 @@ Partial Class CIRFORM1
         Me.Label32.TabIndex = 63
         Me.Label32.Text = "( ex. 0912-345-6789 )"
         '
-        'TextBox19
+        'CIR_CONTACT1
         '
-        Me.TextBox19.Location = New System.Drawing.Point(170, 748)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox19.TabIndex = 62
+        Me.CIR_CONTACT1.Location = New System.Drawing.Point(170, 748)
+        Me.CIR_CONTACT1.Name = "CIR_CONTACT1"
+        Me.CIR_CONTACT1.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_CONTACT1.TabIndex = 62
+        Me.CIR_CONTACT1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label33
         '
@@ -770,19 +777,21 @@ Partial Class CIRFORM1
         Me.Label35.TabIndex = 59
         Me.Label35.Text = "( MUNICIPALITY )"
         '
-        'TextBox20
+        'CIR_PRO1
         '
-        Me.TextBox20.Location = New System.Drawing.Point(405, 695)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox20.TabIndex = 58
+        Me.CIR_PRO1.Location = New System.Drawing.Point(405, 695)
+        Me.CIR_PRO1.Name = "CIR_PRO1"
+        Me.CIR_PRO1.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_PRO1.TabIndex = 58
+        Me.CIR_PRO1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox21
+        'CIR_MUN1
         '
-        Me.TextBox21.Location = New System.Drawing.Point(169, 695)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(213, 20)
-        Me.TextBox21.TabIndex = 57
+        Me.CIR_MUN1.Location = New System.Drawing.Point(169, 695)
+        Me.CIR_MUN1.Name = "CIR_MUN1"
+        Me.CIR_MUN1.Size = New System.Drawing.Size(213, 20)
+        Me.CIR_MUN1.TabIndex = 57
+        Me.CIR_MUN1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label36
         '
@@ -814,26 +823,29 @@ Partial Class CIRFORM1
         Me.Label38.TabIndex = 54
         Me.Label38.Text = "( HOUSE NO. )"
         '
-        'TextBox22
+        'CIR_BRGY1
         '
-        Me.TextBox22.Location = New System.Drawing.Point(632, 652)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox22.TabIndex = 53
+        Me.CIR_BRGY1.Location = New System.Drawing.Point(632, 652)
+        Me.CIR_BRGY1.Name = "CIR_BRGY1"
+        Me.CIR_BRGY1.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_BRGY1.TabIndex = 53
+        Me.CIR_BRGY1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox23
+        'CIR_ST1
         '
-        Me.TextBox23.Location = New System.Drawing.Point(405, 652)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox23.TabIndex = 52
+        Me.CIR_ST1.Location = New System.Drawing.Point(405, 652)
+        Me.CIR_ST1.Name = "CIR_ST1"
+        Me.CIR_ST1.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_ST1.TabIndex = 52
+        Me.CIR_ST1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox24
+        'CIR_HOUSENO1
         '
-        Me.TextBox24.Location = New System.Drawing.Point(169, 652)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox24.TabIndex = 51
+        Me.CIR_HOUSENO1.Location = New System.Drawing.Point(169, 652)
+        Me.CIR_HOUSENO1.Name = "CIR_HOUSENO1"
+        Me.CIR_HOUSENO1.Size = New System.Drawing.Size(212, 20)
+        Me.CIR_HOUSENO1.TabIndex = 51
+        Me.CIR_HOUSENO1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label39
         '
@@ -855,12 +867,13 @@ Partial Class CIRFORM1
         Me.Label40.TabIndex = 89
         Me.Label40.Text = "( ex. Php 24,000.00 )"
         '
-        'TextBox25
+        'CC_MI
         '
-        Me.TextBox25.Location = New System.Drawing.Point(161, 3055)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox25.TabIndex = 88
+        Me.CC_MI.Location = New System.Drawing.Point(161, 3055)
+        Me.CC_MI.Name = "CC_MI"
+        Me.CC_MI.Size = New System.Drawing.Size(212, 20)
+        Me.CC_MI.TabIndex = 88
+        Me.CC_MI.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label41
         '
@@ -876,7 +889,7 @@ Partial Class CIRFORM1
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label42.Location = New System.Drawing.Point(513, 2976)
+        Me.Label42.Location = New System.Drawing.Point(500, 2976)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(65, 12)
         Me.Label42.TabIndex = 86
@@ -892,19 +905,21 @@ Partial Class CIRFORM1
         Me.Label43.TabIndex = 85
         Me.Label43.Text = "( MUNICIPALITY )"
         '
-        'TextBox26
+        'CC_PRO
         '
-        Me.TextBox26.Location = New System.Drawing.Point(413, 2991)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(221, 20)
-        Me.TextBox26.TabIndex = 84
+        Me.CC_PRO.Location = New System.Drawing.Point(413, 2991)
+        Me.CC_PRO.Name = "CC_PRO"
+        Me.CC_PRO.Size = New System.Drawing.Size(221, 20)
+        Me.CC_PRO.TabIndex = 84
+        Me.CC_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox27
+        'CC_MUN
         '
-        Me.TextBox27.Location = New System.Drawing.Point(161, 2991)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox27.TabIndex = 83
+        Me.CC_MUN.Location = New System.Drawing.Point(161, 2991)
+        Me.CC_MUN.Name = "CC_MUN"
+        Me.CC_MUN.Size = New System.Drawing.Size(212, 20)
+        Me.CC_MUN.TabIndex = 83
+        Me.CC_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label44
         '
@@ -920,7 +935,7 @@ Partial Class CIRFORM1
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label45.Location = New System.Drawing.Point(511, 2928)
+        Me.Label45.Location = New System.Drawing.Point(500, 2928)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(50, 12)
         Me.Label45.TabIndex = 81
@@ -936,26 +951,29 @@ Partial Class CIRFORM1
         Me.Label46.TabIndex = 80
         Me.Label46.Text = "( HOUSE NO. )"
         '
-        'TextBox28
+        'CC_BRGY
         '
-        Me.TextBox28.Location = New System.Drawing.Point(664, 2943)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(223, 20)
-        Me.TextBox28.TabIndex = 79
+        Me.CC_BRGY.Location = New System.Drawing.Point(664, 2943)
+        Me.CC_BRGY.Name = "CC_BRGY"
+        Me.CC_BRGY.Size = New System.Drawing.Size(223, 20)
+        Me.CC_BRGY.TabIndex = 79
+        Me.CC_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox29
+        'CC_ST
         '
-        Me.TextBox29.Location = New System.Drawing.Point(413, 2943)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(221, 20)
-        Me.TextBox29.TabIndex = 78
+        Me.CC_ST.Location = New System.Drawing.Point(413, 2943)
+        Me.CC_ST.Name = "CC_ST"
+        Me.CC_ST.Size = New System.Drawing.Size(221, 20)
+        Me.CC_ST.TabIndex = 78
+        Me.CC_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox30
+        'CC_HOUSENO
         '
-        Me.TextBox30.Location = New System.Drawing.Point(161, 2943)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox30.TabIndex = 77
+        Me.CC_HOUSENO.Location = New System.Drawing.Point(161, 2943)
+        Me.CC_HOUSENO.Name = "CC_HOUSENO"
+        Me.CC_HOUSENO.Size = New System.Drawing.Size(212, 20)
+        Me.CC_HOUSENO.TabIndex = 77
+        Me.CC_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label47
         '
@@ -977,12 +995,13 @@ Partial Class CIRFORM1
         Me.Label48.TabIndex = 75
         Me.Label48.Text = "( ex. FATHER )"
         '
-        'TextBox31
+        'CC_RELATION
         '
-        Me.TextBox31.Location = New System.Drawing.Point(161, 2830)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox31.TabIndex = 74
+        Me.CC_RELATION.Location = New System.Drawing.Point(161, 2830)
+        Me.CC_RELATION.Name = "CC_RELATION"
+        Me.CC_RELATION.Size = New System.Drawing.Size(212, 20)
+        Me.CC_RELATION.TabIndex = 74
+        Me.CC_RELATION.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label49
         '
@@ -1034,33 +1053,37 @@ Partial Class CIRFORM1
         Me.Label53.TabIndex = 69
         Me.Label53.Text = "( LAST NAME )"
         '
-        'TextBox32
+        'N_SUFF
         '
-        Me.TextBox32.Location = New System.Drawing.Point(815, 2778)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(72, 20)
-        Me.TextBox32.TabIndex = 68
+        Me.N_SUFF.Location = New System.Drawing.Point(815, 2778)
+        Me.N_SUFF.Name = "N_SUFF"
+        Me.N_SUFF.Size = New System.Drawing.Size(72, 20)
+        Me.N_SUFF.TabIndex = 68
+        Me.N_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox33
+        'N_MN
         '
-        Me.TextBox33.Location = New System.Drawing.Point(597, 2778)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox33.TabIndex = 67
+        Me.N_MN.Location = New System.Drawing.Point(597, 2778)
+        Me.N_MN.Name = "N_MN"
+        Me.N_MN.Size = New System.Drawing.Size(212, 20)
+        Me.N_MN.TabIndex = 67
+        Me.N_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox34
+        'N_GN
         '
-        Me.TextBox34.Location = New System.Drawing.Point(379, 2778)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox34.TabIndex = 66
+        Me.N_GN.Location = New System.Drawing.Point(379, 2778)
+        Me.N_GN.Name = "N_GN"
+        Me.N_GN.Size = New System.Drawing.Size(212, 20)
+        Me.N_GN.TabIndex = 66
+        Me.N_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox35
+        'N_LN
         '
-        Me.TextBox35.Location = New System.Drawing.Point(161, 2778)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox35.TabIndex = 65
+        Me.N_LN.Location = New System.Drawing.Point(161, 2778)
+        Me.N_LN.Name = "N_LN"
+        Me.N_LN.Size = New System.Drawing.Size(212, 20)
+        Me.N_LN.TabIndex = 65
+        Me.N_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label54
         '
@@ -1102,18 +1125,18 @@ Partial Class CIRFORM1
         Me.Label57.TabIndex = 92
         Me.Label57.Text = "High School:"
         '
-        'Button1
+        'CIR_NEXTBTN
         '
-        Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(785, 4313)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(124, 40)
-        Me.Button1.TabIndex = 93
-        Me.Button1.Text = "NEXT "
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.CIR_NEXTBTN.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.CIR_NEXTBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.CIR_NEXTBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CIR_NEXTBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.CIR_NEXTBTN.Location = New System.Drawing.Point(785, 4313)
+        Me.CIR_NEXTBTN.Name = "CIR_NEXTBTN"
+        Me.CIR_NEXTBTN.Size = New System.Drawing.Size(124, 40)
+        Me.CIR_NEXTBTN.TabIndex = 93
+        Me.CIR_NEXTBTN.Text = "NEXT "
+        Me.CIR_NEXTBTN.UseVisualStyleBackColor = False
         '
         'Label58
         '
@@ -1145,68 +1168,77 @@ Partial Class CIRFORM1
         Me.Label60.TabIndex = 96
         Me.Label60.Text = "Tuition Fee:"
         '
-        'TextBox36
+        'ELEM_PS
         '
-        Me.TextBox36.Location = New System.Drawing.Point(257, 980)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox36.TabIndex = 97
+        Me.ELEM_PS.Location = New System.Drawing.Point(257, 980)
+        Me.ELEM_PS.Name = "ELEM_PS"
+        Me.ELEM_PS.Size = New System.Drawing.Size(101, 20)
+        Me.ELEM_PS.TabIndex = 97
+        Me.ELEM_PS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox37
+        'HS_PS
         '
-        Me.TextBox37.Location = New System.Drawing.Point(257, 1015)
-        Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox37.TabIndex = 98
+        Me.HS_PS.Location = New System.Drawing.Point(257, 1015)
+        Me.HS_PS.Name = "HS_PS"
+        Me.HS_PS.Size = New System.Drawing.Size(101, 20)
+        Me.HS_PS.TabIndex = 98
+        Me.HS_PS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox38
+        'COLLEGE_PS
         '
-        Me.TextBox38.Location = New System.Drawing.Point(257, 1052)
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox38.TabIndex = 99
+        Me.COLLEGE_PS.Location = New System.Drawing.Point(257, 1052)
+        Me.COLLEGE_PS.Name = "COLLEGE_PS"
+        Me.COLLEGE_PS.Size = New System.Drawing.Size(101, 20)
+        Me.COLLEGE_PS.TabIndex = 99
+        Me.COLLEGE_PS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox39
+        'COLLEGE_GS
         '
-        Me.TextBox39.Location = New System.Drawing.Point(476, 1052)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox39.TabIndex = 102
+        Me.COLLEGE_GS.Location = New System.Drawing.Point(476, 1052)
+        Me.COLLEGE_GS.Name = "COLLEGE_GS"
+        Me.COLLEGE_GS.Size = New System.Drawing.Size(101, 20)
+        Me.COLLEGE_GS.TabIndex = 102
+        Me.COLLEGE_GS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox40
+        'HS_GS
         '
-        Me.TextBox40.Location = New System.Drawing.Point(476, 1014)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox40.TabIndex = 101
+        Me.HS_GS.Location = New System.Drawing.Point(476, 1014)
+        Me.HS_GS.Name = "HS_GS"
+        Me.HS_GS.Size = New System.Drawing.Size(101, 20)
+        Me.HS_GS.TabIndex = 101
+        Me.HS_GS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox41
+        'ELEM_GS
         '
-        Me.TextBox41.Location = New System.Drawing.Point(476, 979)
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox41.TabIndex = 100
+        Me.ELEM_GS.Location = New System.Drawing.Point(476, 979)
+        Me.ELEM_GS.Name = "ELEM_GS"
+        Me.ELEM_GS.Size = New System.Drawing.Size(101, 20)
+        Me.ELEM_GS.TabIndex = 100
+        Me.ELEM_GS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox42
+        'COLLEGE_TF
         '
-        Me.TextBox42.Location = New System.Drawing.Point(701, 1051)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox42.TabIndex = 111
+        Me.COLLEGE_TF.Location = New System.Drawing.Point(701, 1051)
+        Me.COLLEGE_TF.Name = "COLLEGE_TF"
+        Me.COLLEGE_TF.Size = New System.Drawing.Size(101, 20)
+        Me.COLLEGE_TF.TabIndex = 111
+        Me.COLLEGE_TF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox43
+        'HS_TF
         '
-        Me.TextBox43.Location = New System.Drawing.Point(701, 1014)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox43.TabIndex = 110
+        Me.HS_TF.Location = New System.Drawing.Point(701, 1014)
+        Me.HS_TF.Name = "HS_TF"
+        Me.HS_TF.Size = New System.Drawing.Size(101, 20)
+        Me.HS_TF.TabIndex = 110
+        Me.HS_TF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox44
+        'ELEM_TF
         '
-        Me.TextBox44.Location = New System.Drawing.Point(701, 979)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(101, 20)
-        Me.TextBox44.TabIndex = 109
+        Me.ELEM_TF.Location = New System.Drawing.Point(701, 979)
+        Me.ELEM_TF.Name = "ELEM_TF"
+        Me.ELEM_TF.Size = New System.Drawing.Size(101, 20)
+        Me.ELEM_TF.TabIndex = 109
+        Me.ELEM_TF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label64
         '
@@ -1218,15 +1250,15 @@ Partial Class CIRFORM1
         Me.Label64.Text = "_________________________________________________________________________________" &
     "___________________________________________________________________"
         '
-        'CheckBox1
+        'CB_NEW
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(333, 1226)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(52, 17)
-        Me.CheckBox1.TabIndex = 114
-        Me.CheckBox1.Text = "NEW"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.CB_NEW.AutoSize = True
+        Me.CB_NEW.Location = New System.Drawing.Point(333, 1226)
+        Me.CB_NEW.Name = "CB_NEW"
+        Me.CB_NEW.Size = New System.Drawing.Size(52, 17)
+        Me.CB_NEW.TabIndex = 114
+        Me.CB_NEW.Text = "NEW"
+        Me.CB_NEW.UseVisualStyleBackColor = True
         '
         'Label65
         '
@@ -1238,52 +1270,55 @@ Partial Class CIRFORM1
         Me.Label65.TabIndex = 115
         Me.Label65.Text = "TYPE OF LOAN"
         '
-        'CheckBox2
+        'CB_RENEW
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(430, 1226)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(80, 17)
-        Me.CheckBox2.TabIndex = 116
-        Me.CheckBox2.Text = "RENEWAL"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.CB_RENEW.AutoSize = True
+        Me.CB_RENEW.Location = New System.Drawing.Point(430, 1226)
+        Me.CB_RENEW.Name = "CB_RENEW"
+        Me.CB_RENEW.Size = New System.Drawing.Size(80, 17)
+        Me.CB_RENEW.TabIndex = 116
+        Me.CB_RENEW.Text = "RENEWAL"
+        Me.CB_RENEW.UseVisualStyleBackColor = True
         '
-        'CheckBox3
+        'CB_RESTUCT
         '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Location = New System.Drawing.Point(543, 1226)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(116, 17)
-        Me.CheckBox3.TabIndex = 117
-        Me.CheckBox3.Text = "RESTRUCTURED"
-        Me.CheckBox3.UseVisualStyleBackColor = True
+        Me.CB_RESTUCT.AutoSize = True
+        Me.CB_RESTUCT.Location = New System.Drawing.Point(543, 1226)
+        Me.CB_RESTUCT.Name = "CB_RESTUCT"
+        Me.CB_RESTUCT.Size = New System.Drawing.Size(116, 17)
+        Me.CB_RESTUCT.TabIndex = 117
+        Me.CB_RESTUCT.Text = "RESTRUCTURED"
+        Me.CB_RESTUCT.UseVisualStyleBackColor = True
         '
-        'TextBox49
+        'TOL_TERMS
         '
-        Me.TextBox49.Location = New System.Drawing.Point(204, 1368)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(527, 20)
-        Me.TextBox49.TabIndex = 124
+        Me.TOL_TERMS.Location = New System.Drawing.Point(306, 1366)
+        Me.TOL_TERMS.Name = "TOL_TERMS"
+        Me.TOL_TERMS.Size = New System.Drawing.Size(379, 20)
+        Me.TOL_TERMS.TabIndex = 124
+        Me.TOL_TERMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox50
+        'TOL_PURP
         '
-        Me.TextBox50.Location = New System.Drawing.Point(204, 1315)
-        Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(527, 20)
-        Me.TextBox50.TabIndex = 123
+        Me.TOL_PURP.Location = New System.Drawing.Point(306, 1313)
+        Me.TOL_PURP.Name = "TOL_PURP"
+        Me.TOL_PURP.Size = New System.Drawing.Size(379, 20)
+        Me.TOL_PURP.TabIndex = 123
+        Me.TOL_PURP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox51
+        'TOL_AAP
         '
-        Me.TextBox51.Location = New System.Drawing.Point(204, 1270)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(527, 20)
-        Me.TextBox51.TabIndex = 122
+        Me.TOL_AAP.Location = New System.Drawing.Point(306, 1268)
+        Me.TOL_AAP.Name = "TOL_AAP"
+        Me.TOL_AAP.Size = New System.Drawing.Size(379, 20)
+        Me.TOL_AAP.TabIndex = 122
+        Me.TOL_AAP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label66
         '
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label66.Location = New System.Drawing.Point(106, 1369)
+        Me.Label66.Location = New System.Drawing.Point(223, 1371)
         Me.Label66.Name = "Label66"
         Me.Label66.Size = New System.Drawing.Size(51, 16)
         Me.Label66.TabIndex = 121
@@ -1293,7 +1328,7 @@ Partial Class CIRFORM1
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label67.Location = New System.Drawing.Point(18, 1270)
+        Me.Label67.Location = New System.Drawing.Point(135, 1272)
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(151, 16)
         Me.Label67.TabIndex = 120
@@ -1303,31 +1338,33 @@ Partial Class CIRFORM1
         '
         Me.Label68.AutoSize = True
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label68.Location = New System.Drawing.Point(100, 1315)
+        Me.Label68.Location = New System.Drawing.Point(217, 1317)
         Me.Label68.Name = "Label68"
         Me.Label68.Size = New System.Drawing.Size(69, 16)
         Me.Label68.TabIndex = 119
         Me.Label68.Text = "Purpose "
         '
-        'TextBox52
+        'TOL_MOP
         '
-        Me.TextBox52.Location = New System.Drawing.Point(204, 1468)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(527, 20)
-        Me.TextBox52.TabIndex = 128
+        Me.TOL_MOP.Location = New System.Drawing.Point(306, 1466)
+        Me.TOL_MOP.Name = "TOL_MOP"
+        Me.TOL_MOP.Size = New System.Drawing.Size(379, 20)
+        Me.TOL_MOP.TabIndex = 128
+        Me.TOL_MOP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox53
+        'TOL_MR
         '
-        Me.TextBox53.Location = New System.Drawing.Point(204, 1418)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(527, 20)
-        Me.TextBox53.TabIndex = 127
+        Me.TOL_MR.Location = New System.Drawing.Point(306, 1416)
+        Me.TOL_MR.Name = "TOL_MR"
+        Me.TOL_MR.Size = New System.Drawing.Size(379, 20)
+        Me.TOL_MR.TabIndex = 127
+        Me.TOL_MR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label69
         '
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label69.Location = New System.Drawing.Point(30, 1468)
+        Me.Label69.Location = New System.Drawing.Point(147, 1470)
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(139, 16)
         Me.Label69.TabIndex = 126
@@ -1337,7 +1374,7 @@ Partial Class CIRFORM1
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label70.Location = New System.Drawing.Point(68, 1418)
+        Me.Label70.Location = New System.Drawing.Point(185, 1420)
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(101, 16)
         Me.Label70.TabIndex = 125
@@ -1413,19 +1450,21 @@ Partial Class CIRFORM1
         Me.Label77.TabIndex = 143
         Me.Label77.Text = "( MUNICIPALITY )"
         '
-        'TextBox54
+        'BR_PRO
         '
-        Me.TextBox54.Location = New System.Drawing.Point(575, 1723)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(319, 20)
-        Me.TextBox54.TabIndex = 142
+        Me.BR_PRO.Location = New System.Drawing.Point(575, 1723)
+        Me.BR_PRO.Name = "BR_PRO"
+        Me.BR_PRO.Size = New System.Drawing.Size(319, 20)
+        Me.BR_PRO.TabIndex = 142
+        Me.BR_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox55
+        'BR_MUN
         '
-        Me.TextBox55.Location = New System.Drawing.Point(219, 1723)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(319, 20)
-        Me.TextBox55.TabIndex = 141
+        Me.BR_MUN.Location = New System.Drawing.Point(219, 1723)
+        Me.BR_MUN.Name = "BR_MUN"
+        Me.BR_MUN.Size = New System.Drawing.Size(319, 20)
+        Me.BR_MUN.TabIndex = 141
+        Me.BR_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label78
         '
@@ -1457,26 +1496,29 @@ Partial Class CIRFORM1
         Me.Label80.TabIndex = 138
         Me.Label80.Text = "( HOUSE NO. )"
         '
-        'TextBox56
+        'BR_BRGY
         '
-        Me.TextBox56.Location = New System.Drawing.Point(682, 1675)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox56.TabIndex = 137
+        Me.BR_BRGY.Location = New System.Drawing.Point(682, 1675)
+        Me.BR_BRGY.Name = "BR_BRGY"
+        Me.BR_BRGY.Size = New System.Drawing.Size(212, 20)
+        Me.BR_BRGY.TabIndex = 137
+        Me.BR_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox57
+        'BR_ST
         '
-        Me.TextBox57.Location = New System.Drawing.Point(455, 1675)
-        Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox57.TabIndex = 136
+        Me.BR_ST.Location = New System.Drawing.Point(455, 1675)
+        Me.BR_ST.Name = "BR_ST"
+        Me.BR_ST.Size = New System.Drawing.Size(212, 20)
+        Me.BR_ST.TabIndex = 136
+        Me.BR_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox58
+        'BR_HOUSENO
         '
-        Me.TextBox58.Location = New System.Drawing.Point(219, 1675)
-        Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox58.TabIndex = 135
+        Me.BR_HOUSENO.Location = New System.Drawing.Point(219, 1675)
+        Me.BR_HOUSENO.Name = "BR_HOUSENO"
+        Me.BR_HOUSENO.Size = New System.Drawing.Size(212, 20)
+        Me.BR_HOUSENO.TabIndex = 135
+        Me.BR_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label81
         '
@@ -1488,12 +1530,13 @@ Partial Class CIRFORM1
         Me.Label81.TabIndex = 134
         Me.Label81.Text = "Complete Home Address:"
         '
-        'TextBox59
+        'BR_NOB
         '
-        Me.TextBox59.Location = New System.Drawing.Point(219, 1586)
-        Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(675, 20)
-        Me.TextBox59.TabIndex = 146
+        Me.BR_NOB.Location = New System.Drawing.Point(219, 1586)
+        Me.BR_NOB.Name = "BR_NOB"
+        Me.BR_NOB.Size = New System.Drawing.Size(675, 20)
+        Me.BR_NOB.TabIndex = 146
+        Me.BR_NOB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label82
         '
@@ -1505,12 +1548,13 @@ Partial Class CIRFORM1
         Me.Label82.TabIndex = 145
         Me.Label82.Text = "Kind / Name of Business:"
         '
-        'TextBox60
+        'BR_CONT
         '
-        Me.TextBox60.Location = New System.Drawing.Point(219, 1628)
-        Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox60.TabIndex = 148
+        Me.BR_CONT.Location = New System.Drawing.Point(219, 1628)
+        Me.BR_CONT.Name = "BR_CONT"
+        Me.BR_CONT.Size = New System.Drawing.Size(212, 20)
+        Me.BR_CONT.TabIndex = 148
+        Me.BR_CONT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label83
         '
@@ -1522,12 +1566,13 @@ Partial Class CIRFORM1
         Me.Label83.TabIndex = 147
         Me.Label83.Text = "Contact Number:"
         '
-        'TextBox61
+        'BR_NYB
         '
-        Me.TextBox61.Location = New System.Drawing.Point(219, 1820)
-        Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(319, 20)
-        Me.TextBox61.TabIndex = 152
+        Me.BR_NYB.Location = New System.Drawing.Point(219, 1820)
+        Me.BR_NYB.Name = "BR_NYB"
+        Me.BR_NYB.Size = New System.Drawing.Size(319, 20)
+        Me.BR_NYB.TabIndex = 152
+        Me.BR_NYB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label84
         '
@@ -1539,12 +1584,13 @@ Partial Class CIRFORM1
         Me.Label84.TabIndex = 151
         Me.Label84.Text = "No. of Year in Business:"
         '
-        'TextBox62
+        'BR_TOB
         '
-        Me.TextBox62.Location = New System.Drawing.Point(219, 1767)
-        Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(319, 20)
-        Me.TextBox62.TabIndex = 150
+        Me.BR_TOB.Location = New System.Drawing.Point(219, 1767)
+        Me.BR_TOB.Name = "BR_TOB"
+        Me.BR_TOB.Size = New System.Drawing.Size(319, 20)
+        Me.BR_TOB.TabIndex = 150
+        Me.BR_TOB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label85
         '
@@ -1556,12 +1602,13 @@ Partial Class CIRFORM1
         Me.Label85.TabIndex = 149
         Me.Label85.Text = "Type of Business "
         '
-        'TextBox63
+        'BR_BC
         '
-        Me.TextBox63.Location = New System.Drawing.Point(219, 1872)
-        Me.TextBox63.Name = "TextBox63"
-        Me.TextBox63.Size = New System.Drawing.Size(319, 20)
-        Me.TextBox63.TabIndex = 154
+        Me.BR_BC.Location = New System.Drawing.Point(219, 1872)
+        Me.BR_BC.Name = "BR_BC"
+        Me.BR_BC.Size = New System.Drawing.Size(319, 20)
+        Me.BR_BC.TabIndex = 154
+        Me.BR_BC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label86
         '
@@ -1713,40 +1760,45 @@ Partial Class CIRFORM1
         Me.Label100.TabIndex = 168
         Me.Label100.Text = "Monthly Salary:"
         '
-        'TextBox64
+        'ER_COMP
         '
-        Me.TextBox64.Location = New System.Drawing.Point(172, 2082)
-        Me.TextBox64.Name = "TextBox64"
-        Me.TextBox64.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox64.TabIndex = 169
+        Me.ER_COMP.Location = New System.Drawing.Point(172, 2082)
+        Me.ER_COMP.Name = "ER_COMP"
+        Me.ER_COMP.Size = New System.Drawing.Size(258, 20)
+        Me.ER_COMP.TabIndex = 169
+        Me.ER_COMP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox65
+        'ER_POS
         '
-        Me.TextBox65.Location = New System.Drawing.Point(172, 2129)
-        Me.TextBox65.Name = "TextBox65"
-        Me.TextBox65.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox65.TabIndex = 170
+        Me.ER_POS.Location = New System.Drawing.Point(172, 2129)
+        Me.ER_POS.Name = "ER_POS"
+        Me.ER_POS.Size = New System.Drawing.Size(258, 20)
+        Me.ER_POS.TabIndex = 170
+        Me.ER_POS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox66
+        'ER_STATUS
         '
-        Me.TextBox66.Location = New System.Drawing.Point(172, 2177)
-        Me.TextBox66.Name = "TextBox66"
-        Me.TextBox66.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox66.TabIndex = 171
+        Me.ER_STATUS.Location = New System.Drawing.Point(172, 2177)
+        Me.ER_STATUS.Name = "ER_STATUS"
+        Me.ER_STATUS.Size = New System.Drawing.Size(258, 20)
+        Me.ER_STATUS.TabIndex = 171
+        Me.ER_STATUS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox67
+        'ER_LOS
         '
-        Me.TextBox67.Location = New System.Drawing.Point(172, 2224)
-        Me.TextBox67.Name = "TextBox67"
-        Me.TextBox67.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox67.TabIndex = 172
+        Me.ER_LOS.Location = New System.Drawing.Point(172, 2224)
+        Me.ER_LOS.Name = "ER_LOS"
+        Me.ER_LOS.Size = New System.Drawing.Size(258, 20)
+        Me.ER_LOS.TabIndex = 172
+        Me.ER_LOS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox68
+        'ER_MS
         '
-        Me.TextBox68.Location = New System.Drawing.Point(172, 2273)
-        Me.TextBox68.Name = "TextBox68"
-        Me.TextBox68.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox68.TabIndex = 173
+        Me.ER_MS.Location = New System.Drawing.Point(172, 2273)
+        Me.ER_MS.Name = "ER_MS"
+        Me.ER_MS.Size = New System.Drawing.Size(258, 20)
+        Me.ER_MS.TabIndex = 173
+        Me.ER_MS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label101
         '
@@ -1798,40 +1850,45 @@ Partial Class CIRFORM1
         Me.Label105.TabIndex = 174
         Me.Label105.Text = "Company:"
         '
-        'TextBox69
+        'ER_MS1
         '
-        Me.TextBox69.Location = New System.Drawing.Point(617, 2271)
-        Me.TextBox69.Name = "TextBox69"
-        Me.TextBox69.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox69.TabIndex = 183
+        Me.ER_MS1.Location = New System.Drawing.Point(617, 2271)
+        Me.ER_MS1.Name = "ER_MS1"
+        Me.ER_MS1.Size = New System.Drawing.Size(258, 20)
+        Me.ER_MS1.TabIndex = 183
+        Me.ER_MS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox70
+        'ER_LOS1
         '
-        Me.TextBox70.Location = New System.Drawing.Point(617, 2222)
-        Me.TextBox70.Name = "TextBox70"
-        Me.TextBox70.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox70.TabIndex = 182
+        Me.ER_LOS1.Location = New System.Drawing.Point(617, 2222)
+        Me.ER_LOS1.Name = "ER_LOS1"
+        Me.ER_LOS1.Size = New System.Drawing.Size(258, 20)
+        Me.ER_LOS1.TabIndex = 182
+        Me.ER_LOS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox71
+        'ER_STATUS1
         '
-        Me.TextBox71.Location = New System.Drawing.Point(617, 2175)
-        Me.TextBox71.Name = "TextBox71"
-        Me.TextBox71.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox71.TabIndex = 181
+        Me.ER_STATUS1.Location = New System.Drawing.Point(617, 2175)
+        Me.ER_STATUS1.Name = "ER_STATUS1"
+        Me.ER_STATUS1.Size = New System.Drawing.Size(258, 20)
+        Me.ER_STATUS1.TabIndex = 181
+        Me.ER_STATUS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox72
+        'ER_POS1
         '
-        Me.TextBox72.Location = New System.Drawing.Point(617, 2127)
-        Me.TextBox72.Name = "TextBox72"
-        Me.TextBox72.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox72.TabIndex = 180
+        Me.ER_POS1.Location = New System.Drawing.Point(617, 2127)
+        Me.ER_POS1.Name = "ER_POS1"
+        Me.ER_POS1.Size = New System.Drawing.Size(258, 20)
+        Me.ER_POS1.TabIndex = 180
+        Me.ER_POS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox73
+        'ER_COMP1
         '
-        Me.TextBox73.Location = New System.Drawing.Point(617, 2080)
-        Me.TextBox73.Name = "TextBox73"
-        Me.TextBox73.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox73.TabIndex = 179
+        Me.ER_COMP1.Location = New System.Drawing.Point(617, 2080)
+        Me.ER_COMP1.Name = "ER_COMP1"
+        Me.ER_COMP1.Size = New System.Drawing.Size(258, 20)
+        Me.ER_COMP1.TabIndex = 179
+        Me.ER_COMP1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label106
         '
@@ -1949,12 +2006,13 @@ Partial Class CIRFORM1
         Me.Label112.TabIndex = 191
         Me.Label112.Text = "Occupation:"
         '
-        'TextBox74
+        'CC_OCCU
         '
-        Me.TextBox74.Location = New System.Drawing.Point(161, 2884)
-        Me.TextBox74.Name = "TextBox74"
-        Me.TextBox74.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox74.TabIndex = 192
+        Me.CC_OCCU.Location = New System.Drawing.Point(161, 2884)
+        Me.CC_OCCU.Name = "CC_OCCU"
+        Me.CC_OCCU.Size = New System.Drawing.Size(212, 20)
+        Me.CC_OCCU.TabIndex = 192
+        Me.CC_OCCU.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label113
         '
@@ -2036,19 +2094,19 @@ Partial Class CIRFORM1
         Me.Label138.TabIndex = 230
         Me.Label138.Text = "Name and Address of Interviewed Neighbors"
         '
-        'TextBox87
+        'NF_NAIN1
         '
-        Me.TextBox87.Location = New System.Drawing.Point(79, 3213)
-        Me.TextBox87.Name = "TextBox87"
-        Me.TextBox87.Size = New System.Drawing.Size(737, 20)
-        Me.TextBox87.TabIndex = 231
+        Me.NF_NAIN1.Location = New System.Drawing.Point(79, 3213)
+        Me.NF_NAIN1.Name = "NF_NAIN1"
+        Me.NF_NAIN1.Size = New System.Drawing.Size(737, 20)
+        Me.NF_NAIN1.TabIndex = 231
         '
-        'TextBox89
+        'NF_NAIN2
         '
-        Me.TextBox89.Location = New System.Drawing.Point(79, 3249)
-        Me.TextBox89.Name = "TextBox89"
-        Me.TextBox89.Size = New System.Drawing.Size(737, 20)
-        Me.TextBox89.TabIndex = 233
+        Me.NF_NAIN2.Location = New System.Drawing.Point(79, 3249)
+        Me.NF_NAIN2.Name = "NF_NAIN2"
+        Me.NF_NAIN2.Size = New System.Drawing.Size(737, 20)
+        Me.NF_NAIN2.TabIndex = 233
         '
         'Label141
         '
@@ -2060,12 +2118,13 @@ Partial Class CIRFORM1
         Me.Label141.TabIndex = 237
         Me.Label141.Text = "Remarks from owner if rented "
         '
-        'TextBox93
+        'NF_ROR
         '
-        Me.TextBox93.Location = New System.Drawing.Point(259, 3406)
-        Me.TextBox93.Name = "TextBox93"
-        Me.TextBox93.Size = New System.Drawing.Size(516, 20)
-        Me.TextBox93.TabIndex = 240
+        Me.NF_ROR.Location = New System.Drawing.Point(259, 3406)
+        Me.NF_ROR.Name = "NF_ROR"
+        Me.NF_ROR.Size = New System.Drawing.Size(516, 20)
+        Me.NF_ROR.TabIndex = 240
+        Me.NF_ROR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label142
         '
@@ -2087,12 +2146,13 @@ Partial Class CIRFORM1
         Me.Label143.TabIndex = 248
         Me.Label143.Text = "BUSINESS ADDRESS"
         '
-        'TextBox94
+        'NF_ROR1
         '
-        Me.TextBox94.Location = New System.Drawing.Point(259, 3595)
-        Me.TextBox94.Name = "TextBox94"
-        Me.TextBox94.Size = New System.Drawing.Size(516, 20)
-        Me.TextBox94.TabIndex = 247
+        Me.NF_ROR1.Location = New System.Drawing.Point(259, 3595)
+        Me.NF_ROR1.Name = "NF_ROR1"
+        Me.NF_ROR1.Size = New System.Drawing.Size(516, 20)
+        Me.NF_ROR1.TabIndex = 247
+        Me.NF_ROR1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label144
         '
@@ -2164,44 +2224,44 @@ Partial Class CIRFORM1
         Me.Label135.Text = "_________________________________________________________________________________" &
     "___________________________________________________________________"
         '
-        'Button2
+        'CIR_BACKBTN
         '
-        Me.Button2.BackColor = System.Drawing.Color.DimGray
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Transparent
-        Me.Button2.Location = New System.Drawing.Point(639, 4313)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(124, 40)
-        Me.Button2.TabIndex = 278
-        Me.Button2.Text = "BACK "
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.CIR_BACKBTN.BackColor = System.Drawing.Color.DimGray
+        Me.CIR_BACKBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.CIR_BACKBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CIR_BACKBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.CIR_BACKBTN.Location = New System.Drawing.Point(639, 4313)
+        Me.CIR_BACKBTN.Name = "CIR_BACKBTN"
+        Me.CIR_BACKBTN.Size = New System.Drawing.Size(124, 40)
+        Me.CIR_BACKBTN.TabIndex = 278
+        Me.CIR_BACKBTN.Text = "BACK "
+        Me.CIR_BACKBTN.UseVisualStyleBackColor = False
         '
-        'Button4
+        'LIA_ADDBTN
         '
-        Me.Button4.BackColor = System.Drawing.Color.DimGray
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.Transparent
-        Me.Button4.Location = New System.Drawing.Point(297, 2474)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(88, 26)
-        Me.Button4.TabIndex = 280
-        Me.Button4.Text = "ADD"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.LIA_ADDBTN.BackColor = System.Drawing.Color.DimGray
+        Me.LIA_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.LIA_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_ADDBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.LIA_ADDBTN.Location = New System.Drawing.Point(297, 2474)
+        Me.LIA_ADDBTN.Name = "LIA_ADDBTN"
+        Me.LIA_ADDBTN.Size = New System.Drawing.Size(88, 26)
+        Me.LIA_ADDBTN.TabIndex = 280
+        Me.LIA_ADDBTN.Text = "ADD"
+        Me.LIA_ADDBTN.UseVisualStyleBackColor = False
         '
-        'Button5
+        'COL_ADDBTN
         '
-        Me.Button5.BackColor = System.Drawing.Color.DimGray
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.Color.Transparent
-        Me.Button5.Location = New System.Drawing.Point(295, 3919)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(88, 26)
-        Me.Button5.TabIndex = 281
-        Me.Button5.Text = "ADD"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.COL_ADDBTN.BackColor = System.Drawing.Color.DimGray
+        Me.COL_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.COL_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_ADDBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.COL_ADDBTN.Location = New System.Drawing.Point(295, 3919)
+        Me.COL_ADDBTN.Name = "COL_ADDBTN"
+        Me.COL_ADDBTN.Size = New System.Drawing.Size(88, 26)
+        Me.COL_ADDBTN.TabIndex = 281
+        Me.COL_ADDBTN.Text = "ADD"
+        Me.COL_ADDBTN.UseVisualStyleBackColor = False
         '
         'Label61
         '
@@ -2233,81 +2293,85 @@ Partial Class CIRFORM1
         Me.Label63.TabIndex = 284
         Me.Label63.Text = "2."
         '
-        'ComboBox2
+        'CIR_MON
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(170, 260)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 285
+        Me.CIR_MON.FormattingEnabled = True
+        Me.CIR_MON.Items.AddRange(New Object() {"JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"})
+        Me.CIR_MON.Location = New System.Drawing.Point(170, 260)
+        Me.CIR_MON.Name = "CIR_MON"
+        Me.CIR_MON.Size = New System.Drawing.Size(121, 21)
+        Me.CIR_MON.TabIndex = 285
         '
-        'ComboBox3
+        'CIR_DAY
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(297, 260)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(84, 21)
-        Me.ComboBox3.TabIndex = 286
+        Me.CIR_DAY.FormattingEnabled = True
+        Me.CIR_DAY.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
+        Me.CIR_DAY.Location = New System.Drawing.Point(297, 260)
+        Me.CIR_DAY.Name = "CIR_DAY"
+        Me.CIR_DAY.Size = New System.Drawing.Size(84, 21)
+        Me.CIR_DAY.TabIndex = 286
         '
-        'ComboBox4
+        'CIR_YR
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(388, 260)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(84, 21)
-        Me.ComboBox4.TabIndex = 287
+        Me.CIR_YR.FormattingEnabled = True
+        Me.CIR_YR.Items.AddRange(New Object() {"1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"})
+        Me.CIR_YR.Location = New System.Drawing.Point(388, 260)
+        Me.CIR_YR.Name = "CIR_YR"
+        Me.CIR_YR.Size = New System.Drawing.Size(84, 21)
+        Me.CIR_YR.TabIndex = 287
         '
-        'ComboBox5
+        'NOD_NS
         '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(257, 867)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(101, 21)
-        Me.ComboBox5.TabIndex = 288
+        Me.NOD_NS.FormattingEnabled = True
+        Me.NOD_NS.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        Me.NOD_NS.Location = New System.Drawing.Point(257, 867)
+        Me.NOD_NS.Name = "NOD_NS"
+        Me.NOD_NS.Size = New System.Drawing.Size(101, 21)
+        Me.NOD_NS.TabIndex = 288
         '
-        'CheckBox7
+        'CB_AGRI
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.CheckBox7.Location = New System.Drawing.Point(748, 4227)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(141, 20)
-        Me.CheckBox7.TabIndex = 336
-        Me.CheckBox7.Text = "AGRICULTURAL"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.CB_AGRI.AutoSize = True
+        Me.CB_AGRI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.CB_AGRI.Location = New System.Drawing.Point(748, 4227)
+        Me.CB_AGRI.Name = "CB_AGRI"
+        Me.CB_AGRI.Size = New System.Drawing.Size(141, 20)
+        Me.CB_AGRI.TabIndex = 336
+        Me.CB_AGRI.Text = "AGRICULTURAL"
+        Me.CB_AGRI.UseVisualStyleBackColor = True
         '
-        'CheckBox6
+        'CB_RESI
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.CheckBox6.Location = New System.Drawing.Point(569, 4227)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(125, 20)
-        Me.CheckBox6.TabIndex = 335
-        Me.CheckBox6.Text = "RESIDENTIAL"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.CB_RESI.AutoSize = True
+        Me.CB_RESI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.CB_RESI.Location = New System.Drawing.Point(569, 4227)
+        Me.CB_RESI.Name = "CB_RESI"
+        Me.CB_RESI.Size = New System.Drawing.Size(125, 20)
+        Me.CB_RESI.TabIndex = 335
+        Me.CB_RESI.Text = "RESIDENTIAL"
+        Me.CB_RESI.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'CB_INDU
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.CheckBox5.Location = New System.Drawing.Point(376, 4228)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(116, 20)
-        Me.CheckBox5.TabIndex = 334
-        Me.CheckBox5.Text = "INDUSTRIAL"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.CB_INDU.AutoSize = True
+        Me.CB_INDU.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.CB_INDU.Location = New System.Drawing.Point(376, 4228)
+        Me.CB_INDU.Name = "CB_INDU"
+        Me.CB_INDU.Size = New System.Drawing.Size(116, 20)
+        Me.CB_INDU.TabIndex = 334
+        Me.CB_INDU.Text = "INDUSTRIAL"
+        Me.CB_INDU.UseVisualStyleBackColor = True
         '
-        'CheckBox4
+        'CB_COM
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.CheckBox4.Location = New System.Drawing.Point(189, 4228)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(124, 20)
-        Me.CheckBox4.TabIndex = 333
-        Me.CheckBox4.Text = "COMMERCIAL"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.CB_COM.AutoSize = True
+        Me.CB_COM.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.CB_COM.Location = New System.Drawing.Point(189, 4228)
+        Me.CB_COM.Name = "CB_COM"
+        Me.CB_COM.Size = New System.Drawing.Size(124, 20)
+        Me.CB_COM.TabIndex = 333
+        Me.CB_COM.Text = "COMMERCIAL"
+        Me.CB_COM.UseVisualStyleBackColor = True
         '
         'Label147
         '
@@ -2338,128 +2402,6 @@ Partial Class CIRFORM1
         Me.Label126.TabIndex = 481
         Me.Label126.Text = "_________________________________________________________________________________" &
     "___________________________________________________________________"
-        '
-        'TextBox45
-        '
-        Me.TextBox45.Location = New System.Drawing.Point(159, 14)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox45.TabIndex = 289
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(159, 40)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox7.TabIndex = 290
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(626, 14)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox6.TabIndex = 291
-        '
-        'Label121
-        '
-        Me.Label121.AutoSize = True
-        Me.Label121.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label121.Location = New System.Drawing.Point(22, 14)
-        Me.Label121.Name = "Label121"
-        Me.Label121.Size = New System.Drawing.Size(127, 16)
-        Me.Label121.TabIndex = 292
-        Me.Label121.Text = "Bank / Lending / :"
-        '
-        'Label120
-        '
-        Me.Label120.AutoSize = True
-        Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label120.Location = New System.Drawing.Point(22, 40)
-        Me.Label120.Name = "Label120"
-        Me.Label120.Size = New System.Drawing.Size(74, 16)
-        Me.Label120.TabIndex = 293
-        Me.Label120.Text = "Creditors:"
-        '
-        'Label119
-        '
-        Me.Label119.AutoSize = True
-        Me.Label119.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label119.Location = New System.Drawing.Point(22, 68)
-        Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(103, 16)
-        Me.Label119.TabIndex = 294
-        Me.Label119.Text = "Date Granted:"
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(159, 68)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox5.TabIndex = 295
-        '
-        'Label118
-        '
-        Me.Label118.AutoSize = True
-        Me.Label118.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label118.Location = New System.Drawing.Point(489, 14)
-        Me.Label118.Name = "Label118"
-        Me.Label118.Size = New System.Drawing.Size(76, 16)
-        Me.Label118.TabIndex = 296
-        Me.Label118.Text = "Due Date:"
-        '
-        'TextBox46
-        '
-        Me.TextBox46.Location = New System.Drawing.Point(626, 40)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox46.TabIndex = 297
-        '
-        'Label122
-        '
-        Me.Label122.AutoSize = True
-        Me.Label122.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label122.Location = New System.Drawing.Point(489, 40)
-        Me.Label122.Name = "Label122"
-        Me.Label122.Size = New System.Drawing.Size(100, 16)
-        Me.Label122.TabIndex = 298
-        Me.Label122.Text = "Amount Loan:"
-        '
-        'TextBox47
-        '
-        Me.TextBox47.Location = New System.Drawing.Point(626, 68)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(212, 20)
-        Me.TextBox47.TabIndex = 299
-        '
-        'Label123
-        '
-        Me.Label123.AutoSize = True
-        Me.Label123.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.Label123.Location = New System.Drawing.Point(489, 68)
-        Me.Label123.Name = "Label123"
-        Me.Label123.Size = New System.Drawing.Size(68, 16)
-        Me.Label123.TabIndex = 300
-        Me.Label123.Text = "Balance:"
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Label123)
-        Me.Panel1.Controls.Add(Me.TextBox47)
-        Me.Panel1.Controls.Add(Me.Label122)
-        Me.Panel1.Controls.Add(Me.TextBox46)
-        Me.Panel1.Controls.Add(Me.Label118)
-        Me.Panel1.Controls.Add(Me.TextBox5)
-        Me.Panel1.Controls.Add(Me.Label119)
-        Me.Panel1.Controls.Add(Me.Label120)
-        Me.Panel1.Controls.Add(Me.Label121)
-        Me.Panel1.Controls.Add(Me.TextBox6)
-        Me.Panel1.Controls.Add(Me.TextBox7)
-        Me.Panel1.Controls.Add(Me.TextBox45)
-        Me.Panel1.Location = New System.Drawing.Point(26, 4489)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(877, 106)
-        Me.Panel1.TabIndex = 301
-        Me.Panel1.Visible = False
         '
         'Label127
         '
@@ -2521,86 +2463,92 @@ Partial Class CIRFORM1
         Me.Label132.TabIndex = 491
         Me.Label132.Text = "Amount Loan:"
         '
-        'TextBox48
+        'LIA_BL
         '
-        Me.TextBox48.Location = New System.Drawing.Point(172, 2375)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox48.TabIndex = 493
+        Me.LIA_BL.Location = New System.Drawing.Point(172, 2375)
+        Me.LIA_BL.Name = "LIA_BL"
+        Me.LIA_BL.Size = New System.Drawing.Size(258, 20)
+        Me.LIA_BL.TabIndex = 493
+        Me.LIA_BL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox75
+        'LIA_CRED
         '
-        Me.TextBox75.Location = New System.Drawing.Point(172, 2400)
-        Me.TextBox75.Name = "TextBox75"
-        Me.TextBox75.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox75.TabIndex = 494
+        Me.LIA_CRED.Location = New System.Drawing.Point(172, 2400)
+        Me.LIA_CRED.Name = "LIA_CRED"
+        Me.LIA_CRED.Size = New System.Drawing.Size(258, 20)
+        Me.LIA_CRED.TabIndex = 494
+        Me.LIA_CRED.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox76
+        'LIA_DG
         '
-        Me.TextBox76.Location = New System.Drawing.Point(172, 2426)
-        Me.TextBox76.Name = "TextBox76"
-        Me.TextBox76.Size = New System.Drawing.Size(258, 20)
-        Me.TextBox76.TabIndex = 495
+        Me.LIA_DG.Location = New System.Drawing.Point(172, 2426)
+        Me.LIA_DG.Name = "LIA_DG"
+        Me.LIA_DG.Size = New System.Drawing.Size(258, 20)
+        Me.LIA_DG.TabIndex = 495
+        Me.LIA_DG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox77
+        'LIA_DD
         '
-        Me.TextBox77.Location = New System.Drawing.Point(648, 2375)
-        Me.TextBox77.Name = "TextBox77"
-        Me.TextBox77.Size = New System.Drawing.Size(227, 20)
-        Me.TextBox77.TabIndex = 496
+        Me.LIA_DD.Location = New System.Drawing.Point(648, 2375)
+        Me.LIA_DD.Name = "LIA_DD"
+        Me.LIA_DD.Size = New System.Drawing.Size(227, 20)
+        Me.LIA_DD.TabIndex = 496
+        Me.LIA_DD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox78
+        'LIA_AL
         '
-        Me.TextBox78.Location = New System.Drawing.Point(648, 2400)
-        Me.TextBox78.Name = "TextBox78"
-        Me.TextBox78.Size = New System.Drawing.Size(227, 20)
-        Me.TextBox78.TabIndex = 497
+        Me.LIA_AL.Location = New System.Drawing.Point(648, 2400)
+        Me.LIA_AL.Name = "LIA_AL"
+        Me.LIA_AL.Size = New System.Drawing.Size(227, 20)
+        Me.LIA_AL.TabIndex = 497
+        Me.LIA_AL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox79
+        'LIA_BAL
         '
-        Me.TextBox79.Location = New System.Drawing.Point(648, 2426)
-        Me.TextBox79.Name = "TextBox79"
-        Me.TextBox79.Size = New System.Drawing.Size(227, 20)
-        Me.TextBox79.TabIndex = 498
+        Me.LIA_BAL.Location = New System.Drawing.Point(648, 2426)
+        Me.LIA_BAL.Name = "LIA_BAL"
+        Me.LIA_BAL.Size = New System.Drawing.Size(227, 20)
+        Me.LIA_BAL.TabIndex = 498
+        Me.LIA_BAL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Button6
+        'LIA_UPBTN
         '
-        Me.Button6.BackColor = System.Drawing.Color.DimGray
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.Color.Transparent
-        Me.Button6.Location = New System.Drawing.Point(401, 2474)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(88, 26)
-        Me.Button6.TabIndex = 500
-        Me.Button6.Text = "UPDATE"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.LIA_UPBTN.BackColor = System.Drawing.Color.DimGray
+        Me.LIA_UPBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.LIA_UPBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_UPBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.LIA_UPBTN.Location = New System.Drawing.Point(401, 2474)
+        Me.LIA_UPBTN.Name = "LIA_UPBTN"
+        Me.LIA_UPBTN.Size = New System.Drawing.Size(88, 26)
+        Me.LIA_UPBTN.TabIndex = 500
+        Me.LIA_UPBTN.Text = "UPDATE"
+        Me.LIA_UPBTN.UseVisualStyleBackColor = False
         '
-        'Button7
+        'LIA_REMBTN
         '
-        Me.Button7.BackColor = System.Drawing.Color.DimGray
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.ForeColor = System.Drawing.Color.Transparent
-        Me.Button7.Location = New System.Drawing.Point(503, 2474)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(88, 26)
-        Me.Button7.TabIndex = 501
-        Me.Button7.Text = "REMOVE"
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.LIA_REMBTN.BackColor = System.Drawing.Color.DimGray
+        Me.LIA_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.LIA_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_REMBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.LIA_REMBTN.Location = New System.Drawing.Point(503, 2474)
+        Me.LIA_REMBTN.Name = "LIA_REMBTN"
+        Me.LIA_REMBTN.Size = New System.Drawing.Size(88, 26)
+        Me.LIA_REMBTN.TabIndex = 501
+        Me.LIA_REMBTN.Text = "REMOVE"
+        Me.LIA_REMBTN.UseVisualStyleBackColor = False
         '
-        'Button8
+        'LIA_REMALLBTN
         '
-        Me.Button8.BackColor = System.Drawing.Color.DimGray
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.ForeColor = System.Drawing.Color.Transparent
-        Me.Button8.Location = New System.Drawing.Point(607, 2474)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(117, 26)
-        Me.Button8.TabIndex = 502
-        Me.Button8.Text = "REMOVE ALL"
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.LIA_REMALLBTN.BackColor = System.Drawing.Color.DimGray
+        Me.LIA_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.LIA_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_REMALLBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.LIA_REMALLBTN.Location = New System.Drawing.Point(607, 2474)
+        Me.LIA_REMALLBTN.Name = "LIA_REMALLBTN"
+        Me.LIA_REMALLBTN.Size = New System.Drawing.Size(117, 26)
+        Me.LIA_REMALLBTN.TabIndex = 502
+        Me.LIA_REMALLBTN.Text = "REMOVE ALL"
+        Me.LIA_REMALLBTN.UseVisualStyleBackColor = False
         '
         'Label133
         '
@@ -2652,127 +2600,152 @@ Partial Class CIRFORM1
         Me.Label150.TabIndex = 507
         Me.Label150.Text = "Purchase Value:"
         '
-        'TextBox80
+        'C_KHP
         '
-        Me.TextBox80.Location = New System.Drawing.Point(239, 3792)
-        Me.TextBox80.Name = "TextBox80"
-        Me.TextBox80.Size = New System.Drawing.Size(238, 20)
-        Me.TextBox80.TabIndex = 508
+        Me.C_KHP.Location = New System.Drawing.Point(239, 3792)
+        Me.C_KHP.Name = "C_KHP"
+        Me.C_KHP.Size = New System.Drawing.Size(238, 20)
+        Me.C_KHP.TabIndex = 508
+        Me.C_KHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox81
+        'C_MN
         '
-        Me.TextBox81.Location = New System.Drawing.Point(167, 3824)
-        Me.TextBox81.Name = "TextBox81"
-        Me.TextBox81.Size = New System.Drawing.Size(310, 20)
-        Me.TextBox81.TabIndex = 509
+        Me.C_MN.Location = New System.Drawing.Point(167, 3824)
+        Me.C_MN.Name = "C_MN"
+        Me.C_MN.Size = New System.Drawing.Size(310, 20)
+        Me.C_MN.TabIndex = 509
+        Me.C_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox82
+        'C_SN
         '
-        Me.TextBox82.Location = New System.Drawing.Point(167, 3861)
-        Me.TextBox82.Name = "TextBox82"
-        Me.TextBox82.Size = New System.Drawing.Size(310, 20)
-        Me.TextBox82.TabIndex = 510
+        Me.C_SN.Location = New System.Drawing.Point(167, 3861)
+        Me.C_SN.Name = "C_SN"
+        Me.C_SN.Size = New System.Drawing.Size(310, 20)
+        Me.C_SN.TabIndex = 510
+        Me.C_SN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox83
+        'C_YP
         '
-        Me.TextBox83.Location = New System.Drawing.Point(643, 3792)
-        Me.TextBox83.Name = "TextBox83"
-        Me.TextBox83.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox83.TabIndex = 511
+        Me.C_YP.Location = New System.Drawing.Point(643, 3792)
+        Me.C_YP.Name = "C_YP"
+        Me.C_YP.Size = New System.Drawing.Size(202, 20)
+        Me.C_YP.TabIndex = 511
+        Me.C_YP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox84
+        'C_PV
         '
-        Me.TextBox84.Location = New System.Drawing.Point(643, 3824)
-        Me.TextBox84.Name = "TextBox84"
-        Me.TextBox84.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox84.TabIndex = 512
+        Me.C_PV.Location = New System.Drawing.Point(643, 3824)
+        Me.C_PV.Name = "C_PV"
+        Me.C_PV.Size = New System.Drawing.Size(203, 20)
+        Me.C_PV.TabIndex = 512
+        Me.C_PV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'Button10
+        'COL_UPBUTTON
         '
-        Me.Button10.BackColor = System.Drawing.Color.DimGray
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.ForeColor = System.Drawing.Color.Transparent
-        Me.Button10.Location = New System.Drawing.Point(400, 3919)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(88, 26)
-        Me.Button10.TabIndex = 514
-        Me.Button10.Text = "UPDATE"
-        Me.Button10.UseVisualStyleBackColor = False
+        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.DimGray
+        Me.COL_UPBUTTON.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.COL_UPBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_UPBUTTON.ForeColor = System.Drawing.Color.Transparent
+        Me.COL_UPBUTTON.Location = New System.Drawing.Point(400, 3919)
+        Me.COL_UPBUTTON.Name = "COL_UPBUTTON"
+        Me.COL_UPBUTTON.Size = New System.Drawing.Size(88, 26)
+        Me.COL_UPBUTTON.TabIndex = 514
+        Me.COL_UPBUTTON.Text = "UPDATE"
+        Me.COL_UPBUTTON.UseVisualStyleBackColor = False
         '
-        'Button11
+        'COL_REMBTN
         '
-        Me.Button11.BackColor = System.Drawing.Color.DimGray
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.ForeColor = System.Drawing.Color.Transparent
-        Me.Button11.Location = New System.Drawing.Point(503, 3919)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(88, 26)
-        Me.Button11.TabIndex = 515
-        Me.Button11.Text = "REMOVE"
-        Me.Button11.UseVisualStyleBackColor = False
+        Me.COL_REMBTN.BackColor = System.Drawing.Color.DimGray
+        Me.COL_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.COL_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_REMBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.COL_REMBTN.Location = New System.Drawing.Point(503, 3919)
+        Me.COL_REMBTN.Name = "COL_REMBTN"
+        Me.COL_REMBTN.Size = New System.Drawing.Size(88, 26)
+        Me.COL_REMBTN.TabIndex = 515
+        Me.COL_REMBTN.Text = "REMOVE"
+        Me.COL_REMBTN.UseVisualStyleBackColor = False
         '
-        'Button12
+        'COL_REMALLBTN
         '
-        Me.Button12.BackColor = System.Drawing.Color.DimGray
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.ForeColor = System.Drawing.Color.Transparent
-        Me.Button12.Location = New System.Drawing.Point(607, 3919)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(115, 26)
-        Me.Button12.TabIndex = 516
-        Me.Button12.Text = "REMOVE ALL"
-        Me.Button12.UseVisualStyleBackColor = False
+        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.DimGray
+        Me.COL_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.COL_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_REMALLBTN.ForeColor = System.Drawing.Color.Transparent
+        Me.COL_REMALLBTN.Location = New System.Drawing.Point(607, 3919)
+        Me.COL_REMALLBTN.Name = "COL_REMALLBTN"
+        Me.COL_REMALLBTN.Size = New System.Drawing.Size(115, 26)
+        Me.COL_REMALLBTN.TabIndex = 516
+        Me.COL_REMALLBTN.Text = "REMOVE ALL"
+        Me.COL_REMALLBTN.UseVisualStyleBackColor = False
         '
-        'RadioButton1
+        'NF_OWN
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton1.Location = New System.Drawing.Point(131, 3371)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(72, 20)
-        Me.RadioButton1.TabIndex = 517
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Owned"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.NF_OWN.AutoSize = True
+        Me.NF_OWN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.NF_OWN.Location = New System.Drawing.Point(11, 19)
+        Me.NF_OWN.Name = "NF_OWN"
+        Me.NF_OWN.Size = New System.Drawing.Size(72, 20)
+        Me.NF_OWN.TabIndex = 517
+        Me.NF_OWN.TabStop = True
+        Me.NF_OWN.Text = "Owned"
+        Me.NF_OWN.UseVisualStyleBackColor = True
         '
-        'RadioButton2
+        'NF_RENT
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton2.Location = New System.Drawing.Point(131, 3422)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(75, 20)
-        Me.RadioButton2.TabIndex = 518
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "Rented"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.NF_RENT.AutoSize = True
+        Me.NF_RENT.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NF_RENT.Location = New System.Drawing.Point(11, 70)
+        Me.NF_RENT.Name = "NF_RENT"
+        Me.NF_RENT.Size = New System.Drawing.Size(75, 20)
+        Me.NF_RENT.TabIndex = 518
+        Me.NF_RENT.TabStop = True
+        Me.NF_RENT.Text = "Rented"
+        Me.NF_RENT.UseVisualStyleBackColor = True
         '
-        'RadioButton3
+        'NF_OWN1
         '
-        Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton3.Location = New System.Drawing.Point(131, 3611)
-        Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(75, 20)
-        Me.RadioButton3.TabIndex = 520
-        Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "Rented"
-        Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.NF_OWN1.AutoSize = True
+        Me.NF_OWN1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.NF_OWN1.Location = New System.Drawing.Point(6, 19)
+        Me.NF_OWN1.Name = "NF_OWN1"
+        Me.NF_OWN1.Size = New System.Drawing.Size(72, 20)
+        Me.NF_OWN1.TabIndex = 519
+        Me.NF_OWN1.TabStop = True
+        Me.NF_OWN1.Text = "Owned"
+        Me.NF_OWN1.UseVisualStyleBackColor = True
         '
-        'RadioButton4
+        'NF_RENT1
         '
-        Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton4.Location = New System.Drawing.Point(131, 3559)
-        Me.RadioButton4.Name = "RadioButton4"
-        Me.RadioButton4.Size = New System.Drawing.Size(72, 20)
-        Me.RadioButton4.TabIndex = 519
-        Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "Owned"
-        Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.NF_RENT1.AutoSize = True
+        Me.NF_RENT1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.NF_RENT1.Location = New System.Drawing.Point(6, 63)
+        Me.NF_RENT1.Name = "NF_RENT1"
+        Me.NF_RENT1.Size = New System.Drawing.Size(75, 20)
+        Me.NF_RENT1.TabIndex = 520
+        Me.NF_RENT1.TabStop = True
+        Me.NF_RENT1.Text = "Rented"
+        Me.NF_RENT1.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.NF_OWN)
+        Me.GroupBox1.Controls.Add(Me.NF_RENT)
+        Me.GroupBox1.Location = New System.Drawing.Point(131, 3359)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(95, 100)
+        Me.GroupBox1.TabIndex = 521
+        Me.GroupBox1.TabStop = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.NF_OWN1)
+        Me.GroupBox2.Controls.Add(Me.NF_RENT1)
+        Me.GroupBox2.Location = New System.Drawing.Point(131, 3527)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(95, 100)
+        Me.GroupBox2.TabIndex = 522
+        Me.GroupBox2.TabStop = False
         '
         'CIRFORM1
         '
@@ -2781,32 +2754,30 @@ Partial Class CIRFORM1
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(978, 677)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton4)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.TextBox84)
-        Me.Controls.Add(Me.TextBox83)
-        Me.Controls.Add(Me.TextBox82)
-        Me.Controls.Add(Me.TextBox81)
-        Me.Controls.Add(Me.TextBox80)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.COL_REMALLBTN)
+        Me.Controls.Add(Me.COL_REMBTN)
+        Me.Controls.Add(Me.COL_UPBUTTON)
+        Me.Controls.Add(Me.C_PV)
+        Me.Controls.Add(Me.C_YP)
+        Me.Controls.Add(Me.C_SN)
+        Me.Controls.Add(Me.C_MN)
+        Me.Controls.Add(Me.C_KHP)
         Me.Controls.Add(Me.Label150)
         Me.Controls.Add(Me.Label149)
         Me.Controls.Add(Me.Label148)
         Me.Controls.Add(Me.Label134)
         Me.Controls.Add(Me.Label133)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.TextBox79)
-        Me.Controls.Add(Me.TextBox78)
-        Me.Controls.Add(Me.TextBox77)
-        Me.Controls.Add(Me.TextBox76)
-        Me.Controls.Add(Me.TextBox75)
-        Me.Controls.Add(Me.TextBox48)
+        Me.Controls.Add(Me.LIA_REMALLBTN)
+        Me.Controls.Add(Me.LIA_REMBTN)
+        Me.Controls.Add(Me.LIA_UPBTN)
+        Me.Controls.Add(Me.LIA_BAL)
+        Me.Controls.Add(Me.LIA_AL)
+        Me.Controls.Add(Me.LIA_DD)
+        Me.Controls.Add(Me.LIA_DG)
+        Me.Controls.Add(Me.LIA_CRED)
+        Me.Controls.Add(Me.LIA_BL)
         Me.Controls.Add(Me.Label131)
         Me.Controls.Add(Me.Label132)
         Me.Controls.Add(Me.Label127)
@@ -2814,34 +2785,33 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label129)
         Me.Controls.Add(Me.Label130)
         Me.Controls.Add(Me.Label126)
-        Me.Controls.Add(Me.CheckBox7)
-        Me.Controls.Add(Me.CheckBox6)
-        Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.CheckBox4)
+        Me.Controls.Add(Me.CB_AGRI)
+        Me.Controls.Add(Me.CB_RESI)
+        Me.Controls.Add(Me.CB_INDU)
+        Me.Controls.Add(Me.CB_COM)
         Me.Controls.Add(Me.Label147)
         Me.Controls.Add(Me.Label136)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.ComboBox5)
-        Me.Controls.Add(Me.ComboBox4)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.ComboBox2)
+        Me.Controls.Add(Me.NOD_NS)
+        Me.Controls.Add(Me.CIR_YR)
+        Me.Controls.Add(Me.CIR_DAY)
+        Me.Controls.Add(Me.CIR_MON)
         Me.Controls.Add(Me.Label63)
         Me.Controls.Add(Me.Label62)
         Me.Controls.Add(Me.Label61)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.COL_ADDBTN)
+        Me.Controls.Add(Me.LIA_ADDBTN)
+        Me.Controls.Add(Me.CIR_BACKBTN)
         Me.Controls.Add(Me.Label135)
         Me.Controls.Add(Me.Label117)
         Me.Controls.Add(Me.ListView2)
         Me.Controls.Add(Me.Label143)
-        Me.Controls.Add(Me.TextBox94)
+        Me.Controls.Add(Me.NF_ROR1)
         Me.Controls.Add(Me.Label144)
         Me.Controls.Add(Me.Label142)
-        Me.Controls.Add(Me.TextBox93)
+        Me.Controls.Add(Me.NF_ROR)
         Me.Controls.Add(Me.Label141)
-        Me.Controls.Add(Me.TextBox89)
-        Me.Controls.Add(Me.TextBox87)
+        Me.Controls.Add(Me.NF_NAIN2)
+        Me.Controls.Add(Me.NF_NAIN1)
         Me.Controls.Add(Me.Label138)
         Me.Controls.Add(Me.Label137)
         Me.Controls.Add(Me.Label124)
@@ -2850,7 +2820,7 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label115)
         Me.Controls.Add(Me.Label114)
         Me.Controls.Add(Me.Label113)
-        Me.Controls.Add(Me.TextBox74)
+        Me.Controls.Add(Me.CC_OCCU)
         Me.Controls.Add(Me.Label112)
         Me.Controls.Add(Me.Label111)
         Me.Controls.Add(Me.Label110)
@@ -2859,21 +2829,21 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Label107)
         Me.Controls.Add(Me.Label106)
-        Me.Controls.Add(Me.TextBox69)
-        Me.Controls.Add(Me.TextBox70)
-        Me.Controls.Add(Me.TextBox71)
-        Me.Controls.Add(Me.TextBox72)
-        Me.Controls.Add(Me.TextBox73)
+        Me.Controls.Add(Me.ER_MS1)
+        Me.Controls.Add(Me.ER_LOS1)
+        Me.Controls.Add(Me.ER_STATUS1)
+        Me.Controls.Add(Me.ER_POS1)
+        Me.Controls.Add(Me.ER_COMP1)
         Me.Controls.Add(Me.Label101)
         Me.Controls.Add(Me.Label102)
         Me.Controls.Add(Me.Label103)
         Me.Controls.Add(Me.Label104)
         Me.Controls.Add(Me.Label105)
-        Me.Controls.Add(Me.TextBox68)
-        Me.Controls.Add(Me.TextBox67)
-        Me.Controls.Add(Me.TextBox66)
-        Me.Controls.Add(Me.TextBox65)
-        Me.Controls.Add(Me.TextBox64)
+        Me.Controls.Add(Me.ER_MS)
+        Me.Controls.Add(Me.ER_LOS)
+        Me.Controls.Add(Me.ER_STATUS)
+        Me.Controls.Add(Me.ER_POS)
+        Me.Controls.Add(Me.ER_COMP)
         Me.Controls.Add(Me.Label100)
         Me.Controls.Add(Me.Label99)
         Me.Controls.Add(Me.Label98)
@@ -2888,131 +2858,131 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label89)
         Me.Controls.Add(Me.Label88)
         Me.Controls.Add(Me.Label87)
-        Me.Controls.Add(Me.TextBox63)
+        Me.Controls.Add(Me.BR_BC)
         Me.Controls.Add(Me.Label86)
-        Me.Controls.Add(Me.TextBox61)
+        Me.Controls.Add(Me.BR_NYB)
         Me.Controls.Add(Me.Label84)
-        Me.Controls.Add(Me.TextBox62)
+        Me.Controls.Add(Me.BR_TOB)
         Me.Controls.Add(Me.Label85)
-        Me.Controls.Add(Me.TextBox60)
+        Me.Controls.Add(Me.BR_CONT)
         Me.Controls.Add(Me.Label83)
-        Me.Controls.Add(Me.TextBox59)
+        Me.Controls.Add(Me.BR_NOB)
         Me.Controls.Add(Me.Label82)
         Me.Controls.Add(Me.Label76)
         Me.Controls.Add(Me.Label77)
-        Me.Controls.Add(Me.TextBox54)
-        Me.Controls.Add(Me.TextBox55)
+        Me.Controls.Add(Me.BR_PRO)
+        Me.Controls.Add(Me.BR_MUN)
         Me.Controls.Add(Me.Label78)
         Me.Controls.Add(Me.Label79)
         Me.Controls.Add(Me.Label80)
-        Me.Controls.Add(Me.TextBox56)
-        Me.Controls.Add(Me.TextBox57)
-        Me.Controls.Add(Me.TextBox58)
+        Me.Controls.Add(Me.BR_BRGY)
+        Me.Controls.Add(Me.BR_ST)
+        Me.Controls.Add(Me.BR_HOUSENO)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label75)
         Me.Controls.Add(Me.Label74)
         Me.Controls.Add(Me.Label73)
         Me.Controls.Add(Me.Label72)
         Me.Controls.Add(Me.Label71)
-        Me.Controls.Add(Me.TextBox52)
-        Me.Controls.Add(Me.TextBox53)
+        Me.Controls.Add(Me.TOL_MOP)
+        Me.Controls.Add(Me.TOL_MR)
         Me.Controls.Add(Me.Label69)
         Me.Controls.Add(Me.Label70)
-        Me.Controls.Add(Me.TextBox49)
-        Me.Controls.Add(Me.TextBox50)
-        Me.Controls.Add(Me.TextBox51)
+        Me.Controls.Add(Me.TOL_TERMS)
+        Me.Controls.Add(Me.TOL_PURP)
+        Me.Controls.Add(Me.TOL_AAP)
         Me.Controls.Add(Me.Label66)
         Me.Controls.Add(Me.Label67)
         Me.Controls.Add(Me.Label68)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox2)
+        Me.Controls.Add(Me.CB_RESTUCT)
+        Me.Controls.Add(Me.CB_RENEW)
         Me.Controls.Add(Me.Label65)
-        Me.Controls.Add(Me.CheckBox1)
+        Me.Controls.Add(Me.CB_NEW)
         Me.Controls.Add(Me.Label64)
-        Me.Controls.Add(Me.TextBox42)
-        Me.Controls.Add(Me.TextBox43)
-        Me.Controls.Add(Me.TextBox44)
-        Me.Controls.Add(Me.TextBox39)
-        Me.Controls.Add(Me.TextBox40)
-        Me.Controls.Add(Me.TextBox41)
-        Me.Controls.Add(Me.TextBox38)
-        Me.Controls.Add(Me.TextBox37)
-        Me.Controls.Add(Me.TextBox36)
+        Me.Controls.Add(Me.COLLEGE_TF)
+        Me.Controls.Add(Me.HS_TF)
+        Me.Controls.Add(Me.ELEM_TF)
+        Me.Controls.Add(Me.COLLEGE_GS)
+        Me.Controls.Add(Me.HS_GS)
+        Me.Controls.Add(Me.ELEM_GS)
+        Me.Controls.Add(Me.COLLEGE_PS)
+        Me.Controls.Add(Me.HS_PS)
+        Me.Controls.Add(Me.ELEM_PS)
         Me.Controls.Add(Me.Label60)
         Me.Controls.Add(Me.Label59)
         Me.Controls.Add(Me.Label58)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.CIR_NEXTBTN)
         Me.Controls.Add(Me.Label57)
         Me.Controls.Add(Me.Label56)
         Me.Controls.Add(Me.Label55)
         Me.Controls.Add(Me.Label40)
-        Me.Controls.Add(Me.TextBox25)
+        Me.Controls.Add(Me.CC_MI)
         Me.Controls.Add(Me.Label41)
         Me.Controls.Add(Me.Label42)
         Me.Controls.Add(Me.Label43)
-        Me.Controls.Add(Me.TextBox26)
-        Me.Controls.Add(Me.TextBox27)
+        Me.Controls.Add(Me.CC_PRO)
+        Me.Controls.Add(Me.CC_MUN)
         Me.Controls.Add(Me.Label44)
         Me.Controls.Add(Me.Label45)
         Me.Controls.Add(Me.Label46)
-        Me.Controls.Add(Me.TextBox28)
-        Me.Controls.Add(Me.TextBox29)
-        Me.Controls.Add(Me.TextBox30)
+        Me.Controls.Add(Me.CC_BRGY)
+        Me.Controls.Add(Me.CC_ST)
+        Me.Controls.Add(Me.CC_HOUSENO)
         Me.Controls.Add(Me.Label47)
         Me.Controls.Add(Me.Label48)
-        Me.Controls.Add(Me.TextBox31)
+        Me.Controls.Add(Me.CC_RELATION)
         Me.Controls.Add(Me.Label49)
         Me.Controls.Add(Me.Label50)
         Me.Controls.Add(Me.Label51)
         Me.Controls.Add(Me.Label52)
         Me.Controls.Add(Me.Label53)
-        Me.Controls.Add(Me.TextBox32)
-        Me.Controls.Add(Me.TextBox33)
-        Me.Controls.Add(Me.TextBox34)
-        Me.Controls.Add(Me.TextBox35)
+        Me.Controls.Add(Me.N_SUFF)
+        Me.Controls.Add(Me.N_MN)
+        Me.Controls.Add(Me.N_GN)
+        Me.Controls.Add(Me.N_LN)
         Me.Controls.Add(Me.Label54)
         Me.Controls.Add(Me.Label32)
-        Me.Controls.Add(Me.TextBox19)
+        Me.Controls.Add(Me.CIR_CONTACT1)
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Label35)
-        Me.Controls.Add(Me.TextBox20)
-        Me.Controls.Add(Me.TextBox21)
+        Me.Controls.Add(Me.CIR_PRO1)
+        Me.Controls.Add(Me.CIR_MUN1)
         Me.Controls.Add(Me.Label36)
         Me.Controls.Add(Me.Label37)
         Me.Controls.Add(Me.Label38)
-        Me.Controls.Add(Me.TextBox22)
-        Me.Controls.Add(Me.TextBox23)
-        Me.Controls.Add(Me.TextBox24)
+        Me.Controls.Add(Me.CIR_BRGY1)
+        Me.Controls.Add(Me.CIR_ST1)
+        Me.Controls.Add(Me.CIR_HOUSENO1)
         Me.Controls.Add(Me.Label39)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.Label30)
-        Me.Controls.Add(Me.TextBox18)
+        Me.Controls.Add(Me.CIR_CONTACT)
         Me.Controls.Add(Me.Label29)
-        Me.Controls.Add(Me.TextBox17)
+        Me.Controls.Add(Me.CIR_RELATION)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label25)
         Me.Controls.Add(Me.Label26)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox14)
-        Me.Controls.Add(Me.TextBox15)
-        Me.Controls.Add(Me.TextBox16)
+        Me.Controls.Add(Me.NOR_SUFF)
+        Me.Controls.Add(Me.NOR_MN)
+        Me.Controls.Add(Me.NOR_GN)
+        Me.Controls.Add(Me.NOR_LN)
         Me.Controls.Add(Me.Label27)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
-        Me.Controls.Add(Me.TextBox12)
-        Me.Controls.Add(Me.TextBox11)
+        Me.Controls.Add(Me.CIR_PRO)
+        Me.Controls.Add(Me.CIR_MUN)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.CIR_BRGY)
+        Me.Controls.Add(Me.CIR_ST)
+        Me.Controls.Add(Me.CIR_HOUSENO)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.CIR_AGE)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label13)
@@ -3022,10 +2992,10 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.NOB_SUFF)
+        Me.Controls.Add(Me.NOB_MN)
+        Me.Controls.Add(Me.NOB_GN)
+        Me.Controls.Add(Me.NOB_LN)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -3035,8 +3005,10 @@ Partial Class CIRFORM1
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "CIRFORM1"
         Me.Text = "CIR1"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3048,10 +3020,10 @@ Partial Class CIRFORM1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents NOB_LN As TextBox
+    Friend WithEvents NOB_GN As TextBox
+    Friend WithEvents NOB_MN As TextBox
+    Friend WithEvents NOB_SUFF As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
@@ -3061,103 +3033,103 @@ Partial Class CIRFORM1
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents CIR_AGE As ComboBox
     Friend WithEvents Label16 As Label
     Friend WithEvents Label17 As Label
     Friend WithEvents Label18 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents CIR_BRGY As TextBox
+    Friend WithEvents CIR_ST As TextBox
+    Friend WithEvents CIR_HOUSENO As TextBox
+    Friend WithEvents CIR_MUN As TextBox
+    Friend WithEvents CIR_PRO As TextBox
     Friend WithEvents Label21 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
     Friend WithEvents Label26 As Label
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents NOR_SUFF As TextBox
+    Friend WithEvents NOR_MN As TextBox
+    Friend WithEvents NOR_GN As TextBox
+    Friend WithEvents NOR_LN As TextBox
     Friend WithEvents Label27 As Label
     Friend WithEvents Label28 As Label
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox18 As TextBox
+    Friend WithEvents CIR_RELATION As TextBox
+    Friend WithEvents CIR_CONTACT As TextBox
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents Label32 As Label
-    Friend WithEvents TextBox19 As TextBox
+    Friend WithEvents CIR_CONTACT1 As TextBox
     Friend WithEvents Label33 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents Label35 As Label
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox21 As TextBox
+    Friend WithEvents CIR_PRO1 As TextBox
+    Friend WithEvents CIR_MUN1 As TextBox
     Friend WithEvents Label36 As Label
     Friend WithEvents Label37 As Label
     Friend WithEvents Label38 As Label
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox24 As TextBox
+    Friend WithEvents CIR_BRGY1 As TextBox
+    Friend WithEvents CIR_ST1 As TextBox
+    Friend WithEvents CIR_HOUSENO1 As TextBox
     Friend WithEvents Label39 As Label
     Friend WithEvents Label40 As Label
-    Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents CC_MI As TextBox
     Friend WithEvents Label41 As Label
     Friend WithEvents Label42 As Label
     Friend WithEvents Label43 As Label
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox27 As TextBox
+    Friend WithEvents CC_PRO As TextBox
+    Friend WithEvents CC_MUN As TextBox
     Friend WithEvents Label44 As Label
     Friend WithEvents Label45 As Label
     Friend WithEvents Label46 As Label
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox30 As TextBox
+    Friend WithEvents CC_BRGY As TextBox
+    Friend WithEvents CC_ST As TextBox
+    Friend WithEvents CC_HOUSENO As TextBox
     Friend WithEvents Label47 As Label
     Friend WithEvents Label48 As Label
-    Friend WithEvents TextBox31 As TextBox
+    Friend WithEvents CC_RELATION As TextBox
     Friend WithEvents Label49 As Label
     Friend WithEvents Label50 As Label
     Friend WithEvents Label51 As Label
     Friend WithEvents Label52 As Label
     Friend WithEvents Label53 As Label
-    Friend WithEvents TextBox32 As TextBox
-    Friend WithEvents TextBox33 As TextBox
-    Friend WithEvents TextBox34 As TextBox
-    Friend WithEvents TextBox35 As TextBox
+    Friend WithEvents N_SUFF As TextBox
+    Friend WithEvents N_MN As TextBox
+    Friend WithEvents N_GN As TextBox
+    Friend WithEvents N_LN As TextBox
     Friend WithEvents Label54 As Label
     Friend WithEvents Label55 As Label
     Friend WithEvents Label56 As Label
     Friend WithEvents Label57 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents CIR_NEXTBTN As Button
     Friend WithEvents Label58 As Label
     Friend WithEvents Label59 As Label
     Friend WithEvents Label60 As Label
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents TextBox38 As TextBox
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents TextBox40 As TextBox
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox44 As TextBox
+    Friend WithEvents ELEM_PS As TextBox
+    Friend WithEvents HS_PS As TextBox
+    Friend WithEvents COLLEGE_PS As TextBox
+    Friend WithEvents COLLEGE_GS As TextBox
+    Friend WithEvents HS_GS As TextBox
+    Friend WithEvents ELEM_GS As TextBox
+    Friend WithEvents COLLEGE_TF As TextBox
+    Friend WithEvents HS_TF As TextBox
+    Friend WithEvents ELEM_TF As TextBox
     Friend WithEvents Label64 As Label
-    Friend WithEvents CheckBox1 As CheckBox
+    Friend WithEvents CB_NEW As CheckBox
     Friend WithEvents Label65 As Label
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents TextBox49 As TextBox
-    Friend WithEvents TextBox50 As TextBox
-    Friend WithEvents TextBox51 As TextBox
+    Friend WithEvents CB_RENEW As CheckBox
+    Friend WithEvents CB_RESTUCT As CheckBox
+    Friend WithEvents TOL_TERMS As TextBox
+    Friend WithEvents TOL_PURP As TextBox
+    Friend WithEvents TOL_AAP As TextBox
     Friend WithEvents Label66 As Label
     Friend WithEvents Label67 As Label
     Friend WithEvents Label68 As Label
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents TextBox53 As TextBox
+    Friend WithEvents TOL_MOP As TextBox
+    Friend WithEvents TOL_MR As TextBox
     Friend WithEvents Label69 As Label
     Friend WithEvents Label70 As Label
     Friend WithEvents Label71 As Label
@@ -3167,24 +3139,24 @@ Partial Class CIRFORM1
     Friend WithEvents Label75 As Label
     Friend WithEvents Label76 As Label
     Friend WithEvents Label77 As Label
-    Friend WithEvents TextBox54 As TextBox
-    Friend WithEvents TextBox55 As TextBox
+    Friend WithEvents BR_PRO As TextBox
+    Friend WithEvents BR_MUN As TextBox
     Friend WithEvents Label78 As Label
     Friend WithEvents Label79 As Label
     Friend WithEvents Label80 As Label
-    Friend WithEvents TextBox56 As TextBox
-    Friend WithEvents TextBox57 As TextBox
-    Friend WithEvents TextBox58 As TextBox
+    Friend WithEvents BR_BRGY As TextBox
+    Friend WithEvents BR_ST As TextBox
+    Friend WithEvents BR_HOUSENO As TextBox
     Friend WithEvents Label81 As Label
-    Friend WithEvents TextBox59 As TextBox
+    Friend WithEvents BR_NOB As TextBox
     Friend WithEvents Label82 As Label
-    Friend WithEvents TextBox60 As TextBox
+    Friend WithEvents BR_CONT As TextBox
     Friend WithEvents Label83 As Label
-    Friend WithEvents TextBox61 As TextBox
+    Friend WithEvents BR_NYB As TextBox
     Friend WithEvents Label84 As Label
-    Friend WithEvents TextBox62 As TextBox
+    Friend WithEvents BR_TOB As TextBox
     Friend WithEvents Label85 As Label
-    Friend WithEvents TextBox63 As TextBox
+    Friend WithEvents BR_BC As TextBox
     Friend WithEvents Label86 As Label
     Friend WithEvents Label87 As Label
     Friend WithEvents Label88 As Label
@@ -3200,21 +3172,21 @@ Partial Class CIRFORM1
     Friend WithEvents Label98 As Label
     Friend WithEvents Label99 As Label
     Friend WithEvents Label100 As Label
-    Friend WithEvents TextBox64 As TextBox
-    Friend WithEvents TextBox65 As TextBox
-    Friend WithEvents TextBox66 As TextBox
-    Friend WithEvents TextBox67 As TextBox
-    Friend WithEvents TextBox68 As TextBox
+    Friend WithEvents ER_COMP As TextBox
+    Friend WithEvents ER_POS As TextBox
+    Friend WithEvents ER_STATUS As TextBox
+    Friend WithEvents ER_LOS As TextBox
+    Friend WithEvents ER_MS As TextBox
     Friend WithEvents Label101 As Label
     Friend WithEvents Label102 As Label
     Friend WithEvents Label103 As Label
     Friend WithEvents Label104 As Label
     Friend WithEvents Label105 As Label
-    Friend WithEvents TextBox69 As TextBox
-    Friend WithEvents TextBox70 As TextBox
-    Friend WithEvents TextBox71 As TextBox
-    Friend WithEvents TextBox72 As TextBox
-    Friend WithEvents TextBox73 As TextBox
+    Friend WithEvents ER_MS1 As TextBox
+    Friend WithEvents ER_LOS1 As TextBox
+    Friend WithEvents ER_STATUS1 As TextBox
+    Friend WithEvents ER_POS1 As TextBox
+    Friend WithEvents ER_COMP1 As TextBox
     Friend WithEvents Label106 As Label
     Friend WithEvents Label107 As Label
     Friend WithEvents ListView1 As ListView
@@ -3229,7 +3201,7 @@ Partial Class CIRFORM1
     Friend WithEvents Label110 As Label
     Friend WithEvents Label111 As Label
     Friend WithEvents Label112 As Label
-    Friend WithEvents TextBox74 As TextBox
+    Friend WithEvents CC_OCCU As TextBox
     Friend WithEvents Label113 As Label
     Friend WithEvents Label114 As Label
     Friend WithEvents Label115 As Label
@@ -3238,13 +3210,13 @@ Partial Class CIRFORM1
     Friend WithEvents Label125 As Label
     Friend WithEvents Label137 As Label
     Friend WithEvents Label138 As Label
-    Friend WithEvents TextBox87 As TextBox
-    Friend WithEvents TextBox89 As TextBox
+    Friend WithEvents NF_NAIN1 As TextBox
+    Friend WithEvents NF_NAIN2 As TextBox
     Friend WithEvents Label141 As Label
-    Friend WithEvents TextBox93 As TextBox
+    Friend WithEvents NF_ROR As TextBox
     Friend WithEvents Label142 As Label
     Friend WithEvents Label143 As Label
-    Friend WithEvents TextBox94 As TextBox
+    Friend WithEvents NF_ROR1 As TextBox
     Friend WithEvents Label144 As Label
     Friend WithEvents ListView2 As ListView
     Friend WithEvents ColumnHeader7 As ColumnHeader
@@ -3254,66 +3226,55 @@ Partial Class CIRFORM1
     Friend WithEvents ColumnHeader11 As ColumnHeader
     Friend WithEvents Label117 As Label
     Friend WithEvents Label135 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
+    Friend WithEvents CIR_BACKBTN As Button
+    Friend WithEvents LIA_ADDBTN As Button
+    Friend WithEvents COL_ADDBTN As Button
     Friend WithEvents Label61 As Label
     Friend WithEvents Label62 As Label
     Friend WithEvents Label63 As Label
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents ComboBox4 As ComboBox
-    Friend WithEvents ComboBox5 As ComboBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
+    Friend WithEvents CIR_MON As ComboBox
+    Friend WithEvents CIR_DAY As ComboBox
+    Friend WithEvents CIR_YR As ComboBox
+    Friend WithEvents NOD_NS As ComboBox
+    Friend WithEvents CB_AGRI As CheckBox
+    Friend WithEvents CB_RESI As CheckBox
+    Friend WithEvents CB_INDU As CheckBox
+    Friend WithEvents CB_COM As CheckBox
     Friend WithEvents Label147 As Label
     Friend WithEvents Label136 As Label
     Friend WithEvents Label126 As Label
-    Friend WithEvents TextBox45 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Label121 As Label
-    Friend WithEvents Label120 As Label
-    Friend WithEvents Label119 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents Label118 As Label
-    Friend WithEvents TextBox46 As TextBox
-    Friend WithEvents Label122 As Label
-    Friend WithEvents TextBox47 As TextBox
-    Friend WithEvents Label123 As Label
-    Friend WithEvents Panel1 As Panel
     Friend WithEvents Label127 As Label
     Friend WithEvents Label128 As Label
     Friend WithEvents Label129 As Label
     Friend WithEvents Label130 As Label
     Friend WithEvents Label131 As Label
     Friend WithEvents Label132 As Label
-    Friend WithEvents TextBox48 As TextBox
-    Friend WithEvents TextBox75 As TextBox
-    Friend WithEvents TextBox76 As TextBox
-    Friend WithEvents TextBox77 As TextBox
-    Friend WithEvents TextBox78 As TextBox
-    Friend WithEvents TextBox79 As TextBox
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
+    Friend WithEvents LIA_BL As TextBox
+    Friend WithEvents LIA_CRED As TextBox
+    Friend WithEvents LIA_DG As TextBox
+    Friend WithEvents LIA_DD As TextBox
+    Friend WithEvents LIA_AL As TextBox
+    Friend WithEvents LIA_BAL As TextBox
+    Friend WithEvents LIA_UPBTN As Button
+    Friend WithEvents LIA_REMBTN As Button
+    Friend WithEvents LIA_REMALLBTN As Button
     Friend WithEvents Label133 As Label
     Friend WithEvents Label134 As Label
     Friend WithEvents Label148 As Label
     Friend WithEvents Label149 As Label
     Friend WithEvents Label150 As Label
-    Friend WithEvents TextBox80 As TextBox
-    Friend WithEvents TextBox81 As TextBox
-    Friend WithEvents TextBox82 As TextBox
-    Friend WithEvents TextBox83 As TextBox
-    Friend WithEvents TextBox84 As TextBox
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents RadioButton3 As RadioButton
-    Friend WithEvents RadioButton4 As RadioButton
+    Friend WithEvents C_KHP As TextBox
+    Friend WithEvents C_MN As TextBox
+    Friend WithEvents C_SN As TextBox
+    Friend WithEvents C_YP As TextBox
+    Friend WithEvents C_PV As TextBox
+    Friend WithEvents COL_UPBUTTON As Button
+    Friend WithEvents COL_REMBTN As Button
+    Friend WithEvents COL_REMALLBTN As Button
+    Friend WithEvents NF_OWN As RadioButton
+    Friend WithEvents NF_RENT As RadioButton
+    Friend WithEvents NF_OWN1 As RadioButton
+    Friend WithEvents NF_RENT1 As RadioButton
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents GroupBox2 As GroupBox
 End Class
