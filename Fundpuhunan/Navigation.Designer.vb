@@ -73,7 +73,7 @@ Partial Class Navigation
         Me.Panel1.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(244, 761)
+        Me.Panel1.Size = New System.Drawing.Size(244, 749)
         Me.Panel1.TabIndex = 13
         '
         'Button2
@@ -343,14 +343,14 @@ Partial Class Navigation
         Me.Navigationpanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Navigationpanel.Location = New System.Drawing.Point(244, 0)
         Me.Navigationpanel.Name = "Navigationpanel"
-        Me.Navigationpanel.Size = New System.Drawing.Size(940, 761)
+        Me.Navigationpanel.Size = New System.Drawing.Size(940, 749)
         Me.Navigationpanel.TabIndex = 14
         '
         'Navigation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1184, 761)
+        Me.ClientSize = New System.Drawing.Size(1184, 749)
         Me.Controls.Add(Me.Navigationpanel)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow

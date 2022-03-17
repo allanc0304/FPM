@@ -22,6 +22,10 @@
 
     Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
         AppFormB.Show()
+        'sample for accessing and assigning text boxes text to application object properties
+        HolderSingleton.createLoanApplication.BorrowerLN = TextBox1.Text
+        HolderSingleton.createLoanApplication.BorrowerFN = TextBox2.Text
+        HolderSingleton.createLoanApplication.BorrowerMN = TextBox3.Text
         Me.Hide()
     End Sub
 
