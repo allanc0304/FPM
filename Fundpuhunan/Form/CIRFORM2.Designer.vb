@@ -66,7 +66,6 @@ Partial Class Form1
         Me.Label67 = New System.Windows.Forms.Label()
         Me.txtAppCSale = New System.Windows.Forms.TextBox()
         Me.Label59 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtOtherSpec = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
@@ -84,9 +83,6 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txtBLname = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.chbResidential = New System.Windows.Forms.CheckBox()
-        Me.chbIndustrial = New System.Windows.Forms.CheckBox()
-        Me.chbCommercial = New System.Windows.Forms.CheckBox()
         Me.txtAccRemarks = New System.Windows.Forms.TextBox()
         Me.txtAmountApproved = New System.Windows.Forms.TextBox()
         Me.Label45 = New System.Windows.Forms.Label()
@@ -140,7 +136,6 @@ Partial Class Form1
         Me.Label52 = New System.Windows.Forms.Label()
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.btnCancel = New System.Windows.Forms.Button()
-        Me.chbAgricultural = New System.Windows.Forms.CheckBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtAccSignature = New System.Windows.Forms.TextBox()
         Me.txtSubmittedBy = New System.Windows.Forms.TextBox()
@@ -151,6 +146,11 @@ Partial Class Form1
         Me.Label55 = New System.Windows.Forms.Label()
         Me.Label56 = New System.Windows.Forms.Label()
         Me.Label57 = New System.Windows.Forms.Label()
+        Me.chbCommercial = New System.Windows.Forms.CheckBox()
+        Me.chbIndustrial = New System.Windows.Forms.CheckBox()
+        Me.chbResidential = New System.Windows.Forms.CheckBox()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.chbAgricultural = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'txtWBill
@@ -559,16 +559,6 @@ Partial Class Form1
         Me.Label59.TabIndex = 413
         Me.Label59.Text = "Php"
         '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(53, 43)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(48, 16)
-        Me.Label63.TabIndex = 412
-        Me.Label63.Text = "Check:"
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -732,39 +722,6 @@ Partial Class Form1
         Me.Label2.Size = New System.Drawing.Size(361, 16)
         Me.Label2.TabIndex = 395
         Me.Label2.Text = "STATEMENT OF MONTHLY INCOME && EXPENSES"
-        '
-        'chbResidential
-        '
-        Me.chbResidential.AutoSize = True
-        Me.chbResidential.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbResidential.Location = New System.Drawing.Point(569, 42)
-        Me.chbResidential.Name = "chbResidential"
-        Me.chbResidential.Size = New System.Drawing.Size(94, 20)
-        Me.chbResidential.TabIndex = 394
-        Me.chbResidential.Text = "Residential"
-        Me.chbResidential.UseVisualStyleBackColor = True
-        '
-        'chbIndustrial
-        '
-        Me.chbIndustrial.AutoSize = True
-        Me.chbIndustrial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbIndustrial.Location = New System.Drawing.Point(404, 42)
-        Me.chbIndustrial.Name = "chbIndustrial"
-        Me.chbIndustrial.Size = New System.Drawing.Size(79, 20)
-        Me.chbIndustrial.TabIndex = 393
-        Me.chbIndustrial.Text = "Industrial"
-        Me.chbIndustrial.UseVisualStyleBackColor = True
-        '
-        'chbCommercial
-        '
-        Me.chbCommercial.AutoSize = True
-        Me.chbCommercial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbCommercial.Location = New System.Drawing.Point(230, 42)
-        Me.chbCommercial.Name = "chbCommercial"
-        Me.chbCommercial.Size = New System.Drawing.Size(98, 20)
-        Me.chbCommercial.TabIndex = 392
-        Me.chbCommercial.Text = "Commercial"
-        Me.chbCommercial.UseVisualStyleBackColor = True
         '
         'txtAccRemarks
         '
@@ -1276,17 +1233,6 @@ Partial Class Form1
         Me.btnCancel.Text = "CANCEL"
         Me.btnCancel.UseVisualStyleBackColor = False
         '
-        'chbAgricultural
-        '
-        Me.chbAgricultural.AutoSize = True
-        Me.chbAgricultural.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.chbAgricultural.Location = New System.Drawing.Point(750, 43)
-        Me.chbAgricultural.Name = "chbAgricultural"
-        Me.chbAgricultural.Size = New System.Drawing.Size(92, 20)
-        Me.chbAgricultural.TabIndex = 520
-        Me.chbAgricultural.Text = "Agricultural"
-        Me.chbAgricultural.UseVisualStyleBackColor = True
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
@@ -1381,6 +1327,60 @@ Partial Class Form1
         Me.Label57.Size = New System.Drawing.Size(120, 12)
         Me.Label57.TabIndex = 530
         Me.Label57.Text = "Signature over printed name"
+        '
+        'chbCommercial
+        '
+        Me.chbCommercial.AutoSize = True
+        Me.chbCommercial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbCommercial.Location = New System.Drawing.Point(230, 42)
+        Me.chbCommercial.Name = "chbCommercial"
+        Me.chbCommercial.Size = New System.Drawing.Size(98, 20)
+        Me.chbCommercial.TabIndex = 392
+        Me.chbCommercial.Text = "Commercial"
+        Me.chbCommercial.UseVisualStyleBackColor = True
+        '
+        'chbIndustrial
+        '
+        Me.chbIndustrial.AutoSize = True
+        Me.chbIndustrial.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbIndustrial.Location = New System.Drawing.Point(404, 42)
+        Me.chbIndustrial.Name = "chbIndustrial"
+        Me.chbIndustrial.Size = New System.Drawing.Size(79, 20)
+        Me.chbIndustrial.TabIndex = 393
+        Me.chbIndustrial.Text = "Industrial"
+        Me.chbIndustrial.UseVisualStyleBackColor = True
+        '
+        'chbResidential
+        '
+        Me.chbResidential.AutoSize = True
+        Me.chbResidential.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbResidential.Location = New System.Drawing.Point(569, 42)
+        Me.chbResidential.Name = "chbResidential"
+        Me.chbResidential.Size = New System.Drawing.Size(94, 20)
+        Me.chbResidential.TabIndex = 394
+        Me.chbResidential.Text = "Residential"
+        Me.chbResidential.UseVisualStyleBackColor = True
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(53, 43)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(48, 16)
+        Me.Label63.TabIndex = 412
+        Me.Label63.Text = "Check:"
+        '
+        'chbAgricultural
+        '
+        Me.chbAgricultural.AutoSize = True
+        Me.chbAgricultural.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbAgricultural.Location = New System.Drawing.Point(750, 43)
+        Me.chbAgricultural.Name = "chbAgricultural"
+        Me.chbAgricultural.Size = New System.Drawing.Size(92, 20)
+        Me.chbAgricultural.TabIndex = 520
+        Me.chbAgricultural.Text = "Agricultural"
+        Me.chbAgricultural.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -1570,7 +1570,6 @@ Partial Class Form1
     Public WithEvents Label67 As Label
     Friend WithEvents txtAppCSale As TextBox
     Public WithEvents Label59 As Label
-    Public WithEvents Label63 As Label
     Public WithEvents Label5 As Label
     Friend WithEvents txtOtherSpec As TextBox
     Public WithEvents Label18 As Label
@@ -1588,9 +1587,6 @@ Partial Class Form1
     Public WithEvents Label7 As Label
     Friend WithEvents txtBLname As TextBox
     Public WithEvents Label2 As Label
-    Friend WithEvents chbResidential As CheckBox
-    Friend WithEvents chbIndustrial As CheckBox
-    Friend WithEvents chbCommercial As CheckBox
     Friend WithEvents txtAccRemarks As TextBox
     Friend WithEvents txtAmountApproved As TextBox
     Public WithEvents Label45 As Label
@@ -1644,7 +1640,6 @@ Partial Class Form1
     Friend WithEvents Label52 As Label
     Friend WithEvents btnSubmit As Button
     Friend WithEvents btnCancel As Button
-    Friend WithEvents chbAgricultural As CheckBox
     Friend WithEvents Label3 As Label
     Friend WithEvents txtAccSignature As TextBox
     Friend WithEvents txtSubmittedBy As TextBox
@@ -1655,4 +1650,9 @@ Partial Class Form1
     Public WithEvents Label55 As Label
     Public WithEvents Label56 As Label
     Public WithEvents Label57 As Label
+    Friend WithEvents chbCommercial As CheckBox
+    Friend WithEvents chbIndustrial As CheckBox
+    Friend WithEvents chbResidential As CheckBox
+    Public WithEvents Label63 As Label
+    Friend WithEvents chbAgricultural As CheckBox
 End Class
