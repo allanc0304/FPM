@@ -1384,7 +1384,7 @@ Partial Class CIRFORM1
         '
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label71.Location = New System.Drawing.Point(415, 1300)
+        Me.Label71.Location = New System.Drawing.Point(437, 1298)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(115, 12)
         Me.Label71.TabIndex = 129
@@ -1394,7 +1394,7 @@ Partial Class CIRFORM1
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label72.Location = New System.Drawing.Point(440, 1353)
+        Me.Label72.Location = New System.Drawing.Point(462, 1351)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(60, 12)
         Me.Label72.TabIndex = 130
@@ -1404,7 +1404,7 @@ Partial Class CIRFORM1
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label73.Location = New System.Drawing.Point(449, 1403)
+        Me.Label73.Location = New System.Drawing.Point(471, 1401)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(41, 12)
         Me.Label73.TabIndex = 131
@@ -1414,7 +1414,7 @@ Partial Class CIRFORM1
         '
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label74.Location = New System.Drawing.Point(440, 1453)
+        Me.Label74.Location = New System.Drawing.Point(462, 1451)
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(52, 12)
         Me.Label74.TabIndex = 132
@@ -2323,7 +2323,7 @@ Partial Class CIRFORM1
         'NOD_NS
         '
         Me.NOD_NS.FormattingEnabled = True
-        Me.NOD_NS.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
+        Me.NOD_NS.Items.AddRange(New Object() {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"})
         Me.NOD_NS.Location = New System.Drawing.Point(257, 867)
         Me.NOD_NS.Name = "NOD_NS"
         Me.NOD_NS.Size = New System.Drawing.Size(101, 21)
@@ -2753,7 +2753,7 @@ Partial Class CIRFORM1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.ClientSize = New System.Drawing.Size(978, 677)
+        Me.ClientSize = New System.Drawing.Size(1046, 677)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.COL_REMALLBTN)
