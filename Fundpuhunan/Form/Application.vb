@@ -95,6 +95,43 @@ Public Class Application
             ApplictaionForm1.TextBox44.Text = applicationObj.GuarantorBusinessType
             ApplictaionForm1.TextBox42.Text = applicationObj.GuarantorAge
 
+            AppFormB.TextBox1.Text = applicationObj.BorrowerLN
+            AppFormB.TextBox2.Text = applicationObj.BorrowerFN
+            AppFormB.TextBox3.Text = applicationObj.BorrowerMN
+            AppFormB.TextBox4.Text = applicationObj.BorrowerSuffix
+            AppFormB.TextBox5.Text = applicationObj.HouseNo
+            AppFormB.TextBox6.Text = applicationObj.Street
+            AppFormB.TextBox7.Text = applicationObj.Brgy
+            AppFormB.TextBox8.Text = applicationObj.Municipality
+            AppFormB.TextBox9.Text = applicationObj.Province
+            AppFormB.TextBox10.Text = applicationObj.LoanAmount
+            AppFormB.TextBox11.Text = applicationObj.WeeklyPayment
+            AppFormB.DateTimePicker1.Value = applicationObj.StartDate
+            For Each collateral As Collateral In applicationObj.Collaterals
+                Dim item As New ListViewItem(collateral.Description)
+                item.SubItems.Add(collateral.Model)
+                item.SubItems.Add(collateral.SerialNo)
+                item.SubItems.Add(collateral.Price)
+                AppFormB.ListView1.Items.Add(item)
+            Next
+            AppFormB.TextBox16.Text = applicationObj.BorrowerLN
+            AppFormB.TextBox17.Text = applicationObj.BorrowerFN
+            AppFormB.TextBox18.Text = applicationObj.BorrowerMN
+            AppFormB.TextBox19.Text = applicationObj.BorrowerSuffix
+            AppFormB.TextBox20.Text = applicationObj.HouseNo
+            AppFormB.TextBox21.Text = applicationObj.Street
+            AppFormB.TextBox22.Text = applicationObj.Brgy
+            AppFormB.TextBox24.Text = applicationObj.Municipality
+            AppFormB.TextBox23.Text = applicationObj.Province
+            AppFormB.DateTimePicker2.Value = applicationObj.StartDate
+            AppFormB.TextBox25.Text = applicationObj.LoanAmount
+            AppFormB.TextBox26.Text = applicationObj.LoanAmount
+            AppFormB.TextBox27.Text = applicationObj.Term.ToString + " Weeks"
+            AppFormB.TextBox28.Text = "Weekly"
+            AppFormB.TextBox29.Text = applicationObj.RecommenderName
+            AppFormB.TextBox30.Text = applicationObj.LoanAmount
+            AppFormB.TextBox31.Text = applicationObj.CheckerName
+
             ApplictaionForm1.Show()
             ApplictaionForm1.BringToFront()
 

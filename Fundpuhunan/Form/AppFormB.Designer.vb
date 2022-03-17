@@ -1043,9 +1043,9 @@ Partial Class AppFormB
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.Location = New System.Drawing.Point(348, 145)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(61, 9)
+        Me.Label50.Size = New System.Drawing.Size(70, 9)
         Me.Label50.TabIndex = 227
-        Me.Label50.Text = "( FIRST NAME)"
+        Me.Label50.Text = "( MIDDLE NAME )"
         '
         'Label51
         '
