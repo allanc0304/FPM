@@ -22,6 +22,7 @@ Partial Class ApplictaionForm1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Label89 = New System.Windows.Forms.Label()
         Me.Label88 = New System.Windows.Forms.Label()
         Me.Label87 = New System.Windows.Forms.Label()
@@ -80,42 +81,42 @@ Partial Class ApplictaionForm1
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
-        Me.Suffix_3 = New System.Windows.Forms.TextBox()
-        Me.Suffix_2 = New System.Windows.Forms.TextBox()
-        Me.suffix_1 = New System.Windows.Forms.TextBox()
-        Me.Middlename_3 = New System.Windows.Forms.TextBox()
-        Me.Middllename_2 = New System.Windows.Forms.TextBox()
-        Me.Middlename_1 = New System.Windows.Forms.TextBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
+        Me.P4_SUFFIX = New System.Windows.Forms.TextBox()
+        Me.P2_SUFFIX = New System.Windows.Forms.TextBox()
+        Me.P1_SUFFIX = New System.Windows.Forms.TextBox()
+        Me.P4_GIVENNAME = New System.Windows.Forms.TextBox()
+        Me.P2_GIVENNAME = New System.Windows.Forms.TextBox()
+        Me.P1_GIVENNAME = New System.Windows.Forms.TextBox()
+        Me.T4_TYPEOFBUSINESS = New System.Windows.Forms.TextBox()
+        Me.B4_BUSINESS = New System.Windows.Forms.TextBox()
+        Me.E4_AGE = New System.Windows.Forms.TextBox()
+        Me.K4_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.K4_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.K4_BARANGAY = New System.Windows.Forms.TextBox()
+        Me.T4_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.T4_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.T4_BARANGAY = New System.Windows.Forms.TextBox()
+        Me.T4_STREET = New System.Windows.Forms.TextBox()
+        Me.T4_HOUSENO = New System.Windows.Forms.TextBox()
+        Me.P4_MIDDLENAME = New System.Windows.Forms.TextBox()
+        Me.P4_LASTNAME = New System.Windows.Forms.TextBox()
+        Me.M3_CLEANSALARY = New System.Windows.Forms.TextBox()
+        Me.L3_WEEKLYINCOME = New System.Windows.Forms.TextBox()
+        Me.L3_EXPENSES = New System.Windows.Forms.TextBox()
+        Me.L3_SALARY = New System.Windows.Forms.TextBox()
+        Me.P3_BUSINESS = New System.Windows.Forms.TextBox()
+        Me.R2_RELIGION = New System.Windows.Forms.TextBox()
+        Me.B2_ANAK = New System.Windows.Forms.TextBox()
+        Me.E2_AGE = New System.Windows.Forms.TextBox()
+        Me.K2_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.K2_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.K2_BARANGAY = New System.Windows.Forms.TextBox()
+        Me.T2_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.T2_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.T2_BARANGAY = New System.Windows.Forms.TextBox()
+        Me.T2_STREET = New System.Windows.Forms.TextBox()
+        Me.T2_HOUSENO = New System.Windows.Forms.TextBox()
+        Me.P2_MIDDLENAME = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
@@ -128,13 +129,13 @@ Partial Class ApplictaionForm1
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.P2_LASTNAME = New System.Windows.Forms.TextBox()
+        Me.C1_CONTACT = New System.Windows.Forms.TextBox()
+        Me.R1_RELIGION = New System.Windows.Forms.TextBox()
+        Me.E1_AGE = New System.Windows.Forms.TextBox()
+        Me.K1_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.K1_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.K1_BARANGAY = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
@@ -151,15 +152,15 @@ Partial Class ApplictaionForm1
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.T1_BARANGAY = New System.Windows.Forms.TextBox()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.T1_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.T1_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.T1_STREET = New System.Windows.Forms.TextBox()
+        Me.T1_HOUSENO = New System.Windows.Forms.TextBox()
+        Me.P1_MIDDLENAME = New System.Windows.Forms.TextBox()
+        Me.P1_LASTNAME = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -172,7 +173,11 @@ Partial Class ApplictaionForm1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label89
@@ -231,9 +236,9 @@ Partial Class ApplictaionForm1
         Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label84.Location = New System.Drawing.Point(247, 1229)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(55, 9)
+        Me.Label84.Size = New System.Drawing.Size(58, 9)
         Me.Label84.TabIndex = 424
-        Me.Label84.Text = "( LASTNAME)"
+        Me.Label84.Text = "( BARANGAY )"
         '
         'Label83
         '
@@ -379,7 +384,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(533, 685)
+        Me.Label70.Location = New System.Drawing.Point(533, 662)
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(67, 9)
         Me.Label70.TabIndex = 409
@@ -389,7 +394,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(218, 728)
+        Me.Label69.Location = New System.Drawing.Point(218, 705)
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(31, 9)
         Me.Label69.TabIndex = 408
@@ -399,7 +404,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(218, 685)
+        Me.Label67.Location = New System.Drawing.Point(218, 662)
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(35, 9)
         Me.Label67.TabIndex = 407
@@ -409,7 +414,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(439, 616)
+        Me.Label66.Location = New System.Drawing.Point(439, 593)
         Me.Label66.Name = "Label66"
         Me.Label66.Size = New System.Drawing.Size(56, 9)
         Me.Label66.TabIndex = 406
@@ -419,7 +424,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label65.AutoSize = True
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(325, 616)
+        Me.Label65.Location = New System.Drawing.Point(325, 593)
         Me.Label65.Name = "Label65"
         Me.Label65.Size = New System.Drawing.Size(70, 9)
         Me.Label65.TabIndex = 405
@@ -429,7 +434,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label64.AutoSize = True
         Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(225, 616)
+        Me.Label64.Location = New System.Drawing.Point(225, 593)
         Me.Label64.Name = "Label64"
         Me.Label64.Size = New System.Drawing.Size(58, 9)
         Me.Label64.TabIndex = 404
@@ -439,7 +444,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label63.AutoSize = True
         Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(566, 578)
+        Me.Label63.Location = New System.Drawing.Point(566, 555)
         Me.Label63.Name = "Label63"
         Me.Label63.Size = New System.Drawing.Size(56, 9)
         Me.Label63.TabIndex = 403
@@ -449,7 +454,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label62.AutoSize = True
         Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label62.Location = New System.Drawing.Point(446, 578)
+        Me.Label62.Location = New System.Drawing.Point(446, 555)
         Me.Label62.Name = "Label62"
         Me.Label62.Size = New System.Drawing.Size(68, 9)
         Me.Label62.TabIndex = 402
@@ -459,7 +464,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label61.AutoSize = True
         Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label61.Location = New System.Drawing.Point(355, 578)
+        Me.Label61.Location = New System.Drawing.Point(355, 555)
         Me.Label61.Name = "Label61"
         Me.Label61.Size = New System.Drawing.Size(58, 9)
         Me.Label61.TabIndex = 401
@@ -469,7 +474,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label60.AutoSize = True
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label60.Location = New System.Drawing.Point(287, 578)
+        Me.Label60.Location = New System.Drawing.Point(287, 555)
         Me.Label60.Name = "Label60"
         Me.Label60.Size = New System.Drawing.Size(46, 9)
         Me.Label60.TabIndex = 400
@@ -479,7 +484,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label59.AutoSize = True
         Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.Location = New System.Drawing.Point(218, 578)
+        Me.Label59.Location = New System.Drawing.Point(218, 555)
         Me.Label59.Name = "Label59"
         Me.Label59.Size = New System.Drawing.Size(59, 9)
         Me.Label59.TabIndex = 399
@@ -489,7 +494,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.Location = New System.Drawing.Point(566, 540)
+        Me.Label58.Location = New System.Drawing.Point(566, 517)
         Me.Label58.Name = "Label58"
         Me.Label58.Size = New System.Drawing.Size(41, 9)
         Me.Label58.TabIndex = 398
@@ -499,7 +504,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(471, 540)
+        Me.Label57.Location = New System.Drawing.Point(471, 517)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(70, 9)
         Me.Label57.TabIndex = 397
@@ -509,7 +514,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.Location = New System.Drawing.Point(349, 540)
+        Me.Label56.Location = New System.Drawing.Point(349, 517)
         Me.Label56.Name = "Label56"
         Me.Label56.Size = New System.Drawing.Size(64, 9)
         Me.Label56.TabIndex = 396
@@ -519,7 +524,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(241, 540)
+        Me.Label55.Location = New System.Drawing.Point(241, 517)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(59, 9)
         Me.Label55.TabIndex = 395
@@ -760,307 +765,307 @@ Partial Class ApplictaionForm1
         Me.Label40.Text = "_________________________________________________________________________________" &
     "____________"
         '
-        'Suffix_3
-        '
-        Me.Suffix_3.Location = New System.Drawing.Point(585, 1149)
-        Me.Suffix_3.Name = "Suffix_3"
-        Me.Suffix_3.Size = New System.Drawing.Size(46, 20)
-        Me.Suffix_3.TabIndex = 370
-        Me.Suffix_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Suffix_2
-        '
-        Me.Suffix_2.Location = New System.Drawing.Point(568, 552)
-        Me.Suffix_2.Name = "Suffix_2"
-        Me.Suffix_2.Size = New System.Drawing.Size(46, 20)
-        Me.Suffix_2.TabIndex = 369
-        Me.Suffix_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'suffix_1
-        '
-        Me.suffix_1.Location = New System.Drawing.Point(546, 219)
-        Me.suffix_1.Name = "suffix_1"
-        Me.suffix_1.Size = New System.Drawing.Size(46, 20)
-        Me.suffix_1.TabIndex = 368
-        Me.suffix_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Middlename_3
-        '
-        Me.Middlename_3.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Middlename_3.Location = New System.Drawing.Point(348, 1149)
-        Me.Middlename_3.Name = "Middlename_3"
-        Me.Middlename_3.Size = New System.Drawing.Size(114, 20)
-        Me.Middlename_3.TabIndex = 367
-        Me.Middlename_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Middllename_2
-        '
-        Me.Middllename_2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Middllename_2.Location = New System.Drawing.Point(330, 552)
-        Me.Middllename_2.Name = "Middllename_2"
-        Me.Middllename_2.Size = New System.Drawing.Size(114, 20)
-        Me.Middllename_2.TabIndex = 366
-        Me.Middllename_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Middlename_1
-        '
-        Me.Middlename_1.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Middlename_1.Location = New System.Drawing.Point(309, 219)
-        Me.Middlename_1.Name = "Middlename_1"
-        Me.Middlename_1.Size = New System.Drawing.Size(114, 20)
-        Me.Middlename_1.TabIndex = 365
-        Me.Middlename_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox44
-        '
-        Me.TextBox44.Location = New System.Drawing.Point(240, 1355)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(111, 20)
-        Me.TextBox44.TabIndex = 363
-        '
-        'TextBox43
-        '
-        Me.TextBox43.Location = New System.Drawing.Point(240, 1318)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(111, 20)
-        Me.TextBox43.TabIndex = 362
-        '
-        'TextBox42
-        '
-        Me.TextBox42.Location = New System.Drawing.Point(513, 1321)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(46, 20)
-        Me.TextBox42.TabIndex = 361
-        '
-        'TextBox39
-        '
-        Me.TextBox39.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox39.Location = New System.Drawing.Point(439, 1241)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox39.TabIndex = 360
-        Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox40
-        '
-        Me.TextBox40.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox40.Location = New System.Drawing.Point(325, 1241)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox40.TabIndex = 359
-        Me.TextBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox41
-        '
-        Me.TextBox41.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox41.Location = New System.Drawing.Point(237, 1241)
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox41.TabIndex = 358
-        Me.TextBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox34
-        '
-        Me.TextBox34.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox34.Location = New System.Drawing.Point(567, 1198)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox34.TabIndex = 357
-        Me.TextBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        'P4_SUFFIX
+        '
+        Me.P4_SUFFIX.Location = New System.Drawing.Point(585, 1149)
+        Me.P4_SUFFIX.Name = "P4_SUFFIX"
+        Me.P4_SUFFIX.Size = New System.Drawing.Size(46, 20)
+        Me.P4_SUFFIX.TabIndex = 370
+        Me.P4_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P2_SUFFIX
+        '
+        Me.P2_SUFFIX.Location = New System.Drawing.Point(568, 529)
+        Me.P2_SUFFIX.Name = "P2_SUFFIX"
+        Me.P2_SUFFIX.Size = New System.Drawing.Size(46, 20)
+        Me.P2_SUFFIX.TabIndex = 369
+        Me.P2_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P1_SUFFIX
+        '
+        Me.P1_SUFFIX.Location = New System.Drawing.Point(546, 219)
+        Me.P1_SUFFIX.Name = "P1_SUFFIX"
+        Me.P1_SUFFIX.Size = New System.Drawing.Size(46, 20)
+        Me.P1_SUFFIX.TabIndex = 368
+        Me.P1_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P4_GIVENNAME
+        '
+        Me.P4_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P4_GIVENNAME.Location = New System.Drawing.Point(348, 1149)
+        Me.P4_GIVENNAME.Name = "P4_GIVENNAME"
+        Me.P4_GIVENNAME.Size = New System.Drawing.Size(114, 20)
+        Me.P4_GIVENNAME.TabIndex = 367
+        Me.P4_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P2_GIVENNAME
+        '
+        Me.P2_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P2_GIVENNAME.Location = New System.Drawing.Point(330, 529)
+        Me.P2_GIVENNAME.Name = "P2_GIVENNAME"
+        Me.P2_GIVENNAME.Size = New System.Drawing.Size(114, 20)
+        Me.P2_GIVENNAME.TabIndex = 366
+        Me.P2_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P1_GIVENNAME
+        '
+        Me.P1_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P1_GIVENNAME.Location = New System.Drawing.Point(309, 219)
+        Me.P1_GIVENNAME.Name = "P1_GIVENNAME"
+        Me.P1_GIVENNAME.Size = New System.Drawing.Size(114, 20)
+        Me.P1_GIVENNAME.TabIndex = 365
+        Me.P1_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T4_TYPEOFBUSINESS
+        '
+        Me.T4_TYPEOFBUSINESS.Location = New System.Drawing.Point(240, 1355)
+        Me.T4_TYPEOFBUSINESS.Name = "T4_TYPEOFBUSINESS"
+        Me.T4_TYPEOFBUSINESS.Size = New System.Drawing.Size(111, 20)
+        Me.T4_TYPEOFBUSINESS.TabIndex = 363
+        '
+        'B4_BUSINESS
+        '
+        Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1318)
+        Me.B4_BUSINESS.Name = "B4_BUSINESS"
+        Me.B4_BUSINESS.Size = New System.Drawing.Size(111, 20)
+        Me.B4_BUSINESS.TabIndex = 362
+        '
+        'E4_AGE
+        '
+        Me.E4_AGE.Location = New System.Drawing.Point(513, 1321)
+        Me.E4_AGE.Name = "E4_AGE"
+        Me.E4_AGE.Size = New System.Drawing.Size(46, 20)
+        Me.E4_AGE.TabIndex = 361
+        '
+        'K4_PROVINCE
+        '
+        Me.K4_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K4_PROVINCE.Location = New System.Drawing.Point(439, 1241)
+        Me.K4_PROVINCE.Name = "K4_PROVINCE"
+        Me.K4_PROVINCE.Size = New System.Drawing.Size(96, 20)
+        Me.K4_PROVINCE.TabIndex = 360
+        Me.K4_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'K4_MUNICIPALITY
+        '
+        Me.K4_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K4_MUNICIPALITY.Location = New System.Drawing.Point(325, 1241)
+        Me.K4_MUNICIPALITY.Name = "K4_MUNICIPALITY"
+        Me.K4_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
+        Me.K4_MUNICIPALITY.TabIndex = 359
+        Me.K4_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'K4_BARANGAY
+        '
+        Me.K4_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K4_BARANGAY.Location = New System.Drawing.Point(237, 1241)
+        Me.K4_BARANGAY.Name = "K4_BARANGAY"
+        Me.K4_BARANGAY.Size = New System.Drawing.Size(84, 20)
+        Me.K4_BARANGAY.TabIndex = 358
+        Me.K4_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T4_PROVINCE
+        '
+        Me.T4_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T4_PROVINCE.Location = New System.Drawing.Point(567, 1198)
+        Me.T4_PROVINCE.Name = "T4_PROVINCE"
+        Me.T4_PROVINCE.Size = New System.Drawing.Size(96, 20)
+        Me.T4_PROVINCE.TabIndex = 357
+        Me.T4_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox35
-        '
-        Me.TextBox35.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox35.Location = New System.Drawing.Point(453, 1198)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox35.TabIndex = 356
-        Me.TextBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        'T4_MUNICIPALITY
+        '
+        Me.T4_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T4_MUNICIPALITY.Location = New System.Drawing.Point(453, 1198)
+        Me.T4_MUNICIPALITY.Name = "T4_MUNICIPALITY"
+        Me.T4_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
+        Me.T4_MUNICIPALITY.TabIndex = 356
+        Me.T4_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox36
-        '
-        Me.TextBox36.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox36.Location = New System.Drawing.Point(365, 1198)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox36.TabIndex = 355
-        Me.TextBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox37
-        '
-        Me.TextBox37.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox37.Location = New System.Drawing.Point(306, 1198)
-        Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(54, 20)
-        Me.TextBox37.TabIndex = 354
-        Me.TextBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox38
-        '
-        Me.TextBox38.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox38.Location = New System.Drawing.Point(237, 1198)
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox38.TabIndex = 353
-        Me.TextBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox32
-        '
-        Me.TextBox32.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox32.Location = New System.Drawing.Point(467, 1149)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox32.TabIndex = 352
-        Me.TextBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox33
-        '
-        Me.TextBox33.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox33.Location = New System.Drawing.Point(237, 1149)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox33.TabIndex = 351
-        Me.TextBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox31
-        '
-        Me.TextBox31.Location = New System.Drawing.Point(296, 1006)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox31.TabIndex = 350
-        '
-        'TextBox30
-        '
-        Me.TextBox30.Location = New System.Drawing.Point(296, 966)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox30.TabIndex = 349
-        '
-        'TextBox29
-        '
-        Me.TextBox29.Location = New System.Drawing.Point(296, 928)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox29.TabIndex = 348
-        '
-        'TextBox28
-        '
-        Me.TextBox28.Location = New System.Drawing.Point(296, 889)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox28.TabIndex = 347
-        '
-        'TextBox27
-        '
-        Me.TextBox27.Location = New System.Drawing.Point(296, 853)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox27.TabIndex = 346
-        '
-        'TextBox26
-        '
-        Me.TextBox26.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox26.Location = New System.Drawing.Point(518, 697)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(111, 20)
-        Me.TextBox26.TabIndex = 345
-        '
-        'TextBox25
-        '
-        Me.TextBox25.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox25.Location = New System.Drawing.Point(216, 740)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(46, 20)
-        Me.TextBox25.TabIndex = 344
-        '
-        'TextBox24
-        '
-        Me.TextBox24.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox24.Location = New System.Drawing.Point(216, 697)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(46, 20)
-        Me.TextBox24.TabIndex = 343
-        '
-        'TextBox23
-        '
-        Me.TextBox23.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox23.Location = New System.Drawing.Point(418, 628)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox23.TabIndex = 342
-        Me.TextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox22
-        '
-        Me.TextBox22.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox22.Location = New System.Drawing.Point(304, 628)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox22.TabIndex = 341
-        Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox21
-        '
-        Me.TextBox21.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox21.Location = New System.Drawing.Point(216, 628)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox21.TabIndex = 340
-        Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox20
-        '
-        Me.TextBox20.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox20.Location = New System.Drawing.Point(546, 590)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox20.TabIndex = 339
-        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox19
-        '
-        Me.TextBox19.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox19.Location = New System.Drawing.Point(432, 590)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox19.TabIndex = 338
-        Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox18
-        '
-        Me.TextBox18.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox18.Location = New System.Drawing.Point(344, 590)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox18.TabIndex = 337
-        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox17
-        '
-        Me.TextBox17.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox17.Location = New System.Drawing.Point(285, 590)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(54, 20)
-        Me.TextBox17.TabIndex = 336
-        Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox16
-        '
-        Me.TextBox16.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox16.Location = New System.Drawing.Point(216, 590)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox16.TabIndex = 335
-        Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox15
-        '
-        Me.TextBox15.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox15.Location = New System.Drawing.Point(448, 552)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox15.TabIndex = 334
-        Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        'T4_BARANGAY
+        '
+        Me.T4_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T4_BARANGAY.Location = New System.Drawing.Point(365, 1198)
+        Me.T4_BARANGAY.Name = "T4_BARANGAY"
+        Me.T4_BARANGAY.Size = New System.Drawing.Size(84, 20)
+        Me.T4_BARANGAY.TabIndex = 355
+        Me.T4_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T4_STREET
+        '
+        Me.T4_STREET.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T4_STREET.Location = New System.Drawing.Point(306, 1198)
+        Me.T4_STREET.Name = "T4_STREET"
+        Me.T4_STREET.Size = New System.Drawing.Size(54, 20)
+        Me.T4_STREET.TabIndex = 354
+        Me.T4_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T4_HOUSENO
+        '
+        Me.T4_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T4_HOUSENO.Location = New System.Drawing.Point(237, 1198)
+        Me.T4_HOUSENO.Name = "T4_HOUSENO"
+        Me.T4_HOUSENO.Size = New System.Drawing.Size(65, 20)
+        Me.T4_HOUSENO.TabIndex = 353
+        Me.T4_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P4_MIDDLENAME
+        '
+        Me.P4_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P4_MIDDLENAME.Location = New System.Drawing.Point(467, 1149)
+        Me.P4_MIDDLENAME.Name = "P4_MIDDLENAME"
+        Me.P4_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
+        Me.P4_MIDDLENAME.TabIndex = 352
+        Me.P4_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P4_LASTNAME
+        '
+        Me.P4_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P4_LASTNAME.Location = New System.Drawing.Point(237, 1149)
+        Me.P4_LASTNAME.Name = "P4_LASTNAME"
+        Me.P4_LASTNAME.Size = New System.Drawing.Size(109, 20)
+        Me.P4_LASTNAME.TabIndex = 351
+        Me.P4_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M3_CLEANSALARY
+        '
+        Me.M3_CLEANSALARY.Location = New System.Drawing.Point(296, 1006)
+        Me.M3_CLEANSALARY.Name = "M3_CLEANSALARY"
+        Me.M3_CLEANSALARY.Size = New System.Drawing.Size(153, 20)
+        Me.M3_CLEANSALARY.TabIndex = 350
+        '
+        'L3_WEEKLYINCOME
+        '
+        Me.L3_WEEKLYINCOME.Location = New System.Drawing.Point(296, 966)
+        Me.L3_WEEKLYINCOME.Name = "L3_WEEKLYINCOME"
+        Me.L3_WEEKLYINCOME.Size = New System.Drawing.Size(153, 20)
+        Me.L3_WEEKLYINCOME.TabIndex = 349
+        '
+        'L3_EXPENSES
+        '
+        Me.L3_EXPENSES.Location = New System.Drawing.Point(296, 928)
+        Me.L3_EXPENSES.Name = "L3_EXPENSES"
+        Me.L3_EXPENSES.Size = New System.Drawing.Size(153, 20)
+        Me.L3_EXPENSES.TabIndex = 348
+        '
+        'L3_SALARY
+        '
+        Me.L3_SALARY.Location = New System.Drawing.Point(296, 889)
+        Me.L3_SALARY.Name = "L3_SALARY"
+        Me.L3_SALARY.Size = New System.Drawing.Size(153, 20)
+        Me.L3_SALARY.TabIndex = 347
+        '
+        'P3_BUSINESS
+        '
+        Me.P3_BUSINESS.Location = New System.Drawing.Point(296, 853)
+        Me.P3_BUSINESS.Name = "P3_BUSINESS"
+        Me.P3_BUSINESS.Size = New System.Drawing.Size(153, 20)
+        Me.P3_BUSINESS.TabIndex = 346
+        '
+        'R2_RELIGION
+        '
+        Me.R2_RELIGION.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.R2_RELIGION.Location = New System.Drawing.Point(518, 674)
+        Me.R2_RELIGION.Name = "R2_RELIGION"
+        Me.R2_RELIGION.Size = New System.Drawing.Size(111, 20)
+        Me.R2_RELIGION.TabIndex = 345
+        '
+        'B2_ANAK
+        '
+        Me.B2_ANAK.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.B2_ANAK.Location = New System.Drawing.Point(216, 717)
+        Me.B2_ANAK.Name = "B2_ANAK"
+        Me.B2_ANAK.Size = New System.Drawing.Size(46, 20)
+        Me.B2_ANAK.TabIndex = 344
+        '
+        'E2_AGE
+        '
+        Me.E2_AGE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.E2_AGE.Location = New System.Drawing.Point(216, 674)
+        Me.E2_AGE.Name = "E2_AGE"
+        Me.E2_AGE.Size = New System.Drawing.Size(46, 20)
+        Me.E2_AGE.TabIndex = 343
+        '
+        'K2_PROVINCE
+        '
+        Me.K2_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K2_PROVINCE.Location = New System.Drawing.Point(418, 605)
+        Me.K2_PROVINCE.Name = "K2_PROVINCE"
+        Me.K2_PROVINCE.Size = New System.Drawing.Size(96, 20)
+        Me.K2_PROVINCE.TabIndex = 342
+        Me.K2_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'K2_MUNICIPALITY
+        '
+        Me.K2_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K2_MUNICIPALITY.Location = New System.Drawing.Point(304, 605)
+        Me.K2_MUNICIPALITY.Name = "K2_MUNICIPALITY"
+        Me.K2_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
+        Me.K2_MUNICIPALITY.TabIndex = 341
+        Me.K2_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'K2_BARANGAY
+        '
+        Me.K2_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K2_BARANGAY.Location = New System.Drawing.Point(216, 605)
+        Me.K2_BARANGAY.Name = "K2_BARANGAY"
+        Me.K2_BARANGAY.Size = New System.Drawing.Size(84, 20)
+        Me.K2_BARANGAY.TabIndex = 340
+        Me.K2_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T2_PROVINCE
+        '
+        Me.T2_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_PROVINCE.Location = New System.Drawing.Point(546, 567)
+        Me.T2_PROVINCE.Name = "T2_PROVINCE"
+        Me.T2_PROVINCE.Size = New System.Drawing.Size(96, 20)
+        Me.T2_PROVINCE.TabIndex = 339
+        Me.T2_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T2_MUNICIPALITY
+        '
+        Me.T2_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_MUNICIPALITY.Location = New System.Drawing.Point(432, 567)
+        Me.T2_MUNICIPALITY.Name = "T2_MUNICIPALITY"
+        Me.T2_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
+        Me.T2_MUNICIPALITY.TabIndex = 338
+        Me.T2_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T2_BARANGAY
+        '
+        Me.T2_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_BARANGAY.Location = New System.Drawing.Point(344, 567)
+        Me.T2_BARANGAY.Name = "T2_BARANGAY"
+        Me.T2_BARANGAY.Size = New System.Drawing.Size(84, 20)
+        Me.T2_BARANGAY.TabIndex = 337
+        Me.T2_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T2_STREET
+        '
+        Me.T2_STREET.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_STREET.Location = New System.Drawing.Point(285, 567)
+        Me.T2_STREET.Name = "T2_STREET"
+        Me.T2_STREET.Size = New System.Drawing.Size(54, 20)
+        Me.T2_STREET.TabIndex = 336
+        Me.T2_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'T2_HOUSENO
+        '
+        Me.T2_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_HOUSENO.Location = New System.Drawing.Point(216, 567)
+        Me.T2_HOUSENO.Name = "T2_HOUSENO"
+        Me.T2_HOUSENO.Size = New System.Drawing.Size(65, 20)
+        Me.T2_HOUSENO.TabIndex = 335
+        Me.T2_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'P2_MIDDLENAME
+        '
+        Me.P2_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P2_MIDDLENAME.Location = New System.Drawing.Point(448, 529)
+        Me.P2_MIDDLENAME.Name = "P2_MIDDLENAME"
+        Me.P2_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
+        Me.P2_MIDDLENAME.TabIndex = 334
+        Me.P2_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Button1
         '
@@ -1191,64 +1196,64 @@ Partial Class ApplictaionForm1
         Me.Label30.TabIndex = 322
         Me.Label30.Text = "IMPORMASYON PATUNGKOL SA GUMARANTIYA AT LAGDA"
         '
-        'TextBox14
+        'P2_LASTNAME
         '
-        Me.TextBox14.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox14.Location = New System.Drawing.Point(216, 552)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox14.TabIndex = 321
-        Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P2_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P2_LASTNAME.Location = New System.Drawing.Point(216, 529)
+        Me.P2_LASTNAME.Name = "P2_LASTNAME"
+        Me.P2_LASTNAME.Size = New System.Drawing.Size(109, 20)
+        Me.P2_LASTNAME.TabIndex = 321
+        Me.P2_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox13
+        'C1_CONTACT
         '
-        Me.TextBox13.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox13.Location = New System.Drawing.Point(508, 360)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox13.TabIndex = 320
-        Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.C1_CONTACT.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.C1_CONTACT.Location = New System.Drawing.Point(508, 360)
+        Me.C1_CONTACT.Name = "C1_CONTACT"
+        Me.C1_CONTACT.Size = New System.Drawing.Size(114, 20)
+        Me.C1_CONTACT.TabIndex = 320
+        Me.C1_CONTACT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox12
+        'R1_RELIGION
         '
-        Me.TextBox12.Location = New System.Drawing.Point(195, 398)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(111, 20)
-        Me.TextBox12.TabIndex = 319
+        Me.R1_RELIGION.Location = New System.Drawing.Point(195, 398)
+        Me.R1_RELIGION.Name = "R1_RELIGION"
+        Me.R1_RELIGION.Size = New System.Drawing.Size(111, 20)
+        Me.R1_RELIGION.TabIndex = 319
         '
-        'TextBox11
+        'E1_AGE
         '
-        Me.TextBox11.Location = New System.Drawing.Point(195, 360)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(46, 20)
-        Me.TextBox11.TabIndex = 318
+        Me.E1_AGE.Location = New System.Drawing.Point(195, 360)
+        Me.E1_AGE.Name = "E1_AGE"
+        Me.E1_AGE.Size = New System.Drawing.Size(46, 20)
+        Me.E1_AGE.TabIndex = 318
         '
-        'TextBox10
+        'K1_PROVINCE
         '
-        Me.TextBox10.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox10.Location = New System.Drawing.Point(351, 292)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(91, 20)
-        Me.TextBox10.TabIndex = 317
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.K1_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K1_PROVINCE.Location = New System.Drawing.Point(351, 292)
+        Me.K1_PROVINCE.Name = "K1_PROVINCE"
+        Me.K1_PROVINCE.Size = New System.Drawing.Size(91, 20)
+        Me.K1_PROVINCE.TabIndex = 317
+        Me.K1_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox9
+        'K1_MUNICIPALITY
         '
-        Me.TextBox9.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox9.Location = New System.Drawing.Point(275, 292)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(73, 20)
-        Me.TextBox9.TabIndex = 316
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.K1_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K1_MUNICIPALITY.Location = New System.Drawing.Point(275, 292)
+        Me.K1_MUNICIPALITY.Name = "K1_MUNICIPALITY"
+        Me.K1_MUNICIPALITY.Size = New System.Drawing.Size(73, 20)
+        Me.K1_MUNICIPALITY.TabIndex = 316
+        Me.K1_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox8
+        'K1_BARANGAY
         '
-        Me.TextBox8.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox8.Location = New System.Drawing.Point(195, 292)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(77, 20)
-        Me.TextBox8.TabIndex = 315
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.K1_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K1_BARANGAY.Location = New System.Drawing.Point(195, 292)
+        Me.K1_BARANGAY.Name = "K1_BARANGAY"
+        Me.K1_BARANGAY.Size = New System.Drawing.Size(77, 20)
+        Me.K1_BARANGAY.TabIndex = 315
+        Me.K1_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label19
         '
@@ -1318,7 +1323,7 @@ Partial Class ApplictaionForm1
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(332, 662)
+        Me.RadioButton3.Location = New System.Drawing.Point(332, 639)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton3.TabIndex = 308
@@ -1329,7 +1334,7 @@ Partial Class ApplictaionForm1
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(218, 661)
+        Me.RadioButton4.Location = New System.Drawing.Point(218, 638)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton4.TabIndex = 307
@@ -1342,7 +1347,7 @@ Partial Class ApplictaionForm1
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(414, 697)
+        Me.Label9.Location = New System.Drawing.Point(414, 674)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(93, 21)
         Me.Label9.TabIndex = 306
@@ -1353,7 +1358,7 @@ Partial Class ApplictaionForm1
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label10.Location = New System.Drawing.Point(55, 739)
+        Me.Label10.Location = New System.Drawing.Point(55, 716)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(137, 21)
         Me.Label10.TabIndex = 305
@@ -1364,7 +1369,7 @@ Partial Class ApplictaionForm1
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label11.Location = New System.Drawing.Point(55, 698)
+        Me.Label11.Location = New System.Drawing.Point(55, 675)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(57, 21)
         Me.Label11.TabIndex = 304
@@ -1375,7 +1380,7 @@ Partial Class ApplictaionForm1
         Me.Label12.AutoSize = True
         Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label12.Location = New System.Drawing.Point(55, 660)
+        Me.Label12.Location = New System.Drawing.Point(55, 637)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(86, 21)
         Me.Label12.TabIndex = 303
@@ -1386,7 +1391,7 @@ Partial Class ApplictaionForm1
         Me.Label13.AutoSize = True
         Me.Label13.BackColor = System.Drawing.Color.Transparent
         Me.Label13.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label13.Location = New System.Drawing.Point(55, 626)
+        Me.Label13.Location = New System.Drawing.Point(55, 603)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(133, 21)
         Me.Label13.TabIndex = 302
@@ -1397,7 +1402,7 @@ Partial Class ApplictaionForm1
         Me.Label14.AutoSize = True
         Me.Label14.BackColor = System.Drawing.Color.Transparent
         Me.Label14.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label14.Location = New System.Drawing.Point(55, 590)
+        Me.Label14.Location = New System.Drawing.Point(55, 567)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(78, 21)
         Me.Label14.TabIndex = 301
@@ -1408,7 +1413,7 @@ Partial Class ApplictaionForm1
         Me.Label15.AutoSize = True
         Me.Label15.BackColor = System.Drawing.Color.Transparent
         Me.Label15.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label15.Location = New System.Drawing.Point(55, 553)
+        Me.Label15.Location = New System.Drawing.Point(55, 530)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(91, 21)
         Me.Label15.TabIndex = 300
@@ -1418,20 +1423,20 @@ Partial Class ApplictaionForm1
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label16.Location = New System.Drawing.Point(265, 504)
+        Me.Label16.Location = New System.Drawing.Point(265, 481)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(230, 21)
         Me.Label16.TabIndex = 299
         Me.Label16.Text = "IMPORMASYON NG ASAWA"
         '
-        'TextBox5
+        'T1_BARANGAY
         '
-        Me.TextBox5.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox5.Location = New System.Drawing.Point(323, 255)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox5.TabIndex = 298
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_BARANGAY.Location = New System.Drawing.Point(323, 255)
+        Me.T1_BARANGAY.Name = "T1_BARANGAY"
+        Me.T1_BARANGAY.Size = New System.Drawing.Size(84, 20)
+        Me.T1_BARANGAY.TabIndex = 298
+        Me.T1_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'RadioButton2
         '
@@ -1455,59 +1460,59 @@ Partial Class ApplictaionForm1
         Me.RadioButton1.Text = "Male"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'TextBox7
+        'T1_PROVINCE
         '
-        Me.TextBox7.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox7.Location = New System.Drawing.Point(525, 255)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox7.TabIndex = 295
-        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_PROVINCE.Location = New System.Drawing.Point(525, 255)
+        Me.T1_PROVINCE.Name = "T1_PROVINCE"
+        Me.T1_PROVINCE.Size = New System.Drawing.Size(96, 20)
+        Me.T1_PROVINCE.TabIndex = 295
+        Me.T1_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox6
+        'T1_MUNICIPALITY
         '
-        Me.TextBox6.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox6.Location = New System.Drawing.Point(411, 255)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox6.TabIndex = 294
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_MUNICIPALITY.Location = New System.Drawing.Point(411, 255)
+        Me.T1_MUNICIPALITY.Name = "T1_MUNICIPALITY"
+        Me.T1_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
+        Me.T1_MUNICIPALITY.TabIndex = 294
+        Me.T1_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox4
+        'T1_STREET
         '
-        Me.TextBox4.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox4.Location = New System.Drawing.Point(265, 255)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(54, 20)
-        Me.TextBox4.TabIndex = 293
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_STREET.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_STREET.Location = New System.Drawing.Point(265, 255)
+        Me.T1_STREET.Name = "T1_STREET"
+        Me.T1_STREET.Size = New System.Drawing.Size(54, 20)
+        Me.T1_STREET.TabIndex = 293
+        Me.T1_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox3
+        'T1_HOUSENO
         '
-        Me.TextBox3.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox3.Location = New System.Drawing.Point(195, 255)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox3.TabIndex = 292
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_HOUSENO.Location = New System.Drawing.Point(195, 255)
+        Me.T1_HOUSENO.Name = "T1_HOUSENO"
+        Me.T1_HOUSENO.Size = New System.Drawing.Size(65, 20)
+        Me.T1_HOUSENO.TabIndex = 292
+        Me.T1_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox2
+        'P1_MIDDLENAME
         '
-        Me.TextBox2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox2.Location = New System.Drawing.Point(428, 219)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox2.TabIndex = 291
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P1_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P1_MIDDLENAME.Location = New System.Drawing.Point(428, 219)
+        Me.P1_MIDDLENAME.Name = "P1_MIDDLENAME"
+        Me.P1_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
+        Me.P1_MIDDLENAME.TabIndex = 291
+        Me.P1_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox1
+        'P1_LASTNAME
         '
-        Me.TextBox1.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox1.Location = New System.Drawing.Point(195, 219)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox1.TabIndex = 290
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P1_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P1_LASTNAME.Location = New System.Drawing.Point(195, 219)
+        Me.P1_LASTNAME.Name = "P1_LASTNAME"
+        Me.P1_LASTNAME.Size = New System.Drawing.Size(109, 20)
+        Me.P1_LASTNAME.TabIndex = 290
+        Me.P1_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
         '
@@ -1629,13 +1634,21 @@ Partial Class ApplictaionForm1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
+        'ErrorProvider2
+        '
+        Me.ErrorProvider2.ContainerControl = Me
+        '
         'ApplictaionForm1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(762, 649)
+        Me.ClientSize = New System.Drawing.Size(881, 649)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label89)
@@ -1697,42 +1710,42 @@ Partial Class ApplictaionForm1
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.Label32)
         Me.Controls.Add(Me.Label40)
-        Me.Controls.Add(Me.Suffix_3)
-        Me.Controls.Add(Me.Suffix_2)
-        Me.Controls.Add(Me.suffix_1)
-        Me.Controls.Add(Me.Middlename_3)
-        Me.Controls.Add(Me.Middllename_2)
-        Me.Controls.Add(Me.Middlename_1)
-        Me.Controls.Add(Me.TextBox44)
-        Me.Controls.Add(Me.TextBox43)
-        Me.Controls.Add(Me.TextBox42)
-        Me.Controls.Add(Me.TextBox39)
-        Me.Controls.Add(Me.TextBox40)
-        Me.Controls.Add(Me.TextBox41)
-        Me.Controls.Add(Me.TextBox34)
-        Me.Controls.Add(Me.TextBox35)
-        Me.Controls.Add(Me.TextBox36)
-        Me.Controls.Add(Me.TextBox37)
-        Me.Controls.Add(Me.TextBox38)
-        Me.Controls.Add(Me.TextBox32)
-        Me.Controls.Add(Me.TextBox33)
-        Me.Controls.Add(Me.TextBox31)
-        Me.Controls.Add(Me.TextBox30)
-        Me.Controls.Add(Me.TextBox29)
-        Me.Controls.Add(Me.TextBox28)
-        Me.Controls.Add(Me.TextBox27)
-        Me.Controls.Add(Me.TextBox26)
-        Me.Controls.Add(Me.TextBox25)
-        Me.Controls.Add(Me.TextBox24)
-        Me.Controls.Add(Me.TextBox23)
-        Me.Controls.Add(Me.TextBox22)
-        Me.Controls.Add(Me.TextBox21)
-        Me.Controls.Add(Me.TextBox20)
-        Me.Controls.Add(Me.TextBox19)
-        Me.Controls.Add(Me.TextBox18)
-        Me.Controls.Add(Me.TextBox17)
-        Me.Controls.Add(Me.TextBox16)
-        Me.Controls.Add(Me.TextBox15)
+        Me.Controls.Add(Me.P4_SUFFIX)
+        Me.Controls.Add(Me.P2_SUFFIX)
+        Me.Controls.Add(Me.P1_SUFFIX)
+        Me.Controls.Add(Me.P4_GIVENNAME)
+        Me.Controls.Add(Me.P2_GIVENNAME)
+        Me.Controls.Add(Me.P1_GIVENNAME)
+        Me.Controls.Add(Me.T4_TYPEOFBUSINESS)
+        Me.Controls.Add(Me.B4_BUSINESS)
+        Me.Controls.Add(Me.E4_AGE)
+        Me.Controls.Add(Me.K4_PROVINCE)
+        Me.Controls.Add(Me.K4_MUNICIPALITY)
+        Me.Controls.Add(Me.K4_BARANGAY)
+        Me.Controls.Add(Me.T4_PROVINCE)
+        Me.Controls.Add(Me.T4_MUNICIPALITY)
+        Me.Controls.Add(Me.T4_BARANGAY)
+        Me.Controls.Add(Me.T4_STREET)
+        Me.Controls.Add(Me.T4_HOUSENO)
+        Me.Controls.Add(Me.P4_MIDDLENAME)
+        Me.Controls.Add(Me.P4_LASTNAME)
+        Me.Controls.Add(Me.M3_CLEANSALARY)
+        Me.Controls.Add(Me.L3_WEEKLYINCOME)
+        Me.Controls.Add(Me.L3_EXPENSES)
+        Me.Controls.Add(Me.L3_SALARY)
+        Me.Controls.Add(Me.P3_BUSINESS)
+        Me.Controls.Add(Me.R2_RELIGION)
+        Me.Controls.Add(Me.B2_ANAK)
+        Me.Controls.Add(Me.E2_AGE)
+        Me.Controls.Add(Me.K2_PROVINCE)
+        Me.Controls.Add(Me.K2_MUNICIPALITY)
+        Me.Controls.Add(Me.K2_BARANGAY)
+        Me.Controls.Add(Me.T2_PROVINCE)
+        Me.Controls.Add(Me.T2_MUNICIPALITY)
+        Me.Controls.Add(Me.T2_BARANGAY)
+        Me.Controls.Add(Me.T2_STREET)
+        Me.Controls.Add(Me.T2_HOUSENO)
+        Me.Controls.Add(Me.P2_MIDDLENAME)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.RadioButton5)
@@ -1745,13 +1758,13 @@ Partial Class ApplictaionForm1
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label29)
         Me.Controls.Add(Me.Label30)
-        Me.Controls.Add(Me.TextBox14)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox12)
-        Me.Controls.Add(Me.TextBox11)
-        Me.Controls.Add(Me.TextBox10)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.P2_LASTNAME)
+        Me.Controls.Add(Me.C1_CONTACT)
+        Me.Controls.Add(Me.R1_RELIGION)
+        Me.Controls.Add(Me.E1_AGE)
+        Me.Controls.Add(Me.K1_PROVINCE)
+        Me.Controls.Add(Me.K1_MUNICIPALITY)
+        Me.Controls.Add(Me.K1_BARANGAY)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label21)
@@ -1768,15 +1781,15 @@ Partial Class ApplictaionForm1
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.T1_BARANGAY)
         Me.Controls.Add(Me.RadioButton2)
         Me.Controls.Add(Me.RadioButton1)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.T1_PROVINCE)
+        Me.Controls.Add(Me.T1_MUNICIPALITY)
+        Me.Controls.Add(Me.T1_STREET)
+        Me.Controls.Add(Me.T1_HOUSENO)
+        Me.Controls.Add(Me.P1_MIDDLENAME)
+        Me.Controls.Add(Me.P1_LASTNAME)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -1791,6 +1804,8 @@ Partial Class ApplictaionForm1
         Me.Text = "APPLICATION FORM STEP 1"
         Me.TopMost = True
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1854,42 +1869,42 @@ Partial Class ApplictaionForm1
     Friend WithEvents Label33 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label40 As Label
-    Friend WithEvents Suffix_3 As TextBox
-    Friend WithEvents Suffix_2 As TextBox
-    Friend WithEvents suffix_1 As TextBox
-    Friend WithEvents Middlename_3 As TextBox
-    Friend WithEvents Middllename_2 As TextBox
-    Friend WithEvents Middlename_1 As TextBox
-    Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents TextBox40 As TextBox
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents TextBox34 As TextBox
-    Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents TextBox38 As TextBox
-    Friend WithEvents TextBox32 As TextBox
-    Friend WithEvents TextBox33 As TextBox
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents TextBox30 As TextBox
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox15 As TextBox
+    Friend WithEvents P4_SUFFIX As TextBox
+    Friend WithEvents P2_SUFFIX As TextBox
+    Friend WithEvents P1_SUFFIX As TextBox
+    Friend WithEvents P4_GIVENNAME As TextBox
+    Friend WithEvents P2_GIVENNAME As TextBox
+    Friend WithEvents P1_GIVENNAME As TextBox
+    Friend WithEvents T4_TYPEOFBUSINESS As TextBox
+    Friend WithEvents B4_BUSINESS As TextBox
+    Friend WithEvents E4_AGE As TextBox
+    Friend WithEvents K4_PROVINCE As TextBox
+    Friend WithEvents K4_MUNICIPALITY As TextBox
+    Friend WithEvents K4_BARANGAY As TextBox
+    Friend WithEvents T4_PROVINCE As TextBox
+    Friend WithEvents T4_MUNICIPALITY As TextBox
+    Friend WithEvents T4_BARANGAY As TextBox
+    Friend WithEvents T4_STREET As TextBox
+    Friend WithEvents T4_HOUSENO As TextBox
+    Friend WithEvents P4_MIDDLENAME As TextBox
+    Friend WithEvents P4_LASTNAME As TextBox
+    Friend WithEvents M3_CLEANSALARY As TextBox
+    Friend WithEvents L3_WEEKLYINCOME As TextBox
+    Friend WithEvents L3_EXPENSES As TextBox
+    Friend WithEvents L3_SALARY As TextBox
+    Friend WithEvents P3_BUSINESS As TextBox
+    Friend WithEvents R2_RELIGION As TextBox
+    Friend WithEvents B2_ANAK As TextBox
+    Friend WithEvents E2_AGE As TextBox
+    Friend WithEvents K2_PROVINCE As TextBox
+    Friend WithEvents K2_MUNICIPALITY As TextBox
+    Friend WithEvents K2_BARANGAY As TextBox
+    Friend WithEvents T2_PROVINCE As TextBox
+    Friend WithEvents T2_MUNICIPALITY As TextBox
+    Friend WithEvents T2_BARANGAY As TextBox
+    Friend WithEvents T2_STREET As TextBox
+    Friend WithEvents T2_HOUSENO As TextBox
+    Friend WithEvents P2_MIDDLENAME As TextBox
     Friend WithEvents Button1 As Button
     Friend WithEvents Label31 As Label
     Friend WithEvents RadioButton5 As RadioButton
@@ -1902,13 +1917,13 @@ Partial Class ApplictaionForm1
     Friend WithEvents Label28 As Label
     Friend WithEvents Label29 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents P2_LASTNAME As TextBox
+    Friend WithEvents C1_CONTACT As TextBox
+    Friend WithEvents R1_RELIGION As TextBox
+    Friend WithEvents E1_AGE As TextBox
+    Friend WithEvents K1_PROVINCE As TextBox
+    Friend WithEvents K1_MUNICIPALITY As TextBox
+    Friend WithEvents K1_BARANGAY As TextBox
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As Label
@@ -1925,15 +1940,15 @@ Partial Class ApplictaionForm1
     Friend WithEvents Label14 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents T1_BARANGAY As TextBox
     Friend WithEvents RadioButton2 As RadioButton
     Friend WithEvents RadioButton1 As RadioButton
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents T1_PROVINCE As TextBox
+    Friend WithEvents T1_MUNICIPALITY As TextBox
+    Friend WithEvents T1_STREET As TextBox
+    Friend WithEvents T1_HOUSENO As TextBox
+    Friend WithEvents P1_MIDDLENAME As TextBox
+    Friend WithEvents P1_LASTNAME As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
@@ -1945,4 +1960,6 @@ Partial Class ApplictaionForm1
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents ErrorProvider2 As ErrorProvider
 End Class
