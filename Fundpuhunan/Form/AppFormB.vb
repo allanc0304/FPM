@@ -144,7 +144,7 @@
             MessageBox.Show("This is field will accept Numbers only")
         End If
     End Sub
-sd
+
     Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles TextBox10.TextChanged
 
     End Sub
