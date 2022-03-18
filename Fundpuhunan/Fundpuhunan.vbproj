@@ -144,6 +144,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -200,6 +201,9 @@
       <DependentUpon>Files_record.vb</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Files_record.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\CIRFORM2.resx">
+      <DependentUpon>CIRFORM2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
