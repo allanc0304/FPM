@@ -118,12 +118,50 @@ Public Class LoanProcessing
             CIRFORM1.TextBox27.Text = cirObj.ComakerMunicipality
             CIRFORM1.TextBox26.Text = cirObj.ComakerProvince
             CIRFORM1.TextBox25.Text = cirObj.ComakerMonthlyIncome
-
+            If cirObj.Neighbors.Count = 1 Then
+                CIRFORM1.TextBox87.Text = cirObj.Neighbors(0).FirstName
+            ElseIf cirObj.Neighbors.Count = 2 Then
+                CIRFORM1.TextBox87.Text = cirObj.Neighbors(0).FirstName
+                CIRFORM1.TextBox89.Text = cirObj.Neighbors(1).FirstName
+            End If
+            If cirObj.HouseAddressRented = True Then
+                CIRFORM1.RadioButton2.Checked = True
+                CIRFORM1.TextBox93.Text = cirObj.HAOwnerRemarks
+            Else
+                CIRFORM1.RadioButton1.Checked = True
+            End If
+            If cirObj.BusinessAddressRented = True Then
+                CIRFORM1.RadioButton3.Checked = True
+                CIRFORM1.TextBox94.Text = cirObj.BAOwnerRemarks
+            Else
+                CIRFORM1.RadioButton4.Checked = True
+            End If
+            For Each collateral As Collateral In cirObj.Collaterals
+                Dim str(5) As String
+                str(0) = collateral.Description
+                str(1) = collateral.Model
+                str(2) = collateral.SerialNo
+                str(3) = collateral.PurchaseYear
+                str(4) = collateral.Price
+                Dim item As ListViewItem = New ListViewItem(str)
+                CIRFORM1.ListView2.Items.Add(item)
+            Next
+            If cirObj.HouseLotType = "commercial" Then
+                CIRFORM1.CheckBox4.Checked = True
+            ElseIf cirObj.HouseLotType = "industrial" Then
+                CIRFORM1.CheckBox5.Checked = True
+            ElseIf cirObj.HouseLotType = "industrial" Then
+                CIRFORM1.CheckBox5.Checked = True
+            ElseIf cirObj.HouseLotType = "residential" Then
+                CIRFORM1.CheckBox6.Checked = True
+            ElseIf cirObj.HouseLotType = "agricultural" Then
+                CIRFORM1.CheckBox7.Checked = True
+            End If
 
             CIRFORM1.Show()
-            CIRFORM1.BringToFront()
-        ElseIf e.ColumnIndex = 7 Then
-            MessageBox.Show("delete")
+                CIRFORM1.BringToFront()
+            ElseIf e.ColumnIndex = 7 Then
+                MessageBox.Show("delete")
         End If
     End Sub
 End Class
