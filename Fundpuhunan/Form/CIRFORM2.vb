@@ -1,3 +1,4 @@
+
 ﻿Public Class CIRFORM2
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
 
@@ -704,5 +705,10 @@
             chbResidential.Enabled = True
             chbCommercial.Enabled = True
         End If
+
+﻿Public Class Form1
+    Private Sub DateTimePicker1_ValueChanged(sender As Object, e As EventArgs) Handles DateTimePicker1.ValueChanged
+
+
     End Sub
 End Class
