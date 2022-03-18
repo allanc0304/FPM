@@ -4,6 +4,7 @@ Public Class LoanProcessing
         CIRFORM1.Show()
     End Sub
 
+
     Event DataGridView1ButtonClick(sender As DataGridView, e As DataGridViewCellEventArgs)
     Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
         Dim senderGrid = DirectCast(sender, DataGridView)
@@ -163,5 +164,8 @@ Public Class LoanProcessing
             ElseIf e.ColumnIndex = 7 Then
                 MessageBox.Show("delete")
         End If
+
+    Private Sub LoanProcessing_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
