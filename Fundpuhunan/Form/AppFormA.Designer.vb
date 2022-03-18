@@ -216,9 +216,9 @@ Partial Class ApplictaionForm1
         Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label86.Location = New System.Drawing.Point(465, 1229)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(56, 9)
+        Me.Label86.Size = New System.Drawing.Size(36, 9)
         Me.Label86.TabIndex = 426
-        Me.Label86.Text = "( PROVINCE )"
+        Me.Label86.Text = "( YEAR )"
         '
         'Label85
         '
@@ -226,9 +226,9 @@ Partial Class ApplictaionForm1
         Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label85.Location = New System.Drawing.Point(346, 1229)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(70, 9)
+        Me.Label85.Size = New System.Drawing.Size(31, 9)
         Me.Label85.TabIndex = 425
-        Me.Label85.Text = "( MUNICIPALITY )"
+        Me.Label85.Text = "( DAY )"
         '
         'Label84
         '
@@ -236,9 +236,15 @@ Partial Class ApplictaionForm1
         Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label84.Location = New System.Drawing.Point(247, 1229)
         Me.Label84.Name = "Label84"
+
+        Me.Label84.Size = New System.Drawing.Size(45, 9)
+        Me.Label84.TabIndex = 424
+        Me.Label84.Text = "( MONTH )"
+
         Me.Label84.Size = New System.Drawing.Size(58, 9)
         Me.Label84.TabIndex = 424
         Me.Label84.Text = "( BARANGAY )"
+
         '
         'Label83
         '
@@ -416,9 +422,9 @@ Partial Class ApplictaionForm1
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label66.Location = New System.Drawing.Point(439, 593)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(56, 9)
+        Me.Label66.Size = New System.Drawing.Size(36, 9)
         Me.Label66.TabIndex = 406
-        Me.Label66.Text = "( PROVINCE )"
+        Me.Label66.Text = "( YEAR )"
         '
         'Label65
         '
@@ -426,9 +432,9 @@ Partial Class ApplictaionForm1
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label65.Location = New System.Drawing.Point(325, 593)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(70, 9)
+        Me.Label65.Size = New System.Drawing.Size(31, 9)
         Me.Label65.TabIndex = 405
-        Me.Label65.Text = "( MUNICIPALITY )"
+        Me.Label65.Text = "( DAY )"
         '
         'Label64
         '
@@ -436,9 +442,9 @@ Partial Class ApplictaionForm1
         Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label64.Location = New System.Drawing.Point(225, 593)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(58, 9)
+        Me.Label64.Size = New System.Drawing.Size(45, 9)
         Me.Label64.TabIndex = 404
-        Me.Label64.Text = "( BARANGAY )"
+        Me.Label64.Text = "( MONTH )"
         '
         'Label63
         '
@@ -566,9 +572,9 @@ Partial Class ApplictaionForm1
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.Location = New System.Drawing.Point(367, 280)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(56, 9)
+        Me.Label51.Size = New System.Drawing.Size(36, 9)
         Me.Label51.TabIndex = 391
-        Me.Label51.Text = "( PROVINCE )"
+        Me.Label51.Text = "( YEAR )"
         '
         'Label50
         '
@@ -576,9 +582,9 @@ Partial Class ApplictaionForm1
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.Location = New System.Drawing.Point(278, 280)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(68, 9)
+        Me.Label50.Size = New System.Drawing.Size(45, 9)
         Me.Label50.TabIndex = 390
-        Me.Label50.Text = "( MUNICIPALITY)"
+        Me.Label50.Text = "( MONTH )"
         '
         'Label49
         '
@@ -586,9 +592,9 @@ Partial Class ApplictaionForm1
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.Location = New System.Drawing.Point(202, 280)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(58, 9)
+        Me.Label49.Size = New System.Drawing.Size(31, 9)
         Me.Label49.TabIndex = 389
-        Me.Label49.Text = "( BARANGAY )"
+        Me.Label49.Text = "( DAY )"
         '
         'Label47
         '
