@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class CIRFORM2
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.txtWBill = New System.Windows.Forms.TextBox()
         Me.Label81 = New System.Windows.Forms.Label()
         Me.txtEBill = New System.Windows.Forms.TextBox()
@@ -151,6 +152,76 @@ Partial Class Form1
         Me.chbResidential = New System.Windows.Forms.CheckBox()
         Me.Label63 = New System.Windows.Forms.Label()
         Me.chbAgricultural = New System.Windows.Forms.CheckBox()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider3 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider4 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider5 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider6 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider7 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider8 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider9 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider10 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider11 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider12 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider13 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider14 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider15 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider16 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider17 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider18 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider19 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider20 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider21 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider22 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider23 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider24 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider25 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider26 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider27 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider28 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider29 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider30 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider31 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider32 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider33 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider34 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider35 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider19, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider21, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider22, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider23, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider24, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider25, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider26, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider27, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider28, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider29, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider30, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider31, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider32, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider33, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider35, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtWBill
@@ -260,7 +331,7 @@ Partial Class Form1
         'txtBMname
         '
         Me.txtBMname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBMname.Location = New System.Drawing.Point(424, 135)
+        Me.txtBMname.Location = New System.Drawing.Point(444, 137)
         Me.txtBMname.Name = "txtBMname"
         Me.txtBMname.Size = New System.Drawing.Size(119, 22)
         Me.txtBMname.TabIndex = 445
@@ -268,7 +339,7 @@ Partial Class Form1
         'txtBFname
         '
         Me.txtBFname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBFname.Location = New System.Drawing.Point(299, 135)
+        Me.txtBFname.Location = New System.Drawing.Point(308, 136)
         Me.txtBFname.Name = "txtBFname"
         Me.txtBFname.Size = New System.Drawing.Size(119, 22)
         Me.txtBFname.TabIndex = 444
@@ -418,7 +489,7 @@ Partial Class Form1
         'txtBSuffix
         '
         Me.txtBSuffix.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtBSuffix.Location = New System.Drawing.Point(549, 135)
+        Me.txtBSuffix.Location = New System.Drawing.Point(578, 138)
         Me.txtBSuffix.Name = "txtBSuffix"
         Me.txtBSuffix.Size = New System.Drawing.Size(46, 22)
         Me.txtBSuffix.TabIndex = 428
@@ -572,9 +643,9 @@ Partial Class Form1
         'txtOtherSpec
         '
         Me.txtOtherSpec.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtOtherSpec.Location = New System.Drawing.Point(395, 498)
+        Me.txtOtherSpec.Location = New System.Drawing.Point(394, 498)
         Me.txtOtherSpec.Name = "txtOtherSpec"
-        Me.txtOtherSpec.Size = New System.Drawing.Size(169, 22)
+        Me.txtOtherSpec.Size = New System.Drawing.Size(170, 22)
         Me.txtOtherSpec.TabIndex = 410
         '
         'Label18
@@ -1272,7 +1343,7 @@ Partial Class Form1
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(323, 119)
+        Me.Label53.Location = New System.Drawing.Point(332, 120)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(69, 12)
         Me.Label53.TabIndex = 525
@@ -1292,7 +1363,7 @@ Partial Class Form1
         '
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label46.Location = New System.Drawing.Point(446, 119)
+        Me.Label46.Location = New System.Drawing.Point(466, 121)
         Me.Label46.Name = "Label46"
         Me.Label46.Size = New System.Drawing.Size(79, 12)
         Me.Label46.TabIndex = 527
@@ -1302,7 +1373,7 @@ Partial Class Form1
         '
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.Location = New System.Drawing.Point(550, 120)
+        Me.Label55.Location = New System.Drawing.Point(579, 123)
         Me.Label55.Name = "Label55"
         Me.Label55.Size = New System.Drawing.Size(45, 12)
         Me.Label55.TabIndex = 528
@@ -1382,7 +1453,147 @@ Partial Class Form1
         Me.chbAgricultural.Text = "Agricultural"
         Me.chbAgricultural.UseVisualStyleBackColor = True
         '
-        'Form1
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
+        'ErrorProvider2
+        '
+        Me.ErrorProvider2.ContainerControl = Me
+        '
+        'ErrorProvider3
+        '
+        Me.ErrorProvider3.ContainerControl = Me
+        '
+        'ErrorProvider4
+        '
+        Me.ErrorProvider4.ContainerControl = Me
+        '
+        'ErrorProvider5
+        '
+        Me.ErrorProvider5.ContainerControl = Me
+        '
+        'ErrorProvider6
+        '
+        Me.ErrorProvider6.ContainerControl = Me
+        '
+        'ErrorProvider7
+        '
+        Me.ErrorProvider7.ContainerControl = Me
+        '
+        'ErrorProvider8
+        '
+        Me.ErrorProvider8.ContainerControl = Me
+        '
+        'ErrorProvider9
+        '
+        Me.ErrorProvider9.ContainerControl = Me
+        '
+        'ErrorProvider10
+        '
+        Me.ErrorProvider10.ContainerControl = Me
+        '
+        'ErrorProvider11
+        '
+        Me.ErrorProvider11.ContainerControl = Me
+        '
+        'ErrorProvider12
+        '
+        Me.ErrorProvider12.ContainerControl = Me
+        '
+        'ErrorProvider13
+        '
+        Me.ErrorProvider13.ContainerControl = Me
+        '
+        'ErrorProvider14
+        '
+        Me.ErrorProvider14.ContainerControl = Me
+        '
+        'ErrorProvider15
+        '
+        Me.ErrorProvider15.ContainerControl = Me
+        '
+        'ErrorProvider16
+        '
+        Me.ErrorProvider16.ContainerControl = Me
+        '
+        'ErrorProvider17
+        '
+        Me.ErrorProvider17.ContainerControl = Me
+        '
+        'ErrorProvider18
+        '
+        Me.ErrorProvider18.ContainerControl = Me
+        '
+        'ErrorProvider19
+        '
+        Me.ErrorProvider19.ContainerControl = Me
+        '
+        'ErrorProvider20
+        '
+        Me.ErrorProvider20.ContainerControl = Me
+        '
+        'ErrorProvider21
+        '
+        Me.ErrorProvider21.ContainerControl = Me
+        '
+        'ErrorProvider22
+        '
+        Me.ErrorProvider22.ContainerControl = Me
+        '
+        'ErrorProvider23
+        '
+        Me.ErrorProvider23.ContainerControl = Me
+        '
+        'ErrorProvider24
+        '
+        Me.ErrorProvider24.ContainerControl = Me
+        '
+        'ErrorProvider25
+        '
+        Me.ErrorProvider25.ContainerControl = Me
+        '
+        'ErrorProvider26
+        '
+        Me.ErrorProvider26.ContainerControl = Me
+        '
+        'ErrorProvider27
+        '
+        Me.ErrorProvider27.ContainerControl = Me
+        '
+        'ErrorProvider28
+        '
+        Me.ErrorProvider28.ContainerControl = Me
+        '
+        'ErrorProvider29
+        '
+        Me.ErrorProvider29.ContainerControl = Me
+        '
+        'ErrorProvider30
+        '
+        Me.ErrorProvider30.ContainerControl = Me
+        '
+        'ErrorProvider31
+        '
+        Me.ErrorProvider31.ContainerControl = Me
+        '
+        'ErrorProvider32
+        '
+        Me.ErrorProvider32.ContainerControl = Me
+        '
+        'ErrorProvider33
+        '
+        Me.ErrorProvider33.ContainerControl = Me
+        '
+        'ErrorProvider34
+        '
+        Me.ErrorProvider34.ContainerControl = Me
+        '
+        'ErrorProvider35
+        '
+        Me.ErrorProvider35.ContainerControl = Me
+        '
+        'CIRFORM2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -1518,9 +1729,44 @@ Partial Class Form1
         Me.Controls.Add(Me.chbCommercial)
         Me.Controls.Add(Me.Label3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Form1"
+        Me.Name = "CIRFORM2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "CIR2"
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider19, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider21, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider22, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider23, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider24, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider25, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider26, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider27, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider28, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider29, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider30, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider31, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider32, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider33, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider35, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1655,4 +1901,39 @@ Partial Class Form1
     Friend WithEvents chbResidential As CheckBox
     Public WithEvents Label63 As Label
     Friend WithEvents chbAgricultural As CheckBox
+    Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents ErrorProvider2 As ErrorProvider
+    Friend WithEvents ErrorProvider3 As ErrorProvider
+    Friend WithEvents ErrorProvider4 As ErrorProvider
+    Friend WithEvents ErrorProvider5 As ErrorProvider
+    Friend WithEvents ErrorProvider6 As ErrorProvider
+    Friend WithEvents ErrorProvider7 As ErrorProvider
+    Friend WithEvents ErrorProvider8 As ErrorProvider
+    Friend WithEvents ErrorProvider9 As ErrorProvider
+    Friend WithEvents ErrorProvider10 As ErrorProvider
+    Friend WithEvents ErrorProvider11 As ErrorProvider
+    Friend WithEvents ErrorProvider12 As ErrorProvider
+    Friend WithEvents ErrorProvider13 As ErrorProvider
+    Friend WithEvents ErrorProvider14 As ErrorProvider
+    Friend WithEvents ErrorProvider15 As ErrorProvider
+    Friend WithEvents ErrorProvider16 As ErrorProvider
+    Friend WithEvents ErrorProvider17 As ErrorProvider
+    Friend WithEvents ErrorProvider18 As ErrorProvider
+    Friend WithEvents ErrorProvider19 As ErrorProvider
+    Friend WithEvents ErrorProvider20 As ErrorProvider
+    Friend WithEvents ErrorProvider21 As ErrorProvider
+    Friend WithEvents ErrorProvider22 As ErrorProvider
+    Friend WithEvents ErrorProvider23 As ErrorProvider
+    Friend WithEvents ErrorProvider24 As ErrorProvider
+    Friend WithEvents ErrorProvider25 As ErrorProvider
+    Friend WithEvents ErrorProvider26 As ErrorProvider
+    Friend WithEvents ErrorProvider27 As ErrorProvider
+    Friend WithEvents ErrorProvider28 As ErrorProvider
+    Friend WithEvents ErrorProvider29 As ErrorProvider
+    Friend WithEvents ErrorProvider30 As ErrorProvider
+    Friend WithEvents ErrorProvider31 As ErrorProvider
+    Friend WithEvents ErrorProvider32 As ErrorProvider
+    Friend WithEvents ErrorProvider33 As ErrorProvider
+    Friend WithEvents ErrorProvider34 As ErrorProvider
+    Friend WithEvents ErrorProvider35 As ErrorProvider
 End Class
