@@ -49,7 +49,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -145,7 +144,6 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -203,9 +201,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Files_record.Designer.vb</LastGenOutput>
     </EmbeddedResource>
+
+
     <EmbeddedResource Include="Form\CIRFORM2.resx">
       <DependentUpon>CIRFORM2.vb</DependentUpon>
     </EmbeddedResource>
+
     <EmbeddedResource Include="LoanProcessing.resx">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
     </EmbeddedResource>
