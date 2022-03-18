@@ -49,7 +49,8 @@ Public Class CIRFORM1
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles CIR_BACKBTN.Click
-
+        LoanProcessing.Show()
+        Me.Hide()
     End Sub
 
     Private Sub CIRFORM1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
