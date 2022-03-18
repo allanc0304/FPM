@@ -1127,11 +1127,11 @@ Partial Class CIRFORM1
         '
         'CIR_NEXTBTN
         '
-        Me.CIR_NEXTBTN.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.CIR_NEXTBTN.BackColor = System.Drawing.Color.SteelBlue
         Me.CIR_NEXTBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.CIR_NEXTBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CIR_NEXTBTN.ForeColor = System.Drawing.Color.Transparent
-        Me.CIR_NEXTBTN.Location = New System.Drawing.Point(785, 4313)
+        Me.CIR_NEXTBTN.Location = New System.Drawing.Point(880, 4311)
         Me.CIR_NEXTBTN.Name = "CIR_NEXTBTN"
         Me.CIR_NEXTBTN.Size = New System.Drawing.Size(124, 40)
         Me.CIR_NEXTBTN.TabIndex = 93
@@ -2230,11 +2230,11 @@ Partial Class CIRFORM1
         Me.CIR_BACKBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.CIR_BACKBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CIR_BACKBTN.ForeColor = System.Drawing.Color.Transparent
-        Me.CIR_BACKBTN.Location = New System.Drawing.Point(639, 4313)
+        Me.CIR_BACKBTN.Location = New System.Drawing.Point(734, 4311)
         Me.CIR_BACKBTN.Name = "CIR_BACKBTN"
         Me.CIR_BACKBTN.Size = New System.Drawing.Size(124, 40)
         Me.CIR_BACKBTN.TabIndex = 278
-        Me.CIR_BACKBTN.Text = "BACK "
+        Me.CIR_BACKBTN.Text = "CANCEL"
         Me.CIR_BACKBTN.UseVisualStyleBackColor = False
         '
         'LIA_ADDBTN
@@ -2252,7 +2252,7 @@ Partial Class CIRFORM1
         '
         'COL_ADDBTN
         '
-        Me.COL_ADDBTN.BackColor = System.Drawing.Color.DimGray
+        Me.COL_ADDBTN.BackColor = System.Drawing.Color.DarkGray
         Me.COL_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_ADDBTN.ForeColor = System.Drawing.Color.Transparent
@@ -2642,7 +2642,7 @@ Partial Class CIRFORM1
         '
         'COL_UPBUTTON
         '
-        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.DimGray
+        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.DarkGray
         Me.COL_UPBUTTON.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_UPBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_UPBUTTON.ForeColor = System.Drawing.Color.Transparent
@@ -2655,7 +2655,7 @@ Partial Class CIRFORM1
         '
         'COL_REMBTN
         '
-        Me.COL_REMBTN.BackColor = System.Drawing.Color.DimGray
+        Me.COL_REMBTN.BackColor = System.Drawing.Color.DarkGray
         Me.COL_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_REMBTN.ForeColor = System.Drawing.Color.Transparent
@@ -2668,7 +2668,7 @@ Partial Class CIRFORM1
         '
         'COL_REMALLBTN
         '
-        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.DimGray
+        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.DarkGray
         Me.COL_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_REMALLBTN.ForeColor = System.Drawing.Color.Transparent
@@ -2752,6 +2752,7 @@ Partial Class CIRFORM1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
+        Me.AutoScrollMargin = New System.Drawing.Size(0, 10)
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(1046, 677)
         Me.Controls.Add(Me.GroupBox2)
@@ -3004,6 +3005,7 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "CIRFORM1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CIR1"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

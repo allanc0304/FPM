@@ -125,7 +125,7 @@ Partial Class LoanProcessing
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.SlateGray
+        Me.Panel1.BackColor = System.Drawing.Color.SteelBlue
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)

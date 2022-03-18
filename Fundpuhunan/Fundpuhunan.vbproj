@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collections.Designer.vb">
+      <DependentUpon>Collections.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Collections.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Files_record.Designer.vb">
       <DependentUpon>Files_record.resx</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -172,6 +178,12 @@
       <DependentUpon>MyAccount.vb</DependentUpon>
     </Compile>
     <Compile Include="MyAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="releasecomputation.Designer.vb">
+      <DependentUpon>releasecomputation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="releasecomputation.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

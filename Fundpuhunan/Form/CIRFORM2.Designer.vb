@@ -736,21 +736,21 @@ Partial Class CIRFORM2
         'btnCancel
         '
         Me.btnCancel.AutoSize = True
-        Me.btnCancel.BackColor = System.Drawing.Color.Red
+        Me.btnCancel.BackColor = System.Drawing.Color.DimGray
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCancel.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnCancel.ForeColor = System.Drawing.SystemColors.Control
         Me.btnCancel.Location = New System.Drawing.Point(697, 1337)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(105, 45)
         Me.btnCancel.TabIndex = 719
-        Me.btnCancel.Text = "CANCEL"
+        Me.btnCancel.Text = "BACK"
         Me.btnCancel.UseVisualStyleBackColor = False
         '
         'btnSubmit
         '
         Me.btnSubmit.AutoSize = True
-        Me.btnSubmit.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnSubmit.BackColor = System.Drawing.Color.SteelBlue
         Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonFace
@@ -1178,7 +1178,7 @@ Partial Class CIRFORM2
         'Label82
         '
         Me.Label82.AutoSize = True
-        Me.Label82.BackColor = System.Drawing.SystemColors.Control
+        Me.Label82.BackColor = System.Drawing.Color.Transparent
         Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label82.Location = New System.Drawing.Point(358, 884)
         Me.Label82.Name = "Label82"
@@ -1515,7 +1515,9 @@ Partial Class CIRFORM2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(941, 724)
+        Me.AutoScrollMargin = New System.Drawing.Size(0, 10)
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.ClientSize = New System.Drawing.Size(1046, 677)
         Me.Controls.Add(Me.Label57)
         Me.Controls.Add(Me.Label56)
         Me.Controls.Add(Me.txtApprovedBy)
@@ -1640,7 +1642,7 @@ Partial Class CIRFORM2
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.txtBLname)
         Me.Controls.Add(Me.Label2)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "CIRFORM2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CIRFORM2"
