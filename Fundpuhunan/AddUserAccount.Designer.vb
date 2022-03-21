@@ -22,63 +22,76 @@ Partial Class AddUserAccount
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.components = New System.ComponentModel.Container()
+        Me.cmbboxPosition = New System.Windows.Forms.ComboBox()
+        Me.btnAddUserApply = New System.Windows.Forms.Button()
+        Me.btnAddUserCancel = New System.Windows.Forms.Button()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.chbSPassword = New System.Windows.Forms.CheckBox()
+        Me.btnCFile = New System.Windows.Forms.Button()
+        Me.pictureboxAddUser = New System.Windows.Forms.PictureBox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtPassword = New System.Windows.Forms.TextBox()
+        Me.txtUsername = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtMname = New System.Windows.Forms.TextBox()
+        Me.txtFname = New System.Windows.Forms.TextBox()
+        Me.txtLname = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider3 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider4 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider5 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ErrorProvider6 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.pictureboxAddUser, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'ComboBox1
+        'cmbboxPosition
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(138, 166)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(435, 21)
-        Me.ComboBox1.TabIndex = 44
+        Me.cmbboxPosition.FormattingEnabled = True
+        Me.cmbboxPosition.Location = New System.Drawing.Point(138, 166)
+        Me.cmbboxPosition.Name = "cmbboxPosition"
+        Me.cmbboxPosition.Size = New System.Drawing.Size(435, 21)
+        Me.cmbboxPosition.TabIndex = 44
         '
-        'Button3
+        'btnAddUserApply
         '
-        Me.Button3.BackColor = System.Drawing.Color.DodgerBlue
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Location = New System.Drawing.Point(646, 283)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(112, 34)
-        Me.Button3.TabIndex = 43
-        Me.Button3.Text = "Apply"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnAddUserApply.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnAddUserApply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnAddUserApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddUserApply.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnAddUserApply.Location = New System.Drawing.Point(646, 283)
+        Me.btnAddUserApply.Name = "btnAddUserApply"
+        Me.btnAddUserApply.Size = New System.Drawing.Size(112, 34)
+        Me.btnAddUserApply.TabIndex = 43
+        Me.btnAddUserApply.Text = "Apply"
+        Me.btnAddUserApply.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnAddUserCancel
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(528, 283)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 34)
-        Me.Button2.TabIndex = 42
-        Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnAddUserCancel.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.btnAddUserCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnAddUserCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddUserCancel.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.btnAddUserCancel.Location = New System.Drawing.Point(528, 283)
+        Me.btnAddUserCancel.Name = "btnAddUserCancel"
+        Me.btnAddUserCancel.Size = New System.Drawing.Size(112, 34)
+        Me.btnAddUserCancel.TabIndex = 42
+        Me.btnAddUserCancel.Text = "Cancel"
+        Me.btnAddUserCancel.UseVisualStyleBackColor = False
         '
         'Label10
         '
@@ -90,33 +103,33 @@ Partial Class AddUserAccount
         Me.Label10.TabIndex = 41
         Me.Label10.Text = "ID #"
         '
-        'CheckBox1
+        'chbSPassword
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(138, 262)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(102, 17)
-        Me.CheckBox1.TabIndex = 40
-        Me.CheckBox1.Text = "Show Password"
-        Me.CheckBox1.UseVisualStyleBackColor = True
+        Me.chbSPassword.AutoSize = True
+        Me.chbSPassword.Location = New System.Drawing.Point(138, 262)
+        Me.chbSPassword.Name = "chbSPassword"
+        Me.chbSPassword.Size = New System.Drawing.Size(102, 17)
+        Me.chbSPassword.TabIndex = 40
+        Me.chbSPassword.Text = "Show Password"
+        Me.chbSPassword.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btnCFile
         '
-        Me.Button1.Location = New System.Drawing.Point(646, 233)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 23)
-        Me.Button1.TabIndex = 39
-        Me.Button1.Text = "Choose File"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnCFile.Location = New System.Drawing.Point(646, 233)
+        Me.btnCFile.Name = "btnCFile"
+        Me.btnCFile.Size = New System.Drawing.Size(112, 23)
+        Me.btnCFile.TabIndex = 39
+        Me.btnCFile.Text = "Choose File"
+        Me.btnCFile.UseVisualStyleBackColor = True
         '
-        'PictureBox1
+        'pictureboxAddUser
         '
-        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.PictureBox1.Location = New System.Drawing.Point(646, 133)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(112, 94)
-        Me.PictureBox1.TabIndex = 38
-        Me.PictureBox1.TabStop = False
+        Me.pictureboxAddUser.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.pictureboxAddUser.Location = New System.Drawing.Point(646, 133)
+        Me.pictureboxAddUser.Name = "pictureboxAddUser"
+        Me.pictureboxAddUser.Size = New System.Drawing.Size(112, 94)
+        Me.pictureboxAddUser.TabIndex = 38
+        Me.pictureboxAddUser.TabStop = False
         '
         'Label9
         '
@@ -128,19 +141,19 @@ Partial Class AddUserAccount
         Me.Label9.TabIndex = 37
         Me.Label9.Text = "Password:"
         '
-        'TextBox6
+        'txtPassword
         '
-        Me.TextBox6.Location = New System.Drawing.Point(138, 236)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(435, 20)
-        Me.TextBox6.TabIndex = 36
+        Me.txtPassword.Location = New System.Drawing.Point(138, 236)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.Size = New System.Drawing.Size(435, 20)
+        Me.txtPassword.TabIndex = 36
         '
-        'TextBox5
+        'txtUsername
         '
-        Me.TextBox5.Location = New System.Drawing.Point(138, 201)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(435, 20)
-        Me.TextBox5.TabIndex = 35
+        Me.txtUsername.Location = New System.Drawing.Point(138, 201)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.Size = New System.Drawing.Size(435, 20)
+        Me.txtUsername.TabIndex = 35
         '
         'Label8
         '
@@ -192,26 +205,26 @@ Partial Class AddUserAccount
         Me.Label3.TabIndex = 29
         Me.Label3.Text = "(Surname)"
         '
-        'TextBox3
+        'txtMname
         '
-        Me.TextBox3.Location = New System.Drawing.Point(432, 133)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(141, 20)
-        Me.TextBox3.TabIndex = 28
+        Me.txtMname.Location = New System.Drawing.Point(432, 133)
+        Me.txtMname.Name = "txtMname"
+        Me.txtMname.Size = New System.Drawing.Size(141, 20)
+        Me.txtMname.TabIndex = 28
         '
-        'TextBox2
+        'txtFname
         '
-        Me.TextBox2.Location = New System.Drawing.Point(285, 133)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(141, 20)
-        Me.TextBox2.TabIndex = 27
+        Me.txtFname.Location = New System.Drawing.Point(285, 133)
+        Me.txtFname.Name = "txtFname"
+        Me.txtFname.Size = New System.Drawing.Size(141, 20)
+        Me.txtFname.TabIndex = 27
         '
-        'TextBox1
+        'txtLname
         '
-        Me.TextBox1.Location = New System.Drawing.Point(138, 133)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(141, 20)
-        Me.TextBox1.TabIndex = 26
+        Me.txtLname.Location = New System.Drawing.Point(138, 133)
+        Me.txtLname.Name = "txtLname"
+        Me.txtLname.Size = New System.Drawing.Size(141, 20)
+        Me.txtLname.TabIndex = 26
         '
         'Label2
         '
@@ -245,29 +258,53 @@ Partial Class AddUserAccount
         Me.Label6.Text = "_________________________________________________________________________________" &
     "______________________________________________"
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
+        'ErrorProvider2
+        '
+        Me.ErrorProvider2.ContainerControl = Me
+        '
+        'ErrorProvider3
+        '
+        Me.ErrorProvider3.ContainerControl = Me
+        '
+        'ErrorProvider4
+        '
+        Me.ErrorProvider4.ContainerControl = Me
+        '
+        'ErrorProvider5
+        '
+        Me.ErrorProvider5.ContainerControl = Me
+        '
+        'ErrorProvider6
+        '
+        Me.ErrorProvider6.ContainerControl = Me
+        '
         'AddUserAccount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(838, 354)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.cmbboxPosition)
+        Me.Controls.Add(Me.btnAddUserApply)
+        Me.Controls.Add(Me.btnAddUserCancel)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.chbSPassword)
+        Me.Controls.Add(Me.btnCFile)
+        Me.Controls.Add(Me.pictureboxAddUser)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtPassword)
+        Me.Controls.Add(Me.txtUsername)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtMname)
+        Me.Controls.Add(Me.txtFname)
+        Me.Controls.Add(Me.txtLname)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label6)
@@ -275,31 +312,43 @@ Partial Class AddUserAccount
         Me.Name = "AddUserAccount"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pictureboxAddUser, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents cmbboxPosition As ComboBox
+    Friend WithEvents btnAddUserApply As Button
+    Friend WithEvents btnAddUserCancel As Button
     Friend WithEvents Label10 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents chbSPassword As CheckBox
+    Friend WithEvents btnCFile As Button
+    Friend WithEvents pictureboxAddUser As PictureBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtPassword As TextBox
+    Friend WithEvents txtUsername As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtMname As TextBox
+    Friend WithEvents txtFname As TextBox
+    Friend WithEvents txtLname As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label6 As Label
+    Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents ErrorProvider2 As ErrorProvider
+    Friend WithEvents ErrorProvider3 As ErrorProvider
+    Friend WithEvents ErrorProvider4 As ErrorProvider
+    Friend WithEvents ErrorProvider5 As ErrorProvider
+    Friend WithEvents ErrorProvider6 As ErrorProvider
 End Class
