@@ -22,7 +22,7 @@ Partial Class AccountUserManagement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.datagridManageUser = New System.Windows.Forms.DataGridView()
         Me.UserID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.UserSurname = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.UserFirstName = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -34,19 +34,19 @@ Partial Class AccountUserManagement
         Me.UserDelete = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.FontDialog1 = New System.Windows.Forms.FontDialog()
-        Me.Button2 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.btnAddUser = New System.Windows.Forms.Button()
+        CType(Me.datagridManageUser, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'datagridManageUser
         '
-        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.UserID, Me.UserSurname, Me.UserFirstName, Me.UserMiddleName, Me.UserPosition, Me.UserUsername, Me.UserPassword, Me.UserEdit, Me.UserDelete})
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 119)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(916, 606)
-        Me.DataGridView1.TabIndex = 0
+        Me.datagridManageUser.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
+        Me.datagridManageUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.datagridManageUser.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.UserID, Me.UserSurname, Me.UserFirstName, Me.UserMiddleName, Me.UserPosition, Me.UserUsername, Me.UserPassword, Me.UserEdit, Me.UserDelete})
+        Me.datagridManageUser.Location = New System.Drawing.Point(12, 119)
+        Me.datagridManageUser.Name = "datagridManageUser"
+        Me.datagridManageUser.Size = New System.Drawing.Size(916, 606)
+        Me.datagridManageUser.TabIndex = 0
         '
         'UserID
         '
@@ -109,37 +109,37 @@ Partial Class AccountUserManagement
         'FontDialog1
         '
         '
-        'Button2
+        'btnAddUser
         '
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(790, 61)
-        Me.Button2.Name = "Button2"
-        Me.Button2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button2.Size = New System.Drawing.Size(138, 43)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Add User Account"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnAddUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddUser.Location = New System.Drawing.Point(790, 61)
+        Me.btnAddUser.Name = "btnAddUser"
+        Me.btnAddUser.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.btnAddUser.Size = New System.Drawing.Size(138, 43)
+        Me.btnAddUser.TabIndex = 3
+        Me.btnAddUser.Text = "Add User Account"
+        Me.btnAddUser.UseVisualStyleBackColor = True
         '
         'AccountUserManagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(940, 746)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btnAddUser)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.datagridManageUser)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "AccountUserManagement"
         Me.Text = "Form2"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.datagridManageUser, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents datagridManageUser As DataGridView
     Friend WithEvents Label1 As Label
     Friend WithEvents FontDialog1 As FontDialog
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnAddUser As Button
     Friend WithEvents UserID As DataGridViewTextBoxColumn
     Friend WithEvents UserSurname As DataGridViewTextBoxColumn
     Friend WithEvents UserFirstName As DataGridViewTextBoxColumn
