@@ -17,11 +17,11 @@
 
     End Sub
 
-    Private Sub TextBox26_TextChanged(sender As Object, e As EventArgs) Handles TextBox26.TextChanged
+    Private Sub TextBox26_TextChanged(sender As Object, e As EventArgs) Handles HH2_HALAGANG_HINIRAM.TextChanged
 
     End Sub
 
-    Private Sub TextBox27_TextChanged(sender As Object, e As EventArgs) Handles TextBox27.TextChanged
+    Private Sub TextBox27_TextChanged(sender As Object, e As EventArgs) Handles TP2_TAGAL_NG_PAGBAYAD.TextChanged
 
     End Sub
 
@@ -29,7 +29,7 @@
 
     End Sub
 
-    Private Sub TextBox23_TextChanged(sender As Object, e As EventArgs) Handles TextBox23.TextChanged
+    Private Sub TextBox23_TextChanged(sender As Object, e As EventArgs) Handles T2_PROVINCE.TextChanged
 
     End Sub
 
@@ -63,12 +63,12 @@
 
 
 
-        Dim Item As New ListViewItem(TextBox12.Text)
+        Dim Item As New ListViewItem(U1_URI_NG_KAGAMITAN.Text)
 
 
-        Item.SubItems.Add(TextBox13.Text)
-        Item.SubItems.Add(TextBox14.Text)
-        Item.SubItems.Add(TextBox15.Text)
+        Item.SubItems.Add(M1_MODEL.Text)
+        Item.SubItems.Add(SN1_SERIES_NUMBER.Text)
+        Item.SubItems.Add(HL1_HALAGA.Text)
 
         ListView1.Items.Add(Item)
 
@@ -78,7 +78,7 @@
 
     End Sub
 
-    Private Sub TextBox14_TextChanged(sender As Object, e As EventArgs) Handles TextBox14.TextChanged
+    Private Sub TextBox14_TextChanged(sender As Object, e As EventArgs) Handles SN1_SERIES_NUMBER.TextChanged
 
 
 
@@ -87,12 +87,12 @@
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
 
-        Dim Item As New ListViewItem(TextBox28.Text)
+        Dim Item As New ListViewItem(PP2_PARAAN_PAGBAYAD.Text)
 
 
-        Item.SubItems.Add(TextBox26.Text)
-        Item.SubItems.Add(TextBox27.Text)
-        Item.SubItems.Add(TextBox28.Text)
+        Item.SubItems.Add(HH2_HALAGANG_HINIRAM.Text)
+        Item.SubItems.Add(TP2_TAGAL_NG_PAGBAYAD.Text)
+        Item.SubItems.Add(PP2_PARAAN_PAGBAYAD.Text)
 
         ListView2.Items.Add(Item)
 
@@ -131,53 +131,53 @@
 
     End Sub
 
-    Private Sub AppFormB_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox9.KeyPress, TextBox8.KeyPress, TextBox7.KeyPress, TextBox4.KeyPress, TextBox31.KeyPress, TextBox3.KeyPress, TextBox29.KeyPress, TextBox24.KeyPress, TextBox23.KeyPress, TextBox22.KeyPress, TextBox2.KeyPress, TextBox19.KeyPress, TextBox18.KeyPress, TextBox17.KeyPress, TextBox16.KeyPress, TextBox12.KeyPress, TextBox1.KeyPress, MyBase.KeyPress
+    Private Sub AppFormB_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T1_PROVINCE.KeyPress, T1_MUNICIPALITY.KeyPress, T1_BARANGAY.KeyPress, P1_SUFFIX.KeyPress, CB2_CHECKEDBY.KeyPress, P1_MIDDLENAME.KeyPress, R2_RECOMMENDED.KeyPress, T2_MUNICIPALITY.KeyPress, T2_PROVINCE.KeyPress, T2_BARANGAY.KeyPress, P1_GIVENNAME.KeyPress, P2_SUFFIX.KeyPress, P2_MIDDLENAME.KeyPress, P2_GIVENNAME.KeyPress, P2_LASTNAME.KeyPress, U1_URI_NG_KAGAMITAN.KeyPress, P1_LASTNAME.KeyPress, MyBase.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
         End If
     End Sub
 
-    Private Sub TextBox5_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox5.KeyPress, TextBox30.KeyPress, TextBox28.KeyPress, TextBox27.KeyPress, TextBox26.KeyPress, TextBox25.KeyPress, TextBox20.KeyPress, TextBox15.KeyPress, TextBox14.KeyPress, TextBox13.KeyPress, TextBox11.KeyPress, TextBox10.KeyPress
+    Private Sub TextBox5_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T1_HOUSENO.KeyPress, AL2_LOAN.KeyPress, PP2_PARAAN_PAGBAYAD.KeyPress, TP2_TAGAL_NG_PAGBAYAD.KeyPress, HH2_HALAGANG_HINIRAM.KeyPress, H2_HALAGA.KeyPress, T2_HOUSENO.KeyPress, HL1_HALAGA.KeyPress, SN1_SERIES_NUMBER.KeyPress, M1_MODEL.KeyPress, PH1_PAGHULOG.KeyPress, H1_HALAGA.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Numbers only")
         End If
     End Sub
 
-    Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles TextBox10.TextChanged
+    Private Sub TextBox10_TextChanged(sender As Object, e As EventArgs) Handles H1_HALAGA.TextChanged
 
     End Sub
 
-    Private Sub TextBox11_TextChanged(sender As Object, e As EventArgs) Handles TextBox11.TextChanged
+    Private Sub TextBox11_TextChanged(sender As Object, e As EventArgs) Handles PH1_PAGHULOG.TextChanged
 
     End Sub
 
-    Private Sub TextBox13_TextChanged(sender As Object, e As EventArgs) Handles TextBox13.TextChanged
+    Private Sub TextBox13_TextChanged(sender As Object, e As EventArgs) Handles M1_MODEL.TextChanged
 
     End Sub
 
-    Private Sub TextBox15_TextChanged(sender As Object, e As EventArgs) Handles TextBox15.TextChanged
+    Private Sub TextBox15_TextChanged(sender As Object, e As EventArgs) Handles HL1_HALAGA.TextChanged
 
     End Sub
 
-    Private Sub TextBox20_TextChanged(sender As Object, e As EventArgs) Handles TextBox20.TextChanged
+    Private Sub TextBox20_TextChanged(sender As Object, e As EventArgs) Handles T2_HOUSENO.TextChanged
 
     End Sub
 
-    Private Sub TextBox25_TextChanged(sender As Object, e As EventArgs) Handles TextBox25.TextChanged
+    Private Sub TextBox25_TextChanged(sender As Object, e As EventArgs) Handles H2_HALAGA.TextChanged
 
     End Sub
 
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
+    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles T1_HOUSENO.TextChanged
 
     End Sub
 
-    Private Sub TextBox28_TextChanged(sender As Object, e As EventArgs) Handles TextBox28.TextChanged
+    Private Sub TextBox28_TextChanged(sender As Object, e As EventArgs) Handles PP2_PARAAN_PAGBAYAD.TextChanged
 
     End Sub
 
-    Private Sub TextBox30_TextChanged(sender As Object, e As EventArgs) Handles TextBox30.TextChanged
+    Private Sub TextBox30_TextChanged(sender As Object, e As EventArgs) Handles AL2_LOAN.TextChanged
 
     End Sub
 End Class

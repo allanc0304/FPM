@@ -76,21 +76,21 @@ Public Class ApplictaionForm1
         End If
     End Sub
 
-    Private Sub K1_BARANGAY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_BARANGAY.KeyPress
+    Private Sub K1_BARANGAY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_DAY.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
         End If
     End Sub
 
-    Private Sub K1_MUNICIPALITY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_MUNICIPALITY.KeyPress
+    Private Sub K1_MUNICIPALITY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_MONTH.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
         End If
     End Sub
 
-    Private Sub K1_PROVINCE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_PROVINCE.KeyPress
+    Private Sub K1_PROVINCE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles S.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
@@ -124,7 +124,7 @@ Public Class ApplictaionForm1
         End If
     End Sub
 
-    Private Sub P2_LASTNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T2_PROVINCE.KeyPress, T2_MUNICIPALITY.KeyPress, T2_BARANGAY.KeyPress, R2_RELIGION.KeyPress, P2_SUFFIX.KeyPress, P2_MIDDLENAME.KeyPress, P2_LASTNAME.KeyPress, P2_GIVENNAME.KeyPress, K2_PROVINCE.KeyPress, K2_MUNICIPALITY.KeyPress, K2_BARANGAY.KeyPress
+    Private Sub P2_LASTNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T2_PROVINCE.KeyPress, T2_MUNICIPALITY.KeyPress, T2_BARANGAY.KeyPress, R2_RELIGION.KeyPress, P2_SUFFIX.KeyPress, P2_MIDDLENAME.KeyPress, P2_LASTNAME.KeyPress, P2_GIVENNAME.KeyPress, K2_YEAR.KeyPress, K2_DAY.KeyPress, K2_MONTH.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
@@ -152,7 +152,7 @@ Public Class ApplictaionForm1
         End If
     End Sub
 
-    Private Sub P4_LASTNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T4_TYPEOFBUSINESS.KeyPress, T4_PROVINCE.KeyPress, T4_MUNICIPALITY.KeyPress, T4_BARANGAY.KeyPress, P4_SUFFIX.KeyPress, P4_MIDDLENAME.KeyPress, P4_LASTNAME.KeyPress, P4_GIVENNAME.KeyPress, K4_PROVINCE.KeyPress, K4_MUNICIPALITY.KeyPress, K4_BARANGAY.KeyPress, B4_BUSINESS.KeyPress
+    Private Sub P4_LASTNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T4_TYPEOFBUSINESS.KeyPress, T4_PROVINCE.KeyPress, T4_MUNICIPALITY.KeyPress, T4_BARANGAY.KeyPress, P4_SUFFIX.KeyPress, P4_MIDDLENAME.KeyPress, P4_LASTNAME.KeyPress, P4_GIVENNAME.KeyPress, K4_YEAR.KeyPress, K4_DAY.KeyPress, K4_MONTH.KeyPress, B4_BUSINESS.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
@@ -174,5 +174,7 @@ Public Class ApplictaionForm1
         Me.Hide()
     End Sub
 
+    Private Sub ApplictaionForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
 End Class

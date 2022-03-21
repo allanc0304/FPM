@@ -22,15 +22,15 @@ Partial Class AppFormB
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.CB2_CHECKEDBY = New System.Windows.Forms.TextBox()
+        Me.AL2_LOAN = New System.Windows.Forms.TextBox()
+        Me.R2_RECOMMENDED = New System.Windows.Forms.TextBox()
         Me.Label44 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
         Me.Label41 = New System.Windows.Forms.Label()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.PP2_PARAAN_PAGBAYAD = New System.Windows.Forms.TextBox()
+        Me.TP2_TAGAL_NG_PAGBAYAD = New System.Windows.Forms.TextBox()
+        Me.HH2_HALAGANG_HINIRAM = New System.Windows.Forms.TextBox()
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -46,7 +46,7 @@ Partial Class AppFormB
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
+        Me.H2_HALAGA = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
@@ -56,21 +56,21 @@ Partial Class AppFormB
         Me.Label26 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.T2_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.T2_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.T2_BARANGAY = New System.Windows.Forms.TextBox()
+        Me.T2_STREET = New System.Windows.Forms.TextBox()
+        Me.T2_HOUSENO = New System.Windows.Forms.TextBox()
         Me.Label23 = New System.Windows.Forms.Label()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.P2_SUFFIX = New System.Windows.Forms.TextBox()
+        Me.P2_MIDDLENAME = New System.Windows.Forms.TextBox()
+        Me.P2_GIVENNAME = New System.Windows.Forms.TextBox()
+        Me.P2_LASTNAME = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.HL1_HALAGA = New System.Windows.Forms.TextBox()
+        Me.SN1_SERIES_NUMBER = New System.Windows.Forms.TextBox()
+        Me.M1_MODEL = New System.Windows.Forms.TextBox()
+        Me.U1_URI_NG_KAGAMITAN = New System.Windows.Forms.TextBox()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
@@ -89,25 +89,25 @@ Partial Class AppFormB
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.PH1_PAGHULOG = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.H1_HALAGA = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.T1_MUNICIPALITY = New System.Windows.Forms.TextBox()
+        Me.T1_PROVINCE = New System.Windows.Forms.TextBox()
+        Me.T1_HOUSENO = New System.Windows.Forms.TextBox()
+        Me.T1_STREET = New System.Windows.Forms.TextBox()
+        Me.T1_BARANGAY = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.P1_LASTNAME = New System.Windows.Forms.TextBox()
+        Me.P1_MIDDLENAME = New System.Windows.Forms.TextBox()
+        Me.P1_GIVENNAME = New System.Windows.Forms.TextBox()
+        Me.P1_SUFFIX = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label40 = New System.Windows.Forms.Label()
@@ -158,29 +158,29 @@ Partial Class AppFormB
         Me.Button11 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'TextBox31
+        'CB2_CHECKEDBY
         '
-        Me.TextBox31.Location = New System.Drawing.Point(182, 1595)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(140, 20)
-        Me.TextBox31.TabIndex = 219
-        Me.TextBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.CB2_CHECKEDBY.Location = New System.Drawing.Point(182, 1595)
+        Me.CB2_CHECKEDBY.Name = "CB2_CHECKEDBY"
+        Me.CB2_CHECKEDBY.Size = New System.Drawing.Size(140, 20)
+        Me.CB2_CHECKEDBY.TabIndex = 219
+        Me.CB2_CHECKEDBY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox30
+        'AL2_LOAN
         '
-        Me.TextBox30.Location = New System.Drawing.Point(182, 1551)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(140, 20)
-        Me.TextBox30.TabIndex = 218
-        Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.AL2_LOAN.Location = New System.Drawing.Point(182, 1551)
+        Me.AL2_LOAN.Name = "AL2_LOAN"
+        Me.AL2_LOAN.Size = New System.Drawing.Size(140, 20)
+        Me.AL2_LOAN.TabIndex = 218
+        Me.AL2_LOAN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox29
+        'R2_RECOMMENDED
         '
-        Me.TextBox29.Location = New System.Drawing.Point(182, 1505)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(140, 20)
-        Me.TextBox29.TabIndex = 217
-        Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R2_RECOMMENDED.Location = New System.Drawing.Point(182, 1505)
+        Me.R2_RECOMMENDED.Name = "R2_RECOMMENDED"
+        Me.R2_RECOMMENDED.Size = New System.Drawing.Size(140, 20)
+        Me.R2_RECOMMENDED.TabIndex = 217
+        Me.R2_RECOMMENDED.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label44
         '
@@ -212,29 +212,29 @@ Partial Class AppFormB
         Me.Label41.TabIndex = 214
         Me.Label41.Text = "Recommended by :"
         '
-        'TextBox28
+        'PP2_PARAAN_PAGBAYAD
         '
-        Me.TextBox28.Location = New System.Drawing.Point(490, 1225)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(160, 20)
-        Me.TextBox28.TabIndex = 211
-        Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.PP2_PARAAN_PAGBAYAD.Location = New System.Drawing.Point(490, 1225)
+        Me.PP2_PARAAN_PAGBAYAD.Name = "PP2_PARAAN_PAGBAYAD"
+        Me.PP2_PARAAN_PAGBAYAD.Size = New System.Drawing.Size(160, 20)
+        Me.PP2_PARAAN_PAGBAYAD.TabIndex = 211
+        Me.PP2_PARAAN_PAGBAYAD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox27
+        'TP2_TAGAL_NG_PAGBAYAD
         '
-        Me.TextBox27.Location = New System.Drawing.Point(276, 1225)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(156, 20)
-        Me.TextBox27.TabIndex = 210
-        Me.TextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TP2_TAGAL_NG_PAGBAYAD.Location = New System.Drawing.Point(276, 1225)
+        Me.TP2_TAGAL_NG_PAGBAYAD.Name = "TP2_TAGAL_NG_PAGBAYAD"
+        Me.TP2_TAGAL_NG_PAGBAYAD.Size = New System.Drawing.Size(156, 20)
+        Me.TP2_TAGAL_NG_PAGBAYAD.TabIndex = 210
+        Me.TP2_TAGAL_NG_PAGBAYAD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox26
+        'HH2_HALAGANG_HINIRAM
         '
-        Me.TextBox26.Location = New System.Drawing.Point(58, 1225)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(133, 20)
-        Me.TextBox26.TabIndex = 209
-        Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.HH2_HALAGANG_HINIRAM.Location = New System.Drawing.Point(58, 1225)
+        Me.HH2_HALAGANG_HINIRAM.Name = "HH2_HALAGANG_HINIRAM"
+        Me.HH2_HALAGANG_HINIRAM.Size = New System.Drawing.Size(133, 20)
+        Me.HH2_HALAGANG_HINIRAM.TabIndex = 209
+        Me.HH2_HALAGANG_HINIRAM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ColumnHeader5
         '
@@ -372,13 +372,13 @@ Partial Class AppFormB
         Me.Label32.TabIndex = 194
         Me.Label32.Text = "."
         '
-        'TextBox25
+        'H2_HALAGA
         '
-        Me.TextBox25.Location = New System.Drawing.Point(413, 1080)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(98, 20)
-        Me.TextBox25.TabIndex = 193
-        Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.H2_HALAGA.Location = New System.Drawing.Point(413, 1080)
+        Me.H2_HALAGA.Name = "H2_HALAGA"
+        Me.H2_HALAGA.Size = New System.Drawing.Size(98, 20)
+        Me.H2_HALAGA.TabIndex = 193
+        Me.H2_HALAGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label31
         '
@@ -467,50 +467,50 @@ Partial Class AppFormB
         Me.Label25.TabIndex = 179
         Me.Label25.Text = " nasa wastong gulang, Filipino at kasalukuyang naninirahan"
         '
-        'TextBox24
+        'T2_MUNICIPALITY
         '
-        Me.TextBox24.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox24.Location = New System.Drawing.Point(36, 1001)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(94, 20)
-        Me.TextBox24.TabIndex = 180
-        Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T2_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_MUNICIPALITY.Location = New System.Drawing.Point(36, 1001)
+        Me.T2_MUNICIPALITY.Name = "T2_MUNICIPALITY"
+        Me.T2_MUNICIPALITY.Size = New System.Drawing.Size(94, 20)
+        Me.T2_MUNICIPALITY.TabIndex = 180
+        Me.T2_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox23
+        'T2_PROVINCE
         '
-        Me.TextBox23.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox23.Location = New System.Drawing.Point(136, 1001)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox23.TabIndex = 181
-        Me.TextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T2_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_PROVINCE.Location = New System.Drawing.Point(136, 1001)
+        Me.T2_PROVINCE.Name = "T2_PROVINCE"
+        Me.T2_PROVINCE.Size = New System.Drawing.Size(84, 20)
+        Me.T2_PROVINCE.TabIndex = 181
+        Me.T2_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox22
+        'T2_BARANGAY
         '
-        Me.TextBox22.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox22.Location = New System.Drawing.Point(592, 967)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(92, 20)
-        Me.TextBox22.TabIndex = 182
-        Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T2_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_BARANGAY.Location = New System.Drawing.Point(592, 967)
+        Me.T2_BARANGAY.Name = "T2_BARANGAY"
+        Me.T2_BARANGAY.Size = New System.Drawing.Size(92, 20)
+        Me.T2_BARANGAY.TabIndex = 182
+        Me.T2_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox21
+        'T2_STREET
         '
-        Me.TextBox21.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox21.Location = New System.Drawing.Point(532, 968)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(54, 20)
-        Me.TextBox21.TabIndex = 183
-        Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T2_STREET.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_STREET.Location = New System.Drawing.Point(532, 968)
+        Me.T2_STREET.Name = "T2_STREET"
+        Me.T2_STREET.Size = New System.Drawing.Size(54, 20)
+        Me.T2_STREET.TabIndex = 183
+        Me.T2_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox20
+        'T2_HOUSENO
         '
-        Me.TextBox20.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox20.Location = New System.Drawing.Point(462, 968)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox20.TabIndex = 184
-        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T2_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T2_HOUSENO.Location = New System.Drawing.Point(462, 968)
+        Me.T2_HOUSENO.Name = "T2_HOUSENO"
+        Me.T2_HOUSENO.Size = New System.Drawing.Size(65, 20)
+        Me.T2_HOUSENO.TabIndex = 184
+        Me.T2_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label23
         '
@@ -522,40 +522,40 @@ Partial Class AppFormB
         Me.Label23.TabIndex = 174
         Me.Label23.Text = "Ako si"
         '
-        'TextBox19
+        'P2_SUFFIX
         '
-        Me.TextBox19.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox19.Location = New System.Drawing.Point(445, 930)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(42, 20)
-        Me.TextBox19.TabIndex = 175
-        Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P2_SUFFIX.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P2_SUFFIX.Location = New System.Drawing.Point(445, 930)
+        Me.P2_SUFFIX.Name = "P2_SUFFIX"
+        Me.P2_SUFFIX.Size = New System.Drawing.Size(42, 20)
+        Me.P2_SUFFIX.TabIndex = 175
+        Me.P2_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox18
+        'P2_MIDDLENAME
         '
-        Me.TextBox18.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox18.Location = New System.Drawing.Point(325, 930)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox18.TabIndex = 176
-        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P2_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P2_MIDDLENAME.Location = New System.Drawing.Point(325, 930)
+        Me.P2_MIDDLENAME.Name = "P2_MIDDLENAME"
+        Me.P2_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
+        Me.P2_MIDDLENAME.TabIndex = 176
+        Me.P2_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox17
+        'P2_GIVENNAME
         '
-        Me.TextBox17.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox17.Location = New System.Drawing.Point(205, 929)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox17.TabIndex = 177
-        Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P2_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P2_GIVENNAME.Location = New System.Drawing.Point(205, 929)
+        Me.P2_GIVENNAME.Name = "P2_GIVENNAME"
+        Me.P2_GIVENNAME.Size = New System.Drawing.Size(114, 20)
+        Me.P2_GIVENNAME.TabIndex = 177
+        Me.P2_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox16
+        'P2_LASTNAME
         '
-        Me.TextBox16.Location = New System.Drawing.Point(90, 929)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox16.TabIndex = 178
-        Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P2_LASTNAME.Location = New System.Drawing.Point(90, 929)
+        Me.P2_LASTNAME.Name = "P2_LASTNAME"
+        Me.P2_LASTNAME.Size = New System.Drawing.Size(109, 20)
+        Me.P2_LASTNAME.TabIndex = 178
+        Me.P2_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label22
         '
@@ -567,37 +567,37 @@ Partial Class AppFormB
         Me.Label22.TabIndex = 173
         Me.Label22.Text = "SINUMPAANG SALAYSAY"
         '
-        'TextBox15
+        'HL1_HALAGA
         '
-        Me.TextBox15.Location = New System.Drawing.Point(542, 570)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox15.TabIndex = 172
-        Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.HL1_HALAGA.Location = New System.Drawing.Point(542, 570)
+        Me.HL1_HALAGA.Name = "HL1_HALAGA"
+        Me.HL1_HALAGA.Size = New System.Drawing.Size(118, 20)
+        Me.HL1_HALAGA.TabIndex = 172
+        Me.HL1_HALAGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox14
+        'SN1_SERIES_NUMBER
         '
-        Me.TextBox14.Location = New System.Drawing.Point(385, 570)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox14.TabIndex = 171
-        Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.SN1_SERIES_NUMBER.Location = New System.Drawing.Point(385, 570)
+        Me.SN1_SERIES_NUMBER.Name = "SN1_SERIES_NUMBER"
+        Me.SN1_SERIES_NUMBER.Size = New System.Drawing.Size(118, 20)
+        Me.SN1_SERIES_NUMBER.TabIndex = 171
+        Me.SN1_SERIES_NUMBER.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox13
+        'M1_MODEL
         '
-        Me.TextBox13.Location = New System.Drawing.Point(235, 570)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox13.TabIndex = 170
-        Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M1_MODEL.Location = New System.Drawing.Point(235, 570)
+        Me.M1_MODEL.Name = "M1_MODEL"
+        Me.M1_MODEL.Size = New System.Drawing.Size(118, 20)
+        Me.M1_MODEL.TabIndex = 170
+        Me.M1_MODEL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox12
+        'U1_URI_NG_KAGAMITAN
         '
-        Me.TextBox12.Location = New System.Drawing.Point(60, 570)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(120, 20)
-        Me.TextBox12.TabIndex = 169
-        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.U1_URI_NG_KAGAMITAN.Location = New System.Drawing.Point(60, 570)
+        Me.U1_URI_NG_KAGAMITAN.Name = "U1_URI_NG_KAGAMITAN"
+        Me.U1_URI_NG_KAGAMITAN.Size = New System.Drawing.Size(120, 20)
+        Me.U1_URI_NG_KAGAMITAN.TabIndex = 169
+        Me.U1_URI_NG_KAGAMITAN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ColumnHeader1
         '
@@ -763,13 +763,13 @@ Partial Class AppFormB
         Me.Label11.TabIndex = 155
         Me.Label11.Text = "kada linggo sa loob ng "
         '
-        'TextBox11
+        'PH1_PAGHULOG
         '
-        Me.TextBox11.Location = New System.Drawing.Point(237, 340)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(86, 20)
-        Me.TextBox11.TabIndex = 154
-        Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.PH1_PAGHULOG.Location = New System.Drawing.Point(237, 340)
+        Me.PH1_PAGHULOG.Name = "PH1_PAGHULOG"
+        Me.PH1_PAGHULOG.Size = New System.Drawing.Size(86, 20)
+        Me.PH1_PAGHULOG.TabIndex = 154
+        Me.PH1_PAGHULOG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
         '
@@ -812,13 +812,13 @@ Partial Class AppFormB
         Me.Label7.TabIndex = 150
         Me.Label7.Text = "). Kaugnay nito "
         '
-        'TextBox10
+        'H1_HALAGA
         '
-        Me.TextBox10.Location = New System.Drawing.Point(386, 265)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox10.TabIndex = 149
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.H1_HALAGA.Location = New System.Drawing.Point(386, 265)
+        Me.H1_HALAGA.Name = "H1_HALAGA"
+        Me.H1_HALAGA.Size = New System.Drawing.Size(96, 20)
+        Me.H1_HALAGA.TabIndex = 149
+        Me.H1_HALAGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
@@ -850,50 +850,50 @@ Partial Class AppFormB
         Me.Label4.TabIndex = 146
         Me.Label4.Text = "at nagpapahayag na napagkalooban ng pautang ng"
         '
-        'TextBox8
+        'T1_MUNICIPALITY
         '
-        Me.TextBox8.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox8.Location = New System.Drawing.Point(32, 225)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox8.TabIndex = 144
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_MUNICIPALITY.Location = New System.Drawing.Point(32, 225)
+        Me.T1_MUNICIPALITY.Name = "T1_MUNICIPALITY"
+        Me.T1_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
+        Me.T1_MUNICIPALITY.TabIndex = 144
+        Me.T1_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox9
+        'T1_PROVINCE
         '
-        Me.TextBox9.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox9.Location = New System.Drawing.Point(146, 225)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(96, 20)
-        Me.TextBox9.TabIndex = 145
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_PROVINCE.Location = New System.Drawing.Point(146, 225)
+        Me.T1_PROVINCE.Name = "T1_PROVINCE"
+        Me.T1_PROVINCE.Size = New System.Drawing.Size(96, 20)
+        Me.T1_PROVINCE.TabIndex = 145
+        Me.T1_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox5
+        'T1_HOUSENO
         '
-        Me.TextBox5.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox5.Location = New System.Drawing.Point(456, 192)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(65, 20)
-        Me.TextBox5.TabIndex = 141
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_HOUSENO.Location = New System.Drawing.Point(456, 192)
+        Me.T1_HOUSENO.Name = "T1_HOUSENO"
+        Me.T1_HOUSENO.Size = New System.Drawing.Size(65, 20)
+        Me.T1_HOUSENO.TabIndex = 141
+        Me.T1_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox6
+        'T1_STREET
         '
-        Me.TextBox6.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox6.Location = New System.Drawing.Point(526, 192)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(54, 20)
-        Me.TextBox6.TabIndex = 142
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_STREET.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_STREET.Location = New System.Drawing.Point(526, 192)
+        Me.T1_STREET.Name = "T1_STREET"
+        Me.T1_STREET.Size = New System.Drawing.Size(54, 20)
+        Me.T1_STREET.TabIndex = 142
+        Me.T1_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox7
+        'T1_BARANGAY
         '
-        Me.TextBox7.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox7.Location = New System.Drawing.Point(584, 192)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(84, 20)
-        Me.TextBox7.TabIndex = 143
-        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.T1_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.T1_BARANGAY.Location = New System.Drawing.Point(584, 192)
+        Me.T1_BARANGAY.Name = "T1_BARANGAY"
+        Me.T1_BARANGAY.Size = New System.Drawing.Size(84, 20)
+        Me.T1_BARANGAY.TabIndex = 143
+        Me.T1_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
@@ -905,40 +905,40 @@ Partial Class AppFormB
         Me.Label3.TabIndex = 140
         Me.Label3.Text = " nasa wastong gulang, Filipino at kasalukuyang naninirahan"
         '
-        'TextBox1
+        'P1_LASTNAME
         '
-        Me.TextBox1.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox1.Location = New System.Drawing.Point(86, 157)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(109, 20)
-        Me.TextBox1.TabIndex = 136
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P1_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P1_LASTNAME.Location = New System.Drawing.Point(86, 157)
+        Me.P1_LASTNAME.Name = "P1_LASTNAME"
+        Me.P1_LASTNAME.Size = New System.Drawing.Size(109, 20)
+        Me.P1_LASTNAME.TabIndex = 136
+        Me.P1_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox3
+        'P1_MIDDLENAME
         '
-        Me.TextBox3.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox3.Location = New System.Drawing.Point(318, 157)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox3.TabIndex = 137
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P1_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P1_MIDDLENAME.Location = New System.Drawing.Point(318, 157)
+        Me.P1_MIDDLENAME.Name = "P1_MIDDLENAME"
+        Me.P1_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
+        Me.P1_MIDDLENAME.TabIndex = 137
+        Me.P1_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox2
+        'P1_GIVENNAME
         '
-        Me.TextBox2.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.TextBox2.Location = New System.Drawing.Point(200, 157)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(114, 20)
-        Me.TextBox2.TabIndex = 138
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P1_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.P1_GIVENNAME.Location = New System.Drawing.Point(200, 157)
+        Me.P1_GIVENNAME.Name = "P1_GIVENNAME"
+        Me.P1_GIVENNAME.Size = New System.Drawing.Size(114, 20)
+        Me.P1_GIVENNAME.TabIndex = 138
+        Me.P1_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox4
+        'P1_SUFFIX
         '
-        Me.TextBox4.Location = New System.Drawing.Point(436, 157)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(46, 20)
-        Me.TextBox4.TabIndex = 139
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.P1_SUFFIX.Location = New System.Drawing.Point(436, 157)
+        Me.P1_SUFFIX.Name = "P1_SUFFIX"
+        Me.P1_SUFFIX.Size = New System.Drawing.Size(46, 20)
+        Me.P1_SUFFIX.TabIndex = 139
+        Me.P1_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -1452,15 +1452,15 @@ Partial Class AppFormB
         Me.Controls.Add(Me.Label45)
         Me.Controls.Add(Me.Label43)
         Me.Controls.Add(Me.Label40)
-        Me.Controls.Add(Me.TextBox31)
-        Me.Controls.Add(Me.TextBox30)
-        Me.Controls.Add(Me.TextBox29)
+        Me.Controls.Add(Me.CB2_CHECKEDBY)
+        Me.Controls.Add(Me.AL2_LOAN)
+        Me.Controls.Add(Me.R2_RECOMMENDED)
         Me.Controls.Add(Me.Label44)
         Me.Controls.Add(Me.Label42)
         Me.Controls.Add(Me.Label41)
-        Me.Controls.Add(Me.TextBox28)
-        Me.Controls.Add(Me.TextBox27)
-        Me.Controls.Add(Me.TextBox26)
+        Me.Controls.Add(Me.PP2_PARAAN_PAGBAYAD)
+        Me.Controls.Add(Me.TP2_TAGAL_NG_PAGBAYAD)
+        Me.Controls.Add(Me.HH2_HALAGANG_HINIRAM)
         Me.Controls.Add(Me.ListView2)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -1473,7 +1473,7 @@ Partial Class AppFormB
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.Label32)
-        Me.Controls.Add(Me.TextBox25)
+        Me.Controls.Add(Me.H2_HALAGA)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.Label30)
         Me.Controls.Add(Me.DateTimePicker2)
@@ -1482,22 +1482,22 @@ Partial Class AppFormB
         Me.Controls.Add(Me.Label27)
         Me.Controls.Add(Me.Label26)
         Me.Controls.Add(Me.Label24)
-        Me.Controls.Add(Me.TextBox20)
-        Me.Controls.Add(Me.TextBox21)
-        Me.Controls.Add(Me.TextBox22)
-        Me.Controls.Add(Me.TextBox23)
-        Me.Controls.Add(Me.TextBox24)
+        Me.Controls.Add(Me.T2_HOUSENO)
+        Me.Controls.Add(Me.T2_STREET)
+        Me.Controls.Add(Me.T2_BARANGAY)
+        Me.Controls.Add(Me.T2_PROVINCE)
+        Me.Controls.Add(Me.T2_MUNICIPALITY)
         Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.TextBox16)
-        Me.Controls.Add(Me.TextBox17)
-        Me.Controls.Add(Me.TextBox18)
-        Me.Controls.Add(Me.TextBox19)
+        Me.Controls.Add(Me.P2_LASTNAME)
+        Me.Controls.Add(Me.P2_GIVENNAME)
+        Me.Controls.Add(Me.P2_MIDDLENAME)
+        Me.Controls.Add(Me.P2_SUFFIX)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
-        Me.Controls.Add(Me.TextBox15)
-        Me.Controls.Add(Me.TextBox14)
-        Me.Controls.Add(Me.TextBox13)
-        Me.Controls.Add(Me.TextBox12)
+        Me.Controls.Add(Me.HL1_HALAGA)
+        Me.Controls.Add(Me.SN1_SERIES_NUMBER)
+        Me.Controls.Add(Me.M1_MODEL)
+        Me.Controls.Add(Me.U1_URI_NG_KAGAMITAN)
         Me.Controls.Add(Me.ListView1)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.Label20)
@@ -1512,25 +1512,25 @@ Partial Class AppFormB
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
-        Me.Controls.Add(Me.TextBox11)
+        Me.Controls.Add(Me.PH1_PAGHULOG)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.H1_HALAGA)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox9)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.T1_PROVINCE)
+        Me.Controls.Add(Me.T1_MUNICIPALITY)
+        Me.Controls.Add(Me.T1_BARANGAY)
+        Me.Controls.Add(Me.T1_STREET)
+        Me.Controls.Add(Me.T1_HOUSENO)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.P1_SUFFIX)
+        Me.Controls.Add(Me.P1_GIVENNAME)
+        Me.Controls.Add(Me.P1_MIDDLENAME)
+        Me.Controls.Add(Me.P1_LASTNAME)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "AppFormB"
@@ -1541,15 +1541,15 @@ Partial Class AppFormB
 
     End Sub
 
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents TextBox30 As TextBox
-    Friend WithEvents TextBox29 As TextBox
+    Friend WithEvents CB2_CHECKEDBY As TextBox
+    Friend WithEvents AL2_LOAN As TextBox
+    Friend WithEvents R2_RECOMMENDED As TextBox
     Friend WithEvents Label44 As Label
     Friend WithEvents Label42 As Label
     Friend WithEvents Label41 As Label
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox26 As TextBox
+    Friend WithEvents PP2_PARAAN_PAGBAYAD As TextBox
+    Friend WithEvents TP2_TAGAL_NG_PAGBAYAD As TextBox
+    Friend WithEvents HH2_HALAGANG_HINIRAM As TextBox
     Friend WithEvents ColumnHeader5 As ColumnHeader
     Friend WithEvents ColumnHeader6 As ColumnHeader
     Friend WithEvents ColumnHeader7 As ColumnHeader
@@ -1565,7 +1565,7 @@ Partial Class AppFormB
     Friend WithEvents Label34 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents Label32 As Label
-    Friend WithEvents TextBox25 As TextBox
+    Friend WithEvents H2_HALAGA As TextBox
     Friend WithEvents Label31 As Label
     Friend WithEvents Label30 As Label
     Friend WithEvents DateTimePicker2 As DateTimePicker
@@ -1575,21 +1575,21 @@ Partial Class AppFormB
     Friend WithEvents Label26 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Label25 As Label
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox20 As TextBox
+    Friend WithEvents T2_MUNICIPALITY As TextBox
+    Friend WithEvents T2_PROVINCE As TextBox
+    Friend WithEvents T2_BARANGAY As TextBox
+    Friend WithEvents T2_STREET As TextBox
+    Friend WithEvents T2_HOUSENO As TextBox
     Friend WithEvents Label23 As Label
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox16 As TextBox
+    Friend WithEvents P2_SUFFIX As TextBox
+    Friend WithEvents P2_MIDDLENAME As TextBox
+    Friend WithEvents P2_GIVENNAME As TextBox
+    Friend WithEvents P2_LASTNAME As TextBox
     Friend WithEvents Label22 As Label
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox12 As TextBox
+    Friend WithEvents HL1_HALAGA As TextBox
+    Friend WithEvents SN1_SERIES_NUMBER As TextBox
+    Friend WithEvents M1_MODEL As TextBox
+    Friend WithEvents U1_URI_NG_KAGAMITAN As TextBox
     Friend WithEvents ColumnHeader1 As ColumnHeader
     Friend WithEvents ColumnHeader2 As ColumnHeader
     Friend WithEvents ColumnHeader3 As ColumnHeader
@@ -1608,25 +1608,25 @@ Partial Class AppFormB
     Friend WithEvents Label13 As Label
     Friend WithEvents Label12 As Label
     Friend WithEvents Label11 As Label
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents PH1_PAGHULOG As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents TextBox10 As TextBox
+    Friend WithEvents H1_HALAGA As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents T1_MUNICIPALITY As TextBox
+    Friend WithEvents T1_PROVINCE As TextBox
+    Friend WithEvents T1_HOUSENO As TextBox
+    Friend WithEvents T1_STREET As TextBox
+    Friend WithEvents T1_BARANGAY As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents P1_LASTNAME As TextBox
+    Friend WithEvents P1_MIDDLENAME As TextBox
+    Friend WithEvents P1_GIVENNAME As TextBox
+    Friend WithEvents P1_SUFFIX As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label40 As Label
