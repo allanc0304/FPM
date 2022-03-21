@@ -126,16 +126,16 @@ Public Class LoanProcessing
                 CIRFORM1.NF_NAIN2.Text = cirObj.Neighbors(1).FirstName
             End If
             If cirObj.HouseAddressRented = True Then
-                CIRFORM1.RadioButton2.Checked = True
+                CIRFORM1.NF_RENT_HOME.Checked = True
                 CIRFORM1.NF_ROR.Text = cirObj.HAOwnerRemarks
             Else
-                CIRFORM1.RadioButton1.Checked = True
+                CIRFORM1.NF_OWN_HOME.Checked = True
             End If
             If cirObj.BusinessAddressRented = True Then
-                CIRFORM1.RadioButton3.Checked = True
+                CIRFORM1.NF_RENT_BUSINESS.Checked = True
                 CIRFORM1.NF_ROR1.Text = cirObj.BAOwnerRemarks
             Else
-                CIRFORM1.RadioButton4.Checked = True
+                CIRFORM1.NF_OWN_BUSNESS.Checked = True
             End If
             For Each collateral As Collateral In cirObj.Collaterals
                 Dim str(5) As String
@@ -158,12 +158,9 @@ Public Class LoanProcessing
             End If
 
             CIRFORM1.Show()
-                CIRFORM1.BringToFront()
-            ElseIf e.ColumnIndex = 7 Then
-                MessageBox.Show("delete")
+            CIRFORM1.BringToFront()
+        ElseIf e.ColumnIndex = 7 Then
+            MessageBox.Show("delete")
         End If
-
-    Private Sub LoanProcessing_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 End Class

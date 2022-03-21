@@ -83,7 +83,7 @@ Public Class Application
             ApplictaionForm1.T4_BARANGAY.Text = applicationObj.GuarantorBrgy
             ApplictaionForm1.T4_MUNICIPALITY.Text = applicationObj.GuarantorMunicipality
             ApplictaionForm1.T4_PROVINCE.Text = applicationObj.GuarantorProvince
-            ApplictaionForm1.K4_MONTH.Text = applicationObj.GuarantorBirthDate.MonthS
+
             ApplictaionForm1.K4_DAY.Text = applicationObj.GuarantorBirthDate.Day
             ApplictaionForm1.K4_YEAR.Text = applicationObj.GuarantorBirthDate.Year
             If applicationObj.GuarantorIsMale = True Then
@@ -97,7 +97,7 @@ Public Class Application
 
             AppFormB.P1_LASTNAME.Text = applicationObj.BorrowerLN
             AppFormB.P1_GIVENNAME.Text = applicationObj.BorrowerFN
-            AppFormB.P1_MIDDLENAME.Text = applicationObj.BorrowerMNS
+
             AppFormB.P1_SUFFIX.Text = applicationObj.BorrowerSuffix
             AppFormB.T1_HOUSENO.Text = applicationObj.HouseNo
             AppFormB.T1_STREET.Text = applicationObj.Street
