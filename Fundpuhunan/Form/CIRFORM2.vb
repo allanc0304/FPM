@@ -640,5 +640,23 @@
         Else
             ErrorProvider31.SetError(txtAmountApproved, String.Empty)
         End If
+
+        If ErrorProvider1.GetError(txtBLname) = "" And ErrorProvider2.GetError(txtBFname) = "" And ErrorProvider3.GetError(txtBFname) = "" And
+            ErrorProvider4.GetError(txtBFname) = "" And ErrorProvider5.GetError(txtBFname) = "" And ErrorProvider6.GetError(txtBFname) = "" And
+            ErrorProvider7.GetError(txtBFname) = "" And ErrorProvider8.GetError(txtBFname) = "" And ErrorProvider9.GetError(txtBFname) = "" And
+            ErrorProvider10.GetError(txtBFname) = "" And ErrorProvider11.GetError(txtBFname) = "" And ErrorProvider12.GetError(txtBFname) = "" And
+            ErrorProvider13.GetError(txtBFname) = "" And ErrorProvider14.GetError(txtBFname) = "" And ErrorProvider15.GetError(txtBFname) = "" And
+            ErrorProvider16.GetError(txtBFname) = "" And ErrorProvider17.GetError(txtBFname) = "" And ErrorProvider18.GetError(txtBFname) = "" And
+            ErrorProvider19.GetError(txtBFname) = "" And ErrorProvider20.GetError(txtBFname) = "" And ErrorProvider21.GetError(txtBFname) = "" And
+            ErrorProvider22.GetError(txtBFname) = "" And ErrorProvider23.GetError(txtBFname) = "" And ErrorProvider24.GetError(txtBFname) = "" And
+            ErrorProvider25.GetError(txtBFname) = "" And ErrorProvider26.GetError(txtBFname) = "" And ErrorProvider27.GetError(txtBFname) = "" And
+            ErrorProvider28.GetError(txtBFname) = "" And ErrorProvider29.GetError(txtBFname) = "" And ErrorProvider30.GetError(txtBFname) = "" And
+            ErrorProvider31.GetError(txtBFname) = "" Then
+            MessageBox.Show("Fill up complete")
+            Me.Hide()
+        Else
+            MessageBox.Show("Please fill up required field")
+
+        End If
     End Sub
 End Class
