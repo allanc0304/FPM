@@ -156,6 +156,51 @@ Public Class LoanProcessing
             ElseIf cirObj.HouseLotType = "agricultural" Then
                 CIRFORM1.CB_AGRI.Checked = True
             End If
+            CIRFORM2.txtBLname.Text = cirObj.BorrowerLN
+            CIRFORM2.txtBFname.Text = cirObj.BorrowerFN
+            CIRFORM2.txtBMname.Text = cirObj.BorrowerMN
+            CIRFORM2.txtBSuffix.Text = cirObj.BorrowerSuffix
+            CIRFORM2.txtAppGSale.Text = cirObj.BorrowerGrossSale
+            CIRFORM2.txtAppCSale.Text = cirObj.BorrowerSalesCost
+            CIRFORM2.txtAppNProfit.Text = cirObj.BorrowerNetProfit
+            CIRFORM2.txtAppSalary.Text = cirObj.BorrowerSalary
+            CIRFORM2.txtSpoGSale.Text = cirObj.SpouseGrossSale
+            CIRFORM2.txtSpoCSale.Text = cirObj.SpouseSalesCost
+            CIRFORM2.txtSpoNProfit.Text = cirObj.SpouseNetProfit
+            CIRFORM2.txtSpoSalary.Text = cirObj.SpouseSalary
+            CIRFORM2.txtOtherSpec.Text = cirObj.OtherSpecify
+            CIRFORM2.txtGIncome.Text = cirObj.TotalGrossMonthlyIncome
+            CIRFORM2.txtFood.Text = cirObj.Food
+            CIRFORM2.txtAllowance.Text = cirObj.Education
+            CIRFORM2.txtRental.Text = cirObj.Rental
+            CIRFORM2.txtTranspo.Text = cirObj.Transportation
+            CIRFORM2.txtEBill.Text = cirObj.ElectricityBill
+            CIRFORM2.txtWBill.Text = cirObj.WaterBill
+            CIRFORM2.txtHSalary.Text = cirObj.HelperSalary
+            CIRFORM2.txtPersoOther.Text = cirObj.OtherExpenses
+            CIRFORM2.txtExpenses.Text = cirObj.TotalMonthlyExpenses
+            CIRFORM2.txtNIncome.Text = cirObj.NetMonthlyIncome
+            CIRFORM2.txtPLoan.Text = cirObj.PreviousLoan
+            CIRFORM2.txtBalance.Text = cirObj.Balance
+            CIRFORM2.txtDelinquent.Text = cirObj.DaysDelinquent
+            CIRFORM2.txtAvailment.Text = cirObj.Availment
+            CIRFORM2.txtAccRemarks.Text = cirObj.AccountingStaffName 'wala akong nailagay na remarks sa db kaya ginamit ko na lang to kasi wala naman name sa form signature lang
+            CIRFORM2.txtAccSignature.Text = cirObj.AccountingStaffSignature
+            CIRFORM2.calDGranted.Value = cirObj.DateGranted
+            CIRFORM2.calMDate.Value = cirObj.MaturityDate
+            CIRFORM2.calLPayment.Value = cirObj.LastPaymentDate
+            CIRFORM2.chbBusiness.Checked = cirObj.RBFBusinessType
+            CIRFORM2.chbCharacter.Checked = cirObj.RBFCharacter
+            CIRFORM2.chbCollateral.Checked = cirObj.RBFCollateral
+            CIRFORM2.chbIncome.Checked = cirObj.RBFIncome
+            CIRFORM2.txtPAmount.Text = cirObj.PrincipalAmount
+            CIRFORM2.txtRecRemarks.Text = cirObj.Remark
+            CIRFORM2.calLPayment.Text = cirObj.LastPaymentDate
+            CIRFORM2.txtSubmittedBy.Text = cirObj.CreditInvestigatorName
+            CIRFORM2.txtApprovedBy.Text = cirObj.ApprovedByName
+            CIRFORM2.calDApproved.Value = cirObj.DateApproved
+            CIRFORM2.calDSubmitted.Value = cirObj.DateSubmitted
+            CIRFORM2.txtAmountApproved.Text = cirObj.AmountApproved
 
             CIRFORM1.Show()
             CIRFORM1.BringToFront()

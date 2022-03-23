@@ -11,6 +11,4 @@
     Private Sub FontDialog1_Apply(sender As Object, e As EventArgs) Handles FontDialog1.Apply
 
     End Sub
-
-
 End Class
