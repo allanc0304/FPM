@@ -49,9 +49,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DBConnection">
-      <HintPath>..\..\..\..\Desktop\CHONGGOS\DBConnection\DBConnection\obj\Debug\DBConnection.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\DBConnection.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Downloads\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
