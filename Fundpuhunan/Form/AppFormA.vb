@@ -90,7 +90,7 @@ Public Class ApplictaionForm1
         End If
     End Sub
 
-    Private Sub K1_PROVINCE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles S.KeyPress
+    Private Sub K1_PROVINCE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_YEAR.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
@@ -168,13 +168,49 @@ Public Class ApplictaionForm1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
+        If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, C1_CONTACT, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, K1_MONTH, K1_DAY, K1_YEAR, E1_AGE, R1_RELIGION) = False Then
+            MessageBox.Show("Fill up all fields")
 
 
-        AppFormB.Show()
-        Me.Hide()
+        ElseIf Vld(P2_LASTNAME, P2_GIVENNAME, P2_MIDDLENAME, T2_HOUSENO, T2_STREET, T2_BARANGAY, T2_PROVINCE, T2_MUNICIPALITY, K2_DAY, K2_MONTH, K2_YEAR, E2_AGE, R2_RELIGION, B2_ANAK) = False Then
+            MessageBox.Show("Fill up all fields")
+
+        ElseIf Vld(P3_BUSINESS, L3_SALARY, L3_EXPENSES, L3_WEEKLYINCOME, M3_CLEANSALARY) = False Then
+            MessageBox.Show("Fill up all fields")
+
+
+        ElseIf Vld(P4_LASTNAME, P4_GIVENNAME, P4_MIDDLENAME, T4_HOUSENO, T4_STREET, T4_BARANGAY, T4_PROVINCE, T4_MUNICIPALITY, K4_DAY, K4_MONTH, K4_YEAR, E4_AGE, T4_TYPEOFBUSINESS, B4_BUSINESS) = False Then
+            MessageBox.Show("Fill up all fields")
+
+
+            Exit Sub
+        Else
+
+            MsgBox("Proceed to next form")
+            AppFormB.Show()
+            Me.Hide()
+
+
+
+
+        End If
+
+
     End Sub
 
     Private Sub ApplictaionForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Function Vld(ByVal ParamArray ctl() As Object) As Boolean
+
+        For i As Integer = 0 To UBound(ctl)
+            If ctl(i).text = "" Then
+                ErrorProvider1.SetError(ctl(i), ctl(i).tag)
+                Return False
+                Exit Function
+            End If
+        Next
+        Return True
+    End Function
 End Class

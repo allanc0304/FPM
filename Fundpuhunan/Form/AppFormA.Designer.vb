@@ -133,7 +133,7 @@ Partial Class ApplictaionForm1
         Me.C1_CONTACT = New System.Windows.Forms.TextBox()
         Me.R1_RELIGION = New System.Windows.Forms.TextBox()
         Me.E1_AGE = New System.Windows.Forms.TextBox()
-        Me.S = New System.Windows.Forms.TextBox()
+        Me.K1_YEAR = New System.Windows.Forms.TextBox()
         Me.K1_MONTH = New System.Windows.Forms.TextBox()
         Me.K1_DAY = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
@@ -1228,14 +1228,14 @@ Partial Class ApplictaionForm1
         Me.E1_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E1_AGE.TabIndex = 318
         '
-        'S
+        'K1_YEAR
         '
-        Me.S.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.S.Location = New System.Drawing.Point(351, 292)
-        Me.S.Name = "S"
-        Me.S.Size = New System.Drawing.Size(91, 20)
-        Me.S.TabIndex = 317
-        Me.S.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.K1_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
+        Me.K1_YEAR.Location = New System.Drawing.Point(351, 292)
+        Me.K1_YEAR.Name = "K1_YEAR"
+        Me.K1_YEAR.Size = New System.Drawing.Size(91, 20)
+        Me.K1_YEAR.TabIndex = 317
+        Me.K1_YEAR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'K1_MONTH
         '
@@ -1648,7 +1648,7 @@ Partial Class ApplictaionForm1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(881, 649)
+        Me.ClientSize = New System.Drawing.Size(898, 649)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label89)
@@ -1762,7 +1762,7 @@ Partial Class ApplictaionForm1
         Me.Controls.Add(Me.C1_CONTACT)
         Me.Controls.Add(Me.R1_RELIGION)
         Me.Controls.Add(Me.E1_AGE)
-        Me.Controls.Add(Me.S)
+        Me.Controls.Add(Me.K1_YEAR)
         Me.Controls.Add(Me.K1_MONTH)
         Me.Controls.Add(Me.K1_DAY)
         Me.Controls.Add(Me.Label19)
@@ -1921,7 +1921,7 @@ Partial Class ApplictaionForm1
     Friend WithEvents C1_CONTACT As TextBox
     Friend WithEvents R1_RELIGION As TextBox
     Friend WithEvents E1_AGE As TextBox
-    Friend WithEvents S As TextBox
+    Friend WithEvents K1_YEAR As TextBox
     Friend WithEvents K1_MONTH As TextBox
     Friend WithEvents K1_DAY As TextBox
     Friend WithEvents Label19 As Label

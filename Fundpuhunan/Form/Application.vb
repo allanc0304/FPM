@@ -40,7 +40,7 @@ Public Class Application
             ApplictaionForm1.T1_PROVINCE.Text = applicationObj.Province
             ApplictaionForm1.K1_MONTH.Text = applicationObj.BirthDate.Month
             ApplictaionForm1.K1_DAY.Text = applicationObj.BirthDate.Day
-            ApplictaionForm1.S.Text = applicationObj.BirthDate.Year
+            ApplictaionForm1.K1_YEAR.Text = applicationObj.BirthDate.Year
             If applicationObj.IsMale = True Then
                 ApplictaionForm1.RadioButton1.Checked = True
             Else
