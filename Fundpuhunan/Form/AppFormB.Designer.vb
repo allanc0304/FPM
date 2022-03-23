@@ -22,6 +22,7 @@ Partial Class AppFormB
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.CB2_CHECKEDBY = New System.Windows.Forms.TextBox()
         Me.AL2_LOAN = New System.Windows.Forms.TextBox()
         Me.R2_RECOMMENDED = New System.Windows.Forms.TextBox()
@@ -156,6 +157,8 @@ Partial Class AppFormB
         Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'CB2_CHECKEDBY
@@ -1402,6 +1405,10 @@ Partial Class AppFormB
         Me.Button11.Text = "Delete"
         Me.Button11.UseVisualStyleBackColor = True
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'AppFormB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1536,6 +1543,7 @@ Partial Class AppFormB
         Me.Name = "AppFormB"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "APPLICATION FORM STEP 2"
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1675,4 +1683,5 @@ Partial Class AppFormB
     Friend WithEvents OpenFileDialog3 As OpenFileDialog
     Friend WithEvents Button10 As Button
     Friend WithEvents Button11 As Button
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class
