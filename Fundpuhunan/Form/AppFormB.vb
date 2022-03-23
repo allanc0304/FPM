@@ -8,7 +8,21 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Hide()
+        If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, H2_HALAGA, HH2_HALAGANG_HINIRAM, TP2_TAGAL_NG_PAGBAYAD, PP2_PARAAN_PAGBAYAD, R2_RECOMMENDED, AL2_LOAN, CB2_CHECKEDBY) = False Then
+            MessageBox.Show("Fill up all fields")
+
+            Exit Sub
+        Else
+
+            MsgBox("your data was inserted Succesfully")
+            Application.Show()
+            Me.Hide()
+
+
+
+        End If
+
+
 
 
     End Sub
@@ -180,4 +194,22 @@
     Private Sub TextBox30_TextChanged(sender As Object, e As EventArgs) Handles AL2_LOAN.TextChanged
 
     End Sub
+
+
+
+    Private Function Vld(ByVal ParamArray ctl() As Object) As Boolean
+
+        For i As Integer = 0 To UBound(ctl)
+            If ctl(i).text = "" Then
+                ErrorProvider1.SetError(ctl(i), ctl(i).tag)
+                Return False
+                Exit Function
+            End If
+        Next
+        Return True
+    End Function
+
+
+
+
 End Class
