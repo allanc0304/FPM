@@ -168,7 +168,6 @@ Public Class LoanProcessing
             CIRFORM2.txtSpoCSale.Text = cirObj.SpouseSalesCost
             CIRFORM2.txtSpoNProfit.Text = cirObj.SpouseNetProfit
             CIRFORM2.txtSpoSalary.Text = cirObj.SpouseSalary
-            CIRFORM2.txtOtherSpec.Text = cirObj.OtherSpecify
             CIRFORM2.txtGIncome.Text = cirObj.TotalGrossMonthlyIncome
             CIRFORM2.txtFood.Text = cirObj.Food
             CIRFORM2.txtAllowance.Text = cirObj.Education
@@ -183,7 +182,6 @@ Public Class LoanProcessing
             CIRFORM2.txtPLoan.Text = cirObj.PreviousLoan
             CIRFORM2.txtBalance.Text = cirObj.Balance
             CIRFORM2.txtDelinquent.Text = cirObj.DaysDelinquent
-            CIRFORM2.txtAvailment.Text = cirObj.Availment
             CIRFORM2.txtAccRemarks.Text = cirObj.AccountingStaffName 'wala akong nailagay na remarks sa db kaya ginamit ko na lang to kasi wala naman name sa form signature lang
             CIRFORM2.txtAccSignature.Text = cirObj.AccountingStaffSignature
             CIRFORM2.calDGranted.Value = cirObj.DateGranted
