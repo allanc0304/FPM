@@ -148,16 +148,6 @@ Partial Class CIRFORM2
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider3 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider4 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider5 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider6 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider7 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider8 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider9 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider10 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider11 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider12 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider13 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider14 = New System.Windows.Forms.ErrorProvider(Me.components)
@@ -179,16 +169,6 @@ Partial Class CIRFORM2
         Me.ErrorProvider30 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider31 = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1390,46 +1370,6 @@ Partial Class CIRFORM2
         '
         Me.ErrorProvider1.ContainerControl = Me
         '
-        'ErrorProvider2
-        '
-        Me.ErrorProvider2.ContainerControl = Me
-        '
-        'ErrorProvider3
-        '
-        Me.ErrorProvider3.ContainerControl = Me
-        '
-        'ErrorProvider4
-        '
-        Me.ErrorProvider4.ContainerControl = Me
-        '
-        'ErrorProvider5
-        '
-        Me.ErrorProvider5.ContainerControl = Me
-        '
-        'ErrorProvider6
-        '
-        Me.ErrorProvider6.ContainerControl = Me
-        '
-        'ErrorProvider7
-        '
-        Me.ErrorProvider7.ContainerControl = Me
-        '
-        'ErrorProvider8
-        '
-        Me.ErrorProvider8.ContainerControl = Me
-        '
-        'ErrorProvider9
-        '
-        Me.ErrorProvider9.ContainerControl = Me
-        '
-        'ErrorProvider10
-        '
-        Me.ErrorProvider10.ContainerControl = Me
-        '
-        'ErrorProvider11
-        '
-        Me.ErrorProvider11.ContainerControl = Me
-        '
         'ErrorProvider12
         '
         Me.ErrorProvider12.ContainerControl = Me
@@ -1647,16 +1587,6 @@ Partial Class CIRFORM2
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CIRFORM2"
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1807,16 +1737,6 @@ Partial Class CIRFORM2
     Public WithEvents Label71 As Label
     Public WithEvents Label25 As Label
     Friend WithEvents ErrorProvider1 As ErrorProvider
-    Friend WithEvents ErrorProvider2 As ErrorProvider
-    Friend WithEvents ErrorProvider3 As ErrorProvider
-    Friend WithEvents ErrorProvider4 As ErrorProvider
-    Friend WithEvents ErrorProvider5 As ErrorProvider
-    Friend WithEvents ErrorProvider6 As ErrorProvider
-    Friend WithEvents ErrorProvider7 As ErrorProvider
-    Friend WithEvents ErrorProvider8 As ErrorProvider
-    Friend WithEvents ErrorProvider9 As ErrorProvider
-    Friend WithEvents ErrorProvider10 As ErrorProvider
-    Friend WithEvents ErrorProvider11 As ErrorProvider
     Friend WithEvents ErrorProvider12 As ErrorProvider
     Friend WithEvents ErrorProvider13 As ErrorProvider
     Friend WithEvents ErrorProvider14 As ErrorProvider
