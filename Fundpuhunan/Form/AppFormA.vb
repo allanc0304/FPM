@@ -1,5 +1,5 @@
 ﻿Imports System.ComponentModel
-
+Imports System.Text.RegularExpressions
 Public Class ApplictaionForm1
 
 
@@ -21,10 +21,13 @@ Public Class ApplictaionForm1
 
 
     Private Sub P1_LASTNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles P1_LASTNAME.KeyPress
-        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+        If Not Char.IsLetterOrDigit(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
-            MessageBox.Show("This is field will accept Letters only")
+            MessageBox.Show("This is field will accept Letters and number only")
+
+
         End If
+
     End Sub
 
     Private Sub P1_GIVENNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles P1_GIVENNAME.KeyPress
@@ -76,24 +79,31 @@ Public Class ApplictaionForm1
         End If
     End Sub
 
-    Private Sub K1_BARANGAY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_DAY.KeyPress
+    Private Sub K1_DAY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_DAY.KeyPress
+        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+            e.Handled = True
+            MessageBox.Show("This is field will accept Numbers only")
+        End If
+
+    End Sub
+
+    Private Sub K1_MONTH_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_MONTH.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
         End If
     End Sub
 
-    Private Sub K1_MUNICIPALITY_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_MONTH.KeyPress
-        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+    Private Sub K1_YEAR_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_YEAR.KeyPress
+        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
-            MessageBox.Show("This is field will accept Letters only")
+            MessageBox.Show("This is field will accept Numbers only")
         End If
-    End Sub
-
-    Private Sub K1_PROVINCE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles K1_YEAR.KeyPress
-        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
-            e.Handled = True
-            MessageBox.Show("This is field will accept Letters only")
+        If K1_YEAR.Text.Length = 4 Then
+            If e.KeyChar <> ControlChars.Back Then
+                e.Handled = True
+                MessageBox.Show("Indicate your birth of year")
+            End If
         End If
     End Sub
 
@@ -102,20 +112,15 @@ Public Class ApplictaionForm1
             e.Handled = True
             MessageBox.Show("This is field will accept Numbers only")
         End If
-    End Sub
-
-    Private Sub C1_CONTACT_KeyPress(sender As Object, e As KeyPressEventArgs) Handles C1_CONTACT.KeyPress
-        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
-            e.Handled = True
-            MessageBox.Show("This is field will accept Numbers only")
-        End If
-        If C1_CONTACT.Text.Length >= 11 Then
+        If E1_AGE.Text.Length >= 2 Then
             If e.KeyChar <> ControlChars.Back Then
                 e.Handled = True
-                MessageBox.Show("Philippines local number should not be more than 11")
+                MessageBox.Show("Error")
             End If
         End If
     End Sub
+
+
 
     Private Sub R1_RELIGION_KeyPress(sender As Object, e As KeyPressEventArgs) Handles R1_RELIGION.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
@@ -213,4 +218,94 @@ Public Class ApplictaionForm1
         Next
         Return True
     End Function
+
+
+
+    Private Sub P1_LASTNAME_TextChanged(sender As Object, e As EventArgs) Handles P1_LASTNAME.TextChanged
+        P2_LASTNAME.Text = P1_LASTNAME.Text
+        P4_LASTNAME.Text = P1_LASTNAME.Text
+    End Sub
+
+    Private Sub P1_GIVENNAME_TextChanged(sender As Object, e As EventArgs) Handles P1_GIVENNAME.TextChanged
+        P2_GIVENNAME.Text = P1_GIVENNAME.Text
+        P4_GIVENNAME.Text = P1_GIVENNAME.Text
+    End Sub
+
+    Private Sub P1_MIDDLENAME_TextChanged(sender As Object, e As EventArgs) Handles P1_MIDDLENAME.TextChanged
+        P2_MIDDLENAME.Text = P1_MIDDLENAME.Text
+        P4_MIDDLENAME.Text = P1_MIDDLENAME.Text
+    End Sub
+
+    Private Sub P1_SUFFIX_TextChanged(sender As Object, e As EventArgs) Handles P1_SUFFIX.TextChanged
+        P2_SUFFIX.Text = P1_SUFFIX.Text
+        P4_SUFFIX.Text = P1_SUFFIX.Text
+    End Sub
+
+    Private Sub T1_BARANGAY_TextChanged(sender As Object, e As EventArgs) Handles T1_BARANGAY.TextChanged
+        T2_BARANGAY.Text = T1_BARANGAY.Text
+        T4_BARANGAY.Text = T1_BARANGAY.Text
+    End Sub
+
+    Private Sub T1_PROVINCE_TextChanged(sender As Object, e As EventArgs) Handles T1_PROVINCE.TextChanged
+        T2_PROVINCE.Text = T1_PROVINCE.Text
+        T4_PROVINCE.Text = T1_PROVINCE.Text
+    End Sub
+
+    Private Sub T1_MUNICIPALITY_TextChanged(sender As Object, e As EventArgs) Handles T1_MUNICIPALITY.TextChanged
+        T2_MUNICIPALITY.Text = T1_MUNICIPALITY.Text
+        T4_MUNICIPALITY.Text = T1_MUNICIPALITY.Text
+    End Sub
+
+    Private Sub T1_STREET_TextChanged(sender As Object, e As EventArgs) Handles T1_STREET.TextChanged
+        T2_STREET.Text = T1_STREET.Text
+        T4_STREET.Text = T1_STREET.Text
+    End Sub
+
+    Private Sub T1_HOUSENO_TextChanged(sender As Object, e As EventArgs) Handles T1_HOUSENO.TextChanged
+        T2_HOUSENO.Text = T1_HOUSENO.Text
+        T4_HOUSENO.Text = T1_HOUSENO.Text
+    End Sub
+
+    Private Sub K1_DAY_TextChanged(sender As Object, e As EventArgs) Handles K1_DAY.TextChanged
+        K2_DAY.Text = K1_DAY.Text
+        K4_DAY.Text = K1_DAY.Text
+    End Sub
+
+    Private Sub K1_MONTH_TextChanged(sender As Object, e As EventArgs) Handles K1_MONTH.TextChanged
+        K2_MONTH.Text = K1_MONTH.Text
+        K4_MONTH.Text = K1_MONTH.Text
+    End Sub
+
+    Private Sub K1_YEAR_TextChanged(sender As Object, e As EventArgs) Handles K1_YEAR.TextChanged
+        K2_YEAR.Text = K1_YEAR.Text
+        K4_YEAR.Text = K1_YEAR.Text
+    End Sub
+
+    Private Sub E1_AGE_TextChanged(sender As Object, e As EventArgs) Handles E1_AGE.TextChanged
+        E2_AGE.Text = E1_AGE.Text
+        E4_AGE.Text = E1_AGE.Text
+    End Sub
+
+    Private Sub R1_RELIGION_TextChanged(sender As Object, e As EventArgs) Handles R1_RELIGION.TextChanged
+        R2_RELIGION.Text = R1_RELIGION.Text
+
+    End Sub
+
+    Private Sub P3_BUSINESS_TextChanged(sender As Object, e As EventArgs) Handles P3_BUSINESS.TextChanged
+        B4_BUSINESS.Text = P3_BUSINESS.Text
+
+    End Sub
+
+
+
+    Private Sub C1_CONTACT_Validated(sender As Object, e As EventArgs) Handles C1_CONTACT.Validated
+        Dim phone As New Regex("09\d{9}$")
+        'phone number like 092-3470-9218
+        If (phone.IsMatch(C1_CONTACT.Text)) Then
+            MsgBox("Phone Number is Valid")
+        Else
+            MsgBox("Phone Number is Invalid")
+            C1_CONTACT.Text = ""
+        End If
+    End Sub
 End Class
