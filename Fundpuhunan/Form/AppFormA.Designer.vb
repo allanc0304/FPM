@@ -564,7 +564,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label51.AutoSize = True
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(367, 280)
+        Me.Label51.Location = New System.Drawing.Point(357, 280)
         Me.Label51.Name = "Label51"
         Me.Label51.Size = New System.Drawing.Size(36, 9)
         Me.Label51.TabIndex = 391
@@ -574,7 +574,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(278, 280)
+        Me.Label50.Location = New System.Drawing.Point(198, 280)
         Me.Label50.Name = "Label50"
         Me.Label50.Size = New System.Drawing.Size(45, 9)
         Me.Label50.TabIndex = 390
@@ -584,7 +584,7 @@ Partial Class ApplictaionForm1
         '
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(202, 280)
+        Me.Label49.Location = New System.Drawing.Point(275, 280)
         Me.Label49.Name = "Label49"
         Me.Label49.Size = New System.Drawing.Size(31, 9)
         Me.Label49.TabIndex = 389
@@ -1231,7 +1231,7 @@ Partial Class ApplictaionForm1
         'K1_YEAR
         '
         Me.K1_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K1_YEAR.Location = New System.Drawing.Point(351, 292)
+        Me.K1_YEAR.Location = New System.Drawing.Point(330, 292)
         Me.K1_YEAR.Name = "K1_YEAR"
         Me.K1_YEAR.Size = New System.Drawing.Size(91, 20)
         Me.K1_YEAR.TabIndex = 317
@@ -1240,18 +1240,18 @@ Partial Class ApplictaionForm1
         'K1_MONTH
         '
         Me.K1_MONTH.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K1_MONTH.Location = New System.Drawing.Point(275, 292)
+        Me.K1_MONTH.Location = New System.Drawing.Point(195, 292)
         Me.K1_MONTH.Name = "K1_MONTH"
-        Me.K1_MONTH.Size = New System.Drawing.Size(73, 20)
+        Me.K1_MONTH.Size = New System.Drawing.Size(61, 20)
         Me.K1_MONTH.TabIndex = 316
         Me.K1_MONTH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'K1_DAY
         '
         Me.K1_DAY.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K1_DAY.Location = New System.Drawing.Point(195, 292)
+        Me.K1_DAY.Location = New System.Drawing.Point(262, 292)
         Me.K1_DAY.Name = "K1_DAY"
-        Me.K1_DAY.Size = New System.Drawing.Size(77, 20)
+        Me.K1_DAY.Size = New System.Drawing.Size(63, 20)
         Me.K1_DAY.TabIndex = 315
         Me.K1_DAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -1648,7 +1648,7 @@ Partial Class ApplictaionForm1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(898, 649)
+        Me.ClientSize = New System.Drawing.Size(949, 649)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label89)
