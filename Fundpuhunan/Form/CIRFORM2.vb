@@ -8,20 +8,12 @@
         End If
     End Sub
 
-    Private Sub txtBFname_TextChanged(sender As Object, e As EventArgs) Handles txtBFname.TextChanged
-
-    End Sub
-
     Private Sub txtBFname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBFname.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept letters only")
 
         End If
-    End Sub
-
-    Private Sub txtBMname_TextChanged(sender As Object, e As EventArgs) Handles txtBMname.TextChanged
-
     End Sub
 
     Private Sub txtBMname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBMname.KeyPress
@@ -32,20 +24,12 @@
         End If
     End Sub
 
-    Private Sub txtOtherSpec_TextChanged(sender As Object, e As EventArgs) Handles txtOtherSpec.TextChanged
-
-    End Sub
-
     Private Sub txtOtherSpec_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtOtherSpec.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept letters only")
 
         End If
-    End Sub
-
-    Private Sub txtAccRemarks_TextChanged(sender As Object, e As EventArgs) Handles txtAccRemarks.TextChanged
-
     End Sub
 
     Private Sub txtAccRemarks_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAccRemarks.KeyPress
@@ -56,20 +40,12 @@
         End If
     End Sub
 
-    Private Sub txtAccSignature_TextChanged(sender As Object, e As EventArgs) Handles txtAccSignature.TextChanged
-
-    End Sub
-
     Private Sub txtAccSignature_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAccSignature.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept letters only")
 
         End If
-    End Sub
-
-    Private Sub txtRecRemarks_TextChanged(sender As Object, e As EventArgs) Handles txtRecRemarks.TextChanged
-
     End Sub
 
     Private Sub txtRecRemarks_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtRecRemarks.KeyPress
@@ -80,20 +56,12 @@
         End If
     End Sub
 
-    Private Sub txtSubmittedBy_TextChanged(sender As Object, e As EventArgs) Handles txtSubmittedBy.TextChanged
-
-    End Sub
-
     Private Sub txtSubmittedBy_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSubmittedBy.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept letters only")
 
         End If
-    End Sub
-
-    Private Sub txtApprovedBy_TextChanged(sender As Object, e As EventArgs) Handles txtApprovedBy.TextChanged
-
     End Sub
 
     Private Sub txtApprovedBy_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtApprovedBy.KeyPress
@@ -104,20 +72,12 @@
         End If
     End Sub
 
-    Private Sub txtBSuffix_TextChanged(sender As Object, e As EventArgs) Handles txtBSuffix.TextChanged
-
-    End Sub
-
     Private Sub txtBSuffix_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBSuffix.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept letters only")
 
         End If
-    End Sub
-
-    Private Sub txtAppGSale_TextChanged(sender As Object, e As EventArgs) Handles txtAppGSale.TextChanged
-
     End Sub
 
     Private Sub txtAppGSale_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAppGSale.KeyPress
@@ -128,20 +88,12 @@
         End If
     End Sub
 
-    Private Sub txtAppCSale_TextChanged(sender As Object, e As EventArgs) Handles txtAppCSale.TextChanged
-
-    End Sub
-
     Private Sub txtAppCSale_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAppCSale.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtAppNProfit_TextChanged(sender As Object, e As EventArgs) Handles txtAppNProfit.TextChanged
-
     End Sub
 
     Private Sub txtAppNProfit_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAppNProfit.KeyPress
@@ -152,20 +104,12 @@
         End If
     End Sub
 
-    Private Sub txtAppSalary_TextChanged(sender As Object, e As EventArgs) Handles txtAppSalary.TextChanged
-
-    End Sub
-
     Private Sub txtAppSalary_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAppSalary.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtSpoGSale_TextChanged(sender As Object, e As EventArgs) Handles txtSpoGSale.TextChanged
-
     End Sub
 
     Private Sub txtSpoGSale_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSpoGSale.KeyPress
@@ -176,20 +120,12 @@
         End If
     End Sub
 
-    Private Sub txtSpoCSale_TextChanged(sender As Object, e As EventArgs) Handles txtSpoCSale.TextChanged
-
-    End Sub
-
     Private Sub txtSpoCSale_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSpoCSale.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtSpoNProfit_TextChanged(sender As Object, e As EventArgs) Handles txtSpoNProfit.TextChanged
-
     End Sub
 
     Private Sub txtSpoNProfit_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSpoNProfit.KeyPress
@@ -200,20 +136,12 @@
         End If
     End Sub
 
-    Private Sub txtSpoSalary_TextChanged(sender As Object, e As EventArgs) Handles txtSpoSalary.TextChanged
-
-    End Sub
-
     Private Sub txtSpoSalary_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSpoSalary.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtGIncome_TextChanged(sender As Object, e As EventArgs) Handles txtGIncome.TextChanged
-
     End Sub
 
     Private Sub txtGIncome_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtGIncome.KeyPress
@@ -224,20 +152,12 @@
         End If
     End Sub
 
-    Private Sub txtFood_TextChanged(sender As Object, e As EventArgs) Handles txtFood.TextChanged
-
-    End Sub
-
     Private Sub txtFood_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtFood.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtRental_TextChanged(sender As Object, e As EventArgs) Handles txtRental.TextChanged
-
     End Sub
 
     Private Sub txtRental_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtRental.KeyPress
@@ -248,20 +168,12 @@
         End If
     End Sub
 
-    Private Sub txtAllowance_TextChanged(sender As Object, e As EventArgs) Handles txtAllowance.TextChanged
-
-    End Sub
-
     Private Sub txtAllowance_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAllowance.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtTranspo_TextChanged(sender As Object, e As EventArgs) Handles txtTranspo.TextChanged
-
     End Sub
 
     Private Sub txtTranspo_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtTranspo.KeyPress
@@ -272,20 +184,12 @@
         End If
     End Sub
 
-    Private Sub txtEBill_TextChanged(sender As Object, e As EventArgs) Handles txtEBill.TextChanged
-
-    End Sub
-
     Private Sub txtEBill_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtEBill.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtWBill_TextChanged(sender As Object, e As EventArgs) Handles txtWBill.TextChanged
-
     End Sub
 
     Private Sub txtWBill_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtWBill.KeyPress
@@ -296,20 +200,12 @@
         End If
     End Sub
 
-    Private Sub txtHSalary_TextChanged(sender As Object, e As EventArgs) Handles txtHSalary.TextChanged
-
-    End Sub
-
     Private Sub txtHSalary_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtHSalary.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtPersoOther_TextChanged(sender As Object, e As EventArgs) Handles txtPersoOther.TextChanged
-
     End Sub
 
     Private Sub txtPersoOther_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPersoOther.KeyPress
@@ -320,20 +216,12 @@
         End If
     End Sub
 
-    Private Sub txtExpenses_TextChanged(sender As Object, e As EventArgs) Handles txtExpenses.TextChanged
-
-    End Sub
-
     Private Sub txtExpenses_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtExpenses.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtNIncome_TextChanged(sender As Object, e As EventArgs) Handles txtNIncome.TextChanged
-
     End Sub
 
     Private Sub txtNIncome_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtNIncome.KeyPress
@@ -344,20 +232,12 @@
         End If
     End Sub
 
-    Private Sub txtPLoan_TextChanged(sender As Object, e As EventArgs) Handles txtPLoan.TextChanged
-
-    End Sub
-
     Private Sub txtPLoan_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPLoan.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtBalance_TextChanged(sender As Object, e As EventArgs) Handles txtBalance.TextChanged
-
     End Sub
 
     Private Sub txtBalance_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBalance.KeyPress
@@ -368,20 +248,12 @@
         End If
     End Sub
 
-    Private Sub txtDelinquent_TextChanged(sender As Object, e As EventArgs) Handles txtDelinquent.TextChanged
-
-    End Sub
-
     Private Sub txtDelinquent_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtDelinquent.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtAvailment_TextChanged(sender As Object, e As EventArgs) Handles txtAvailment.TextChanged
-
     End Sub
 
     Private Sub txtAvailment_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAvailment.KeyPress
@@ -392,20 +264,12 @@
         End If
     End Sub
 
-    Private Sub txtPAmount_TextChanged(sender As Object, e As EventArgs) Handles txtPAmount.TextChanged
-
-    End Sub
-
     Private Sub txtPAmount_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtPAmount.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
 
         End If
-    End Sub
-
-    Private Sub txtAmountApproved_TextChanged(sender As Object, e As EventArgs) Handles txtAmountApproved.TextChanged
-
     End Sub
 
     Private Sub txtAmountApproved_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtAmountApproved.KeyPress
