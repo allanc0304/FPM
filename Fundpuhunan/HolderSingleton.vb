@@ -10,7 +10,7 @@ Public Class HolderSingleton
     'object to hold inputs for creating or updating CIR
     Public Shared createCIR As CIReport = New CIReport()
     'connection object needed to connect with the database
-    Public Shared connection As MySqlConnection = New MySqlConnection("server = localhost; userid = root; password = password; database = chonggos_db")
+    Public Shared connection As MySqlConnection = New MySqlConnection("server = localhost; userid = root; password = PassworD123; database = chonggos_db")
     'object to hold user info
     Public Shared currentUser As User = New User()
 End Class

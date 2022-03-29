@@ -1,9 +1,7 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Header
+﻿Imports System.Text.RegularExpressions
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Header
 
 Public Class CIRFORM1
-    Private Sub Label88_Click(sender As Object, e As EventArgs) Handles Label88.Click
-
-    End Sub
 
     Private Sub ListView1_Click(sender As Object, e As EventArgs) Handles ListView1.Click
         If ListView1.SelectedItems.Count > 0 Then
@@ -689,6 +687,36 @@ Public Class CIRFORM1
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept numbers only")
+        End If
+    End Sub
+
+    Private Sub CIR_CONTACT_Validated(sender As Object, e As EventArgs) Handles CIR_CONTACT.Validated
+        Dim phone As New Regex("09\d{9}$")
+        'phone number like 092-3470-9218
+        If (phone.IsMatch(CIR_CONTACT.Text)) Then
+            MsgBox("Phone Number is Valid")
+        Else
+            MsgBox("Contact Number is exceeded or less than to 11 digits")
+        End If
+    End Sub
+
+    Private Sub CIR_CONTACT1_Validated(sender As Object, e As EventArgs) Handles CIR_CONTACT1.Validated
+        Dim phone As New Regex("09\d{9}$")
+        'phone number like 092-3470-9218
+        If (phone.IsMatch(CIR_CONTACT1.Text)) Then
+            MsgBox("Phone Number is Valid")
+        Else
+            MsgBox("Contact Number is exceeded or less than to 11 digits")
+        End If
+    End Sub
+
+    Private Sub BR_CONT_Validated(sender As Object, e As EventArgs) Handles BR_CONT.Validated
+        Dim phone As New Regex("09\d{9}$")
+        'phone number like 092-3470-9218
+        If (phone.IsMatch(BR_CONT.Text)) Then
+            MsgBox("Phone Number is Valid")
+        Else
+            MsgBox("Contact Number is exceeded or less than to 11 digits")
         End If
     End Sub
 End Class

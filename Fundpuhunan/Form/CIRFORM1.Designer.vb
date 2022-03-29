@@ -271,18 +271,11 @@ Partial Class CIRFORM1
         Me.Label148 = New System.Windows.Forms.Label()
         Me.Label149 = New System.Windows.Forms.Label()
         Me.Label150 = New System.Windows.Forms.Label()
-        Me.TextBox80 = New System.Windows.Forms.TextBox()
-        Me.TextBox81 = New System.Windows.Forms.TextBox()
-        Me.TextBox82 = New System.Windows.Forms.TextBox()
-        Me.TextBox83 = New System.Windows.Forms.TextBox()
-        Me.TextBox84 = New System.Windows.Forms.TextBox()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.NF_OWN_HOME = New System.Windows.Forms.RadioButton()
         Me.NF_RENT_HOME = New System.Windows.Forms.RadioButton()
+        Me.NF_OWN_HOME = New System.Windows.Forms.RadioButton()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.NF_RENT_BUSINESS = New System.Windows.Forms.RadioButton()
         Me.NF_OWN_BUSNESS = New System.Windows.Forms.RadioButton()
         Me.C_KHP = New System.Windows.Forms.TextBox()
         Me.C_MN = New System.Windows.Forms.TextBox()
@@ -292,7 +285,6 @@ Partial Class CIRFORM1
         Me.COL_UPBUTTON = New System.Windows.Forms.Button()
         Me.COL_REMBTN = New System.Windows.Forms.Button()
         Me.COL_REMALLBTN = New System.Windows.Forms.Button()
-        Me.NF_RENT_BUSINESS = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -2260,7 +2252,7 @@ Partial Class CIRFORM1
         '
         'COL_ADDBTN
         '
-        Me.COL_ADDBTN.BackColor = System.Drawing.Color.DarkGray
+        Me.COL_ADDBTN.BackColor = System.Drawing.Color.DimGray
         Me.COL_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_ADDBTN.ForeColor = System.Drawing.Color.Transparent
@@ -2608,80 +2600,6 @@ Partial Class CIRFORM1
         Me.Label150.TabIndex = 507
         Me.Label150.Text = "Purchase Value:"
         '
-        'TextBox80
-        '
-        Me.TextBox80.Location = New System.Drawing.Point(239, 3792)
-        Me.TextBox80.Name = "TextBox80"
-        Me.TextBox80.Size = New System.Drawing.Size(238, 20)
-        Me.TextBox80.TabIndex = 508
-        '
-        'TextBox81
-        '
-        Me.TextBox81.Location = New System.Drawing.Point(167, 3824)
-        Me.TextBox81.Name = "TextBox81"
-        Me.TextBox81.Size = New System.Drawing.Size(310, 20)
-        Me.TextBox81.TabIndex = 509
-        '
-        'TextBox82
-        '
-        Me.TextBox82.Location = New System.Drawing.Point(167, 3861)
-        Me.TextBox82.Name = "TextBox82"
-        Me.TextBox82.Size = New System.Drawing.Size(310, 20)
-        Me.TextBox82.TabIndex = 510
-        '
-        'TextBox83
-        '
-        Me.TextBox83.Location = New System.Drawing.Point(643, 3792)
-        Me.TextBox83.Name = "TextBox83"
-        Me.TextBox83.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox83.TabIndex = 511
-        '
-        'TextBox84
-        '
-        Me.TextBox84.Location = New System.Drawing.Point(643, 3824)
-        Me.TextBox84.Name = "TextBox84"
-        Me.TextBox84.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox84.TabIndex = 512
-        '
-        'Button10
-        '
-        Me.Button10.BackColor = System.Drawing.Color.DimGray
-        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.ForeColor = System.Drawing.Color.Transparent
-        Me.Button10.Location = New System.Drawing.Point(400, 3919)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(88, 26)
-        Me.Button10.TabIndex = 514
-        Me.Button10.Text = "UPDATE"
-        Me.Button10.UseVisualStyleBackColor = False
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.Color.DimGray
-        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.ForeColor = System.Drawing.Color.Transparent
-        Me.Button11.Location = New System.Drawing.Point(503, 3919)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(88, 26)
-        Me.Button11.TabIndex = 515
-        Me.Button11.Text = "REMOVE"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.Color.DimGray
-        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.ForeColor = System.Drawing.Color.Transparent
-        Me.Button12.Location = New System.Drawing.Point(607, 3919)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(115, 26)
-        Me.Button12.TabIndex = 516
-        Me.Button12.Text = "REMOVE ALL"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.NF_RENT_HOME)
@@ -2691,18 +2609,6 @@ Partial Class CIRFORM1
         Me.GroupBox1.Size = New System.Drawing.Size(97, 100)
         Me.GroupBox1.TabIndex = 521
         Me.GroupBox1.TabStop = False
-        '
-        'NF_OWN_HOME
-        '
-        Me.NF_OWN_HOME.AutoSize = True
-        Me.NF_OWN_HOME.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
-        Me.NF_OWN_HOME.Location = New System.Drawing.Point(17, 19)
-        Me.NF_OWN_HOME.Name = "NF_OWN_HOME"
-        Me.NF_OWN_HOME.Size = New System.Drawing.Size(72, 20)
-        Me.NF_OWN_HOME.TabIndex = 517
-        Me.NF_OWN_HOME.TabStop = True
-        Me.NF_OWN_HOME.Text = "Owned"
-        Me.NF_OWN_HOME.UseVisualStyleBackColor = True
         '
         'NF_RENT_HOME
         '
@@ -2716,6 +2622,18 @@ Partial Class CIRFORM1
         Me.NF_RENT_HOME.Text = "Rented"
         Me.NF_RENT_HOME.UseVisualStyleBackColor = True
         '
+        'NF_OWN_HOME
+        '
+        Me.NF_OWN_HOME.AutoSize = True
+        Me.NF_OWN_HOME.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.NF_OWN_HOME.Location = New System.Drawing.Point(17, 19)
+        Me.NF_OWN_HOME.Name = "NF_OWN_HOME"
+        Me.NF_OWN_HOME.Size = New System.Drawing.Size(72, 20)
+        Me.NF_OWN_HOME.TabIndex = 517
+        Me.NF_OWN_HOME.TabStop = True
+        Me.NF_OWN_HOME.Text = "Owned"
+        Me.NF_OWN_HOME.UseVisualStyleBackColor = True
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.NF_RENT_BUSINESS)
@@ -2725,6 +2643,18 @@ Partial Class CIRFORM1
         Me.GroupBox2.Size = New System.Drawing.Size(97, 100)
         Me.GroupBox2.TabIndex = 522
         Me.GroupBox2.TabStop = False
+        '
+        'NF_RENT_BUSINESS
+        '
+        Me.NF_RENT_BUSINESS.AutoSize = True
+        Me.NF_RENT_BUSINESS.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.NF_RENT_BUSINESS.Location = New System.Drawing.Point(14, 60)
+        Me.NF_RENT_BUSINESS.Name = "NF_RENT_BUSINESS"
+        Me.NF_RENT_BUSINESS.Size = New System.Drawing.Size(75, 20)
+        Me.NF_RENT_BUSINESS.TabIndex = 523
+        Me.NF_RENT_BUSINESS.TabStop = True
+        Me.NF_RENT_BUSINESS.Text = "Rented"
+        Me.NF_RENT_BUSINESS.UseVisualStyleBackColor = True
         '
         'NF_OWN_BUSNESS
         '
@@ -2780,7 +2710,7 @@ Partial Class CIRFORM1
         '
         'COL_UPBUTTON
         '
-        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.DarkGray
+        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.DimGray
         Me.COL_UPBUTTON.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_UPBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_UPBUTTON.ForeColor = System.Drawing.Color.Transparent
@@ -2793,7 +2723,7 @@ Partial Class CIRFORM1
         '
         'COL_REMBTN
         '
-        Me.COL_REMBTN.BackColor = System.Drawing.Color.DarkGray
+        Me.COL_REMBTN.BackColor = System.Drawing.Color.DimGray
         Me.COL_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_REMBTN.ForeColor = System.Drawing.Color.Transparent
@@ -2806,7 +2736,7 @@ Partial Class CIRFORM1
         '
         'COL_REMALLBTN
         '
-        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.DarkGray
+        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.DimGray
         Me.COL_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.COL_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_REMALLBTN.ForeColor = System.Drawing.Color.Transparent
@@ -2817,18 +2747,6 @@ Partial Class CIRFORM1
         Me.COL_REMALLBTN.Text = "REMOVE ALL"
         Me.COL_REMALLBTN.UseVisualStyleBackColor = False
         '
-        'NF_RENT_BUSINESS
-        '
-        Me.NF_RENT_BUSINESS.AutoSize = True
-        Me.NF_RENT_BUSINESS.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.NF_RENT_BUSINESS.Location = New System.Drawing.Point(14, 60)
-        Me.NF_RENT_BUSINESS.Name = "NF_RENT_BUSINESS"
-        Me.NF_RENT_BUSINESS.Size = New System.Drawing.Size(75, 20)
-        Me.NF_RENT_BUSINESS.TabIndex = 523
-        Me.NF_RENT_BUSINESS.TabStop = True
-        Me.NF_RENT_BUSINESS.Text = "Rented"
-        Me.NF_RENT_BUSINESS.UseVisualStyleBackColor = True
-        '
         'CIRFORM1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2837,14 +2755,6 @@ Partial Class CIRFORM1
         Me.AutoScrollMargin = New System.Drawing.Size(0, 10)
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ClientSize = New System.Drawing.Size(1063, 677)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.TextBox84)
-        Me.Controls.Add(Me.TextBox83)
-        Me.Controls.Add(Me.TextBox82)
-        Me.Controls.Add(Me.TextBox81)
-        Me.Controls.Add(Me.TextBox80)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.COL_REMALLBTN)
@@ -3355,15 +3265,6 @@ Partial Class CIRFORM1
     Friend WithEvents Label148 As Label
     Friend WithEvents Label149 As Label
     Friend WithEvents Label150 As Label
-
-    Friend WithEvents TextBox80 As TextBox
-    Friend WithEvents TextBox81 As TextBox
-    Friend WithEvents TextBox82 As TextBox
-    Friend WithEvents TextBox83 As TextBox
-    Friend WithEvents TextBox84 As TextBox
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
 
     Friend WithEvents C_KHP As TextBox
     Friend WithEvents C_MN As TextBox
