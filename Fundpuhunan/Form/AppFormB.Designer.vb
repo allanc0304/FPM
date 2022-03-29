@@ -1415,7 +1415,7 @@ Partial Class AppFormB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(815, 708)
+        Me.ClientSize = New System.Drawing.Size(748, 708)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)

@@ -1,5 +1,12 @@
 ﻿Public Class CIRFORM2
-    Private Sub txtBLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSubmittedBy.KeyPress, txtBSuffix.KeyPress, txtBMname.KeyPress, txtBLname.KeyPress, txtBFname.KeyPress
+    Dim f1 As CIRFORM1
+
+    Public Sub New(ByVal frm1 As CIRFORM1)
+        InitializeComponent()
+        f1 = frm1
+
+    End Sub
+    Private Sub TxtBLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtSubmittedBy.KeyPress, txtBMname.KeyPress, txtBLname.KeyPress, txtBFname.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Letters only")
@@ -30,7 +37,7 @@
     End Function
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
-        If Vld(txtSubmittedBy, txtBSuffix, txtBMname, txtBLname, txtBFname) = False Then
+        If Vld(txtSubmittedBy, txtBMname, txtBLname, txtBFname) = False Then
             MessageBox.Show("Fill up all fields")
 
         ElseIf Vld(txtWBill, txtTranspo, txtSpoSalary, txtSpoNProfit, txtSpoGSale, txtSpoCSale, txtRental, txtPLoan, txtPersoOther, txtPAmount, txtNIncome, txtHSalary, txtFood, txtExpenses, txtEBill, txtDelinquent, txtBalance, txtAvailment, txtAppSalary, txtAppNProfit, txtAppGSale, txtAppCSale, txtAccSignature, txtAmountApproved, txtAllowance, txtAmountApproved, txtApprovedBy, txtPAmount, txtSubmittedBy) = False Then
@@ -44,5 +51,17 @@
             Me.Hide()
 
         End If
+    End Sub
+
+    Private Sub CIRFORM2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtBLname.Text = f1.NOB_LN.Text
+        txtBFname.Text = f1.NOB_GN.Text
+        txtBMname.Text = f1.NOB_MN.Text
+
+    End Sub
+
+    Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
+        Me.Hide()
+        CIRFORM1.Show()
     End Sub
 End Class
