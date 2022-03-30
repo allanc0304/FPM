@@ -2754,7 +2754,7 @@ Partial Class CIRFORM1
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 10)
         Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1063, 677)
+        Me.ClientSize = New System.Drawing.Size(1040, 659)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.COL_REMALLBTN)
@@ -3004,6 +3004,7 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.MinimumSize = New System.Drawing.Size(16, 100)
         Me.Name = "CIRFORM1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CIR1"
@@ -3022,7 +3023,6 @@ Partial Class CIRFORM1
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents NOB_LN As TextBox
     Friend WithEvents NOB_GN As TextBox
     Friend WithEvents NOB_MN As TextBox
     Friend WithEvents NOB_SUFF As TextBox
@@ -3281,4 +3281,5 @@ Partial Class CIRFORM1
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents NF_RENT_BUSINESS As RadioButton
+    Public WithEvents NOB_LN As TextBox
 End Class

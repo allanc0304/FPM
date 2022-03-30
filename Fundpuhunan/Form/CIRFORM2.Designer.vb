@@ -148,16 +148,6 @@ Partial Class CIRFORM2
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider3 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider4 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider5 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider6 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider7 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider8 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider9 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider10 = New System.Windows.Forms.ErrorProvider(Me.components)
-        Me.ErrorProvider11 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider12 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider13 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider14 = New System.Windows.Forms.ErrorProvider(Me.components)
@@ -179,16 +169,6 @@ Partial Class CIRFORM2
         Me.ErrorProvider30 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider31 = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ErrorProvider11, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -256,6 +236,7 @@ Partial Class CIRFORM2
         Me.txtBMname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBMname.Location = New System.Drawing.Point(445, 87)
         Me.txtBMname.Name = "txtBMname"
+        Me.txtBMname.ReadOnly = True
         Me.txtBMname.Size = New System.Drawing.Size(119, 22)
         Me.txtBMname.TabIndex = 629
         '
@@ -264,6 +245,7 @@ Partial Class CIRFORM2
         Me.txtBFname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBFname.Location = New System.Drawing.Point(309, 86)
         Me.txtBFname.Name = "txtBFname"
+        Me.txtBFname.ReadOnly = True
         Me.txtBFname.Size = New System.Drawing.Size(119, 22)
         Me.txtBFname.TabIndex = 628
         '
@@ -386,6 +368,7 @@ Partial Class CIRFORM2
         Me.txtBSuffix.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBSuffix.Location = New System.Drawing.Point(579, 88)
         Me.txtBSuffix.Name = "txtBSuffix"
+        Me.txtBSuffix.ReadOnly = True
         Me.txtBSuffix.Size = New System.Drawing.Size(46, 22)
         Me.txtBSuffix.TabIndex = 615
         '
@@ -676,6 +659,7 @@ Partial Class CIRFORM2
         Me.txtBLname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBLname.Location = New System.Drawing.Point(175, 85)
         Me.txtBLname.Name = "txtBLname"
+        Me.txtBLname.ReadOnly = True
         Me.txtBLname.Size = New System.Drawing.Size(119, 22)
         Me.txtBLname.TabIndex = 584
         '
@@ -866,7 +850,7 @@ Partial Class CIRFORM2
         Me.txtNIncome.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtNIncome.Location = New System.Drawing.Point(395, 945)
         Me.txtNIncome.Name = "txtNIncome"
-        Me.txtNIncome.Size = New System.Drawing.Size(169, 22)
+        Me.txtNIncome.Size = New System.Drawing.Size(170, 22)
         Me.txtNIncome.TabIndex = 705
         '
         'Label84
@@ -884,7 +868,7 @@ Partial Class CIRFORM2
         Me.txtExpenses.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtExpenses.Location = New System.Drawing.Point(395, 913)
         Me.txtExpenses.Name = "txtExpenses"
-        Me.txtExpenses.Size = New System.Drawing.Size(169, 22)
+        Me.txtExpenses.Size = New System.Drawing.Size(170, 22)
         Me.txtExpenses.TabIndex = 703
         '
         'calDSubmitted
@@ -1191,7 +1175,7 @@ Partial Class CIRFORM2
         Me.txtPersoOther.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPersoOther.Location = New System.Drawing.Point(395, 881)
         Me.txtPersoOther.Name = "txtPersoOther"
-        Me.txtPersoOther.Size = New System.Drawing.Size(169, 22)
+        Me.txtPersoOther.Size = New System.Drawing.Size(170, 22)
         Me.txtPersoOther.TabIndex = 671
         '
         'txtHSalary
@@ -1199,7 +1183,7 @@ Partial Class CIRFORM2
         Me.txtHSalary.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtHSalary.Location = New System.Drawing.Point(395, 852)
         Me.txtHSalary.Name = "txtHSalary"
-        Me.txtHSalary.Size = New System.Drawing.Size(169, 22)
+        Me.txtHSalary.Size = New System.Drawing.Size(170, 22)
         Me.txtHSalary.TabIndex = 670
         '
         'Label80
@@ -1248,7 +1232,7 @@ Partial Class CIRFORM2
         Me.txtWBill.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtWBill.Location = New System.Drawing.Point(395, 824)
         Me.txtWBill.Name = "txtWBill"
-        Me.txtWBill.Size = New System.Drawing.Size(169, 22)
+        Me.txtWBill.Size = New System.Drawing.Size(170, 22)
         Me.txtWBill.TabIndex = 666
         '
         'Label81
@@ -1266,7 +1250,7 @@ Partial Class CIRFORM2
         Me.txtEBill.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtEBill.Location = New System.Drawing.Point(395, 795)
         Me.txtEBill.Name = "txtEBill"
-        Me.txtEBill.Size = New System.Drawing.Size(169, 22)
+        Me.txtEBill.Size = New System.Drawing.Size(170, 22)
         Me.txtEBill.TabIndex = 664
         '
         'Label73
@@ -1284,7 +1268,7 @@ Partial Class CIRFORM2
         Me.txtTranspo.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtTranspo.Location = New System.Drawing.Point(395, 766)
         Me.txtTranspo.Name = "txtTranspo"
-        Me.txtTranspo.Size = New System.Drawing.Size(169, 22)
+        Me.txtTranspo.Size = New System.Drawing.Size(170, 22)
         Me.txtTranspo.TabIndex = 662
         '
         'Label72
@@ -1363,7 +1347,7 @@ Partial Class CIRFORM2
         Me.txtAllowance.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAllowance.Location = New System.Drawing.Point(393, 683)
         Me.txtAllowance.Name = "txtAllowance"
-        Me.txtAllowance.Size = New System.Drawing.Size(169, 22)
+        Me.txtAllowance.Size = New System.Drawing.Size(172, 22)
         Me.txtAllowance.TabIndex = 655
         '
         'Label71
@@ -1389,46 +1373,6 @@ Partial Class CIRFORM2
         'ErrorProvider1
         '
         Me.ErrorProvider1.ContainerControl = Me
-        '
-        'ErrorProvider2
-        '
-        Me.ErrorProvider2.ContainerControl = Me
-        '
-        'ErrorProvider3
-        '
-        Me.ErrorProvider3.ContainerControl = Me
-        '
-        'ErrorProvider4
-        '
-        Me.ErrorProvider4.ContainerControl = Me
-        '
-        'ErrorProvider5
-        '
-        Me.ErrorProvider5.ContainerControl = Me
-        '
-        'ErrorProvider6
-        '
-        Me.ErrorProvider6.ContainerControl = Me
-        '
-        'ErrorProvider7
-        '
-        Me.ErrorProvider7.ContainerControl = Me
-        '
-        'ErrorProvider8
-        '
-        Me.ErrorProvider8.ContainerControl = Me
-        '
-        'ErrorProvider9
-        '
-        Me.ErrorProvider9.ContainerControl = Me
-        '
-        'ErrorProvider10
-        '
-        Me.ErrorProvider10.ContainerControl = Me
-        '
-        'ErrorProvider11
-        '
-        Me.ErrorProvider11.ContainerControl = Me
         '
         'ErrorProvider12
         '
@@ -1647,16 +1591,6 @@ Partial Class CIRFORM2
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "CIRFORM2"
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ErrorProvider11, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1807,16 +1741,6 @@ Partial Class CIRFORM2
     Public WithEvents Label71 As Label
     Public WithEvents Label25 As Label
     Friend WithEvents ErrorProvider1 As ErrorProvider
-    Friend WithEvents ErrorProvider2 As ErrorProvider
-    Friend WithEvents ErrorProvider3 As ErrorProvider
-    Friend WithEvents ErrorProvider4 As ErrorProvider
-    Friend WithEvents ErrorProvider5 As ErrorProvider
-    Friend WithEvents ErrorProvider6 As ErrorProvider
-    Friend WithEvents ErrorProvider7 As ErrorProvider
-    Friend WithEvents ErrorProvider8 As ErrorProvider
-    Friend WithEvents ErrorProvider9 As ErrorProvider
-    Friend WithEvents ErrorProvider10 As ErrorProvider
-    Friend WithEvents ErrorProvider11 As ErrorProvider
     Friend WithEvents ErrorProvider12 As ErrorProvider
     Friend WithEvents ErrorProvider13 As ErrorProvider
     Friend WithEvents ErrorProvider14 As ErrorProvider
