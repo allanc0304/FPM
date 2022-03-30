@@ -118,4 +118,8 @@ Public Class Navigation
     Private Sub Navigation_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
         System.Windows.Forms.Application.Exit()
     End Sub
+
+    Private Sub Navigation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

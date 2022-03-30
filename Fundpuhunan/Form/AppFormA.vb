@@ -1,6 +1,6 @@
 ﻿Imports System.ComponentModel
 Imports System.Text.RegularExpressions
-Public Class ApplictaionForm1
+Public Class AppFormA
 
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click

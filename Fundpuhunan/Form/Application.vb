@@ -1,11 +1,11 @@
 ﻿Imports DBConnection
 Public Class Application
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        ApplictaionForm1.Show()
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
+        AppFormA.Show()
 
 
     End Sub
@@ -29,71 +29,71 @@ Public Class Application
                 Exit Sub
             End If
             Dim applicationObj = HolderSingleton.selectedLoanApplication
-            ApplictaionForm1.P1_LASTNAME.Text = applicationObj.BorrowerLN
-            ApplictaionForm1.P1_GIVENNAME.Text = applicationObj.BorrowerFN
-            ApplictaionForm1.P1_MIDDLENAME.Text = applicationObj.BorrowerMN
-            ApplictaionForm1.P1_SUFFIX.Text = applicationObj.BorrowerSuffix
-            ApplictaionForm1.T1_HOUSENO.Text = applicationObj.HouseNo
-            ApplictaionForm1.T1_STREET.Text = applicationObj.Street
-            ApplictaionForm1.T1_BARANGAY.Text = applicationObj.Brgy
-            ApplictaionForm1.T1_MUNICIPALITY.Text = applicationObj.Municipality
-            ApplictaionForm1.T1_PROVINCE.Text = applicationObj.Province
-            ApplictaionForm1.K1_MONTH.Text = applicationObj.BirthDate.Month
-            ApplictaionForm1.K1_DAY.Text = applicationObj.BirthDate.Day
-            ApplictaionForm1.K1_YEAR.Text = applicationObj.BirthDate.Year
+            AppFormA.P1_LASTNAME.Text = applicationObj.BorrowerLN
+            AppFormA.P1_GIVENNAME.Text = applicationObj.BorrowerFN
+            AppFormA.P1_MIDDLENAME.Text = applicationObj.BorrowerMN
+            AppFormA.P1_SUFFIX.Text = applicationObj.BorrowerSuffix
+            AppFormA.T1_HOUSENO.Text = applicationObj.HouseNo
+            AppFormA.T1_STREET.Text = applicationObj.Street
+            AppFormA.T1_BARANGAY.Text = applicationObj.Brgy
+            AppFormA.T1_MUNICIPALITY.Text = applicationObj.Municipality
+            AppFormA.T1_PROVINCE.Text = applicationObj.Province
+            AppFormA.K1_MONTH.Text = applicationObj.BirthDate.Month
+            AppFormA.K1_DAY.Text = applicationObj.BirthDate.Day
+            AppFormA.K1_YEAR.Text = applicationObj.BirthDate.Year
             If applicationObj.IsMale = True Then
-                ApplictaionForm1.RadioButton1.Checked = True
+                AppFormA.RadioButton1.Checked = True
             Else
-                ApplictaionForm1.RadioButton2.Checked = True
+                AppFormA.RadioButton2.Checked = True
             End If
-            ApplictaionForm1.E1_AGE.Text = applicationObj.Age
-            ApplictaionForm1.R1_RELIGION.Text = applicationObj.Religion
-            ApplictaionForm1.C1_CONTACT.Text = applicationObj.ContactNo
-            ApplictaionForm1.P2_LASTNAME.Text = applicationObj.SpouseLN
-            ApplictaionForm1.P2_GIVENNAME.Text = applicationObj.SpouseFN
-            ApplictaionForm1.P2_MIDDLENAME.Text = applicationObj.SpouseMN
-            ApplictaionForm1.P2_SUFFIX.Text = applicationObj.SpouseSuffix
-            ApplictaionForm1.T2_HOUSENO.Text = applicationObj.SpouseHouseNo
-            ApplictaionForm1.T2_STREET.Text = applicationObj.SpouseStreet
-            ApplictaionForm1.T2_BARANGAY.Text = applicationObj.SpouseBrgy
-            ApplictaionForm1.T2_MUNICIPALITY.Text = applicationObj.SpouseMunicipality
-            ApplictaionForm1.T2_PROVINCE.Text = applicationObj.SpouseProvince
-            ApplictaionForm1.K2_MONTH.Text = applicationObj.SpouseBirthDate.Month
-            ApplictaionForm1.K2_DAY.Text = applicationObj.SpouseBirthDate.Day
-            ApplictaionForm1.K2_YEAR.Text = applicationObj.SpouseBirthDate.Year
+            AppFormA.E1_AGE.Text = applicationObj.Age
+            AppFormA.R1_RELIGION.Text = applicationObj.Religion
+            AppFormA.C1_CONTACT.Text = applicationObj.ContactNo
+            AppFormA.P2_LASTNAME.Text = applicationObj.SpouseLN
+            AppFormA.P2_GIVENNAME.Text = applicationObj.SpouseFN
+            AppFormA.P2_MIDDLENAME.Text = applicationObj.SpouseMN
+            AppFormA.P2_SUFFIX.Text = applicationObj.SpouseSuffix
+            AppFormA.T2_HOUSENO.Text = applicationObj.SpouseHouseNo
+            AppFormA.T2_STREET.Text = applicationObj.SpouseStreet
+            AppFormA.T2_BARANGAY.Text = applicationObj.SpouseBrgy
+            AppFormA.T2_MUNICIPALITY.Text = applicationObj.SpouseMunicipality
+            AppFormA.T2_PROVINCE.Text = applicationObj.SpouseProvince
+            AppFormA.K2_MONTH.Text = applicationObj.SpouseBirthDate.Month
+            AppFormA.K2_DAY.Text = applicationObj.SpouseBirthDate.Day
+            AppFormA.K2_YEAR.Text = applicationObj.SpouseBirthDate.Year
             If applicationObj.SpouseIsMale = True Then
-                ApplictaionForm1.RadioButton4.Checked = True
+                AppFormA.RadioButton4.Checked = True
             Else
-                ApplictaionForm1.RadioButton3.Checked = True
+                AppFormA.RadioButton3.Checked = True
             End If
-            ApplictaionForm1.E2_AGE.Text = applicationObj.SpouseAge
-            ApplictaionForm1.B2_ANAK.Text = applicationObj.Children
-            ApplictaionForm1.R2_RELIGION.Text = applicationObj.SpouseReligion
-            ApplictaionForm1.P3_BUSINESS.Text = applicationObj.IncomeSource
-            ApplictaionForm1.L3_SALARY.Text = applicationObj.WeeklyIncome
-            ApplictaionForm1.L3_EXPENSES.Text = applicationObj.Expenses
-            ApplictaionForm1.L3_WEEKLYINCOME.Text = applicationObj.WeeklyHouseholdIncome
-            ApplictaionForm1.M3_CLEANSALARY.Text = applicationObj.DisposableIncome
-            ApplictaionForm1.P4_LASTNAME.Text = applicationObj.GuarantorLN
-            ApplictaionForm1.P4_GIVENNAME.Text = applicationObj.GuarantorFN
-            ApplictaionForm1.P4_MIDDLENAME.Text = applicationObj.GuarantorMN
-            ApplictaionForm1.P4_SUFFIX.Text = applicationObj.GuarantorSuffix
-            ApplictaionForm1.T4_HOUSENO.Text = applicationObj.GuarantorHouseNo
-            ApplictaionForm1.T4_STREET.Text = applicationObj.GuarantorStreet
-            ApplictaionForm1.T4_BARANGAY.Text = applicationObj.GuarantorBrgy
-            ApplictaionForm1.T4_MUNICIPALITY.Text = applicationObj.GuarantorMunicipality
-            ApplictaionForm1.T4_PROVINCE.Text = applicationObj.GuarantorProvince
+            AppFormA.E2_AGE.Text = applicationObj.SpouseAge
+            AppFormA.B2_ANAK.Text = applicationObj.Children
+            AppFormA.R2_RELIGION.Text = applicationObj.SpouseReligion
+            AppFormA.P3_BUSINESS.Text = applicationObj.IncomeSource
+            AppFormA.L3_SALARY.Text = applicationObj.WeeklyIncome
+            AppFormA.L3_EXPENSES.Text = applicationObj.Expenses
+            AppFormA.L3_WEEKLYINCOME.Text = applicationObj.WeeklyHouseholdIncome
+            AppFormA.M3_CLEANSALARY.Text = applicationObj.DisposableIncome
+            AppFormA.P4_LASTNAME.Text = applicationObj.GuarantorLN
+            AppFormA.P4_GIVENNAME.Text = applicationObj.GuarantorFN
+            AppFormA.P4_MIDDLENAME.Text = applicationObj.GuarantorMN
+            AppFormA.P4_SUFFIX.Text = applicationObj.GuarantorSuffix
+            AppFormA.T4_HOUSENO.Text = applicationObj.GuarantorHouseNo
+            AppFormA.T4_STREET.Text = applicationObj.GuarantorStreet
+            AppFormA.T4_BARANGAY.Text = applicationObj.GuarantorBrgy
+            AppFormA.T4_MUNICIPALITY.Text = applicationObj.GuarantorMunicipality
+            AppFormA.T4_PROVINCE.Text = applicationObj.GuarantorProvince
 
-            ApplictaionForm1.K4_DAY.Text = applicationObj.GuarantorBirthDate.Day
-            ApplictaionForm1.K4_YEAR.Text = applicationObj.GuarantorBirthDate.Year
+            AppFormA.K4_DAY.Text = applicationObj.GuarantorBirthDate.Day
+            AppFormA.K4_YEAR.Text = applicationObj.GuarantorBirthDate.Year
             If applicationObj.GuarantorIsMale = True Then
-                ApplictaionForm1.RadioButton6.Checked = True
+                AppFormA.RadioButton6.Checked = True
             Else
-                ApplictaionForm1.RadioButton5.Checked = True
+                AppFormA.RadioButton5.Checked = True
             End If
-            ApplictaionForm1.B4_BUSINESS.Text = applicationObj.GuarantorIncomeSource
-            ApplictaionForm1.T4_TYPEOFBUSINESS.Text = applicationObj.GuarantorBusinessType
-            ApplictaionForm1.E4_AGE.Text = applicationObj.GuarantorAge
+            AppFormA.B4_BUSINESS.Text = applicationObj.GuarantorIncomeSource
+            AppFormA.T4_TYPEOFBUSINESS.Text = applicationObj.GuarantorBusinessType
+            AppFormA.E4_AGE.Text = applicationObj.GuarantorAge
 
             AppFormB.P1_LASTNAME.Text = applicationObj.BorrowerLN
             AppFormB.P1_GIVENNAME.Text = applicationObj.BorrowerFN
@@ -132,8 +132,8 @@ Public Class Application
             AppFormB.AL2_LOAN.Text = applicationObj.LoanAmount
             AppFormB.CB2_CHECKEDBY.Text = applicationObj.CheckerName
 
-            ApplictaionForm1.Show()
-            ApplictaionForm1.BringToFront()
+            AppFormA.Show()
+            AppFormA.BringToFront()
 
         ElseIf e.ColumnIndex = 7 Then
             MessageBox.Show("delete")
@@ -142,5 +142,26 @@ Public Class Application
 
     Private Sub Application_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        AppFormA.Show()
+    End Sub
+
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        SearchApplication.Show()
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        With LoanProcessing
+
+            .TopLevel = False
+            .AutoSize = True
+
+            Navigation.Navigationpanel.Controls.Add(LoanProcessing)
+            .BringToFront()
+            .Show()
+
+        End With
     End Sub
 End Class

@@ -50,6 +50,7 @@ Partial Class Navigation
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.SteelBlue
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label7)
@@ -73,7 +74,7 @@ Partial Class Navigation
         Me.Panel1.ForeColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(244, 749)
+        Me.Panel1.Size = New System.Drawing.Size(244, 757)
         Me.Panel1.TabIndex = 13
         '
         'Button2
@@ -290,7 +291,7 @@ Partial Class Navigation
         Me.applicationbttn.Name = "applicationbttn"
         Me.applicationbttn.Size = New System.Drawing.Size(248, 26)
         Me.applicationbttn.TabIndex = 4
-        Me.applicationbttn.Text = "Application Form"
+        Me.applicationbttn.Text = "Loan Application"
         Me.applicationbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.applicationbttn.UseVisualStyleBackColor = False
         '
@@ -343,21 +344,22 @@ Partial Class Navigation
         Me.Navigationpanel.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Navigationpanel.Location = New System.Drawing.Point(244, 0)
         Me.Navigationpanel.Name = "Navigationpanel"
-        Me.Navigationpanel.Size = New System.Drawing.Size(940, 749)
+        Me.Navigationpanel.Size = New System.Drawing.Size(940, 757)
         Me.Navigationpanel.TabIndex = 14
         '
         'Navigation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1184, 749)
+        Me.ClientSize = New System.Drawing.Size(1184, 757)
         Me.Controls.Add(Me.Navigationpanel)
         Me.Controls.Add(Me.Panel1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Navigation"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Navigation"
-        Me.TransparencyKey = System.Drawing.Color.LemonChiffon
+        Me.TransparencyKey = System.Drawing.Color.DarkGoldenrod
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
