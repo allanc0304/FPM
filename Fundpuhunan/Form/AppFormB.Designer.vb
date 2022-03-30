@@ -1064,7 +1064,7 @@ Partial Class AppFormB
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(456, 180)
+        Me.Label52.Location = New System.Drawing.Point(462, 180)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(59, 9)
         Me.Label52.TabIndex = 229
