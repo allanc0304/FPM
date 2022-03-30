@@ -696,7 +696,7 @@ Public Class CIRFORM1
         If (phone.IsMatch(CIR_CONTACT.Text)) Then
             MsgBox("Phone Number is Valid")
         Else
-            MsgBox("Contact Number is exceeded or less than to 11 digits")
+            MsgBox("Contact Number is should start with 09 or exceeded or less than to 11 digits")
         End If
     End Sub
 
@@ -706,7 +706,7 @@ Public Class CIRFORM1
         If (phone.IsMatch(CIR_CONTACT1.Text)) Then
             MsgBox("Phone Number is Valid")
         Else
-            MsgBox("Contact Number is exceeded or less than to 11 digits")
+            MsgBox("Contact Number is should start with 09 or exceeded or less than to 11 digits")
         End If
     End Sub
 
@@ -716,7 +716,7 @@ Public Class CIRFORM1
         If (phone.IsMatch(BR_CONT.Text)) Then
             MsgBox("Phone Number is Valid")
         Else
-            MsgBox("Contact Number is exceeded or less than to 11 digits")
+            MsgBox("Contact Number is should start with 09 or exceeded or less than to 11 digits")
         End If
     End Sub
 End Class
