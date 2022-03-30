@@ -769,6 +769,7 @@ Partial Class ApplictaionForm1
         '
         Me.P4_SUFFIX.Location = New System.Drawing.Point(585, 1149)
         Me.P4_SUFFIX.Name = "P4_SUFFIX"
+        Me.P4_SUFFIX.ReadOnly = True
         Me.P4_SUFFIX.Size = New System.Drawing.Size(46, 20)
         Me.P4_SUFFIX.TabIndex = 370
         Me.P4_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -777,6 +778,7 @@ Partial Class ApplictaionForm1
         '
         Me.P2_SUFFIX.Location = New System.Drawing.Point(568, 529)
         Me.P2_SUFFIX.Name = "P2_SUFFIX"
+        Me.P2_SUFFIX.ReadOnly = True
         Me.P2_SUFFIX.Size = New System.Drawing.Size(46, 20)
         Me.P2_SUFFIX.TabIndex = 369
         Me.P2_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -794,6 +796,7 @@ Partial Class ApplictaionForm1
         Me.P4_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P4_GIVENNAME.Location = New System.Drawing.Point(348, 1149)
         Me.P4_GIVENNAME.Name = "P4_GIVENNAME"
+        Me.P4_GIVENNAME.ReadOnly = True
         Me.P4_GIVENNAME.Size = New System.Drawing.Size(114, 20)
         Me.P4_GIVENNAME.TabIndex = 367
         Me.P4_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -803,6 +806,7 @@ Partial Class ApplictaionForm1
         Me.P2_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P2_GIVENNAME.Location = New System.Drawing.Point(330, 529)
         Me.P2_GIVENNAME.Name = "P2_GIVENNAME"
+        Me.P2_GIVENNAME.ReadOnly = True
         Me.P2_GIVENNAME.Size = New System.Drawing.Size(114, 20)
         Me.P2_GIVENNAME.TabIndex = 366
         Me.P2_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -827,6 +831,7 @@ Partial Class ApplictaionForm1
         '
         Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1318)
         Me.B4_BUSINESS.Name = "B4_BUSINESS"
+        Me.B4_BUSINESS.ReadOnly = True
         Me.B4_BUSINESS.Size = New System.Drawing.Size(111, 20)
         Me.B4_BUSINESS.TabIndex = 362
         '
@@ -834,6 +839,7 @@ Partial Class ApplictaionForm1
         '
         Me.E4_AGE.Location = New System.Drawing.Point(513, 1321)
         Me.E4_AGE.Name = "E4_AGE"
+        Me.E4_AGE.ReadOnly = True
         Me.E4_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E4_AGE.TabIndex = 361
         '
@@ -842,6 +848,7 @@ Partial Class ApplictaionForm1
         Me.K4_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
         Me.K4_YEAR.Location = New System.Drawing.Point(439, 1241)
         Me.K4_YEAR.Name = "K4_YEAR"
+        Me.K4_YEAR.ReadOnly = True
         Me.K4_YEAR.Size = New System.Drawing.Size(96, 20)
         Me.K4_YEAR.TabIndex = 360
         Me.K4_YEAR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -851,6 +858,7 @@ Partial Class ApplictaionForm1
         Me.K4_DAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.K4_DAY.Location = New System.Drawing.Point(325, 1241)
         Me.K4_DAY.Name = "K4_DAY"
+        Me.K4_DAY.ReadOnly = True
         Me.K4_DAY.Size = New System.Drawing.Size(109, 20)
         Me.K4_DAY.TabIndex = 359
         Me.K4_DAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -860,6 +868,7 @@ Partial Class ApplictaionForm1
         Me.K4_MONTH.ForeColor = System.Drawing.SystemColors.MenuText
         Me.K4_MONTH.Location = New System.Drawing.Point(237, 1241)
         Me.K4_MONTH.Name = "K4_MONTH"
+        Me.K4_MONTH.ReadOnly = True
         Me.K4_MONTH.Size = New System.Drawing.Size(84, 20)
         Me.K4_MONTH.TabIndex = 358
         Me.K4_MONTH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -869,6 +878,7 @@ Partial Class ApplictaionForm1
         Me.T4_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_PROVINCE.Location = New System.Drawing.Point(567, 1198)
         Me.T4_PROVINCE.Name = "T4_PROVINCE"
+        Me.T4_PROVINCE.ReadOnly = True
         Me.T4_PROVINCE.Size = New System.Drawing.Size(96, 20)
         Me.T4_PROVINCE.TabIndex = 357
         Me.T4_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -878,6 +888,7 @@ Partial Class ApplictaionForm1
         Me.T4_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_MUNICIPALITY.Location = New System.Drawing.Point(453, 1198)
         Me.T4_MUNICIPALITY.Name = "T4_MUNICIPALITY"
+        Me.T4_MUNICIPALITY.ReadOnly = True
         Me.T4_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
         Me.T4_MUNICIPALITY.TabIndex = 356
         Me.T4_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -887,6 +898,7 @@ Partial Class ApplictaionForm1
         Me.T4_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_BARANGAY.Location = New System.Drawing.Point(365, 1198)
         Me.T4_BARANGAY.Name = "T4_BARANGAY"
+        Me.T4_BARANGAY.ReadOnly = True
         Me.T4_BARANGAY.Size = New System.Drawing.Size(84, 20)
         Me.T4_BARANGAY.TabIndex = 355
         Me.T4_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -896,6 +908,7 @@ Partial Class ApplictaionForm1
         Me.T4_STREET.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_STREET.Location = New System.Drawing.Point(306, 1198)
         Me.T4_STREET.Name = "T4_STREET"
+        Me.T4_STREET.ReadOnly = True
         Me.T4_STREET.Size = New System.Drawing.Size(54, 20)
         Me.T4_STREET.TabIndex = 354
         Me.T4_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -905,6 +918,7 @@ Partial Class ApplictaionForm1
         Me.T4_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_HOUSENO.Location = New System.Drawing.Point(237, 1198)
         Me.T4_HOUSENO.Name = "T4_HOUSENO"
+        Me.T4_HOUSENO.ReadOnly = True
         Me.T4_HOUSENO.Size = New System.Drawing.Size(65, 20)
         Me.T4_HOUSENO.TabIndex = 353
         Me.T4_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -914,6 +928,7 @@ Partial Class ApplictaionForm1
         Me.P4_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P4_MIDDLENAME.Location = New System.Drawing.Point(467, 1149)
         Me.P4_MIDDLENAME.Name = "P4_MIDDLENAME"
+        Me.P4_MIDDLENAME.ReadOnly = True
         Me.P4_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
         Me.P4_MIDDLENAME.TabIndex = 352
         Me.P4_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -923,6 +938,7 @@ Partial Class ApplictaionForm1
         Me.P4_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P4_LASTNAME.Location = New System.Drawing.Point(237, 1149)
         Me.P4_LASTNAME.Name = "P4_LASTNAME"
+        Me.P4_LASTNAME.ReadOnly = True
         Me.P4_LASTNAME.Size = New System.Drawing.Size(109, 20)
         Me.P4_LASTNAME.TabIndex = 351
         Me.P4_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -967,6 +983,7 @@ Partial Class ApplictaionForm1
         Me.R2_RELIGION.ForeColor = System.Drawing.SystemColors.MenuText
         Me.R2_RELIGION.Location = New System.Drawing.Point(518, 674)
         Me.R2_RELIGION.Name = "R2_RELIGION"
+        Me.R2_RELIGION.ReadOnly = True
         Me.R2_RELIGION.Size = New System.Drawing.Size(111, 20)
         Me.R2_RELIGION.TabIndex = 345
         '
@@ -983,6 +1000,7 @@ Partial Class ApplictaionForm1
         Me.E2_AGE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.E2_AGE.Location = New System.Drawing.Point(216, 674)
         Me.E2_AGE.Name = "E2_AGE"
+        Me.E2_AGE.ReadOnly = True
         Me.E2_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E2_AGE.TabIndex = 343
         '
@@ -991,6 +1009,7 @@ Partial Class ApplictaionForm1
         Me.K2_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
         Me.K2_YEAR.Location = New System.Drawing.Point(418, 605)
         Me.K2_YEAR.Name = "K2_YEAR"
+        Me.K2_YEAR.ReadOnly = True
         Me.K2_YEAR.Size = New System.Drawing.Size(96, 20)
         Me.K2_YEAR.TabIndex = 342
         Me.K2_YEAR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1000,6 +1019,7 @@ Partial Class ApplictaionForm1
         Me.K2_DAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.K2_DAY.Location = New System.Drawing.Point(304, 605)
         Me.K2_DAY.Name = "K2_DAY"
+        Me.K2_DAY.ReadOnly = True
         Me.K2_DAY.Size = New System.Drawing.Size(109, 20)
         Me.K2_DAY.TabIndex = 341
         Me.K2_DAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1009,6 +1029,7 @@ Partial Class ApplictaionForm1
         Me.K2_MONTH.ForeColor = System.Drawing.SystemColors.MenuText
         Me.K2_MONTH.Location = New System.Drawing.Point(216, 605)
         Me.K2_MONTH.Name = "K2_MONTH"
+        Me.K2_MONTH.ReadOnly = True
         Me.K2_MONTH.Size = New System.Drawing.Size(84, 20)
         Me.K2_MONTH.TabIndex = 340
         Me.K2_MONTH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1018,6 +1039,7 @@ Partial Class ApplictaionForm1
         Me.T2_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_PROVINCE.Location = New System.Drawing.Point(546, 567)
         Me.T2_PROVINCE.Name = "T2_PROVINCE"
+        Me.T2_PROVINCE.ReadOnly = True
         Me.T2_PROVINCE.Size = New System.Drawing.Size(96, 20)
         Me.T2_PROVINCE.TabIndex = 339
         Me.T2_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1027,6 +1049,7 @@ Partial Class ApplictaionForm1
         Me.T2_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_MUNICIPALITY.Location = New System.Drawing.Point(432, 567)
         Me.T2_MUNICIPALITY.Name = "T2_MUNICIPALITY"
+        Me.T2_MUNICIPALITY.ReadOnly = True
         Me.T2_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
         Me.T2_MUNICIPALITY.TabIndex = 338
         Me.T2_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1036,6 +1059,7 @@ Partial Class ApplictaionForm1
         Me.T2_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_BARANGAY.Location = New System.Drawing.Point(344, 567)
         Me.T2_BARANGAY.Name = "T2_BARANGAY"
+        Me.T2_BARANGAY.ReadOnly = True
         Me.T2_BARANGAY.Size = New System.Drawing.Size(84, 20)
         Me.T2_BARANGAY.TabIndex = 337
         Me.T2_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1045,6 +1069,7 @@ Partial Class ApplictaionForm1
         Me.T2_STREET.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_STREET.Location = New System.Drawing.Point(285, 567)
         Me.T2_STREET.Name = "T2_STREET"
+        Me.T2_STREET.ReadOnly = True
         Me.T2_STREET.Size = New System.Drawing.Size(54, 20)
         Me.T2_STREET.TabIndex = 336
         Me.T2_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1054,6 +1079,7 @@ Partial Class ApplictaionForm1
         Me.T2_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_HOUSENO.Location = New System.Drawing.Point(216, 567)
         Me.T2_HOUSENO.Name = "T2_HOUSENO"
+        Me.T2_HOUSENO.ReadOnly = True
         Me.T2_HOUSENO.Size = New System.Drawing.Size(65, 20)
         Me.T2_HOUSENO.TabIndex = 335
         Me.T2_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1063,6 +1089,7 @@ Partial Class ApplictaionForm1
         Me.P2_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P2_MIDDLENAME.Location = New System.Drawing.Point(448, 529)
         Me.P2_MIDDLENAME.Name = "P2_MIDDLENAME"
+        Me.P2_MIDDLENAME.ReadOnly = True
         Me.P2_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
         Me.P2_MIDDLENAME.TabIndex = 334
         Me.P2_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1201,6 +1228,7 @@ Partial Class ApplictaionForm1
         Me.P2_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P2_LASTNAME.Location = New System.Drawing.Point(216, 529)
         Me.P2_LASTNAME.Name = "P2_LASTNAME"
+        Me.P2_LASTNAME.ReadOnly = True
         Me.P2_LASTNAME.Size = New System.Drawing.Size(109, 20)
         Me.P2_LASTNAME.TabIndex = 321
         Me.P2_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1648,7 +1676,7 @@ Partial Class ApplictaionForm1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(949, 649)
+        Me.ClientSize = New System.Drawing.Size(732, 649)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label89)
