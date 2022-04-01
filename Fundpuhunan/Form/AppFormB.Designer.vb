@@ -336,7 +336,7 @@ Partial Class AppFormB
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label32.Location = New System.Drawing.Point(512, 1080)
+        Me.Label32.Location = New System.Drawing.Point(566, 1082)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(13, 21)
         Me.Label32.TabIndex = 194
@@ -344,7 +344,7 @@ Partial Class AppFormB
         '
         'H2_HALAGA
         '
-        Me.H2_HALAGA.Location = New System.Drawing.Point(413, 1080)
+        Me.H2_HALAGA.Location = New System.Drawing.Point(462, 1080)
         Me.H2_HALAGA.Name = "H2_HALAGA"
         Me.H2_HALAGA.Size = New System.Drawing.Size(98, 20)
         Me.H2_HALAGA.TabIndex = 193
@@ -354,7 +354,7 @@ Partial Class AppFormB
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label31.Location = New System.Drawing.Point(250, 1080)
+        Me.Label31.Location = New System.Drawing.Point(289, 1080)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(167, 21)
         Me.Label31.TabIndex = 192
@@ -374,7 +374,7 @@ Partial Class AppFormB
         '
         Me.DateTimePicker2.Location = New System.Drawing.Point(78, 1080)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(172, 20)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(205, 20)
         Me.DateTimePicker2.TabIndex = 190
         '
         'Label29
@@ -682,7 +682,7 @@ Partial Class AppFormB
         Me.proceedbttn.BackColor = System.Drawing.Color.Green
         Me.proceedbttn.FlatAppearance.BorderSize = 0
         Me.proceedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.proceedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.proceedbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.proceedbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.proceedbttn.Location = New System.Drawing.Point(606, 1900)
         Me.proceedbttn.Name = "proceedbttn"
@@ -695,7 +695,7 @@ Partial Class AppFormB
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label14.Location = New System.Drawing.Point(313, 363)
+        Me.Label14.Location = New System.Drawing.Point(342, 363)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(178, 21)
         Me.Label14.TabIndex = 159
@@ -705,7 +705,7 @@ Partial Class AppFormB
         '
         Me.DateTimePicker1.Location = New System.Drawing.Point(138, 363)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(172, 20)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(198, 20)
         Me.DateTimePicker1.TabIndex = 158
         '
         'Label13
@@ -830,6 +830,7 @@ Partial Class AppFormB
         Me.T1_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T1_MUNICIPALITY.Location = New System.Drawing.Point(32, 225)
         Me.T1_MUNICIPALITY.Name = "T1_MUNICIPALITY"
+        Me.T1_MUNICIPALITY.ReadOnly = True
         Me.T1_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
         Me.T1_MUNICIPALITY.TabIndex = 144
         Me.T1_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -839,6 +840,7 @@ Partial Class AppFormB
         Me.T1_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T1_PROVINCE.Location = New System.Drawing.Point(146, 225)
         Me.T1_PROVINCE.Name = "T1_PROVINCE"
+        Me.T1_PROVINCE.ReadOnly = True
         Me.T1_PROVINCE.Size = New System.Drawing.Size(96, 20)
         Me.T1_PROVINCE.TabIndex = 145
         Me.T1_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -848,6 +850,7 @@ Partial Class AppFormB
         Me.T1_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T1_HOUSENO.Location = New System.Drawing.Point(456, 192)
         Me.T1_HOUSENO.Name = "T1_HOUSENO"
+        Me.T1_HOUSENO.ReadOnly = True
         Me.T1_HOUSENO.Size = New System.Drawing.Size(65, 20)
         Me.T1_HOUSENO.TabIndex = 141
         Me.T1_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -857,6 +860,7 @@ Partial Class AppFormB
         Me.T1_STREET.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T1_STREET.Location = New System.Drawing.Point(526, 192)
         Me.T1_STREET.Name = "T1_STREET"
+        Me.T1_STREET.ReadOnly = True
         Me.T1_STREET.Size = New System.Drawing.Size(54, 20)
         Me.T1_STREET.TabIndex = 142
         Me.T1_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -866,6 +870,7 @@ Partial Class AppFormB
         Me.T1_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T1_BARANGAY.Location = New System.Drawing.Point(584, 192)
         Me.T1_BARANGAY.Name = "T1_BARANGAY"
+        Me.T1_BARANGAY.ReadOnly = True
         Me.T1_BARANGAY.Size = New System.Drawing.Size(84, 20)
         Me.T1_BARANGAY.TabIndex = 143
         Me.T1_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -885,6 +890,7 @@ Partial Class AppFormB
         Me.P1_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P1_LASTNAME.Location = New System.Drawing.Point(86, 157)
         Me.P1_LASTNAME.Name = "P1_LASTNAME"
+        Me.P1_LASTNAME.ReadOnly = True
         Me.P1_LASTNAME.Size = New System.Drawing.Size(109, 20)
         Me.P1_LASTNAME.TabIndex = 136
         Me.P1_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -894,6 +900,7 @@ Partial Class AppFormB
         Me.P1_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P1_MIDDLENAME.Location = New System.Drawing.Point(318, 157)
         Me.P1_MIDDLENAME.Name = "P1_MIDDLENAME"
+        Me.P1_MIDDLENAME.ReadOnly = True
         Me.P1_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
         Me.P1_MIDDLENAME.TabIndex = 137
         Me.P1_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -903,6 +910,7 @@ Partial Class AppFormB
         Me.P1_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P1_GIVENNAME.Location = New System.Drawing.Point(200, 157)
         Me.P1_GIVENNAME.Name = "P1_GIVENNAME"
+        Me.P1_GIVENNAME.ReadOnly = True
         Me.P1_GIVENNAME.Size = New System.Drawing.Size(114, 20)
         Me.P1_GIVENNAME.TabIndex = 138
         Me.P1_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -911,6 +919,7 @@ Partial Class AppFormB
         '
         Me.P1_SUFFIX.Location = New System.Drawing.Point(436, 157)
         Me.P1_SUFFIX.Name = "P1_SUFFIX"
+        Me.P1_SUFFIX.ReadOnly = True
         Me.P1_SUFFIX.Size = New System.Drawing.Size(46, 20)
         Me.P1_SUFFIX.TabIndex = 139
         Me.P1_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1245,7 +1254,7 @@ Partial Class AppFormB
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(430, 1066)
+        Me.Label72.Location = New System.Drawing.Point(482, 1066)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(58, 12)
         Me.Label72.TabIndex = 250
@@ -1316,7 +1325,7 @@ Partial Class AppFormB
         Me.Button9.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button9.Location = New System.Drawing.Point(498, 1900)
         Me.Button9.Name = "Button9"
@@ -1383,7 +1392,7 @@ Partial Class AppFormB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(748, 708)
+        Me.ClientSize = New System.Drawing.Size(765, 708)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label79)

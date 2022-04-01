@@ -27,23 +27,28 @@
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.P1_LASTNAME.Text = AppFormA.P1_LASTNAME.Text
+        Me.P1_GIVENNAME.Text = AppFormA.P1_GIVENNAME.Text
+        Me.P1_MIDDLENAME.Text = AppFormA.P1_MIDDLENAME.Text
+        Me.P1_SUFFIX.Text = AppFormA.P1_SUFFIX.Text
+        Me.T1_BARANGAY.Text = AppFormA.T1_BARANGAY.Text
+        Me.T1_HOUSENO.Text = AppFormA.T1_HOUSENO.Text
+        Me.T1_MUNICIPALITY.Text = AppFormA.T1_MUNICIPALITY.Text
+        Me.T1_STREET.Text = AppFormA.T1_STREET.Text
+        Me.T1_PROVINCE.Text = AppFormA.T1_PROVINCE.Text
+
+        Me.P2_LASTNAME.Text = AppFormA.P1_LASTNAME.Text
+        Me.P2_GIVENNAME.Text = AppFormA.P1_GIVENNAME.Text
+        Me.P2_MIDDLENAME.Text = AppFormA.P1_MIDDLENAME.Text
+        Me.P2_SUFFIX.Text = AppFormA.P1_SUFFIX.Text
+        Me.T2_BARANGAY.Text = AppFormA.T1_BARANGAY.Text
+        Me.T2_HOUSENO.Text = AppFormA.T1_HOUSENO.Text
+        Me.T2_MUNICIPALITY.Text = AppFormA.T1_MUNICIPALITY.Text
+        Me.T2_STREET.Text = AppFormA.T1_STREET.Text
+        Me.T2_PROVINCE.Text = AppFormA.T1_PROVINCE.Text
+
+
     End Sub
 
-    Private Sub TextBox26_TextChanged(sender As Object, e As EventArgs) Handles HH2_HALAGANG_HINIRAM.TextChanged
-
-    End Sub
-
-    Private Sub TextBox27_TextChanged(sender As Object, e As EventArgs) Handles TP2_TAGAL_NG_PAGBAYAD.TextChanged
-
-    End Sub
-
-    Private Sub Label61_Click(sender As Object, e As EventArgs) Handles Label61.Click
-
-    End Sub
-
-    Private Sub TextBox23_TextChanged(sender As Object, e As EventArgs) Handles T2_PROVINCE.TextChanged
-
-    End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         AppFormA.Show()
@@ -150,39 +155,4 @@
         Return True
     End Function
 
-    Private Sub P1_LASTNAME_TextChanged(sender As Object, e As EventArgs) Handles P1_LASTNAME.TextChanged
-        P2_LASTNAME.Text = P1_LASTNAME.Text
-    End Sub
-
-    Private Sub P1_GIVENNAME_TextChanged(sender As Object, e As EventArgs) Handles P1_GIVENNAME.TextChanged
-        P2_GIVENNAME.Text = P2_GIVENNAME.Text
-    End Sub
-
-    Private Sub P1_MIDDLENAME_TextChanged(sender As Object, e As EventArgs) Handles P1_MIDDLENAME.TextChanged
-        P2_MIDDLENAME.Text = P1_MIDDLENAME.Text
-    End Sub
-
-    Private Sub P1_SUFFIX_TextChanged(sender As Object, e As EventArgs) Handles P1_SUFFIX.TextChanged
-        P2_SUFFIX.Text = P1_SUFFIX.Text
-    End Sub
-
-    Private Sub T1_STREET_TextChanged(sender As Object, e As EventArgs) Handles T1_STREET.TextChanged
-        T2_STREET.Text = T1_STREET.Text
-    End Sub
-
-    Private Sub T1_BARANGAY_TextChanged(sender As Object, e As EventArgs) Handles T1_BARANGAY.TextChanged
-        T2_BARANGAY.Text = T1_BARANGAY.Text
-    End Sub
-
-    Private Sub T1_MUNICIPALITY_TextChanged(sender As Object, e As EventArgs) Handles T1_MUNICIPALITY.TextChanged
-        T2_MUNICIPALITY.Text = T1_MUNICIPALITY.Text
-    End Sub
-
-    Private Sub T1_PROVINCE_TextChanged(sender As Object, e As EventArgs) Handles T1_PROVINCE.TextChanged
-        T2_PROVINCE.Text = T1_PROVINCE.Text
-    End Sub
-
-    Private Sub T1_HOUSENO_TextChanged(sender As Object, e As EventArgs) Handles T1_HOUSENO.TextChanged
-        T2_HOUSENO.Text = T1_HOUSENO.Text
-    End Sub
 End Class
