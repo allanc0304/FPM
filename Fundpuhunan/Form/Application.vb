@@ -20,7 +20,10 @@ Public Class Application
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-
+        AppFormA = Nothing
+        AppFormB = Nothing
+        CIRFORMA = Nothing
+        CIRFORMB = Nothing
         AppFormA.Show()
     End Sub
 

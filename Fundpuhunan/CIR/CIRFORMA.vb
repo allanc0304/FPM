@@ -710,9 +710,6 @@ Public Class CIRFORMA
         Me.Hide()
     End Sub
 
-    Private Sub CIRFORMA_FormClosed(sender As Object, e As FormClosedEventArgs) Handles MyBase.FormClosed
-    End Sub
-
     Private Sub CIRFORMA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.NOB_LN.Text = AppFormA.P1_LASTNAME.Text
     End Sub
