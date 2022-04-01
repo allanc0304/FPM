@@ -285,8 +285,11 @@ Partial Class CIRFORM1
         Me.COL_UPBUTTON = New System.Windows.Forms.Button()
         Me.COL_REMBTN = New System.Windows.Forms.Button()
         Me.COL_REMALLBTN = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -323,7 +326,7 @@ Partial Class CIRFORM1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(12, 118)
+        Me.Label4.Location = New System.Drawing.Point(58, 132)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(895, 13)
         Me.Label4.TabIndex = 3
@@ -2747,6 +2750,23 @@ Partial Class CIRFORM1
         Me.COL_REMALLBTN.Text = "REMOVE ALL"
         Me.COL_REMALLBTN.UseVisualStyleBackColor = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(736, 12)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(108, 91)
+        Me.PictureBox1.TabIndex = 523
+        Me.PictureBox1.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(736, 108)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(108, 23)
+        Me.Button1.TabIndex = 524
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'CIRFORM1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2755,6 +2775,8 @@ Partial Class CIRFORM1
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(971, 725)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.COL_REMALLBTN)
@@ -3014,6 +3036,7 @@ Partial Class CIRFORM1
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3284,4 +3307,6 @@ Partial Class CIRFORM1
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents NF_RENT_BUSINESS As RadioButton
     Public WithEvents NOB_LN As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class
