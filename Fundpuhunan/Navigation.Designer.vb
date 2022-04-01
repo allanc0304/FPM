@@ -222,7 +222,7 @@ Partial Class Navigation
         Me.accountbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.accountbttn.ForeColor = System.Drawing.Color.White
         Me.accountbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.accountbttn.Location = New System.Drawing.Point(3, 516)
+        Me.accountbttn.Location = New System.Drawing.Point(3, 484)
         Me.accountbttn.Name = "accountbttn"
         Me.accountbttn.Size = New System.Drawing.Size(251, 26)
         Me.accountbttn.TabIndex = 9
@@ -253,7 +253,7 @@ Partial Class Navigation
         Me.filebttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.filebttn.ForeColor = System.Drawing.Color.White
         Me.filebttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.filebttn.Location = New System.Drawing.Point(3, 481)
+        Me.filebttn.Location = New System.Drawing.Point(-4, 516)
         Me.filebttn.Name = "filebttn"
         Me.filebttn.Size = New System.Drawing.Size(248, 26)
         Me.filebttn.TabIndex = 6
@@ -291,7 +291,7 @@ Partial Class Navigation
         Me.applicationbttn.Name = "applicationbttn"
         Me.applicationbttn.Size = New System.Drawing.Size(248, 26)
         Me.applicationbttn.TabIndex = 4
-        Me.applicationbttn.Text = "Loan Application"
+        Me.applicationbttn.Text = "Loan"
         Me.applicationbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.applicationbttn.UseVisualStyleBackColor = False
         '

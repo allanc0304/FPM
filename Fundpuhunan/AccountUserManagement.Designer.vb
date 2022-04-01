@@ -40,12 +40,12 @@ Partial Class AccountUserManagement
         '
         'datagridManageUser
         '
-        Me.datagridManageUser.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
+        Me.datagridManageUser.BackgroundColor = System.Drawing.SystemColors.ControlDark
         Me.datagridManageUser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.datagridManageUser.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.UserID, Me.UserSurname, Me.UserFirstName, Me.UserMiddleName, Me.UserPosition, Me.UserUsername, Me.UserPassword, Me.UserEdit, Me.UserDelete})
-        Me.datagridManageUser.Location = New System.Drawing.Point(12, 119)
+        Me.datagridManageUser.Location = New System.Drawing.Point(12, 105)
         Me.datagridManageUser.Name = "datagridManageUser"
-        Me.datagridManageUser.Size = New System.Drawing.Size(916, 606)
+        Me.datagridManageUser.Size = New System.Drawing.Size(916, 620)
         Me.datagridManageUser.TabIndex = 0
         '
         'UserID
@@ -95,7 +95,7 @@ Partial Class AccountUserManagement
         '
         'Label1
         '
-        Me.Label1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label1.BackColor = System.Drawing.Color.Teal
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -111,22 +111,25 @@ Partial Class AccountUserManagement
         '
         'btnAddUser
         '
-        Me.btnAddUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAddUser.Location = New System.Drawing.Point(790, 61)
+        Me.btnAddUser.BackColor = System.Drawing.Color.Teal
+        Me.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddUser.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddUser.ForeColor = System.Drawing.SystemColors.Control
+        Me.btnAddUser.Location = New System.Drawing.Point(760, 56)
         Me.btnAddUser.Name = "btnAddUser"
         Me.btnAddUser.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.btnAddUser.Size = New System.Drawing.Size(138, 43)
+        Me.btnAddUser.Size = New System.Drawing.Size(168, 43)
         Me.btnAddUser.TabIndex = 3
         Me.btnAddUser.Text = "Add User Account"
-        Me.btnAddUser.UseVisualStyleBackColor = True
+        Me.btnAddUser.UseVisualStyleBackColor = False
         '
         'AccountUserManagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(940, 746)
-        Me.Controls.Add(Me.btnAddUser)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnAddUser)
         Me.Controls.Add(Me.datagridManageUser)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "AccountUserManagement"

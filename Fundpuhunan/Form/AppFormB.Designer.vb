@@ -84,7 +84,7 @@ Partial Class AppFormB
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.proceedbttn = New System.Windows.Forms.Button()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -149,8 +149,6 @@ Partial Class AppFormB
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Label78 = New System.Windows.Forms.Label()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
@@ -298,7 +296,7 @@ Partial Class AppFormB
         '
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Label39.Location = New System.Drawing.Point(278, 1825)
+        Me.Label39.Location = New System.Drawing.Point(299, 1825)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(124, 20)
         Me.Label39.TabIndex = 201
@@ -308,7 +306,7 @@ Partial Class AppFormB
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Underline)
-        Me.Label38.Location = New System.Drawing.Point(226, 1804)
+        Me.Label38.Location = New System.Drawing.Point(243, 1804)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(235, 21)
         Me.Label38.TabIndex = 200
@@ -710,15 +708,19 @@ Partial Class AppFormB
         Me.Label15.Text = "2. Kung sakaling hindi ko ito mahulugan o pumalya sa lingguhang hulog ay nakahand" &
     "a akong" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " magbayad ng 3% kada araw ng penalty sang ayonsa palya ng aking hulog."
         '
-        'Button1
+        'proceedbttn
         '
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Location = New System.Drawing.Point(606, 1900)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(102, 31)
-        Me.Button1.TabIndex = 160
-        Me.Button1.Text = "Proceed -->"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.proceedbttn.BackColor = System.Drawing.Color.Green
+        Me.proceedbttn.FlatAppearance.BorderSize = 0
+        Me.proceedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.proceedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.proceedbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.proceedbttn.Location = New System.Drawing.Point(606, 1900)
+        Me.proceedbttn.Name = "proceedbttn"
+        Me.proceedbttn.Size = New System.Drawing.Size(113, 31)
+        Me.proceedbttn.TabIndex = 160
+        Me.proceedbttn.Text = "Proceed To CIR"
+        Me.proceedbttn.UseVisualStyleBackColor = False
         '
         'Label14
         '
@@ -1349,35 +1351,19 @@ Partial Class AppFormB
         Me.Label78.TabIndex = 257
         Me.Label78.Text = "( ex. DAVE CAMARINES )"
         '
-        'Button7
-        '
-        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Location = New System.Drawing.Point(498, 1900)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(102, 31)
-        Me.Button7.TabIndex = 258
-        Me.Button7.Text = "Print"
-        Me.Button7.UseVisualStyleBackColor = True
-        '
-        'Button8
-        '
-        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Location = New System.Drawing.Point(390, 1900)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(102, 31)
-        Me.Button8.TabIndex = 259
-        Me.Button8.Text = "Save"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
         'Button9
         '
+        Me.Button9.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Location = New System.Drawing.Point(282, 1900)
+        Me.Button9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button9.Location = New System.Drawing.Point(498, 1900)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(102, 31)
         Me.Button9.TabIndex = 260
-        Me.Button9.Text = "<-- Back"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Button9.Text = "Back"
+        Me.Button9.UseVisualStyleBackColor = False
         '
         'OpenFileDialog1
         '
@@ -1423,8 +1409,6 @@ Partial Class AppFormB
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Label78)
         Me.Controls.Add(Me.Label77)
         Me.Controls.Add(Me.Label76)
@@ -1517,7 +1501,7 @@ Partial Class AppFormB
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.proceedbttn)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label13)
@@ -1617,7 +1601,7 @@ Partial Class AppFormB
     Friend WithEvents Label17 As Label
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents proceedbttn As Button
     Friend WithEvents Label14 As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Label13 As Label
@@ -1682,8 +1666,6 @@ Partial Class AppFormB
     Friend WithEvents Label76 As Label
     Friend WithEvents Label77 As Label
     Friend WithEvents Label78 As Label
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents OpenFileDialog2 As OpenFileDialog

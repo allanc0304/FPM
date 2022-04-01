@@ -2,7 +2,7 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Header
 
 Public Class CIRFORM1
-
+    Dim f2 As New CIRFORM2(Me)
     Private Sub ListView1_Click(sender As Object, e As EventArgs) Handles ListView1.Click
         If ListView1.SelectedItems.Count > 0 Then
             LIA_BL.Text = ListView1.SelectedItems(0).SubItems(0).Text
@@ -15,45 +15,50 @@ Public Class CIRFORM1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CIR_NEXTBTN.Click
-        Dim f2 As New CIRFORM2(Me)
-        If NOB_LN.Text = "" Or NOB_GN.Text = "" Or NOB_MN.Text = "" Or
-            CIR_MON.Text = "" Or CIR_DAY.Text = "" Or CIR_YR.Text = "" Or
-            CIR_AGE.Text = "" Or CIR_HOUSENO.Text = "" Or CIR_ST.Text = "" Or
-            CIR_BRGY.Text = "" Or CIR_MUN.Text = "" Or CIR_PRO.Text = "" Or
-            CIR_CONTACT.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf NOR_LN.Text = "" Or NOR_GN.Text = "" Or NOR_MN.Text = "" Or CIR_RELATION.Text = "" Or CIR_HOUSENO1.Text = "" Or CIR_ST1.Text = "" Or CIR_BRGY1.Text = "" Or CIR_MUN1.Text = "" Or CIR_PRO1.Text = "" Or CIR_CONTACT1.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf NOD_NS.Text = "" Or ELEM_PS.Text = "" Or HS_PS.Text = "" Or COLLEGE_PS.Text = "" Or ELEM_GS.Text = "" Or HS_GS.Text = "" Or COLLEGE_GS.Text = "" Or ELEM_TF.Text = "" Or HS_TF.Text = "" Or COLLEGE_TF.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf TOL_AAP.Text = "" Or TOL_PURP.Text = "" Or TOL_TERMS.Text = "" Or TOL_MR.Text = "" Or TOL_MOP.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf BR_NOB.Text = "" Or BR_CONT.Text = "" Or BR_HOUSENO.Text = "" Or BR_ST.Text = "" Or BR_BRGY.Text = "" Or BR_MUN.Text = "" Or BR_PRO.Text = "" Or BR_TOB.Text = "" Or BR_NYB.Text = "" Or BR_BC.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf ER_COMP.Text = "" Or ER_POS.Text = "" Or ER_STATUS.Text = "" Or ER_LOS.Text = "" Or ER_MS.Text = "" Or ER_COMP1.Text = "" Or ER_POS1.Text = "" Or ER_STATUS1.Text = "" Or ER_LOS1.Text = "" Or ER_MS1.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf LIA_BL.Text = "" Or LIA_CRED.Text = "" Or LIA_DG.Text = "" Or LIA_DD.Text = "" Or LIA_AL.Text = "" Or LIA_BAL.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf N_LN.Text = "" Or N_GN.Text = "" Or N_MN.Text = "" Or CC_RELATION.Text = "" Or CC_OCCU.Text = "" Or CC_HOUSENO.Text = "" Or CC_ST.Text = "" Or CC_BRGY.Text = "" Or CC_MUN.Text = "" Or CC_PRO.Text = "" Or CC_MI.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf NF_NAIN1.Text = "" Or NF_NAIN2.Text = "" Or NF_ROR.Text = "" Or NF_ROR1.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        ElseIf C_KHP.Text = "" Or C_MN.Text = "" Or C_SN.Text = "" Or C_YP.Text = "" Or C_PV.Text = "" Then
-            MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
-        Else
-            MessageBox.Show("FORM 1 COMPLETED PROCEEDING TO FORM 2 . . .", "FORM 1 DONE!", MessageBoxButtons.OK, MessageBoxIcon.Information)
-            f2.Show()
-            Me.Hide()
-        End If
+
+        ' If NOB_LN.Text = "" Or NOB_GN.Text = "" Or NOB_MN.Text = "" Or
+        'CIR_MON.Text = "" Or CIR_DAY.Text = "" Or CIR_YR.Text = "" Or
+        'CIR_AGE.Text = "" Or CIR_HOUSENO.Text = "" Or CIR_ST.Text = "" Or
+        'CIR_BRGY.Text = "" Or CIR_MUN.Text = "" Or CIR_PRO.Text = "" Or
+        'CIR_CONTACT.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf NOR_LN.Text = "" Or NOR_GN.Text = "" Or NOR_MN.Text = "" Or CIR_RELATION.Text = "" Or CIR_HOUSENO1.Text = "" Or CIR_ST1.Text = "" Or CIR_BRGY1.Text = "" Or CIR_MUN1.Text = "" Or CIR_PRO1.Text = "" Or CIR_CONTACT1.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf NOD_NS.Text = "" Or ELEM_PS.Text = "" Or HS_PS.Text = "" Or COLLEGE_PS.Text = "" Or ELEM_GS.Text = "" Or HS_GS.Text = "" Or COLLEGE_GS.Text = "" Or ELEM_TF.Text = "" Or HS_TF.Text = "" Or COLLEGE_TF.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf TOL_AAP.Text = "" Or TOL_PURP.Text = "" Or TOL_TERMS.Text = "" Or TOL_MR.Text = "" Or TOL_MOP.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf BR_NOB.Text = "" Or BR_CONT.Text = "" Or BR_HOUSENO.Text = "" Or BR_ST.Text = "" Or BR_BRGY.Text = "" Or BR_MUN.Text = "" Or BR_PRO.Text = "" Or BR_TOB.Text = "" Or BR_NYB.Text = "" Or BR_BC.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf ER_COMP.Text = "" Or ER_POS.Text = "" Or ER_STATUS.Text = "" Or ER_LOS.Text = "" Or ER_MS.Text = "" Or ER_COMP1.Text = "" Or ER_POS1.Text = "" Or ER_STATUS1.Text = "" Or ER_LOS1.Text = "" Or ER_MS1.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf LIA_BL.Text = "" Or LIA_CRED.Text = "" Or LIA_DG.Text = "" Or LIA_DD.Text = "" Or LIA_AL.Text = "" Or LIA_BAL.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf N_LN.Text = "" Or N_GN.Text = "" Or N_MN.Text = "" Or CC_RELATION.Text = "" Or CC_OCCU.Text = "" Or CC_HOUSENO.Text = "" Or CC_ST.Text = "" Or CC_BRGY.Text = "" Or CC_MUN.Text = "" Or CC_PRO.Text = "" Or CC_MI.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf NF_NAIN1.Text = "" Or NF_NAIN2.Text = "" Or NF_ROR.Text = "" Or NF_ROR1.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'ElseIf C_KHP.Text = "" Or C_MN.Text = "" Or C_SN.Text = "" Or C_YP.Text = "" Or C_PV.Text = "" Then
+        'MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        'Else
+        'MessageBox.Show("FORM 1 COMPLETED PROCEEDING TO FORM 2 . . .", "FORM 1 DONE!", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        'f2.Show()
+        'Me.Hide()
+        'End If
+
+        f2.Show()
+        Me.Hide()
+
 
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles CIR_BACKBTN.Click
-        LoanProcessing.Show()
+        AppFormB.Show()
         Me.Hide()
     End Sub
 
     Private Sub CIRFORM1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles LIA_ADDBTN.Click

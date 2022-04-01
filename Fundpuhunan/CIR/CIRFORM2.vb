@@ -1,4 +1,5 @@
 ﻿Public Class CIRFORM2
+
     Dim f1 As CIRFORM1
 
     Public Sub New(ByVal frm1 As CIRFORM1)
@@ -61,7 +62,7 @@
     End Sub
 
     Private Sub btnCancel_Click(sender As Object, e As EventArgs) Handles btnCancel.Click
-        Me.Hide()
-        CIRFORM1.Show()
+
+
     End Sub
 End Class

@@ -7,23 +7,19 @@
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, H2_HALAGA, HH2_HALAGANG_HINIRAM, TP2_TAGAL_NG_PAGBAYAD, PP2_PARAAN_PAGBAYAD, R2_RECOMMENDED, AL2_LOAN, CB2_CHECKEDBY) = False Then
-            MessageBox.Show("Fill up all fields")
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles proceedbttn.Click
+        ' If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, H2_HALAGA, HH2_HALAGANG_HINIRAM, TP2_TAGAL_NG_PAGBAYAD, PP2_PARAAN_PAGBAYAD, R2_RECOMMENDED, AL2_LOAN, CB2_CHECKEDBY) = False Then
+        'messageBox.Show("Fill up all fields")
+        Exit Sub
+        'Else
 
-            Exit Sub
-        Else
+        'MsgBox("your data was inserted Succesfully")
+        ' Application.Show()
+        '  Me.Hide()
+        '  End If '
 
-            MsgBox("your data was inserted Succesfully")
-            Application.Show()
-            Me.Hide()
-
-
-
-        End If
-
-
-
+        CIRFORMA.Show()
+        Me.Hide()
 
     End Sub
 
@@ -208,5 +204,9 @@
 
     Private Sub T1_HOUSENO_TextChanged(sender As Object, e As EventArgs) Handles T1_HOUSENO.TextChanged
         T2_HOUSENO.Text = T1_HOUSENO.Text
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class

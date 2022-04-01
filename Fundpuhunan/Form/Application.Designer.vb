@@ -23,11 +23,6 @@ Partial Class Application
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -37,6 +32,10 @@ Partial Class Application
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -47,82 +46,19 @@ Partial Class Application
         Me.DataGridView1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.DataGridView1.BackgroundColor = System.Drawing.Color.SlateGray
+        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlDark
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.Column1, Me.Column3, Me.Column2, Me.Column4})
-        Me.DataGridView1.Location = New System.Drawing.Point(12, 60)
+        Me.DataGridView1.Location = New System.Drawing.Point(12, 138)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.ReadOnly = True
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.RowHeadersWidth = 15
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(916, 684)
+        Me.DataGridView1.Size = New System.Drawing.Size(916, 619)
         Me.DataGridView1.TabIndex = 44
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.SlateGray
-        Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(940, 40)
-        Me.Panel1.TabIndex = 45
-        '
-        'Button2
-        '
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button2.Location = New System.Drawing.Point(470, 4)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(143, 36)
-        Me.Button2.TabIndex = 0
-        Me.Button2.Text = "Search Application"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button3.Location = New System.Drawing.Point(624, 4)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(160, 36)
-        Me.Button3.TabIndex = 1
-        Me.Button3.Text = "Add New Application"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button5
-        '
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(795, 4)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(133, 36)
-        Me.Button5.TabIndex = 2
-        Me.Button5.Text = "View CIR Form"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(22, 9)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(224, 24)
-        Me.Label1.TabIndex = 46
-        Me.Label1.Text = "APPLICATION FORM"
         '
         'DataGridViewTextBoxColumn1
         '
@@ -188,6 +124,55 @@ Partial Class Application
         Me.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.Column4.Width = 80
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(940, 40)
+        Me.Panel1.TabIndex = 45
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label1.Location = New System.Drawing.Point(380, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(224, 24)
+        Me.Label1.TabIndex = 46
+        Me.Label1.Text = "APPLICATION FORM"
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button5.Location = New System.Drawing.Point(12, 77)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(137, 42)
+        Me.Button5.TabIndex = 2
+        Me.Button5.Text = "View button on grid sample"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Green
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button3.Location = New System.Drawing.Point(758, 59)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(170, 60)
+        Me.Button3.TabIndex = 1
+        Me.Button3.Text = "Add New Loan"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'Application
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(5.0!, 15.0!)
@@ -195,6 +180,8 @@ Partial Class Application
         Me.ClientSize = New System.Drawing.Size(940, 749)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.Button3)
+        Me.Controls.Add(Me.Button5)
         Me.Font = New System.Drawing.Font("Arial Narrow", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
@@ -211,7 +198,6 @@ Partial Class Application
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn

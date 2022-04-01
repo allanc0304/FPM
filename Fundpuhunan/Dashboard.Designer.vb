@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Dashboard
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,274 +20,280 @@ Partial Class Dashboard
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.filetotal = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.temptotal = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.studentstotal = New System.Windows.Forms.Label()
+        Me.DGVongoingloan = New System.Windows.Forms.DataGridView()
+        Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Panel9.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel8.SuspendLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel7.SuspendLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel6.SuspendLayout()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.collectpaymentbttn = New System.Windows.Forms.Button()
+        Me.ViewAllLoanbttn = New System.Windows.Forms.Button()
+        Me.AddNewoanbttn = New System.Windows.Forms.Button()
+        Me.AccounSettingsbttn = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewImageColumn1 = New System.Windows.Forms.DataGridViewImageColumn()
+        CType(Me.DGVongoingloan, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Panel9
+        'DGVongoingloan
         '
-        Me.Panel9.BackColor = System.Drawing.SystemColors.GrayText
-        Me.Panel9.Controls.Add(Me.Button4)
-        Me.Panel9.Controls.Add(Me.PictureBox3)
-        Me.Panel9.Controls.Add(Me.filetotal)
-        Me.Panel9.Controls.Add(Me.Label7)
-        Me.Panel9.Location = New System.Drawing.Point(506, 357)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(276, 135)
-        Me.Panel9.TabIndex = 12
+        Me.DGVongoingloan.AllowUserToAddRows = False
+        Me.DGVongoingloan.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DGVongoingloan.BackgroundColor = System.Drawing.SystemColors.ButtonFace
+        Me.DGVongoingloan.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.DGVongoingloan.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.DGVongoingloan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGVongoingloan.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn5, Me.Column3, Me.Column4})
+        Me.DGVongoingloan.Location = New System.Drawing.Point(20, 231)
+        Me.DGVongoingloan.Name = "DGVongoingloan"
+        Me.DGVongoingloan.ReadOnly = True
+        Me.DGVongoingloan.RowHeadersVisible = False
+        Me.DGVongoingloan.RowHeadersWidth = 15
+        Me.DGVongoingloan.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DGVongoingloan.Size = New System.Drawing.Size(451, 491)
+        Me.DGVongoingloan.TabIndex = 45
         '
-        'Button4
+        'Panel1
         '
-        Me.Button4.FlatAppearance.BorderSize = 0
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button4.Location = New System.Drawing.Point(195, 112)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(81, 23)
-        Me.Button4.TabIndex = 14
-        Me.Button4.Text = "View"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'PictureBox3
-        '
-        Me.PictureBox3.Location = New System.Drawing.Point(5, 34)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox3.TabIndex = 12
-        Me.PictureBox3.TabStop = False
-        '
-        'filetotal
-        '
-        Me.filetotal.AutoSize = True
-        Me.filetotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.filetotal.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.filetotal.Location = New System.Drawing.Point(154, 34)
-        Me.filetotal.Name = "filetotal"
-        Me.filetotal.Size = New System.Drawing.Size(25, 25)
-        Me.filetotal.TabIndex = 11
-        Me.filetotal.Text = "0"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label7.Location = New System.Drawing.Point(94, 74)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(185, 18)
-        Me.Label7.TabIndex = 1
-        Me.Label7.Text = "Total files and records"
-        '
-        'Panel8
-        '
-        Me.Panel8.BackColor = System.Drawing.Color.DeepSkyBlue
-        Me.Panel8.Controls.Add(Me.Button3)
-        Me.Panel8.Controls.Add(Me.PictureBox2)
-        Me.Panel8.Controls.Add(Me.temptotal)
-        Me.Panel8.Controls.Add(Me.Label6)
-        Me.Panel8.Location = New System.Drawing.Point(506, 153)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(276, 135)
-        Me.Panel8.TabIndex = 10
-        '
-        'Button3
-        '
-        Me.Button3.FlatAppearance.BorderSize = 0
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button3.Location = New System.Drawing.Point(193, 111)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(81, 23)
-        Me.Button3.TabIndex = 14
-        Me.Button3.Text = "View"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Location = New System.Drawing.Point(5, 40)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 11
-        Me.PictureBox2.TabStop = False
-        '
-        'temptotal
-        '
-        Me.temptotal.AutoSize = True
-        Me.temptotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.temptotal.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.temptotal.Location = New System.Drawing.Point(154, 40)
-        Me.temptotal.Name = "temptotal"
-        Me.temptotal.Size = New System.Drawing.Size(25, 25)
-        Me.temptotal.TabIndex = 9
-        Me.temptotal.Text = "0"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label6.Location = New System.Drawing.Point(94, 78)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(174, 18)
-        Me.Label6.TabIndex = 5
-        Me.Label6.Text = "Total Loan Approved"
-        '
-        'Panel7
-        '
-        Me.Panel7.BackColor = System.Drawing.Color.LimeGreen
-        Me.Panel7.Controls.Add(Me.Button1)
-        Me.Panel7.Controls.Add(Me.PictureBox4)
-        Me.Panel7.Controls.Add(Me.studentstotal)
-        Me.Panel7.Controls.Add(Me.Label1)
-        Me.Panel7.Location = New System.Drawing.Point(115, 357)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(276, 135)
-        Me.Panel7.TabIndex = 11
-        '
-        'Button1
-        '
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button1.Location = New System.Drawing.Point(192, 109)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(81, 23)
-        Me.Button1.TabIndex = 12
-        Me.Button1.Text = "View"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'PictureBox4
-        '
-        Me.PictureBox4.Location = New System.Drawing.Point(11, 38)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 11
-        Me.PictureBox4.TabStop = False
-        '
-        'studentstotal
-        '
-        Me.studentstotal.AutoSize = True
-        Me.studentstotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.studentstotal.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.studentstotal.Location = New System.Drawing.Point(162, 38)
-        Me.studentstotal.Name = "studentstotal"
-        Me.studentstotal.Size = New System.Drawing.Size(25, 25)
-        Me.studentstotal.TabIndex = 10
-        Me.studentstotal.Text = "0"
+        Me.Panel1.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel1.Controls.Add(Me.Button5)
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Location = New System.Drawing.Point(20, 166)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(451, 559)
+        Me.Panel1.TabIndex = 46
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label1.Location = New System.Drawing.Point(114, 70)
+        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label1.Location = New System.Drawing.Point(157, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(135, 22)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "For Releasing"
+        Me.Label1.Size = New System.Drawing.Size(154, 24)
+        Me.Label1.TabIndex = 47
+        Me.Label1.Text = "Ongoing Loan"
         '
-        'Label9
+        'DataGridViewTextBoxColumn2
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlDark
-        Me.Label9.Location = New System.Drawing.Point(412, 53)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(102, 24)
-        Me.Label9.TabIndex = 13
-        Me.Label9.Text = "Dashboard"
+        Me.DataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.DataGridViewTextBoxColumn2.HeaderText = "Full Name"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        Me.DataGridViewTextBoxColumn2.ReadOnly = True
         '
-        'Label4
+        'DataGridViewTextBoxColumn5
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(100, 81)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(173, 15)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "Total Application Pending"
+        Me.DataGridViewTextBoxColumn5.HeaderText = "Loan Amount"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        Me.DataGridViewTextBoxColumn5.ReadOnly = True
         '
-        'PictureBox1
+        'Column3
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(11, 40)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(83, 70)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 10
-        Me.PictureBox1.TabStop = False
+        Me.Column3.HeaderText = "Balance"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
         '
-        'Label8
+        'Column4
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label8.Location = New System.Drawing.Point(162, 46)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(25, 25)
-        Me.Label8.TabIndex = 12
-        Me.Label8.Text = "0"
+        Me.Column4.HeaderText = "View"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        Me.Column4.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Column4.Width = 80
         '
-        'Button2
+        'DataGridView2
         '
-        Me.Button2.FlatAppearance.BorderSize = 0
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.SystemColors.HotTrack
-        Me.Button2.Location = New System.Drawing.Point(192, 111)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(81, 23)
-        Me.Button2.TabIndex = 13
-        Me.Button2.Text = "View"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.DataGridView2.AllowUserToAddRows = False
+        Me.DataGridView2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace
+        Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.DataGridView2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn3, Me.Column1, Me.DataGridViewImageColumn1})
+        Me.DataGridView2.Location = New System.Drawing.Point(477, 231)
+        Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.ReadOnly = True
+        Me.DataGridView2.RowHeadersVisible = False
+        Me.DataGridView2.RowHeadersWidth = 15
+        Me.DataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.DataGridView2.Size = New System.Drawing.Size(451, 491)
+        Me.DataGridView2.TabIndex = 47
         '
-        'Panel6
+        'Panel2
         '
-        Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Panel6.Controls.Add(Me.Button2)
-        Me.Panel6.Controls.Add(Me.Label8)
-        Me.Panel6.Controls.Add(Me.PictureBox1)
-        Me.Panel6.Controls.Add(Me.Label4)
-        Me.Panel6.ForeColor = System.Drawing.Color.White
-        Me.Panel6.Location = New System.Drawing.Point(115, 153)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(276, 135)
-        Me.Panel6.TabIndex = 9
+        Me.Panel2.BackColor = System.Drawing.Color.Black
+        Me.Panel2.Controls.Add(Me.Button6)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Location = New System.Drawing.Point(477, 166)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(451, 559)
+        Me.Panel2.TabIndex = 48
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label2.Location = New System.Drawing.Point(171, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(153, 24)
+        Me.Label2.TabIndex = 47
+        Me.Label2.Text = "Overdue Loan"
+        '
+        'collectpaymentbttn
+        '
+        Me.collectpaymentbttn.BackColor = System.Drawing.Color.DarkOrange
+        Me.collectpaymentbttn.FlatAppearance.BorderSize = 0
+        Me.collectpaymentbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.collectpaymentbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.collectpaymentbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.collectpaymentbttn.Location = New System.Drawing.Point(296, 40)
+        Me.collectpaymentbttn.Name = "collectpaymentbttn"
+        Me.collectpaymentbttn.Size = New System.Drawing.Size(169, 73)
+        Me.collectpaymentbttn.TabIndex = 50
+        Me.collectpaymentbttn.Text = "Collect Payment"
+        Me.collectpaymentbttn.UseVisualStyleBackColor = False
+        '
+        'ViewAllLoanbttn
+        '
+        Me.ViewAllLoanbttn.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ViewAllLoanbttn.FlatAppearance.BorderSize = 0
+        Me.ViewAllLoanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ViewAllLoanbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ViewAllLoanbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.ViewAllLoanbttn.Location = New System.Drawing.Point(492, 40)
+        Me.ViewAllLoanbttn.Name = "ViewAllLoanbttn"
+        Me.ViewAllLoanbttn.Size = New System.Drawing.Size(172, 73)
+        Me.ViewAllLoanbttn.TabIndex = 49
+        Me.ViewAllLoanbttn.Text = "View All Loan"
+        Me.ViewAllLoanbttn.UseVisualStyleBackColor = False
+        '
+        'AddNewoanbttn
+        '
+        Me.AddNewoanbttn.BackColor = System.Drawing.Color.SeaGreen
+        Me.AddNewoanbttn.FlatAppearance.BorderSize = 0
+        Me.AddNewoanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AddNewoanbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AddNewoanbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AddNewoanbttn.Location = New System.Drawing.Point(93, 40)
+        Me.AddNewoanbttn.Name = "AddNewoanbttn"
+        Me.AddNewoanbttn.Size = New System.Drawing.Size(172, 73)
+        Me.AddNewoanbttn.TabIndex = 52
+        Me.AddNewoanbttn.Text = "Add New Loan"
+        Me.AddNewoanbttn.UseVisualStyleBackColor = False
+        '
+        'AccounSettingsbttn
+        '
+        Me.AccounSettingsbttn.BackColor = System.Drawing.Color.Teal
+        Me.AccounSettingsbttn.FlatAppearance.BorderSize = 0
+        Me.AccounSettingsbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AccounSettingsbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AccounSettingsbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.AccounSettingsbttn.Location = New System.Drawing.Point(696, 40)
+        Me.AccounSettingsbttn.Name = "AccounSettingsbttn"
+        Me.AccounSettingsbttn.Size = New System.Drawing.Size(170, 73)
+        Me.AccounSettingsbttn.TabIndex = 51
+        Me.AccounSettingsbttn.Text = "Account Settings"
+        Me.AccounSettingsbttn.UseVisualStyleBackColor = False
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(6, 41)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(283, 20)
+        Me.TextBox1.TabIndex = 53
+        '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.SeaGreen
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button5.Location = New System.Drawing.Point(295, 40)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(74, 23)
+        Me.Button5.TabIndex = 54
+        Me.Button5.Text = "Search"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button6.Location = New System.Drawing.Point(374, 36)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(74, 23)
+        Me.Button6.TabIndex = 56
+        Me.Button6.Text = "Search"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(84, 37)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(284, 20)
+        Me.TextBox2.TabIndex = 55
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.DataGridViewTextBoxColumn1.HeaderText = "Full Name"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.ReadOnly = True
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Balance"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.ReadOnly = True
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Last Paid"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        Me.DataGridViewTextBoxColumn3.ReadOnly = True
+        '
+        'Column1
+        '
+        Me.Column1.FillWeight = 70.0!
+        Me.Column1.HeaderText = "Penalties"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.Width = 70
+        '
+        'DataGridViewImageColumn1
+        '
+        Me.DataGridViewImageColumn1.HeaderText = "View"
+        Me.DataGridViewImageColumn1.Name = "DataGridViewImageColumn1"
+        Me.DataGridViewImageColumn1.ReadOnly = True
+        Me.DataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridViewImageColumn1.Width = 80
         '
         'Dashboard
         '
@@ -296,11 +302,14 @@ Partial Class Dashboard
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(940, 761)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Panel9)
-        Me.Controls.Add(Me.Panel8)
-        Me.Controls.Add(Me.Panel6)
-        Me.Controls.Add(Me.Panel7)
+        Me.Controls.Add(Me.AddNewoanbttn)
+        Me.Controls.Add(Me.AccounSettingsbttn)
+        Me.Controls.Add(Me.collectpaymentbttn)
+        Me.Controls.Add(Me.ViewAllLoanbttn)
+        Me.Controls.Add(Me.DGVongoingloan)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.DataGridView2)
+        Me.Controls.Add(Me.Panel2)
         Me.DoubleBuffered = True
         Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -308,42 +317,37 @@ Partial Class Dashboard
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Dashboard"
         Me.TransparencyKey = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel9.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel8.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel7.PerformLayout()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel6.ResumeLayout(False)
-        Me.Panel6.PerformLayout()
+        CType(Me.DGVongoingloan, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Panel9 As Panel
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents filetotal As Label
-    Friend WithEvents Label7 As Label
-    Friend WithEvents Panel8 As Panel
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents temptotal As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents Panel7 As Panel
-    Friend WithEvents studentstotal As Label
+    Friend WithEvents DGVongoingloan As DataGridView
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewImageColumn
     Friend WithEvents Label1 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Label4 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Panel6 As Panel
+    Friend WithEvents DataGridView2 As DataGridView
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Button5 As Button
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button6 As Button
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents collectpaymentbttn As Button
+    Friend WithEvents ViewAllLoanbttn As Button
+    Friend WithEvents AddNewoanbttn As Button
+    Friend WithEvents AccounSettingsbttn As Button
+    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewImageColumn1 As DataGridViewImageColumn
 End Class

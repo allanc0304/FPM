@@ -145,23 +145,18 @@ Public Class Application
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+
         AppFormA.Show()
     End Sub
 
-    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs)
         SearchApplication.Show()
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        With LoanProcessing
 
-            .TopLevel = False
-            .AutoSize = True
+        AppFormA.Show()
 
-            Navigation.Navigationpanel.Controls.Add(LoanProcessing)
-            .BringToFront()
-            .Show()
 
-        End With
     End Sub
 End Class

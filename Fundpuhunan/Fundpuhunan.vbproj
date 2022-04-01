@@ -96,6 +96,18 @@
     <Compile Include="CIR\AddNewCir.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CIR\CIRFORMA.Designer.vb">
+      <DependentUpon>CIRFORMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CIR\CIRFORMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CIR\CIRFORMB.Designer.vb">
+      <DependentUpon>CIRFORMB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CIR\CIRFORMB.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CIR\SearchCIR.Designer.vb">
       <DependentUpon>SearchCIR.vb</DependentUpon>
     </Compile>
@@ -114,6 +126,12 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Files_record.vb" />
+    <Compile Include="Form\AddNewLoan.Designer.vb">
+      <DependentUpon>AddNewLoan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\AddNewLoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form\Application.Designer.vb">
       <DependentUpon>Application.vb</DependentUpon>
     </Compile>
@@ -233,8 +251,17 @@
     <EmbeddedResource Include="CIR\AddNewCir.resx">
       <DependentUpon>AddNewCir.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CIR\CIRFORMA.resx">
+      <DependentUpon>CIRFORMA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIR\CIRFORMB.resx">
+      <DependentUpon>CIRFORMB.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CIR\SearchCIR.resx">
       <DependentUpon>SearchCIR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\AddNewLoan.resx">
+      <DependentUpon>AddNewLoan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\Application.resx">
       <DependentUpon>Application.vb</DependentUpon>
@@ -282,6 +309,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MyAccount.resx">
       <DependentUpon>MyAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="releasecomputation.resx">
+      <DependentUpon>releasecomputation.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

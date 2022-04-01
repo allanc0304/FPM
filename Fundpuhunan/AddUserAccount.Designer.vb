@@ -62,6 +62,7 @@ Partial Class AddUserAccount
         'cmbboxPosition
         '
         Me.cmbboxPosition.FormattingEnabled = True
+        Me.cmbboxPosition.Items.AddRange(New Object() {"Manager", "Collector", "CIR"})
         Me.cmbboxPosition.Location = New System.Drawing.Point(138, 166)
         Me.cmbboxPosition.Name = "cmbboxPosition"
         Me.cmbboxPosition.Size = New System.Drawing.Size(435, 21)
@@ -69,9 +70,10 @@ Partial Class AddUserAccount
         '
         'btnAddUserApply
         '
-        Me.btnAddUserApply.BackColor = System.Drawing.Color.DodgerBlue
+        Me.btnAddUserApply.BackColor = System.Drawing.Color.SteelBlue
         Me.btnAddUserApply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnAddUserApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddUserApply.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUserApply.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnAddUserApply.Location = New System.Drawing.Point(646, 283)
         Me.btnAddUserApply.Name = "btnAddUserApply"
@@ -85,6 +87,7 @@ Partial Class AddUserAccount
         Me.btnAddUserCancel.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.btnAddUserCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnAddUserCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAddUserCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUserCancel.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnAddUserCancel.Location = New System.Drawing.Point(528, 283)
         Me.btnAddUserCancel.Name = "btnAddUserCancel"
@@ -97,7 +100,7 @@ Partial Class AddUserAccount
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(643, 95)
+        Me.Label10.Location = New System.Drawing.Point(643, 115)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(34, 16)
         Me.Label10.TabIndex = 41
@@ -241,7 +244,7 @@ Partial Class AddUserAccount
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Label1.Location = New System.Drawing.Point(60, 39)
+        Me.Label1.Location = New System.Drawing.Point(60, 47)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(139, 20)
         Me.Label1.TabIndex = 24
@@ -286,7 +289,7 @@ Partial Class AddUserAccount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(838, 354)
+        Me.ClientSize = New System.Drawing.Size(838, 346)
         Me.Controls.Add(Me.cmbboxPosition)
         Me.Controls.Add(Me.btnAddUserApply)
         Me.Controls.Add(Me.btnAddUserCancel)
@@ -311,7 +314,7 @@ Partial Class AddUserAccount
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "AddUserAccount"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = "Add User Account"
         CType(Me.pictureboxAddUser, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()

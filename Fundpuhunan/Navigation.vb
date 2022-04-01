@@ -1,22 +1,17 @@
 ﻿Imports DBConnection
 Public Class Navigation
     Private Sub attendancebutton_Click(sender As Object, e As EventArgs) Handles applicationbttn.Click
+        With Application
 
-        Dim loanSummaries As List(Of LoanSummary) = New List(Of LoanSummary)
-        Dim exception As Exception = SQLHelper.GetAllLoan(HolderSingleton.connection, loanSummaries)
-        If exception IsNot Nothing Then
-            MessageBox.Show(exception.Message)
-        End If
+            .TopLevel = False
+            .AutoSize = True
 
-        Dim application As Application = New Application()
-        application.TopLevel = False
-        application.AutoSize = True
-        Navigationpanel.Controls.Add(application)
-        For Each loanSummary As LoanSummary In loanSummaries
-            application.DataGridView1.Rows.Add({loanSummary.LoanId, loanSummary.BorrowerFN, loanSummary.BorrowerMN, loanSummary.BorrowerLN, loanSummary.LoanAmount, loanSummary.LoanStatus, loanSummary.DateCreated})
-        Next
-        application.BringToFront()
-        application.Show()
+            Navigationpanel.Controls.Add(Application)
+            .BringToFront()
+            .Show()
+
+        End With
+
 
     End Sub
 

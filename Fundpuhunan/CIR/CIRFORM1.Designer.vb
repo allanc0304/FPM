@@ -1128,14 +1128,14 @@ Partial Class CIRFORM1
         'CIR_NEXTBTN
         '
         Me.CIR_NEXTBTN.BackColor = System.Drawing.Color.SteelBlue
-        Me.CIR_NEXTBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.CIR_NEXTBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CIR_NEXTBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CIR_NEXTBTN.ForeColor = System.Drawing.Color.Transparent
-        Me.CIR_NEXTBTN.Location = New System.Drawing.Point(880, 4311)
+        Me.CIR_NEXTBTN.Location = New System.Drawing.Point(818, 4309)
         Me.CIR_NEXTBTN.Name = "CIR_NEXTBTN"
-        Me.CIR_NEXTBTN.Size = New System.Drawing.Size(124, 40)
+        Me.CIR_NEXTBTN.Size = New System.Drawing.Size(113, 31)
         Me.CIR_NEXTBTN.TabIndex = 93
-        Me.CIR_NEXTBTN.Text = "NEXT "
+        Me.CIR_NEXTBTN.Text = "Next"
         Me.CIR_NEXTBTN.UseVisualStyleBackColor = False
         '
         'Label58
@@ -2226,22 +2226,22 @@ Partial Class CIRFORM1
         '
         'CIR_BACKBTN
         '
-        Me.CIR_BACKBTN.BackColor = System.Drawing.Color.DimGray
-        Me.CIR_BACKBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.CIR_BACKBTN.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.CIR_BACKBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CIR_BACKBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CIR_BACKBTN.ForeColor = System.Drawing.Color.Transparent
-        Me.CIR_BACKBTN.Location = New System.Drawing.Point(734, 4311)
+        Me.CIR_BACKBTN.Location = New System.Drawing.Point(699, 4309)
         Me.CIR_BACKBTN.Name = "CIR_BACKBTN"
-        Me.CIR_BACKBTN.Size = New System.Drawing.Size(124, 40)
+        Me.CIR_BACKBTN.Size = New System.Drawing.Size(113, 31)
         Me.CIR_BACKBTN.TabIndex = 278
-        Me.CIR_BACKBTN.Text = "CANCEL"
+        Me.CIR_BACKBTN.Text = "Back"
         Me.CIR_BACKBTN.UseVisualStyleBackColor = False
         '
         'LIA_ADDBTN
         '
-        Me.LIA_ADDBTN.BackColor = System.Drawing.Color.DimGray
-        Me.LIA_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.LIA_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_ADDBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.LIA_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.LIA_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LIA_ADDBTN.ForeColor = System.Drawing.Color.Transparent
         Me.LIA_ADDBTN.Location = New System.Drawing.Point(297, 2474)
         Me.LIA_ADDBTN.Name = "LIA_ADDBTN"
@@ -2252,9 +2252,9 @@ Partial Class CIRFORM1
         '
         'COL_ADDBTN
         '
-        Me.COL_ADDBTN.BackColor = System.Drawing.Color.DimGray
-        Me.COL_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.COL_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_ADDBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.COL_ADDBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.COL_ADDBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_ADDBTN.ForeColor = System.Drawing.Color.Transparent
         Me.COL_ADDBTN.Location = New System.Drawing.Point(295, 3919)
         Me.COL_ADDBTN.Name = "COL_ADDBTN"
@@ -2513,9 +2513,9 @@ Partial Class CIRFORM1
         '
         'LIA_UPBTN
         '
-        Me.LIA_UPBTN.BackColor = System.Drawing.Color.DimGray
-        Me.LIA_UPBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.LIA_UPBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_UPBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.LIA_UPBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.LIA_UPBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LIA_UPBTN.ForeColor = System.Drawing.Color.Transparent
         Me.LIA_UPBTN.Location = New System.Drawing.Point(401, 2474)
         Me.LIA_UPBTN.Name = "LIA_UPBTN"
@@ -2526,9 +2526,9 @@ Partial Class CIRFORM1
         '
         'LIA_REMBTN
         '
-        Me.LIA_REMBTN.BackColor = System.Drawing.Color.DimGray
-        Me.LIA_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.LIA_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_REMBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.LIA_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.LIA_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LIA_REMBTN.ForeColor = System.Drawing.Color.Transparent
         Me.LIA_REMBTN.Location = New System.Drawing.Point(503, 2474)
         Me.LIA_REMBTN.Name = "LIA_REMBTN"
@@ -2539,9 +2539,9 @@ Partial Class CIRFORM1
         '
         'LIA_REMALLBTN
         '
-        Me.LIA_REMALLBTN.BackColor = System.Drawing.Color.DimGray
-        Me.LIA_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.LIA_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.LIA_REMALLBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.LIA_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.LIA_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LIA_REMALLBTN.ForeColor = System.Drawing.Color.Transparent
         Me.LIA_REMALLBTN.Location = New System.Drawing.Point(607, 2474)
         Me.LIA_REMALLBTN.Name = "LIA_REMALLBTN"
@@ -2710,9 +2710,9 @@ Partial Class CIRFORM1
         '
         'COL_UPBUTTON
         '
-        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.DimGray
-        Me.COL_UPBUTTON.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.COL_UPBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_UPBUTTON.BackColor = System.Drawing.Color.SteelBlue
+        Me.COL_UPBUTTON.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.COL_UPBUTTON.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_UPBUTTON.ForeColor = System.Drawing.Color.Transparent
         Me.COL_UPBUTTON.Location = New System.Drawing.Point(400, 3919)
         Me.COL_UPBUTTON.Name = "COL_UPBUTTON"
@@ -2723,9 +2723,9 @@ Partial Class CIRFORM1
         '
         'COL_REMBTN
         '
-        Me.COL_REMBTN.BackColor = System.Drawing.Color.DimGray
-        Me.COL_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.COL_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_REMBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.COL_REMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.COL_REMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_REMBTN.ForeColor = System.Drawing.Color.Transparent
         Me.COL_REMBTN.Location = New System.Drawing.Point(503, 3919)
         Me.COL_REMBTN.Name = "COL_REMBTN"
@@ -2736,9 +2736,9 @@ Partial Class CIRFORM1
         '
         'COL_REMALLBTN
         '
-        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.DimGray
-        Me.COL_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.COL_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.COL_REMALLBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.COL_REMALLBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.COL_REMALLBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.COL_REMALLBTN.ForeColor = System.Drawing.Color.Transparent
         Me.COL_REMALLBTN.Location = New System.Drawing.Point(607, 3919)
         Me.COL_REMALLBTN.Name = "COL_REMALLBTN"
@@ -2752,9 +2752,9 @@ Partial Class CIRFORM1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.AutoScrollMargin = New System.Drawing.Size(0, 10)
-        Me.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.ClientSize = New System.Drawing.Size(1040, 659)
+        Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(971, 725)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.COL_REMALLBTN)
@@ -3003,11 +3003,13 @@ Partial Class CIRFORM1
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.MinimumSize = New System.Drawing.Size(16, 100)
         Me.Name = "CIRFORM1"
+        Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "CIR1"
+        Me.Text = "CIR FORM PART 1/2"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
