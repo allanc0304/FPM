@@ -2,7 +2,6 @@
 Imports System.Text.RegularExpressions
 Public Class AppFormA
 
-
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         With Application
 
@@ -181,7 +180,6 @@ Public Class AppFormA
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
         ' If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, C1_CONTACT, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, K1_MONTH, K1_DAY, K1_YEAR, E1_AGE, R1_RELIGION) = False Then
         ' MessageBox.Show("Fill up all fields")
 

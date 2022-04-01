@@ -69,9 +69,6 @@ Partial Class CIRFORMA
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label136 = New System.Windows.Forms.Label()
         Me.NOD_NS = New System.Windows.Forms.ComboBox()
-        Me.CIR_YR = New System.Windows.Forms.ComboBox()
-        Me.CIR_DAY = New System.Windows.Forms.ComboBox()
-        Me.CIR_MON = New System.Windows.Forms.ComboBox()
         Me.Label63 = New System.Windows.Forms.Label()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
@@ -177,10 +174,7 @@ Partial Class CIRFORMA
         Me.Label66 = New System.Windows.Forms.Label()
         Me.Label67 = New System.Windows.Forms.Label()
         Me.Label68 = New System.Windows.Forms.Label()
-        Me.CB_RESTUCT = New System.Windows.Forms.CheckBox()
-        Me.CB_RENEW = New System.Windows.Forms.CheckBox()
         Me.Label65 = New System.Windows.Forms.Label()
-        Me.CB_NEW = New System.Windows.Forms.CheckBox()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.COLLEGE_TF = New System.Windows.Forms.TextBox()
         Me.HS_TF = New System.Windows.Forms.TextBox()
@@ -265,11 +259,7 @@ Partial Class CIRFORMA
         Me.CIR_HOUSENO = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.CIR_AGE = New System.Windows.Forms.ComboBox()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -285,6 +275,12 @@ Partial Class CIRFORMA
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.RB_NEW = New System.Windows.Forms.RadioButton()
+        Me.RB_RENEW = New System.Windows.Forms.RadioButton()
+        Me.RB_RESTRUCT = New System.Windows.Forms.RadioButton()
+        Me.DOB_DTP = New System.Windows.Forms.DateTimePicker()
+        Me.CIR_AGE = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -744,33 +740,6 @@ Partial Class CIRFORMA
         Me.NOD_NS.Name = "NOD_NS"
         Me.NOD_NS.Size = New System.Drawing.Size(101, 21)
         Me.NOD_NS.TabIndex = 733
-        '
-        'CIR_YR
-        '
-        Me.CIR_YR.FormattingEnabled = True
-        Me.CIR_YR.Items.AddRange(New Object() {"1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"})
-        Me.CIR_YR.Location = New System.Drawing.Point(411, 250)
-        Me.CIR_YR.Name = "CIR_YR"
-        Me.CIR_YR.Size = New System.Drawing.Size(84, 21)
-        Me.CIR_YR.TabIndex = 732
-        '
-        'CIR_DAY
-        '
-        Me.CIR_DAY.FormattingEnabled = True
-        Me.CIR_DAY.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31"})
-        Me.CIR_DAY.Location = New System.Drawing.Point(320, 250)
-        Me.CIR_DAY.Name = "CIR_DAY"
-        Me.CIR_DAY.Size = New System.Drawing.Size(84, 21)
-        Me.CIR_DAY.TabIndex = 731
-        '
-        'CIR_MON
-        '
-        Me.CIR_MON.FormattingEnabled = True
-        Me.CIR_MON.Items.AddRange(New Object() {"JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"})
-        Me.CIR_MON.Location = New System.Drawing.Point(193, 250)
-        Me.CIR_MON.Name = "CIR_MON"
-        Me.CIR_MON.Size = New System.Drawing.Size(121, 21)
-        Me.CIR_MON.TabIndex = 730
         '
         'Label63
         '
@@ -1746,26 +1715,6 @@ Partial Class CIRFORMA
         Me.Label68.TabIndex = 631
         Me.Label68.Text = "Purpose "
         '
-        'CB_RESTUCT
-        '
-        Me.CB_RESTUCT.AutoSize = True
-        Me.CB_RESTUCT.Location = New System.Drawing.Point(566, 1216)
-        Me.CB_RESTUCT.Name = "CB_RESTUCT"
-        Me.CB_RESTUCT.Size = New System.Drawing.Size(116, 17)
-        Me.CB_RESTUCT.TabIndex = 630
-        Me.CB_RESTUCT.Text = "RESTRUCTURED"
-        Me.CB_RESTUCT.UseVisualStyleBackColor = True
-        '
-        'CB_RENEW
-        '
-        Me.CB_RENEW.AutoSize = True
-        Me.CB_RENEW.Location = New System.Drawing.Point(453, 1216)
-        Me.CB_RENEW.Name = "CB_RENEW"
-        Me.CB_RENEW.Size = New System.Drawing.Size(80, 17)
-        Me.CB_RENEW.TabIndex = 629
-        Me.CB_RENEW.Text = "RENEWAL"
-        Me.CB_RENEW.UseVisualStyleBackColor = True
-        '
         'Label65
         '
         Me.Label65.AutoSize = True
@@ -1775,16 +1724,6 @@ Partial Class CIRFORMA
         Me.Label65.Size = New System.Drawing.Size(115, 16)
         Me.Label65.TabIndex = 628
         Me.Label65.Text = "TYPE OF LOAN"
-        '
-        'CB_NEW
-        '
-        Me.CB_NEW.AutoSize = True
-        Me.CB_NEW.Location = New System.Drawing.Point(356, 1216)
-        Me.CB_NEW.Name = "CB_NEW"
-        Me.CB_NEW.Size = New System.Drawing.Size(52, 17)
-        Me.CB_NEW.TabIndex = 627
-        Me.CB_NEW.Text = "NEW"
-        Me.CB_NEW.UseVisualStyleBackColor = True
         '
         'Label64
         '
@@ -2549,60 +2488,21 @@ Partial Class CIRFORMA
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label16.Location = New System.Drawing.Point(258, 296)
+        Me.Label16.Location = New System.Drawing.Point(254, 305)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(57, 12)
         Me.Label16.TabIndex = 543
         Me.Label16.Text = "YEARS OLD"
         '
-        'CIR_AGE
-        '
-        Me.CIR_AGE.FormattingEnabled = True
-        Me.CIR_AGE.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80"})
-        Me.CIR_AGE.Location = New System.Drawing.Point(193, 291)
-        Me.CIR_AGE.Name = "CIR_AGE"
-        Me.CIR_AGE.Size = New System.Drawing.Size(59, 21)
-        Me.CIR_AGE.TabIndex = 542
-        '
         'Label15
         '
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(132, 292)
+        Me.Label15.Location = New System.Drawing.Point(132, 302)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(39, 16)
         Me.Label15.TabIndex = 541
         Me.Label15.Text = "Age:"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label12.Location = New System.Drawing.Point(440, 234)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(40, 12)
-        Me.Label12.TabIndex = 540
-        Me.Label12.Text = "( YEAR )"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label13.Location = New System.Drawing.Point(346, 235)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(34, 12)
-        Me.Label13.TabIndex = 539
-        Me.Label13.Text = "( DAY )"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
-        Me.Label14.Location = New System.Drawing.Point(232, 234)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(50, 12)
-        Me.Label14.TabIndex = 538
-        Me.Label14.Text = "( MONTH )"
         '
         'Label11
         '
@@ -2747,13 +2647,76 @@ Partial Class CIRFORMA
         Me.Label1.TabIndex = 523
         Me.Label1.Text = "FUNDPUHUNAN MICROFINANCE "
         '
+        'RB_NEW
+        '
+        Me.RB_NEW.AutoSize = True
+        Me.RB_NEW.Location = New System.Drawing.Point(336, 1217)
+        Me.RB_NEW.Name = "RB_NEW"
+        Me.RB_NEW.Size = New System.Drawing.Size(51, 17)
+        Me.RB_NEW.TabIndex = 771
+        Me.RB_NEW.TabStop = True
+        Me.RB_NEW.Text = "NEW"
+        Me.RB_NEW.UseVisualStyleBackColor = True
+        '
+        'RB_RENEW
+        '
+        Me.RB_RENEW.AutoSize = True
+        Me.RB_RENEW.Location = New System.Drawing.Point(456, 1217)
+        Me.RB_RENEW.Name = "RB_RENEW"
+        Me.RB_RENEW.Size = New System.Drawing.Size(79, 17)
+        Me.RB_RENEW.TabIndex = 772
+        Me.RB_RENEW.TabStop = True
+        Me.RB_RENEW.Text = "RENEWAL"
+        Me.RB_RENEW.UseVisualStyleBackColor = True
+        '
+        'RB_RESTRUCT
+        '
+        Me.RB_RESTRUCT.AutoSize = True
+        Me.RB_RESTRUCT.Location = New System.Drawing.Point(591, 1217)
+        Me.RB_RESTRUCT.Name = "RB_RESTRUCT"
+        Me.RB_RESTRUCT.Size = New System.Drawing.Size(107, 17)
+        Me.RB_RESTRUCT.TabIndex = 773
+        Me.RB_RESTRUCT.TabStop = True
+        Me.RB_RESTRUCT.Text = "RESTRUCTURE"
+        Me.RB_RESTRUCT.UseVisualStyleBackColor = True
+        '
+        'DOB_DTP
+        '
+        Me.DOB_DTP.Location = New System.Drawing.Point(193, 246)
+        Me.DOB_DTP.Name = "DOB_DTP"
+        Me.DOB_DTP.Size = New System.Drawing.Size(200, 20)
+        Me.DOB_DTP.TabIndex = 774
+        '
+        'CIR_AGE
+        '
+        Me.CIR_AGE.Location = New System.Drawing.Point(192, 298)
+        Me.CIR_AGE.Name = "CIR_AGE"
+        Me.CIR_AGE.Size = New System.Drawing.Size(53, 20)
+        Me.CIR_AGE.TabIndex = 775
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.5!)
+        Me.Label12.Location = New System.Drawing.Point(191, 283)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(40, 12)
+        Me.Label12.TabIndex = 776
+        Me.Label12.Text = "( ex. 18 )"
+        '
         'CIRFORMA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
-        Me.ClientSize = New System.Drawing.Size(1004, 1061)
+        Me.ClientSize = New System.Drawing.Size(1004, 749)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.CIR_AGE)
+        Me.Controls.Add(Me.DOB_DTP)
+        Me.Controls.Add(Me.RB_RESTRUCT)
+        Me.Controls.Add(Me.RB_RENEW)
+        Me.Controls.Add(Me.RB_NEW)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.COL_REMALLBTN)
@@ -2792,9 +2755,6 @@ Partial Class CIRFORMA
         Me.Controls.Add(Me.Label147)
         Me.Controls.Add(Me.Label136)
         Me.Controls.Add(Me.NOD_NS)
-        Me.Controls.Add(Me.CIR_YR)
-        Me.Controls.Add(Me.CIR_DAY)
-        Me.Controls.Add(Me.CIR_MON)
         Me.Controls.Add(Me.Label63)
         Me.Controls.Add(Me.Label62)
         Me.Controls.Add(Me.Label61)
@@ -2894,10 +2854,7 @@ Partial Class CIRFORMA
         Me.Controls.Add(Me.Label66)
         Me.Controls.Add(Me.Label67)
         Me.Controls.Add(Me.Label68)
-        Me.Controls.Add(Me.CB_RESTUCT)
-        Me.Controls.Add(Me.CB_RENEW)
         Me.Controls.Add(Me.Label65)
-        Me.Controls.Add(Me.CB_NEW)
         Me.Controls.Add(Me.Label64)
         Me.Controls.Add(Me.COLLEGE_TF)
         Me.Controls.Add(Me.HS_TF)
@@ -2982,11 +2939,7 @@ Partial Class CIRFORMA
         Me.Controls.Add(Me.CIR_HOUSENO)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.CIR_AGE)
         Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
@@ -3064,9 +3017,6 @@ Partial Class CIRFORMA
     Friend WithEvents ColumnHeader1 As ColumnHeader
     Friend WithEvents Label136 As Label
     Friend WithEvents NOD_NS As ComboBox
-    Friend WithEvents CIR_YR As ComboBox
-    Friend WithEvents CIR_DAY As ComboBox
-    Friend WithEvents CIR_MON As ComboBox
     Friend WithEvents Label63 As Label
     Friend WithEvents Label62 As Label
     Friend WithEvents Label61 As Label
@@ -3172,10 +3122,7 @@ Partial Class CIRFORMA
     Friend WithEvents Label66 As Label
     Friend WithEvents Label67 As Label
     Friend WithEvents Label68 As Label
-    Friend WithEvents CB_RESTUCT As CheckBox
-    Friend WithEvents CB_RENEW As CheckBox
     Friend WithEvents Label65 As Label
-    Friend WithEvents CB_NEW As CheckBox
     Friend WithEvents Label64 As Label
     Friend WithEvents COLLEGE_TF As TextBox
     Friend WithEvents HS_TF As TextBox
@@ -3260,11 +3207,7 @@ Partial Class CIRFORMA
     Friend WithEvents CIR_HOUSENO As TextBox
     Friend WithEvents Label17 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents CIR_AGE As ComboBox
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label9 As Label
@@ -3280,4 +3223,10 @@ Partial Class CIRFORMA
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents RB_NEW As RadioButton
+    Friend WithEvents RB_RENEW As RadioButton
+    Friend WithEvents RB_RESTRUCT As RadioButton
+    Friend WithEvents DOB_DTP As DateTimePicker
+    Friend WithEvents CIR_AGE As TextBox
+    Friend WithEvents Label12 As Label
 End Class

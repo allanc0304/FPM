@@ -1,4 +1,6 @@
 ﻿Public Class AppFormB
+
+
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
     End Sub
@@ -10,7 +12,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles proceedbttn.Click
         ' If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, H2_HALAGA, HH2_HALAGANG_HINIRAM, TP2_TAGAL_NG_PAGBAYAD, PP2_PARAAN_PAGBAYAD, R2_RECOMMENDED, AL2_LOAN, CB2_CHECKEDBY) = False Then
         'messageBox.Show("Fill up all fields")
-        Exit Sub
+        'Exit Sub
         'Else
 
         'MsgBox("your data was inserted Succesfully")
@@ -24,7 +26,7 @@
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Me.P1_LASTNAME.Text = AppFormA.P1_LASTNAME.Text
     End Sub
 
     Private Sub TextBox26_TextChanged(sender As Object, e As EventArgs) Handles HH2_HALAGANG_HINIRAM.TextChanged
@@ -44,7 +46,6 @@
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        AppFormA.Show()
         Me.Hide()
 
     End Sub
@@ -95,24 +96,6 @@
 
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-
-        Dim Item As New ListViewItem(PP2_PARAAN_PAGBAYAD.Text)
-
-
-        Item.SubItems.Add(HH2_HALAGANG_HINIRAM.Text)
-        Item.SubItems.Add(TP2_TAGAL_NG_PAGBAYAD.Text)
-        Item.SubItems.Add(PP2_PARAAN_PAGBAYAD.Text)
-
-        ListView2.Items.Add(Item)
-
-
-
-
-
-
-    End Sub
-
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         ListView1.Items.RemoveAt(ListView1.SelectedIndices(0))
     End Sub
@@ -129,15 +112,11 @@
 
     End Sub
 
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        ListView2.Items.RemoveAt(ListView2.SelectedIndices(0))
-    End Sub
-
-    Private Sub ListView2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView2.SelectedIndexChanged
+    Private Sub ListView2_SelectedIndexChanged(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub ListView2_MouseClick(sender As Object, e As MouseEventArgs) Handles ListView2.MouseClick
+    Private Sub ListView2_MouseClick(sender As Object, e As MouseEventArgs)
 
     End Sub
 
@@ -204,9 +183,5 @@
 
     Private Sub T1_HOUSENO_TextChanged(sender As Object, e As EventArgs) Handles T1_HOUSENO.TextChanged
         T2_HOUSENO.Text = T1_HOUSENO.Text
-    End Sub
-
-    Private Sub Button7_Click(sender As Object, e As EventArgs)
-
     End Sub
 End Class

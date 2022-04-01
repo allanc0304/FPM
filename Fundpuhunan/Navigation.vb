@@ -49,24 +49,7 @@ Public Class Navigation
         End With
     End Sub
 
-    Private Sub processingbttn_Click(sender As Object, e As EventArgs) Handles processingbttn.Click
-        Dim loanSummaries As List(Of LoanSummary) = New List(Of LoanSummary)
-        Dim exception As Exception = SQLHelper.GetAllLoan(HolderSingleton.connection, loanSummaries)
-        If exception IsNot Nothing Then
-            MessageBox.Show(exception.Message)
-        End If
 
-        Dim loanProcessing As LoanProcessing = New LoanProcessing()
-        loanProcessing.TopLevel = False
-        loanProcessing.AutoSize = True
-        Navigationpanel.Controls.Add(loanProcessing)
-        For Each loanSummary As LoanSummary In loanSummaries
-            loanProcessing.DataGridView1.Rows.Add({loanSummary.LoanId, loanSummary.BorrowerFN, loanSummary.BorrowerMN, loanSummary.BorrowerLN, loanSummary.LoanAmount, loanSummary.LoanStatus, loanSummary.DateCreated})
-        Next
-
-        loanProcessing.BringToFront()
-        loanProcessing.Show()
-    End Sub
 
 
 

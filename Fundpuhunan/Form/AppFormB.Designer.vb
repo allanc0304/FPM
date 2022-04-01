@@ -32,10 +32,6 @@ Partial Class AppFormB
         Me.PP2_PARAAN_PAGBAYAD = New System.Windows.Forms.TextBox()
         Me.TP2_TAGAL_NG_PAGBAYAD = New System.Windows.Forms.TextBox()
         Me.HH2_HALAGANG_HINIRAM = New System.Windows.Forms.TextBox()
-        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.ListView2 = New System.Windows.Forms.ListView()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -145,7 +141,6 @@ Partial Class AppFormB
         Me.Label73 = New System.Windows.Forms.Label()
         Me.Label74 = New System.Windows.Forms.Label()
         Me.Label75 = New System.Windows.Forms.Label()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Label76 = New System.Windows.Forms.Label()
         Me.Label77 = New System.Windows.Forms.Label()
         Me.Label78 = New System.Windows.Forms.Label()
@@ -154,8 +149,10 @@ Partial Class AppFormB
         Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
         Me.OpenFileDialog3 = New System.Windows.Forms.OpenFileDialog()
         Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.Label81 = New System.Windows.Forms.Label()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -215,7 +212,7 @@ Partial Class AppFormB
         '
         'PP2_PARAAN_PAGBAYAD
         '
-        Me.PP2_PARAAN_PAGBAYAD.Location = New System.Drawing.Point(432, 1251)
+        Me.PP2_PARAAN_PAGBAYAD.Location = New System.Drawing.Point(429, 1325)
         Me.PP2_PARAAN_PAGBAYAD.Name = "PP2_PARAAN_PAGBAYAD"
         Me.PP2_PARAAN_PAGBAYAD.Size = New System.Drawing.Size(160, 20)
         Me.PP2_PARAAN_PAGBAYAD.TabIndex = 211
@@ -223,7 +220,7 @@ Partial Class AppFormB
         '
         'TP2_TAGAL_NG_PAGBAYAD
         '
-        Me.TP2_TAGAL_NG_PAGBAYAD.Location = New System.Drawing.Point(218, 1251)
+        Me.TP2_TAGAL_NG_PAGBAYAD.Location = New System.Drawing.Point(215, 1325)
         Me.TP2_TAGAL_NG_PAGBAYAD.Name = "TP2_TAGAL_NG_PAGBAYAD"
         Me.TP2_TAGAL_NG_PAGBAYAD.Size = New System.Drawing.Size(156, 20)
         Me.TP2_TAGAL_NG_PAGBAYAD.TabIndex = 210
@@ -231,39 +228,11 @@ Partial Class AppFormB
         '
         'HH2_HALAGANG_HINIRAM
         '
-        Me.HH2_HALAGANG_HINIRAM.Location = New System.Drawing.Point(34, 1251)
+        Me.HH2_HALAGANG_HINIRAM.Location = New System.Drawing.Point(31, 1325)
         Me.HH2_HALAGANG_HINIRAM.Name = "HH2_HALAGANG_HINIRAM"
         Me.HH2_HALAGANG_HINIRAM.Size = New System.Drawing.Size(133, 20)
         Me.HH2_HALAGANG_HINIRAM.TabIndex = 209
         Me.HH2_HALAGANG_HINIRAM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'ColumnHeader5
-        '
-        Me.ColumnHeader5.Text = "            Halaga ng Hiniram"
-        Me.ColumnHeader5.Width = 210
-        '
-        'ColumnHeader6
-        '
-        Me.ColumnHeader6.Text = "Tagal ng Pagbabayad"
-        Me.ColumnHeader6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ColumnHeader6.Width = 220
-        '
-        'ColumnHeader7
-        '
-        Me.ColumnHeader7.Text = "             Paraan ng Pagbabayad"
-        Me.ColumnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.ColumnHeader7.Width = 200
-        '
-        'ListView2
-        '
-        Me.ListView2.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7})
-        Me.ListView2.HideSelection = False
-        Me.ListView2.Location = New System.Drawing.Point(37, 1311)
-        Me.ListView2.Name = "ListView2"
-        Me.ListView2.Size = New System.Drawing.Size(639, 143)
-        Me.ListView2.TabIndex = 208
-        Me.ListView2.UseCompatibleStateImageBehavior = False
-        Me.ListView2.View = System.Windows.Forms.View.Details
         '
         'Button4
         '
@@ -1286,7 +1255,7 @@ Partial Class AppFormB
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(71, 1236)
+        Me.Label73.Location = New System.Drawing.Point(68, 1310)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(58, 12)
         Me.Label73.TabIndex = 251
@@ -1296,7 +1265,7 @@ Partial Class AppFormB
         '
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(255, 1236)
+        Me.Label74.Location = New System.Drawing.Point(252, 1310)
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(78, 12)
         Me.Label74.TabIndex = 252
@@ -1306,20 +1275,11 @@ Partial Class AppFormB
         '
         Me.Label75.AutoSize = True
         Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(485, 1236)
+        Me.Label75.Location = New System.Drawing.Point(482, 1310)
         Me.Label75.Name = "Label75"
         Me.Label75.Size = New System.Drawing.Size(51, 12)
         Me.Label75.TabIndex = 253
         Me.Label75.Text = "( ex. 2,300)"
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(605, 1247)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(98, 24)
-        Me.Button6.TabIndex = 254
-        Me.Button6.Text = "Add"
-        Me.Button6.UseVisualStyleBackColor = True
         '
         'Label76
         '
@@ -1386,18 +1346,36 @@ Partial Class AppFormB
         Me.Button10.Text = "Delete"
         Me.Button10.UseVisualStyleBackColor = True
         '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(605, 1277)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(98, 24)
-        Me.Button11.TabIndex = 262
-        Me.Button11.Text = "Delete"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
         'ErrorProvider1
         '
         Me.ErrorProvider1.ContainerControl = Me
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.Location = New System.Drawing.Point(34, 1284)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(129, 13)
+        Me.Label79.TabIndex = 263
+        Me.Label79.Text = "HALAGA NG HINIHIRAM"
+        '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.Location = New System.Drawing.Point(221, 1284)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(136, 13)
+        Me.Label80.TabIndex = 264
+        Me.Label80.Text = "TAGAL NG PAGBABAYAD"
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.Location = New System.Drawing.Point(442, 1284)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(145, 13)
+        Me.Label81.TabIndex = 265
+        Me.Label81.Text = "PARAAN NG PAGBABAYAD"
         '
         'AppFormB
         '
@@ -1406,13 +1384,14 @@ Partial Class AppFormB
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(748, 708)
-        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Label81)
+        Me.Controls.Add(Me.Label80)
+        Me.Controls.Add(Me.Label79)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Label78)
         Me.Controls.Add(Me.Label77)
         Me.Controls.Add(Me.Label76)
-        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Label75)
         Me.Controls.Add(Me.Label74)
         Me.Controls.Add(Me.Label73)
@@ -1456,7 +1435,6 @@ Partial Class AppFormB
         Me.Controls.Add(Me.PP2_PARAAN_PAGBAYAD)
         Me.Controls.Add(Me.TP2_TAGAL_NG_PAGBAYAD)
         Me.Controls.Add(Me.HH2_HALAGANG_HINIRAM)
-        Me.Controls.Add(Me.ListView2)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -1549,10 +1527,6 @@ Partial Class AppFormB
     Friend WithEvents PP2_PARAAN_PAGBAYAD As TextBox
     Friend WithEvents TP2_TAGAL_NG_PAGBAYAD As TextBox
     Friend WithEvents HH2_HALAGANG_HINIRAM As TextBox
-    Friend WithEvents ColumnHeader5 As ColumnHeader
-    Friend WithEvents ColumnHeader6 As ColumnHeader
-    Friend WithEvents ColumnHeader7 As ColumnHeader
-    Friend WithEvents ListView2 As ListView
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
@@ -1662,7 +1636,6 @@ Partial Class AppFormB
     Friend WithEvents Label73 As Label
     Friend WithEvents Label74 As Label
     Friend WithEvents Label75 As Label
-    Friend WithEvents Button6 As Button
     Friend WithEvents Label76 As Label
     Friend WithEvents Label77 As Label
     Friend WithEvents Label78 As Label
@@ -1671,6 +1644,8 @@ Partial Class AppFormB
     Friend WithEvents OpenFileDialog2 As OpenFileDialog
     Friend WithEvents OpenFileDialog3 As OpenFileDialog
     Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
     Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents Label81 As Label
+    Friend WithEvents Label80 As Label
+    Friend WithEvents Label79 As Label
 End Class
