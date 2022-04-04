@@ -48,23 +48,6 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DBConnection">
-      <HintPath>D:\Downloads\DBConnection.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data">
-      <HintPath>D:\Downloads\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\Downloads\MySql.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="DBConnection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\DBConnection.dll</HintPath>
-    </Reference>
-    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\MySql.Data.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -192,7 +175,6 @@
     <Compile Include="Form\SearchApplication.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HolderSingleton.vb" />
     <Compile Include="LoanProcessing.Designer.vb">
       <DependentUpon>LoanProcessing.vb</DependentUpon>
     </Compile>

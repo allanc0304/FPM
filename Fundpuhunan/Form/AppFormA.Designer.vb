@@ -26,9 +26,6 @@ Partial Class AppFormA
         Me.Label89 = New System.Windows.Forms.Label()
         Me.Label88 = New System.Windows.Forms.Label()
         Me.Label87 = New System.Windows.Forms.Label()
-        Me.Label86 = New System.Windows.Forms.Label()
-        Me.Label85 = New System.Windows.Forms.Label()
-        Me.Label84 = New System.Windows.Forms.Label()
         Me.Label83 = New System.Windows.Forms.Label()
         Me.Label82 = New System.Windows.Forms.Label()
         Me.Label81 = New System.Windows.Forms.Label()
@@ -46,9 +43,6 @@ Partial Class AppFormA
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Label69 = New System.Windows.Forms.Label()
         Me.Label67 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label65 = New System.Windows.Forms.Label()
-        Me.Label64 = New System.Windows.Forms.Label()
         Me.Label63 = New System.Windows.Forms.Label()
         Me.Label62 = New System.Windows.Forms.Label()
         Me.Label61 = New System.Windows.Forms.Label()
@@ -61,9 +55,6 @@ Partial Class AppFormA
         Me.Label54 = New System.Windows.Forms.Label()
         Me.Label53 = New System.Windows.Forms.Label()
         Me.Label52 = New System.Windows.Forms.Label()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.Label49 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label45 = New System.Windows.Forms.Label()
@@ -90,9 +81,6 @@ Partial Class AppFormA
         Me.T4_TYPEOFBUSINESS = New System.Windows.Forms.TextBox()
         Me.B4_BUSINESS = New System.Windows.Forms.TextBox()
         Me.E4_AGE = New System.Windows.Forms.TextBox()
-        Me.K4_YEAR = New System.Windows.Forms.TextBox()
-        Me.K4_DAY = New System.Windows.Forms.TextBox()
-        Me.K4_MONTH = New System.Windows.Forms.TextBox()
         Me.T4_PROVINCE = New System.Windows.Forms.TextBox()
         Me.T4_MUNICIPALITY = New System.Windows.Forms.TextBox()
         Me.T4_BARANGAY = New System.Windows.Forms.TextBox()
@@ -108,9 +96,6 @@ Partial Class AppFormA
         Me.R2_RELIGION = New System.Windows.Forms.TextBox()
         Me.B2_ANAK = New System.Windows.Forms.TextBox()
         Me.E2_AGE = New System.Windows.Forms.TextBox()
-        Me.K2_YEAR = New System.Windows.Forms.TextBox()
-        Me.K2_DAY = New System.Windows.Forms.TextBox()
-        Me.K2_MONTH = New System.Windows.Forms.TextBox()
         Me.T2_PROVINCE = New System.Windows.Forms.TextBox()
         Me.T2_MUNICIPALITY = New System.Windows.Forms.TextBox()
         Me.T2_BARANGAY = New System.Windows.Forms.TextBox()
@@ -133,9 +118,6 @@ Partial Class AppFormA
         Me.C1_CONTACT = New System.Windows.Forms.TextBox()
         Me.R1_RELIGION = New System.Windows.Forms.TextBox()
         Me.E1_AGE = New System.Windows.Forms.TextBox()
-        Me.K1_YEAR = New System.Windows.Forms.TextBox()
-        Me.K1_MONTH = New System.Windows.Forms.TextBox()
-        Me.K1_DAY = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
@@ -177,6 +159,9 @@ Partial Class AppFormA
         Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.Button4 = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -212,36 +197,6 @@ Partial Class AppFormA
         Me.Label87.Size = New System.Drawing.Size(33, 9)
         Me.Label87.TabIndex = 427
         Me.Label87.Text = "( ex. 18)"
-        '
-        'Label86
-        '
-        Me.Label86.AutoSize = True
-        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.Location = New System.Drawing.Point(465, 1229)
-        Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(36, 9)
-        Me.Label86.TabIndex = 426
-        Me.Label86.Text = "( YEAR )"
-        '
-        'Label85
-        '
-        Me.Label85.AutoSize = True
-        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.Location = New System.Drawing.Point(352, 1229)
-        Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(31, 9)
-        Me.Label85.TabIndex = 425
-        Me.Label85.Text = "( DAY )"
-        '
-        'Label84
-        '
-        Me.Label84.AutoSize = True
-        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.Location = New System.Drawing.Point(247, 1229)
-        Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(45, 9)
-        Me.Label84.TabIndex = 424
-        Me.Label84.Text = "( MONTH )"
         '
         'Label83
         '
@@ -413,36 +368,6 @@ Partial Class AppFormA
         Me.Label67.TabIndex = 407
         Me.Label67.Text = "( ex. 18 )"
         '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(439, 593)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(36, 9)
-        Me.Label66.TabIndex = 406
-        Me.Label66.Text = "( YEAR )"
-        '
-        'Label65
-        '
-        Me.Label65.AutoSize = True
-        Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label65.Location = New System.Drawing.Point(325, 593)
-        Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(31, 9)
-        Me.Label65.TabIndex = 405
-        Me.Label65.Text = "( DAY )"
-        '
-        'Label64
-        '
-        Me.Label64.AutoSize = True
-        Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label64.Location = New System.Drawing.Point(225, 593)
-        Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(45, 9)
-        Me.Label64.TabIndex = 404
-        Me.Label64.Text = "( MONTH )"
-        '
         'Label63
         '
         Me.Label63.AutoSize = True
@@ -562,36 +487,6 @@ Partial Class AppFormA
         Me.Label52.Size = New System.Drawing.Size(38, 12)
         Me.Label52.TabIndex = 392
         Me.Label52.Text = "( ex. 18)"
-        '
-        'Label51
-        '
-        Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.Location = New System.Drawing.Point(357, 296)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(36, 9)
-        Me.Label51.TabIndex = 391
-        Me.Label51.Text = "( YEAR )"
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label50.Location = New System.Drawing.Point(198, 296)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(45, 9)
-        Me.Label50.TabIndex = 390
-        Me.Label50.Text = "( MONTH )"
-        '
-        'Label49
-        '
-        Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label49.Location = New System.Drawing.Point(275, 296)
-        Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(31, 9)
-        Me.Label49.TabIndex = 389
-        Me.Label49.Text = "( DAY )"
         '
         'Label47
         '
@@ -772,7 +667,6 @@ Partial Class AppFormA
         '
         Me.P4_SUFFIX.Location = New System.Drawing.Point(585, 1149)
         Me.P4_SUFFIX.Name = "P4_SUFFIX"
-        Me.P4_SUFFIX.ReadOnly = True
         Me.P4_SUFFIX.Size = New System.Drawing.Size(46, 20)
         Me.P4_SUFFIX.TabIndex = 370
         Me.P4_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -781,7 +675,6 @@ Partial Class AppFormA
         '
         Me.P2_SUFFIX.Location = New System.Drawing.Point(568, 529)
         Me.P2_SUFFIX.Name = "P2_SUFFIX"
-        Me.P2_SUFFIX.ReadOnly = True
         Me.P2_SUFFIX.Size = New System.Drawing.Size(46, 20)
         Me.P2_SUFFIX.TabIndex = 369
         Me.P2_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -799,7 +692,6 @@ Partial Class AppFormA
         Me.P4_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P4_GIVENNAME.Location = New System.Drawing.Point(348, 1149)
         Me.P4_GIVENNAME.Name = "P4_GIVENNAME"
-        Me.P4_GIVENNAME.ReadOnly = True
         Me.P4_GIVENNAME.Size = New System.Drawing.Size(114, 20)
         Me.P4_GIVENNAME.TabIndex = 367
         Me.P4_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -809,7 +701,6 @@ Partial Class AppFormA
         Me.P2_GIVENNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P2_GIVENNAME.Location = New System.Drawing.Point(330, 529)
         Me.P2_GIVENNAME.Name = "P2_GIVENNAME"
-        Me.P2_GIVENNAME.ReadOnly = True
         Me.P2_GIVENNAME.Size = New System.Drawing.Size(114, 20)
         Me.P2_GIVENNAME.TabIndex = 366
         Me.P2_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -834,7 +725,6 @@ Partial Class AppFormA
         '
         Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1318)
         Me.B4_BUSINESS.Name = "B4_BUSINESS"
-        Me.B4_BUSINESS.ReadOnly = True
         Me.B4_BUSINESS.Size = New System.Drawing.Size(111, 20)
         Me.B4_BUSINESS.TabIndex = 362
         '
@@ -842,46 +732,14 @@ Partial Class AppFormA
         '
         Me.E4_AGE.Location = New System.Drawing.Point(467, 1321)
         Me.E4_AGE.Name = "E4_AGE"
-        Me.E4_AGE.ReadOnly = True
         Me.E4_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E4_AGE.TabIndex = 361
-        '
-        'K4_YEAR
-        '
-        Me.K4_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K4_YEAR.Location = New System.Drawing.Point(439, 1241)
-        Me.K4_YEAR.Name = "K4_YEAR"
-        Me.K4_YEAR.ReadOnly = True
-        Me.K4_YEAR.Size = New System.Drawing.Size(96, 20)
-        Me.K4_YEAR.TabIndex = 360
-        Me.K4_YEAR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'K4_DAY
-        '
-        Me.K4_DAY.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K4_DAY.Location = New System.Drawing.Point(325, 1241)
-        Me.K4_DAY.Name = "K4_DAY"
-        Me.K4_DAY.ReadOnly = True
-        Me.K4_DAY.Size = New System.Drawing.Size(109, 20)
-        Me.K4_DAY.TabIndex = 359
-        Me.K4_DAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'K4_MONTH
-        '
-        Me.K4_MONTH.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K4_MONTH.Location = New System.Drawing.Point(237, 1241)
-        Me.K4_MONTH.Name = "K4_MONTH"
-        Me.K4_MONTH.ReadOnly = True
-        Me.K4_MONTH.Size = New System.Drawing.Size(84, 20)
-        Me.K4_MONTH.TabIndex = 358
-        Me.K4_MONTH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T4_PROVINCE
         '
         Me.T4_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_PROVINCE.Location = New System.Drawing.Point(567, 1198)
         Me.T4_PROVINCE.Name = "T4_PROVINCE"
-        Me.T4_PROVINCE.ReadOnly = True
         Me.T4_PROVINCE.Size = New System.Drawing.Size(96, 20)
         Me.T4_PROVINCE.TabIndex = 357
         Me.T4_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -891,7 +749,6 @@ Partial Class AppFormA
         Me.T4_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_MUNICIPALITY.Location = New System.Drawing.Point(453, 1198)
         Me.T4_MUNICIPALITY.Name = "T4_MUNICIPALITY"
-        Me.T4_MUNICIPALITY.ReadOnly = True
         Me.T4_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
         Me.T4_MUNICIPALITY.TabIndex = 356
         Me.T4_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -901,7 +758,6 @@ Partial Class AppFormA
         Me.T4_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_BARANGAY.Location = New System.Drawing.Point(365, 1198)
         Me.T4_BARANGAY.Name = "T4_BARANGAY"
-        Me.T4_BARANGAY.ReadOnly = True
         Me.T4_BARANGAY.Size = New System.Drawing.Size(84, 20)
         Me.T4_BARANGAY.TabIndex = 355
         Me.T4_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -911,7 +767,6 @@ Partial Class AppFormA
         Me.T4_STREET.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_STREET.Location = New System.Drawing.Point(306, 1198)
         Me.T4_STREET.Name = "T4_STREET"
-        Me.T4_STREET.ReadOnly = True
         Me.T4_STREET.Size = New System.Drawing.Size(54, 20)
         Me.T4_STREET.TabIndex = 354
         Me.T4_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -921,7 +776,6 @@ Partial Class AppFormA
         Me.T4_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T4_HOUSENO.Location = New System.Drawing.Point(237, 1198)
         Me.T4_HOUSENO.Name = "T4_HOUSENO"
-        Me.T4_HOUSENO.ReadOnly = True
         Me.T4_HOUSENO.Size = New System.Drawing.Size(65, 20)
         Me.T4_HOUSENO.TabIndex = 353
         Me.T4_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -931,7 +785,6 @@ Partial Class AppFormA
         Me.P4_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P4_MIDDLENAME.Location = New System.Drawing.Point(467, 1149)
         Me.P4_MIDDLENAME.Name = "P4_MIDDLENAME"
-        Me.P4_MIDDLENAME.ReadOnly = True
         Me.P4_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
         Me.P4_MIDDLENAME.TabIndex = 352
         Me.P4_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -941,7 +794,6 @@ Partial Class AppFormA
         Me.P4_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P4_LASTNAME.Location = New System.Drawing.Point(237, 1149)
         Me.P4_LASTNAME.Name = "P4_LASTNAME"
-        Me.P4_LASTNAME.ReadOnly = True
         Me.P4_LASTNAME.Size = New System.Drawing.Size(109, 20)
         Me.P4_LASTNAME.TabIndex = 351
         Me.P4_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -986,7 +838,6 @@ Partial Class AppFormA
         Me.R2_RELIGION.ForeColor = System.Drawing.SystemColors.MenuText
         Me.R2_RELIGION.Location = New System.Drawing.Point(518, 674)
         Me.R2_RELIGION.Name = "R2_RELIGION"
-        Me.R2_RELIGION.ReadOnly = True
         Me.R2_RELIGION.Size = New System.Drawing.Size(111, 20)
         Me.R2_RELIGION.TabIndex = 345
         '
@@ -1003,46 +854,14 @@ Partial Class AppFormA
         Me.E2_AGE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.E2_AGE.Location = New System.Drawing.Point(216, 674)
         Me.E2_AGE.Name = "E2_AGE"
-        Me.E2_AGE.ReadOnly = True
         Me.E2_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E2_AGE.TabIndex = 343
-        '
-        'K2_YEAR
-        '
-        Me.K2_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K2_YEAR.Location = New System.Drawing.Point(418, 605)
-        Me.K2_YEAR.Name = "K2_YEAR"
-        Me.K2_YEAR.ReadOnly = True
-        Me.K2_YEAR.Size = New System.Drawing.Size(96, 20)
-        Me.K2_YEAR.TabIndex = 342
-        Me.K2_YEAR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'K2_DAY
-        '
-        Me.K2_DAY.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K2_DAY.Location = New System.Drawing.Point(304, 605)
-        Me.K2_DAY.Name = "K2_DAY"
-        Me.K2_DAY.ReadOnly = True
-        Me.K2_DAY.Size = New System.Drawing.Size(109, 20)
-        Me.K2_DAY.TabIndex = 341
-        Me.K2_DAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'K2_MONTH
-        '
-        Me.K2_MONTH.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K2_MONTH.Location = New System.Drawing.Point(216, 605)
-        Me.K2_MONTH.Name = "K2_MONTH"
-        Me.K2_MONTH.ReadOnly = True
-        Me.K2_MONTH.Size = New System.Drawing.Size(84, 20)
-        Me.K2_MONTH.TabIndex = 340
-        Me.K2_MONTH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T2_PROVINCE
         '
         Me.T2_PROVINCE.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_PROVINCE.Location = New System.Drawing.Point(546, 567)
         Me.T2_PROVINCE.Name = "T2_PROVINCE"
-        Me.T2_PROVINCE.ReadOnly = True
         Me.T2_PROVINCE.Size = New System.Drawing.Size(96, 20)
         Me.T2_PROVINCE.TabIndex = 339
         Me.T2_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1052,7 +871,6 @@ Partial Class AppFormA
         Me.T2_MUNICIPALITY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_MUNICIPALITY.Location = New System.Drawing.Point(432, 567)
         Me.T2_MUNICIPALITY.Name = "T2_MUNICIPALITY"
-        Me.T2_MUNICIPALITY.ReadOnly = True
         Me.T2_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
         Me.T2_MUNICIPALITY.TabIndex = 338
         Me.T2_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1062,7 +880,6 @@ Partial Class AppFormA
         Me.T2_BARANGAY.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_BARANGAY.Location = New System.Drawing.Point(344, 567)
         Me.T2_BARANGAY.Name = "T2_BARANGAY"
-        Me.T2_BARANGAY.ReadOnly = True
         Me.T2_BARANGAY.Size = New System.Drawing.Size(84, 20)
         Me.T2_BARANGAY.TabIndex = 337
         Me.T2_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1072,7 +889,6 @@ Partial Class AppFormA
         Me.T2_STREET.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_STREET.Location = New System.Drawing.Point(285, 567)
         Me.T2_STREET.Name = "T2_STREET"
-        Me.T2_STREET.ReadOnly = True
         Me.T2_STREET.Size = New System.Drawing.Size(54, 20)
         Me.T2_STREET.TabIndex = 336
         Me.T2_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1082,7 +898,6 @@ Partial Class AppFormA
         Me.T2_HOUSENO.ForeColor = System.Drawing.SystemColors.MenuText
         Me.T2_HOUSENO.Location = New System.Drawing.Point(216, 567)
         Me.T2_HOUSENO.Name = "T2_HOUSENO"
-        Me.T2_HOUSENO.ReadOnly = True
         Me.T2_HOUSENO.Size = New System.Drawing.Size(65, 20)
         Me.T2_HOUSENO.TabIndex = 335
         Me.T2_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1092,7 +907,6 @@ Partial Class AppFormA
         Me.P2_MIDDLENAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P2_MIDDLENAME.Location = New System.Drawing.Point(448, 529)
         Me.P2_MIDDLENAME.Name = "P2_MIDDLENAME"
-        Me.P2_MIDDLENAME.ReadOnly = True
         Me.P2_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
         Me.P2_MIDDLENAME.TabIndex = 334
         Me.P2_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1101,7 +915,7 @@ Partial Class AppFormA
         '
         Me.Button1.BackColor = System.Drawing.Color.SteelBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Location = New System.Drawing.Point(589, 1469)
         Me.Button1.Name = "Button1"
@@ -1235,7 +1049,6 @@ Partial Class AppFormA
         Me.P2_LASTNAME.ForeColor = System.Drawing.SystemColors.MenuText
         Me.P2_LASTNAME.Location = New System.Drawing.Point(216, 529)
         Me.P2_LASTNAME.Name = "P2_LASTNAME"
-        Me.P2_LASTNAME.ReadOnly = True
         Me.P2_LASTNAME.Size = New System.Drawing.Size(109, 20)
         Me.P2_LASTNAME.TabIndex = 321
         Me.P2_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1262,33 +1075,6 @@ Partial Class AppFormA
         Me.E1_AGE.Name = "E1_AGE"
         Me.E1_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E1_AGE.TabIndex = 318
-        '
-        'K1_YEAR
-        '
-        Me.K1_YEAR.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K1_YEAR.Location = New System.Drawing.Point(330, 308)
-        Me.K1_YEAR.Name = "K1_YEAR"
-        Me.K1_YEAR.Size = New System.Drawing.Size(91, 20)
-        Me.K1_YEAR.TabIndex = 317
-        Me.K1_YEAR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'K1_MONTH
-        '
-        Me.K1_MONTH.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K1_MONTH.Location = New System.Drawing.Point(195, 308)
-        Me.K1_MONTH.Name = "K1_MONTH"
-        Me.K1_MONTH.Size = New System.Drawing.Size(61, 20)
-        Me.K1_MONTH.TabIndex = 316
-        Me.K1_MONTH.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'K1_DAY
-        '
-        Me.K1_DAY.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.K1_DAY.Location = New System.Drawing.Point(262, 308)
-        Me.K1_DAY.Name = "K1_DAY"
-        Me.K1_DAY.Size = New System.Drawing.Size(63, 20)
-        Me.K1_DAY.TabIndex = 315
-        Me.K1_DAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label19
         '
@@ -1662,7 +1448,7 @@ Partial Class AppFormA
         Me.Button3.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button3.Location = New System.Drawing.Point(481, 1469)
         Me.Button3.Name = "Button3"
@@ -1687,7 +1473,7 @@ Partial Class AppFormA
         '
         Me.Button4.BackColor = System.Drawing.Color.Green
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button4.Location = New System.Drawing.Point(508, 135)
         Me.Button4.Name = "Button4"
@@ -1708,6 +1494,27 @@ Partial Class AppFormA
         Me.PictureBox2.TabIndex = 433
         Me.PictureBox2.TabStop = False
         '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.Location = New System.Drawing.Point(196, 305)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker1.TabIndex = 434
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Location = New System.Drawing.Point(216, 604)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker2.TabIndex = 435
+        '
+        'DateTimePicker3
+        '
+        Me.DateTimePicker3.Location = New System.Drawing.Point(234, 1238)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.Size = New System.Drawing.Size(200, 20)
+        Me.DateTimePicker3.TabIndex = 436
+        '
         'AppFormA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1715,7 +1522,10 @@ Partial Class AppFormA
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(732, 649)
+        Me.ClientSize = New System.Drawing.Size(749, 649)
+        Me.Controls.Add(Me.DateTimePicker3)
+        Me.Controls.Add(Me.DateTimePicker2)
+        Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
@@ -1723,9 +1533,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.Label89)
         Me.Controls.Add(Me.Label88)
         Me.Controls.Add(Me.Label87)
-        Me.Controls.Add(Me.Label86)
-        Me.Controls.Add(Me.Label85)
-        Me.Controls.Add(Me.Label84)
         Me.Controls.Add(Me.Label83)
         Me.Controls.Add(Me.Label82)
         Me.Controls.Add(Me.Label81)
@@ -1743,9 +1550,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.Label70)
         Me.Controls.Add(Me.Label69)
         Me.Controls.Add(Me.Label67)
-        Me.Controls.Add(Me.Label66)
-        Me.Controls.Add(Me.Label65)
-        Me.Controls.Add(Me.Label64)
         Me.Controls.Add(Me.Label63)
         Me.Controls.Add(Me.Label62)
         Me.Controls.Add(Me.Label61)
@@ -1758,9 +1562,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.Label54)
         Me.Controls.Add(Me.Label53)
         Me.Controls.Add(Me.Label52)
-        Me.Controls.Add(Me.Label51)
-        Me.Controls.Add(Me.Label50)
-        Me.Controls.Add(Me.Label49)
         Me.Controls.Add(Me.Label47)
         Me.Controls.Add(Me.Label46)
         Me.Controls.Add(Me.Label45)
@@ -1788,9 +1589,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.T4_TYPEOFBUSINESS)
         Me.Controls.Add(Me.B4_BUSINESS)
         Me.Controls.Add(Me.E4_AGE)
-        Me.Controls.Add(Me.K4_YEAR)
-        Me.Controls.Add(Me.K4_DAY)
-        Me.Controls.Add(Me.K4_MONTH)
         Me.Controls.Add(Me.T4_PROVINCE)
         Me.Controls.Add(Me.T4_MUNICIPALITY)
         Me.Controls.Add(Me.T4_BARANGAY)
@@ -1806,9 +1604,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.R2_RELIGION)
         Me.Controls.Add(Me.B2_ANAK)
         Me.Controls.Add(Me.E2_AGE)
-        Me.Controls.Add(Me.K2_YEAR)
-        Me.Controls.Add(Me.K2_DAY)
-        Me.Controls.Add(Me.K2_MONTH)
         Me.Controls.Add(Me.T2_PROVINCE)
         Me.Controls.Add(Me.T2_MUNICIPALITY)
         Me.Controls.Add(Me.T2_BARANGAY)
@@ -1831,9 +1626,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.C1_CONTACT)
         Me.Controls.Add(Me.R1_RELIGION)
         Me.Controls.Add(Me.E1_AGE)
-        Me.Controls.Add(Me.K1_YEAR)
-        Me.Controls.Add(Me.K1_MONTH)
-        Me.Controls.Add(Me.K1_DAY)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label20)
         Me.Controls.Add(Me.Label21)
@@ -1885,9 +1677,6 @@ Partial Class AppFormA
     Friend WithEvents Label89 As Label
     Friend WithEvents Label88 As Label
     Friend WithEvents Label87 As Label
-    Friend WithEvents Label86 As Label
-    Friend WithEvents Label85 As Label
-    Friend WithEvents Label84 As Label
     Friend WithEvents Label83 As Label
     Friend WithEvents Label82 As Label
     Friend WithEvents Label81 As Label
@@ -1905,9 +1694,6 @@ Partial Class AppFormA
     Friend WithEvents Label70 As Label
     Friend WithEvents Label69 As Label
     Friend WithEvents Label67 As Label
-    Friend WithEvents Label66 As Label
-    Friend WithEvents Label65 As Label
-    Friend WithEvents Label64 As Label
     Friend WithEvents Label63 As Label
     Friend WithEvents Label62 As Label
     Friend WithEvents Label61 As Label
@@ -1920,9 +1706,6 @@ Partial Class AppFormA
     Friend WithEvents Label54 As Label
     Friend WithEvents Label53 As Label
     Friend WithEvents Label52 As Label
-    Friend WithEvents Label51 As Label
-    Friend WithEvents Label50 As Label
-    Friend WithEvents Label49 As Label
     Friend WithEvents Label47 As Label
     Friend WithEvents Label46 As Label
     Friend WithEvents Label45 As Label
@@ -1950,9 +1733,6 @@ Partial Class AppFormA
     Friend WithEvents T4_TYPEOFBUSINESS As TextBox
     Friend WithEvents B4_BUSINESS As TextBox
     Friend WithEvents E4_AGE As TextBox
-    Friend WithEvents K4_YEAR As TextBox
-    Friend WithEvents K4_DAY As TextBox
-    Friend WithEvents K4_MONTH As TextBox
     Friend WithEvents T4_PROVINCE As TextBox
     Friend WithEvents T4_MUNICIPALITY As TextBox
     Friend WithEvents T4_BARANGAY As TextBox
@@ -1968,9 +1748,6 @@ Partial Class AppFormA
     Friend WithEvents R2_RELIGION As TextBox
     Friend WithEvents B2_ANAK As TextBox
     Friend WithEvents E2_AGE As TextBox
-    Friend WithEvents K2_YEAR As TextBox
-    Friend WithEvents K2_DAY As TextBox
-    Friend WithEvents K2_MONTH As TextBox
     Friend WithEvents T2_PROVINCE As TextBox
     Friend WithEvents T2_MUNICIPALITY As TextBox
     Friend WithEvents T2_BARANGAY As TextBox
@@ -1993,9 +1770,6 @@ Partial Class AppFormA
     Friend WithEvents C1_CONTACT As TextBox
     Friend WithEvents R1_RELIGION As TextBox
     Friend WithEvents E1_AGE As TextBox
-    Friend WithEvents K1_YEAR As TextBox
-    Friend WithEvents K1_MONTH As TextBox
-    Friend WithEvents K1_DAY As TextBox
     Friend WithEvents Label19 As Label
     Friend WithEvents Label20 As Label
     Friend WithEvents Label21 As Label
@@ -2036,4 +1810,7 @@ Partial Class AppFormA
     Friend WithEvents ErrorProvider2 As ErrorProvider
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button4 As Button
+    Friend WithEvents DateTimePicker3 As DateTimePicker
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents DateTimePicker1 As DateTimePicker
 End Class
