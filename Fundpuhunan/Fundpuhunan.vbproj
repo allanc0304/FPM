@@ -254,6 +254,9 @@
     <EmbeddedResource Include="AccountAndUser\AddUserAccount.resx">
       <DependentUpon>AddUserAccount.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Borrowers\AddLoanPayment.resx">
+      <DependentUpon>AddLoanPayment.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CIR\AddNewCir.resx">
       <DependentUpon>AddNewCir.vb</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CIR\CIRFORM2.resx">
       <DependentUpon>CIRFORM2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Savings\BorrowersSavings.resx">
+      <DependentUpon>BorrowersSavings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Savings\Savings.resx">
       <DependentUpon>Savings.vb</DependentUpon>
