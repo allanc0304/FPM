@@ -30,18 +30,18 @@ Partial Class Navigation
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.loanreleasedbttn = New System.Windows.Forms.Button()
         Me.positions = New System.Windows.Forms.Label()
         Me.logout = New System.Windows.Forms.Button()
         Me.accountbttn = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.filebttn = New System.Windows.Forms.Button()
+        Me.savingsbttn = New System.Windows.Forms.Button()
         Me.applicationbttn = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.dashboardbutton = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Navigationpanel = New System.Windows.Forms.Panel()
-        Me.loanreleasedbttn = New System.Windows.Forms.Button()
-        Me.savingsbttn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -166,6 +166,23 @@ Partial Class Navigation
         Me.Panel6.Size = New System.Drawing.Size(738, 1)
         Me.Panel6.TabIndex = 59
         '
+        'loanreleasedbttn
+        '
+        Me.loanreleasedbttn.BackColor = System.Drawing.Color.SteelBlue
+        Me.loanreleasedbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.loanreleasedbttn.FlatAppearance.BorderSize = 0
+        Me.loanreleasedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.loanreleasedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loanreleasedbttn.ForeColor = System.Drawing.Color.White
+        Me.loanreleasedbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.loanreleasedbttn.Location = New System.Drawing.Point(0, 420)
+        Me.loanreleasedbttn.Name = "loanreleasedbttn"
+        Me.loanreleasedbttn.Size = New System.Drawing.Size(244, 26)
+        Me.loanreleasedbttn.TabIndex = 17
+        Me.loanreleasedbttn.Text = "Collection"
+        Me.loanreleasedbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.loanreleasedbttn.UseVisualStyleBackColor = False
+        '
         'positions
         '
         Me.positions.BackColor = System.Drawing.Color.Transparent
@@ -244,6 +261,23 @@ Partial Class Navigation
         Me.filebttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.filebttn.UseVisualStyleBackColor = False
         '
+        'savingsbttn
+        '
+        Me.savingsbttn.BackColor = System.Drawing.Color.SteelBlue
+        Me.savingsbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.savingsbttn.FlatAppearance.BorderSize = 0
+        Me.savingsbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.savingsbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.savingsbttn.ForeColor = System.Drawing.Color.White
+        Me.savingsbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.savingsbttn.Location = New System.Drawing.Point(0, 385)
+        Me.savingsbttn.Name = "savingsbttn"
+        Me.savingsbttn.Size = New System.Drawing.Size(248, 26)
+        Me.savingsbttn.TabIndex = 5
+        Me.savingsbttn.Text = "Savings"
+        Me.savingsbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.savingsbttn.UseVisualStyleBackColor = False
+        '
         'applicationbttn
         '
         Me.applicationbttn.BackColor = System.Drawing.Color.SteelBlue
@@ -312,40 +346,6 @@ Partial Class Navigation
         Me.Navigationpanel.Name = "Navigationpanel"
         Me.Navigationpanel.Size = New System.Drawing.Size(940, 757)
         Me.Navigationpanel.TabIndex = 14
-        '
-        'loanreleasedbttn
-        '
-        Me.loanreleasedbttn.BackColor = System.Drawing.Color.SteelBlue
-        Me.loanreleasedbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.loanreleasedbttn.FlatAppearance.BorderSize = 0
-        Me.loanreleasedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.loanreleasedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.loanreleasedbttn.ForeColor = System.Drawing.Color.White
-        Me.loanreleasedbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.loanreleasedbttn.Location = New System.Drawing.Point(0, 420)
-        Me.loanreleasedbttn.Name = "loanreleasedbttn"
-        Me.loanreleasedbttn.Size = New System.Drawing.Size(244, 26)
-        Me.loanreleasedbttn.TabIndex = 17
-        Me.loanreleasedbttn.Text = "Loan Released"
-        Me.loanreleasedbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.loanreleasedbttn.UseVisualStyleBackColor = False
-        '
-        'savingsbttn
-        '
-        Me.savingsbttn.BackColor = System.Drawing.Color.SteelBlue
-        Me.savingsbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.savingsbttn.FlatAppearance.BorderSize = 0
-        Me.savingsbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.savingsbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.savingsbttn.ForeColor = System.Drawing.Color.White
-        Me.savingsbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.savingsbttn.Location = New System.Drawing.Point(0, 385)
-        Me.savingsbttn.Name = "savingsbttn"
-        Me.savingsbttn.Size = New System.Drawing.Size(248, 26)
-        Me.savingsbttn.TabIndex = 5
-        Me.savingsbttn.Text = "Savings"
-        Me.savingsbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.savingsbttn.UseVisualStyleBackColor = False
         '
         'Navigation
         '

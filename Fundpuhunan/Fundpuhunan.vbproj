@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Borrowers\AddLoanPayment.Designer.vb">
+      <DependentUpon>AddLoanPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Borrowers\AddLoanPayment.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CIR\AddNewCir.Designer.vb">
       <DependentUpon>AddNewCir.vb</DependentUpon>
     </Compile>
@@ -97,10 +103,16 @@
     <Compile Include="CIR\SearchCIR.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Collections.Designer.vb">
+    <Compile Include="Collection\AddCollectionList.Designer.vb">
+      <DependentUpon>AddCollectionList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Collection\AddCollectionList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Collection\Collections.Designer.vb">
       <DependentUpon>Collections.vb</DependentUpon>
     </Compile>
-    <Compile Include="Collections.vb">
+    <Compile Include="Collection\Collections.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Files_record.Designer.vb">
@@ -115,28 +127,22 @@
     <Compile Include="Borrowers\BorrowersLoan.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\AddNewLoan.Designer.vb">
-      <DependentUpon>AddNewLoan.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\AddNewLoan.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Borrowers\BorrowersList.Designer.vb">
       <DependentUpon>BorrowersList.vb</DependentUpon>
     </Compile>
     <Compile Include="Borrowers\BorrowersList.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\AppFormB.Designer.vb">
+    <Compile Include="AppForm\AppFormB.Designer.vb">
       <DependentUpon>AppFormB.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\AppFormB.vb">
+    <Compile Include="AppForm\AppFormB.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\AppFormA.Designer.vb">
+    <Compile Include="AppForm\AppFormA.Designer.vb">
       <DependentUpon>AppFormA.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\AppFormA.vb">
+    <Compile Include="AppForm\AppFormA.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CIR\CIRFORM1.Designer.vb">
@@ -169,10 +175,16 @@
     <Compile Include="CIR\CIRFORM2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\SearchApplication.Designer.vb">
-      <DependentUpon>SearchApplication.vb</DependentUpon>
+    <Compile Include="Savings\AddSavingsDeposit.Designer.vb">
+      <DependentUpon>AddSavingsDeposit.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form\SearchApplication.vb">
+    <Compile Include="Savings\AddSavingsDeposit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Savings\BorrowersSavings.Designer.vb">
+      <DependentUpon>BorrowersSavings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Savings\BorrowersSavings.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Savings\Savings.Designer.vb">
@@ -228,6 +240,12 @@
     <Compile Include="releasecomputation.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Savings\WithdrawSavings.Designer.vb">
+      <DependentUpon>WithdrawSavings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Savings\WithdrawSavings.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AccountAndUser\AccountUserManagement.resx">
@@ -251,16 +269,16 @@
     <EmbeddedResource Include="Borrowers\BorrowersLoan.resx">
       <DependentUpon>BorrowersLoan.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\AddNewLoan.resx">
-      <DependentUpon>AddNewLoan.vb</DependentUpon>
+    <EmbeddedResource Include="Collection\Collections.resx">
+      <DependentUpon>Collections.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Borrowers\BorrowersList.resx">
       <DependentUpon>BorrowersList.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\AppFormB.resx">
+    <EmbeddedResource Include="AppForm\AppFormB.resx">
       <DependentUpon>AppFormB.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\AppFormA.resx">
+    <EmbeddedResource Include="AppForm\AppFormA.resx">
       <DependentUpon>AppFormA.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CIR\CIRFORM1.resx">
@@ -276,9 +294,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CIR\CIRFORM2.resx">
       <DependentUpon>CIRFORM2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\SearchApplication.resx">
-      <DependentUpon>SearchApplication.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Savings\Savings.resx">
       <DependentUpon>Savings.vb</DependentUpon>

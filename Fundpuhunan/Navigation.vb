@@ -16,7 +16,16 @@ Public Class Navigation
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles loanreleasedbttn.Click
+        With Dashboard
 
+            .TopLevel = False
+            .AutoSize = True
+
+            Navigationpanel.Controls.Add(Dashboard)
+            .BringToFront()
+            .Show()
+
+        End With
     End Sub
 
     Private Sub dashboardbutton_Click(sender As Object, e As EventArgs) Handles dashboardbutton.Click

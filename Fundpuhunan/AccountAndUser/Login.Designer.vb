@@ -42,7 +42,7 @@ Partial Class Login
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.SteelBlue
+        Me.Panel2.BackColor = System.Drawing.Color.SeaGreen
         Me.Panel2.Controls.Add(Me.Label7)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Controls.Add(Me.PictureBox4)
@@ -80,9 +80,8 @@ Partial Class Login
         '
         'PictureBox4
         '
-
         Me.PictureBox4.InitialImage = CType(resources.GetObject("PictureBox4.InitialImage"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(24, 73)
+        Me.PictureBox4.Location = New System.Drawing.Point(28, 71)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(167, 145)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -125,7 +124,7 @@ Partial Class Login
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label1.Location = New System.Drawing.Point(226, 33)
+        Me.Label1.Location = New System.Drawing.Point(266, 44)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(155, 18)
         Me.Label1.TabIndex = 69
@@ -139,9 +138,9 @@ Partial Class Login
         Me.logbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.logbutton.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logbutton.ForeColor = System.Drawing.Color.White
-        Me.logbutton.Location = New System.Drawing.Point(229, 186)
+        Me.logbutton.Location = New System.Drawing.Point(269, 174)
         Me.logbutton.Name = "logbutton"
-        Me.logbutton.Size = New System.Drawing.Size(268, 35)
+        Me.logbutton.Size = New System.Drawing.Size(228, 35)
         Me.logbutton.TabIndex = 68
         Me.logbutton.Text = "LOGIN"
         Me.logbutton.UseVisualStyleBackColor = False
@@ -149,7 +148,6 @@ Partial Class Login
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-
         Me.PictureBox3.Location = New System.Drawing.Point(239, 121)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(24, 24)
@@ -160,7 +158,6 @@ Partial Class Login
         'PictureBox2
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
-
         Me.PictureBox2.Location = New System.Drawing.Point(239, 73)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(24, 24)
@@ -168,18 +165,6 @@ Partial Class Login
         Me.PictureBox2.TabIndex = 67
         Me.PictureBox2.TabStop = False
         '
-
-        'PictureBox4
-        '
-       
-        Me.PictureBox4.Location = New System.Drawing.Point(28, 71)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(167, 145)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 0
-        Me.PictureBox4.TabStop = False
-        '
-
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)

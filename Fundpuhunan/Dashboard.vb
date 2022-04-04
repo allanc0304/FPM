@@ -46,6 +46,15 @@
     End Sub
 
     Private Sub collectpaymentbttn_Click(sender As Object, e As EventArgs) Handles collectpaymentbttn.Click
+        With Collections
 
+            .TopLevel = False
+            .AutoSize = True
+
+            Navigation.Navigationpanel.Controls.Add(Collections)
+            .BringToFront()
+            .Show()
+
+        End With
     End Sub
 End Class

@@ -75,7 +75,7 @@ Partial Class AddUserAccount
         Me.btnAddUserApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAddUserApply.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUserApply.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnAddUserApply.Location = New System.Drawing.Point(646, 283)
+        Me.btnAddUserApply.Location = New System.Drawing.Point(646, 277)
         Me.btnAddUserApply.Name = "btnAddUserApply"
         Me.btnAddUserApply.Size = New System.Drawing.Size(112, 34)
         Me.btnAddUserApply.TabIndex = 43
@@ -89,7 +89,7 @@ Partial Class AddUserAccount
         Me.btnAddUserCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnAddUserCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUserCancel.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnAddUserCancel.Location = New System.Drawing.Point(528, 283)
+        Me.btnAddUserCancel.Location = New System.Drawing.Point(528, 277)
         Me.btnAddUserCancel.Name = "btnAddUserCancel"
         Me.btnAddUserCancel.Size = New System.Drawing.Size(112, 34)
         Me.btnAddUserCancel.TabIndex = 42

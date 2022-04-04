@@ -154,7 +154,7 @@ Partial Class Savings
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button5.Location = New System.Drawing.Point(12, 40)
+        Me.Button5.Location = New System.Drawing.Point(813, 66)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(91, 24)
         Me.Button5.TabIndex = 47
