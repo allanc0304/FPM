@@ -1,12 +1,12 @@
 ﻿Imports DBConnection
 Public Class Navigation
     Private Sub attendancebutton_Click(sender As Object, e As EventArgs) Handles applicationbttn.Click
-        With Application
+        With BorrowersList
 
             .TopLevel = False
             .AutoSize = True
 
-            Navigationpanel.Controls.Add(Application)
+            Navigationpanel.Controls.Add(BorrowersList)
             .BringToFront()
             .Show()
 
@@ -98,6 +98,20 @@ Public Class Navigation
     End Sub
 
     Private Sub Navigation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub savingsbttn_Click(sender As Object, e As EventArgs) Handles savingsbttn.Click
+        With Savings
+
+            .TopLevel = False
+            .AutoSize = True
+
+            Navigationpanel.Controls.Add(Savings)
+
+            .BringToFront()
+            .Show()
+        End With
 
     End Sub
 End Class

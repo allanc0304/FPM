@@ -1,7 +1,7 @@
 ﻿Public Class Dashboard
 
     Private Sub AddNewoanbttn_Click(sender As Object, e As EventArgs) Handles AddNewoanbttn.Click
-        With Application
+        With BorrowersList
             AppFormA = Nothing
             AppFormB = Nothing
             CIRFORMA = Nothing
@@ -10,7 +10,7 @@
             .TopLevel = False
             .AutoSize = True
 
-            Navigation.Navigationpanel.Controls.Add(Application)
+            Navigation.Navigationpanel.Controls.Add(BorrowersList)
             .BringToFront()
             .Show()
 
@@ -20,6 +20,19 @@
     End Sub
 
     Private Sub AccounSettingsbttn_Click(sender As Object, e As EventArgs) Handles AccounSettingsbttn.Click
+        With Savings
+
+            .TopLevel = False
+            .AutoSize = True
+
+            Navigation.Navigationpanel.Controls.Add(Savings)
+            .BringToFront()
+            .Show()
+
+        End With
+    End Sub
+
+    Private Sub ViewAllLoanbttn_Click(sender As Object, e As EventArgs) Handles ViewAllLoanbttn.Click
         With MyAccount
 
             .TopLevel = False
@@ -32,16 +45,7 @@
         End With
     End Sub
 
-    Private Sub ViewAllLoanbttn_Click(sender As Object, e As EventArgs) Handles ViewAllLoanbttn.Click
-        With Application
+    Private Sub collectpaymentbttn_Click(sender As Object, e As EventArgs) Handles collectpaymentbttn.Click
 
-            .TopLevel = False
-            .AutoSize = True
-
-            Navigation.Navigationpanel.Controls.Add(Application)
-            .BringToFront()
-            .Show()
-
-        End With
     End Sub
 End Class

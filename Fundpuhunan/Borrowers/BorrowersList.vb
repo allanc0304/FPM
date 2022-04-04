@@ -1,5 +1,5 @@
 ﻿Imports DBConnection
-Public Class Application
+Public Class BorrowersList
     Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
@@ -33,7 +33,7 @@ Public Class Application
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
 
-        AppFormA.Show()
+        BorrowersLoan.Show()
 
 
     End Sub

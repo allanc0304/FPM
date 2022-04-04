@@ -30,18 +30,18 @@ Partial Class Navigation
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.loanreleasedbttn = New System.Windows.Forms.Button()
         Me.positions = New System.Windows.Forms.Label()
         Me.logout = New System.Windows.Forms.Button()
         Me.accountbttn = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.filebttn = New System.Windows.Forms.Button()
-        Me.processingbttn = New System.Windows.Forms.Button()
         Me.applicationbttn = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.dashboardbutton = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Navigationpanel = New System.Windows.Forms.Panel()
+        Me.loanreleasedbttn = New System.Windows.Forms.Button()
+        Me.savingsbttn = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +64,7 @@ Partial Class Navigation
         Me.Panel1.Controls.Add(Me.accountbttn)
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.filebttn)
-        Me.Panel1.Controls.Add(Me.processingbttn)
+        Me.Panel1.Controls.Add(Me.savingsbttn)
         Me.Panel1.Controls.Add(Me.applicationbttn)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.dashboardbutton)
@@ -83,7 +83,7 @@ Partial Class Navigation
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button2.FlatAppearance.BorderSize = 0
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.Button2.Location = New System.Drawing.Point(0, 452)
@@ -166,23 +166,6 @@ Partial Class Navigation
         Me.Panel6.Size = New System.Drawing.Size(738, 1)
         Me.Panel6.TabIndex = 59
         '
-        'loanreleasedbttn
-        '
-        Me.loanreleasedbttn.BackColor = System.Drawing.Color.SteelBlue
-        Me.loanreleasedbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.loanreleasedbttn.FlatAppearance.BorderSize = 0
-        Me.loanreleasedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.loanreleasedbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.loanreleasedbttn.ForeColor = System.Drawing.Color.White
-        Me.loanreleasedbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.loanreleasedbttn.Location = New System.Drawing.Point(0, 420)
-        Me.loanreleasedbttn.Name = "loanreleasedbttn"
-        Me.loanreleasedbttn.Size = New System.Drawing.Size(244, 26)
-        Me.loanreleasedbttn.TabIndex = 17
-        Me.loanreleasedbttn.Text = "Loan Released"
-        Me.loanreleasedbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.loanreleasedbttn.UseVisualStyleBackColor = False
-        '
         'positions
         '
         Me.positions.BackColor = System.Drawing.Color.Transparent
@@ -219,7 +202,7 @@ Partial Class Navigation
         Me.accountbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.accountbttn.FlatAppearance.BorderSize = 0
         Me.accountbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.accountbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.accountbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.accountbttn.ForeColor = System.Drawing.Color.White
         Me.accountbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.accountbttn.Location = New System.Drawing.Point(3, 484)
@@ -250,7 +233,7 @@ Partial Class Navigation
         Me.filebttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.filebttn.FlatAppearance.BorderSize = 0
         Me.filebttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.filebttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.filebttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.filebttn.ForeColor = System.Drawing.Color.White
         Me.filebttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.filebttn.Location = New System.Drawing.Point(-4, 516)
@@ -261,43 +244,26 @@ Partial Class Navigation
         Me.filebttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.filebttn.UseVisualStyleBackColor = False
         '
-        'processingbttn
-        '
-        Me.processingbttn.BackColor = System.Drawing.Color.SteelBlue
-        Me.processingbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.processingbttn.FlatAppearance.BorderSize = 0
-        Me.processingbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.processingbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.processingbttn.ForeColor = System.Drawing.Color.White
-        Me.processingbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.processingbttn.Location = New System.Drawing.Point(0, 385)
-        Me.processingbttn.Name = "processingbttn"
-        Me.processingbttn.Size = New System.Drawing.Size(248, 26)
-        Me.processingbttn.TabIndex = 5
-        Me.processingbttn.Text = "Loan Processing"
-        Me.processingbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.processingbttn.UseVisualStyleBackColor = False
-        '
         'applicationbttn
         '
         Me.applicationbttn.BackColor = System.Drawing.Color.SteelBlue
         Me.applicationbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.applicationbttn.FlatAppearance.BorderSize = 0
         Me.applicationbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.applicationbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.applicationbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.applicationbttn.ForeColor = System.Drawing.Color.White
         Me.applicationbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.applicationbttn.Location = New System.Drawing.Point(0, 350)
         Me.applicationbttn.Name = "applicationbttn"
         Me.applicationbttn.Size = New System.Drawing.Size(248, 26)
         Me.applicationbttn.TabIndex = 4
-        Me.applicationbttn.Text = "Loan"
+        Me.applicationbttn.Text = "Borrower"
         Me.applicationbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.applicationbttn.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackColor = System.Drawing.Color.White
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.ErrorImage = Nothing
@@ -315,7 +281,7 @@ Partial Class Navigation
         Me.dashboardbutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.dashboardbutton.FlatAppearance.BorderSize = 0
         Me.dashboardbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.dashboardbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.dashboardbutton.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dashboardbutton.ForeColor = System.Drawing.Color.White
         Me.dashboardbutton.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.dashboardbutton.Location = New System.Drawing.Point(0, 315)
@@ -347,6 +313,40 @@ Partial Class Navigation
         Me.Navigationpanel.Size = New System.Drawing.Size(940, 757)
         Me.Navigationpanel.TabIndex = 14
         '
+        'loanreleasedbttn
+        '
+        Me.loanreleasedbttn.BackColor = System.Drawing.Color.SteelBlue
+        Me.loanreleasedbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.loanreleasedbttn.FlatAppearance.BorderSize = 0
+        Me.loanreleasedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.loanreleasedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.loanreleasedbttn.ForeColor = System.Drawing.Color.White
+        Me.loanreleasedbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.loanreleasedbttn.Location = New System.Drawing.Point(0, 420)
+        Me.loanreleasedbttn.Name = "loanreleasedbttn"
+        Me.loanreleasedbttn.Size = New System.Drawing.Size(244, 26)
+        Me.loanreleasedbttn.TabIndex = 17
+        Me.loanreleasedbttn.Text = "Loan Released"
+        Me.loanreleasedbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.loanreleasedbttn.UseVisualStyleBackColor = False
+        '
+        'savingsbttn
+        '
+        Me.savingsbttn.BackColor = System.Drawing.Color.SteelBlue
+        Me.savingsbttn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.savingsbttn.FlatAppearance.BorderSize = 0
+        Me.savingsbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.savingsbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.savingsbttn.ForeColor = System.Drawing.Color.White
+        Me.savingsbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.savingsbttn.Location = New System.Drawing.Point(0, 385)
+        Me.savingsbttn.Name = "savingsbttn"
+        Me.savingsbttn.Size = New System.Drawing.Size(248, 26)
+        Me.savingsbttn.TabIndex = 5
+        Me.savingsbttn.Text = "Savings"
+        Me.savingsbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.savingsbttn.UseVisualStyleBackColor = False
+        '
         'Navigation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -370,13 +370,11 @@ Partial Class Navigation
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents loanreleasedbttn As Button
     Friend WithEvents positions As Label
     Friend WithEvents logout As Button
     Friend WithEvents accountbttn As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents filebttn As Button
-    Friend WithEvents processingbttn As Button
     Friend WithEvents applicationbttn As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents dashboardbutton As Button
@@ -388,4 +386,6 @@ Partial Class Navigation
     Friend WithEvents Label4 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Button2 As Button
+    Friend WithEvents loanreleasedbttn As Button
+    Friend WithEvents savingsbttn As Button
 End Class

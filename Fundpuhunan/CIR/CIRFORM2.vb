@@ -47,9 +47,9 @@
             Exit Sub
         Else
 
-            MsgBox("Proceed to the Dashboard")
-            LoanProcessing.Show()
-            Me.Hide()
+            MsgBox("Proceed to Complete")
+
+            Me.Close()
 
         End If
     End Sub

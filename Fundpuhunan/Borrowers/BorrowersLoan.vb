@@ -6,15 +6,7 @@ Public Class BorrowersLoan
 
     Private Sub linkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
 
-        If Vld(TextBox1) = False Then
-            MessageBox.Show("Fill up all Customer Number!")
-            Exit Sub
-        Else
 
-            MsgBox("Proceed")
-
-
-        End If
 
     End Sub
 
@@ -76,15 +68,15 @@ Public Class BorrowersLoan
 
     End Sub
 
-    Private Sub label13_Click(sender As Object, e As EventArgs) Handles label13.Click
+    Private Sub label13_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub dataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dataGridView1.CellContentClick
+    Private Sub dataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
 
     End Sub
 
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+    Private Sub Label1_Click(sender As Object, e As EventArgs)
 
     End Sub
 

@@ -3,12 +3,12 @@ Imports System.Text.RegularExpressions
 Public Class AppFormA
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        With Application
+        With Savings
 
             .TopLevel = False
             .AutoSize = True
 
-            Navigation.Navigationpanel.Controls.Add(Application)
+            Navigation.Navigationpanel.Controls.Add(Savings)
             .BringToFront()
             .Show()
 
