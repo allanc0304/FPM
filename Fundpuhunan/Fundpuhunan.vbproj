@@ -126,6 +126,12 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Files_record.vb" />
+    <Compile Include="BorrowersLoan.Designer.vb">
+      <DependentUpon>BorrowersLoan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BorrowersLoan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form\AddNewLoan.Designer.vb">
       <DependentUpon>AddNewLoan.vb</DependentUpon>
     </Compile>
@@ -259,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CIR\SearchCIR.resx">
       <DependentUpon>SearchCIR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BorrowersLoan.resx">
+      <DependentUpon>BorrowersLoan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\AddNewLoan.resx">
       <DependentUpon>AddNewLoan.vb</DependentUpon>
