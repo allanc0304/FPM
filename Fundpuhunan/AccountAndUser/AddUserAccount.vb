@@ -2,46 +2,64 @@
 
     Private Sub btnAddUserApply_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAddUserApply.Click
         If String.IsNullOrEmpty(txtLname.Text.Trim) Then
-            ErrorProvider1.SetError(txtLname, "Please Enter Borrower Last Name")
-            txtLname.Focus()
+            ErrorProvider1.SetError(txtLname, "Please Enter Last Name")
         Else
             ErrorProvider1.SetError(txtLname, String.Empty)
         End If
 
         If String.IsNullOrEmpty(txtFname.Text.Trim) Then
-            ErrorProvider1.SetError(txtFname, "Please Enter Borrower Last Name")
-            txtFname.Focus()
+            ErrorProvider1.SetError(txtFname, "Please Enter First Name")
         Else
             ErrorProvider1.SetError(txtFname, String.Empty)
         End If
 
         If String.IsNullOrEmpty(txtMname.Text.Trim) Then
-            ErrorProvider1.SetError(txtMname, "Please Enter Borrower Last Name")
-            txtMname.Focus()
+            ErrorProvider1.SetError(txtMname, "Please Enter Middle Name")
         Else
             ErrorProvider1.SetError(txtMname, String.Empty)
         End If
 
         If String.IsNullOrEmpty(cmbboxPosition.Text.Trim) Then
-            ErrorProvider1.SetError(cmbboxPosition, "Please Enter Borrower Last Name")
-            cmbboxPosition.Focus()
+            ErrorProvider1.SetError(cmbboxPosition, "Please Enter Position")
         Else
             ErrorProvider1.SetError(cmbboxPosition, String.Empty)
         End If
 
         If String.IsNullOrEmpty(txtUsername.Text.Trim) Then
-            ErrorProvider1.SetError(txtUsername, "Please Enter Borrower Last Name")
-            txtUsername.Focus()
+            ErrorProvider1.SetError(txtUsername, "Please Enter Username")
         Else
             ErrorProvider1.SetError(txtUsername, String.Empty)
         End If
 
         If String.IsNullOrEmpty(txtPassword.Text.Trim) Then
-            ErrorProvider1.SetError(txtPassword, "Please Enter Borrower Last Name")
-            txtPassword.Focus()
+            ErrorProvider1.SetError(txtPassword, "Please Enter Password")
         Else
             ErrorProvider1.SetError(txtPassword, String.Empty)
         End If
+
+        If txtLname.Text = "" Or txtFname.Text = "" Or txtMname.Text = "" Or cmbboxPosition.Text = "" Or txtUsername.Text = "" Or txtPassword.Text = "" Then
+
+            MsgBox("A field is missing")
+        End If
+
+        If Trim(txtUsername.Text).Length > 0 Then
+            If txtUsername.Text.Length <= 7 Then
+                MsgBox("Username not valid")
+                ErrorProvider1.SetError(txtUsername, "Enter at least 8 characters")
+            Else
+                ErrorProvider1.SetError(txtUsername, "")
+            End If
+        End If
+
+        If Trim(txtPassword.Text).Length > 0 Then
+            If txtPassword.Text.Length <= 7 Then
+                MsgBox("Password not valid")
+                ErrorProvider1.SetError(txtPassword, "Enter at least 8 characters")
+            Else
+                ErrorProvider1.SetError(txtPassword, "")
+            End If
+        End If
+
     End Sub
 
 

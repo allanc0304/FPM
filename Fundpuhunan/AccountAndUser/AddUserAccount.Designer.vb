@@ -73,7 +73,7 @@ Partial Class AddUserAccount
         Me.btnAddUserApply.BackColor = System.Drawing.Color.SteelBlue
         Me.btnAddUserApply.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnAddUserApply.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddUserApply.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddUserApply.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUserApply.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnAddUserApply.Location = New System.Drawing.Point(646, 277)
         Me.btnAddUserApply.Name = "btnAddUserApply"
@@ -87,7 +87,7 @@ Partial Class AddUserAccount
         Me.btnAddUserCancel.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.btnAddUserCancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.btnAddUserCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddUserCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddUserCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUserCancel.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnAddUserCancel.Location = New System.Drawing.Point(528, 277)
         Me.btnAddUserCancel.Name = "btnAddUserCancel"
