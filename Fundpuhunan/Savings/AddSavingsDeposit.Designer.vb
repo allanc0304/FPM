@@ -25,16 +25,16 @@ Partial Class AddSavingsDeposit
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.SD_CONFIRMBTN = New System.Windows.Forms.Button()
+        Me.SD_CANCELBTN = New System.Windows.Forms.Button()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.SD_COLB = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.SD_AD = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.SD_RB = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -63,29 +63,29 @@ Partial Class AddSavingsDeposit
         Me.Label6.Text = "_________________________________________________________________________________" &
     "______________________________________________"
         '
-        'Button3
+        'SD_CONFIRMBTN
         '
-        Me.Button3.BackColor = System.Drawing.Color.SteelBlue
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Location = New System.Drawing.Point(126, 253)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(82, 32)
-        Me.Button3.TabIndex = 83
-        Me.Button3.Text = "Confirm"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.SD_CONFIRMBTN.BackColor = System.Drawing.Color.SteelBlue
+        Me.SD_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.SD_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.SD_CONFIRMBTN.Location = New System.Drawing.Point(224, 256)
+        Me.SD_CONFIRMBTN.Name = "SD_CONFIRMBTN"
+        Me.SD_CONFIRMBTN.Size = New System.Drawing.Size(82, 32)
+        Me.SD_CONFIRMBTN.TabIndex = 83
+        Me.SD_CONFIRMBTN.Text = "Confirm"
+        Me.SD_CONFIRMBTN.UseVisualStyleBackColor = False
         '
-        'Button2
+        'SD_CANCELBTN
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(224, 253)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(82, 32)
-        Me.Button2.TabIndex = 81
-        Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.SD_CANCELBTN.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.SD_CANCELBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.SD_CANCELBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.SD_CANCELBTN.Location = New System.Drawing.Point(136, 256)
+        Me.SD_CANCELBTN.Name = "SD_CANCELBTN"
+        Me.SD_CANCELBTN.Size = New System.Drawing.Size(82, 32)
+        Me.SD_CANCELBTN.TabIndex = 81
+        Me.SD_CANCELBTN.Text = "Cancel"
+        Me.SD_CANCELBTN.UseVisualStyleBackColor = False
         '
         'Label18
         '
@@ -109,12 +109,12 @@ Partial Class AddSavingsDeposit
         Me.Label12.TabIndex = 88
         Me.Label12.Text = "( ex. 10,000)"
         '
-        'TextBox5
+        'SD_COLB
         '
-        Me.TextBox5.Location = New System.Drawing.Point(143, 200)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox5.TabIndex = 85
+        Me.SD_COLB.Location = New System.Drawing.Point(143, 200)
+        Me.SD_COLB.Name = "SD_COLB"
+        Me.SD_COLB.Size = New System.Drawing.Size(118, 20)
+        Me.SD_COLB.TabIndex = 85
         '
         'Label8
         '
@@ -127,12 +127,12 @@ Partial Class AddSavingsDeposit
         Me.Label8.TabIndex = 84
         Me.Label8.Text = "Collected by :"
         '
-        'TextBox4
+        'SD_AD
         '
-        Me.TextBox4.Location = New System.Drawing.Point(143, 122)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox4.TabIndex = 82
+        Me.SD_AD.Location = New System.Drawing.Point(143, 122)
+        Me.SD_AD.Name = "SD_AD"
+        Me.SD_AD.Size = New System.Drawing.Size(118, 20)
+        Me.SD_AD.TabIndex = 82
         '
         'Label7
         '
@@ -156,13 +156,13 @@ Partial Class AddSavingsDeposit
         Me.Label5.TabIndex = 77
         Me.Label5.Text = "Date :"
         '
-        'TextBox2
+        'SD_RB
         '
-        Me.TextBox2.Location = New System.Drawing.Point(143, 162)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(118, 20)
-        Me.TextBox2.TabIndex = 96
+        Me.SD_RB.Location = New System.Drawing.Point(143, 162)
+        Me.SD_RB.Name = "SD_RB"
+        Me.SD_RB.ReadOnly = True
+        Me.SD_RB.Size = New System.Drawing.Size(118, 20)
+        Me.SD_RB.TabIndex = 96
         '
         'Label9
         '
@@ -206,16 +206,16 @@ Partial Class AddSavingsDeposit
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(333, 300)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.SD_RB)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.SD_CONFIRMBTN)
+        Me.Controls.Add(Me.SD_CANCELBTN)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label12)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.SD_COLB)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.SD_AD)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label1)
@@ -229,16 +229,16 @@ Partial Class AddSavingsDeposit
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents SD_CONFIRMBTN As Button
+    Friend WithEvents SD_CANCELBTN As Button
     Friend WithEvents Label18 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents SD_COLB As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents SD_AD As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents SD_RB As TextBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents Label2 As Label

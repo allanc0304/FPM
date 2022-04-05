@@ -24,34 +24,31 @@ Partial Class AddLoanPayment
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.AP_PEN = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.AP_CONFIRMBTN = New System.Windows.Forms.Button()
+        Me.AP_CANCELBTN = New System.Windows.Forms.Button()
+        Me.AP_COLB = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.AP_EA = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.AP_CB = New System.Windows.Forms.TextBox()
+        Me.AP_REM = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Timer1
+        'AP_PEN
         '
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(148, 152)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(208, 23)
-        Me.TextBox11.TabIndex = 64
+        Me.AP_PEN.Location = New System.Drawing.Point(148, 152)
+        Me.AP_PEN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_PEN.Name = "AP_PEN"
+        Me.AP_PEN.Size = New System.Drawing.Size(208, 23)
+        Me.AP_PEN.TabIndex = 64
         '
         'Label22
         '
@@ -79,39 +76,39 @@ Partial Class AddLoanPayment
         Me.Label19.TabIndex = 60
         Me.Label19.Text = "Remark :"
         '
-        'Button3
+        'AP_CONFIRMBTN
         '
-        Me.Button3.BackColor = System.Drawing.Color.Green
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Location = New System.Drawing.Point(258, 210)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(98, 34)
-        Me.Button3.TabIndex = 55
-        Me.Button3.Text = "Confirm"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
+        Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(258, 210)
+        Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_CONFIRMBTN.Name = "AP_CONFIRMBTN"
+        Me.AP_CONFIRMBTN.Size = New System.Drawing.Size(98, 34)
+        Me.AP_CONFIRMBTN.TabIndex = 55
+        Me.AP_CONFIRMBTN.Text = "Confirm"
+        Me.AP_CONFIRMBTN.UseVisualStyleBackColor = False
         '
-        'Button2
+        'AP_CANCELBTN
         '
-        Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(149, 210)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(101, 34)
-        Me.Button2.TabIndex = 54
-        Me.Button2.Text = "Cancel"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.AP_CANCELBTN.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.AP_CANCELBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AP_CANCELBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.AP_CANCELBTN.Location = New System.Drawing.Point(149, 210)
+        Me.AP_CANCELBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_CANCELBTN.Name = "AP_CANCELBTN"
+        Me.AP_CANCELBTN.Size = New System.Drawing.Size(101, 34)
+        Me.AP_CANCELBTN.TabIndex = 54
+        Me.AP_CANCELBTN.Text = "Cancel"
+        Me.AP_CANCELBTN.UseVisualStyleBackColor = False
         '
-        'TextBox5
+        'AP_COLB
         '
-        Me.TextBox5.Location = New System.Drawing.Point(147, 181)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(209, 23)
-        Me.TextBox5.TabIndex = 57
+        Me.AP_COLB.Location = New System.Drawing.Point(147, 181)
+        Me.AP_COLB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_COLB.Name = "AP_COLB"
+        Me.AP_COLB.Size = New System.Drawing.Size(209, 23)
+        Me.AP_COLB.TabIndex = 57
         '
         'Label8
         '
@@ -126,13 +123,13 @@ Partial Class AddLoanPayment
         Me.Label8.TabIndex = 56
         Me.Label8.Text = "Collected by :"
         '
-        'TextBox4
+        'AP_EA
         '
-        Me.TextBox4.Location = New System.Drawing.Point(148, 91)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(209, 23)
-        Me.TextBox4.TabIndex = 53
+        Me.AP_EA.Location = New System.Drawing.Point(148, 91)
+        Me.AP_EA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_EA.Name = "AP_EA"
+        Me.AP_EA.Size = New System.Drawing.Size(209, 23)
+        Me.AP_EA.TabIndex = 53
         '
         'Label7
         '
@@ -172,24 +169,24 @@ Partial Class AddLoanPayment
         Me.Label17.TabIndex = 69
         Me.Label17.Text = "Current Balance  :"
         '
-        'TextBox1
+        'AP_CB
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.TextBox1.Location = New System.Drawing.Point(149, 44)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(208, 23)
-        Me.TextBox1.TabIndex = 71
+        Me.AP_CB.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.AP_CB.Location = New System.Drawing.Point(149, 44)
+        Me.AP_CB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_CB.Name = "AP_CB"
+        Me.AP_CB.ReadOnly = True
+        Me.AP_CB.Size = New System.Drawing.Size(208, 23)
+        Me.AP_CB.TabIndex = 71
         '
-        'ComboBox1
+        'AP_REM
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Updated", "Overdue"})
-        Me.ComboBox1.Location = New System.Drawing.Point(147, 120)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(209, 23)
-        Me.ComboBox1.TabIndex = 74
+        Me.AP_REM.FormattingEnabled = True
+        Me.AP_REM.Items.AddRange(New Object() {"Updated", "Overdue"})
+        Me.AP_REM.Location = New System.Drawing.Point(147, 120)
+        Me.AP_REM.Name = "AP_REM"
+        Me.AP_REM.Size = New System.Drawing.Size(209, 23)
+        Me.AP_REM.TabIndex = 74
         '
         'Label2
         '
@@ -239,18 +236,18 @@ Partial Class AddLoanPayment
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.AP_REM)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.AP_CB)
         Me.Controls.Add(Me.Label17)
-        Me.Controls.Add(Me.TextBox11)
+        Me.Controls.Add(Me.AP_PEN)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label19)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.AP_CONFIRMBTN)
+        Me.Controls.Add(Me.AP_CANCELBTN)
+        Me.Controls.Add(Me.AP_COLB)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.AP_EA)
         Me.Controls.Add(Me.Label7)
         Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
@@ -266,19 +263,19 @@ Partial Class AddLoanPayment
 
     End Sub
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents TextBox11 As TextBox
+    Friend WithEvents AP_PEN As TextBox
     Friend WithEvents Label22 As Label
     Friend WithEvents Label19 As Label
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents AP_CONFIRMBTN As Button
+    Friend WithEvents AP_CANCELBTN As Button
+    Friend WithEvents AP_COLB As TextBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents AP_EA As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label17 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents AP_CB As TextBox
+    Friend WithEvents AP_REM As ComboBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
