@@ -101,7 +101,7 @@ Partial Class AddSavingsDeposit
         Me.Label12.AutoSize = True
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.Color.Black
-        Me.Label12.Location = New System.Drawing.Point(181, 69)
+        Me.Label12.Location = New System.Drawing.Point(181, 109)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(47, 9)
         Me.Label12.TabIndex = 88
@@ -127,7 +127,7 @@ Partial Class AddSavingsDeposit
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(150, 81)
+        Me.TextBox4.Location = New System.Drawing.Point(150, 121)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(118, 20)
         Me.TextBox4.TabIndex = 82
@@ -137,7 +137,7 @@ Partial Class AddSavingsDeposit
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(22, 86)
+        Me.Label7.Location = New System.Drawing.Point(26, 122)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(98, 15)
         Me.Label7.TabIndex = 79
@@ -145,7 +145,7 @@ Partial Class AddSavingsDeposit
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(150, 121)
+        Me.TextBox2.Location = New System.Drawing.Point(150, 86)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(118, 20)
@@ -157,7 +157,7 @@ Partial Class AddSavingsDeposit
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.Black
-        Me.Label9.Location = New System.Drawing.Point(181, 109)
+        Me.Label9.Location = New System.Drawing.Point(181, 74)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(49, 9)
         Me.Label9.TabIndex = 92
@@ -169,7 +169,7 @@ Partial Class AddSavingsDeposit
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(22, 121)
+        Me.Label10.Location = New System.Drawing.Point(22, 86)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(122, 15)
         Me.Label10.TabIndex = 91
