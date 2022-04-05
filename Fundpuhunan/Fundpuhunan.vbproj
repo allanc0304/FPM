@@ -328,6 +328,9 @@
     <EmbeddedResource Include="releasecomputation.resx">
       <DependentUpon>releasecomputation.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Savings\WithdrawSavings.resx">
+      <DependentUpon>WithdrawSavings.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Application.myapp">
