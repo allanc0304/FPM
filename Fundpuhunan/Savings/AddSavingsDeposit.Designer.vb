@@ -44,7 +44,7 @@ Partial Class AddSavingsDeposit
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Label1.Location = New System.Drawing.Point(71, 25)
+        Me.Label1.Location = New System.Drawing.Point(26, 25)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(124, 20)
         Me.Label1.TabIndex = 75
@@ -66,7 +66,7 @@ Partial Class AddSavingsDeposit
         Me.Button3.BackColor = System.Drawing.Color.SteelBlue
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button3.Location = New System.Drawing.Point(239, 200)
+        Me.Button3.Location = New System.Drawing.Point(251, 185)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(82, 32)
         Me.Button3.TabIndex = 83
@@ -78,7 +78,7 @@ Partial Class AddSavingsDeposit
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(151, 200)
+        Me.Button2.Location = New System.Drawing.Point(163, 185)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(82, 32)
         Me.Button2.TabIndex = 81
@@ -182,7 +182,7 @@ Partial Class AddSavingsDeposit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(333, 237)
+        Me.ClientSize = New System.Drawing.Size(333, 225)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label10)
