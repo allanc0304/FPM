@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class releasecomputation
+Partial Class AddNewCir
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,17 +24,15 @@ Partial Class releasecomputation
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'releasecomputation
+        'AddNewCir
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(819, 476)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.MaximizeBox = False
-        Me.Name = "releasecomputation"
-        Me.ShowIcon = False
+        Me.ClientSize = New System.Drawing.Size(579, 333)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.Name = "AddNewCir"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Releasing and Computations"
+        Me.Text = "Add New CIR"
         Me.ResumeLayout(False)
 
     End Sub
