@@ -44,13 +44,14 @@ Partial Class BorrowersSavings
         Me.Label2 = New System.Windows.Forms.Label()
         Me.button1 = New System.Windows.Forms.Button()
         Me.pictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -59,7 +60,7 @@ Partial Class BorrowersSavings
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button3.BackColor = System.Drawing.Color.SteelBlue
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.Button3.ForeColor = System.Drawing.Color.White
@@ -72,12 +73,12 @@ Partial Class BorrowersSavings
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel3.BackColor = System.Drawing.Color.Green
         Me.Panel3.Controls.Add(Me.Label9)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(918, 30)
+        Me.Panel3.Size = New System.Drawing.Size(863, 30)
         Me.Panel3.TabIndex = 89
         '
         'Label9
@@ -85,46 +86,46 @@ Partial Class BorrowersSavings
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(363, 6)
+        Me.Label9.Location = New System.Drawing.Point(337, 2)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(193, 24)
+        Me.Label9.Size = New System.Drawing.Size(197, 24)
         Me.Label9.TabIndex = 42
-        Me.Label9.Text = "Borrowers Saving Info"
+        Me.Label9.Text = "Borrower's Saving Info"
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel2.BackColor = System.Drawing.Color.Green
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.DataGridView2)
-        Me.Panel2.Location = New System.Drawing.Point(-4, 232)
+        Me.Panel2.Location = New System.Drawing.Point(10, 232)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(922, 257)
+        Me.Panel2.Size = New System.Drawing.Size(840, 257)
         Me.Panel2.TabIndex = 88
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.Label6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(396, 10)
+        Me.Label6.Location = New System.Drawing.Point(340, 9)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(129, 24)
+        Me.Label6.Size = New System.Drawing.Size(157, 22)
         Me.Label6.TabIndex = 41
-        Me.Label6.Text = "Saving History"
+        Me.Label6.Text = "Saving's History"
         '
         'DataGridView2
         '
         Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace
         Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.Column2, Me.Column1, Me.Column3, Me.Column4})
+        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.Column1, Me.Column2, Me.Column3, Me.Column4})
         Me.DataGridView2.GridColor = System.Drawing.SystemColors.ActiveBorder
         Me.DataGridView2.Location = New System.Drawing.Point(7, 37)
         Me.DataGridView2.Name = "DataGridView2"
         Me.DataGridView2.RowHeadersVisible = False
         Me.DataGridView2.RowTemplate.Height = 20
         Me.DataGridView2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.DataGridView2.Size = New System.Drawing.Size(912, 217)
+        Me.DataGridView2.Size = New System.Drawing.Size(833, 217)
         Me.DataGridView2.TabIndex = 40
         Me.DataGridView2.TabStop = False
         '
@@ -260,15 +261,15 @@ Partial Class BorrowersSavings
         '
         'button1
         '
-        Me.button1.BackColor = System.Drawing.Color.SeaGreen
+        Me.button1.BackColor = System.Drawing.Color.Teal
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.ForeColor = System.Drawing.Color.White
-        Me.button1.Location = New System.Drawing.Point(733, 167)
+        Me.button1.Location = New System.Drawing.Point(733, 183)
         Me.button1.Name = "button1"
         Me.button1.Size = New System.Drawing.Size(117, 43)
         Me.button1.TabIndex = 73
-        Me.button1.Text = "Deposit"
+        Me.button1.Text = "Withdraw"
         Me.button1.UseVisualStyleBackColor = False
         '
         'pictureBox1
@@ -281,20 +282,21 @@ Partial Class BorrowersSavings
         Me.pictureBox1.TabIndex = 70
         Me.pictureBox1.TabStop = False
         '
-        'DateTimePicker1
+        'TextBox1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(234, 138)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 20)
-        Me.DateTimePicker1.TabIndex = 91
+        Me.TextBox1.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox1.Location = New System.Drawing.Point(234, 109)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(207, 21)
+        Me.TextBox1.TabIndex = 91
         '
-        'ComboBox1
+        'TextBox4
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(234, 108)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(55, 21)
-        Me.ComboBox1.TabIndex = 92
+        Me.TextBox4.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox4.Location = New System.Drawing.Point(234, 138)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(207, 21)
+        Me.TextBox4.TabIndex = 92
         '
         'DataGridViewTextBoxColumn1
         '
@@ -302,22 +304,22 @@ Partial Class BorrowersSavings
         Me.DataGridViewTextBoxColumn1.HeaderText = "Date"
         Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
         '
-        'Column2
-        '
-        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column2.HeaderText = "Remaining Balance"
-        Me.Column2.Name = "Column2"
-        '
         'Column1
         '
         Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column1.HeaderText = "Latest deposit"
+        Me.Column1.HeaderText = "Transaction Type"
         Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column2.HeaderText = "Amount Deposit/Withdraw"
+        Me.Column2.Name = "Column2"
         '
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.HeaderText = "Last Withdrawal "
+        Me.Column3.HeaderText = "Total Current Savings"
         Me.Column3.Name = "Column3"
         '
         'Column4
@@ -326,13 +328,27 @@ Partial Class BorrowersSavings
         Me.Column4.HeaderText = "Collected By"
         Me.Column4.Name = "Column4"
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Green
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.White
+        Me.Button2.Location = New System.Drawing.Point(610, 183)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(117, 43)
+        Me.Button2.TabIndex = 93
+        Me.Button2.Text = "Deposit"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'BorrowersSavings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(918, 497)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.DateTimePicker1)
+        Me.ClientSize = New System.Drawing.Size(863, 497)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
@@ -352,8 +368,13 @@ Partial Class BorrowersSavings
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.button1)
         Me.Controls.Add(Me.pictureBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "BorrowersSavings"
-        Me.Text = "BorrowersSavingsInfo"
+        Me.ShowIcon = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Borrower's Savings Info"
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
@@ -387,11 +408,12 @@ Partial Class BorrowersSavings
     Private WithEvents Label2 As Label
     Private WithEvents button1 As Button
     Private WithEvents pictureBox1 As PictureBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Private WithEvents TextBox1 As TextBox
+    Private WithEvents TextBox4 As TextBox
+    Private WithEvents Button2 As Button
 End Class
