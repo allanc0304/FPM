@@ -323,7 +323,7 @@ Partial Class BorrowersSavings
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column4.HeaderText = "Collector's Name"
+        Me.Column4.HeaderText = "Collected By"
         Me.Column4.Name = "Column4"
         '
         'BorrowersSavings

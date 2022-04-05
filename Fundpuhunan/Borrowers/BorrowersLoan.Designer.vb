@@ -46,6 +46,9 @@ Partial Class BorrowersLoan
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -53,9 +56,6 @@ Partial Class BorrowersLoan
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -77,7 +77,7 @@ Partial Class BorrowersLoan
         '
         Me.button1.BackColor = System.Drawing.Color.SeaGreen
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!)
+        Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
         Me.button1.ForeColor = System.Drawing.Color.White
         Me.button1.Location = New System.Drawing.Point(738, 193)
         Me.button1.Name = "button1"
@@ -261,11 +261,11 @@ Partial Class BorrowersLoan
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!)
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(313, 8)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(232, 22)
+        Me.Label6.Size = New System.Drawing.Size(212, 24)
         Me.Label6.TabIndex = 41
         Me.Label6.Text = "LoanTransaction History"
         '
@@ -284,6 +284,40 @@ Partial Class BorrowersLoan
         Me.DataGridView2.Size = New System.Drawing.Size(840, 219)
         Me.DataGridView2.TabIndex = 40
         Me.DataGridView2.TabStop = False
+        '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(862, 30)
+        Me.Panel3.TabIndex = 65
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(355, 4)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(131, 24)
+        Me.Label9.TabIndex = 42
+        Me.Label9.Text = "Borrowers Info"
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.Button3.ForeColor = System.Drawing.Color.White
+        Me.Button3.Location = New System.Drawing.Point(15, 169)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(100, 31)
+        Me.Button3.TabIndex = 69
+        Me.Button3.Text = "View Form"
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'DataGridViewTextBoxColumn1
         '
@@ -320,43 +354,9 @@ Partial Class BorrowersLoan
         '
         'DataGridViewTextBoxColumn4
         '
-        Me.DataGridViewTextBoxColumn4.HeaderText = "Collector's Name"
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Collected By "
         Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
         Me.DataGridViewTextBoxColumn4.Width = 200
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.SeaGreen
-        Me.Panel3.Controls.Add(Me.Label9)
-        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel3.Location = New System.Drawing.Point(0, 0)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(862, 30)
-        Me.Panel3.TabIndex = 65
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!)
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(355, 4)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(145, 22)
-        Me.Label9.TabIndex = 42
-        Me.Label9.Text = "Borrowers Info"
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!)
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(15, 169)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 31)
-        Me.Button3.TabIndex = 69
-        Me.Button3.Text = "View Form"
-        Me.Button3.UseVisualStyleBackColor = False
         '
         'BorrowersLoan
         '
