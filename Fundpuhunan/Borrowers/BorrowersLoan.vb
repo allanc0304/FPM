@@ -91,4 +91,8 @@ Public Class BorrowersLoan
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         AppFormA.Show()
     End Sub
+
+    Private Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
+        AddLoanPayment.Show()
+    End Sub
 End Class
