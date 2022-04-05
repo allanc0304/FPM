@@ -100,7 +100,7 @@ Partial Class Navigation
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label4.Location = New System.Drawing.Point(96, 57)
+        Me.Label4.Location = New System.Drawing.Point(96, 54)
         Me.Label4.Name = "Label4"
         Me.Label4.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Label4.Size = New System.Drawing.Size(109, 15)
@@ -124,13 +124,13 @@ Partial Class Navigation
         'Label3
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Lime
         Me.Label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label3.Location = New System.Drawing.Point(96, 39)
         Me.Label3.Name = "Label3"
         Me.Label3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label3.Size = New System.Drawing.Size(109, 15)
+        Me.Label3.Size = New System.Drawing.Size(121, 15)
         Me.Label3.TabIndex = 62
         Me.Label3.Text = "MICROFINANCE"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -138,19 +138,21 @@ Partial Class Navigation
         'Label1
         '
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Lime
         Me.Label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Label1.Location = New System.Drawing.Point(96, 21)
+        Me.Label1.Location = New System.Drawing.Point(95, 24)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label1.Size = New System.Drawing.Size(109, 15)
+        Me.Label1.Size = New System.Drawing.Size(126, 15)
         Me.Label1.TabIndex = 61
         Me.Label1.Text = "FUNDPUHUNAN"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox2
         '
+        Me.PictureBox2.BackColor = System.Drawing.Color.White
+        Me.PictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox2.Location = New System.Drawing.Point(9, 12)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(81, 73)
@@ -186,8 +188,8 @@ Partial Class Navigation
         'positions
         '
         Me.positions.BackColor = System.Drawing.Color.Transparent
-        Me.positions.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.positions.ForeColor = System.Drawing.Color.Black
+        Me.positions.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.positions.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.positions.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.positions.Location = New System.Drawing.Point(83, 257)
         Me.positions.Name = "positions"
@@ -233,8 +235,8 @@ Partial Class Navigation
         'Label2
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Label2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label2.Location = New System.Drawing.Point(11, 232)
         Me.Label2.Name = "Label2"

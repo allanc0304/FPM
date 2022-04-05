@@ -92,7 +92,7 @@ Partial Class Login
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox1.Location = New System.Drawing.Point(269, 151)
+        Me.CheckBox1.Location = New System.Drawing.Point(269, 140)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(102, 17)
         Me.CheckBox1.TabIndex = 72
@@ -102,7 +102,7 @@ Partial Class Login
         'password
         '
         Me.password.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.password.Location = New System.Drawing.Point(269, 124)
+        Me.password.Location = New System.Drawing.Point(269, 113)
         Me.password.Name = "password"
         Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password.Size = New System.Drawing.Size(228, 21)
@@ -122,11 +122,11 @@ Partial Class Login
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Highlight
-        Me.Label1.Location = New System.Drawing.Point(266, 44)
+        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.SteelBlue
+        Me.Label1.Location = New System.Drawing.Point(285, 33)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(155, 18)
+        Me.Label1.Size = New System.Drawing.Size(182, 18)
         Me.Label1.TabIndex = 69
         Me.Label1.Text = "Login to your account"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -135,12 +135,13 @@ Partial Class Login
         '
         Me.logbutton.BackColor = System.Drawing.Color.SteelBlue
         Me.logbutton.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.logbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.logbutton.FlatAppearance.BorderSize = 0
+        Me.logbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.logbutton.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logbutton.ForeColor = System.Drawing.Color.White
-        Me.logbutton.Location = New System.Drawing.Point(269, 174)
+        Me.logbutton.Location = New System.Drawing.Point(299, 174)
         Me.logbutton.Name = "logbutton"
-        Me.logbutton.Size = New System.Drawing.Size(228, 35)
+        Me.logbutton.Size = New System.Drawing.Size(152, 35)
         Me.logbutton.TabIndex = 68
         Me.logbutton.Text = "LOGIN"
         Me.logbutton.UseVisualStyleBackColor = False
@@ -148,7 +149,7 @@ Partial Class Login
         'PictureBox3
         '
         Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox3.Location = New System.Drawing.Point(239, 121)
+        Me.PictureBox3.Location = New System.Drawing.Point(239, 110)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(24, 24)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
