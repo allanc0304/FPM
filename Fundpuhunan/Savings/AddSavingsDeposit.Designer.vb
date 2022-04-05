@@ -40,18 +40,18 @@ Partial Class AddSavingsDeposit
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Label1.Location = New System.Drawing.Point(233, 32)
+        Me.Label1.Location = New System.Drawing.Point(25, 25)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(116, 20)
+        Me.Label1.Size = New System.Drawing.Size(124, 20)
         Me.Label1.TabIndex = 75
-        Me.Label1.Text = "Saving Deposit"
+        Me.Label1.Text = "Deposit Savings"
         '
         'SD_CONFIRMBTN
         '
         Me.SD_CONFIRMBTN.BackColor = System.Drawing.Color.SteelBlue
         Me.SD_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SD_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.SD_CONFIRMBTN.Location = New System.Drawing.Point(237, 177)
+        Me.SD_CONFIRMBTN.Location = New System.Drawing.Point(224, 256)
         Me.SD_CONFIRMBTN.Name = "SD_CONFIRMBTN"
         Me.SD_CONFIRMBTN.Size = New System.Drawing.Size(82, 32)
         Me.SD_CONFIRMBTN.TabIndex = 83
@@ -63,16 +63,38 @@ Partial Class AddSavingsDeposit
         Me.SD_CANCELBTN.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.SD_CANCELBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.SD_CANCELBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.SD_CANCELBTN.Location = New System.Drawing.Point(149, 177)
+        Me.SD_CANCELBTN.Location = New System.Drawing.Point(151, 180)
         Me.SD_CANCELBTN.Name = "SD_CANCELBTN"
         Me.SD_CANCELBTN.Size = New System.Drawing.Size(82, 32)
         Me.SD_CANCELBTN.TabIndex = 81
         Me.SD_CANCELBTN.Text = "Cancel"
         Me.SD_CANCELBTN.UseVisualStyleBackColor = False
         '
+        'Label18
+        '
+        Me.Label18.AutoSize = True
+        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.Color.Black
+        Me.Label18.Location = New System.Drawing.Point(184, 142)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(59, 9)
+        Me.Label18.TabIndex = 90
+        Me.Label18.Text = "( FULL NAME )"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.Black
+        Me.Label12.Location = New System.Drawing.Point(178, 100)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(47, 9)
+        Me.Label12.TabIndex = 88
+        Me.Label12.Text = "( ex. 10,000)"
+        '
         'SD_COLB
         '
-        Me.SD_COLB.Location = New System.Drawing.Point(201, 151)
+        Me.SD_COLB.Location = New System.Drawing.Point(155, 154)
         Me.SD_COLB.Name = "SD_COLB"
         Me.SD_COLB.Size = New System.Drawing.Size(172, 20)
         Me.SD_COLB.TabIndex = 85
@@ -82,7 +104,7 @@ Partial Class AddSavingsDeposit
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
-        Me.Label8.Location = New System.Drawing.Point(77, 151)
+        Me.Label8.Location = New System.Drawing.Point(6, 154)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(79, 15)
         Me.Label8.TabIndex = 84
@@ -90,7 +112,7 @@ Partial Class AddSavingsDeposit
         '
         'SD_AD
         '
-        Me.SD_AD.Location = New System.Drawing.Point(201, 73)
+        Me.SD_AD.Location = New System.Drawing.Point(155, 112)
         Me.SD_AD.Name = "SD_AD"
         Me.SD_AD.Size = New System.Drawing.Size(172, 20)
         Me.SD_AD.TabIndex = 82
@@ -100,19 +122,31 @@ Partial Class AddSavingsDeposit
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
-        Me.Label7.Location = New System.Drawing.Point(73, 78)
+        Me.Label7.Location = New System.Drawing.Point(6, 112)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(98, 15)
+        Me.Label7.Size = New System.Drawing.Size(143, 15)
         Me.Label7.TabIndex = 79
-        Me.Label7.Text = "Amount-Depost :"
+        Me.Label7.Text = "Enter Amount to deposit :"
         '
         'SD_RB
         '
-        Me.SD_RB.Location = New System.Drawing.Point(201, 113)
+        Me.SD_RB.Location = New System.Drawing.Point(155, 72)
         Me.SD_RB.Name = "SD_RB"
         Me.SD_RB.ReadOnly = True
         Me.SD_RB.Size = New System.Drawing.Size(172, 20)
         Me.SD_RB.TabIndex = 96
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.Black
+        Me.Label9.Location = New System.Drawing.Point(184, 60)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(49, 9)
+        Me.Label9.TabIndex = 92
+        Me.Label9.Text = "( ex. 20,000 )"
         '
         'Label10
         '
@@ -120,11 +154,11 @@ Partial Class AddSavingsDeposit
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
-        Me.Label10.Location = New System.Drawing.Point(73, 113)
+        Me.Label10.Location = New System.Drawing.Point(6, 72)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(122, 15)
+        Me.Label10.Size = New System.Drawing.Size(133, 15)
         Me.Label10.TabIndex = 91
-        Me.Label10.Text = "Remaining Balance :"
+        Me.Label10.Text = "Total Currrent Savings :"
         '
         'Timer1
         '
@@ -133,7 +167,7 @@ Partial Class AddSavingsDeposit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(504, 262)
+        Me.ClientSize = New System.Drawing.Size(333, 217)
         Me.Controls.Add(Me.SD_RB)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.SD_CONFIRMBTN)
