@@ -167,7 +167,6 @@ Partial Class CIRFORMB
         Me.txtBLname = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnSubmit = New System.Windows.Forms.Button()
-        Me.movebttn = New System.Windows.Forms.Button()
         Me.ErrorProvider31 = New System.Windows.Forms.ErrorProvider(Me.components)
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -241,11 +240,11 @@ Partial Class CIRFORMB
         Me.btnCancel.AutoSize = True
         Me.btnCancel.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnCancel.Location = New System.Drawing.Point(692, 1316)
+        Me.btnCancel.Location = New System.Drawing.Point(708, 1312)
         Me.btnCancel.Name = "btnCancel"
-        Me.btnCancel.Size = New System.Drawing.Size(113, 31)
+        Me.btnCancel.Size = New System.Drawing.Size(120, 31)
         Me.btnCancel.TabIndex = 844
         Me.btnCancel.Text = "Back"
         Me.btnCancel.UseVisualStyleBackColor = False
@@ -1442,28 +1441,14 @@ Partial Class CIRFORMB
         Me.btnSubmit.AutoSize = True
         Me.btnSubmit.BackColor = System.Drawing.Color.Green
         Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubmit.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnSubmit.Location = New System.Drawing.Point(810, 1316)
+        Me.btnSubmit.Location = New System.Drawing.Point(834, 1312)
         Me.btnSubmit.Name = "btnSubmit"
-        Me.btnSubmit.Size = New System.Drawing.Size(141, 31)
+        Me.btnSubmit.Size = New System.Drawing.Size(120, 31)
         Me.btnSubmit.TabIndex = 843
         Me.btnSubmit.Text = "Finish and Save"
         Me.btnSubmit.UseVisualStyleBackColor = False
-        '
-        'movebttn
-        '
-        Me.movebttn.AutoSize = True
-        Me.movebttn.BackColor = System.Drawing.Color.Teal
-        Me.movebttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.movebttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.movebttn.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.movebttn.Location = New System.Drawing.Point(810, 1307)
-        Me.movebttn.Name = "movebttn"
-        Me.movebttn.Size = New System.Drawing.Size(141, 31)
-        Me.movebttn.TabIndex = 851
-        Me.movebttn.Text = "Move to Releasing"
-        Me.movebttn.UseVisualStyleBackColor = False
         '
         'ErrorProvider31
         '
@@ -1475,7 +1460,7 @@ Partial Class CIRFORMB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 20)
-        Me.ClientSize = New System.Drawing.Size(1020, 699)
+        Me.ClientSize = New System.Drawing.Size(991, 699)
         Me.Controls.Add(Me.Label57)
         Me.Controls.Add(Me.Label56)
         Me.Controls.Add(Me.txtApprovedBy)
@@ -1600,12 +1585,11 @@ Partial Class CIRFORMB
         Me.Controls.Add(Me.txtBLname)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnSubmit)
-        Me.Controls.Add(Me.movebttn)
         Me.MaximizeBox = False
         Me.Name = "CIRFORMB"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "CIRFORMB"
+        Me.Text = "CIRFORM Part 2/2"
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.ErrorProvider15, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1757,7 +1741,6 @@ Partial Class CIRFORMB
     Friend WithEvents txtBLname As TextBox
     Public WithEvents Label2 As Label
     Friend WithEvents btnSubmit As Button
-    Friend WithEvents movebttn As Button
     Friend WithEvents ErrorProvider14 As ErrorProvider
     Friend WithEvents ErrorProvider15 As ErrorProvider
     Friend WithEvents ErrorProvider16 As ErrorProvider

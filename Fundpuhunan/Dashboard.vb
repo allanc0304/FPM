@@ -16,7 +16,7 @@
 
         End With
 
-        AppFormA.Show()
+
     End Sub
 
     Private Sub AccounSettingsbttn_Click(sender As Object, e As EventArgs) Handles AccounSettingsbttn.Click

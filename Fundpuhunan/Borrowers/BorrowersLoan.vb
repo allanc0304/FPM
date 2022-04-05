@@ -95,4 +95,11 @@ Public Class BorrowersLoan
     Private Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
         AddLoanPayment.Show()
     End Sub
+
+    Private Sub AP_CONFIRMBTN_Click(sender As Object, e As EventArgs) Handles AP_CONFIRMBTN.Click
+        BorrowersSavings.Show()
+
+        Me.Hide()
+
+    End Sub
 End Class

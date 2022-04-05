@@ -915,9 +915,9 @@ Partial Class AppFormA
         '
         Me.Button1.BackColor = System.Drawing.Color.SteelBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Location = New System.Drawing.Point(589, 1469)
+        Me.Button1.Location = New System.Drawing.Point(601, 1465)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 30)
         Me.Button1.TabIndex = 333
@@ -1448,9 +1448,9 @@ Partial Class AppFormA
         Me.Button3.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Button3.FlatAppearance.BorderSize = 0
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button3.Location = New System.Drawing.Point(481, 1469)
+        Me.Button3.Location = New System.Drawing.Point(495, 1465)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 30)
         Me.Button3.TabIndex = 431

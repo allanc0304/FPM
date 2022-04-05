@@ -52,6 +52,7 @@ Partial Class BorrowersSavings
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,7 +63,7 @@ Partial Class BorrowersSavings
         '
         Me.Button3.BackColor = System.Drawing.Color.SteelBlue
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(10, 156)
         Me.Button3.Name = "Button3"
@@ -341,11 +342,25 @@ Partial Class BorrowersSavings
         Me.Button2.Text = "Deposit"
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.SeaGreen
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.ForeColor = System.Drawing.Color.White
+        Me.Button4.Location = New System.Drawing.Point(12, 193)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(100, 31)
+        Me.Button4.TabIndex = 94
+        Me.Button4.Text = "View Loan"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
         'BorrowersSavings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(863, 497)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.TextBox1)
@@ -368,7 +383,7 @@ Partial Class BorrowersSavings
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.button1)
         Me.Controls.Add(Me.pictureBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "BorrowersSavings"
@@ -416,4 +431,5 @@ Partial Class BorrowersSavings
     Private WithEvents TextBox1 As TextBox
     Private WithEvents TextBox4 As TextBox
     Private WithEvents Button2 As Button
+    Private WithEvents Button4 As Button
 End Class

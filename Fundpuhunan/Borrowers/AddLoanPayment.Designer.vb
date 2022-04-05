@@ -76,7 +76,7 @@ Partial Class AddLoanPayment
         '
         'AP_CONFIRMBTN
         '
-        Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
+        Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.SeaGreen
         Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(258, 210)
@@ -230,7 +230,7 @@ Partial Class AddLoanPayment
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(504, 262)
+        Me.ClientSize = New System.Drawing.Size(434, 261)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -248,7 +248,7 @@ Partial Class AddLoanPayment
         Me.Controls.Add(Me.AP_EA)
         Me.Controls.Add(Me.Label7)
         Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.MaximizeBox = False
         Me.MinimizeBox = False

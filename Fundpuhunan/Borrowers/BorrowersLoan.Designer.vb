@@ -46,9 +46,6 @@ Partial Class BorrowersLoan
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -56,6 +53,10 @@ Partial Class BorrowersLoan
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.AP_CONFIRMBTN = New System.Windows.Forms.Button()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -77,7 +78,7 @@ Partial Class BorrowersLoan
         '
         Me.button1.BackColor = System.Drawing.Color.SeaGreen
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.ForeColor = System.Drawing.Color.White
         Me.button1.Location = New System.Drawing.Point(738, 193)
         Me.button1.Name = "button1"
@@ -281,43 +282,9 @@ Partial Class BorrowersLoan
         Me.DataGridView2.RowHeadersVisible = False
         Me.DataGridView2.RowTemplate.Height = 20
         Me.DataGridView2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.DataGridView2.Size = New System.Drawing.Size(840, 219)
+        Me.DataGridView2.Size = New System.Drawing.Size(843, 219)
         Me.DataGridView2.TabIndex = 40
         Me.DataGridView2.TabStop = False
-        '
-        'Panel3
-        '
-        Me.Panel3.BackColor = System.Drawing.Color.SeaGreen
-        Me.Panel3.Controls.Add(Me.Label9)
-        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel3.Location = New System.Drawing.Point(0, 0)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(862, 30)
-        Me.Panel3.TabIndex = 65
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
-        Me.Label9.ForeColor = System.Drawing.Color.White
-        Me.Label9.Location = New System.Drawing.Point(355, 4)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(131, 24)
-        Me.Label9.TabIndex = 42
-        Me.Label9.Text = "Borrowers Info"
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(15, 169)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(100, 31)
-        Me.Button3.TabIndex = 69
-        Me.Button3.Text = "View Form"
-        Me.Button3.UseVisualStyleBackColor = False
         '
         'DataGridViewTextBoxColumn1
         '
@@ -358,11 +325,60 @@ Partial Class BorrowersLoan
         Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
         Me.DataGridViewTextBoxColumn4.Width = 200
         '
+        'Panel3
+        '
+        Me.Panel3.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel3.Location = New System.Drawing.Point(0, 0)
+        Me.Panel3.Name = "Panel3"
+        Me.Panel3.Size = New System.Drawing.Size(862, 30)
+        Me.Panel3.TabIndex = 65
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.Label9.ForeColor = System.Drawing.Color.White
+        Me.Label9.Location = New System.Drawing.Point(355, 4)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(131, 24)
+        Me.Label9.TabIndex = 42
+        Me.Label9.Text = "Borrowers Info"
+        '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.White
+        Me.Button3.Location = New System.Drawing.Point(15, 169)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(100, 31)
+        Me.Button3.TabIndex = 69
+        Me.Button3.Text = "View Form"
+        Me.Button3.UseVisualStyleBackColor = False
+        '
+        'AP_CONFIRMBTN
+        '
+        Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
+        Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AP_CONFIRMBTN.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(16, 206)
+        Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_CONFIRMBTN.Name = "AP_CONFIRMBTN"
+        Me.AP_CONFIRMBTN.Size = New System.Drawing.Size(99, 30)
+        Me.AP_CONFIRMBTN.TabIndex = 98
+        Me.AP_CONFIRMBTN.Text = "View Savings"
+        Me.AP_CONFIRMBTN.UseVisualStyleBackColor = False
+        '
         'BorrowersLoan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(862, 511)
+        Me.Controls.Add(Me.AP_CONFIRMBTN)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
@@ -385,7 +401,7 @@ Partial Class BorrowersLoan
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.button1)
         Me.Controls.Add(Me.pictureBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
         Me.Name = "BorrowersLoan"
         Me.ShowIcon = False
@@ -435,4 +451,5 @@ Partial Class BorrowersLoan
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Friend WithEvents AP_CONFIRMBTN As Button
 End Class

@@ -682,11 +682,11 @@ Partial Class AppFormB
         Me.proceedbttn.BackColor = System.Drawing.Color.Green
         Me.proceedbttn.FlatAppearance.BorderSize = 0
         Me.proceedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.proceedbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.proceedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.proceedbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.proceedbttn.Location = New System.Drawing.Point(606, 1900)
+        Me.proceedbttn.Location = New System.Drawing.Point(609, 1901)
         Me.proceedbttn.Name = "proceedbttn"
-        Me.proceedbttn.Size = New System.Drawing.Size(113, 31)
+        Me.proceedbttn.Size = New System.Drawing.Size(115, 31)
         Me.proceedbttn.TabIndex = 160
         Me.proceedbttn.Text = "Proceed To CIR"
         Me.proceedbttn.UseVisualStyleBackColor = False
@@ -1322,14 +1322,14 @@ Partial Class AppFormB
         '
         'Button9
         '
-        Me.Button9.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Button9.BackColor = System.Drawing.Color.SteelBlue
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button9.Location = New System.Drawing.Point(498, 1900)
+        Me.Button9.Location = New System.Drawing.Point(487, 1901)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(102, 31)
+        Me.Button9.Size = New System.Drawing.Size(116, 31)
         Me.Button9.TabIndex = 260
         Me.Button9.Text = "Back"
         Me.Button9.UseVisualStyleBackColor = False
@@ -1392,7 +1392,7 @@ Partial Class AppFormB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
-        Me.ClientSize = New System.Drawing.Size(765, 708)
+        Me.ClientSize = New System.Drawing.Size(765, 651)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label79)
