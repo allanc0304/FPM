@@ -1,7 +1,7 @@
 ﻿Public Class AddLoanPayment
 
     Private Sub AddLoanPayment_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Timer1.Enabled = True
+
     End Sub
 
     Private Sub AP_CB_KeyPress(sender As Object, e As KeyPressEventArgs) Handles AP_CB.KeyPress
@@ -42,10 +42,10 @@
     Private Sub AP_CONFIRMBTN_Click(sender As Object, e As EventArgs) Handles AP_CONFIRMBTN.Click
         Dim ask As MsgBoxResult = MsgBox("Would you like to exit?", MsgBoxStyle.YesNo, "Exit")
         If ask = MsgBoxResult.Yes Then
-            BorrowersList.Show()
-            Me.Hide()
+
+
         Else
-            MsgBox("You will go back to Add Payment page", MsgBoxStyle.OkCancel, "Exit")
+
         End If
     End Sub
 

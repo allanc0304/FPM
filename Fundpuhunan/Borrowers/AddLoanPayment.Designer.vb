@@ -22,8 +22,6 @@ Partial Class AddLoanPayment
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.AP_PEN = New System.Windows.Forms.TextBox()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
@@ -262,7 +260,6 @@ Partial Class AddLoanPayment
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Timer1 As Timer
     Friend WithEvents AP_PEN As TextBox
     Friend WithEvents Label22 As Label
     Friend WithEvents Label19 As Label

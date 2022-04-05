@@ -3,7 +3,7 @@
         Timer1.Enabled = True
     End Sub
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        Label2.Text = Date.Now.ToString("MMM dd yyyy hh:mm:ss")
+
     End Sub
 
     Private Sub SD_AD_KeyPress(sender As Object, e As KeyPressEventArgs) Handles SD_AD.KeyPress
