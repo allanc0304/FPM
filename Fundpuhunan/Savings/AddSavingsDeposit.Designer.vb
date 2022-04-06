@@ -33,7 +33,7 @@ Partial Class AddSavingsDeposit
         Me.SD_RB = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.AP_CONFIRMBTN = New System.Windows.Forms.Button()
+        Me.DS_CONFIRMBTN = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -139,25 +139,25 @@ Partial Class AddSavingsDeposit
         'Timer1
         '
         '
-        'AP_CONFIRMBTN
+        'DS_CONFIRMBTN
         '
-        Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
-        Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(312, 187)
-        Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.AP_CONFIRMBTN.Name = "AP_CONFIRMBTN"
-        Me.AP_CONFIRMBTN.Size = New System.Drawing.Size(109, 37)
-        Me.AP_CONFIRMBTN.TabIndex = 97
-        Me.AP_CONFIRMBTN.Text = "Confirm"
-        Me.AP_CONFIRMBTN.UseVisualStyleBackColor = False
+        Me.DS_CONFIRMBTN.BackColor = System.Drawing.Color.Green
+        Me.DS_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DS_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.DS_CONFIRMBTN.Location = New System.Drawing.Point(312, 187)
+        Me.DS_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.DS_CONFIRMBTN.Name = "DS_CONFIRMBTN"
+        Me.DS_CONFIRMBTN.Size = New System.Drawing.Size(109, 37)
+        Me.DS_CONFIRMBTN.TabIndex = 97
+        Me.DS_CONFIRMBTN.Text = "Confirm"
+        Me.DS_CONFIRMBTN.UseVisualStyleBackColor = False
         '
         'AddSavingsDeposit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(434, 261)
-        Me.Controls.Add(Me.AP_CONFIRMBTN)
+        Me.Controls.Add(Me.DS_CONFIRMBTN)
         Me.Controls.Add(Me.SD_RB)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.SD_CONFIRMBTN)
@@ -188,5 +188,5 @@ Partial Class AddSavingsDeposit
     Friend WithEvents SD_RB As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents AP_CONFIRMBTN As Button
+    Friend WithEvents DS_CONFIRMBTN As Button
 End Class

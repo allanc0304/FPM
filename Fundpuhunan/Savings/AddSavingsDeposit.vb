@@ -27,13 +27,18 @@
         End If
     End Sub
 
-    Private Sub SD_CONFIRMBTN_Click(sender As Object, e As EventArgs) Handles SD_CONFIRMBTN.Click
-        Dim ask As MsgBoxResult = MsgBox("Would you like to exit?", MsgBoxStyle.YesNo, "Exit")
+    Private Sub DS_CONFIRMBTN_Click(sender As Object, e As EventArgs) Handles DS_CONFIRMBTN.Click
+        Dim ask As MsgBoxResult = MsgBox("Would you like to Add this Deposit?", MsgBoxStyle.YesNo, "Confirm Deposit")
         If ask = MsgBoxResult.Yes Then
-            BorrowersSavings.Show()
-            Me.Hide()
+            'dito ilalagay yung code ng query para maupdate yung database
+            If SD_AD.Text = "" Or SD_COLB.Text = "" Then
+                MessageBox.Show("Please fill up the empty fields!", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Else
+                Me.Close()
+            End If
+        ElseIf SD_AD.Text = "" Or SD_COLB.Text = "" Then
+            MessageBox.Show("Please fill up the empty fields!", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
-            MsgBox("You will go back to Saving Deposit page", MsgBoxStyle.OkCancel, "Exit")
         End If
     End Sub
 
