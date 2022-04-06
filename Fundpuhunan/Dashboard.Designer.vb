@@ -36,13 +36,14 @@ Partial Class Dashboard
         Me.AddNewoanbttn = New System.Windows.Forms.Button()
         Me.AccounSettingsbttn = New System.Windows.Forms.Button()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewImageColumn1 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewImageColumn1 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DGVongoingloan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -112,7 +113,7 @@ Partial Class Dashboard
         Me.Button5.BackColor = System.Drawing.Color.SeaGreen
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button5.Location = New System.Drawing.Point(295, 40)
         Me.Button5.Name = "Button5"
@@ -124,11 +125,11 @@ Partial Class Dashboard
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(157, 7)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(154, 24)
+        Me.Label1.Size = New System.Drawing.Size(147, 25)
         Me.Label1.TabIndex = 47
         Me.Label1.Text = "Ongoing Loan"
         '
@@ -144,7 +145,7 @@ Partial Class Dashboard
         Me.collectpaymentbttn.BackColor = System.Drawing.Color.DarkOrange
         Me.collectpaymentbttn.FlatAppearance.BorderSize = 0
         Me.collectpaymentbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.collectpaymentbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.collectpaymentbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.collectpaymentbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.collectpaymentbttn.Location = New System.Drawing.Point(296, 40)
         Me.collectpaymentbttn.Name = "collectpaymentbttn"
@@ -158,7 +159,7 @@ Partial Class Dashboard
         Me.ViewAllLoanbttn.BackColor = System.Drawing.SystemColors.Highlight
         Me.ViewAllLoanbttn.FlatAppearance.BorderSize = 0
         Me.ViewAllLoanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ViewAllLoanbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ViewAllLoanbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ViewAllLoanbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.ViewAllLoanbttn.Location = New System.Drawing.Point(693, 40)
         Me.ViewAllLoanbttn.Name = "ViewAllLoanbttn"
@@ -172,7 +173,7 @@ Partial Class Dashboard
         Me.AddNewoanbttn.BackColor = System.Drawing.Color.SeaGreen
         Me.AddNewoanbttn.FlatAppearance.BorderSize = 0
         Me.AddNewoanbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AddNewoanbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AddNewoanbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AddNewoanbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.AddNewoanbttn.Location = New System.Drawing.Point(93, 40)
         Me.AddNewoanbttn.Name = "AddNewoanbttn"
@@ -186,7 +187,7 @@ Partial Class Dashboard
         Me.AccounSettingsbttn.BackColor = System.Drawing.Color.Green
         Me.AccounSettingsbttn.FlatAppearance.BorderSize = 0
         Me.AccounSettingsbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AccounSettingsbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AccounSettingsbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AccounSettingsbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.AccounSettingsbttn.Location = New System.Drawing.Point(496, 40)
         Me.AccounSettingsbttn.Name = "AccounSettingsbttn"
@@ -215,49 +216,6 @@ Partial Class Dashboard
         Me.DataGridView2.Size = New System.Drawing.Size(451, 491)
         Me.DataGridView2.TabIndex = 47
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(201, 7)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(90, 24)
-        Me.Label2.TabIndex = 47
-        Me.Label2.Text = "Savings"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(84, 37)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(284, 20)
-        Me.TextBox2.TabIndex = 55
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.Green
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button6.Location = New System.Drawing.Point(374, 36)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(74, 23)
-        Me.Button6.TabIndex = 56
-        Me.Button6.Text = "Search"
-        Me.Button6.UseVisualStyleBackColor = False
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.Green
-        Me.Panel2.Controls.Add(Me.Button6)
-        Me.Panel2.Controls.Add(Me.TextBox2)
-        Me.Panel2.Controls.Add(Me.Label2)
-        Me.Panel2.Location = New System.Drawing.Point(477, 166)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(451, 559)
-        Me.Panel2.TabIndex = 48
-        '
         'DataGridViewTextBoxColumn1
         '
         Me.DataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
@@ -280,6 +238,58 @@ Partial Class Dashboard
         Me.DataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
         Me.DataGridViewImageColumn1.Width = 80
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label2.Location = New System.Drawing.Point(201, 7)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(89, 25)
+        Me.Label2.TabIndex = 47
+        Me.Label2.Text = "Savings"
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(84, 37)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(284, 20)
+        Me.TextBox2.TabIndex = 55
+        '
+        'Button6
+        '
+        Me.Button6.BackColor = System.Drawing.Color.Green
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.DarkGreen
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button6.Location = New System.Drawing.Point(374, 36)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(74, 23)
+        Me.Button6.TabIndex = 56
+        Me.Button6.Text = "Search"
+        Me.Button6.UseVisualStyleBackColor = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.Green
+        Me.Panel2.Controls.Add(Me.Button6)
+        Me.Panel2.Controls.Add(Me.TextBox2)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Location = New System.Drawing.Point(477, 166)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(451, 559)
+        Me.Panel2.TabIndex = 48
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(88, 133)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 53
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -287,6 +297,7 @@ Partial Class Dashboard
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(940, 761)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.AddNewoanbttn)
         Me.Controls.Add(Me.AccounSettingsbttn)
         Me.Controls.Add(Me.collectpaymentbttn)
@@ -333,4 +344,5 @@ Partial Class Dashboard
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewImageColumn1 As DataGridViewImageColumn
+    Friend WithEvents Button1 As Button
 End Class

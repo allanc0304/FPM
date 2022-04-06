@@ -151,6 +151,13 @@
     <Compile Include="AccountAndUser\AddUserAccount.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include=".Designer.vb">
+      <DependentUpon>DailyCollectionRecord.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DailyCollectionRecord.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Savings\AddSavingsDeposit.Designer.vb">
       <DependentUpon>AddSavingsDeposit.vb</DependentUpon>
     </Compile>
@@ -261,6 +268,9 @@
       <DependentUpon>Files_record.vb</DependentUpon>
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Files_record.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyCollectionRecord.resx">
+      <DependentUpon>DailyCollectionRecord.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Savings\AddSavingsDeposit.resx">
       <DependentUpon>AddSavingsDeposit.vb</DependentUpon>
