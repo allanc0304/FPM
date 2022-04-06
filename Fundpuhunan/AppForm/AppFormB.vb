@@ -18,7 +18,7 @@
             MsgBox("your data was inserted Succesfully")
 
             CIRFORMA.Show()
-            Me.Hide()
+            Me.Close()
         End If
 
 

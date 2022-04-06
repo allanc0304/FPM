@@ -176,18 +176,18 @@ Public Class AppFormA
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, C1_CONTACT, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, K1_MONTH, K1_DAY, K1_YEAR, E1_AGE, R1_RELIGION) = False Then
+        If Vld(P1_LASTNAME, P1_MIDDLENAME, P1_GIVENNAME, C1_CONTACT, T1_HOUSENO, T1_STREET, T1_BARANGAY, T1_MUNICIPALITY, T1_PROVINCE, E1_AGE, R1_RELIGION) = False Then
             MessageBox.Show("Fill up all fields")
 
 
-        ElseIf Vld(P2_LASTNAME, P2_GIVENNAME, P2_MIDDLENAME, T2_HOUSENO, T2_STREET, T2_BARANGAY, T2_PROVINCE, T2_MUNICIPALITY, K2_DAY, K2_MONTH, K2_YEAR, E2_AGE, R2_RELIGION, B2_ANAK) = False Then
+        ElseIf Vld(P2_LASTNAME, P2_GIVENNAME, P2_MIDDLENAME, T2_HOUSENO, T2_STREET, T2_BARANGAY, T2_PROVINCE, T2_MUNICIPALITY, E2_AGE, R2_RELIGION, B2_ANAK) = False Then
             MessageBox.Show("Fill up all fields")
 
         ElseIf Vld(P3_BUSINESS, L3_SALARY, L3_EXPENSES, L3_WEEKLYINCOME, M3_CLEANSALARY) = False Then
             MessageBox.Show("Fill up all fields")
 
 
-        ElseIf Vld(P4_LASTNAME, P4_GIVENNAME, P4_MIDDLENAME, T4_HOUSENO, T4_STREET, T4_BARANGAY, T4_PROVINCE, T4_MUNICIPALITY, K4_DAY, K4_MONTH, K4_YEAR, E4_AGE, T4_TYPEOFBUSINESS, B4_BUSINESS) = False Then
+        ElseIf Vld(P4_LASTNAME, P4_GIVENNAME, P4_MIDDLENAME, T4_HOUSENO, T4_STREET, T4_BARANGAY, T4_PROVINCE, T4_MUNICIPALITY, E4_AGE, T4_TYPEOFBUSINESS, B4_BUSINESS) = False Then
             MessageBox.Show("Fill up all fields")
 
 
@@ -195,16 +195,15 @@ Public Class AppFormA
         Else
 
             MsgBox("Proceed to next form")
-        AppFormB.Show()
-        Me.Hide()
+            AppFormB.Show()
+            Me.Close()
 
 
 
 
         End If
 
-        AppFormB.Show()
-        Me.Hide()
+
     End Sub
 
     Private Sub ApplictaionForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
