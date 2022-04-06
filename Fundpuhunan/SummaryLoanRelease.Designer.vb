@@ -71,7 +71,7 @@ Partial Class SummaryLoanRelease
         Me.Panel1.Controls.Add(Me.Label6)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.DataGridView1)
-        Me.Panel1.Location = New System.Drawing.Point(3, 118)
+        Me.Panel1.Location = New System.Drawing.Point(23, 118)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1262, 343)
         Me.Panel1.TabIndex = 0
@@ -90,21 +90,21 @@ Partial Class SummaryLoanRelease
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Segoe UI Emoji", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.Label34.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.Green
-        Me.Label34.Location = New System.Drawing.Point(458, 9)
+        Me.Label34.Location = New System.Drawing.Point(491, 9)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(358, 28)
+        Me.Label34.Size = New System.Drawing.Size(359, 24)
         Me.Label34.TabIndex = 376
         Me.Label34.Text = "FUNDPUHUNAN MICROFINANCE "
         '
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.Label36.Location = New System.Drawing.Point(555, 37)
+        Me.Label36.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Location = New System.Drawing.Point(596, 33)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(151, 23)
+        Me.Label36.Size = New System.Drawing.Size(148, 17)
         Me.Label36.TabIndex = 378
         Me.Label36.Text = "BALIUAG BRANCH"
         '
@@ -112,7 +112,7 @@ Partial Class SummaryLoanRelease
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.Label1.Location = New System.Drawing.Point(634, 92)
+        Me.Label1.Location = New System.Drawing.Point(679, 92)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(0, 23)
         Me.Label1.TabIndex = 379
@@ -120,41 +120,41 @@ Partial Class SummaryLoanRelease
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.Label2.Location = New System.Drawing.Point(517, 69)
+        Me.Label2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(553, 75)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(236, 23)
+        Me.Label2.Size = New System.Drawing.Size(231, 17)
         Me.Label2.TabIndex = 380
         Me.Label2.Text = "SUMMARY OF LOAN RELEASE"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.Label3.Location = New System.Drawing.Point(12, 509)
+        Me.Label3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(34, 509)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(118, 23)
+        Me.Label3.Size = New System.Drawing.Size(115, 17)
         Me.Label3.TabIndex = 381
         Me.Label3.Text = "CLUSTER NO: "
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.Label4.Location = New System.Drawing.Point(67, 487)
+        Me.Label4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(89, 487)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(45, 23)
+        Me.Label4.Size = New System.Drawing.Size(44, 17)
         Me.Label4.TabIndex = 382
         Me.Label4.Text = "DAY:"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(514, 318)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(82, 23)
+        Me.Label5.Size = New System.Drawing.Size(79, 17)
         Me.Label5.TabIndex = 383
         Me.Label5.Text = "CLUSTER"
         '
@@ -171,56 +171,56 @@ Partial Class SummaryLoanRelease
         'SUM_BRGY1
         '
         Me.SUM_BRGY1.AutoSize = True
-        Me.SUM_BRGY1.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.SUM_BRGY1.Location = New System.Drawing.Point(586, 92)
+        Me.SUM_BRGY1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SUM_BRGY1.Location = New System.Drawing.Point(630, 92)
         Me.SUM_BRGY1.Name = "SUM_BRGY1"
-        Me.SUM_BRGY1.Size = New System.Drawing.Size(87, 23)
+        Me.SUM_BRGY1.Size = New System.Drawing.Size(63, 17)
         Me.SUM_BRGY1.TabIndex = 383
         Me.SUM_BRGY1.Text = "-----------"
         '
         'SUM_CN1
         '
         Me.SUM_CN1.AutoSize = True
-        Me.SUM_CN1.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SUM_CN1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SUM_CN1.ForeColor = System.Drawing.Color.White
         Me.SUM_CN1.Location = New System.Drawing.Point(593, 318)
         Me.SUM_CN1.Name = "SUM_CN1"
-        Me.SUM_CN1.Size = New System.Drawing.Size(24, 23)
+        Me.SUM_CN1.Size = New System.Drawing.Size(18, 17)
         Me.SUM_CN1.TabIndex = 385
         Me.SUM_CN1.Text = "--"
         '
         'SUM_DAY1
         '
         Me.SUM_DAY1.AutoSize = True
-        Me.SUM_DAY1.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SUM_DAY1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SUM_DAY1.ForeColor = System.Drawing.Color.White
         Me.SUM_DAY1.Location = New System.Drawing.Point(623, 318)
         Me.SUM_DAY1.Name = "SUM_DAY1"
-        Me.SUM_DAY1.Size = New System.Drawing.Size(73, 23)
+        Me.SUM_DAY1.Size = New System.Drawing.Size(53, 17)
         Me.SUM_DAY1.TabIndex = 386
         Me.SUM_DAY1.Text = "---------"
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.White
         Me.Label10.Location = New System.Drawing.Point(692, 318)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(113, 23)
+        Me.Label10.Size = New System.Drawing.Size(107, 17)
         Me.Label10.TabIndex = 387
         Me.Label10.Text = "COLLECTION"
         '
         'SUM_CN
         '
-        Me.SUM_CN.Location = New System.Drawing.Point(123, 509)
+        Me.SUM_CN.Location = New System.Drawing.Point(145, 509)
         Me.SUM_CN.Name = "SUM_CN"
         Me.SUM_CN.Size = New System.Drawing.Size(77, 20)
         Me.SUM_CN.TabIndex = 384
         '
         'SUM_DAY
         '
-        Me.SUM_DAY.Location = New System.Drawing.Point(123, 487)
+        Me.SUM_DAY.Location = New System.Drawing.Point(145, 487)
         Me.SUM_DAY.Name = "SUM_DAY"
         Me.SUM_DAY.Size = New System.Drawing.Size(152, 20)
         Me.SUM_DAY.TabIndex = 385
@@ -228,30 +228,30 @@ Partial Class SummaryLoanRelease
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(304, 553)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(126, 23)
+        Me.Label11.Size = New System.Drawing.Size(129, 17)
         Me.Label11.TabIndex = 386
         Me.Label11.Text = "Account Officer:"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(630, 553)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(101, 23)
+        Me.Label12.Size = New System.Drawing.Size(103, 17)
         Me.Label12.TabIndex = 387
         Me.Label12.Text = "Prepared by:"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(943, 553)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(79, 23)
+        Me.Label13.Size = New System.Drawing.Size(81, 17)
         Me.Label13.TabIndex = 388
         Me.Label13.Text = "Check by:"
         '
@@ -279,16 +279,16 @@ Partial Class SummaryLoanRelease
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.75!)
-        Me.Label14.Location = New System.Drawing.Point(12, 464)
+        Me.Label14.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(34, 464)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(100, 23)
+        Me.Label14.Size = New System.Drawing.Size(100, 17)
         Me.Label14.TabIndex = 392
         Me.Label14.Text = "BARANGAY:"
         '
         'SUM_BRGY
         '
-        Me.SUM_BRGY.Location = New System.Drawing.Point(123, 464)
+        Me.SUM_BRGY.Location = New System.Drawing.Point(145, 464)
         Me.SUM_BRGY.Name = "SUM_BRGY"
         Me.SUM_BRGY.Size = New System.Drawing.Size(202, 20)
         Me.SUM_BRGY.TabIndex = 393
@@ -359,7 +359,7 @@ Partial Class SummaryLoanRelease
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(1287, 617)
+        Me.ClientSize = New System.Drawing.Size(1312, 617)
         Me.Controls.Add(Me.SUM_BRGY)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.SUM_CB)
