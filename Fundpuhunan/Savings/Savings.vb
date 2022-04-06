@@ -2,7 +2,7 @@
 Public Class Savings
     Dim CIRFORM2
     Private Sub Button2_Click(sender As Object, e As EventArgs)
-        CIRFORM1.Show()
+
     End Sub
 
 
@@ -20,7 +20,7 @@ Public Class Savings
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs)
-        SearchCIR.Show()
+
     End Sub
 
     Private Sub LoanProcessing_Load(sender As Object, e As EventArgs) Handles MyBase.Load
