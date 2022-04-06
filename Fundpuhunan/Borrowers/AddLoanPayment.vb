@@ -40,15 +40,17 @@
     End Sub
 
     Private Sub AP_CONFIRMBTN_Click(sender As Object, e As EventArgs) Handles AP_CONFIRMBTN.Click
-
-
-
         Dim ask As MsgBoxResult = MsgBox("Would you like to Add this Payment?", MsgBoxStyle.YesNo, "Confirm Payment")
         If ask = MsgBoxResult.Yes Then
             'dito ilalagay yung code ng query para maupdate yung database
-
-
-
+            If AP_EA.Text = "" Or AP_REM.Text = "" Or AP_PEN.Text = "" Or AP_COLB.Text = "" Then
+                MessageBox.Show("Please fill up the empty fields!", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Else
+                Me.Close()
+            End If
+        ElseIf AP_EA.Text = "" Or AP_REM.Text = "" Or AP_PEN.Text = "" Or AP_COLB.Text = "" Then
+            MessageBox.Show("Please fill up the empty fields!", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        Else
         End If
     End Sub
 

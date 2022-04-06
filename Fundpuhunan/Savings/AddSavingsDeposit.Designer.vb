@@ -33,18 +33,18 @@ Partial Class AddSavingsDeposit
         Me.SD_RB = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.AP_CONFIRMBTN = New System.Windows.Forms.Button()
+        Me.DS_CONFIRMBTN = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Green
         Me.Label1.Location = New System.Drawing.Point(231, 28)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(157, 22)
+        Me.Label1.Size = New System.Drawing.Size(144, 24)
         Me.Label1.TabIndex = 75
         Me.Label1.Text = "Deposit Savings"
         '
@@ -79,18 +79,18 @@ Partial Class AddSavingsDeposit
         Me.SD_COLB.Location = New System.Drawing.Point(188, 153)
         Me.SD_COLB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.SD_COLB.Name = "SD_COLB"
-        Me.SD_COLB.Size = New System.Drawing.Size(228, 23)
+        Me.SD_COLB.Size = New System.Drawing.Size(228, 22)
         Me.SD_COLB.TabIndex = 85
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Black
         Me.Label8.Location = New System.Drawing.Point(85, 153)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(95, 15)
+        Me.Label8.Size = New System.Drawing.Size(88, 16)
         Me.Label8.TabIndex = 84
         Me.Label8.Text = "Collected by :"
         '
@@ -99,18 +99,18 @@ Partial Class AddSavingsDeposit
         Me.SD_AD.Location = New System.Drawing.Point(188, 116)
         Me.SD_AD.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.SD_AD.Name = "SD_AD"
-        Me.SD_AD.Size = New System.Drawing.Size(228, 23)
+        Me.SD_AD.Size = New System.Drawing.Size(228, 22)
         Me.SD_AD.TabIndex = 82
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(10, 116)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(170, 15)
+        Me.Label7.Size = New System.Drawing.Size(154, 16)
         Me.Label7.TabIndex = 79
         Me.Label7.Text = "Enter Amount to deposit :"
         '
@@ -120,44 +120,44 @@ Partial Class AddSavingsDeposit
         Me.SD_RB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.SD_RB.Name = "SD_RB"
         Me.SD_RB.ReadOnly = True
-        Me.SD_RB.Size = New System.Drawing.Size(228, 23)
+        Me.SD_RB.Size = New System.Drawing.Size(228, 22)
         Me.SD_RB.TabIndex = 96
         '
         'Label10
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
         Me.Label10.Location = New System.Drawing.Point(19, 71)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(161, 15)
+        Me.Label10.Size = New System.Drawing.Size(145, 16)
         Me.Label10.TabIndex = 91
         Me.Label10.Text = "Total Currrent Savings :"
         '
         'Timer1
         '
         '
-        'AP_CONFIRMBTN
+        'DS_CONFIRMBTN
         '
-        Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
-        Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(312, 187)
-        Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.AP_CONFIRMBTN.Name = "AP_CONFIRMBTN"
-        Me.AP_CONFIRMBTN.Size = New System.Drawing.Size(109, 37)
-        Me.AP_CONFIRMBTN.TabIndex = 97
-        Me.AP_CONFIRMBTN.Text = "Confirm"
-        Me.AP_CONFIRMBTN.UseVisualStyleBackColor = False
+        Me.DS_CONFIRMBTN.BackColor = System.Drawing.Color.Green
+        Me.DS_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DS_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.DS_CONFIRMBTN.Location = New System.Drawing.Point(312, 187)
+        Me.DS_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.DS_CONFIRMBTN.Name = "DS_CONFIRMBTN"
+        Me.DS_CONFIRMBTN.Size = New System.Drawing.Size(109, 37)
+        Me.DS_CONFIRMBTN.TabIndex = 97
+        Me.DS_CONFIRMBTN.Text = "Confirm"
+        Me.DS_CONFIRMBTN.UseVisualStyleBackColor = False
         '
         'AddSavingsDeposit
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(434, 261)
-        Me.Controls.Add(Me.AP_CONFIRMBTN)
+        Me.Controls.Add(Me.DS_CONFIRMBTN)
         Me.Controls.Add(Me.SD_RB)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.SD_CONFIRMBTN)
@@ -167,7 +167,7 @@ Partial Class AddSavingsDeposit
         Me.Controls.Add(Me.SD_AD)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label1)
-        Me.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "AddSavingsDeposit"
@@ -188,5 +188,5 @@ Partial Class AddSavingsDeposit
     Friend WithEvents SD_RB As TextBox
     Friend WithEvents Label10 As Label
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents AP_CONFIRMBTN As Button
+    Friend WithEvents DS_CONFIRMBTN As Button
 End Class
