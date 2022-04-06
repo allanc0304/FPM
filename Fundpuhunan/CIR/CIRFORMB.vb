@@ -40,9 +40,11 @@
             Exit Sub
         Else
 
-            MsgBox("Proceed")
-
-            Me.Close()
+            Dim Ask As MsgBoxResult = MsgBox("Would you like to proceed to release confirmation", MsgBoxStyle.YesNo, "Exit")
+            If Ask = MsgBoxResult.Yes Then
+                Me.Hide()
+                releasecomputation.Show()
+            End If
 
         End If
     End Sub
