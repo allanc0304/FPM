@@ -43,7 +43,6 @@ Partial Class Dashboard
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DGVongoingloan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -281,15 +280,6 @@ Partial Class Dashboard
         Me.Panel2.Size = New System.Drawing.Size(451, 559)
         Me.Panel2.TabIndex = 48
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(88, 133)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 53
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
         'Dashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -297,7 +287,6 @@ Partial Class Dashboard
         Me.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(940, 761)
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.AddNewoanbttn)
         Me.Controls.Add(Me.AccounSettingsbttn)
         Me.Controls.Add(Me.collectpaymentbttn)
@@ -344,5 +333,4 @@ Partial Class Dashboard
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewImageColumn1 As DataGridViewImageColumn
-    Friend WithEvents Button1 As Button
 End Class

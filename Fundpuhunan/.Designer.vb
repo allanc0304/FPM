@@ -82,12 +82,14 @@ Partial Class DailyCollectioRecord
         '
         'DataGridView1
         '
-        Me.DataGridView1.AllowUserToAddRows = False
+        Me.DataGridView1.AllowUserToDeleteRows = False
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8, Me.Column9, Me.Column10, Me.Column11, Me.Column12, Me.Column13})
         Me.DataGridView1.Location = New System.Drawing.Point(11, 10)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.ReadOnly = True
+        Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.Size = New System.Drawing.Size(1298, 453)
         Me.DataGridView1.TabIndex = 381
         '
@@ -228,35 +230,35 @@ Partial Class DailyCollectioRecord
         '
         Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column1.FillWeight = 53.34179!
-        Me.Column1.HeaderText = "Name"
+        Me.Column1.HeaderText = "NAME"
         Me.Column1.Name = "Column1"
         '
         'Column2
         '
         Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column2.FillWeight = 53.34179!
-        Me.Column2.HeaderText = "Mode of Payment"
+        Me.Column2.HeaderText = "MODE OF PAYMENT"
         Me.Column2.Name = "Column2"
         '
         'Column3
         '
         Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column3.FillWeight = 53.34179!
-        Me.Column3.HeaderText = "No. of weeks"
+        Me.Column3.HeaderText = "NO. OF WEEKS"
         Me.Column3.Name = "Column3"
         '
         'Column4
         '
         Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column4.FillWeight = 53.34179!
-        Me.Column4.HeaderText = "Insurance "
+        Me.Column4.HeaderText = "INSURANCE"
         Me.Column4.Name = "Column4"
         '
         'Column5
         '
         Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column5.FillWeight = 53.34179!
-        Me.Column5.HeaderText = "Savings"
+        Me.Column5.HeaderText = "SAVINGS"
         Me.Column5.Name = "Column5"
         '
         'Column6
@@ -270,50 +272,50 @@ Partial Class DailyCollectioRecord
         '
         Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column7.FillWeight = 53.34179!
-        Me.Column7.HeaderText = "Total"
+        Me.Column7.HeaderText = "TOTAL"
         Me.Column7.Name = "Column7"
         '
         'Column8
         '
         Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
         Me.Column8.FillWeight = 659.8985!
-        Me.Column8.HeaderText = "Total Savings"
+        Me.Column8.HeaderText = "TOTAL SAVINGS"
         Me.Column8.Name = "Column8"
-        Me.Column8.Width = 97
+        Me.Column8.Width = 107
         '
         'Column9
         '
         Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column9.FillWeight = 53.34179!
-        Me.Column9.HeaderText = "P+1"
+        Me.Column9.HeaderText = "DUE OF TODAY           P+1"
         Me.Column9.Name = "Column9"
         '
         'Column10
         '
         Me.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column10.FillWeight = 53.34179!
-        Me.Column10.HeaderText = "Savings"
+        Me.Column10.HeaderText = "DUE OF TODAY SAVINGS"
         Me.Column10.Name = "Column10"
         '
         'Column11
         '
         Me.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column11.FillWeight = 53.34179!
-        Me.Column11.HeaderText = "Insurance"
+        Me.Column11.HeaderText = "DUE OF TODAY INSURANCE"
         Me.Column11.Name = "Column11"
         '
         'Column12
         '
         Me.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column12.FillWeight = 53.34179!
-        Me.Column12.HeaderText = "Total Due"
+        Me.Column12.HeaderText = "TOTAL DUE"
         Me.Column12.Name = "Column12"
         '
         'Column13
         '
         Me.Column13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
         Me.Column13.FillWeight = 53.34179!
-        Me.Column13.HeaderText = "Cell"
+        Me.Column13.HeaderText = "CELL"
         Me.Column13.Name = "Column13"
         '
         'DailyCollectioRecord
@@ -367,6 +369,7 @@ Partial Class DailyCollectioRecord
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents Label8 As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Panel1 As Panel
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
@@ -380,5 +383,4 @@ Partial Class DailyCollectioRecord
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents Column12 As DataGridViewTextBoxColumn
     Friend WithEvents Column13 As DataGridViewTextBoxColumn
-    Friend WithEvents Panel1 As Panel
 End Class
