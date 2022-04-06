@@ -46,4 +46,8 @@
         BorrowersSavings.Show()
         Me.Hide()
     End Sub
+
+    Private Sub AP_CONFIRMBTN_Click(sender As Object, e As EventArgs) Handles AP_CONFIRMBTN.Click
+
+    End Sub
 End Class
