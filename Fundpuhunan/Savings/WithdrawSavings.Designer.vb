@@ -22,6 +22,7 @@ Partial Class WithdrawSavings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.TextBox4 = New System.Windows.Forms.TextBox()
@@ -29,6 +30,8 @@ Partial Class WithdrawSavings
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'TextBox2
@@ -44,11 +47,11 @@ Partial Class WithdrawSavings
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
-        Me.Label10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.Black
         Me.Label10.Location = New System.Drawing.Point(30, 70)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(139, 15)
+        Me.Label10.Size = New System.Drawing.Size(131, 16)
         Me.Label10.TabIndex = 107
         Me.Label10.Text = "Remaining Balance :"
         '
@@ -62,22 +65,22 @@ Partial Class WithdrawSavings
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.Black
         Me.Label7.Location = New System.Drawing.Point(40, 102)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(129, 15)
+        Me.Label7.Size = New System.Drawing.Size(116, 16)
         Me.Label7.TabIndex = 101
         Me.Label7.Text = "Withdraw Amount :"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Teal
         Me.Label1.Location = New System.Drawing.Point(171, 31)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(174, 22)
+        Me.Label1.Size = New System.Drawing.Size(159, 24)
         Me.Label1.TabIndex = 98
         Me.Label1.Text = "Withdraw Savings"
         '
@@ -85,7 +88,7 @@ Partial Class WithdrawSavings
         '
         Me.Button3.BackColor = System.Drawing.Color.Teal
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button3.Location = New System.Drawing.Point(272, 129)
         Me.Button3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -99,7 +102,7 @@ Partial Class WithdrawSavings
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button2.Location = New System.Drawing.Point(175, 129)
         Me.Button2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -108,6 +111,10 @@ Partial Class WithdrawSavings
         Me.Button2.TabIndex = 111
         Me.Button2.Text = "Cancel"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
         '
         'WithdrawSavings
         '
@@ -128,6 +135,7 @@ Partial Class WithdrawSavings
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Withdraw Savings"
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -139,4 +147,5 @@ Partial Class WithdrawSavings
     Friend WithEvents Label1 As Label
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class
