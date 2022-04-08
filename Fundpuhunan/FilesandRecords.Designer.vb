@@ -22,14 +22,17 @@ Partial Class FilesandRecords
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewImageColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewImageColumn()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -42,6 +45,32 @@ Partial Class FilesandRecords
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.Size = New System.Drawing.Size(922, 625)
         Me.DataGridView1.TabIndex = 0
+        '
+        'Column1
+        '
+        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column1.HeaderText = "Event"
+        Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column2.HeaderText = "Date"
+        Me.Column2.Name = "Column2"
+        '
+        'Column3
+        '
+        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column3.HeaderText = "Save as Excel"
+        Me.Column3.Name = "Column3"
+        Me.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
+        '
+        'Column4
+        '
+        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column4.HeaderText = "Preview Image"
+        Me.Column4.Name = "Column4"
         '
         'Label1
         '
@@ -78,31 +107,20 @@ Partial Class FilesandRecords
         Me.TextBox1.Size = New System.Drawing.Size(339, 20)
         Me.TextBox1.TabIndex = 69
         '
-        'Column1
+        'Label2
         '
-        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column1.HeaderText = "Event"
-        Me.Column1.Name = "Column1"
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label2.Location = New System.Drawing.Point(722, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(188, 18)
+        Me.Label2.TabIndex = 383
+        Me.Label2.Text = "------------------------------------"
         '
-        'Column2
+        'Timer1
         '
-        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column2.HeaderText = "Date"
-        Me.Column2.Name = "Column2"
-        '
-        'Column3
-        '
-        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.HeaderText = "Save as Excel"
-        Me.Column3.Name = "Column3"
-        Me.Column3.Resizable = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Column3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic
-        '
-        'Column4
-        '
-        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column4.HeaderText = "Preview Image"
-        Me.Column4.Name = "Column4"
         '
         'FilesandRecords
         '
@@ -110,6 +128,7 @@ Partial Class FilesandRecords
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(940, 746)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
@@ -132,4 +151,6 @@ Partial Class FilesandRecords
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewImageColumn
     Friend WithEvents Column4 As DataGridViewImageColumn
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Timer1 As Timer
 End Class

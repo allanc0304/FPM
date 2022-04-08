@@ -13,7 +13,7 @@
     End Sub
 
     Private Sub MyAccount_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Timer1.Enabled = True
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -64,6 +64,12 @@
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Label7.Text = Date.Now.ToString("dd MMM yyyy       hh:mm:ss tt")
+
 
     End Sub
 End Class

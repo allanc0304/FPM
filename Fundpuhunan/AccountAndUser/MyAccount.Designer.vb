@@ -24,6 +24,7 @@ Partial Class MyAccount
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -52,6 +53,7 @@ Partial Class MyAccount
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.Label4 = New System.Windows.Forms.Label()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -62,11 +64,24 @@ Partial Class MyAccount
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.SteelBlue
+        Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Location = New System.Drawing.Point(-2, -3)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(945, 48)
         Me.Panel1.TabIndex = 0
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.SteelBlue
+        Me.Label7.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label7.Location = New System.Drawing.Point(725, 15)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(188, 18)
+        Me.Label7.TabIndex = 386
+        Me.Label7.Text = "------------------------------------"
         '
         'Label1
         '
@@ -352,12 +367,15 @@ Partial Class MyAccount
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
+        'Timer1
+        '
+        '
         'MyAccount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(775, 760)
+        Me.ClientSize = New System.Drawing.Size(945, 760)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TextBox6)
@@ -418,4 +436,6 @@ Partial Class MyAccount
     Friend WithEvents ErrorProvider1 As ErrorProvider
     Friend WithEvents Label4 As Label
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
