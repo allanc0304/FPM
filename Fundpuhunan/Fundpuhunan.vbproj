@@ -222,6 +222,12 @@
     <Compile Include="Savings\WithdrawSavings.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="SummaryLoanRelease.Designer.vb">
+      <DependentUpon>SummaryLoanRelease.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SummaryLoanRelease.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AccountAndUser\AccountUserManagement.resx">
@@ -294,6 +300,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Savings\WithdrawSavings.resx">
       <DependentUpon>WithdrawSavings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SummaryLoanRelease.resx">
+      <DependentUpon>SummaryLoanRelease.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
