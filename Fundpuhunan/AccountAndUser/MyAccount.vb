@@ -12,8 +12,10 @@
         If CheckBox1.Checked = True Then
 
             TextBox3.UseSystemPasswordChar = False
+            TextBox2.UseSystemPasswordChar = False
         Else
             TextBox3.UseSystemPasswordChar = True
+            TextBox2.UseSystemPasswordChar = True
 
         End If
     End Sub

@@ -299,6 +299,7 @@ Partial Class MyAccount
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(416, 20)
         Me.TextBox2.TabIndex = 296
+        Me.TextBox2.UseSystemPasswordChar = True
         '
         'TextBox1
         '
