@@ -23,29 +23,12 @@ Partial Class SummaryLoanRelease
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Label34 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.SUM_BRGY1 = New System.Windows.Forms.Label()
-        Me.SUM_CN1 = New System.Windows.Forms.Label()
-        Me.SUM_DAY1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.SUM_CN = New System.Windows.Forms.TextBox()
-        Me.SUM_DAY = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.SUM_AO = New System.Windows.Forms.TextBox()
-        Me.SUM_PB = New System.Windows.Forms.TextBox()
-        Me.SUM_CB = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.SUM_BRGY = New System.Windows.Forms.TextBox()
+        Me.SUM_DAY1 = New System.Windows.Forms.Label()
+        Me.SUM_CN1 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -58,6 +41,23 @@ Partial Class SummaryLoanRelease
         Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.Label36 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.SUM_BRGY1 = New System.Windows.Forms.Label()
+        Me.SUM_CN = New System.Windows.Forms.TextBox()
+        Me.SUM_DAY = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.SUM_AO = New System.Windows.Forms.TextBox()
+        Me.SUM_PB = New System.Windows.Forms.TextBox()
+        Me.SUM_CB = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.SUM_BRGY = New System.Windows.Forms.TextBox()
         Me.Panel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -76,6 +76,60 @@ Partial Class SummaryLoanRelease
         Me.Panel1.Size = New System.Drawing.Size(1262, 343)
         Me.Panel1.TabIndex = 0
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.White
+        Me.Label10.Location = New System.Drawing.Point(730, 318)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(107, 17)
+        Me.Label10.TabIndex = 387
+        Me.Label10.Text = "COLLECTION"
+        '
+        'SUM_DAY1
+        '
+        Me.SUM_DAY1.AutoSize = True
+        Me.SUM_DAY1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SUM_DAY1.ForeColor = System.Drawing.Color.White
+        Me.SUM_DAY1.Location = New System.Drawing.Point(623, 318)
+        Me.SUM_DAY1.Name = "SUM_DAY1"
+        Me.SUM_DAY1.Size = New System.Drawing.Size(53, 17)
+        Me.SUM_DAY1.TabIndex = 386
+        Me.SUM_DAY1.Text = "---------"
+        '
+        'SUM_CN1
+        '
+        Me.SUM_CN1.AutoSize = True
+        Me.SUM_CN1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SUM_CN1.ForeColor = System.Drawing.Color.White
+        Me.SUM_CN1.Location = New System.Drawing.Point(593, 318)
+        Me.SUM_CN1.Name = "SUM_CN1"
+        Me.SUM_CN1.Size = New System.Drawing.Size(18, 17)
+        Me.SUM_CN1.TabIndex = 385
+        Me.SUM_CN1.Text = "--"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.White
+        Me.Label6.Location = New System.Drawing.Point(593, 318)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(0, 23)
+        Me.Label6.TabIndex = 384
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
+        Me.Label5.Location = New System.Drawing.Point(514, 318)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(79, 17)
+        Me.Label5.TabIndex = 383
+        Me.Label5.Text = "CLUSTER"
+        '
         'DataGridView1
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
@@ -86,6 +140,67 @@ Partial Class SummaryLoanRelease
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.Size = New System.Drawing.Size(1253, 312)
         Me.DataGridView1.TabIndex = 1
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "NAME"
+        Me.Column1.Name = "Column1"
+        Me.Column1.Width = 150
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "LOAN"
+        Me.Column2.Name = "Column2"
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "INTEREST"
+        Me.Column3.Name = "Column3"
+        '
+        'Column4
+        '
+        Me.Column4.HeaderText = "SPC"
+        Me.Column4.Name = "Column4"
+        '
+        'Column5
+        '
+        Me.Column5.HeaderText = "PASSBOOK"
+        Me.Column5.Name = "Column5"
+        '
+        'Column6
+        '
+        Me.Column6.HeaderText = "LOAN INSURANCE"
+        Me.Column6.Name = "Column6"
+        '
+        'Column7
+        '
+        Me.Column7.HeaderText = "MEMBERSHIP FEE"
+        Me.Column7.Name = "Column7"
+        '
+        'Column8
+        '
+        Me.Column8.HeaderText = "DOCUMENTARY STAMP"
+        Me.Column8.Name = "Column8"
+        '
+        'Column9
+        '
+        Me.Column9.HeaderText = "NOTARIAL FEE"
+        Me.Column9.Name = "Column9"
+        '
+        'Column10
+        '
+        Me.Column10.HeaderText = "NET PROCEED"
+        Me.Column10.Name = "Column10"
+        '
+        'Column11
+        '
+        Me.Column11.HeaderText = "DATE"
+        Me.Column11.Name = "Column11"
+        '
+        'Column12
+        '
+        Me.Column12.HeaderText = "SIGNATURE"
+        Me.Column12.Name = "Column12"
         '
         'Label34
         '
@@ -147,69 +262,16 @@ Partial Class SummaryLoanRelease
         Me.Label4.TabIndex = 382
         Me.Label4.Text = "DAY:"
         '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(514, 318)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(79, 17)
-        Me.Label5.TabIndex = 383
-        Me.Label5.Text = "CLUSTER"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(593, 318)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(0, 23)
-        Me.Label6.TabIndex = 384
-        '
         'SUM_BRGY1
         '
         Me.SUM_BRGY1.AutoSize = True
         Me.SUM_BRGY1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SUM_BRGY1.Location = New System.Drawing.Point(630, 92)
+        Me.SUM_BRGY1.Location = New System.Drawing.Point(596, 96)
         Me.SUM_BRGY1.Name = "SUM_BRGY1"
         Me.SUM_BRGY1.Size = New System.Drawing.Size(63, 17)
         Me.SUM_BRGY1.TabIndex = 383
         Me.SUM_BRGY1.Text = "-----------"
-        '
-        'SUM_CN1
-        '
-        Me.SUM_CN1.AutoSize = True
-        Me.SUM_CN1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SUM_CN1.ForeColor = System.Drawing.Color.White
-        Me.SUM_CN1.Location = New System.Drawing.Point(593, 318)
-        Me.SUM_CN1.Name = "SUM_CN1"
-        Me.SUM_CN1.Size = New System.Drawing.Size(18, 17)
-        Me.SUM_CN1.TabIndex = 385
-        Me.SUM_CN1.Text = "--"
-        '
-        'SUM_DAY1
-        '
-        Me.SUM_DAY1.AutoSize = True
-        Me.SUM_DAY1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SUM_DAY1.ForeColor = System.Drawing.Color.White
-        Me.SUM_DAY1.Location = New System.Drawing.Point(623, 318)
-        Me.SUM_DAY1.Name = "SUM_DAY1"
-        Me.SUM_DAY1.Size = New System.Drawing.Size(53, 17)
-        Me.SUM_DAY1.TabIndex = 386
-        Me.SUM_DAY1.Text = "---------"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.ForeColor = System.Drawing.Color.White
-        Me.Label10.Location = New System.Drawing.Point(692, 318)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(107, 17)
-        Me.Label10.TabIndex = 387
-        Me.Label10.Text = "COLLECTION"
+        Me.SUM_BRGY1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'SUM_CN
         '
@@ -292,67 +354,6 @@ Partial Class SummaryLoanRelease
         Me.SUM_BRGY.Name = "SUM_BRGY"
         Me.SUM_BRGY.Size = New System.Drawing.Size(202, 20)
         Me.SUM_BRGY.TabIndex = 393
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "NAME"
-        Me.Column1.Name = "Column1"
-        Me.Column1.Width = 150
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "LOAN"
-        Me.Column2.Name = "Column2"
-        '
-        'Column3
-        '
-        Me.Column3.HeaderText = "INTEREST"
-        Me.Column3.Name = "Column3"
-        '
-        'Column4
-        '
-        Me.Column4.HeaderText = "SPC"
-        Me.Column4.Name = "Column4"
-        '
-        'Column5
-        '
-        Me.Column5.HeaderText = "PASSBOOK"
-        Me.Column5.Name = "Column5"
-        '
-        'Column6
-        '
-        Me.Column6.HeaderText = "LOAN INSURANCE"
-        Me.Column6.Name = "Column6"
-        '
-        'Column7
-        '
-        Me.Column7.HeaderText = "MEMBERSHIP FEE"
-        Me.Column7.Name = "Column7"
-        '
-        'Column8
-        '
-        Me.Column8.HeaderText = "DOCUMENTARY STAMP"
-        Me.Column8.Name = "Column8"
-        '
-        'Column9
-        '
-        Me.Column9.HeaderText = "NOTARIAL FEE"
-        Me.Column9.Name = "Column9"
-        '
-        'Column10
-        '
-        Me.Column10.HeaderText = "NET PROCEED"
-        Me.Column10.Name = "Column10"
-        '
-        'Column11
-        '
-        Me.Column11.HeaderText = "DATE"
-        Me.Column11.Name = "Column11"
-        '
-        'Column12
-        '
-        Me.Column12.HeaderText = "SIGNATURE"
-        Me.Column12.Name = "Column12"
         '
         'SummaryLoanRelease
         '
