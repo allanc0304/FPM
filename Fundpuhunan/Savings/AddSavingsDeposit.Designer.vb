@@ -34,6 +34,8 @@ Partial Class AddSavingsDeposit
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.DS_CONFIRMBTN = New System.Windows.Forms.Button()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -152,6 +154,10 @@ Partial Class AddSavingsDeposit
         Me.DS_CONFIRMBTN.Text = "Confirm"
         Me.DS_CONFIRMBTN.UseVisualStyleBackColor = False
         '
+        'ErrorProvider1
+        '
+        Me.ErrorProvider1.ContainerControl = Me
+        '
         'AddSavingsDeposit
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -173,6 +179,7 @@ Partial Class AddSavingsDeposit
         Me.Name = "AddSavingsDeposit"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Deposit Savings"
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -189,4 +196,5 @@ Partial Class AddSavingsDeposit
     Friend WithEvents Label10 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents DS_CONFIRMBTN As Button
+    Friend WithEvents ErrorProvider1 As ErrorProvider
 End Class
