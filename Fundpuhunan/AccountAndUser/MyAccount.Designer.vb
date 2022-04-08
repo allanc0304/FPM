@@ -245,7 +245,7 @@ Partial Class MyAccount
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.Color.Gray
+        Me.Button4.BackColor = System.Drawing.Color.LightSlateGray
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
@@ -258,7 +258,7 @@ Partial Class MyAccount
         '
         'Button3
         '
-        Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button3.BackColor = System.Drawing.Color.SteelBlue
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
