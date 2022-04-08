@@ -26,6 +26,19 @@ Partial Class DailyCollectioRecord
         Me.Label36 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -42,21 +55,11 @@ Partial Class DailyCollectioRecord
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column8 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column9 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column10 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column11 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column12 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column13 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label36
@@ -92,6 +95,111 @@ Partial Class DailyCollectioRecord
         Me.DataGridView1.RowHeadersVisible = False
         Me.DataGridView1.Size = New System.Drawing.Size(1298, 453)
         Me.DataGridView1.TabIndex = 381
+        '
+        'Column1
+        '
+        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column1.FillWeight = 53.34179!
+        Me.Column1.HeaderText = "NAME"
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        '
+        'Column2
+        '
+        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column2.FillWeight = 53.34179!
+        Me.Column2.HeaderText = "MODE OF PAYMENT"
+        Me.Column2.Name = "Column2"
+        Me.Column2.ReadOnly = True
+        '
+        'Column3
+        '
+        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column3.FillWeight = 53.34179!
+        Me.Column3.HeaderText = "NO. OF WEEKS"
+        Me.Column3.Name = "Column3"
+        Me.Column3.ReadOnly = True
+        '
+        'Column4
+        '
+        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column4.FillWeight = 53.34179!
+        Me.Column4.HeaderText = "INSURANCE"
+        Me.Column4.Name = "Column4"
+        Me.Column4.ReadOnly = True
+        '
+        'Column5
+        '
+        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column5.FillWeight = 53.34179!
+        Me.Column5.HeaderText = "SAVINGS"
+        Me.Column5.Name = "Column5"
+        Me.Column5.ReadOnly = True
+        '
+        'Column6
+        '
+        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column6.FillWeight = 53.34179!
+        Me.Column6.HeaderText = "OB"
+        Me.Column6.Name = "Column6"
+        Me.Column6.ReadOnly = True
+        '
+        'Column7
+        '
+        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column7.FillWeight = 53.34179!
+        Me.Column7.HeaderText = "TOTAL"
+        Me.Column7.Name = "Column7"
+        Me.Column7.ReadOnly = True
+        '
+        'Column8
+        '
+        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
+        Me.Column8.FillWeight = 659.8985!
+        Me.Column8.HeaderText = "TOTAL SAVINGS"
+        Me.Column8.Name = "Column8"
+        Me.Column8.ReadOnly = True
+        Me.Column8.Width = 107
+        '
+        'Column9
+        '
+        Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column9.FillWeight = 53.34179!
+        Me.Column9.HeaderText = "DUE OF TODAY           P+1"
+        Me.Column9.Name = "Column9"
+        Me.Column9.ReadOnly = True
+        '
+        'Column10
+        '
+        Me.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column10.FillWeight = 53.34179!
+        Me.Column10.HeaderText = "DUE OF TODAY SAVINGS"
+        Me.Column10.Name = "Column10"
+        Me.Column10.ReadOnly = True
+        '
+        'Column11
+        '
+        Me.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column11.FillWeight = 53.34179!
+        Me.Column11.HeaderText = "DUE OF TODAY INSURANCE"
+        Me.Column11.Name = "Column11"
+        Me.Column11.ReadOnly = True
+        '
+        'Column12
+        '
+        Me.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column12.FillWeight = 53.34179!
+        Me.Column12.HeaderText = "TOTAL DUE"
+        Me.Column12.Name = "Column12"
+        Me.Column12.ReadOnly = True
+        '
+        'Column13
+        '
+        Me.Column13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column13.FillWeight = 53.34179!
+        Me.Column13.HeaderText = "CELL"
+        Me.Column13.Name = "Column13"
+        Me.Column13.ReadOnly = True
         '
         'Label1
         '
@@ -158,7 +266,7 @@ Partial Class DailyCollectioRecord
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(998, 608)
+        Me.Label5.Location = New System.Drawing.Point(948, 612)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(106, 15)
         Me.Label5.TabIndex = 389
@@ -168,7 +276,7 @@ Partial Class DailyCollectioRecord
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(998, 638)
+        Me.Label6.Location = New System.Drawing.Point(948, 642)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(124, 15)
         Me.Label6.TabIndex = 390
@@ -178,7 +286,7 @@ Partial Class DailyCollectioRecord
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(998, 668)
+        Me.Label7.Location = New System.Drawing.Point(948, 672)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(39, 15)
         Me.Label7.TabIndex = 391
@@ -186,21 +294,21 @@ Partial Class DailyCollectioRecord
         '
         'TextBox4
         '
-        Me.TextBox4.Location = New System.Drawing.Point(1156, 608)
+        Me.TextBox4.Location = New System.Drawing.Point(1106, 612)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(114, 20)
         Me.TextBox4.TabIndex = 392
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(1156, 638)
+        Me.TextBox5.Location = New System.Drawing.Point(1106, 642)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(114, 20)
         Me.TextBox5.TabIndex = 393
         '
         'TextBox6
         '
-        Me.TextBox6.Location = New System.Drawing.Point(1156, 668)
+        Me.TextBox6.Location = New System.Drawing.Point(1106, 672)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(114, 20)
         Me.TextBox6.TabIndex = 394
@@ -226,103 +334,25 @@ Partial Class DailyCollectioRecord
         Me.Panel1.Size = New System.Drawing.Size(1319, 475)
         Me.Panel1.TabIndex = 396
         '
-        'Column1
+        'ErrorProvider1
         '
-        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column1.FillWeight = 53.34179!
-        Me.Column1.HeaderText = "NAME"
-        Me.Column1.Name = "Column1"
+        Me.ErrorProvider1.ContainerControl = Me
         '
-        'Column2
+        'Button1
         '
-        Me.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column2.FillWeight = 53.34179!
-        Me.Column2.HeaderText = "MODE OF PAYMENT"
-        Me.Column2.Name = "Column2"
-        '
-        'Column3
-        '
-        Me.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column3.FillWeight = 53.34179!
-        Me.Column3.HeaderText = "NO. OF WEEKS"
-        Me.Column3.Name = "Column3"
-        '
-        'Column4
-        '
-        Me.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column4.FillWeight = 53.34179!
-        Me.Column4.HeaderText = "INSURANCE"
-        Me.Column4.Name = "Column4"
-        '
-        'Column5
-        '
-        Me.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column5.FillWeight = 53.34179!
-        Me.Column5.HeaderText = "SAVINGS"
-        Me.Column5.Name = "Column5"
-        '
-        'Column6
-        '
-        Me.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column6.FillWeight = 53.34179!
-        Me.Column6.HeaderText = "OB"
-        Me.Column6.Name = "Column6"
-        '
-        'Column7
-        '
-        Me.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column7.FillWeight = 53.34179!
-        Me.Column7.HeaderText = "TOTAL"
-        Me.Column7.Name = "Column7"
-        '
-        'Column8
-        '
-        Me.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells
-        Me.Column8.FillWeight = 659.8985!
-        Me.Column8.HeaderText = "TOTAL SAVINGS"
-        Me.Column8.Name = "Column8"
-        Me.Column8.Width = 107
-        '
-        'Column9
-        '
-        Me.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column9.FillWeight = 53.34179!
-        Me.Column9.HeaderText = "DUE OF TODAY           P+1"
-        Me.Column9.Name = "Column9"
-        '
-        'Column10
-        '
-        Me.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column10.FillWeight = 53.34179!
-        Me.Column10.HeaderText = "DUE OF TODAY SAVINGS"
-        Me.Column10.Name = "Column10"
-        '
-        'Column11
-        '
-        Me.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column11.FillWeight = 53.34179!
-        Me.Column11.HeaderText = "DUE OF TODAY INSURANCE"
-        Me.Column11.Name = "Column11"
-        '
-        'Column12
-        '
-        Me.Column12.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column12.FillWeight = 53.34179!
-        Me.Column12.HeaderText = "TOTAL DUE"
-        Me.Column12.Name = "Column12"
-        '
-        'Column13
-        '
-        Me.Column13.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column13.FillWeight = 53.34179!
-        Me.Column13.HeaderText = "CELL"
-        Me.Column13.Name = "Column13"
+        Me.Button1.Location = New System.Drawing.Point(1262, 670)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 397
+        Me.Button1.Text = "Save"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'DailyCollectioRecord
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1349, 712)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.TextBox6)
@@ -346,6 +376,7 @@ Partial Class DailyCollectioRecord
         Me.Text = "Daily Collection Record"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
+        CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -383,4 +414,6 @@ Partial Class DailyCollectioRecord
     Friend WithEvents Column11 As DataGridViewTextBoxColumn
     Friend WithEvents Column12 As DataGridViewTextBoxColumn
     Friend WithEvents Column13 As DataGridViewTextBoxColumn
+    Friend WithEvents ErrorProvider1 As ErrorProvider
+    Friend WithEvents Button1 As Button
 End Class
