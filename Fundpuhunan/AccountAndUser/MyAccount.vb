@@ -55,4 +55,15 @@
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         GroupBox1.Visible = False
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        OpenFileDialog1.Filter = "All files|*.*"
+        If OpenFileDialog1.ShowDialog = DialogResult.OK Then
+            Button2.Text = OpenFileDialog1.FileName
+        End If
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class

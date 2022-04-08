@@ -51,6 +51,7 @@ Partial Class MyAccount
         Me.Label12 = New System.Windows.Forms.Label()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -347,6 +348,10 @@ Partial Class MyAccount
         Me.Label4.Text = "_________________________________________________________________________________" &
     "________________________________________"
         '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
         'MyAccount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -412,4 +417,5 @@ Partial Class MyAccount
     Friend WithEvents Label14 As Label
     Friend WithEvents ErrorProvider1 As ErrorProvider
     Friend WithEvents Label4 As Label
+    Friend WithEvents OpenFileDialog1 As OpenFileDialog
 End Class
