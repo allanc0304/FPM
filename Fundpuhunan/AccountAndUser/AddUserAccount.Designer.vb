@@ -150,6 +150,7 @@ Partial Class AddUserAccount
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(435, 20)
         Me.txtPassword.TabIndex = 36
+        Me.txtPassword.UseSystemPasswordChar = True
         '
         'txtUsername
         '

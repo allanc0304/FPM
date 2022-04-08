@@ -94,4 +94,16 @@
 
         End If
     End Sub
+
+    Private Sub chbSPassword_CheckedChanged(sender As Object, e As EventArgs) Handles chbSPassword.CheckedChanged
+        If chbSPassword.Checked = True Then
+            txtPassword.UseSystemPasswordChar = False
+        Else
+            txtPassword.UseSystemPasswordChar = True
+        End If
+    End Sub
+
+    Private Sub btnAddUserCancel_Click(sender As Object, e As EventArgs) Handles btnAddUserCancel.Click
+        Me.Close()
+    End Sub
 End Class
