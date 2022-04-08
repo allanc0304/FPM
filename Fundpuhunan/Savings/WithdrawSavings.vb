@@ -17,7 +17,7 @@
     End Function
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim ask As MsgBoxResult
-        If Vld(TextBox4) = False Then
+        If Vld(WithdrawAmount) = False Then
             MessageBox.Show("Fill up all fields")
 
         Else
@@ -27,14 +27,13 @@
             ask = MsgBox("Would you like to withdraw?", MsgBoxStyle.YesNo, "Withdraw")
         End If
         If ask = MsgBoxResult.Yes Then
-                    MsgBox("Withdraw Successful")
+            MsgBox("Withdraw Successful")
 
-                    BorrowersSavings.Show()
-                    Me.Hide()
+            Me.Close()
 
-                Else
+        Else
 
-                End If
+        End If
 
 
 
@@ -42,7 +41,7 @@
 
 
 
-    Private Sub TextBox4_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox4.KeyPress
+    Private Sub TextBox4_KeyPress(sender As Object, e As KeyPressEventArgs) Handles WithdrawAmount.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Numbers only")
@@ -50,8 +49,8 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        BorrowersSavings.Show()
-        Me.Hide()
+
+        Me.Close()
 
     End Sub
 End Class

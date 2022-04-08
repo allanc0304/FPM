@@ -23,9 +23,9 @@ Partial Class WithdrawSavings
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.RemainingBalance = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.WithdrawAmount = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -34,14 +34,14 @@ Partial Class WithdrawSavings
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'TextBox2
+        'RemainingBalance
         '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.TextBox2.Location = New System.Drawing.Point(175, 70)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
-        Me.TextBox2.Size = New System.Drawing.Size(188, 20)
-        Me.TextBox2.TabIndex = 109
+        Me.RemainingBalance.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.RemainingBalance.Location = New System.Drawing.Point(175, 70)
+        Me.RemainingBalance.Name = "RemainingBalance"
+        Me.RemainingBalance.ReadOnly = True
+        Me.RemainingBalance.Size = New System.Drawing.Size(188, 20)
+        Me.RemainingBalance.TabIndex = 109
         '
         'Label10
         '
@@ -55,12 +55,12 @@ Partial Class WithdrawSavings
         Me.Label10.TabIndex = 107
         Me.Label10.Text = "Remaining Balance :"
         '
-        'TextBox4
+        'WithdrawAmount
         '
-        Me.TextBox4.Location = New System.Drawing.Point(175, 102)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(188, 20)
-        Me.TextBox4.TabIndex = 102
+        Me.WithdrawAmount.Location = New System.Drawing.Point(175, 102)
+        Me.WithdrawAmount.Name = "WithdrawAmount"
+        Me.WithdrawAmount.Size = New System.Drawing.Size(188, 20)
+        Me.WithdrawAmount.TabIndex = 102
         '
         'Label7
         '
@@ -123,9 +123,9 @@ Partial Class WithdrawSavings
         Me.ClientSize = New System.Drawing.Size(434, 197)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.RemainingBalance)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.WithdrawAmount)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
@@ -140,9 +140,9 @@ Partial Class WithdrawSavings
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents RemainingBalance As TextBox
     Friend WithEvents Label10 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents WithdrawAmount As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Button3 As Button
