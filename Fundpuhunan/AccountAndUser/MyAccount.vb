@@ -9,7 +9,13 @@
     End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        If CheckBox1.Checked = True Then
 
+            TextBox3.UseSystemPasswordChar = False
+        Else
+            TextBox3.UseSystemPasswordChar = True
+
+        End If
     End Sub
 
     Private Sub MyAccount_Load(sender As Object, e As EventArgs) Handles MyBase.Load
