@@ -40,15 +40,19 @@ Public Class CIRFORMB
 
         ElseIf PictureBoxAppForm.Image Is Nothing Then
             MsgBox("Please Upload Copy of Application Form")
-            ErrorProvider1.SetError(PictureBoxAppForm, "Please Upload Copy of Application Form")
+
 
 
         ElseIf PictureBoxCIR.Image Is Nothing Then
             MsgBox("Please Upload Copy of Application Form")
-            ErrorProvider1.SetError(PictureBoxCIR, "Please Upload Copy of CIR Form")
+
 
         Else
-            MsgBox("Confirm and See Computation")
+            Dim Ask As MsgBoxResult = MsgBox("Would you like to confirm and see computation", MsgBoxStyle.YesNo, "Exit")
+            If Ask = MsgBoxResult.No Then
+                MsgBox("Stop proceeding")
+            Else
+                MsgBox("Proceeding to computation")
 
                 Dim loanForm As Dictionary(Of String, Object) = New Dictionary(Of String, Object)
                 loanForm.Add("borrower_mn", AppFormA.P1_MIDDLENAME.Text)
@@ -267,7 +271,7 @@ Public Class CIRFORMB
                         "approvedbySignature")
                 Me.Close()
             End If
-
+        End If
 
     End Sub
 

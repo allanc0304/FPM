@@ -890,6 +890,7 @@ Partial Class CIRFORMB
         Me.txtBMname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBMname.Location = New System.Drawing.Point(462, 107)
         Me.txtBMname.Name = "txtBMname"
+        Me.txtBMname.ReadOnly = True
         Me.txtBMname.Size = New System.Drawing.Size(119, 22)
         Me.txtBMname.TabIndex = 773
         '
@@ -898,6 +899,7 @@ Partial Class CIRFORMB
         Me.txtBFname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBFname.Location = New System.Drawing.Point(326, 106)
         Me.txtBFname.Name = "txtBFname"
+        Me.txtBFname.ReadOnly = True
         Me.txtBFname.Size = New System.Drawing.Size(119, 22)
         Me.txtBFname.TabIndex = 772
         '
@@ -1020,6 +1022,7 @@ Partial Class CIRFORMB
         Me.txtBSuffix.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBSuffix.Location = New System.Drawing.Point(596, 108)
         Me.txtBSuffix.Name = "txtBSuffix"
+        Me.txtBSuffix.ReadOnly = True
         Me.txtBSuffix.Size = New System.Drawing.Size(46, 22)
         Me.txtBSuffix.TabIndex = 759
         '
@@ -1310,6 +1313,7 @@ Partial Class CIRFORMB
         Me.txtBLname.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtBLname.Location = New System.Drawing.Point(192, 105)
         Me.txtBLname.Name = "txtBLname"
+        Me.txtBLname.ReadOnly = True
         Me.txtBLname.Size = New System.Drawing.Size(119, 22)
         Me.txtBLname.TabIndex = 728
         '
