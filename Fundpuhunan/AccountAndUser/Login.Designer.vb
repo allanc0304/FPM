@@ -22,6 +22,7 @@ Partial Class Login
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -34,6 +35,8 @@ Partial Class Login
         Me.logbutton = New System.Windows.Forms.Button()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,11 +72,11 @@ Partial Class Login
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label4.Location = New System.Drawing.Point(44, 33)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(135, 18)
+        Me.Label4.Size = New System.Drawing.Size(124, 20)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Welcome Admin"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -121,11 +124,11 @@ Partial Class Login
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.SteelBlue
         Me.Label1.Location = New System.Drawing.Point(285, 33)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(182, 18)
+        Me.Label1.Size = New System.Drawing.Size(161, 20)
         Me.Label1.TabIndex = 69
         Me.Label1.Text = "Login to your account"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -136,7 +139,7 @@ Partial Class Login
         Me.logbutton.FlatAppearance.BorderColor = System.Drawing.Color.Black
         Me.logbutton.FlatAppearance.BorderSize = 0
         Me.logbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.logbutton.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.logbutton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.logbutton.ForeColor = System.Drawing.Color.White
         Me.logbutton.Location = New System.Drawing.Point(299, 174)
         Me.logbutton.Name = "logbutton"
@@ -165,11 +168,25 @@ Partial Class Login
         Me.PictureBox2.TabIndex = 67
         Me.PictureBox2.TabStop = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(309, 246)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(188, 17)
+        Me.Label2.TabIndex = 385
+        Me.Label2.Text = "------------------------------------"
+        '
+        'Timer1
+        '
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(509, 272)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.password)
         Me.Controls.Add(Me.usertxt)
@@ -203,4 +220,6 @@ Partial Class Login
     Friend WithEvents logbutton As Button
     Friend WithEvents Label4 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Timer1 As Timer
 End Class

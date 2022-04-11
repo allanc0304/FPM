@@ -54,9 +54,11 @@ Partial Class BorrowersLoan
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.AP_CONFIRMBTN = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -78,7 +80,7 @@ Partial Class BorrowersLoan
         '
         Me.button1.BackColor = System.Drawing.Color.SeaGreen
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.ForeColor = System.Drawing.Color.White
         Me.button1.Location = New System.Drawing.Point(738, 193)
         Me.button1.Name = "button1"
@@ -328,12 +330,24 @@ Partial Class BorrowersLoan
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel3.Controls.Add(Me.Label1)
         Me.Panel3.Controls.Add(Me.Label9)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(862, 30)
         Me.Panel3.TabIndex = 65
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label1.Location = New System.Drawing.Point(648, 4)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(188, 18)
+        Me.Label1.TabIndex = 384
+        Me.Label1.Text = "------------------------------------"
         '
         'Label9
         '
@@ -350,7 +364,7 @@ Partial Class BorrowersLoan
         '
         Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(15, 169)
         Me.Button3.Name = "Button3"
@@ -363,7 +377,7 @@ Partial Class BorrowersLoan
         '
         Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
         Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AP_CONFIRMBTN.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AP_CONFIRMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(16, 206)
         Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -372,6 +386,9 @@ Partial Class BorrowersLoan
         Me.AP_CONFIRMBTN.TabIndex = 98
         Me.AP_CONFIRMBTN.Text = "View Savings"
         Me.AP_CONFIRMBTN.UseVisualStyleBackColor = False
+        '
+        'Timer1
+        '
         '
         'BorrowersLoan
         '
@@ -452,4 +469,6 @@ Partial Class BorrowersLoan
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
     Friend WithEvents AP_CONFIRMBTN As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
