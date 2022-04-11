@@ -18,9 +18,10 @@ Public Class AppFormA
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        OpenFileDialog1.Filter = "All files|*.*"
+        OpenFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;"
         If OpenFileDialog1.ShowDialog = DialogResult.OK Then
-            Button2.Text = OpenFileDialog1.FileName
+            'Button2.Text = OpenFileDialog1.FileName
+            PictureBox2.Image = Image.FromFile(OpenFileDialog1.FileName)
         End If
     End Sub
 
@@ -229,9 +230,7 @@ Public Class AppFormA
     Private Sub C1_CONTACT_Validated(sender As Object, e As EventArgs) Handles C1_CONTACT.Validated
         Dim phone As New Regex("09\d{9}$")
         'phone number like 092-3470-9218
-        If (phone.IsMatch(C1_CONTACT.Text)) Then
-            MsgBox("Phone Number is Valid")
-        Else
+        If (Not phone.IsMatch(C1_CONTACT.Text)) Then
             MsgBox("Phone Number is Invalid")
             C1_CONTACT.Text = ""
         End If
