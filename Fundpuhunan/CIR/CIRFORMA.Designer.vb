@@ -2273,6 +2273,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_CONTACT.Location = New System.Drawing.Point(193, 456)
         Me.CIR_CONTACT.Name = "CIR_CONTACT"
+        Me.CIR_CONTACT.ReadOnly = True
         Me.CIR_CONTACT.Size = New System.Drawing.Size(212, 20)
         Me.CIR_CONTACT.TabIndex = 567
         Me.CIR_CONTACT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2411,6 +2412,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_PRO.Location = New System.Drawing.Point(428, 404)
         Me.CIR_PRO.Name = "CIR_PRO"
+        Me.CIR_PRO.ReadOnly = True
         Me.CIR_PRO.Size = New System.Drawing.Size(212, 20)
         Me.CIR_PRO.TabIndex = 552
         Me.CIR_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2419,6 +2421,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_MUN.Location = New System.Drawing.Point(192, 404)
         Me.CIR_MUN.Name = "CIR_MUN"
+        Me.CIR_MUN.ReadOnly = True
         Me.CIR_MUN.Size = New System.Drawing.Size(213, 20)
         Me.CIR_MUN.TabIndex = 551
         Me.CIR_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2457,6 +2460,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_BRGY.Location = New System.Drawing.Point(655, 356)
         Me.CIR_BRGY.Name = "CIR_BRGY"
+        Me.CIR_BRGY.ReadOnly = True
         Me.CIR_BRGY.Size = New System.Drawing.Size(212, 20)
         Me.CIR_BRGY.TabIndex = 547
         Me.CIR_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2465,6 +2469,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_ST.Location = New System.Drawing.Point(428, 356)
         Me.CIR_ST.Name = "CIR_ST"
+        Me.CIR_ST.ReadOnly = True
         Me.CIR_ST.Size = New System.Drawing.Size(212, 20)
         Me.CIR_ST.TabIndex = 546
         Me.CIR_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2473,6 +2478,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_HOUSENO.Location = New System.Drawing.Point(192, 356)
         Me.CIR_HOUSENO.Name = "CIR_HOUSENO"
+        Me.CIR_HOUSENO.ReadOnly = True
         Me.CIR_HOUSENO.Size = New System.Drawing.Size(212, 20)
         Me.CIR_HOUSENO.TabIndex = 545
         Me.CIR_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2561,6 +2567,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_SUFF.Location = New System.Drawing.Point(847, 202)
         Me.NOB_SUFF.Name = "NOB_SUFF"
+        Me.NOB_SUFF.ReadOnly = True
         Me.NOB_SUFF.Size = New System.Drawing.Size(72, 20)
         Me.NOB_SUFF.TabIndex = 532
         Me.NOB_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2569,6 +2576,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_MN.Location = New System.Drawing.Point(629, 202)
         Me.NOB_MN.Name = "NOB_MN"
+        Me.NOB_MN.ReadOnly = True
         Me.NOB_MN.Size = New System.Drawing.Size(212, 20)
         Me.NOB_MN.TabIndex = 531
         Me.NOB_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2577,6 +2585,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_GN.Location = New System.Drawing.Point(411, 202)
         Me.NOB_GN.Name = "NOB_GN"
+        Me.NOB_GN.ReadOnly = True
         Me.NOB_GN.Size = New System.Drawing.Size(212, 20)
         Me.NOB_GN.TabIndex = 530
         Me.NOB_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2585,6 +2594,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_LN.Location = New System.Drawing.Point(193, 202)
         Me.NOB_LN.Name = "NOB_LN"
+        Me.NOB_LN.ReadOnly = True
         Me.NOB_LN.Size = New System.Drawing.Size(212, 20)
         Me.NOB_LN.TabIndex = 529
         Me.NOB_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2694,6 +2704,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_AGE.Location = New System.Drawing.Point(192, 298)
         Me.CIR_AGE.Name = "CIR_AGE"
+        Me.CIR_AGE.ReadOnly = True
         Me.CIR_AGE.Size = New System.Drawing.Size(53, 20)
         Me.CIR_AGE.TabIndex = 775
         '
@@ -2714,7 +2725,7 @@ Partial Class CIRFORMA
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1004, 40)
+        Me.Panel1.Size = New System.Drawing.Size(987, 40)
         Me.Panel1.TabIndex = 777
         '
         'Label14
@@ -2734,7 +2745,7 @@ Partial Class CIRFORMA
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
-        Me.ClientSize = New System.Drawing.Size(1021, 749)
+        Me.ClientSize = New System.Drawing.Size(1004, 749)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.CIR_AGE)
