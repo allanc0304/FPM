@@ -281,8 +281,11 @@ Partial Class CIRFORMA
         Me.DOB_DTP = New System.Windows.Forms.DateTimePicker()
         Me.CIR_AGE = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label14 = New System.Windows.Forms.Label()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox2
@@ -2270,6 +2273,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_CONTACT.Location = New System.Drawing.Point(193, 456)
         Me.CIR_CONTACT.Name = "CIR_CONTACT"
+        Me.CIR_CONTACT.ReadOnly = True
         Me.CIR_CONTACT.Size = New System.Drawing.Size(212, 20)
         Me.CIR_CONTACT.TabIndex = 567
         Me.CIR_CONTACT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2408,6 +2412,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_PRO.Location = New System.Drawing.Point(428, 404)
         Me.CIR_PRO.Name = "CIR_PRO"
+        Me.CIR_PRO.ReadOnly = True
         Me.CIR_PRO.Size = New System.Drawing.Size(212, 20)
         Me.CIR_PRO.TabIndex = 552
         Me.CIR_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2416,6 +2421,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_MUN.Location = New System.Drawing.Point(192, 404)
         Me.CIR_MUN.Name = "CIR_MUN"
+        Me.CIR_MUN.ReadOnly = True
         Me.CIR_MUN.Size = New System.Drawing.Size(213, 20)
         Me.CIR_MUN.TabIndex = 551
         Me.CIR_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2454,6 +2460,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_BRGY.Location = New System.Drawing.Point(655, 356)
         Me.CIR_BRGY.Name = "CIR_BRGY"
+        Me.CIR_BRGY.ReadOnly = True
         Me.CIR_BRGY.Size = New System.Drawing.Size(212, 20)
         Me.CIR_BRGY.TabIndex = 547
         Me.CIR_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2462,6 +2469,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_ST.Location = New System.Drawing.Point(428, 356)
         Me.CIR_ST.Name = "CIR_ST"
+        Me.CIR_ST.ReadOnly = True
         Me.CIR_ST.Size = New System.Drawing.Size(212, 20)
         Me.CIR_ST.TabIndex = 546
         Me.CIR_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2470,6 +2478,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_HOUSENO.Location = New System.Drawing.Point(192, 356)
         Me.CIR_HOUSENO.Name = "CIR_HOUSENO"
+        Me.CIR_HOUSENO.ReadOnly = True
         Me.CIR_HOUSENO.Size = New System.Drawing.Size(212, 20)
         Me.CIR_HOUSENO.TabIndex = 545
         Me.CIR_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2558,6 +2567,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_SUFF.Location = New System.Drawing.Point(847, 202)
         Me.NOB_SUFF.Name = "NOB_SUFF"
+        Me.NOB_SUFF.ReadOnly = True
         Me.NOB_SUFF.Size = New System.Drawing.Size(72, 20)
         Me.NOB_SUFF.TabIndex = 532
         Me.NOB_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2566,6 +2576,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_MN.Location = New System.Drawing.Point(629, 202)
         Me.NOB_MN.Name = "NOB_MN"
+        Me.NOB_MN.ReadOnly = True
         Me.NOB_MN.Size = New System.Drawing.Size(212, 20)
         Me.NOB_MN.TabIndex = 531
         Me.NOB_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2574,6 +2585,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_GN.Location = New System.Drawing.Point(411, 202)
         Me.NOB_GN.Name = "NOB_GN"
+        Me.NOB_GN.ReadOnly = True
         Me.NOB_GN.Size = New System.Drawing.Size(212, 20)
         Me.NOB_GN.TabIndex = 530
         Me.NOB_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2582,6 +2594,7 @@ Partial Class CIRFORMA
         '
         Me.NOB_LN.Location = New System.Drawing.Point(193, 202)
         Me.NOB_LN.Name = "NOB_LN"
+        Me.NOB_LN.ReadOnly = True
         Me.NOB_LN.Size = New System.Drawing.Size(212, 20)
         Me.NOB_LN.TabIndex = 529
         Me.NOB_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -2620,7 +2633,7 @@ Partial Class CIRFORMA
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!)
-        Me.Label3.Location = New System.Drawing.Point(36, 73)
+        Me.Label3.Location = New System.Drawing.Point(36, 88)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(159, 20)
         Me.Label3.TabIndex = 525
@@ -2630,7 +2643,7 @@ Partial Class CIRFORMA
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(36, 53)
+        Me.Label2.Location = New System.Drawing.Point(36, 68)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(230, 20)
         Me.Label2.TabIndex = 524
@@ -2641,7 +2654,7 @@ Partial Class CIRFORMA
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Green
-        Me.Label1.Location = New System.Drawing.Point(35, 28)
+        Me.Label1.Location = New System.Drawing.Point(35, 43)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(370, 25)
         Me.Label1.TabIndex = 523
@@ -2691,6 +2704,7 @@ Partial Class CIRFORMA
         '
         Me.CIR_AGE.Location = New System.Drawing.Point(192, 298)
         Me.CIR_AGE.Name = "CIR_AGE"
+        Me.CIR_AGE.ReadOnly = True
         Me.CIR_AGE.Size = New System.Drawing.Size(53, 20)
         Me.CIR_AGE.TabIndex = 775
         '
@@ -2704,6 +2718,27 @@ Partial Class CIRFORMA
         Me.Label12.TabIndex = 776
         Me.Label12.Text = "( ex. 18 )"
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.SeaGreen
+        Me.Panel1.Controls.Add(Me.Label14)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(987, 40)
+        Me.Panel1.TabIndex = 777
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label14.Location = New System.Drawing.Point(263, 9)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(509, 25)
+        Me.Label14.TabIndex = 46
+        Me.Label14.Text = "CREDIT INVERTIGATION REPORT REGISTRATION"
+        '
         'CIRFORMA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2711,6 +2746,7 @@ Partial Class CIRFORMA
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
         Me.ClientSize = New System.Drawing.Size(1004, 749)
+        Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.CIR_AGE)
         Me.Controls.Add(Me.DOB_DTP)
@@ -2965,6 +3001,8 @@ Partial Class CIRFORMA
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -3229,4 +3267,6 @@ Partial Class CIRFORMA
     Friend WithEvents DOB_DTP As DateTimePicker
     Friend WithEvents CIR_AGE As TextBox
     Friend WithEvents Label12 As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label14 As Label
 End Class
