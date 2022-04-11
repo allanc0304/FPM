@@ -48,10 +48,6 @@
 
     End Sub
 
-            password.UseSystemPasswordChar = False
-        Else
-            password.UseSystemPasswordChar = True
-        End If
-    End Sub
+
 
 End Class
