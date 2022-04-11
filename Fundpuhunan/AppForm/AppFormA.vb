@@ -16,14 +16,7 @@ Public Class AppFormA
         Me.Close()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
-        OpenFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;"
-        If OpenFileDialog1.ShowDialog = DialogResult.OK Then
-            'Button2.Text = OpenFileDialog1.FileName
-            PictureBox2.Image = Image.FromFile(OpenFileDialog1.FileName)
-        End If
-    End Sub
 
 
 
@@ -208,7 +201,7 @@ Public Class AppFormA
     End Sub
 
     Private Sub ApplictaionForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Timer1.Enabled = True
     End Sub
 
     Private Function Vld(ByVal ParamArray ctl() As Object) As Boolean
@@ -234,5 +227,17 @@ Public Class AppFormA
             MsgBox("Phone Number is Invalid")
             C1_CONTACT.Text = ""
         End If
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        OpenFileDialog1.Filter = "Image Files|*.jpg;*.jpeg;*.png;"
+        If OpenFileDialog1.ShowDialog = DialogResult.OK Then
+            'Button2.Text = OpenFileDialog1.FileName
+            PictureBox1.Image = Image.FromFile(OpenFileDialog1.FileName)
+        End If
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        Label49.Text = Date.Now.ToString("dd MMM yyyy       hh:mm:ss tt")
     End Sub
 End Class

@@ -32,9 +32,6 @@ Partial Class AppFormB
         Me.PP2_PARAAN_PAGBAYAD = New System.Windows.Forms.TextBox()
         Me.TP2_TAGAL_NG_PAGBAYAD = New System.Windows.Forms.TextBox()
         Me.HH2_HALAGANG_HINIRAM = New System.Windows.Forms.TextBox()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
         Me.Label37 = New System.Windows.Forms.Label()
@@ -153,6 +150,9 @@ Partial Class AppFormB
         Me.Label79 = New System.Windows.Forms.Label()
         Me.Label80 = New System.Windows.Forms.Label()
         Me.Label81 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -233,33 +233,6 @@ Partial Class AppFormB
         Me.HH2_HALAGANG_HINIRAM.Size = New System.Drawing.Size(133, 20)
         Me.HH2_HALAGANG_HINIRAM.TabIndex = 209
         Me.HH2_HALAGANG_HINIRAM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Button4
-        '
-        Me.Button4.Location = New System.Drawing.Point(38, 1771)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(83, 20)
-        Me.Button4.TabIndex = 204
-        Me.Button4.Text = "Select"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(38, 1729)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(83, 20)
-        Me.Button3.TabIndex = 203
-        Me.Button3.Text = "Select"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(37, 1682)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(83, 20)
-        Me.Button2.TabIndex = 202
-        Me.Button2.Text = "Select"
-        Me.Button2.UseVisualStyleBackColor = True
         '
         'Label39
         '
@@ -682,7 +655,7 @@ Partial Class AppFormB
         Me.proceedbttn.BackColor = System.Drawing.Color.Green
         Me.proceedbttn.FlatAppearance.BorderSize = 0
         Me.proceedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.proceedbttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.proceedbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.proceedbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.proceedbttn.Location = New System.Drawing.Point(609, 1901)
         Me.proceedbttn.Name = "proceedbttn"
@@ -1107,9 +1080,9 @@ Partial Class AppFormB
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label58.Location = New System.Drawing.Point(255, 325)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(48, 12)
+        Me.Label58.Size = New System.Drawing.Size(58, 12)
         Me.Label58.TabIndex = 235
-        Me.Label58.Text = "( 000,000 )"
+        Me.Label58.Text = "( ex. 10,000 )"
         '
         'Label59
         '
@@ -1325,7 +1298,7 @@ Partial Class AppFormB
         Me.Button9.BackColor = System.Drawing.Color.SteelBlue
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button9.Location = New System.Drawing.Point(487, 1901)
         Me.Button9.Name = "Button9"
@@ -1386,6 +1359,27 @@ Partial Class AppFormB
         Me.Label81.TabIndex = 265
         Me.Label81.Text = "PARAAN NG PAGBABAYAD"
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(37, 1682)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(153, 20)
+        Me.TextBox1.TabIndex = 266
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(38, 1729)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(152, 20)
+        Me.TextBox2.TabIndex = 267
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(38, 1771)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(152, 20)
+        Me.TextBox3.TabIndex = 268
+        '
         'AppFormB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1393,6 +1387,9 @@ Partial Class AppFormB
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(765, 651)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label79)
@@ -1444,9 +1441,6 @@ Partial Class AppFormB
         Me.Controls.Add(Me.PP2_PARAAN_PAGBAYAD)
         Me.Controls.Add(Me.TP2_TAGAL_NG_PAGBAYAD)
         Me.Controls.Add(Me.HH2_HALAGANG_HINIRAM)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label39)
         Me.Controls.Add(Me.Label38)
         Me.Controls.Add(Me.Label37)
@@ -1536,9 +1530,6 @@ Partial Class AppFormB
     Friend WithEvents PP2_PARAAN_PAGBAYAD As TextBox
     Friend WithEvents TP2_TAGAL_NG_PAGBAYAD As TextBox
     Friend WithEvents HH2_HALAGANG_HINIRAM As TextBox
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents Label39 As Label
     Friend WithEvents Label38 As Label
     Friend WithEvents Label37 As Label
@@ -1657,4 +1648,7 @@ Partial Class AppFormB
     Friend WithEvents Label81 As Label
     Friend WithEvents Label80 As Label
     Friend WithEvents Label79 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
 End Class
