@@ -55,23 +55,7 @@
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If OpenFileDialog1.ShowDialog = DialogResult.OK Then
-            Button2.Text = OpenFileDialog1.FileName
-        End If
-    End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        If OpenFileDialog2.ShowDialog = DialogResult.OK Then
-            Button2.Text = OpenFileDialog2.FileName
-        End If
-    End Sub
-
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        If OpenFileDialog3.ShowDialog = DialogResult.OK Then
-            Button2.Text = OpenFileDialog3.FileName
-        End If
-    End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
 
