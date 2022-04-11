@@ -260,9 +260,9 @@ Partial Class AppFormB
         Me.Label37.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label37.Location = New System.Drawing.Point(34, 1747)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(294, 21)
+        Me.Label37.Size = New System.Drawing.Size(228, 21)
         Me.Label37.TabIndex = 199
-        Me.Label37.Text = "Pangalan at lagda ng Gumagarantiya"
+        Me.Label37.Text = "Pangalan ng Gumagarantiya"
         '
         'Label36
         '
@@ -270,9 +270,9 @@ Partial Class AppFormB
         Me.Label36.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label36.Location = New System.Drawing.Point(34, 1705)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(380, 21)
+        Me.Label36.Size = New System.Drawing.Size(314, 21)
         Me.Label36.TabIndex = 198
-        Me.Label36.Text = "Pangalan at lagda ng asawa/miyembro sa bahay"
+        Me.Label36.Text = "Pangalan ng asawa/miyembro sa bahay"
         '
         'Label35
         '
@@ -280,9 +280,9 @@ Partial Class AppFormB
         Me.Label35.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label35.Location = New System.Drawing.Point(34, 1657)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(261, 21)
+        Me.Label35.Size = New System.Drawing.Size(195, 21)
         Me.Label35.TabIndex = 197
-        Me.Label35.Text = "Pangalan at lagda ng humihiram"
+        Me.Label35.Text = "Pangalan ng humihiram"
         '
         'Label34
         '
