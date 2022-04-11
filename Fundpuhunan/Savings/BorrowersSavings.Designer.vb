@@ -22,8 +22,10 @@ Partial Class BorrowersSavings
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -53,6 +55,7 @@ Partial Class BorrowersSavings
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Panel3.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -75,12 +78,24 @@ Partial Class BorrowersSavings
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.Green
+        Me.Panel3.Controls.Add(Me.Label1)
         Me.Panel3.Controls.Add(Me.Label9)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel3.Location = New System.Drawing.Point(0, 0)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(863, 30)
         Me.Panel3.TabIndex = 89
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label1.Location = New System.Drawing.Point(651, 5)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(188, 18)
+        Me.Label1.TabIndex = 383
+        Me.Label1.Text = "------------------------------------"
         '
         'Label9
         '
@@ -355,6 +370,9 @@ Partial Class BorrowersSavings
         Me.Button4.Text = "View Loan"
         Me.Button4.UseVisualStyleBackColor = False
         '
+        'Timer1
+        '
+        '
         'BorrowersSavings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -432,4 +450,6 @@ Partial Class BorrowersSavings
     Private WithEvents TextBox4 As TextBox
     Private WithEvents Button2 As Button
     Private WithEvents Button4 As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
 End Class

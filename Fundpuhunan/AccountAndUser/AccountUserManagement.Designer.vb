@@ -22,6 +22,7 @@ Partial Class AccountUserManagement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.datagridManageUser = New System.Windows.Forms.DataGridView()
         Me.UserID = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.UserSurname = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -35,6 +36,8 @@ Partial Class AccountUserManagement
         Me.Label1 = New System.Windows.Forms.Label()
         Me.FontDialog1 = New System.Windows.Forms.FontDialog()
         Me.btnAddUser = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.datagridManageUser, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -113,7 +116,7 @@ Partial Class AccountUserManagement
         '
         Me.btnAddUser.BackColor = System.Drawing.Color.Teal
         Me.btnAddUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAddUser.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAddUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddUser.ForeColor = System.Drawing.SystemColors.Control
         Me.btnAddUser.Location = New System.Drawing.Point(760, 56)
         Me.btnAddUser.Name = "btnAddUser"
@@ -123,11 +126,27 @@ Partial Class AccountUserManagement
         Me.btnAddUser.Text = "Add User Account"
         Me.btnAddUser.UseVisualStyleBackColor = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Teal
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Label2.Location = New System.Drawing.Point(716, 13)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(188, 18)
+        Me.Label2.TabIndex = 383
+        Me.Label2.Text = "------------------------------------"
+        '
+        'Timer1
+        '
+        '
         'AccountUserManagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(940, 746)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnAddUser)
         Me.Controls.Add(Me.datagridManageUser)
@@ -136,6 +155,7 @@ Partial Class AccountUserManagement
         Me.Text = "Form2"
         CType(Me.datagridManageUser, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -152,4 +172,6 @@ Partial Class AccountUserManagement
     Friend WithEvents UserPassword As DataGridViewTextBoxColumn
     Friend WithEvents UserEdit As DataGridViewTextBoxColumn
     Friend WithEvents UserDelete As DataGridViewTextBoxColumn
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Timer1 As Timer
 End Class
