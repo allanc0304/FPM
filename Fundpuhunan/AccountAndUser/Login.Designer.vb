@@ -104,10 +104,9 @@ Partial Class Login
         Me.password.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.password.Location = New System.Drawing.Point(269, 113)
         Me.password.Name = "password"
-        Me.password.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.password.Size = New System.Drawing.Size(228, 21)
         Me.password.TabIndex = 71
-        Me.password.Text = "allanc30"
+        Me.password.UseSystemPasswordChar = True
         '
         'usertxt
         '
