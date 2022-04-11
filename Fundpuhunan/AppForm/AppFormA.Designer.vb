@@ -1460,6 +1460,8 @@ Partial Class AppFormA
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        Me.OpenFileDialog1.Filter = """Image Files|*.jpg;*.jpeg;*.png;"""
+        Me.OpenFileDialog1.ReadOnlyChecked = True
         '
         'ErrorProvider1
         '
