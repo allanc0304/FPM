@@ -1,5 +1,4 @@
-﻿Imports DBConnection
-Public Class Navigation
+﻿Public Class Navigation
     Private Sub attendancebutton_Click(sender As Object, e As EventArgs) Handles applicationbttn.Click
         With BorrowersList
 
