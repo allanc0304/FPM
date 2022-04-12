@@ -46,8 +46,6 @@ Partial Class CIRFORMA
         Me.LIA_UPBTN = New System.Windows.Forms.Button()
         Me.LIA_BAL = New System.Windows.Forms.TextBox()
         Me.LIA_AL = New System.Windows.Forms.TextBox()
-        Me.LIA_DD = New System.Windows.Forms.TextBox()
-        Me.LIA_DG = New System.Windows.Forms.TextBox()
         Me.LIA_CRED = New System.Windows.Forms.TextBox()
         Me.LIA_BL = New System.Windows.Forms.TextBox()
         Me.Label131 = New System.Windows.Forms.Label()
@@ -283,6 +281,9 @@ Partial Class CIRFORMA
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.LIA_DG = New System.Windows.Forms.DateTimePicker()
+        Me.LIA_DD = New System.Windows.Forms.DateTimePicker()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -304,7 +305,7 @@ Partial Class CIRFORMA
         Me.NF_RENT_BUSINESS.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NF_RENT_BUSINESS.Location = New System.Drawing.Point(14, 60)
         Me.NF_RENT_BUSINESS.Name = "NF_RENT_BUSINESS"
-        Me.NF_RENT_BUSINESS.Size = New System.Drawing.Size(76, 20)
+        Me.NF_RENT_BUSINESS.Size = New System.Drawing.Size(75, 20)
         Me.NF_RENT_BUSINESS.TabIndex = 523
         Me.NF_RENT_BUSINESS.TabStop = True
         Me.NF_RENT_BUSINESS.Text = "Rented"
@@ -316,7 +317,7 @@ Partial Class CIRFORMA
         Me.NF_OWN_BUSNESS.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.NF_OWN_BUSNESS.Location = New System.Drawing.Point(14, 13)
         Me.NF_OWN_BUSNESS.Name = "NF_OWN_BUSNESS"
-        Me.NF_OWN_BUSNESS.Size = New System.Drawing.Size(73, 20)
+        Me.NF_OWN_BUSNESS.Size = New System.Drawing.Size(72, 20)
         Me.NF_OWN_BUSNESS.TabIndex = 519
         Me.NF_OWN_BUSNESS.TabStop = True
         Me.NF_OWN_BUSNESS.Text = "Owned"
@@ -338,7 +339,7 @@ Partial Class CIRFORMA
         Me.NF_RENT_HOME.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.NF_RENT_HOME.Location = New System.Drawing.Point(17, 60)
         Me.NF_RENT_HOME.Name = "NF_RENT_HOME"
-        Me.NF_RENT_HOME.Size = New System.Drawing.Size(76, 20)
+        Me.NF_RENT_HOME.Size = New System.Drawing.Size(75, 20)
         Me.NF_RENT_HOME.TabIndex = 518
         Me.NF_RENT_HOME.TabStop = True
         Me.NF_RENT_HOME.Text = "Rented"
@@ -350,7 +351,7 @@ Partial Class CIRFORMA
         Me.NF_OWN_HOME.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.NF_OWN_HOME.Location = New System.Drawing.Point(17, 19)
         Me.NF_OWN_HOME.Name = "NF_OWN_HOME"
-        Me.NF_OWN_HOME.Size = New System.Drawing.Size(73, 20)
+        Me.NF_OWN_HOME.Size = New System.Drawing.Size(72, 20)
         Me.NF_OWN_HOME.TabIndex = 517
         Me.NF_OWN_HOME.TabStop = True
         Me.NF_OWN_HOME.Text = "Owned"
@@ -441,7 +442,7 @@ Partial Class CIRFORMA
         Me.Label150.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label150.Location = New System.Drawing.Point(538, 3818)
         Me.Label150.Name = "Label150"
-        Me.Label150.Size = New System.Drawing.Size(121, 16)
+        Me.Label150.Size = New System.Drawing.Size(120, 16)
         Me.Label150.TabIndex = 760
         Me.Label150.Text = "Purchase Value:"
         '
@@ -451,7 +452,7 @@ Partial Class CIRFORMA
         Me.Label149.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label149.Location = New System.Drawing.Point(538, 3786)
         Me.Label149.Name = "Label149"
-        Me.Label149.Size = New System.Drawing.Size(123, 16)
+        Me.Label149.Size = New System.Drawing.Size(122, 16)
         Me.Label149.TabIndex = 759
         Me.Label149.Text = "Year Purchased:"
         '
@@ -461,7 +462,7 @@ Partial Class CIRFORMA
         Me.Label148.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label148.Location = New System.Drawing.Point(71, 3855)
         Me.Label148.Name = "Label148"
-        Me.Label148.Size = New System.Drawing.Size(111, 16)
+        Me.Label148.Size = New System.Drawing.Size(110, 16)
         Me.Label148.TabIndex = 758
         Me.Label148.Text = "Serial Number:"
         '
@@ -471,7 +472,7 @@ Partial Class CIRFORMA
         Me.Label134.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label134.Location = New System.Drawing.Point(71, 3818)
         Me.Label134.Name = "Label134"
-        Me.Label134.Size = New System.Drawing.Size(113, 16)
+        Me.Label134.Size = New System.Drawing.Size(112, 16)
         Me.Label134.TabIndex = 757
         Me.Label134.Text = "Model Number:"
         '
@@ -481,7 +482,7 @@ Partial Class CIRFORMA
         Me.Label133.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label133.Location = New System.Drawing.Point(71, 3786)
         Me.Label133.Name = "Label133"
-        Me.Label133.Size = New System.Drawing.Size(186, 16)
+        Me.Label133.Size = New System.Drawing.Size(185, 16)
         Me.Label133.TabIndex = 756
         Me.Label133.Text = "Kind of Home Appliances:"
         '
@@ -540,22 +541,6 @@ Partial Class CIRFORMA
         Me.LIA_AL.TabIndex = 751
         Me.LIA_AL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'LIA_DD
-        '
-        Me.LIA_DD.Location = New System.Drawing.Point(671, 2365)
-        Me.LIA_DD.Name = "LIA_DD"
-        Me.LIA_DD.Size = New System.Drawing.Size(227, 20)
-        Me.LIA_DD.TabIndex = 750
-        Me.LIA_DD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'LIA_DG
-        '
-        Me.LIA_DG.Location = New System.Drawing.Point(195, 2416)
-        Me.LIA_DG.Name = "LIA_DG"
-        Me.LIA_DG.Size = New System.Drawing.Size(258, 20)
-        Me.LIA_DG.TabIndex = 749
-        Me.LIA_DG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'LIA_CRED
         '
         Me.LIA_CRED.Location = New System.Drawing.Point(195, 2390)
@@ -578,7 +563,7 @@ Partial Class CIRFORMA
         Me.Label131.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label131.Location = New System.Drawing.Point(565, 2421)
         Me.Label131.Name = "Label131"
-        Me.Label131.Size = New System.Drawing.Size(69, 16)
+        Me.Label131.Size = New System.Drawing.Size(68, 16)
         Me.Label131.TabIndex = 746
         Me.Label131.Text = "Balance:"
         '
@@ -588,7 +573,7 @@ Partial Class CIRFORMA
         Me.Label132.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label132.Location = New System.Drawing.Point(565, 2394)
         Me.Label132.Name = "Label132"
-        Me.Label132.Size = New System.Drawing.Size(101, 16)
+        Me.Label132.Size = New System.Drawing.Size(100, 16)
         Me.Label132.TabIndex = 745
         Me.Label132.Text = "Amount Loan:"
         '
@@ -598,7 +583,7 @@ Partial Class CIRFORMA
         Me.Label127.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label127.Location = New System.Drawing.Point(565, 2367)
         Me.Label127.Name = "Label127"
-        Me.Label127.Size = New System.Drawing.Size(77, 16)
+        Me.Label127.Size = New System.Drawing.Size(76, 16)
         Me.Label127.TabIndex = 744
         Me.Label127.Text = "Due Date:"
         '
@@ -608,7 +593,7 @@ Partial Class CIRFORMA
         Me.Label128.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label128.Location = New System.Drawing.Point(62, 2421)
         Me.Label128.Name = "Label128"
-        Me.Label128.Size = New System.Drawing.Size(104, 16)
+        Me.Label128.Size = New System.Drawing.Size(103, 16)
         Me.Label128.TabIndex = 743
         Me.Label128.Text = "Date Granted:"
         '
@@ -624,7 +609,7 @@ Partial Class CIRFORMA
         Me.Label129.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label129.Location = New System.Drawing.Point(62, 2394)
         Me.Label129.Name = "Label129"
-        Me.Label129.Size = New System.Drawing.Size(79, 16)
+        Me.Label129.Size = New System.Drawing.Size(78, 16)
         Me.Label129.TabIndex = 742
         Me.Label129.Text = "Creditors: "
         '
@@ -634,7 +619,7 @@ Partial Class CIRFORMA
         Me.Label130.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label130.Location = New System.Drawing.Point(62, 2366)
         Me.Label130.Name = "Label130"
-        Me.Label130.Size = New System.Drawing.Size(128, 16)
+        Me.Label130.Size = New System.Drawing.Size(127, 16)
         Me.Label130.TabIndex = 741
         Me.Label130.Text = "Bank / Lending / :"
         '
@@ -672,7 +657,7 @@ Partial Class CIRFORMA
         Me.CB_AGRI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.CB_AGRI.Location = New System.Drawing.Point(771, 4217)
         Me.CB_AGRI.Name = "CB_AGRI"
-        Me.CB_AGRI.Size = New System.Drawing.Size(142, 20)
+        Me.CB_AGRI.Size = New System.Drawing.Size(141, 20)
         Me.CB_AGRI.TabIndex = 739
         Me.CB_AGRI.Text = "AGRICULTURAL"
         Me.CB_AGRI.UseVisualStyleBackColor = True
@@ -683,7 +668,7 @@ Partial Class CIRFORMA
         Me.CB_RESI.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.CB_RESI.Location = New System.Drawing.Point(592, 4217)
         Me.CB_RESI.Name = "CB_RESI"
-        Me.CB_RESI.Size = New System.Drawing.Size(126, 20)
+        Me.CB_RESI.Size = New System.Drawing.Size(125, 20)
         Me.CB_RESI.TabIndex = 738
         Me.CB_RESI.Text = "RESIDENTIAL"
         Me.CB_RESI.UseVisualStyleBackColor = True
@@ -694,7 +679,7 @@ Partial Class CIRFORMA
         Me.CB_INDU.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.CB_INDU.Location = New System.Drawing.Point(399, 4218)
         Me.CB_INDU.Name = "CB_INDU"
-        Me.CB_INDU.Size = New System.Drawing.Size(117, 20)
+        Me.CB_INDU.Size = New System.Drawing.Size(116, 20)
         Me.CB_INDU.TabIndex = 737
         Me.CB_INDU.Text = "INDUSTRIAL"
         Me.CB_INDU.UseVisualStyleBackColor = True
@@ -705,7 +690,7 @@ Partial Class CIRFORMA
         Me.CB_COM.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.CB_COM.Location = New System.Drawing.Point(212, 4218)
         Me.CB_COM.Name = "CB_COM"
-        Me.CB_COM.Size = New System.Drawing.Size(125, 20)
+        Me.CB_COM.Size = New System.Drawing.Size(124, 20)
         Me.CB_COM.TabIndex = 736
         Me.CB_COM.Text = "COMMERCIAL"
         Me.CB_COM.UseVisualStyleBackColor = True
@@ -716,7 +701,7 @@ Partial Class CIRFORMA
         Me.Label147.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label147.Location = New System.Drawing.Point(65, 4217)
         Me.Label147.Name = "Label147"
-        Me.Label147.Size = New System.Drawing.Size(59, 16)
+        Me.Label147.Size = New System.Drawing.Size(58, 16)
         Me.Label147.TabIndex = 735
         Me.Label147.Text = "Check: "
         '
@@ -731,7 +716,7 @@ Partial Class CIRFORMA
         Me.Label136.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label136.Location = New System.Drawing.Point(422, 4172)
         Me.Label136.Name = "Label136"
-        Me.Label136.Size = New System.Drawing.Size(165, 16)
+        Me.Label136.Size = New System.Drawing.Size(164, 16)
         Me.Label136.TabIndex = 734
         Me.Label136.Text = "FOR HOUSE AND LOT"
         '
@@ -750,7 +735,7 @@ Partial Class CIRFORMA
         Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label63.Location = New System.Drawing.Point(77, 3239)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(20, 16)
+        Me.Label63.Size = New System.Drawing.Size(19, 16)
         Me.Label63.TabIndex = 729
         Me.Label63.Text = "2."
         '
@@ -760,7 +745,7 @@ Partial Class CIRFORMA
         Me.Label62.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label62.Location = New System.Drawing.Point(77, 3207)
         Me.Label62.Name = "Label62"
-        Me.Label62.Size = New System.Drawing.Size(20, 16)
+        Me.Label62.Size = New System.Drawing.Size(19, 16)
         Me.Label62.TabIndex = 728
         Me.Label62.Text = "1."
         '
@@ -829,7 +814,7 @@ Partial Class CIRFORMA
         Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label117.Location = New System.Drawing.Point(405, 3741)
         Me.Label117.Name = "Label117"
-        Me.Label117.Size = New System.Drawing.Size(182, 16)
+        Me.Label117.Size = New System.Drawing.Size(181, 16)
         Me.Label117.TabIndex = 722
         Me.Label117.Text = "(Kind, Brand, Model, Etc.)"
         '
@@ -879,7 +864,7 @@ Partial Class CIRFORMA
         Me.Label143.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label143.Location = New System.Drawing.Point(77, 3489)
         Me.Label143.Name = "Label143"
-        Me.Label143.Size = New System.Drawing.Size(161, 16)
+        Me.Label143.Size = New System.Drawing.Size(160, 16)
         Me.Label143.TabIndex = 720
         Me.Label143.Text = "BUSINESS ADDRESS"
         '
@@ -897,7 +882,7 @@ Partial Class CIRFORMA
         Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label144.Location = New System.Drawing.Point(426, 3551)
         Me.Label144.Name = "Label144"
-        Me.Label144.Size = New System.Drawing.Size(213, 16)
+        Me.Label144.Size = New System.Drawing.Size(212, 16)
         Me.Label144.TabIndex = 718
         Me.Label144.Text = "Remarks from owner if rented "
         '
@@ -907,7 +892,7 @@ Partial Class CIRFORMA
         Me.Label142.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label142.Location = New System.Drawing.Point(77, 3301)
         Me.Label142.Name = "Label142"
-        Me.Label142.Size = New System.Drawing.Size(129, 16)
+        Me.Label142.Size = New System.Drawing.Size(128, 16)
         Me.Label142.TabIndex = 717
         Me.Label142.Text = "HOME ADDRESS"
         '
@@ -925,7 +910,7 @@ Partial Class CIRFORMA
         Me.Label141.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label141.Location = New System.Drawing.Point(426, 3365)
         Me.Label141.Name = "Label141"
-        Me.Label141.Size = New System.Drawing.Size(213, 16)
+        Me.Label141.Size = New System.Drawing.Size(212, 16)
         Me.Label141.TabIndex = 715
         Me.Label141.Text = "Remarks from owner if rented "
         '
@@ -949,7 +934,7 @@ Partial Class CIRFORMA
         Me.Label137.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label137.Location = New System.Drawing.Point(394, 3123)
         Me.Label137.Name = "Label137"
-        Me.Label137.Size = New System.Drawing.Size(180, 16)
+        Me.Label137.Size = New System.Drawing.Size(179, 16)
         Me.Label137.TabIndex = 711
         Me.Label137.Text = "NEIGHBORS FEEDBACK"
         '
@@ -959,7 +944,7 @@ Partial Class CIRFORMA
         Me.Label124.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label124.Location = New System.Drawing.Point(436, 3721)
         Me.Label124.Name = "Label124"
-        Me.Label124.Size = New System.Drawing.Size(104, 16)
+        Me.Label124.Size = New System.Drawing.Size(103, 16)
         Me.Label124.TabIndex = 710
         Me.Label124.Text = "COLLATERAL"
         '
@@ -975,7 +960,7 @@ Partial Class CIRFORMA
         Me.Label138.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label138.Location = New System.Drawing.Point(37, 3170)
         Me.Label138.Name = "Label138"
-        Me.Label138.Size = New System.Drawing.Size(317, 16)
+        Me.Label138.Size = New System.Drawing.Size(316, 16)
         Me.Label138.TabIndex = 712
         Me.Label138.Text = "Name and Address of Interviewed Neighbors"
         '
@@ -1005,7 +990,7 @@ Partial Class CIRFORMA
         Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label115.Location = New System.Drawing.Point(47, 3045)
         Me.Label115.Name = "Label115"
-        Me.Label115.Size = New System.Drawing.Size(119, 16)
+        Me.Label115.Size = New System.Drawing.Size(118, 16)
         Me.Label115.TabIndex = 707
         Me.Label115.Text = "Monthly Income:"
         '
@@ -1015,7 +1000,7 @@ Partial Class CIRFORMA
         Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label114.Location = New System.Drawing.Point(47, 2933)
         Me.Label114.Name = "Label114"
-        Me.Label114.Size = New System.Drawing.Size(70, 16)
+        Me.Label114.Size = New System.Drawing.Size(69, 16)
         Me.Label114.TabIndex = 706
         Me.Label114.Text = "Address:"
         '
@@ -1043,7 +1028,7 @@ Partial Class CIRFORMA
         Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label112.Location = New System.Drawing.Point(47, 2874)
         Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(90, 16)
+        Me.Label112.Size = New System.Drawing.Size(89, 16)
         Me.Label112.TabIndex = 703
         Me.Label112.Text = "Occupation:"
         '
@@ -1053,7 +1038,7 @@ Partial Class CIRFORMA
         Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label111.Location = New System.Drawing.Point(47, 2820)
         Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(70, 16)
+        Me.Label111.Size = New System.Drawing.Size(69, 16)
         Me.Label111.TabIndex = 702
         Me.Label111.Text = "Relation:"
         '
@@ -1063,7 +1048,7 @@ Partial Class CIRFORMA
         Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label110.Location = New System.Drawing.Point(47, 2768)
         Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(53, 16)
+        Me.Label110.Size = New System.Drawing.Size(52, 16)
         Me.Label110.TabIndex = 701
         Me.Label110.Text = "Name:"
         '
@@ -1073,7 +1058,7 @@ Partial Class CIRFORMA
         Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label109.Location = New System.Drawing.Point(394, 2729)
         Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(209, 16)
+        Me.Label109.Size = New System.Drawing.Size(208, 16)
         Me.Label109.TabIndex = 700
         Me.Label109.Text = "CO-MAKER / CENTER CHIEF"
         '
@@ -1104,7 +1089,7 @@ Partial Class CIRFORMA
         Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label107.Location = New System.Drawing.Point(456, 2327)
         Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(90, 16)
+        Me.Label107.Size = New System.Drawing.Size(89, 16)
         Me.Label107.TabIndex = 697
         Me.Label107.Text = "LIABILITIES"
         '
@@ -1164,7 +1149,7 @@ Partial Class CIRFORMA
         Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label101.Location = New System.Drawing.Point(506, 2261)
         Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(114, 16)
+        Me.Label101.Size = New System.Drawing.Size(113, 16)
         Me.Label101.TabIndex = 690
         Me.Label101.Text = "Monthly Salary:"
         '
@@ -1174,7 +1159,7 @@ Partial Class CIRFORMA
         Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label102.Location = New System.Drawing.Point(488, 2212)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(132, 16)
+        Me.Label102.Size = New System.Drawing.Size(131, 16)
         Me.Label102.TabIndex = 689
         Me.Label102.Text = "Length of Service:"
         '
@@ -1184,7 +1169,7 @@ Partial Class CIRFORMA
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label103.Location = New System.Drawing.Point(565, 2165)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(55, 16)
+        Me.Label103.Size = New System.Drawing.Size(54, 16)
         Me.Label103.TabIndex = 688
         Me.Label103.Text = "Status:"
         '
@@ -1194,7 +1179,7 @@ Partial Class CIRFORMA
         Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label104.Location = New System.Drawing.Point(552, 2117)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(68, 16)
+        Me.Label104.Size = New System.Drawing.Size(67, 16)
         Me.Label104.TabIndex = 687
         Me.Label104.Text = "Position:"
         '
@@ -1204,7 +1189,7 @@ Partial Class CIRFORMA
         Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label105.Location = New System.Drawing.Point(543, 2073)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(77, 16)
+        Me.Label105.Size = New System.Drawing.Size(76, 16)
         Me.Label105.TabIndex = 686
         Me.Label105.Text = "Company:"
         '
@@ -1254,7 +1239,7 @@ Partial Class CIRFORMA
         Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label100.Location = New System.Drawing.Point(62, 2265)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(114, 16)
+        Me.Label100.Size = New System.Drawing.Size(113, 16)
         Me.Label100.TabIndex = 680
         Me.Label100.Text = "Monthly Salary:"
         '
@@ -1264,7 +1249,7 @@ Partial Class CIRFORMA
         Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label99.Location = New System.Drawing.Point(44, 2214)
         Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(132, 16)
+        Me.Label99.Size = New System.Drawing.Size(131, 16)
         Me.Label99.TabIndex = 679
         Me.Label99.Text = "Length of Service:"
         '
@@ -1274,7 +1259,7 @@ Partial Class CIRFORMA
         Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label98.Location = New System.Drawing.Point(113, 2168)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(55, 16)
+        Me.Label98.Size = New System.Drawing.Size(54, 16)
         Me.Label98.TabIndex = 678
         Me.Label98.Text = "Status:"
         '
@@ -1284,7 +1269,7 @@ Partial Class CIRFORMA
         Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label97.Location = New System.Drawing.Point(100, 2121)
         Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(68, 16)
+        Me.Label97.Size = New System.Drawing.Size(67, 16)
         Me.Label97.TabIndex = 677
         Me.Label97.Text = "Position:"
         '
@@ -1294,7 +1279,7 @@ Partial Class CIRFORMA
         Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label96.Location = New System.Drawing.Point(99, 2073)
         Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(77, 16)
+        Me.Label96.Size = New System.Drawing.Size(76, 16)
         Me.Label96.TabIndex = 676
         Me.Label96.Text = "Company:"
         '
@@ -1304,7 +1289,7 @@ Partial Class CIRFORMA
         Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label95.Location = New System.Drawing.Point(656, 2020)
         Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(70, 16)
+        Me.Label95.Size = New System.Drawing.Size(69, 16)
         Me.Label95.TabIndex = 675
         Me.Label95.Text = "SPOUSE"
         '
@@ -1314,7 +1299,7 @@ Partial Class CIRFORMA
         Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label94.Location = New System.Drawing.Point(162, 2020)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(97, 16)
+        Me.Label94.Size = New System.Drawing.Size(96, 16)
         Me.Label94.TabIndex = 674
         Me.Label94.Text = "BORROWER"
         '
@@ -1324,7 +1309,7 @@ Partial Class CIRFORMA
         Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label93.Location = New System.Drawing.Point(402, 1970)
         Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(180, 16)
+        Me.Label93.Size = New System.Drawing.Size(179, 16)
         Me.Label93.TabIndex = 673
         Me.Label93.Text = "EMPLOYMENT RECORD"
         '
@@ -1410,7 +1395,7 @@ Partial Class CIRFORMA
         Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label86.Location = New System.Drawing.Point(34, 1862)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(134, 16)
+        Me.Label86.Size = New System.Drawing.Size(133, 16)
         Me.Label86.TabIndex = 665
         Me.Label86.Text = "Beginning Capital:"
         '
@@ -1420,7 +1405,7 @@ Partial Class CIRFORMA
         Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label84.Location = New System.Drawing.Point(34, 1810)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(173, 16)
+        Me.Label84.Size = New System.Drawing.Size(172, 16)
         Me.Label84.TabIndex = 663
         Me.Label84.Text = "No. of Year in Business:"
         '
@@ -1438,7 +1423,7 @@ Partial Class CIRFORMA
         Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label85.Location = New System.Drawing.Point(34, 1755)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(132, 16)
+        Me.Label85.Size = New System.Drawing.Size(131, 16)
         Me.Label85.TabIndex = 661
         Me.Label85.Text = "Type of Business "
         '
@@ -1456,7 +1441,7 @@ Partial Class CIRFORMA
         Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label83.Location = New System.Drawing.Point(34, 1618)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(122, 16)
+        Me.Label83.Size = New System.Drawing.Size(121, 16)
         Me.Label83.TabIndex = 659
         Me.Label83.Text = "Contact Number:"
         '
@@ -1474,7 +1459,7 @@ Partial Class CIRFORMA
         Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label82.Location = New System.Drawing.Point(34, 1576)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(180, 16)
+        Me.Label82.Size = New System.Drawing.Size(179, 16)
         Me.Label82.TabIndex = 657
         Me.Label82.Text = "Kind / Name of Business:"
         '
@@ -1574,7 +1559,7 @@ Partial Class CIRFORMA
         Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label81.Location = New System.Drawing.Point(34, 1665)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(185, 16)
+        Me.Label81.Size = New System.Drawing.Size(184, 16)
         Me.Label81.TabIndex = 646
         Me.Label81.Text = "Complete Home Address:"
         '
@@ -1584,7 +1569,7 @@ Partial Class CIRFORMA
         Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label75.Location = New System.Drawing.Point(404, 1521)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(152, 16)
+        Me.Label75.Size = New System.Drawing.Size(151, 16)
         Me.Label75.TabIndex = 645
         Me.Label75.Text = "BUSINESS RECORD"
         '
@@ -1650,7 +1635,7 @@ Partial Class CIRFORMA
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label69.Location = New System.Drawing.Point(170, 1460)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(140, 16)
+        Me.Label69.Size = New System.Drawing.Size(139, 16)
         Me.Label69.TabIndex = 638
         Me.Label69.Text = "Mode of Payments "
         '
@@ -1660,7 +1645,7 @@ Partial Class CIRFORMA
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label70.Location = New System.Drawing.Point(208, 1410)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(102, 16)
+        Me.Label70.Size = New System.Drawing.Size(101, 16)
         Me.Label70.TabIndex = 637
         Me.Label70.Text = "Monthly Rate "
         '
@@ -1694,7 +1679,7 @@ Partial Class CIRFORMA
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label66.Location = New System.Drawing.Point(246, 1361)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(52, 16)
+        Me.Label66.Size = New System.Drawing.Size(51, 16)
         Me.Label66.TabIndex = 633
         Me.Label66.Text = "Terms"
         '
@@ -1704,7 +1689,7 @@ Partial Class CIRFORMA
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label67.Location = New System.Drawing.Point(158, 1262)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(152, 16)
+        Me.Label67.Size = New System.Drawing.Size(151, 16)
         Me.Label67.TabIndex = 632
         Me.Label67.Text = "Amount Applied Php "
         '
@@ -1714,7 +1699,7 @@ Partial Class CIRFORMA
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label68.Location = New System.Drawing.Point(240, 1307)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(70, 16)
+        Me.Label68.Size = New System.Drawing.Size(69, 16)
         Me.Label68.TabIndex = 631
         Me.Label68.Text = "Purpose "
         '
@@ -1724,7 +1709,7 @@ Partial Class CIRFORMA
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label65.Location = New System.Drawing.Point(433, 1163)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(116, 16)
+        Me.Label65.Size = New System.Drawing.Size(115, 16)
         Me.Label65.TabIndex = 628
         Me.Label65.Text = "TYPE OF LOAN"
         '
@@ -1816,7 +1801,7 @@ Partial Class CIRFORMA
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label60.Location = New System.Drawing.Point(723, 922)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(90, 16)
+        Me.Label60.Size = New System.Drawing.Size(89, 16)
         Me.Label60.TabIndex = 616
         Me.Label60.Text = "Tuition Fee:"
         '
@@ -1826,7 +1811,7 @@ Partial Class CIRFORMA
         Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label59.Location = New System.Drawing.Point(173, 1042)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(66, 16)
+        Me.Label59.Size = New System.Drawing.Size(65, 16)
         Me.Label59.TabIndex = 615
         Me.Label59.Text = "College:"
         '
@@ -1836,7 +1821,7 @@ Partial Class CIRFORMA
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label58.Location = New System.Drawing.Point(173, 970)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(90, 16)
+        Me.Label58.Size = New System.Drawing.Size(89, 16)
         Me.Label58.TabIndex = 614
         Me.Label58.Text = "Elementary:"
         '
@@ -1859,7 +1844,7 @@ Partial Class CIRFORMA
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label57.Location = New System.Drawing.Point(173, 1005)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(96, 16)
+        Me.Label57.Size = New System.Drawing.Size(95, 16)
         Me.Label57.TabIndex = 612
         Me.Label57.Text = "High School:"
         '
@@ -1869,7 +1854,7 @@ Partial Class CIRFORMA
         Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label56.Location = New System.Drawing.Point(388, 813)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(205, 16)
+        Me.Label56.Size = New System.Drawing.Size(204, 16)
         Me.Label56.TabIndex = 611
         Me.Label56.Text = "NUMBER OF DEPENDENTS"
         '
@@ -1907,7 +1892,7 @@ Partial Class CIRFORMA
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.Location = New System.Drawing.Point(490, 922)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(133, 32)
+        Me.Label41.Size = New System.Drawing.Size(132, 32)
         Me.Label41.TabIndex = 607
         Me.Label41.Text = "How many attending " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Government School?"
         '
@@ -2007,7 +1992,7 @@ Partial Class CIRFORMA
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.Location = New System.Drawing.Point(277, 922)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(132, 32)
+        Me.Label47.Size = New System.Drawing.Size(131, 32)
         Me.Label47.TabIndex = 596
         Me.Label47.Text = "How many attending " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Private School?"
         '
@@ -2035,7 +2020,7 @@ Partial Class CIRFORMA
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label49.Location = New System.Drawing.Point(471, 888)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(93, 16)
+        Me.Label49.Size = New System.Drawing.Size(92, 16)
         Me.Label49.TabIndex = 593
         Me.Label49.Text = "If Schooling:"
         '
@@ -2117,7 +2102,7 @@ Partial Class CIRFORMA
         Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label54.Location = New System.Drawing.Point(36, 857)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(216, 16)
+        Me.Label54.Size = New System.Drawing.Size(215, 16)
         Me.Label54.TabIndex = 584
         Me.Label54.Text = "How many are Non-Schooling:"
         '
@@ -2145,7 +2130,7 @@ Partial Class CIRFORMA
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label33.Location = New System.Drawing.Point(50, 739)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(122, 16)
+        Me.Label33.Size = New System.Drawing.Size(121, 16)
         Me.Label33.TabIndex = 581
         Me.Label33.Text = "Contact Number:"
         '
@@ -2245,7 +2230,7 @@ Partial Class CIRFORMA
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label39.Location = New System.Drawing.Point(57, 627)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(115, 32)
+        Me.Label39.Size = New System.Drawing.Size(114, 32)
         Me.Label39.TabIndex = 570
         Me.Label39.Text = "Complete " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Home Address:"
         '
@@ -2284,7 +2269,7 @@ Partial Class CIRFORMA
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label29.Location = New System.Drawing.Point(50, 457)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(122, 16)
+        Me.Label29.Size = New System.Drawing.Size(121, 16)
         Me.Label29.TabIndex = 566
         Me.Label29.Text = "Contact Number:"
         '
@@ -2302,7 +2287,7 @@ Partial Class CIRFORMA
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label28.Location = New System.Drawing.Point(102, 579)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(70, 16)
+        Me.Label28.Size = New System.Drawing.Size(69, 16)
         Me.Label28.TabIndex = 564
         Me.Label28.Text = "Relation:"
         '
@@ -2384,7 +2369,7 @@ Partial Class CIRFORMA
         Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold)
         Me.Label27.Location = New System.Drawing.Point(35, 522)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(140, 16)
+        Me.Label27.Size = New System.Drawing.Size(139, 16)
         Me.Label27.TabIndex = 555
         Me.Label27.Text = "Name of Relatives:"
         '
@@ -2489,7 +2474,7 @@ Partial Class CIRFORMA
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(32, 357)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(140, 16)
+        Me.Label17.Size = New System.Drawing.Size(139, 16)
         Me.Label17.TabIndex = 544
         Me.Label17.Text = "Complete Address:"
         '
@@ -2509,7 +2494,7 @@ Partial Class CIRFORMA
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(132, 302)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(40, 16)
+        Me.Label15.Size = New System.Drawing.Size(39, 16)
         Me.Label15.TabIndex = 541
         Me.Label15.Text = "Age:"
         '
@@ -2519,7 +2504,7 @@ Partial Class CIRFORMA
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(103, 250)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(69, 16)
+        Me.Label11.Size = New System.Drawing.Size(68, 16)
         Me.Label11.TabIndex = 537
         Me.Label11.Text = "Birthday:"
         '
@@ -2605,7 +2590,7 @@ Partial Class CIRFORMA
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(36, 202)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(136, 16)
+        Me.Label6.Size = New System.Drawing.Size(135, 16)
         Me.Label6.TabIndex = 528
         Me.Label6.Text = "Name of Borrower:"
         '
@@ -2739,6 +2724,30 @@ Partial Class CIRFORMA
         Me.Label14.TabIndex = 46
         Me.Label14.Text = "CREDIT INVERTIGATION REPORT REGISTRATION"
         '
+        'LIA_DG
+        '
+        Me.LIA_DG.Location = New System.Drawing.Point(195, 2417)
+        Me.LIA_DG.Name = "LIA_DG"
+        Me.LIA_DG.Size = New System.Drawing.Size(200, 20)
+        Me.LIA_DG.TabIndex = 778
+        '
+        'LIA_DD
+        '
+        Me.LIA_DD.Location = New System.Drawing.Point(671, 2362)
+        Me.LIA_DD.Name = "LIA_DD"
+        Me.LIA_DD.Size = New System.Drawing.Size(200, 20)
+        Me.LIA_DD.TabIndex = 779
+        Me.LIA_DD.Value = New Date(2022, 4, 12, 15, 8, 55, 0)
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(879, 4245)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 780
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'CIRFORMA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2746,6 +2755,9 @@ Partial Class CIRFORMA
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
         Me.ClientSize = New System.Drawing.Size(1004, 749)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.LIA_DD)
+        Me.Controls.Add(Me.LIA_DG)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.CIR_AGE)
@@ -2773,8 +2785,6 @@ Partial Class CIRFORMA
         Me.Controls.Add(Me.LIA_UPBTN)
         Me.Controls.Add(Me.LIA_BAL)
         Me.Controls.Add(Me.LIA_AL)
-        Me.Controls.Add(Me.LIA_DD)
-        Me.Controls.Add(Me.LIA_DG)
         Me.Controls.Add(Me.LIA_CRED)
         Me.Controls.Add(Me.LIA_BL)
         Me.Controls.Add(Me.Label131)
@@ -3032,8 +3042,6 @@ Partial Class CIRFORMA
     Friend WithEvents LIA_UPBTN As Button
     Friend WithEvents LIA_BAL As TextBox
     Friend WithEvents LIA_AL As TextBox
-    Friend WithEvents LIA_DD As TextBox
-    Friend WithEvents LIA_DG As TextBox
     Friend WithEvents LIA_CRED As TextBox
     Friend WithEvents LIA_BL As TextBox
     Friend WithEvents Label131 As Label
@@ -3269,4 +3277,7 @@ Partial Class CIRFORMA
     Friend WithEvents Label12 As Label
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label14 As Label
+    Friend WithEvents LIA_DG As DateTimePicker
+    Friend WithEvents LIA_DD As DateTimePicker
+    Friend WithEvents Button1 As Button
 End Class
