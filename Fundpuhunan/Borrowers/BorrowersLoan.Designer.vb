@@ -409,6 +409,7 @@ Partial Class BorrowersLoan
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(862, 511)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.AP_CONFIRMBTN)
         Me.Controls.Add(Me.Button3)
