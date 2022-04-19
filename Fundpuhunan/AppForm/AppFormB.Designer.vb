@@ -153,6 +153,7 @@ Partial Class AppFormB
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -1380,6 +1381,15 @@ Partial Class AppFormB
         Me.TextBox3.Size = New System.Drawing.Size(152, 20)
         Me.TextBox3.TabIndex = 268
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(649, 1872)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 269
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'AppFormB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1387,6 +1397,7 @@ Partial Class AppFormB
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(765, 651)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -1651,4 +1662,5 @@ Partial Class AppFormB
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
 End Class

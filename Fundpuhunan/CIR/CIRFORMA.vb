@@ -1,5 +1,6 @@
 ﻿Imports System.Text.RegularExpressions
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Header
+Imports System.Globalization
 Public Class CIRFORMA
     Private Sub NOB_LN_KeyPress(sender As Object, e As KeyPressEventArgs) Handles NOB_LN.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
@@ -365,8 +366,15 @@ Public Class CIRFORMA
         End If
     End Sub
 
+    Private Sub ER_LOS_KeyPress(sender As Object, e As KeyPressEventArgs) Handles ER_LOS.KeyPress
+        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+            e.Handled = True
+            MessageBox.Show("This field will accept letters only")
+        End If
+    End Sub
+
     Private Sub ER_LOS1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles ER_LOS1.KeyPress
-        If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This field will accept letters only")
         End If
@@ -585,13 +593,13 @@ Public Class CIRFORMA
     End Sub
 
     Private Sub ListView1_Click(sender As Object, e As EventArgs) Handles ListView1.Click
-        If ListView1.SelectedItems.Count > 0 Then
-            LIA_BL.Text = ListView1.SelectedItems(0).SubItems(0).Text
-            LIA_CRED.Text = ListView1.SelectedItems(0).SubItems(1).Text
-            LIA_DG.Text = ListView1.SelectedItems(0).SubItems(2).Text
-            LIA_DD.Text = ListView1.SelectedItems(0).SubItems(3).Text
-            LIA_AL.Text = ListView1.SelectedItems(0).SubItems(4).Text
-            LIA_BAL.Text = ListView1.SelectedItems(0).SubItems(5).Text
+        If ListView2.SelectedItems.Count > 0 Then
+            LIA_BL.Text = ListView2.SelectedItems(0).SubItems(0).Text
+            LIA_CRED.Text = ListView2.SelectedItems(0).SubItems(1).Text
+            LIA_DG.Value = DateTime.ParseExact(ListView2.SelectedItems(0).SubItems(2).Text, "MMMM, dd, yyyy", CultureInfo.CurrentCulture)
+            LIA_DD.Text = DateTime.ParseExact(ListView2.SelectedItems(0).SubItems(3).Text, "MMMM, dd, yyyy", CultureInfo.CurrentCulture)
+            LIA_AL.Text = ListView2.SelectedItems(0).SubItems(4).Text
+            LIA_BAL.Text = ListView2.SelectedItems(0).SubItems(5).Text
         End If
     End Sub
 
@@ -608,8 +616,8 @@ Public Class CIRFORMA
     Private Sub LIA_ADDBTN_Click(sender As Object, e As EventArgs) Handles LIA_ADDBTN.Click
         Dim newitem As New ListViewItem(LIA_BL.Text)
         newitem.SubItems.Add(LIA_CRED.Text)
-        newitem.SubItems.Add(LIA_DG.Text)
-        newitem.SubItems.Add(LIA_DD.Text)
+        newitem.SubItems.Add(LIA_DG.Value.Date.ToString("MMMM, dd, yyyy"))
+        newitem.SubItems.Add(LIA_DD.Value.Date.ToString("MMMM, dd, yyyy"))
         newitem.SubItems.Add(LIA_AL.Text)
         newitem.SubItems.Add(LIA_BAL.Text)
 
@@ -617,8 +625,8 @@ Public Class CIRFORMA
 
         LIA_BL.Text = ""
         LIA_CRED.Text = ""
-        LIA_DG.Text = ""
-        LIA_DD.Text = ""
+        LIA_DG.Value = Now()
+        LIA_DD.Value = Now()
         LIA_AL.Text = ""
         LIA_BAL.Text = ""
     End Sub
@@ -642,15 +650,15 @@ Public Class CIRFORMA
         If ListView1.SelectedItems.Count > 0 Then
             ListView1.SelectedItems(0).SubItems(0).Text = LIA_BL.Text
             ListView1.SelectedItems(0).SubItems(1).Text = LIA_CRED.Text
-            ListView1.SelectedItems(0).SubItems(2).Text = LIA_DG.Text
-            ListView1.SelectedItems(0).SubItems(3).Text = LIA_DD.Text
+            ListView1.SelectedItems(0).SubItems(2).Text = LIA_DG.Value.Date.ToString("MMMM, dd, yyyy")
+            ListView1.SelectedItems(0).SubItems(3).Text = LIA_DD.Value.Date.ToString("MMMM, dd, yyyy")
             ListView1.SelectedItems(0).SubItems(4).Text = LIA_AL.Text
             ListView1.SelectedItems(0).SubItems(5).Text = LIA_BAL.Text
 
             LIA_BL.Text = ""
             LIA_CRED.Text = ""
-            LIA_DG.Text = ""
-            LIA_DD.Text = ""
+            LIA_DG.Value = Now()
+            LIA_DD.Value = Now()
             LIA_AL.Text = ""
             LIA_BAL.Text = ""
         End If
@@ -678,8 +686,8 @@ Public Class CIRFORMA
 
             LIA_BL.Text = ""
             LIA_CRED.Text = ""
-            LIA_DG.Text = ""
-            LIA_DD.Text = ""
+            LIA_DG.Value = Now()
+            LIA_DD.Value = Now()
             LIA_AL.Text = ""
             LIA_BAL.Text = ""
         End If
@@ -712,5 +720,10 @@ Public Class CIRFORMA
 
     Private Sub CIRFORMA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.NOB_LN.Text = AppFormA.P1_LASTNAME.Text
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        CIRFORMB.Show()
+        Me.Hide()
     End Sub
 End Class

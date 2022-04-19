@@ -240,4 +240,9 @@ Public Class AppFormA
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Label49.Text = Date.Now.ToString("dd MMM yyyy       hh:mm:ss tt")
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        AppFormB.Show()
+        Me.Hide()
+    End Sub
 End Class
