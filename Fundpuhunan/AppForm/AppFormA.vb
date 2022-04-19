@@ -1,8 +1,9 @@
 ﻿Imports System.ComponentModel
 Imports System.Text.RegularExpressions
 Public Class AppFormA
-
+    Public Shared view As Boolean = False
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        BorrowersList.Button3.Enabled = True
         With Savings
 
             .TopLevel = False
@@ -15,13 +16,6 @@ Public Class AppFormA
         End With
         Me.Close()
     End Sub
-
-
-
-
-
-
-
     Private Sub P1_LASTNAME_KeyPress(sender As Object, e As KeyPressEventArgs) Handles P1_LASTNAME.KeyPress
         If Not Char.IsLetterOrDigit(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
@@ -201,7 +195,22 @@ Public Class AppFormA
     End Sub
 
     Private Sub ApplictaionForm1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Button2.Visible = False
+
         Timer1.Enabled = True
+        If view = True Then
+            For Each control As Control In Me.Controls
+                If (Not TypeOf (control) Is Label) Then
+                    control.Enabled = False
+                End If
+            Next
+            Button1.Visible = False
+            Button1.Enabled = True
+            Button2.Visible = True
+            Button3.Enabled = True
+            Button2.Enabled = True
+            Label31.Text = "VIEW ONLY"
+        End If
     End Sub
 
     Private Function Vld(ByVal ParamArray ctl() As Object) As Boolean
@@ -243,6 +252,7 @@ Public Class AppFormA
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         AppFormB.Show()
+
         Me.Hide()
     End Sub
 End Class

@@ -1525,12 +1525,16 @@ Partial Class AppFormA
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(614, 1369)
+        Me.Button2.BackColor = System.Drawing.Color.SteelBlue
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button2.Location = New System.Drawing.Point(589, 1398)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(101, 30)
         Me.Button2.TabIndex = 438
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Text = "Next"
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'AppFormA
         '

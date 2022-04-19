@@ -89,6 +89,8 @@ Public Class BorrowersLoan
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        AppFormA.view = True
+        AppFormB.view = True
         AppFormA.Show()
     End Sub
 
@@ -109,5 +111,11 @@ Public Class BorrowersLoan
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Label1.Text = Date.Now.ToString("dd MMM yyyy       hh:mm:ss tt")
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        BorrowersList.Button3.Enabled = True
+        Dashboard.Show()
+        Me.Close()
     End Sub
 End Class

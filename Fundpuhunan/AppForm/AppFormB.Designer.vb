@@ -147,9 +147,6 @@ Partial Class AppFormB
         Me.Label79 = New System.Windows.Forms.Label()
         Me.Label80 = New System.Windows.Forms.Label()
         Me.Label81 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -1097,7 +1094,7 @@ Partial Class AppFormB
         '
         Me.Button5.BackColor = System.Drawing.Color.SteelBlue
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button5.Location = New System.Drawing.Point(612, 578)
         Me.Button5.Name = "Button5"
@@ -1296,7 +1293,7 @@ Partial Class AppFormB
         '
         Me.Button10.BackColor = System.Drawing.Color.SteelBlue
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button10.Location = New System.Drawing.Point(612, 609)
         Me.Button10.Name = "Button10"
@@ -1336,35 +1333,18 @@ Partial Class AppFormB
         Me.Label81.TabIndex = 265
         Me.Label81.Text = "PARAAN NG PAGBABAYAD"
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(37, 1682)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox1.TabIndex = 266
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(38, 1729)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(152, 20)
-        Me.TextBox2.TabIndex = 267
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(38, 1771)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(152, 20)
-        Me.TextBox3.TabIndex = 268
-        '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(649, 1872)
+        Me.Button1.BackColor = System.Drawing.Color.Green
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Location = New System.Drawing.Point(589, 1633)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(116, 31)
         Me.Button1.TabIndex = 269
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Text = "Proceed To CIR"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'AppFormB
         '
@@ -1374,9 +1354,6 @@ Partial Class AppFormB
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(765, 651)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label79)
@@ -1629,8 +1606,5 @@ Partial Class AppFormB
     Friend WithEvents Label81 As Label
     Friend WithEvents Label80 As Label
     Friend WithEvents Label79 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
 End Class
