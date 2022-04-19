@@ -302,6 +302,10 @@ Public Class CIRFORMB
         End If
     End Sub
 
+    Private Sub CIRFORMB_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
     'Private Sub SetReadOnlyOnAllControls(ByVal parentControl As Control, ByVal rOnly As Boolean)
     '    If (TypeOf (parentControl) Is TextBoxBase) Then
     '        CType(parentControl, TextBoxBase).ReadOnly = rOnly

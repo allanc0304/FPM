@@ -160,8 +160,8 @@ Partial Class AppFormA
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label31 = New System.Windows.Forms.Label()
         Me.Label49 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1406,7 +1406,7 @@ Partial Class AppFormA
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label1.Location = New System.Drawing.Point(179, 219)
+        Me.Label1.Location = New System.Drawing.Point(244, 219)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(269, 21)
         Me.Label1.TabIndex = 282
@@ -1497,17 +1497,6 @@ Partial Class AppFormA
         Me.Panel1.Size = New System.Drawing.Size(732, 34)
         Me.Panel1.TabIndex = 437
         '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label31.Location = New System.Drawing.Point(239, 5)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(182, 25)
-        Me.Label31.TabIndex = 438
-        Me.Label31.Text = "Registration Form"
-        '
         'Label49
         '
         Me.Label49.AutoSize = True
@@ -1518,6 +1507,17 @@ Partial Class AppFormA
         Me.Label49.Size = New System.Drawing.Size(188, 18)
         Me.Label49.TabIndex = 439
         Me.Label49.Text = "------------------------------------"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Label31.Location = New System.Drawing.Point(239, 5)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(182, 25)
+        Me.Label31.TabIndex = 438
+        Me.Label31.Text = "Registration Form"
         '
         'Timer1
         '

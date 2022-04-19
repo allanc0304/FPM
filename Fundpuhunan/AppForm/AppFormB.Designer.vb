@@ -34,9 +34,6 @@ Partial Class AppFormB
         Me.HH2_HALAGANG_HINIRAM = New System.Windows.Forms.TextBox()
         Me.Label39 = New System.Windows.Forms.Label()
         Me.Label38 = New System.Windows.Forms.Label()
-        Me.Label37 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
-        Me.Label35 = New System.Windows.Forms.Label()
         Me.Label34 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
@@ -150,15 +147,12 @@ Partial Class AppFormB
         Me.Label79 = New System.Windows.Forms.Label()
         Me.Label80 = New System.Windows.Forms.Label()
         Me.Label81 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'CB2_CHECKEDBY
         '
-        Me.CB2_CHECKEDBY.Location = New System.Drawing.Point(182, 1595)
+        Me.CB2_CHECKEDBY.Location = New System.Drawing.Point(195, 1484)
         Me.CB2_CHECKEDBY.Name = "CB2_CHECKEDBY"
         Me.CB2_CHECKEDBY.Size = New System.Drawing.Size(140, 20)
         Me.CB2_CHECKEDBY.TabIndex = 219
@@ -166,7 +160,7 @@ Partial Class AppFormB
         '
         'AL2_LOAN
         '
-        Me.AL2_LOAN.Location = New System.Drawing.Point(182, 1551)
+        Me.AL2_LOAN.Location = New System.Drawing.Point(195, 1440)
         Me.AL2_LOAN.Name = "AL2_LOAN"
         Me.AL2_LOAN.Size = New System.Drawing.Size(140, 20)
         Me.AL2_LOAN.TabIndex = 218
@@ -174,7 +168,7 @@ Partial Class AppFormB
         '
         'R2_RECOMMENDED
         '
-        Me.R2_RECOMMENDED.Location = New System.Drawing.Point(182, 1505)
+        Me.R2_RECOMMENDED.Location = New System.Drawing.Point(195, 1394)
         Me.R2_RECOMMENDED.Name = "R2_RECOMMENDED"
         Me.R2_RECOMMENDED.Size = New System.Drawing.Size(140, 20)
         Me.R2_RECOMMENDED.TabIndex = 217
@@ -184,7 +178,7 @@ Partial Class AppFormB
         '
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Label44.Location = New System.Drawing.Point(33, 1593)
+        Me.Label44.Location = New System.Drawing.Point(46, 1482)
         Me.Label44.Name = "Label44"
         Me.Label44.Size = New System.Drawing.Size(97, 20)
         Me.Label44.TabIndex = 216
@@ -194,7 +188,7 @@ Partial Class AppFormB
         '
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Label42.Location = New System.Drawing.Point(33, 1549)
+        Me.Label42.Location = New System.Drawing.Point(46, 1438)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(132, 20)
         Me.Label42.TabIndex = 215
@@ -204,7 +198,7 @@ Partial Class AppFormB
         '
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Label41.Location = New System.Drawing.Point(33, 1503)
+        Me.Label41.Location = New System.Drawing.Point(46, 1392)
         Me.Label41.Name = "Label41"
         Me.Label41.Size = New System.Drawing.Size(143, 20)
         Me.Label41.TabIndex = 214
@@ -212,7 +206,7 @@ Partial Class AppFormB
         '
         'PP2_PARAAN_PAGBAYAD
         '
-        Me.PP2_PARAAN_PAGBAYAD.Location = New System.Drawing.Point(429, 1325)
+        Me.PP2_PARAAN_PAGBAYAD.Location = New System.Drawing.Point(483, 1275)
         Me.PP2_PARAAN_PAGBAYAD.Name = "PP2_PARAAN_PAGBAYAD"
         Me.PP2_PARAAN_PAGBAYAD.Size = New System.Drawing.Size(160, 20)
         Me.PP2_PARAAN_PAGBAYAD.TabIndex = 211
@@ -220,15 +214,16 @@ Partial Class AppFormB
         '
         'TP2_TAGAL_NG_PAGBAYAD
         '
-        Me.TP2_TAGAL_NG_PAGBAYAD.Location = New System.Drawing.Point(215, 1325)
+        Me.TP2_TAGAL_NG_PAGBAYAD.Location = New System.Drawing.Point(281, 1275)
         Me.TP2_TAGAL_NG_PAGBAYAD.Name = "TP2_TAGAL_NG_PAGBAYAD"
         Me.TP2_TAGAL_NG_PAGBAYAD.Size = New System.Drawing.Size(156, 20)
         Me.TP2_TAGAL_NG_PAGBAYAD.TabIndex = 210
+        Me.TP2_TAGAL_NG_PAGBAYAD.Text = "17"
         Me.TP2_TAGAL_NG_PAGBAYAD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'HH2_HALAGANG_HINIRAM
         '
-        Me.HH2_HALAGANG_HINIRAM.Location = New System.Drawing.Point(31, 1325)
+        Me.HH2_HALAGANG_HINIRAM.Location = New System.Drawing.Point(70, 1275)
         Me.HH2_HALAGANG_HINIRAM.Name = "HH2_HALAGANG_HINIRAM"
         Me.HH2_HALAGANG_HINIRAM.Size = New System.Drawing.Size(133, 20)
         Me.HH2_HALAGANG_HINIRAM.TabIndex = 209
@@ -238,7 +233,7 @@ Partial Class AppFormB
         '
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
-        Me.Label39.Location = New System.Drawing.Point(299, 1825)
+        Me.Label39.Location = New System.Drawing.Point(320, 1584)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(124, 20)
         Me.Label39.TabIndex = 201
@@ -248,41 +243,11 @@ Partial Class AppFormB
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Underline)
-        Me.Label38.Location = New System.Drawing.Point(243, 1804)
+        Me.Label38.Location = New System.Drawing.Point(264, 1563)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(235, 21)
         Me.Label38.TabIndex = 200
         Me.Label38.Text = "             Edison C. Miranda            "
-        '
-        'Label37
-        '
-        Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label37.Location = New System.Drawing.Point(34, 1747)
-        Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(228, 21)
-        Me.Label37.TabIndex = 199
-        Me.Label37.Text = "Pangalan ng Gumagarantiya"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label36.Location = New System.Drawing.Point(34, 1705)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(314, 21)
-        Me.Label36.TabIndex = 198
-        Me.Label36.Text = "Pangalan ng asawa/miyembro sa bahay"
-        '
-        'Label35
-        '
-        Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label35.Location = New System.Drawing.Point(34, 1657)
-        Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(195, 21)
-        Me.Label35.TabIndex = 197
-        Me.Label35.Text = "Pangalan ng humihiram"
         '
         'Label34
         '
@@ -504,7 +469,7 @@ Partial Class AppFormB
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label22.Location = New System.Drawing.Point(239, 882)
+        Me.Label22.Location = New System.Drawing.Point(286, 883)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(200, 21)
         Me.Label22.TabIndex = 173
@@ -657,7 +622,7 @@ Partial Class AppFormB
         Me.proceedbttn.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.proceedbttn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.proceedbttn.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.proceedbttn.Location = New System.Drawing.Point(609, 1901)
+        Me.proceedbttn.Location = New System.Drawing.Point(589, 1633)
         Me.proceedbttn.Name = "proceedbttn"
         Me.proceedbttn.Size = New System.Drawing.Size(115, 31)
         Me.proceedbttn.TabIndex = 160
@@ -754,7 +719,7 @@ Partial Class AppFormB
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label7.Location = New System.Drawing.Point(484, 262)
+        Me.Label7.Location = New System.Drawing.Point(522, 262)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(117, 21)
         Me.Label7.TabIndex = 150
@@ -762,7 +727,7 @@ Partial Class AppFormB
         '
         'H1_HALAGA
         '
-        Me.H1_HALAGA.Location = New System.Drawing.Point(386, 265)
+        Me.H1_HALAGA.Location = New System.Drawing.Point(424, 265)
         Me.H1_HALAGA.Name = "H1_HALAGA"
         Me.H1_HALAGA.Size = New System.Drawing.Size(96, 20)
         Me.H1_HALAGA.TabIndex = 149
@@ -772,7 +737,7 @@ Partial Class AppFormB
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label6.Location = New System.Drawing.Point(254, 262)
+        Me.Label6.Location = New System.Drawing.Point(292, 262)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(132, 21)
         Me.Label6.TabIndex = 148
@@ -934,7 +899,7 @@ Partial Class AppFormB
         '
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label43.Location = New System.Drawing.Point(12, 1457)
+        Me.Label43.Location = New System.Drawing.Point(25, 1346)
         Me.Label43.Name = "Label43"
         Me.Label43.Size = New System.Drawing.Size(696, 21)
         Me.Label43.TabIndex = 221
@@ -945,7 +910,7 @@ Partial Class AppFormB
         '
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label45.Location = New System.Drawing.Point(12, 1618)
+        Me.Label45.Location = New System.Drawing.Point(25, 1507)
         Me.Label45.Name = "Label45"
         Me.Label45.Size = New System.Drawing.Size(696, 21)
         Me.Label45.TabIndex = 222
@@ -1068,7 +1033,7 @@ Partial Class AppFormB
         '
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.Location = New System.Drawing.Point(408, 250)
+        Me.Label57.Location = New System.Drawing.Point(446, 250)
         Me.Label57.Name = "Label57"
         Me.Label57.Size = New System.Drawing.Size(58, 12)
         Me.Label57.TabIndex = 234
@@ -1126,12 +1091,16 @@ Partial Class AppFormB
         '
         'Button5
         '
+        Me.Button5.BackColor = System.Drawing.Color.SteelBlue
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button5.Location = New System.Drawing.Point(612, 578)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(108, 25)
         Me.Button5.TabIndex = 240
         Me.Button5.Text = "Add"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Label63
         '
@@ -1237,7 +1206,7 @@ Partial Class AppFormB
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(68, 1310)
+        Me.Label73.Location = New System.Drawing.Point(107, 1260)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(58, 12)
         Me.Label73.TabIndex = 251
@@ -1247,27 +1216,27 @@ Partial Class AppFormB
         '
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(252, 1310)
+        Me.Label74.Location = New System.Drawing.Point(318, 1260)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(78, 12)
+        Me.Label74.Size = New System.Drawing.Size(69, 12)
         Me.Label74.TabIndex = 252
-        Me.Label74.Text = "( ex. 9 MONTHS )"
+        Me.Label74.Text = "(No. of Weeks )"
         '
         'Label75
         '
         Me.Label75.AutoSize = True
         Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(482, 1310)
+        Me.Label75.Location = New System.Drawing.Point(525, 1260)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(51, 12)
+        Me.Label75.Size = New System.Drawing.Size(76, 12)
         Me.Label75.TabIndex = 253
-        Me.Label75.Text = "( ex. 2,300)"
+        Me.Label75.Text = "( ex. 400 Weekly)"
         '
         'Label76
         '
         Me.Label76.AutoSize = True
         Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.Location = New System.Drawing.Point(191, 1490)
+        Me.Label76.Location = New System.Drawing.Point(204, 1379)
         Me.Label76.Name = "Label76"
         Me.Label76.Size = New System.Drawing.Size(113, 12)
         Me.Label76.TabIndex = 255
@@ -1277,7 +1246,7 @@ Partial Class AppFormB
         '
         Me.Label77.AutoSize = True
         Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(210, 1536)
+        Me.Label77.Location = New System.Drawing.Point(223, 1425)
         Me.Label77.Name = "Label77"
         Me.Label77.Size = New System.Drawing.Size(58, 12)
         Me.Label77.TabIndex = 256
@@ -1287,7 +1256,7 @@ Partial Class AppFormB
         '
         Me.Label78.AutoSize = True
         Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(191, 1580)
+        Me.Label78.Location = New System.Drawing.Point(204, 1469)
         Me.Label78.Name = "Label78"
         Me.Label78.Size = New System.Drawing.Size(118, 12)
         Me.Label78.TabIndex = 257
@@ -1300,7 +1269,7 @@ Partial Class AppFormB
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button9.Location = New System.Drawing.Point(487, 1901)
+        Me.Button9.Location = New System.Drawing.Point(467, 1633)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(116, 31)
         Me.Button9.TabIndex = 260
@@ -1321,12 +1290,16 @@ Partial Class AppFormB
         '
         'Button10
         '
+        Me.Button10.BackColor = System.Drawing.Color.SteelBlue
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button10.Location = New System.Drawing.Point(612, 609)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(108, 25)
         Me.Button10.TabIndex = 261
         Me.Button10.Text = "Delete"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.Button10.UseVisualStyleBackColor = False
         '
         'ErrorProvider1
         '
@@ -1335,7 +1308,7 @@ Partial Class AppFormB
         'Label79
         '
         Me.Label79.AutoSize = True
-        Me.Label79.Location = New System.Drawing.Point(34, 1284)
+        Me.Label79.Location = New System.Drawing.Point(73, 1234)
         Me.Label79.Name = "Label79"
         Me.Label79.Size = New System.Drawing.Size(129, 13)
         Me.Label79.TabIndex = 263
@@ -1344,7 +1317,7 @@ Partial Class AppFormB
         'Label80
         '
         Me.Label80.AutoSize = True
-        Me.Label80.Location = New System.Drawing.Point(221, 1284)
+        Me.Label80.Location = New System.Drawing.Point(287, 1234)
         Me.Label80.Name = "Label80"
         Me.Label80.Size = New System.Drawing.Size(136, 13)
         Me.Label80.TabIndex = 264
@@ -1353,32 +1326,11 @@ Partial Class AppFormB
         'Label81
         '
         Me.Label81.AutoSize = True
-        Me.Label81.Location = New System.Drawing.Point(442, 1284)
+        Me.Label81.Location = New System.Drawing.Point(496, 1234)
         Me.Label81.Name = "Label81"
         Me.Label81.Size = New System.Drawing.Size(145, 13)
         Me.Label81.TabIndex = 265
         Me.Label81.Text = "PARAAN NG PAGBABAYAD"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(37, 1682)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(153, 20)
-        Me.TextBox1.TabIndex = 266
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(38, 1729)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(152, 20)
-        Me.TextBox2.TabIndex = 267
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(38, 1771)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(152, 20)
-        Me.TextBox3.TabIndex = 268
         '
         'AppFormB
         '
@@ -1387,9 +1339,6 @@ Partial Class AppFormB
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(765, 651)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label79)
@@ -1443,9 +1392,6 @@ Partial Class AppFormB
         Me.Controls.Add(Me.HH2_HALAGANG_HINIRAM)
         Me.Controls.Add(Me.Label39)
         Me.Controls.Add(Me.Label38)
-        Me.Controls.Add(Me.Label37)
-        Me.Controls.Add(Me.Label36)
-        Me.Controls.Add(Me.Label35)
         Me.Controls.Add(Me.Label34)
         Me.Controls.Add(Me.Label33)
         Me.Controls.Add(Me.Label32)
@@ -1532,9 +1478,6 @@ Partial Class AppFormB
     Friend WithEvents HH2_HALAGANG_HINIRAM As TextBox
     Friend WithEvents Label39 As Label
     Friend WithEvents Label38 As Label
-    Friend WithEvents Label37 As Label
-    Friend WithEvents Label36 As Label
-    Friend WithEvents Label35 As Label
     Friend WithEvents Label34 As Label
     Friend WithEvents Label33 As Label
     Friend WithEvents Label32 As Label
@@ -1648,7 +1591,4 @@ Partial Class AppFormB
     Friend WithEvents Label81 As Label
     Friend WithEvents Label80 As Label
     Friend WithEvents Label79 As Label
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
 End Class

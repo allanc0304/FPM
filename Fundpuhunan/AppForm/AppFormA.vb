@@ -174,8 +174,8 @@ Public Class AppFormA
             MessageBox.Show("Fill up all fields")
 
 
-        ElseIf Vld(P2_LASTNAME, P2_GIVENNAME, P2_MIDDLENAME, T2_HOUSENO, T2_STREET, T2_BARANGAY, T2_PROVINCE, T2_MUNICIPALITY, E2_AGE, R2_RELIGION, B2_ANAK) = False Then
-            MessageBox.Show("Fill up all fields")
+            ' ElseIf Vld(P2_LASTNAME, P2_GIVENNAME, P2_MIDDLENAME, T2_HOUSENO, T2_STREET, T2_BARANGAY, T2_PROVINCE, T2_MUNICIPALITY, E2_AGE, R2_RELIGION, B2_ANAK) = False Then
+            '  MessageBox.Show("Fill up all fields")
 
         ElseIf Vld(P3_BUSINESS, L3_SALARY, L3_EXPENSES, L3_WEEKLYINCOME, M3_CLEANSALARY) = False Then
             MessageBox.Show("Fill up all fields")
@@ -190,7 +190,7 @@ Public Class AppFormA
 
             MsgBox("Proceed to next form")
             AppFormB.Show()
-            Me.Close()
+            Me.Hide()
 
 
 
@@ -239,5 +239,13 @@ Public Class AppFormA
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Label49.Text = Date.Now.ToString("dd MMM yyyy       hh:mm:ss tt")
+    End Sub
+
+    Private Sub P1_SUFFIX_TextChanged(sender As Object, e As EventArgs) Handles P1_SUFFIX.TextChanged
+
+    End Sub
+
+    Private Sub E4_AGE_TextChanged(sender As Object, e As EventArgs) Handles E4_AGE.TextChanged
+
     End Sub
 End Class
