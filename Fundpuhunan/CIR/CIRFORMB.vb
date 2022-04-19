@@ -249,9 +249,9 @@ Public Class CIRFORMB
 
                 Dim url As String = "http://wllaneconsulting.com/fundpuhunan/add_loan.php"
                 Dim content As MultipartFormDataContent = New MultipartFormDataContent()
-                content.Add(New StringContent(JsonSerializer.Serialize(loanForm)), "loan")
-                content.Add(New StringContent(JsonSerializer.Serialize(collaterals)), "collaterals")
-                content.Add(New StringContent(JsonSerializer.Serialize(liablities)), "liabilities")
+                ' content.Add(New StringContent(JsonSerializer.Serialize(loanForm)), "loan") '
+                ' content.Add(New StringContent(JsonSerializer.Serialize(collaterals)), "collaterals") '
+                ' content.Add(New StringContent(JsonSerializer.Serialize(liablities)), "liabilities")'
                 content.Add(New StreamContent(
                             New FileStream(AppFormA.OpenFileDialog1.FileName, FileMode.Open)),
                             "borrowerPic")

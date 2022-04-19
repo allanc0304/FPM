@@ -241,11 +241,8 @@ Public Class AppFormA
         Label49.Text = Date.Now.ToString("dd MMM yyyy       hh:mm:ss tt")
     End Sub
 
-    Private Sub P1_SUFFIX_TextChanged(sender As Object, e As EventArgs) Handles P1_SUFFIX.TextChanged
-
-    End Sub
-
-    Private Sub E4_AGE_TextChanged(sender As Object, e As EventArgs) Handles E4_AGE.TextChanged
-
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        AppFormB.Show()
+        Me.Hide()
     End Sub
 End Class

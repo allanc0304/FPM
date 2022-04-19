@@ -138,19 +138,9 @@
         Return True
     End Function
 
-    Private Sub HH2_HALAGANG_HINIRAM_TextChanged(sender As Object, e As EventArgs) Handles HH2_HALAGANG_HINIRAM.TextChanged
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        CIRFORMA.Show()
+        Me.Hide()
 
-    End Sub
-
-    Private Sub H2_HALAGA_TextChanged(sender As Object, e As EventArgs) Handles H2_HALAGA.TextChanged
-
-    End Sub
-
-    Private Sub H1_HALAGA_TextChanged(sender As Object, e As EventArgs) Handles H1_HALAGA.TextChanged
-        HH2_HALAGANG_HINIRAM.Text = H1_HALAGA.Text
-    End Sub
-
-    Private Sub PH1_PAGHULOG_TextChanged(sender As Object, e As EventArgs) Handles PH1_PAGHULOG.TextChanged
-        PP2_PARAAN_PAGBAYAD.Text = PH1_PAGHULOG.Text
     End Sub
 End Class

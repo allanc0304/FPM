@@ -163,6 +163,7 @@ Partial Class AppFormA
         Me.Label49 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1522,6 +1523,15 @@ Partial Class AppFormA
         'Timer1
         '
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(614, 1369)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 438
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'AppFormA
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1530,6 +1540,7 @@ Partial Class AppFormA
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(749, 649)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DateTimePicker3)
         Me.Controls.Add(Me.DateTimePicker2)
@@ -1820,4 +1831,5 @@ Partial Class AppFormA
     Friend WithEvents Label31 As Label
     Friend WithEvents Label49 As Label
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents Button2 As Button
 End Class

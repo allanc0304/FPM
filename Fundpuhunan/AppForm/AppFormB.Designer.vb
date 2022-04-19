@@ -147,6 +147,10 @@ Partial Class AppFormB
         Me.Label79 = New System.Windows.Forms.Label()
         Me.Label80 = New System.Windows.Forms.Label()
         Me.Label81 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -1332,6 +1336,36 @@ Partial Class AppFormB
         Me.Label81.TabIndex = 265
         Me.Label81.Text = "PARAAN NG PAGBABAYAD"
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(37, 1682)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(153, 20)
+        Me.TextBox1.TabIndex = 266
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(38, 1729)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(152, 20)
+        Me.TextBox2.TabIndex = 267
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(38, 1771)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(152, 20)
+        Me.TextBox3.TabIndex = 268
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(649, 1872)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 269
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'AppFormB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1339,6 +1373,10 @@ Partial Class AppFormB
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.ClientSize = New System.Drawing.Size(765, 651)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.Label80)
         Me.Controls.Add(Me.Label79)
@@ -1591,4 +1629,8 @@ Partial Class AppFormB
     Friend WithEvents Label81 As Label
     Friend WithEvents Label80 As Label
     Friend WithEvents Label79 As Label
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Button1 As Button
 End Class
