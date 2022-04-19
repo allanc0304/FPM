@@ -2725,7 +2725,7 @@ Partial Class CIRFORMA
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(987, 40)
+        Me.Panel1.Size = New System.Drawing.Size(1004, 40)
         Me.Panel1.TabIndex = 777
         '
         'Label14
@@ -2745,7 +2745,7 @@ Partial Class CIRFORMA
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
-        Me.ClientSize = New System.Drawing.Size(1004, 749)
+        Me.ClientSize = New System.Drawing.Size(1021, 749)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.CIR_AGE)
