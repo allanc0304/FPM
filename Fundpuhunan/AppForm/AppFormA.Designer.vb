@@ -164,17 +164,23 @@ Partial Class AppFormA
         Me.Label31 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label89
         '
         Me.Label89.AutoSize = True
         Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(247, 1343)
+        Me.Label89.Location = New System.Drawing.Point(247, 1353)
         Me.Label89.Name = "Label89"
         Me.Label89.Size = New System.Drawing.Size(83, 9)
         Me.Label89.TabIndex = 429
@@ -184,7 +190,7 @@ Partial Class AppFormA
         '
         Me.Label88.AutoSize = True
         Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(247, 1306)
+        Me.Label88.Location = New System.Drawing.Point(247, 1316)
         Me.Label88.Name = "Label88"
         Me.Label88.Size = New System.Drawing.Size(95, 9)
         Me.Label88.TabIndex = 428
@@ -194,7 +200,7 @@ Partial Class AppFormA
         '
         Me.Label87.AutoSize = True
         Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(475, 1309)
+        Me.Label87.Location = New System.Drawing.Point(475, 1319)
         Me.Label87.Name = "Label87"
         Me.Label87.Size = New System.Drawing.Size(33, 9)
         Me.Label87.TabIndex = 427
@@ -294,7 +300,7 @@ Partial Class AppFormA
         '
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(338, 994)
+        Me.Label74.Location = New System.Drawing.Point(338, 1009)
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(45, 9)
         Me.Label74.TabIndex = 414
@@ -304,7 +310,7 @@ Partial Class AppFormA
         '
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(338, 954)
+        Me.Label73.Location = New System.Drawing.Point(338, 969)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(49, 9)
         Me.Label73.TabIndex = 413
@@ -314,7 +320,7 @@ Partial Class AppFormA
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(342, 916)
+        Me.Label72.Location = New System.Drawing.Point(342, 931)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(45, 9)
         Me.Label72.TabIndex = 412
@@ -324,7 +330,7 @@ Partial Class AppFormA
         '
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(342, 877)
+        Me.Label71.Location = New System.Drawing.Point(342, 892)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(49, 9)
         Me.Label71.TabIndex = 411
@@ -334,7 +340,7 @@ Partial Class AppFormA
         '
         Me.Label68.AutoSize = True
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(318, 841)
+        Me.Label68.Location = New System.Drawing.Point(318, 856)
         Me.Label68.Name = "Label68"
         Me.Label68.Size = New System.Drawing.Size(95, 9)
         Me.Label68.TabIndex = 410
@@ -344,7 +350,7 @@ Partial Class AppFormA
         '
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(532, 691)
+        Me.Label70.Location = New System.Drawing.Point(510, 703)
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(67, 9)
         Me.Label70.TabIndex = 409
@@ -354,7 +360,7 @@ Partial Class AppFormA
         '
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label69.Location = New System.Drawing.Point(217, 734)
+        Me.Label69.Location = New System.Drawing.Point(217, 751)
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(31, 9)
         Me.Label69.TabIndex = 408
@@ -364,7 +370,7 @@ Partial Class AppFormA
         '
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label67.Location = New System.Drawing.Point(217, 691)
+        Me.Label67.Location = New System.Drawing.Point(217, 711)
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(35, 9)
         Me.Label67.TabIndex = 407
@@ -464,7 +470,7 @@ Partial Class AppFormA
         '
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.Location = New System.Drawing.Point(521, 393)
+        Me.Label54.Location = New System.Drawing.Point(521, 403)
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(72, 9)
         Me.Label54.TabIndex = 394
@@ -474,7 +480,7 @@ Partial Class AppFormA
         '
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.Location = New System.Drawing.Point(209, 430)
+        Me.Label53.Location = New System.Drawing.Point(209, 440)
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(67, 9)
         Me.Label53.TabIndex = 393
@@ -484,7 +490,7 @@ Partial Class AppFormA
         '
         Me.Label52.AutoSize = True
         Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label52.Location = New System.Drawing.Point(195, 390)
+        Me.Label52.Location = New System.Drawing.Point(195, 400)
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(38, 12)
         Me.Label52.TabIndex = 392
@@ -636,7 +642,7 @@ Partial Class AppFormA
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label33.Location = New System.Drawing.Point(48, 1047)
+        Me.Label33.Location = New System.Drawing.Point(48, 1068)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(661, 21)
         Me.Label33.TabIndex = 373
@@ -647,7 +653,7 @@ Partial Class AppFormA
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        Me.Label32.Location = New System.Drawing.Point(48, 773)
+        Me.Label32.Location = New System.Drawing.Point(48, 788)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(661, 21)
         Me.Label32.TabIndex = 372
@@ -718,21 +724,21 @@ Partial Class AppFormA
         '
         'T4_TYPEOFBUSINESS
         '
-        Me.T4_TYPEOFBUSINESS.Location = New System.Drawing.Point(240, 1355)
+        Me.T4_TYPEOFBUSINESS.Location = New System.Drawing.Point(240, 1365)
         Me.T4_TYPEOFBUSINESS.Name = "T4_TYPEOFBUSINESS"
         Me.T4_TYPEOFBUSINESS.Size = New System.Drawing.Size(111, 20)
         Me.T4_TYPEOFBUSINESS.TabIndex = 339
         '
         'B4_BUSINESS
         '
-        Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1318)
+        Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1328)
         Me.B4_BUSINESS.Name = "B4_BUSINESS"
         Me.B4_BUSINESS.Size = New System.Drawing.Size(111, 20)
         Me.B4_BUSINESS.TabIndex = 337
         '
         'E4_AGE
         '
-        Me.E4_AGE.Location = New System.Drawing.Point(467, 1321)
+        Me.E4_AGE.Location = New System.Drawing.Point(467, 1331)
         Me.E4_AGE.Name = "E4_AGE"
         Me.E4_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E4_AGE.TabIndex = 338
@@ -802,35 +808,35 @@ Partial Class AppFormA
         '
         'M3_CLEANSALARY
         '
-        Me.M3_CLEANSALARY.Location = New System.Drawing.Point(296, 1006)
+        Me.M3_CLEANSALARY.Location = New System.Drawing.Point(296, 1021)
         Me.M3_CLEANSALARY.Name = "M3_CLEANSALARY"
         Me.M3_CLEANSALARY.Size = New System.Drawing.Size(153, 20)
         Me.M3_CLEANSALARY.TabIndex = 324
         '
         'L3_WEEKLYINCOME
         '
-        Me.L3_WEEKLYINCOME.Location = New System.Drawing.Point(296, 966)
+        Me.L3_WEEKLYINCOME.Location = New System.Drawing.Point(296, 981)
         Me.L3_WEEKLYINCOME.Name = "L3_WEEKLYINCOME"
         Me.L3_WEEKLYINCOME.Size = New System.Drawing.Size(153, 20)
         Me.L3_WEEKLYINCOME.TabIndex = 323
         '
         'L3_EXPENSES
         '
-        Me.L3_EXPENSES.Location = New System.Drawing.Point(296, 928)
+        Me.L3_EXPENSES.Location = New System.Drawing.Point(296, 943)
         Me.L3_EXPENSES.Name = "L3_EXPENSES"
         Me.L3_EXPENSES.Size = New System.Drawing.Size(153, 20)
         Me.L3_EXPENSES.TabIndex = 322
         '
         'L3_SALARY
         '
-        Me.L3_SALARY.Location = New System.Drawing.Point(296, 889)
+        Me.L3_SALARY.Location = New System.Drawing.Point(296, 904)
         Me.L3_SALARY.Name = "L3_SALARY"
         Me.L3_SALARY.Size = New System.Drawing.Size(153, 20)
         Me.L3_SALARY.TabIndex = 321
         '
         'P3_BUSINESS
         '
-        Me.P3_BUSINESS.Location = New System.Drawing.Point(296, 853)
+        Me.P3_BUSINESS.Location = New System.Drawing.Point(296, 868)
         Me.P3_BUSINESS.Name = "P3_BUSINESS"
         Me.P3_BUSINESS.Size = New System.Drawing.Size(153, 20)
         Me.P3_BUSINESS.TabIndex = 320
@@ -838,7 +844,7 @@ Partial Class AppFormA
         'R2_RELIGION
         '
         Me.R2_RELIGION.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.R2_RELIGION.Location = New System.Drawing.Point(517, 703)
+        Me.R2_RELIGION.Location = New System.Drawing.Point(495, 715)
         Me.R2_RELIGION.Name = "R2_RELIGION"
         Me.R2_RELIGION.Size = New System.Drawing.Size(111, 20)
         Me.R2_RELIGION.TabIndex = 318
@@ -846,7 +852,7 @@ Partial Class AppFormA
         'B2_ANAK
         '
         Me.B2_ANAK.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.B2_ANAK.Location = New System.Drawing.Point(215, 746)
+        Me.B2_ANAK.Location = New System.Drawing.Point(215, 763)
         Me.B2_ANAK.Name = "B2_ANAK"
         Me.B2_ANAK.Size = New System.Drawing.Size(46, 20)
         Me.B2_ANAK.TabIndex = 319
@@ -854,7 +860,7 @@ Partial Class AppFormA
         'E2_AGE
         '
         Me.E2_AGE.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.E2_AGE.Location = New System.Drawing.Point(215, 703)
+        Me.E2_AGE.Location = New System.Drawing.Point(215, 723)
         Me.E2_AGE.Name = "E2_AGE"
         Me.E2_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E2_AGE.TabIndex = 317
@@ -919,7 +925,7 @@ Partial Class AppFormA
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Button1.Location = New System.Drawing.Point(589, 1398)
+        Me.Button1.Location = New System.Drawing.Point(589, 1415)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 30)
         Me.Button1.TabIndex = 333
@@ -929,7 +935,7 @@ Partial Class AppFormA
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Location = New System.Drawing.Point(351, 1279)
+        Me.RadioButton5.Location = New System.Drawing.Point(124, 20)
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton5.TabIndex = 336
@@ -940,7 +946,7 @@ Partial Class AppFormA
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(237, 1278)
+        Me.RadioButton6.Location = New System.Drawing.Point(10, 19)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton6.TabIndex = 335
@@ -953,7 +959,7 @@ Partial Class AppFormA
         Me.Label17.AutoSize = True
         Me.Label17.BackColor = System.Drawing.Color.Transparent
         Me.Label17.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label17.Location = New System.Drawing.Point(76, 1353)
+        Me.Label17.Location = New System.Drawing.Point(76, 1363)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(139, 21)
         Me.Label17.TabIndex = 329
@@ -964,7 +970,7 @@ Partial Class AppFormA
         Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
         Me.Label18.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label18.Location = New System.Drawing.Point(76, 1315)
+        Me.Label18.Location = New System.Drawing.Point(76, 1325)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(147, 21)
         Me.Label18.TabIndex = 328
@@ -975,7 +981,7 @@ Partial Class AppFormA
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.Color.Transparent
         Me.Label25.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label25.Location = New System.Drawing.Point(395, 1318)
+        Me.Label25.Location = New System.Drawing.Point(395, 1328)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(57, 21)
         Me.Label25.TabIndex = 327
@@ -1047,7 +1053,7 @@ Partial Class AppFormA
         'C1_CONTACT
         '
         Me.C1_CONTACT.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.C1_CONTACT.Location = New System.Drawing.Point(501, 404)
+        Me.C1_CONTACT.Location = New System.Drawing.Point(501, 414)
         Me.C1_CONTACT.Name = "C1_CONTACT"
         Me.C1_CONTACT.Size = New System.Drawing.Size(114, 20)
         Me.C1_CONTACT.TabIndex = 303
@@ -1055,14 +1061,14 @@ Partial Class AppFormA
         '
         'R1_RELIGION
         '
-        Me.R1_RELIGION.Location = New System.Drawing.Point(188, 442)
+        Me.R1_RELIGION.Location = New System.Drawing.Point(188, 452)
         Me.R1_RELIGION.Name = "R1_RELIGION"
         Me.R1_RELIGION.Size = New System.Drawing.Size(111, 20)
         Me.R1_RELIGION.TabIndex = 304
         '
         'E1_AGE
         '
-        Me.E1_AGE.Location = New System.Drawing.Point(188, 404)
+        Me.E1_AGE.Location = New System.Drawing.Point(188, 414)
         Me.E1_AGE.Name = "E1_AGE"
         Me.E1_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E1_AGE.TabIndex = 302
@@ -1072,7 +1078,7 @@ Partial Class AppFormA
         Me.Label19.AutoSize = True
         Me.Label19.BackColor = System.Drawing.Color.Transparent
         Me.Label19.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label19.Location = New System.Drawing.Point(53, 1003)
+        Me.Label19.Location = New System.Drawing.Point(53, 1018)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(231, 21)
         Me.Label19.TabIndex = 314
@@ -1083,7 +1089,7 @@ Partial Class AppFormA
         Me.Label20.AutoSize = True
         Me.Label20.BackColor = System.Drawing.Color.Transparent
         Me.Label20.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label20.Location = New System.Drawing.Point(53, 923)
+        Me.Label20.Location = New System.Drawing.Point(53, 938)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(158, 21)
         Me.Label20.TabIndex = 313
@@ -1094,7 +1100,7 @@ Partial Class AppFormA
         Me.Label21.AutoSize = True
         Me.Label21.BackColor = System.Drawing.Color.Transparent
         Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label21.Location = New System.Drawing.Point(53, 963)
+        Me.Label21.Location = New System.Drawing.Point(53, 978)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(228, 21)
         Me.Label21.TabIndex = 312
@@ -1105,7 +1111,7 @@ Partial Class AppFormA
         Me.Label22.AutoSize = True
         Me.Label22.BackColor = System.Drawing.Color.Transparent
         Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label22.Location = New System.Drawing.Point(53, 888)
+        Me.Label22.Location = New System.Drawing.Point(53, 903)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(136, 21)
         Me.Label22.TabIndex = 311
@@ -1116,7 +1122,7 @@ Partial Class AppFormA
         Me.Label23.AutoSize = True
         Me.Label23.BackColor = System.Drawing.Color.Transparent
         Me.Label23.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label23.Location = New System.Drawing.Point(53, 853)
+        Me.Label23.Location = New System.Drawing.Point(53, 868)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(147, 21)
         Me.Label23.TabIndex = 310
@@ -1126,7 +1132,7 @@ Partial Class AppFormA
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label24.Location = New System.Drawing.Point(212, 806)
+        Me.Label24.Location = New System.Drawing.Point(212, 821)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(323, 21)
         Me.Label24.TabIndex = 309
@@ -1135,7 +1141,7 @@ Partial Class AppFormA
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(331, 668)
+        Me.RadioButton3.Location = New System.Drawing.Point(122, 19)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton3.TabIndex = 316
@@ -1146,7 +1152,7 @@ Partial Class AppFormA
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(217, 667)
+        Me.RadioButton4.Location = New System.Drawing.Point(8, 18)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton4.TabIndex = 315
@@ -1159,7 +1165,7 @@ Partial Class AppFormA
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label9.Location = New System.Drawing.Point(413, 703)
+        Me.Label9.Location = New System.Drawing.Point(391, 715)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(93, 21)
         Me.Label9.TabIndex = 306
@@ -1170,7 +1176,7 @@ Partial Class AppFormA
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label10.Location = New System.Drawing.Point(54, 745)
+        Me.Label10.Location = New System.Drawing.Point(54, 753)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(137, 21)
         Me.Label10.TabIndex = 305
@@ -1181,7 +1187,7 @@ Partial Class AppFormA
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label11.Location = New System.Drawing.Point(54, 704)
+        Me.Label11.Location = New System.Drawing.Point(54, 712)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(57, 21)
         Me.Label11.TabIndex = 304
@@ -1253,7 +1259,7 @@ Partial Class AppFormA
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(302, 366)
+        Me.RadioButton2.Location = New System.Drawing.Point(120, 18)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton2.TabIndex = 301
@@ -1264,7 +1270,7 @@ Partial Class AppFormA
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(188, 365)
+        Me.RadioButton1.Location = New System.Drawing.Point(6, 17)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton1.TabIndex = 300
@@ -1331,7 +1337,7 @@ Partial Class AppFormA
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label8.Location = New System.Drawing.Point(361, 401)
+        Me.Label8.Location = New System.Drawing.Point(361, 411)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(111, 21)
         Me.Label8.TabIndex = 289
@@ -1342,7 +1348,7 @@ Partial Class AppFormA
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label7.Location = New System.Drawing.Point(48, 439)
+        Me.Label7.Location = New System.Drawing.Point(48, 449)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(93, 21)
         Me.Label7.TabIndex = 288
@@ -1353,7 +1359,7 @@ Partial Class AppFormA
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label6.Location = New System.Drawing.Point(48, 405)
+        Me.Label6.Location = New System.Drawing.Point(48, 415)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(57, 21)
         Me.Label6.TabIndex = 287
@@ -1432,7 +1438,7 @@ Partial Class AppFormA
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button3.Location = New System.Drawing.Point(483, 1398)
+        Me.Button3.Location = New System.Drawing.Point(483, 1415)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 30)
         Me.Button3.TabIndex = 340
@@ -1529,12 +1535,42 @@ Partial Class AppFormA
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button2.Location = New System.Drawing.Point(589, 1398)
+        Me.Button2.Location = New System.Drawing.Point(589, 1415)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(101, 30)
         Me.Button2.TabIndex = 341
         Me.Button2.Text = "Next"
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.RadioButton1)
+        Me.GroupBox1.Controls.Add(Me.RadioButton2)
+        Me.GroupBox1.Location = New System.Drawing.Point(184, 358)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(196, 40)
+        Me.GroupBox1.TabIndex = 438
+        Me.GroupBox1.TabStop = False
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.RadioButton4)
+        Me.GroupBox2.Controls.Add(Me.RadioButton3)
+        Me.GroupBox2.Location = New System.Drawing.Point(211, 659)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(200, 38)
+        Me.GroupBox2.TabIndex = 439
+        Me.GroupBox2.TabStop = False
+        '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.RadioButton6)
+        Me.GroupBox3.Controls.Add(Me.RadioButton5)
+        Me.GroupBox3.Location = New System.Drawing.Point(234, 1264)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(200, 47)
+        Me.GroupBox3.TabIndex = 440
+        Me.GroupBox3.TabStop = False
         '
         'AppFormA
         '
@@ -1544,6 +1580,9 @@ Partial Class AppFormA
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(749, 649)
+        Me.Controls.Add(Me.GroupBox3)
+        Me.Controls.Add(Me.GroupBox2)
+        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DateTimePicker3)
@@ -1632,8 +1671,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.T2_HOUSENO)
         Me.Controls.Add(Me.P2_MIDDLENAME)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.RadioButton5)
-        Me.Controls.Add(Me.RadioButton6)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label18)
         Me.Controls.Add(Me.Label25)
@@ -1652,8 +1689,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label24)
-        Me.Controls.Add(Me.RadioButton3)
-        Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label11)
@@ -1663,8 +1698,6 @@ Partial Class AppFormA
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.T1_BARANGAY)
-        Me.Controls.Add(Me.RadioButton2)
-        Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.T1_PROVINCE)
         Me.Controls.Add(Me.T1_MUNICIPALITY)
         Me.Controls.Add(Me.T1_STREET)
@@ -1691,6 +1724,12 @@ Partial Class AppFormA
         CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1836,4 +1875,7 @@ Partial Class AppFormA
     Friend WithEvents Label49 As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents Button2 As Button
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents GroupBox3 As GroupBox
 End Class

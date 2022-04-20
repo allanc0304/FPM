@@ -1456,7 +1456,8 @@ Partial Class CIRFORMB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 20)
-        Me.ClientSize = New System.Drawing.Size(991, 699)
+        Me.ClientSize = New System.Drawing.Size(1008, 699)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.UploadCIRForm)
         Me.Controls.Add(Me.UploadAppForm)
