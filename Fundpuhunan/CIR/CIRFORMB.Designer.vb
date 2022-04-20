@@ -199,7 +199,7 @@ Partial Class CIRFORMB
         Me.txtAccSignature.Location = New System.Drawing.Point(728, 1117)
         Me.txtAccSignature.Name = "txtAccSignature"
         Me.txtAccSignature.Size = New System.Drawing.Size(169, 22)
-        Me.txtAccSignature.TabIndex = 846
+        Me.txtAccSignature.TabIndex = 766
         '
         'btnCancel
         '
@@ -211,7 +211,7 @@ Partial Class CIRFORMB
         Me.btnCancel.Location = New System.Drawing.Point(682, 1652)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(120, 31)
-        Me.btnCancel.TabIndex = 844
+        Me.btnCancel.TabIndex = 778
         Me.btnCancel.Text = "Back"
         Me.btnCancel.UseVisualStyleBackColor = False
         '
@@ -221,7 +221,7 @@ Partial Class CIRFORMB
         Me.txtAccRemarks.Location = New System.Drawing.Point(583, 1116)
         Me.txtAccRemarks.Name = "txtAccRemarks"
         Me.txtAccRemarks.Size = New System.Drawing.Size(86, 22)
-        Me.txtAccRemarks.TabIndex = 842
+        Me.txtAccRemarks.TabIndex = 765
         '
         'txtDelinquent
         '
@@ -229,7 +229,7 @@ Partial Class CIRFORMB
         Me.txtDelinquent.Location = New System.Drawing.Point(583, 1061)
         Me.txtDelinquent.Name = "txtDelinquent"
         Me.txtDelinquent.Size = New System.Drawing.Size(86, 22)
-        Me.txtDelinquent.TabIndex = 834
+        Me.txtDelinquent.TabIndex = 763
         '
         'txtAvailment
         '
@@ -237,7 +237,7 @@ Partial Class CIRFORMB
         Me.txtAvailment.Location = New System.Drawing.Point(583, 1087)
         Me.txtAvailment.Name = "txtAvailment"
         Me.txtAvailment.Size = New System.Drawing.Size(86, 22)
-        Me.txtAvailment.TabIndex = 833
+        Me.txtAvailment.TabIndex = 764
         '
         'Label85
         '
@@ -265,7 +265,7 @@ Partial Class CIRFORMB
         Me.txtNIncome.Location = New System.Drawing.Point(410, 967)
         Me.txtNIncome.Name = "txtNIncome"
         Me.txtNIncome.Size = New System.Drawing.Size(170, 22)
-        Me.txtNIncome.TabIndex = 830
+        Me.txtNIncome.TabIndex = 760
         '
         'Label84
         '
@@ -283,7 +283,7 @@ Partial Class CIRFORMB
         Me.txtExpenses.Location = New System.Drawing.Point(410, 935)
         Me.txtExpenses.Name = "txtExpenses"
         Me.txtExpenses.Size = New System.Drawing.Size(170, 22)
-        Me.txtExpenses.TabIndex = 828
+        Me.txtExpenses.TabIndex = 759
         '
         'txtRecRemarks
         '
@@ -291,7 +291,7 @@ Partial Class CIRFORMB
         Me.txtRecRemarks.Location = New System.Drawing.Point(346, 1220)
         Me.txtRecRemarks.Name = "txtRecRemarks"
         Me.txtRecRemarks.Size = New System.Drawing.Size(582, 22)
-        Me.txtRecRemarks.TabIndex = 825
+        Me.txtRecRemarks.TabIndex = 768
         '
         'Label51
         '
@@ -309,7 +309,7 @@ Partial Class CIRFORMB
         Me.txtPAmount.Location = New System.Drawing.Point(247, 1195)
         Me.txtPAmount.Name = "txtPAmount"
         Me.txtPAmount.Size = New System.Drawing.Size(129, 22)
-        Me.txtPAmount.TabIndex = 823
+        Me.txtPAmount.TabIndex = 767
         '
         'Label50
         '
@@ -338,7 +338,7 @@ Partial Class CIRFORMB
         Me.chbCollateral.Location = New System.Drawing.Point(546, 1173)
         Me.chbCollateral.Name = "chbCollateral"
         Me.chbCollateral.Size = New System.Drawing.Size(83, 20)
-        Me.chbCollateral.TabIndex = 820
+        Me.chbCollateral.TabIndex = 772
         Me.chbCollateral.Text = "Collateral"
         Me.chbCollateral.UseVisualStyleBackColor = True
         '
@@ -349,7 +349,7 @@ Partial Class CIRFORMB
         Me.chbCharacter.Location = New System.Drawing.Point(465, 1173)
         Me.chbCharacter.Name = "chbCharacter"
         Me.chbCharacter.Size = New System.Drawing.Size(84, 20)
-        Me.chbCharacter.TabIndex = 819
+        Me.chbCharacter.TabIndex = 771
         Me.chbCharacter.Text = "Character"
         Me.chbCharacter.UseVisualStyleBackColor = True
         '
@@ -360,7 +360,7 @@ Partial Class CIRFORMB
         Me.chbIncome.Location = New System.Drawing.Point(398, 1173)
         Me.chbIncome.Name = "chbIncome"
         Me.chbIncome.Size = New System.Drawing.Size(70, 20)
-        Me.chbIncome.TabIndex = 818
+        Me.chbIncome.TabIndex = 770
         Me.chbIncome.Text = "Income"
         Me.chbIncome.UseVisualStyleBackColor = True
         '
@@ -371,7 +371,7 @@ Partial Class CIRFORMB
         Me.chbBusiness.Location = New System.Drawing.Point(271, 1173)
         Me.chbBusiness.Name = "chbBusiness"
         Me.chbBusiness.Size = New System.Drawing.Size(129, 20)
-        Me.chbBusiness.TabIndex = 817
+        Me.chbBusiness.TabIndex = 769
         Me.chbBusiness.Text = "Type of business"
         Me.chbBusiness.UseVisualStyleBackColor = True
         '
@@ -401,7 +401,7 @@ Partial Class CIRFORMB
         Me.txtBalance.Location = New System.Drawing.Point(583, 1033)
         Me.txtBalance.Name = "txtBalance"
         Me.txtBalance.Size = New System.Drawing.Size(86, 22)
-        Me.txtBalance.TabIndex = 814
+        Me.txtBalance.TabIndex = 762
         '
         'calLPayment
         '
@@ -409,7 +409,7 @@ Partial Class CIRFORMB
         Me.calLPayment.Location = New System.Drawing.Point(220, 1115)
         Me.calLPayment.Name = "calLPayment"
         Me.calLPayment.Size = New System.Drawing.Size(139, 22)
-        Me.calLPayment.TabIndex = 813
+        Me.calLPayment.TabIndex = 777
         '
         'calMDate
         '
@@ -417,7 +417,7 @@ Partial Class CIRFORMB
         Me.calMDate.Location = New System.Drawing.Point(220, 1086)
         Me.calMDate.Name = "calMDate"
         Me.calMDate.Size = New System.Drawing.Size(139, 22)
-        Me.calMDate.TabIndex = 812
+        Me.calMDate.TabIndex = 776
         '
         'calDGranted
         '
@@ -425,7 +425,7 @@ Partial Class CIRFORMB
         Me.calDGranted.Location = New System.Drawing.Point(220, 1057)
         Me.calDGranted.Name = "calDGranted"
         Me.calDGranted.Size = New System.Drawing.Size(139, 22)
-        Me.calDGranted.TabIndex = 811
+        Me.calDGranted.TabIndex = 775
         '
         'Label1
         '
@@ -571,7 +571,7 @@ Partial Class CIRFORMB
         Me.txtPLoan.Location = New System.Drawing.Point(219, 1031)
         Me.txtPLoan.Name = "txtPLoan"
         Me.txtPLoan.Size = New System.Drawing.Size(140, 22)
-        Me.txtPLoan.TabIndex = 802
+        Me.txtPLoan.TabIndex = 761
         '
         'Label36
         '
@@ -644,7 +644,7 @@ Partial Class CIRFORMB
         Me.txtPersoOther.Location = New System.Drawing.Point(410, 903)
         Me.txtPersoOther.Name = "txtPersoOther"
         Me.txtPersoOther.Size = New System.Drawing.Size(170, 22)
-        Me.txtPersoOther.TabIndex = 796
+        Me.txtPersoOther.TabIndex = 758
         '
         'txtHSalary
         '
@@ -652,7 +652,7 @@ Partial Class CIRFORMB
         Me.txtHSalary.Location = New System.Drawing.Point(410, 874)
         Me.txtHSalary.Name = "txtHSalary"
         Me.txtHSalary.Size = New System.Drawing.Size(170, 22)
-        Me.txtHSalary.TabIndex = 795
+        Me.txtHSalary.TabIndex = 757
         '
         'Label80
         '
@@ -701,7 +701,7 @@ Partial Class CIRFORMB
         Me.txtWBill.Location = New System.Drawing.Point(410, 846)
         Me.txtWBill.Name = "txtWBill"
         Me.txtWBill.Size = New System.Drawing.Size(170, 22)
-        Me.txtWBill.TabIndex = 791
+        Me.txtWBill.TabIndex = 756
         '
         'Label81
         '
@@ -719,7 +719,7 @@ Partial Class CIRFORMB
         Me.txtEBill.Location = New System.Drawing.Point(410, 817)
         Me.txtEBill.Name = "txtEBill"
         Me.txtEBill.Size = New System.Drawing.Size(170, 22)
-        Me.txtEBill.TabIndex = 789
+        Me.txtEBill.TabIndex = 755
         '
         'Label73
         '
@@ -737,7 +737,7 @@ Partial Class CIRFORMB
         Me.txtTranspo.Location = New System.Drawing.Point(410, 788)
         Me.txtTranspo.Name = "txtTranspo"
         Me.txtTranspo.Size = New System.Drawing.Size(170, 22)
-        Me.txtTranspo.TabIndex = 787
+        Me.txtTranspo.TabIndex = 754
         '
         'Label72
         '
@@ -816,7 +816,7 @@ Partial Class CIRFORMB
         Me.txtAllowance.Location = New System.Drawing.Point(410, 703)
         Me.txtAllowance.Name = "txtAllowance"
         Me.txtAllowance.Size = New System.Drawing.Size(172, 22)
-        Me.txtAllowance.TabIndex = 780
+        Me.txtAllowance.TabIndex = 753
         '
         'Label71
         '
@@ -893,7 +893,7 @@ Partial Class CIRFORMB
         Me.txtBMname.Name = "txtBMname"
         Me.txtBMname.ReadOnly = True
         Me.txtBMname.Size = New System.Drawing.Size(119, 22)
-        Me.txtBMname.TabIndex = 773
+        Me.txtBMname.TabIndex = 730
         '
         'txtBFname
         '
@@ -902,7 +902,7 @@ Partial Class CIRFORMB
         Me.txtBFname.Name = "txtBFname"
         Me.txtBFname.ReadOnly = True
         Me.txtBFname.Size = New System.Drawing.Size(119, 22)
-        Me.txtBFname.TabIndex = 772
+        Me.txtBFname.TabIndex = 729
         '
         'Label70
         '
@@ -920,7 +920,7 @@ Partial Class CIRFORMB
         Me.txtRental.Location = New System.Drawing.Point(412, 648)
         Me.txtRental.Name = "txtRental"
         Me.txtRental.Size = New System.Drawing.Size(169, 22)
-        Me.txtRental.TabIndex = 770
+        Me.txtRental.TabIndex = 752
         '
         'Label75
         '
@@ -938,7 +938,7 @@ Partial Class CIRFORMB
         Me.txtFood.Location = New System.Drawing.Point(412, 613)
         Me.txtFood.Name = "txtFood"
         Me.txtFood.Size = New System.Drawing.Size(169, 22)
-        Me.txtFood.TabIndex = 768
+        Me.txtFood.TabIndex = 751
         '
         'Label74
         '
@@ -956,7 +956,7 @@ Partial Class CIRFORMB
         Me.txtGIncome.Location = New System.Drawing.Point(412, 507)
         Me.txtGIncome.Name = "txtGIncome"
         Me.txtGIncome.Size = New System.Drawing.Size(170, 22)
-        Me.txtGIncome.TabIndex = 766
+        Me.txtGIncome.TabIndex = 750
         '
         'Label24
         '
@@ -1025,7 +1025,7 @@ Partial Class CIRFORMB
         Me.txtBSuffix.Name = "txtBSuffix"
         Me.txtBSuffix.ReadOnly = True
         Me.txtBSuffix.Size = New System.Drawing.Size(46, 22)
-        Me.txtBSuffix.TabIndex = 759
+        Me.txtBSuffix.TabIndex = 740
         '
         'txtSpoSalary
         '
@@ -1033,7 +1033,7 @@ Partial Class CIRFORMB
         Me.txtSpoSalary.Location = New System.Drawing.Point(413, 438)
         Me.txtSpoSalary.Name = "txtSpoSalary"
         Me.txtSpoSalary.Size = New System.Drawing.Size(169, 22)
-        Me.txtSpoSalary.TabIndex = 758
+        Me.txtSpoSalary.TabIndex = 748
         '
         'Label69
         '
@@ -1051,7 +1051,7 @@ Partial Class CIRFORMB
         Me.txtSpoNProfit.Location = New System.Drawing.Point(413, 405)
         Me.txtSpoNProfit.Name = "txtSpoNProfit"
         Me.txtSpoNProfit.Size = New System.Drawing.Size(169, 22)
-        Me.txtSpoNProfit.TabIndex = 756
+        Me.txtSpoNProfit.TabIndex = 747
         '
         'Label79
         '
@@ -1069,7 +1069,7 @@ Partial Class CIRFORMB
         Me.txtAppSalary.Location = New System.Drawing.Point(413, 292)
         Me.txtAppSalary.Name = "txtAppSalary"
         Me.txtAppSalary.Size = New System.Drawing.Size(169, 22)
-        Me.txtAppSalary.TabIndex = 754
+        Me.txtAppSalary.TabIndex = 744
         '
         'Label78
         '
@@ -1087,7 +1087,7 @@ Partial Class CIRFORMB
         Me.txtAppNProfit.Location = New System.Drawing.Point(413, 259)
         Me.txtAppNProfit.Name = "txtAppNProfit"
         Me.txtAppNProfit.Size = New System.Drawing.Size(169, 22)
-        Me.txtAppNProfit.TabIndex = 752
+        Me.txtAppNProfit.TabIndex = 743
         '
         'Label76
         '
@@ -1105,7 +1105,7 @@ Partial Class CIRFORMB
         Me.txtSpoCSale.Location = New System.Drawing.Point(412, 373)
         Me.txtSpoCSale.Name = "txtSpoCSale"
         Me.txtSpoCSale.Size = New System.Drawing.Size(170, 22)
-        Me.txtSpoCSale.TabIndex = 750
+        Me.txtSpoCSale.TabIndex = 746
         '
         'Label77
         '
@@ -1123,7 +1123,7 @@ Partial Class CIRFORMB
         Me.txtSpoGSale.Location = New System.Drawing.Point(413, 344)
         Me.txtSpoGSale.Name = "txtSpoGSale"
         Me.txtSpoGSale.Size = New System.Drawing.Size(169, 22)
-        Me.txtSpoGSale.TabIndex = 748
+        Me.txtSpoGSale.TabIndex = 745
         '
         'Label68
         '
@@ -1151,7 +1151,7 @@ Partial Class CIRFORMB
         Me.txtAppCSale.Location = New System.Drawing.Point(412, 231)
         Me.txtAppCSale.Name = "txtAppCSale"
         Me.txtAppCSale.Size = New System.Drawing.Size(170, 22)
-        Me.txtAppCSale.TabIndex = 745
+        Me.txtAppCSale.TabIndex = 742
         '
         'Label59
         '
@@ -1179,7 +1179,7 @@ Partial Class CIRFORMB
         Me.txtOtherSpec.Location = New System.Drawing.Point(412, 468)
         Me.txtOtherSpec.Name = "txtOtherSpec"
         Me.txtOtherSpec.Size = New System.Drawing.Size(170, 22)
-        Me.txtOtherSpec.TabIndex = 742
+        Me.txtOtherSpec.TabIndex = 7429
         '
         'Label18
         '
@@ -1277,7 +1277,7 @@ Partial Class CIRFORMB
         Me.txtAppGSale.Location = New System.Drawing.Point(413, 202)
         Me.txtAppGSale.Name = "txtAppGSale"
         Me.txtAppGSale.Size = New System.Drawing.Size(169, 22)
-        Me.txtAppGSale.TabIndex = 732
+        Me.txtAppGSale.TabIndex = 741
         '
         'Label9
         '
@@ -1338,7 +1338,7 @@ Partial Class CIRFORMB
         Me.btnSubmit.Location = New System.Drawing.Point(808, 1652)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(120, 31)
-        Me.btnSubmit.TabIndex = 843
+        Me.btnSubmit.TabIndex = 779
         Me.btnSubmit.Text = "Finish and Save"
         Me.btnSubmit.UseVisualStyleBackColor = False
         '
@@ -1353,7 +1353,7 @@ Partial Class CIRFORMB
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(974, 44)
+        Me.Panel1.Size = New System.Drawing.Size(991, 44)
         Me.Panel1.TabIndex = 847
         '
         'Label4
@@ -1416,7 +1416,7 @@ Partial Class CIRFORMB
         Me.UploadAppForm.Location = New System.Drawing.Point(215, 1553)
         Me.UploadAppForm.Name = "UploadAppForm"
         Me.UploadAppForm.Size = New System.Drawing.Size(120, 29)
-        Me.UploadAppForm.TabIndex = 852
+        Me.UploadAppForm.TabIndex = 773
         Me.UploadAppForm.Text = "Upload"
         Me.UploadAppForm.UseVisualStyleBackColor = False
         '
@@ -1429,7 +1429,7 @@ Partial Class CIRFORMB
         Me.UploadCIRForm.Location = New System.Drawing.Point(651, 1553)
         Me.UploadCIRForm.Name = "UploadCIRForm"
         Me.UploadCIRForm.Size = New System.Drawing.Size(120, 29)
-        Me.UploadCIRForm.TabIndex = 853
+        Me.UploadCIRForm.TabIndex = 774
         Me.UploadCIRForm.Text = "Upload"
         Me.UploadCIRForm.UseVisualStyleBackColor = False
         '
@@ -1456,8 +1456,12 @@ Partial Class CIRFORMB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 20)
+
         Me.ClientSize = New System.Drawing.Size(991, 699)
         Me.Controls.Add(Me.Button1)
+
+        Me.ClientSize = New System.Drawing.Size(1008, 699)
+
         Me.Controls.Add(Me.UploadCIRForm)
         Me.Controls.Add(Me.UploadAppForm)
         Me.Controls.Add(Me.Label43)
