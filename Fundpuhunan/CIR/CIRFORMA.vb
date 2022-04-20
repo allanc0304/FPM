@@ -2,6 +2,7 @@
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Header
 Imports System.Globalization
 Public Class CIRFORMA
+    Public Shared view As Boolean
     Private Sub NOB_LN_KeyPress(sender As Object, e As KeyPressEventArgs) Handles NOB_LN.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
@@ -720,6 +721,18 @@ Public Class CIRFORMA
 
     Private Sub CIRFORMA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.NOB_LN.Text = AppFormA.P1_LASTNAME.Text
+        Button1.Visible = False
+        If View = True Then
+            For Each control As Control In Me.Controls
+                If (Not TypeOf (control) Is Label) Then
+                    control.Enabled = False
+                End If
+            Next
+            Button1.Visible = True
+            CIR_NEXTBTN.Visible = False
+            CIR_BACKBTN.Enabled = True
+            Button1.Enabled = True
+        End If
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click

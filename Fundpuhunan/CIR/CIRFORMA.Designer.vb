@@ -2710,7 +2710,7 @@ Partial Class CIRFORMA
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1004, 40)
+        Me.Panel1.Size = New System.Drawing.Size(987, 40)
         Me.Panel1.TabIndex = 777
         '
         'Label14
@@ -2741,12 +2741,16 @@ Partial Class CIRFORMA
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(879, 4245)
+        Me.Button1.BackColor = System.Drawing.Color.SteelBlue
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Button1.Location = New System.Drawing.Point(841, 4299)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(113, 31)
         Me.Button1.TabIndex = 780
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.Text = "Next"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'CIRFORMA
         '

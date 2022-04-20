@@ -1,5 +1,5 @@
 ﻿Public Class AppFormB
-
+    Public Shared view As Boolean = False
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
@@ -25,6 +25,21 @@
     End Sub
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Button1.Visible = False
+
+        If view = True Then
+            For Each control As Control In Me.Controls
+                If (Not TypeOf (control) Is Label) Then
+                    control.Enabled = False
+                End If
+            Next
+            proceedbttn.Visible = False
+            Button1.Enabled = True
+            Button1.Visible = True
+            Button9.Enabled = True
+        End If
+
+
         Me.P1_LASTNAME.Text = AppFormA.P1_LASTNAME.Text
         Me.P1_GIVENNAME.Text = AppFormA.P1_GIVENNAME.Text
         Me.P1_MIDDLENAME.Text = AppFormA.P1_MIDDLENAME.Text

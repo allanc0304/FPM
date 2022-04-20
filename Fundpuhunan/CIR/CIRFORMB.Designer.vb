@@ -165,6 +165,7 @@ Partial Class CIRFORMB
         Me.UploadAppForm = New System.Windows.Forms.Button()
         Me.UploadCIRForm = New System.Windows.Forms.Button()
         Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.ErrorProvider13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider15, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -205,7 +206,7 @@ Partial Class CIRFORMB
         Me.btnCancel.AutoSize = True
         Me.btnCancel.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Control
         Me.btnCancel.Location = New System.Drawing.Point(682, 1652)
         Me.btnCancel.Name = "btnCancel"
@@ -1332,7 +1333,7 @@ Partial Class CIRFORMB
         Me.btnSubmit.AutoSize = True
         Me.btnSubmit.BackColor = System.Drawing.Color.SeaGreen
         Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSubmit.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.btnSubmit.Location = New System.Drawing.Point(808, 1652)
         Me.btnSubmit.Name = "btnSubmit"
@@ -1410,7 +1411,7 @@ Partial Class CIRFORMB
         '
         Me.UploadAppForm.BackColor = System.Drawing.Color.Green
         Me.UploadAppForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.UploadAppForm.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UploadAppForm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UploadAppForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.UploadAppForm.Location = New System.Drawing.Point(215, 1553)
         Me.UploadAppForm.Name = "UploadAppForm"
@@ -1423,7 +1424,7 @@ Partial Class CIRFORMB
         '
         Me.UploadCIRForm.BackColor = System.Drawing.Color.Green
         Me.UploadCIRForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.UploadCIRForm.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UploadCIRForm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UploadCIRForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.UploadCIRForm.Location = New System.Drawing.Point(651, 1553)
         Me.UploadCIRForm.Name = "UploadCIRForm"
@@ -1436,13 +1437,31 @@ Partial Class CIRFORMB
         '
         Me.ErrorProvider2.ContainerControl = Me
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.SeaGreen
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Location = New System.Drawing.Point(808, 1652)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(120, 31)
+        Me.Button1.TabIndex = 854
+        Me.Button1.Text = "Finish"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'CIRFORMB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 20)
+
+        Me.ClientSize = New System.Drawing.Size(991, 699)
+        Me.Controls.Add(Me.Button1)
+
         Me.ClientSize = New System.Drawing.Size(1008, 699)
+
         Me.Controls.Add(Me.UploadCIRForm)
         Me.Controls.Add(Me.UploadAppForm)
         Me.Controls.Add(Me.Label43)
@@ -1739,4 +1758,5 @@ Partial Class CIRFORMB
     Friend WithEvents PictureBoxCIR As PictureBox
     Friend WithEvents PictureBoxAppForm As PictureBox
     Friend WithEvents ErrorProvider2 As ErrorProvider
+    Friend WithEvents Button1 As Button
 End Class
