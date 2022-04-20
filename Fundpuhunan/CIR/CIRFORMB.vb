@@ -2,7 +2,6 @@
 Imports System.Text.Json
 Imports System.IO
 Public Class CIRFORMB
-    Public Shared view As Boolean
     Private Shared ReadOnly client As HttpClient = New HttpClient()
     Private Sub TxtBLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBMname.KeyPress, txtBLname.KeyPress, txtBFname.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
@@ -271,8 +270,8 @@ Public Class CIRFORMB
                     MessageBox.Show(Await response.Content.ReadAsStringAsync())
                 End If
                 Me.Close()
+                End If
             End If
-        End If
 
     End Sub
 
@@ -304,22 +303,7 @@ Public Class CIRFORMB
     End Sub
 
     Private Sub CIRFORMB_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Button1.Visible = False
-        If View = True Then
-            For Each control As Control In Me.Controls
-                If (Not TypeOf (control) Is Label) Then
-                    control.Enabled = False
-                End If
-            Next
-            Button1.Visible = True
-            btnSubmit.Visible = False
-            Button1.Enabled = True
-            btnCancel.Enabled = True
-        End If
-    End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Hide()
     End Sub
 
     'Private Sub SetReadOnlyOnAllControls(ByVal parentControl As Control, ByVal rOnly As Boolean)
