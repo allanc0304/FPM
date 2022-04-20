@@ -722,7 +722,7 @@ Public Class CIRFORMA
     Private Sub CIRFORMA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.NOB_LN.Text = AppFormA.P1_LASTNAME.Text
         Button1.Visible = False
-        If View = True Then
+        If view = True Then
             For Each control As Control In Me.Controls
                 If (Not TypeOf (control) Is Label) Then
                     control.Enabled = False
