@@ -306,7 +306,10 @@ Public Class CIRFORMB
     End Sub
 
     Private Sub CIRFORMB_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        Me.txtBLname.Text = AppFormA.P1_LASTNAME.Text
+        Me.txtBFname.Text = AppFormA.P1_GIVENNAME.Text
+        Me.txtBMname.Text = AppFormA.P1_MIDDLENAME.Text
+        Me.txtBSuffix.Text = AppFormA.P1_SUFFIX.Text
         Button1.Visible = False
         If View = True Then
             For Each control As Control In Me.Controls
@@ -324,15 +327,5 @@ Public Class CIRFORMB
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
     End Sub
-
-    'Private Sub SetReadOnlyOnAllControls(ByVal parentControl As Control, ByVal rOnly As Boolean)
-    '    If (TypeOf (parentControl) Is TextBoxBase) Then
-    '        CType(parentControl, TextBoxBase).ReadOnly = rOnly
-    '    End If
-
-    '    For Each control As Control In parentControl.Controls
-    '        SetReadOnlyOnAllControls(control, rOnly)
-    '    Next
-    'End Sub
 
 End Class
