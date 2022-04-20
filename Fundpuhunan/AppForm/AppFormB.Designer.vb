@@ -156,7 +156,7 @@ Partial Class AppFormB
         Me.CB2_CHECKEDBY.Location = New System.Drawing.Point(195, 1484)
         Me.CB2_CHECKEDBY.Name = "CB2_CHECKEDBY"
         Me.CB2_CHECKEDBY.Size = New System.Drawing.Size(140, 20)
-        Me.CB2_CHECKEDBY.TabIndex = 219
+        Me.CB2_CHECKEDBY.TabIndex = 376
         Me.CB2_CHECKEDBY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'AL2_LOAN
@@ -164,7 +164,7 @@ Partial Class AppFormB
         Me.AL2_LOAN.Location = New System.Drawing.Point(195, 1440)
         Me.AL2_LOAN.Name = "AL2_LOAN"
         Me.AL2_LOAN.Size = New System.Drawing.Size(140, 20)
-        Me.AL2_LOAN.TabIndex = 218
+        Me.AL2_LOAN.TabIndex = 375
         Me.AL2_LOAN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R2_RECOMMENDED
@@ -172,7 +172,7 @@ Partial Class AppFormB
         Me.R2_RECOMMENDED.Location = New System.Drawing.Point(195, 1394)
         Me.R2_RECOMMENDED.Name = "R2_RECOMMENDED"
         Me.R2_RECOMMENDED.Size = New System.Drawing.Size(140, 20)
-        Me.R2_RECOMMENDED.TabIndex = 217
+        Me.R2_RECOMMENDED.TabIndex = 374
         Me.R2_RECOMMENDED.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label44
@@ -210,7 +210,7 @@ Partial Class AppFormB
         Me.PP2_PARAAN_PAGBAYAD.Location = New System.Drawing.Point(483, 1275)
         Me.PP2_PARAAN_PAGBAYAD.Name = "PP2_PARAAN_PAGBAYAD"
         Me.PP2_PARAAN_PAGBAYAD.Size = New System.Drawing.Size(160, 20)
-        Me.PP2_PARAAN_PAGBAYAD.TabIndex = 211
+        Me.PP2_PARAAN_PAGBAYAD.TabIndex = 373
         Me.PP2_PARAAN_PAGBAYAD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TP2_TAGAL_NG_PAGBAYAD
@@ -218,7 +218,7 @@ Partial Class AppFormB
         Me.TP2_TAGAL_NG_PAGBAYAD.Location = New System.Drawing.Point(281, 1275)
         Me.TP2_TAGAL_NG_PAGBAYAD.Name = "TP2_TAGAL_NG_PAGBAYAD"
         Me.TP2_TAGAL_NG_PAGBAYAD.Size = New System.Drawing.Size(156, 20)
-        Me.TP2_TAGAL_NG_PAGBAYAD.TabIndex = 210
+        Me.TP2_TAGAL_NG_PAGBAYAD.TabIndex = 372
         Me.TP2_TAGAL_NG_PAGBAYAD.Text = "17"
         Me.TP2_TAGAL_NG_PAGBAYAD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -227,7 +227,7 @@ Partial Class AppFormB
         Me.HH2_HALAGANG_HINIRAM.Location = New System.Drawing.Point(70, 1275)
         Me.HH2_HALAGANG_HINIRAM.Name = "HH2_HALAGANG_HINIRAM"
         Me.HH2_HALAGANG_HINIRAM.Size = New System.Drawing.Size(133, 20)
-        Me.HH2_HALAGANG_HINIRAM.TabIndex = 209
+        Me.HH2_HALAGANG_HINIRAM.TabIndex = 371
         Me.HH2_HALAGANG_HINIRAM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label39
@@ -286,7 +286,7 @@ Partial Class AppFormB
         Me.H2_HALAGA.Location = New System.Drawing.Point(462, 1080)
         Me.H2_HALAGA.Name = "H2_HALAGA"
         Me.H2_HALAGA.Size = New System.Drawing.Size(98, 20)
-        Me.H2_HALAGA.TabIndex = 193
+        Me.H2_HALAGA.TabIndex = 370
         Me.H2_HALAGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label31
@@ -314,7 +314,7 @@ Partial Class AppFormB
         Me.DateTimePicker2.Location = New System.Drawing.Point(78, 1080)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(205, 20)
-        Me.DateTimePicker2.TabIndex = 190
+        Me.DateTimePicker2.TabIndex = 369
         '
         'Label29
         '
@@ -382,7 +382,7 @@ Partial Class AppFormB
         Me.T2_MUNICIPALITY.Location = New System.Drawing.Point(36, 1001)
         Me.T2_MUNICIPALITY.Name = "T2_MUNICIPALITY"
         Me.T2_MUNICIPALITY.Size = New System.Drawing.Size(94, 20)
-        Me.T2_MUNICIPALITY.TabIndex = 180
+        Me.T2_MUNICIPALITY.TabIndex = 367
         Me.T2_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T2_PROVINCE
@@ -391,7 +391,7 @@ Partial Class AppFormB
         Me.T2_PROVINCE.Location = New System.Drawing.Point(136, 1001)
         Me.T2_PROVINCE.Name = "T2_PROVINCE"
         Me.T2_PROVINCE.Size = New System.Drawing.Size(84, 20)
-        Me.T2_PROVINCE.TabIndex = 181
+        Me.T2_PROVINCE.TabIndex = 368
         Me.T2_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T2_BARANGAY
@@ -400,7 +400,7 @@ Partial Class AppFormB
         Me.T2_BARANGAY.Location = New System.Drawing.Point(592, 967)
         Me.T2_BARANGAY.Name = "T2_BARANGAY"
         Me.T2_BARANGAY.Size = New System.Drawing.Size(92, 20)
-        Me.T2_BARANGAY.TabIndex = 182
+        Me.T2_BARANGAY.TabIndex = 366
         Me.T2_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T2_STREET
@@ -409,7 +409,7 @@ Partial Class AppFormB
         Me.T2_STREET.Location = New System.Drawing.Point(532, 968)
         Me.T2_STREET.Name = "T2_STREET"
         Me.T2_STREET.Size = New System.Drawing.Size(54, 20)
-        Me.T2_STREET.TabIndex = 183
+        Me.T2_STREET.TabIndex = 365
         Me.T2_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T2_HOUSENO
@@ -418,7 +418,7 @@ Partial Class AppFormB
         Me.T2_HOUSENO.Location = New System.Drawing.Point(462, 968)
         Me.T2_HOUSENO.Name = "T2_HOUSENO"
         Me.T2_HOUSENO.Size = New System.Drawing.Size(65, 20)
-        Me.T2_HOUSENO.TabIndex = 184
+        Me.T2_HOUSENO.TabIndex = 364
         Me.T2_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label23
@@ -437,7 +437,7 @@ Partial Class AppFormB
         Me.P2_SUFFIX.Location = New System.Drawing.Point(445, 930)
         Me.P2_SUFFIX.Name = "P2_SUFFIX"
         Me.P2_SUFFIX.Size = New System.Drawing.Size(42, 20)
-        Me.P2_SUFFIX.TabIndex = 175
+        Me.P2_SUFFIX.TabIndex = 363
         Me.P2_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'P2_MIDDLENAME
@@ -446,7 +446,7 @@ Partial Class AppFormB
         Me.P2_MIDDLENAME.Location = New System.Drawing.Point(325, 930)
         Me.P2_MIDDLENAME.Name = "P2_MIDDLENAME"
         Me.P2_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
-        Me.P2_MIDDLENAME.TabIndex = 176
+        Me.P2_MIDDLENAME.TabIndex = 362
         Me.P2_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'P2_GIVENNAME
@@ -455,7 +455,7 @@ Partial Class AppFormB
         Me.P2_GIVENNAME.Location = New System.Drawing.Point(205, 929)
         Me.P2_GIVENNAME.Name = "P2_GIVENNAME"
         Me.P2_GIVENNAME.Size = New System.Drawing.Size(114, 20)
-        Me.P2_GIVENNAME.TabIndex = 177
+        Me.P2_GIVENNAME.TabIndex = 361
         Me.P2_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'P2_LASTNAME
@@ -463,7 +463,7 @@ Partial Class AppFormB
         Me.P2_LASTNAME.Location = New System.Drawing.Point(90, 929)
         Me.P2_LASTNAME.Name = "P2_LASTNAME"
         Me.P2_LASTNAME.Size = New System.Drawing.Size(109, 20)
-        Me.P2_LASTNAME.TabIndex = 178
+        Me.P2_LASTNAME.TabIndex = 360
         Me.P2_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label22
@@ -481,7 +481,7 @@ Partial Class AppFormB
         Me.HL1_HALAGA.Location = New System.Drawing.Point(488, 583)
         Me.HL1_HALAGA.Name = "HL1_HALAGA"
         Me.HL1_HALAGA.Size = New System.Drawing.Size(118, 20)
-        Me.HL1_HALAGA.TabIndex = 172
+        Me.HL1_HALAGA.TabIndex = 357
         Me.HL1_HALAGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'SN1_SERIES_NUMBER
@@ -489,7 +489,7 @@ Partial Class AppFormB
         Me.SN1_SERIES_NUMBER.Location = New System.Drawing.Point(346, 583)
         Me.SN1_SERIES_NUMBER.Name = "SN1_SERIES_NUMBER"
         Me.SN1_SERIES_NUMBER.Size = New System.Drawing.Size(118, 20)
-        Me.SN1_SERIES_NUMBER.TabIndex = 171
+        Me.SN1_SERIES_NUMBER.TabIndex = 356
         Me.SN1_SERIES_NUMBER.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'M1_MODEL
@@ -497,7 +497,7 @@ Partial Class AppFormB
         Me.M1_MODEL.Location = New System.Drawing.Point(206, 583)
         Me.M1_MODEL.Name = "M1_MODEL"
         Me.M1_MODEL.Size = New System.Drawing.Size(118, 20)
-        Me.M1_MODEL.TabIndex = 170
+        Me.M1_MODEL.TabIndex = 355
         Me.M1_MODEL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'U1_URI_NG_KAGAMITAN
@@ -505,7 +505,7 @@ Partial Class AppFormB
         Me.U1_URI_NG_KAGAMITAN.Location = New System.Drawing.Point(64, 583)
         Me.U1_URI_NG_KAGAMITAN.Name = "U1_URI_NG_KAGAMITAN"
         Me.U1_URI_NG_KAGAMITAN.Size = New System.Drawing.Size(120, 20)
-        Me.U1_URI_NG_KAGAMITAN.TabIndex = 169
+        Me.U1_URI_NG_KAGAMITAN.TabIndex = 354
         Me.U1_URI_NG_KAGAMITAN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ColumnHeader1
@@ -645,7 +645,7 @@ Partial Class AppFormB
         Me.DateTimePicker1.Location = New System.Drawing.Point(138, 363)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(198, 20)
-        Me.DateTimePicker1.TabIndex = 158
+        Me.DateTimePicker1.TabIndex = 353
         '
         'Label13
         '
@@ -682,7 +682,7 @@ Partial Class AppFormB
         Me.PH1_PAGHULOG.Location = New System.Drawing.Point(237, 340)
         Me.PH1_PAGHULOG.Name = "PH1_PAGHULOG"
         Me.PH1_PAGHULOG.Size = New System.Drawing.Size(86, 20)
-        Me.PH1_PAGHULOG.TabIndex = 154
+        Me.PH1_PAGHULOG.TabIndex = 352
         Me.PH1_PAGHULOG.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
@@ -731,7 +731,7 @@ Partial Class AppFormB
         Me.H1_HALAGA.Location = New System.Drawing.Point(424, 265)
         Me.H1_HALAGA.Name = "H1_HALAGA"
         Me.H1_HALAGA.Size = New System.Drawing.Size(96, 20)
-        Me.H1_HALAGA.TabIndex = 149
+        Me.H1_HALAGA.TabIndex = 351
         Me.H1_HALAGA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
@@ -771,7 +771,7 @@ Partial Class AppFormB
         Me.T1_MUNICIPALITY.Name = "T1_MUNICIPALITY"
         Me.T1_MUNICIPALITY.ReadOnly = True
         Me.T1_MUNICIPALITY.Size = New System.Drawing.Size(109, 20)
-        Me.T1_MUNICIPALITY.TabIndex = 144
+        Me.T1_MUNICIPALITY.TabIndex = 349
         Me.T1_MUNICIPALITY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T1_PROVINCE
@@ -781,7 +781,7 @@ Partial Class AppFormB
         Me.T1_PROVINCE.Name = "T1_PROVINCE"
         Me.T1_PROVINCE.ReadOnly = True
         Me.T1_PROVINCE.Size = New System.Drawing.Size(96, 20)
-        Me.T1_PROVINCE.TabIndex = 145
+        Me.T1_PROVINCE.TabIndex = 350
         Me.T1_PROVINCE.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T1_HOUSENO
@@ -791,7 +791,7 @@ Partial Class AppFormB
         Me.T1_HOUSENO.Name = "T1_HOUSENO"
         Me.T1_HOUSENO.ReadOnly = True
         Me.T1_HOUSENO.Size = New System.Drawing.Size(65, 20)
-        Me.T1_HOUSENO.TabIndex = 141
+        Me.T1_HOUSENO.TabIndex = 346
         Me.T1_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T1_STREET
@@ -801,7 +801,7 @@ Partial Class AppFormB
         Me.T1_STREET.Name = "T1_STREET"
         Me.T1_STREET.ReadOnly = True
         Me.T1_STREET.Size = New System.Drawing.Size(54, 20)
-        Me.T1_STREET.TabIndex = 142
+        Me.T1_STREET.TabIndex = 347
         Me.T1_STREET.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'T1_BARANGAY
@@ -811,7 +811,7 @@ Partial Class AppFormB
         Me.T1_BARANGAY.Name = "T1_BARANGAY"
         Me.T1_BARANGAY.ReadOnly = True
         Me.T1_BARANGAY.Size = New System.Drawing.Size(84, 20)
-        Me.T1_BARANGAY.TabIndex = 143
+        Me.T1_BARANGAY.TabIndex = 348
         Me.T1_BARANGAY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
@@ -831,7 +831,7 @@ Partial Class AppFormB
         Me.P1_LASTNAME.Name = "P1_LASTNAME"
         Me.P1_LASTNAME.ReadOnly = True
         Me.P1_LASTNAME.Size = New System.Drawing.Size(109, 20)
-        Me.P1_LASTNAME.TabIndex = 136
+        Me.P1_LASTNAME.TabIndex = 342
         Me.P1_LASTNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'P1_MIDDLENAME
@@ -841,7 +841,7 @@ Partial Class AppFormB
         Me.P1_MIDDLENAME.Name = "P1_MIDDLENAME"
         Me.P1_MIDDLENAME.ReadOnly = True
         Me.P1_MIDDLENAME.Size = New System.Drawing.Size(114, 20)
-        Me.P1_MIDDLENAME.TabIndex = 137
+        Me.P1_MIDDLENAME.TabIndex = 344
         Me.P1_MIDDLENAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'P1_GIVENNAME
@@ -851,7 +851,7 @@ Partial Class AppFormB
         Me.P1_GIVENNAME.Name = "P1_GIVENNAME"
         Me.P1_GIVENNAME.ReadOnly = True
         Me.P1_GIVENNAME.Size = New System.Drawing.Size(114, 20)
-        Me.P1_GIVENNAME.TabIndex = 138
+        Me.P1_GIVENNAME.TabIndex = 343
         Me.P1_GIVENNAME.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'P1_SUFFIX
@@ -860,7 +860,7 @@ Partial Class AppFormB
         Me.P1_SUFFIX.Name = "P1_SUFFIX"
         Me.P1_SUFFIX.ReadOnly = True
         Me.P1_SUFFIX.Size = New System.Drawing.Size(46, 20)
-        Me.P1_SUFFIX.TabIndex = 139
+        Me.P1_SUFFIX.TabIndex = 345
         Me.P1_SUFFIX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
@@ -1099,7 +1099,7 @@ Partial Class AppFormB
         Me.Button5.Location = New System.Drawing.Point(612, 578)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(108, 25)
-        Me.Button5.TabIndex = 240
+        Me.Button5.TabIndex = 358
         Me.Button5.Text = "Add"
         Me.Button5.UseVisualStyleBackColor = False
         '
@@ -1273,7 +1273,7 @@ Partial Class AppFormB
         Me.Button9.Location = New System.Drawing.Point(467, 1633)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(116, 31)
-        Me.Button9.TabIndex = 260
+        Me.Button9.TabIndex = 377
         Me.Button9.Text = "Back"
         Me.Button9.UseVisualStyleBackColor = False
         '
@@ -1298,7 +1298,7 @@ Partial Class AppFormB
         Me.Button10.Location = New System.Drawing.Point(612, 609)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(108, 25)
-        Me.Button10.TabIndex = 261
+        Me.Button10.TabIndex = 359
         Me.Button10.Text = "Delete"
         Me.Button10.UseVisualStyleBackColor = False
         '
@@ -1342,7 +1342,7 @@ Partial Class AppFormB
         Me.Button1.Location = New System.Drawing.Point(589, 1633)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(116, 31)
-        Me.Button1.TabIndex = 269
+        Me.Button1.TabIndex = 378
         Me.Button1.Text = "Proceed To CIR"
         Me.Button1.UseVisualStyleBackColor = False
         '
