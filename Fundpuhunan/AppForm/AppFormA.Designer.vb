@@ -1495,7 +1495,7 @@ Partial Class AppFormA
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(732, 34)
+        Me.Panel1.Size = New System.Drawing.Size(749, 34)
         Me.Panel1.TabIndex = 437
         '
         'Label49
@@ -1543,7 +1543,7 @@ Partial Class AppFormA
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(749, 649)
+        Me.ClientSize = New System.Drawing.Size(766, 649)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.DateTimePicker3)
