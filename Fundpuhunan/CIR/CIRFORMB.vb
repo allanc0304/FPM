@@ -311,7 +311,7 @@ Public Class CIRFORMB
         Me.txtBMname.Text = AppFormA.P1_MIDDLENAME.Text
         Me.txtBSuffix.Text = AppFormA.P1_SUFFIX.Text
         Button1.Visible = False
-        If View = True Then
+        If view = True Then
             For Each control As Control In Me.Controls
                 If (Not TypeOf (control) Is Label) Then
                     control.Enabled = False
