@@ -721,6 +721,17 @@ Public Class CIRFORMA
 
     Private Sub CIRFORMA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.NOB_LN.Text = AppFormA.P1_LASTNAME.Text
+        Me.NOB_GN.Text = AppFormA.P1_GIVENNAME.Text
+        Me.NOB_GN.Text = AppFormA.P1_MIDDLENAME.Text
+        Me.NOB_SUFF.Text = AppFormA.P1_SUFFIX.Text
+        Me.DOB_DTP.Value = AppFormA.DateTimePicker1.Value
+        Me.CIR_AGE.Text = AppFormA.E1_AGE.Text
+        Me.CIR_HOUSENO.Text = AppFormA.T1_HOUSENO.Text
+        Me.CIR_ST.Text = AppFormA.T1_STREET.Text
+        Me.CIR_BRGY.Text = AppFormA.T1_BARANGAY.Text
+        Me.CIR_MUN.Text = AppFormA.T1_MUNICIPALITY.Text
+        Me.CIR_PRO.Text = AppFormA.T1_PROVINCE.Text
+        Me.CIR_CONTACT.Text = AppFormA.C1_CONTACT.Text
         Button1.Visible = False
         If view = True Then
             For Each control As Control In Me.Controls
@@ -733,23 +744,10 @@ Public Class CIRFORMA
             CIR_BACKBTN.Enabled = True
             Button1.Enabled = True
         End If
-
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         CIRFORMB.Show()
         Me.Hide()
-    End Sub
-
-    Private Sub TOL_MR_TextChanged(sender As Object, e As EventArgs) Handles TOL_MR.TextChanged
-
-    End Sub
-
-    Private Sub BR_BC_TextChanged(sender As Object, e As EventArgs) Handles BR_BC.TextChanged
-
-    End Sub
-
-    Private Sub ER_STATUS1_TextChanged(sender As Object, e As EventArgs) Handles ER_STATUS1.TextChanged
-
     End Sub
 End Class
