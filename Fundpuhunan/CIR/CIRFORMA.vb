@@ -740,4 +740,16 @@ Public Class CIRFORMA
         CIRFORMB.Show()
         Me.Hide()
     End Sub
+
+    Private Sub TOL_MR_TextChanged(sender As Object, e As EventArgs) Handles TOL_MR.TextChanged
+
+    End Sub
+
+    Private Sub BR_BC_TextChanged(sender As Object, e As EventArgs) Handles BR_BC.TextChanged
+
+    End Sub
+
+    Private Sub ER_STATUS1_TextChanged(sender As Object, e As EventArgs) Handles ER_STATUS1.TextChanged
+
+    End Sub
 End Class

@@ -306,7 +306,7 @@ Partial Class CIRFORMA
         Me.NF_RENT_BUSINESS.Location = New System.Drawing.Point(14, 60)
         Me.NF_RENT_BUSINESS.Name = "NF_RENT_BUSINESS"
         Me.NF_RENT_BUSINESS.Size = New System.Drawing.Size(75, 20)
-        Me.NF_RENT_BUSINESS.TabIndex = 523
+        Me.NF_RENT_BUSINESS.TabIndex = 617
         Me.NF_RENT_BUSINESS.TabStop = True
         Me.NF_RENT_BUSINESS.Text = "Rented"
         Me.NF_RENT_BUSINESS.UseVisualStyleBackColor = True
@@ -318,7 +318,7 @@ Partial Class CIRFORMA
         Me.NF_OWN_BUSNESS.Location = New System.Drawing.Point(14, 13)
         Me.NF_OWN_BUSNESS.Name = "NF_OWN_BUSNESS"
         Me.NF_OWN_BUSNESS.Size = New System.Drawing.Size(72, 20)
-        Me.NF_OWN_BUSNESS.TabIndex = 519
+        Me.NF_OWN_BUSNESS.TabIndex = 616
         Me.NF_OWN_BUSNESS.TabStop = True
         Me.NF_OWN_BUSNESS.Text = "Owned"
         Me.NF_OWN_BUSNESS.UseVisualStyleBackColor = True
@@ -340,7 +340,7 @@ Partial Class CIRFORMA
         Me.NF_RENT_HOME.Location = New System.Drawing.Point(17, 60)
         Me.NF_RENT_HOME.Name = "NF_RENT_HOME"
         Me.NF_RENT_HOME.Size = New System.Drawing.Size(75, 20)
-        Me.NF_RENT_HOME.TabIndex = 518
+        Me.NF_RENT_HOME.TabIndex = 614
         Me.NF_RENT_HOME.TabStop = True
         Me.NF_RENT_HOME.Text = "Rented"
         Me.NF_RENT_HOME.UseVisualStyleBackColor = True
@@ -352,7 +352,7 @@ Partial Class CIRFORMA
         Me.NF_OWN_HOME.Location = New System.Drawing.Point(17, 19)
         Me.NF_OWN_HOME.Name = "NF_OWN_HOME"
         Me.NF_OWN_HOME.Size = New System.Drawing.Size(72, 20)
-        Me.NF_OWN_HOME.TabIndex = 517
+        Me.NF_OWN_HOME.TabIndex = 613
         Me.NF_OWN_HOME.TabStop = True
         Me.NF_OWN_HOME.Text = "Owned"
         Me.NF_OWN_HOME.UseVisualStyleBackColor = True
@@ -366,7 +366,7 @@ Partial Class CIRFORMA
         Me.COL_REMALLBTN.Location = New System.Drawing.Point(630, 3909)
         Me.COL_REMALLBTN.Name = "COL_REMALLBTN"
         Me.COL_REMALLBTN.Size = New System.Drawing.Size(115, 26)
-        Me.COL_REMALLBTN.TabIndex = 768
+        Me.COL_REMALLBTN.TabIndex = 627
         Me.COL_REMALLBTN.Text = "REMOVE ALL"
         Me.COL_REMALLBTN.UseVisualStyleBackColor = False
         '
@@ -379,7 +379,7 @@ Partial Class CIRFORMA
         Me.COL_REMBTN.Location = New System.Drawing.Point(526, 3909)
         Me.COL_REMBTN.Name = "COL_REMBTN"
         Me.COL_REMBTN.Size = New System.Drawing.Size(88, 26)
-        Me.COL_REMBTN.TabIndex = 767
+        Me.COL_REMBTN.TabIndex = 626
         Me.COL_REMBTN.Text = "REMOVE"
         Me.COL_REMBTN.UseVisualStyleBackColor = False
         '
@@ -392,7 +392,7 @@ Partial Class CIRFORMA
         Me.COL_UPBUTTON.Location = New System.Drawing.Point(423, 3909)
         Me.COL_UPBUTTON.Name = "COL_UPBUTTON"
         Me.COL_UPBUTTON.Size = New System.Drawing.Size(88, 26)
-        Me.COL_UPBUTTON.TabIndex = 766
+        Me.COL_UPBUTTON.TabIndex = 625
         Me.COL_UPBUTTON.Text = "UPDATE"
         Me.COL_UPBUTTON.UseVisualStyleBackColor = False
         '
@@ -401,7 +401,7 @@ Partial Class CIRFORMA
         Me.C_PV.Location = New System.Drawing.Point(666, 3814)
         Me.C_PV.Name = "C_PV"
         Me.C_PV.Size = New System.Drawing.Size(203, 20)
-        Me.C_PV.TabIndex = 765
+        Me.C_PV.TabIndex = 623
         Me.C_PV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'C_YP
@@ -409,7 +409,7 @@ Partial Class CIRFORMA
         Me.C_YP.Location = New System.Drawing.Point(666, 3782)
         Me.C_YP.Name = "C_YP"
         Me.C_YP.Size = New System.Drawing.Size(202, 20)
-        Me.C_YP.TabIndex = 764
+        Me.C_YP.TabIndex = 622
         Me.C_YP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'C_SN
@@ -417,7 +417,7 @@ Partial Class CIRFORMA
         Me.C_SN.Location = New System.Drawing.Point(190, 3851)
         Me.C_SN.Name = "C_SN"
         Me.C_SN.Size = New System.Drawing.Size(310, 20)
-        Me.C_SN.TabIndex = 763
+        Me.C_SN.TabIndex = 621
         Me.C_SN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'C_MN
@@ -425,7 +425,7 @@ Partial Class CIRFORMA
         Me.C_MN.Location = New System.Drawing.Point(190, 3814)
         Me.C_MN.Name = "C_MN"
         Me.C_MN.Size = New System.Drawing.Size(310, 20)
-        Me.C_MN.TabIndex = 762
+        Me.C_MN.TabIndex = 620
         Me.C_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'C_KHP
@@ -433,7 +433,7 @@ Partial Class CIRFORMA
         Me.C_KHP.Location = New System.Drawing.Point(262, 3782)
         Me.C_KHP.Name = "C_KHP"
         Me.C_KHP.Size = New System.Drawing.Size(238, 20)
-        Me.C_KHP.TabIndex = 761
+        Me.C_KHP.TabIndex = 619
         Me.C_KHP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label150
@@ -495,7 +495,7 @@ Partial Class CIRFORMA
         Me.LIA_REMALLBTN.Location = New System.Drawing.Point(630, 2464)
         Me.LIA_REMALLBTN.Name = "LIA_REMALLBTN"
         Me.LIA_REMALLBTN.Size = New System.Drawing.Size(117, 26)
-        Me.LIA_REMALLBTN.TabIndex = 755
+        Me.LIA_REMALLBTN.TabIndex = 599
         Me.LIA_REMALLBTN.Text = "REMOVE ALL"
         Me.LIA_REMALLBTN.UseVisualStyleBackColor = False
         '
@@ -508,7 +508,7 @@ Partial Class CIRFORMA
         Me.LIA_REMBTN.Location = New System.Drawing.Point(526, 2464)
         Me.LIA_REMBTN.Name = "LIA_REMBTN"
         Me.LIA_REMBTN.Size = New System.Drawing.Size(88, 26)
-        Me.LIA_REMBTN.TabIndex = 754
+        Me.LIA_REMBTN.TabIndex = 598
         Me.LIA_REMBTN.Text = "REMOVE"
         Me.LIA_REMBTN.UseVisualStyleBackColor = False
         '
@@ -521,7 +521,7 @@ Partial Class CIRFORMA
         Me.LIA_UPBTN.Location = New System.Drawing.Point(424, 2464)
         Me.LIA_UPBTN.Name = "LIA_UPBTN"
         Me.LIA_UPBTN.Size = New System.Drawing.Size(88, 26)
-        Me.LIA_UPBTN.TabIndex = 753
+        Me.LIA_UPBTN.TabIndex = 597
         Me.LIA_UPBTN.Text = "UPDATE"
         Me.LIA_UPBTN.UseVisualStyleBackColor = False
         '
@@ -530,7 +530,7 @@ Partial Class CIRFORMA
         Me.LIA_BAL.Location = New System.Drawing.Point(671, 2416)
         Me.LIA_BAL.Name = "LIA_BAL"
         Me.LIA_BAL.Size = New System.Drawing.Size(227, 20)
-        Me.LIA_BAL.TabIndex = 752
+        Me.LIA_BAL.TabIndex = 595
         Me.LIA_BAL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'LIA_AL
@@ -538,7 +538,7 @@ Partial Class CIRFORMA
         Me.LIA_AL.Location = New System.Drawing.Point(671, 2390)
         Me.LIA_AL.Name = "LIA_AL"
         Me.LIA_AL.Size = New System.Drawing.Size(227, 20)
-        Me.LIA_AL.TabIndex = 751
+        Me.LIA_AL.TabIndex = 594
         Me.LIA_AL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'LIA_CRED
@@ -546,7 +546,7 @@ Partial Class CIRFORMA
         Me.LIA_CRED.Location = New System.Drawing.Point(195, 2390)
         Me.LIA_CRED.Name = "LIA_CRED"
         Me.LIA_CRED.Size = New System.Drawing.Size(258, 20)
-        Me.LIA_CRED.TabIndex = 748
+        Me.LIA_CRED.TabIndex = 591
         Me.LIA_CRED.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'LIA_BL
@@ -554,7 +554,7 @@ Partial Class CIRFORMA
         Me.LIA_BL.Location = New System.Drawing.Point(195, 2365)
         Me.LIA_BL.Name = "LIA_BL"
         Me.LIA_BL.Size = New System.Drawing.Size(258, 20)
-        Me.LIA_BL.TabIndex = 747
+        Me.LIA_BL.TabIndex = 590
         Me.LIA_BL.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label131
@@ -658,7 +658,7 @@ Partial Class CIRFORMA
         Me.CB_AGRI.Location = New System.Drawing.Point(771, 4217)
         Me.CB_AGRI.Name = "CB_AGRI"
         Me.CB_AGRI.Size = New System.Drawing.Size(141, 20)
-        Me.CB_AGRI.TabIndex = 739
+        Me.CB_AGRI.TabIndex = 631
         Me.CB_AGRI.Text = "AGRICULTURAL"
         Me.CB_AGRI.UseVisualStyleBackColor = True
         '
@@ -669,7 +669,7 @@ Partial Class CIRFORMA
         Me.CB_RESI.Location = New System.Drawing.Point(592, 4217)
         Me.CB_RESI.Name = "CB_RESI"
         Me.CB_RESI.Size = New System.Drawing.Size(125, 20)
-        Me.CB_RESI.TabIndex = 738
+        Me.CB_RESI.TabIndex = 630
         Me.CB_RESI.Text = "RESIDENTIAL"
         Me.CB_RESI.UseVisualStyleBackColor = True
         '
@@ -680,7 +680,7 @@ Partial Class CIRFORMA
         Me.CB_INDU.Location = New System.Drawing.Point(399, 4218)
         Me.CB_INDU.Name = "CB_INDU"
         Me.CB_INDU.Size = New System.Drawing.Size(116, 20)
-        Me.CB_INDU.TabIndex = 737
+        Me.CB_INDU.TabIndex = 629
         Me.CB_INDU.Text = "INDUSTRIAL"
         Me.CB_INDU.UseVisualStyleBackColor = True
         '
@@ -691,7 +691,7 @@ Partial Class CIRFORMA
         Me.CB_COM.Location = New System.Drawing.Point(212, 4218)
         Me.CB_COM.Name = "CB_COM"
         Me.CB_COM.Size = New System.Drawing.Size(124, 20)
-        Me.CB_COM.TabIndex = 736
+        Me.CB_COM.TabIndex = 628
         Me.CB_COM.Text = "COMMERCIAL"
         Me.CB_COM.UseVisualStyleBackColor = True
         '
@@ -727,7 +727,7 @@ Partial Class CIRFORMA
         Me.NOD_NS.Location = New System.Drawing.Point(280, 857)
         Me.NOD_NS.Name = "NOD_NS"
         Me.NOD_NS.Size = New System.Drawing.Size(101, 21)
-        Me.NOD_NS.TabIndex = 733
+        Me.NOD_NS.TabIndex = 552
         '
         'Label63
         '
@@ -768,7 +768,7 @@ Partial Class CIRFORMA
         Me.COL_ADDBTN.Location = New System.Drawing.Point(318, 3909)
         Me.COL_ADDBTN.Name = "COL_ADDBTN"
         Me.COL_ADDBTN.Size = New System.Drawing.Size(88, 26)
-        Me.COL_ADDBTN.TabIndex = 726
+        Me.COL_ADDBTN.TabIndex = 624
         Me.COL_ADDBTN.Text = "ADD"
         Me.COL_ADDBTN.UseVisualStyleBackColor = False
         '
@@ -781,7 +781,7 @@ Partial Class CIRFORMA
         Me.LIA_ADDBTN.Location = New System.Drawing.Point(320, 2464)
         Me.LIA_ADDBTN.Name = "LIA_ADDBTN"
         Me.LIA_ADDBTN.Size = New System.Drawing.Size(88, 26)
-        Me.LIA_ADDBTN.TabIndex = 725
+        Me.LIA_ADDBTN.TabIndex = 596
         Me.LIA_ADDBTN.Text = "ADD"
         Me.LIA_ADDBTN.UseVisualStyleBackColor = False
         '
@@ -794,7 +794,7 @@ Partial Class CIRFORMA
         Me.CIR_BACKBTN.Location = New System.Drawing.Point(722, 4299)
         Me.CIR_BACKBTN.Name = "CIR_BACKBTN"
         Me.CIR_BACKBTN.Size = New System.Drawing.Size(113, 31)
-        Me.CIR_BACKBTN.TabIndex = 724
+        Me.CIR_BACKBTN.TabIndex = 633
         Me.CIR_BACKBTN.Text = "Back"
         Me.CIR_BACKBTN.UseVisualStyleBackColor = False
         '
@@ -873,7 +873,7 @@ Partial Class CIRFORMA
         Me.NF_ROR1.Location = New System.Drawing.Point(282, 3585)
         Me.NF_ROR1.Name = "NF_ROR1"
         Me.NF_ROR1.Size = New System.Drawing.Size(516, 20)
-        Me.NF_ROR1.TabIndex = 719
+        Me.NF_ROR1.TabIndex = 618
         Me.NF_ROR1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label144
@@ -901,7 +901,7 @@ Partial Class CIRFORMA
         Me.NF_ROR.Location = New System.Drawing.Point(282, 3396)
         Me.NF_ROR.Name = "NF_ROR"
         Me.NF_ROR.Size = New System.Drawing.Size(516, 20)
-        Me.NF_ROR.TabIndex = 716
+        Me.NF_ROR.TabIndex = 615
         Me.NF_ROR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label141
@@ -919,14 +919,14 @@ Partial Class CIRFORMA
         Me.NF_NAIN2.Location = New System.Drawing.Point(102, 3239)
         Me.NF_NAIN2.Name = "NF_NAIN2"
         Me.NF_NAIN2.Size = New System.Drawing.Size(737, 20)
-        Me.NF_NAIN2.TabIndex = 714
+        Me.NF_NAIN2.TabIndex = 612
         '
         'NF_NAIN1
         '
         Me.NF_NAIN1.Location = New System.Drawing.Point(102, 3203)
         Me.NF_NAIN1.Name = "NF_NAIN1"
         Me.NF_NAIN1.Size = New System.Drawing.Size(737, 20)
-        Me.NF_NAIN1.TabIndex = 713
+        Me.NF_NAIN1.TabIndex = 611
         '
         'Label137
         '
@@ -1019,7 +1019,7 @@ Partial Class CIRFORMA
         Me.CC_OCCU.Location = New System.Drawing.Point(184, 2874)
         Me.CC_OCCU.Name = "CC_OCCU"
         Me.CC_OCCU.Size = New System.Drawing.Size(212, 20)
-        Me.CC_OCCU.TabIndex = 704
+        Me.CC_OCCU.TabIndex = 605
         Me.CC_OCCU.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label112
@@ -1108,7 +1108,7 @@ Partial Class CIRFORMA
         Me.ER_MS1.Location = New System.Drawing.Point(640, 2261)
         Me.ER_MS1.Name = "ER_MS1"
         Me.ER_MS1.Size = New System.Drawing.Size(258, 20)
-        Me.ER_MS1.TabIndex = 695
+        Me.ER_MS1.TabIndex = 589
         Me.ER_MS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_LOS1
@@ -1116,7 +1116,7 @@ Partial Class CIRFORMA
         Me.ER_LOS1.Location = New System.Drawing.Point(640, 2212)
         Me.ER_LOS1.Name = "ER_LOS1"
         Me.ER_LOS1.Size = New System.Drawing.Size(258, 20)
-        Me.ER_LOS1.TabIndex = 694
+        Me.ER_LOS1.TabIndex = 588
         Me.ER_LOS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_STATUS1
@@ -1124,7 +1124,7 @@ Partial Class CIRFORMA
         Me.ER_STATUS1.Location = New System.Drawing.Point(640, 2165)
         Me.ER_STATUS1.Name = "ER_STATUS1"
         Me.ER_STATUS1.Size = New System.Drawing.Size(258, 20)
-        Me.ER_STATUS1.TabIndex = 693
+        Me.ER_STATUS1.TabIndex = 587
         Me.ER_STATUS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_POS1
@@ -1132,7 +1132,7 @@ Partial Class CIRFORMA
         Me.ER_POS1.Location = New System.Drawing.Point(640, 2117)
         Me.ER_POS1.Name = "ER_POS1"
         Me.ER_POS1.Size = New System.Drawing.Size(258, 20)
-        Me.ER_POS1.TabIndex = 692
+        Me.ER_POS1.TabIndex = 586
         Me.ER_POS1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_COMP1
@@ -1140,7 +1140,7 @@ Partial Class CIRFORMA
         Me.ER_COMP1.Location = New System.Drawing.Point(640, 2070)
         Me.ER_COMP1.Name = "ER_COMP1"
         Me.ER_COMP1.Size = New System.Drawing.Size(258, 20)
-        Me.ER_COMP1.TabIndex = 691
+        Me.ER_COMP1.TabIndex = 585
         Me.ER_COMP1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label101
@@ -1198,7 +1198,7 @@ Partial Class CIRFORMA
         Me.ER_MS.Location = New System.Drawing.Point(195, 2263)
         Me.ER_MS.Name = "ER_MS"
         Me.ER_MS.Size = New System.Drawing.Size(258, 20)
-        Me.ER_MS.TabIndex = 685
+        Me.ER_MS.TabIndex = 584
         Me.ER_MS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_LOS
@@ -1206,7 +1206,7 @@ Partial Class CIRFORMA
         Me.ER_LOS.Location = New System.Drawing.Point(195, 2214)
         Me.ER_LOS.Name = "ER_LOS"
         Me.ER_LOS.Size = New System.Drawing.Size(258, 20)
-        Me.ER_LOS.TabIndex = 684
+        Me.ER_LOS.TabIndex = 683
         Me.ER_LOS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_STATUS
@@ -1214,7 +1214,7 @@ Partial Class CIRFORMA
         Me.ER_STATUS.Location = New System.Drawing.Point(195, 2167)
         Me.ER_STATUS.Name = "ER_STATUS"
         Me.ER_STATUS.Size = New System.Drawing.Size(258, 20)
-        Me.ER_STATUS.TabIndex = 683
+        Me.ER_STATUS.TabIndex = 682
         Me.ER_STATUS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_POS
@@ -1222,7 +1222,7 @@ Partial Class CIRFORMA
         Me.ER_POS.Location = New System.Drawing.Point(195, 2119)
         Me.ER_POS.Name = "ER_POS"
         Me.ER_POS.Size = New System.Drawing.Size(258, 20)
-        Me.ER_POS.TabIndex = 682
+        Me.ER_POS.TabIndex = 581
         Me.ER_POS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ER_COMP
@@ -1230,7 +1230,7 @@ Partial Class CIRFORMA
         Me.ER_COMP.Location = New System.Drawing.Point(195, 2072)
         Me.ER_COMP.Name = "ER_COMP"
         Me.ER_COMP.Size = New System.Drawing.Size(258, 20)
-        Me.ER_COMP.TabIndex = 681
+        Me.ER_COMP.TabIndex = 580
         Me.ER_COMP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label100
@@ -1368,7 +1368,7 @@ Partial Class CIRFORMA
         Me.BR_NYB.Location = New System.Drawing.Point(242, 1810)
         Me.BR_NYB.Name = "BR_NYB"
         Me.BR_NYB.Size = New System.Drawing.Size(319, 20)
-        Me.BR_NYB.TabIndex = 664
+        Me.BR_NYB.TabIndex = 578
         Me.BR_NYB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label87
@@ -1386,7 +1386,7 @@ Partial Class CIRFORMA
         Me.BR_BC.Location = New System.Drawing.Point(242, 1862)
         Me.BR_BC.Name = "BR_BC"
         Me.BR_BC.Size = New System.Drawing.Size(319, 20)
-        Me.BR_BC.TabIndex = 666
+        Me.BR_BC.TabIndex = 579
         Me.BR_BC.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label86
@@ -1414,7 +1414,7 @@ Partial Class CIRFORMA
         Me.BR_TOB.Location = New System.Drawing.Point(242, 1757)
         Me.BR_TOB.Name = "BR_TOB"
         Me.BR_TOB.Size = New System.Drawing.Size(319, 20)
-        Me.BR_TOB.TabIndex = 662
+        Me.BR_TOB.TabIndex = 577
         Me.BR_TOB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label85
@@ -1432,7 +1432,7 @@ Partial Class CIRFORMA
         Me.BR_CONT.Location = New System.Drawing.Point(242, 1618)
         Me.BR_CONT.Name = "BR_CONT"
         Me.BR_CONT.Size = New System.Drawing.Size(212, 20)
-        Me.BR_CONT.TabIndex = 660
+        Me.BR_CONT.TabIndex = 571
         Me.BR_CONT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label83
@@ -1450,7 +1450,7 @@ Partial Class CIRFORMA
         Me.BR_NOB.Location = New System.Drawing.Point(242, 1576)
         Me.BR_NOB.Name = "BR_NOB"
         Me.BR_NOB.Size = New System.Drawing.Size(675, 20)
-        Me.BR_NOB.TabIndex = 658
+        Me.BR_NOB.TabIndex = 570
         Me.BR_NOB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label82
@@ -1488,7 +1488,7 @@ Partial Class CIRFORMA
         Me.BR_PRO.Location = New System.Drawing.Point(598, 1713)
         Me.BR_PRO.Name = "BR_PRO"
         Me.BR_PRO.Size = New System.Drawing.Size(319, 20)
-        Me.BR_PRO.TabIndex = 654
+        Me.BR_PRO.TabIndex = 576
         Me.BR_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'BR_MUN
@@ -1496,7 +1496,7 @@ Partial Class CIRFORMA
         Me.BR_MUN.Location = New System.Drawing.Point(242, 1713)
         Me.BR_MUN.Name = "BR_MUN"
         Me.BR_MUN.Size = New System.Drawing.Size(319, 20)
-        Me.BR_MUN.TabIndex = 653
+        Me.BR_MUN.TabIndex = 575
         Me.BR_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label78
@@ -1534,7 +1534,7 @@ Partial Class CIRFORMA
         Me.BR_BRGY.Location = New System.Drawing.Point(705, 1665)
         Me.BR_BRGY.Name = "BR_BRGY"
         Me.BR_BRGY.Size = New System.Drawing.Size(212, 20)
-        Me.BR_BRGY.TabIndex = 649
+        Me.BR_BRGY.TabIndex = 574
         Me.BR_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'BR_ST
@@ -1542,7 +1542,7 @@ Partial Class CIRFORMA
         Me.BR_ST.Location = New System.Drawing.Point(478, 1665)
         Me.BR_ST.Name = "BR_ST"
         Me.BR_ST.Size = New System.Drawing.Size(212, 20)
-        Me.BR_ST.TabIndex = 648
+        Me.BR_ST.TabIndex = 573
         Me.BR_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'BR_HOUSENO
@@ -1550,7 +1550,7 @@ Partial Class CIRFORMA
         Me.BR_HOUSENO.Location = New System.Drawing.Point(242, 1665)
         Me.BR_HOUSENO.Name = "BR_HOUSENO"
         Me.BR_HOUSENO.Size = New System.Drawing.Size(212, 20)
-        Me.BR_HOUSENO.TabIndex = 647
+        Me.BR_HOUSENO.TabIndex = 572
         Me.BR_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label81
@@ -1618,7 +1618,7 @@ Partial Class CIRFORMA
         Me.TOL_MOP.Location = New System.Drawing.Point(329, 1456)
         Me.TOL_MOP.Name = "TOL_MOP"
         Me.TOL_MOP.Size = New System.Drawing.Size(379, 20)
-        Me.TOL_MOP.TabIndex = 640
+        Me.TOL_MOP.TabIndex = 569
         Me.TOL_MOP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TOL_MR
@@ -1626,7 +1626,7 @@ Partial Class CIRFORMA
         Me.TOL_MR.Location = New System.Drawing.Point(329, 1406)
         Me.TOL_MR.Name = "TOL_MR"
         Me.TOL_MR.Size = New System.Drawing.Size(379, 20)
-        Me.TOL_MR.TabIndex = 639
+        Me.TOL_MR.TabIndex = 568
         Me.TOL_MR.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label69
@@ -1654,7 +1654,7 @@ Partial Class CIRFORMA
         Me.TOL_TERMS.Location = New System.Drawing.Point(329, 1356)
         Me.TOL_TERMS.Name = "TOL_TERMS"
         Me.TOL_TERMS.Size = New System.Drawing.Size(379, 20)
-        Me.TOL_TERMS.TabIndex = 636
+        Me.TOL_TERMS.TabIndex = 567
         Me.TOL_TERMS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TOL_PURP
@@ -1662,7 +1662,7 @@ Partial Class CIRFORMA
         Me.TOL_PURP.Location = New System.Drawing.Point(329, 1303)
         Me.TOL_PURP.Name = "TOL_PURP"
         Me.TOL_PURP.Size = New System.Drawing.Size(379, 20)
-        Me.TOL_PURP.TabIndex = 635
+        Me.TOL_PURP.TabIndex = 566
         Me.TOL_PURP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TOL_AAP
@@ -1670,7 +1670,7 @@ Partial Class CIRFORMA
         Me.TOL_AAP.Location = New System.Drawing.Point(329, 1258)
         Me.TOL_AAP.Name = "TOL_AAP"
         Me.TOL_AAP.Size = New System.Drawing.Size(379, 20)
-        Me.TOL_AAP.TabIndex = 634
+        Me.TOL_AAP.TabIndex = 565
         Me.TOL_AAP.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label66
@@ -1728,7 +1728,7 @@ Partial Class CIRFORMA
         Me.COLLEGE_TF.Location = New System.Drawing.Point(724, 1041)
         Me.COLLEGE_TF.Name = "COLLEGE_TF"
         Me.COLLEGE_TF.Size = New System.Drawing.Size(101, 20)
-        Me.COLLEGE_TF.TabIndex = 625
+        Me.COLLEGE_TF.TabIndex = 561
         Me.COLLEGE_TF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'HS_TF
@@ -1736,7 +1736,7 @@ Partial Class CIRFORMA
         Me.HS_TF.Location = New System.Drawing.Point(724, 1004)
         Me.HS_TF.Name = "HS_TF"
         Me.HS_TF.Size = New System.Drawing.Size(101, 20)
-        Me.HS_TF.TabIndex = 624
+        Me.HS_TF.TabIndex = 560
         Me.HS_TF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ELEM_TF
@@ -1744,7 +1744,7 @@ Partial Class CIRFORMA
         Me.ELEM_TF.Location = New System.Drawing.Point(724, 969)
         Me.ELEM_TF.Name = "ELEM_TF"
         Me.ELEM_TF.Size = New System.Drawing.Size(101, 20)
-        Me.ELEM_TF.TabIndex = 623
+        Me.ELEM_TF.TabIndex = 559
         Me.ELEM_TF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'COLLEGE_GS
@@ -1752,7 +1752,7 @@ Partial Class CIRFORMA
         Me.COLLEGE_GS.Location = New System.Drawing.Point(499, 1042)
         Me.COLLEGE_GS.Name = "COLLEGE_GS"
         Me.COLLEGE_GS.Size = New System.Drawing.Size(101, 20)
-        Me.COLLEGE_GS.TabIndex = 622
+        Me.COLLEGE_GS.TabIndex = 558
         Me.COLLEGE_GS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'HS_GS
@@ -1760,7 +1760,7 @@ Partial Class CIRFORMA
         Me.HS_GS.Location = New System.Drawing.Point(499, 1004)
         Me.HS_GS.Name = "HS_GS"
         Me.HS_GS.Size = New System.Drawing.Size(101, 20)
-        Me.HS_GS.TabIndex = 621
+        Me.HS_GS.TabIndex = 557
         Me.HS_GS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ELEM_GS
@@ -1768,7 +1768,7 @@ Partial Class CIRFORMA
         Me.ELEM_GS.Location = New System.Drawing.Point(499, 969)
         Me.ELEM_GS.Name = "ELEM_GS"
         Me.ELEM_GS.Size = New System.Drawing.Size(101, 20)
-        Me.ELEM_GS.TabIndex = 620
+        Me.ELEM_GS.TabIndex = 556
         Me.ELEM_GS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'COLLEGE_PS
@@ -1776,7 +1776,7 @@ Partial Class CIRFORMA
         Me.COLLEGE_PS.Location = New System.Drawing.Point(280, 1042)
         Me.COLLEGE_PS.Name = "COLLEGE_PS"
         Me.COLLEGE_PS.Size = New System.Drawing.Size(101, 20)
-        Me.COLLEGE_PS.TabIndex = 619
+        Me.COLLEGE_PS.TabIndex = 555
         Me.COLLEGE_PS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'HS_PS
@@ -1784,7 +1784,7 @@ Partial Class CIRFORMA
         Me.HS_PS.Location = New System.Drawing.Point(280, 1005)
         Me.HS_PS.Name = "HS_PS"
         Me.HS_PS.Size = New System.Drawing.Size(101, 20)
-        Me.HS_PS.TabIndex = 618
+        Me.HS_PS.TabIndex = 554
         Me.HS_PS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ELEM_PS
@@ -1792,7 +1792,7 @@ Partial Class CIRFORMA
         Me.ELEM_PS.Location = New System.Drawing.Point(280, 970)
         Me.ELEM_PS.Name = "ELEM_PS"
         Me.ELEM_PS.Size = New System.Drawing.Size(101, 20)
-        Me.ELEM_PS.TabIndex = 617
+        Me.ELEM_PS.TabIndex = 553
         Me.ELEM_PS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label60
@@ -1921,7 +1921,7 @@ Partial Class CIRFORMA
         Me.CC_PRO.Location = New System.Drawing.Point(436, 2981)
         Me.CC_PRO.Name = "CC_PRO"
         Me.CC_PRO.Size = New System.Drawing.Size(221, 20)
-        Me.CC_PRO.TabIndex = 604
+        Me.CC_PRO.TabIndex = 610
         Me.CC_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CC_MUN
@@ -1929,7 +1929,7 @@ Partial Class CIRFORMA
         Me.CC_MUN.Location = New System.Drawing.Point(184, 2981)
         Me.CC_MUN.Name = "CC_MUN"
         Me.CC_MUN.Size = New System.Drawing.Size(212, 20)
-        Me.CC_MUN.TabIndex = 603
+        Me.CC_MUN.TabIndex = 609
         Me.CC_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label44
@@ -1967,7 +1967,7 @@ Partial Class CIRFORMA
         Me.CC_BRGY.Location = New System.Drawing.Point(687, 2933)
         Me.CC_BRGY.Name = "CC_BRGY"
         Me.CC_BRGY.Size = New System.Drawing.Size(223, 20)
-        Me.CC_BRGY.TabIndex = 599
+        Me.CC_BRGY.TabIndex = 608
         Me.CC_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CC_ST
@@ -1975,7 +1975,7 @@ Partial Class CIRFORMA
         Me.CC_ST.Location = New System.Drawing.Point(436, 2933)
         Me.CC_ST.Name = "CC_ST"
         Me.CC_ST.Size = New System.Drawing.Size(221, 20)
-        Me.CC_ST.TabIndex = 598
+        Me.CC_ST.TabIndex = 607
         Me.CC_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CC_HOUSENO
@@ -1983,7 +1983,7 @@ Partial Class CIRFORMA
         Me.CC_HOUSENO.Location = New System.Drawing.Point(184, 2933)
         Me.CC_HOUSENO.Name = "CC_HOUSENO"
         Me.CC_HOUSENO.Size = New System.Drawing.Size(212, 20)
-        Me.CC_HOUSENO.TabIndex = 597
+        Me.CC_HOUSENO.TabIndex = 606
         Me.CC_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label47
@@ -2011,7 +2011,7 @@ Partial Class CIRFORMA
         Me.CC_RELATION.Location = New System.Drawing.Point(184, 2820)
         Me.CC_RELATION.Name = "CC_RELATION"
         Me.CC_RELATION.Size = New System.Drawing.Size(212, 20)
-        Me.CC_RELATION.TabIndex = 594
+        Me.CC_RELATION.TabIndex = 604
         Me.CC_RELATION.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label49
@@ -2069,7 +2069,7 @@ Partial Class CIRFORMA
         Me.N_SUFF.Location = New System.Drawing.Point(838, 2768)
         Me.N_SUFF.Name = "N_SUFF"
         Me.N_SUFF.Size = New System.Drawing.Size(72, 20)
-        Me.N_SUFF.TabIndex = 588
+        Me.N_SUFF.TabIndex = 603
         Me.N_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'N_MN
@@ -2077,7 +2077,7 @@ Partial Class CIRFORMA
         Me.N_MN.Location = New System.Drawing.Point(620, 2768)
         Me.N_MN.Name = "N_MN"
         Me.N_MN.Size = New System.Drawing.Size(212, 20)
-        Me.N_MN.TabIndex = 587
+        Me.N_MN.TabIndex = 602
         Me.N_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'N_GN
@@ -2085,7 +2085,7 @@ Partial Class CIRFORMA
         Me.N_GN.Location = New System.Drawing.Point(402, 2768)
         Me.N_GN.Name = "N_GN"
         Me.N_GN.Size = New System.Drawing.Size(212, 20)
-        Me.N_GN.TabIndex = 586
+        Me.N_GN.TabIndex = 601
         Me.N_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'N_LN
@@ -2093,7 +2093,7 @@ Partial Class CIRFORMA
         Me.N_LN.Location = New System.Drawing.Point(184, 2768)
         Me.N_LN.Name = "N_LN"
         Me.N_LN.Size = New System.Drawing.Size(212, 20)
-        Me.N_LN.TabIndex = 585
+        Me.N_LN.TabIndex = 600
         Me.N_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label54
@@ -2121,7 +2121,7 @@ Partial Class CIRFORMA
         Me.CIR_CONTACT1.Location = New System.Drawing.Point(193, 738)
         Me.CIR_CONTACT1.Name = "CIR_CONTACT1"
         Me.CIR_CONTACT1.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_CONTACT1.TabIndex = 582
+        Me.CIR_CONTACT1.TabIndex = 551
         Me.CIR_CONTACT1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label33
@@ -2159,7 +2159,7 @@ Partial Class CIRFORMA
         Me.CIR_PRO1.Location = New System.Drawing.Point(428, 685)
         Me.CIR_PRO1.Name = "CIR_PRO1"
         Me.CIR_PRO1.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_PRO1.TabIndex = 578
+        Me.CIR_PRO1.TabIndex = 550
         Me.CIR_PRO1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CIR_MUN1
@@ -2167,7 +2167,7 @@ Partial Class CIRFORMA
         Me.CIR_MUN1.Location = New System.Drawing.Point(192, 685)
         Me.CIR_MUN1.Name = "CIR_MUN1"
         Me.CIR_MUN1.Size = New System.Drawing.Size(213, 20)
-        Me.CIR_MUN1.TabIndex = 577
+        Me.CIR_MUN1.TabIndex = 549
         Me.CIR_MUN1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label36
@@ -2205,7 +2205,7 @@ Partial Class CIRFORMA
         Me.CIR_BRGY1.Location = New System.Drawing.Point(655, 642)
         Me.CIR_BRGY1.Name = "CIR_BRGY1"
         Me.CIR_BRGY1.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_BRGY1.TabIndex = 573
+        Me.CIR_BRGY1.TabIndex = 548
         Me.CIR_BRGY1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CIR_ST1
@@ -2213,7 +2213,7 @@ Partial Class CIRFORMA
         Me.CIR_ST1.Location = New System.Drawing.Point(428, 642)
         Me.CIR_ST1.Name = "CIR_ST1"
         Me.CIR_ST1.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_ST1.TabIndex = 572
+        Me.CIR_ST1.TabIndex = 547
         Me.CIR_ST1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CIR_HOUSENO1
@@ -2221,7 +2221,7 @@ Partial Class CIRFORMA
         Me.CIR_HOUSENO1.Location = New System.Drawing.Point(192, 642)
         Me.CIR_HOUSENO1.Name = "CIR_HOUSENO1"
         Me.CIR_HOUSENO1.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_HOUSENO1.TabIndex = 571
+        Me.CIR_HOUSENO1.TabIndex = 546
         Me.CIR_HOUSENO1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label39
@@ -2260,7 +2260,7 @@ Partial Class CIRFORMA
         Me.CIR_CONTACT.Name = "CIR_CONTACT"
         Me.CIR_CONTACT.ReadOnly = True
         Me.CIR_CONTACT.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_CONTACT.TabIndex = 567
+        Me.CIR_CONTACT.TabIndex = 540
         Me.CIR_CONTACT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label29
@@ -2278,7 +2278,7 @@ Partial Class CIRFORMA
         Me.CIR_RELATION.Location = New System.Drawing.Point(192, 578)
         Me.CIR_RELATION.Name = "CIR_RELATION"
         Me.CIR_RELATION.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_RELATION.TabIndex = 565
+        Me.CIR_RELATION.TabIndex = 545
         Me.CIR_RELATION.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label28
@@ -2336,7 +2336,7 @@ Partial Class CIRFORMA
         Me.NOR_SUFF.Location = New System.Drawing.Point(846, 522)
         Me.NOR_SUFF.Name = "NOR_SUFF"
         Me.NOR_SUFF.Size = New System.Drawing.Size(72, 20)
-        Me.NOR_SUFF.TabIndex = 559
+        Me.NOR_SUFF.TabIndex = 544
         Me.NOR_SUFF.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'NOR_MN
@@ -2344,7 +2344,7 @@ Partial Class CIRFORMA
         Me.NOR_MN.Location = New System.Drawing.Point(628, 522)
         Me.NOR_MN.Name = "NOR_MN"
         Me.NOR_MN.Size = New System.Drawing.Size(212, 20)
-        Me.NOR_MN.TabIndex = 558
+        Me.NOR_MN.TabIndex = 543
         Me.NOR_MN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'NOR_GN
@@ -2352,7 +2352,7 @@ Partial Class CIRFORMA
         Me.NOR_GN.Location = New System.Drawing.Point(410, 522)
         Me.NOR_GN.Name = "NOR_GN"
         Me.NOR_GN.Size = New System.Drawing.Size(212, 20)
-        Me.NOR_GN.TabIndex = 557
+        Me.NOR_GN.TabIndex = 542
         Me.NOR_GN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'NOR_LN
@@ -2360,7 +2360,7 @@ Partial Class CIRFORMA
         Me.NOR_LN.Location = New System.Drawing.Point(192, 522)
         Me.NOR_LN.Name = "NOR_LN"
         Me.NOR_LN.Size = New System.Drawing.Size(212, 20)
-        Me.NOR_LN.TabIndex = 556
+        Me.NOR_LN.TabIndex = 541
         Me.NOR_LN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label27
@@ -2399,7 +2399,7 @@ Partial Class CIRFORMA
         Me.CIR_PRO.Name = "CIR_PRO"
         Me.CIR_PRO.ReadOnly = True
         Me.CIR_PRO.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_PRO.TabIndex = 552
+        Me.CIR_PRO.TabIndex = 539
         Me.CIR_PRO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CIR_MUN
@@ -2408,7 +2408,7 @@ Partial Class CIRFORMA
         Me.CIR_MUN.Name = "CIR_MUN"
         Me.CIR_MUN.ReadOnly = True
         Me.CIR_MUN.Size = New System.Drawing.Size(213, 20)
-        Me.CIR_MUN.TabIndex = 551
+        Me.CIR_MUN.TabIndex = 538
         Me.CIR_MUN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label18
@@ -2447,7 +2447,7 @@ Partial Class CIRFORMA
         Me.CIR_BRGY.Name = "CIR_BRGY"
         Me.CIR_BRGY.ReadOnly = True
         Me.CIR_BRGY.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_BRGY.TabIndex = 547
+        Me.CIR_BRGY.TabIndex = 537
         Me.CIR_BRGY.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CIR_ST
@@ -2456,7 +2456,7 @@ Partial Class CIRFORMA
         Me.CIR_ST.Name = "CIR_ST"
         Me.CIR_ST.ReadOnly = True
         Me.CIR_ST.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_ST.TabIndex = 546
+        Me.CIR_ST.TabIndex = 536
         Me.CIR_ST.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'CIR_HOUSENO
@@ -2465,7 +2465,7 @@ Partial Class CIRFORMA
         Me.CIR_HOUSENO.Name = "CIR_HOUSENO"
         Me.CIR_HOUSENO.ReadOnly = True
         Me.CIR_HOUSENO.Size = New System.Drawing.Size(212, 20)
-        Me.CIR_HOUSENO.TabIndex = 545
+        Me.CIR_HOUSENO.TabIndex = 535
         Me.CIR_HOUSENO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label17
@@ -2651,7 +2651,7 @@ Partial Class CIRFORMA
         Me.RB_NEW.Location = New System.Drawing.Point(336, 1217)
         Me.RB_NEW.Name = "RB_NEW"
         Me.RB_NEW.Size = New System.Drawing.Size(51, 17)
-        Me.RB_NEW.TabIndex = 771
+        Me.RB_NEW.TabIndex = 562
         Me.RB_NEW.TabStop = True
         Me.RB_NEW.Text = "NEW"
         Me.RB_NEW.UseVisualStyleBackColor = True
@@ -2662,7 +2662,7 @@ Partial Class CIRFORMA
         Me.RB_RENEW.Location = New System.Drawing.Point(456, 1217)
         Me.RB_RENEW.Name = "RB_RENEW"
         Me.RB_RENEW.Size = New System.Drawing.Size(79, 17)
-        Me.RB_RENEW.TabIndex = 772
+        Me.RB_RENEW.TabIndex = 563
         Me.RB_RENEW.TabStop = True
         Me.RB_RENEW.Text = "RENEWAL"
         Me.RB_RENEW.UseVisualStyleBackColor = True
@@ -2673,7 +2673,7 @@ Partial Class CIRFORMA
         Me.RB_RESTRUCT.Location = New System.Drawing.Point(591, 1217)
         Me.RB_RESTRUCT.Name = "RB_RESTRUCT"
         Me.RB_RESTRUCT.Size = New System.Drawing.Size(107, 17)
-        Me.RB_RESTRUCT.TabIndex = 773
+        Me.RB_RESTRUCT.TabIndex = 564
         Me.RB_RESTRUCT.TabStop = True
         Me.RB_RESTRUCT.Text = "RESTRUCTURE"
         Me.RB_RESTRUCT.UseVisualStyleBackColor = True
@@ -2683,7 +2683,7 @@ Partial Class CIRFORMA
         Me.DOB_DTP.Location = New System.Drawing.Point(193, 246)
         Me.DOB_DTP.Name = "DOB_DTP"
         Me.DOB_DTP.Size = New System.Drawing.Size(200, 20)
-        Me.DOB_DTP.TabIndex = 774
+        Me.DOB_DTP.TabIndex = 533
         '
         'CIR_AGE
         '
@@ -2691,7 +2691,7 @@ Partial Class CIRFORMA
         Me.CIR_AGE.Name = "CIR_AGE"
         Me.CIR_AGE.ReadOnly = True
         Me.CIR_AGE.Size = New System.Drawing.Size(53, 20)
-        Me.CIR_AGE.TabIndex = 775
+        Me.CIR_AGE.TabIndex = 534
         '
         'Label12
         '
@@ -2729,14 +2729,14 @@ Partial Class CIRFORMA
         Me.LIA_DG.Location = New System.Drawing.Point(195, 2417)
         Me.LIA_DG.Name = "LIA_DG"
         Me.LIA_DG.Size = New System.Drawing.Size(200, 20)
-        Me.LIA_DG.TabIndex = 778
+        Me.LIA_DG.TabIndex = 592
         '
         'LIA_DD
         '
         Me.LIA_DD.Location = New System.Drawing.Point(671, 2362)
         Me.LIA_DD.Name = "LIA_DD"
         Me.LIA_DD.Size = New System.Drawing.Size(200, 20)
-        Me.LIA_DD.TabIndex = 779
+        Me.LIA_DD.TabIndex = 593
         Me.LIA_DD.Value = New Date(2022, 4, 12, 15, 8, 55, 0)
         '
         'Button1
@@ -2748,7 +2748,7 @@ Partial Class CIRFORMA
         Me.Button1.Location = New System.Drawing.Point(841, 4299)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(113, 31)
-        Me.Button1.TabIndex = 780
+        Me.Button1.TabIndex = 632
         Me.Button1.Text = "Next"
         Me.Button1.UseVisualStyleBackColor = False
         '
