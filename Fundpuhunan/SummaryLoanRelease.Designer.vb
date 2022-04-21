@@ -133,12 +133,13 @@ Partial Class SummaryLoanRelease
         'DataGridView1
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
+        Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5, Me.Column6, Me.Column7, Me.Column8, Me.Column9, Me.Column10, Me.Column11, Me.Column12})
-        Me.DataGridView1.Location = New System.Drawing.Point(3, 3)
+        Me.DataGridView1.Location = New System.Drawing.Point(0, 3)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersVisible = False
-        Me.DataGridView1.Size = New System.Drawing.Size(1253, 312)
+        Me.DataGridView1.Size = New System.Drawing.Size(1262, 312)
         Me.DataGridView1.TabIndex = 1
         '
         'Column1
