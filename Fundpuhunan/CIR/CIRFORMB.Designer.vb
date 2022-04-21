@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class CIRFORMB
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class CIRFORMB
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.txtAccSignature = New System.Windows.Forms.TextBox()
@@ -206,9 +206,13 @@ Partial Class CIRFORMB
         Me.btnCancel.AutoSize = True
         Me.btnCancel.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+
         Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Control
-        Me.btnCancel.Location = New System.Drawing.Point(682, 1652)
+        Me.btnCancel.Location = New System.Drawing.Point(682, 1646)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(120, 31)
         Me.btnCancel.TabIndex = 844
@@ -1333,9 +1337,9 @@ Partial Class CIRFORMB
         Me.btnSubmit.AutoSize = True
         Me.btnSubmit.BackColor = System.Drawing.Color.SeaGreen
         Me.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubmit.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSubmit.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.btnSubmit.Location = New System.Drawing.Point(808, 1652)
+        Me.btnSubmit.Location = New System.Drawing.Point(808, 1646)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(120, 31)
         Me.btnSubmit.TabIndex = 843
@@ -1439,15 +1443,19 @@ Partial Class CIRFORMB
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.SeaGreen
+        Me.Button1.BackColor = System.Drawing.Color.SteelBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+
         Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
-        Me.Button1.Location = New System.Drawing.Point(808, 1652)
+        Me.Button1.Location = New System.Drawing.Point(808, 1646)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(120, 31)
         Me.Button1.TabIndex = 854
-        Me.Button1.Text = "Finish"
+        Me.Button1.Text = "Close Form"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'CIRFORMB
@@ -1456,7 +1464,8 @@ Partial Class CIRFORMB
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 20)
-        Me.ClientSize = New System.Drawing.Size(991, 699)
+        Me.ClientSize = New System.Drawing.Size(1008, 699)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.UploadCIRForm)
         Me.Controls.Add(Me.UploadAppForm)
@@ -1577,6 +1586,7 @@ Partial Class CIRFORMB
         Me.Controls.Add(Me.txtBLname)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.btnSubmit)
+        Me.Controls.Add(Me.Button1)
         Me.MaximizeBox = False
         Me.Name = "CIRFORMB"
         Me.ShowIcon = False

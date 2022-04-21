@@ -42,6 +42,7 @@ Partial Class Navigation
         Me.dashboardbutton = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Navigationpanel = New System.Windows.Forms.Panel()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -51,6 +52,7 @@ Partial Class Navigation
         '
         Me.Panel1.BackColor = System.Drawing.Color.SteelBlue
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.Button3)
         Me.Panel1.Controls.Add(Me.Button2)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label7)
@@ -86,9 +88,9 @@ Partial Class Navigation
         Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.Button2.Location = New System.Drawing.Point(0, 452)
+        Me.Button2.Location = New System.Drawing.Point(-3, 516)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(248, 26)
+        Me.Button2.Size = New System.Drawing.Size(251, 26)
         Me.Button2.TabIndex = 66
         Me.Button2.Text = "Files/Record"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -226,7 +228,7 @@ Partial Class Navigation
         Me.accountbttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
         Me.accountbttn.Location = New System.Drawing.Point(3, 484)
         Me.accountbttn.Name = "accountbttn"
-        Me.accountbttn.Size = New System.Drawing.Size(251, 26)
+        Me.accountbttn.Size = New System.Drawing.Size(244, 26)
         Me.accountbttn.TabIndex = 9
         Me.accountbttn.Text = "My Account"
         Me.accountbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -255,9 +257,9 @@ Partial Class Navigation
         Me.filebttn.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.filebttn.ForeColor = System.Drawing.Color.White
         Me.filebttn.ImageAlign = System.Drawing.ContentAlignment.TopLeft
-        Me.filebttn.Location = New System.Drawing.Point(-4, 516)
+        Me.filebttn.Location = New System.Drawing.Point(3, 548)
         Me.filebttn.Name = "filebttn"
-        Me.filebttn.Size = New System.Drawing.Size(248, 26)
+        Me.filebttn.Size = New System.Drawing.Size(244, 26)
         Me.filebttn.TabIndex = 6
         Me.filebttn.Text = "Manage Account/User"
         Me.filebttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -293,7 +295,7 @@ Partial Class Navigation
         Me.applicationbttn.Name = "applicationbttn"
         Me.applicationbttn.Size = New System.Drawing.Size(248, 26)
         Me.applicationbttn.TabIndex = 4
-        Me.applicationbttn.Text = "Borrower"
+        Me.applicationbttn.Text = "Borrowers"
         Me.applicationbttn.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.applicationbttn.UseVisualStyleBackColor = False
         '
@@ -349,6 +351,23 @@ Partial Class Navigation
         Me.Navigationpanel.Size = New System.Drawing.Size(940, 757)
         Me.Navigationpanel.TabIndex = 14
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.SteelBlue
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.White
+        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopLeft
+        Me.Button3.Location = New System.Drawing.Point(1, 452)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(244, 26)
+        Me.Button3.TabIndex = 67
+        Me.Button3.Text = "Reports"
+        Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'Navigation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -390,4 +409,5 @@ Partial Class Navigation
     Friend WithEvents Button2 As Button
     Friend WithEvents loanreleasedbttn As Button
     Friend WithEvents savingsbttn As Button
+    Friend WithEvents Button3 As Button
 End Class

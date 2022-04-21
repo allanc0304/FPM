@@ -2760,7 +2760,16 @@ Partial Class CIRFORMA
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 15)
+
         Me.ClientSize = New System.Drawing.Size(1021, 662)
+
+
+        Me.ClientSize = New System.Drawing.Size(1004, 749)
+        Me.ControlBox = False
+
+        Me.ClientSize = New System.Drawing.Size(1021, 749)
+
+
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.LIA_DD)
         Me.Controls.Add(Me.LIA_DG)

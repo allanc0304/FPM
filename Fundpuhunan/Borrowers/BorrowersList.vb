@@ -41,13 +41,13 @@ Public Class BorrowersList
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        BorrowersLoan.Show()
+        BorrowersInfo.Show()
         AppFormB.view = True
         CIRFORMA.view = True
         AppFormA.view = True
         CIRFORMB.view = True
         Button5.Enabled = True
-        Button3.Enabled = False
+
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick

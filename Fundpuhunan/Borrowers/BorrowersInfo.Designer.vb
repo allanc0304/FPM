@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class BorrowersLoan
+Partial Class BorrowersInfo
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -46,13 +46,6 @@ Partial Class BorrowersLoan
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Penalties = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -60,6 +53,21 @@ Partial Class BorrowersLoan
         Me.AP_CONFIRMBTN = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Button4 = New System.Windows.Forms.Button()
+        Me.Loan_status = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Loan_idtxt = New System.Windows.Forms.TextBox()
+        Me.loan_balancetxt = New System.Windows.Forms.TextBox()
+        Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Penalties = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.pictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
@@ -81,11 +89,11 @@ Partial Class BorrowersLoan
         '
         Me.button1.BackColor = System.Drawing.Color.SeaGreen
         Me.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.button1.ForeColor = System.Drawing.Color.White
-        Me.button1.Location = New System.Drawing.Point(738, 193)
+        Me.button1.Location = New System.Drawing.Point(718, 203)
         Me.button1.Name = "button1"
-        Me.button1.Size = New System.Drawing.Size(117, 43)
+        Me.button1.Size = New System.Drawing.Size(132, 35)
         Me.button1.TabIndex = 43
         Me.button1.Text = "Add Payment"
         Me.button1.UseVisualStyleBackColor = False
@@ -109,16 +117,18 @@ Partial Class BorrowersLoan
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox2.Location = New System.Drawing.Point(239, 62)
+        Me.TextBox2.Location = New System.Drawing.Point(239, 61)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(207, 21)
         Me.TextBox2.TabIndex = 41
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label2.Location = New System.Drawing.Point(126, 64)
+        Me.Label2.Location = New System.Drawing.Point(126, 63)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(110, 15)
         Me.Label2.TabIndex = 40
@@ -127,16 +137,18 @@ Partial Class BorrowersLoan
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox3.Location = New System.Drawing.Point(239, 91)
+        Me.TextBox3.Location = New System.Drawing.Point(239, 90)
         Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(207, 21)
         Me.TextBox3.TabIndex = 48
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(126, 92)
+        Me.Label3.Location = New System.Drawing.Point(126, 91)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(77, 15)
         Me.Label3.TabIndex = 47
@@ -145,10 +157,12 @@ Partial Class BorrowersLoan
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox4.Location = New System.Drawing.Point(239, 119)
+        Me.TextBox4.Location = New System.Drawing.Point(239, 118)
         Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(207, 21)
         Me.TextBox4.TabIndex = 50
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label4
         '
@@ -163,16 +177,18 @@ Partial Class BorrowersLoan
         'TextBox6
         '
         Me.TextBox6.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox6.Location = New System.Drawing.Point(600, 64)
+        Me.TextBox6.Location = New System.Drawing.Point(600, 57)
         Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(255, 21)
         Me.TextBox6.TabIndex = 54
+        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label33
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label33.Location = New System.Drawing.Point(467, 66)
+        Me.Label33.Location = New System.Drawing.Point(467, 59)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(127, 15)
         Me.Label33.TabIndex = 53
@@ -181,16 +197,18 @@ Partial Class BorrowersLoan
         'TextBox7
         '
         Me.TextBox7.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox7.Location = New System.Drawing.Point(600, 96)
+        Me.TextBox7.Location = New System.Drawing.Point(600, 89)
         Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.ReadOnly = True
         Me.TextBox7.Size = New System.Drawing.Size(255, 21)
         Me.TextBox7.TabIndex = 56
+        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label34
         '
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label34.Location = New System.Drawing.Point(467, 98)
+        Me.Label34.Location = New System.Drawing.Point(467, 91)
         Me.Label34.Name = "Label34"
         Me.Label34.Size = New System.Drawing.Size(107, 15)
         Me.Label34.TabIndex = 55
@@ -199,16 +217,18 @@ Partial Class BorrowersLoan
         'TextBox8
         '
         Me.TextBox8.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox8.Location = New System.Drawing.Point(600, 129)
+        Me.TextBox8.Location = New System.Drawing.Point(600, 122)
         Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
         Me.TextBox8.Size = New System.Drawing.Size(255, 21)
         Me.TextBox8.TabIndex = 58
+        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label35
         '
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label35.Location = New System.Drawing.Point(467, 131)
+        Me.Label35.Location = New System.Drawing.Point(467, 124)
         Me.Label35.Name = "Label35"
         Me.Label35.Size = New System.Drawing.Size(48, 15)
         Me.Label35.TabIndex = 57
@@ -219,7 +239,7 @@ Partial Class BorrowersLoan
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label36.ForeColor = System.Drawing.SystemColors.ActiveCaption
-        Me.Label36.Location = New System.Drawing.Point(669, 45)
+        Me.Label36.Location = New System.Drawing.Point(669, 39)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(95, 15)
         Me.Label36.TabIndex = 59
@@ -237,16 +257,18 @@ Partial Class BorrowersLoan
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.TextBox9.Location = New System.Drawing.Point(239, 145)
+        Me.TextBox9.Location = New System.Drawing.Point(239, 144)
         Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.ReadOnly = True
         Me.TextBox9.Size = New System.Drawing.Size(207, 21)
         Me.TextBox9.TabIndex = 62
+        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label38
         '
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label38.Location = New System.Drawing.Point(126, 151)
+        Me.Label38.Location = New System.Drawing.Point(126, 150)
         Me.Label38.Name = "Label38"
         Me.Label38.Size = New System.Drawing.Size(91, 15)
         Me.Label38.TabIndex = 61
@@ -267,18 +289,18 @@ Partial Class BorrowersLoan
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
         Me.Label6.ForeColor = System.Drawing.Color.White
-        Me.Label6.Location = New System.Drawing.Point(313, 8)
+        Me.Label6.Location = New System.Drawing.Point(313, 5)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(212, 24)
+        Me.Label6.Size = New System.Drawing.Size(217, 24)
         Me.Label6.TabIndex = 41
-        Me.Label6.Text = "LoanTransaction History"
+        Me.Label6.Text = "Loan Transaction History"
         '
         'DataGridView2
         '
         Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonFace
         Me.DataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.Penalties, Me.Column2, Me.Column1, Me.DataGridViewTextBoxColumn4})
+        Me.DataGridView2.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column3, Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn2, Me.Penalties, Me.Column2, Me.Column1, Me.DataGridViewTextBoxColumn4})
         Me.DataGridView2.GridColor = System.Drawing.SystemColors.ActiveBorder
         Me.DataGridView2.Location = New System.Drawing.Point(0, 33)
         Me.DataGridView2.Name = "DataGridView2"
@@ -288,45 +310,6 @@ Partial Class BorrowersLoan
         Me.DataGridView2.Size = New System.Drawing.Size(843, 219)
         Me.DataGridView2.TabIndex = 40
         Me.DataGridView2.TabStop = False
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.HeaderText = "Date"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        Me.DataGridViewTextBoxColumn1.Width = 150
-        '
-        'DataGridViewTextBoxColumn2
-        '
-        Me.DataGridViewTextBoxColumn2.HeaderText = "Transaction Type"
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        '
-        'DataGridViewTextBoxColumn3
-        '
-        Me.DataGridViewTextBoxColumn3.HeaderText = "Amount Paid"
-        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        '
-        'Penalties
-        '
-        Me.Penalties.HeaderText = "Penalties"
-        Me.Penalties.Name = "Penalties"
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "Remaining Balance"
-        Me.Column2.Name = "Column2"
-        Me.Column2.Width = 150
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Remark"
-        Me.Column1.Name = "Column1"
-        Me.Column1.Width = 150
-        '
-        'DataGridViewTextBoxColumn4
-        '
-        Me.DataGridViewTextBoxColumn4.HeaderText = "Collected By "
-        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        Me.DataGridViewTextBoxColumn4.Width = 200
         '
         'Panel3
         '
@@ -365,9 +348,9 @@ Partial Class BorrowersLoan
         '
         Me.Button3.BackColor = System.Drawing.Color.RoyalBlue
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(15, 169)
+        Me.Button3.Location = New System.Drawing.Point(16, 172)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 31)
         Me.Button3.TabIndex = 69
@@ -378,7 +361,7 @@ Partial Class BorrowersLoan
         '
         Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.Green
         Me.AP_CONFIRMBTN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.AP_CONFIRMBTN.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AP_CONFIRMBTN.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AP_CONFIRMBTN.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.AP_CONFIRMBTN.Location = New System.Drawing.Point(16, 206)
         Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -393,23 +376,148 @@ Partial Class BorrowersLoan
         '
         'Button4
         '
-        Me.Button4.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.Button4.BackColor = System.Drawing.Color.DarkOrange
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(615, 193)
+        Me.Button4.Location = New System.Drawing.Point(580, 203)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(117, 43)
+        Me.Button4.Size = New System.Drawing.Size(132, 35)
         Me.Button4.TabIndex = 99
-        Me.Button4.Text = "Back"
+        Me.Button4.Text = "Mark as Released"
         Me.Button4.UseVisualStyleBackColor = False
         '
-        'BorrowersLoan
+        'Loan_status
+        '
+        Me.Loan_status.BackColor = System.Drawing.Color.DarkOrange
+        Me.Loan_status.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Loan_status.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Loan_status.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.Loan_status.Location = New System.Drawing.Point(297, 39)
+        Me.Loan_status.Name = "Loan_status"
+        Me.Loan_status.Size = New System.Drawing.Size(83, 19)
+        Me.Loan_status.TabIndex = 101
+        Me.Loan_status.Text = "Pending"
+        Me.Loan_status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Label7.Location = New System.Drawing.Point(126, 192)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(61, 15)
+        Me.Label7.TabIndex = 103
+        Me.Label7.Text = "Loan ID:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label8.Location = New System.Drawing.Point(278, 172)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(139, 15)
+        Me.Label8.TabIndex = 104
+        Me.Label8.Text = "Current Loan Details"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Label5.Location = New System.Drawing.Point(126, 219)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(63, 15)
+        Me.Label5.TabIndex = 105
+        Me.Label5.Text = "Balance:"
+        '
+        'Loan_idtxt
+        '
+        Me.Loan_idtxt.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.Loan_idtxt.Location = New System.Drawing.Point(239, 190)
+        Me.Loan_idtxt.Name = "Loan_idtxt"
+        Me.Loan_idtxt.ReadOnly = True
+        Me.Loan_idtxt.Size = New System.Drawing.Size(207, 21)
+        Me.Loan_idtxt.TabIndex = 106
+        Me.Loan_idtxt.Text = "000000000000"
+        Me.Loan_idtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'loan_balancetxt
+        '
+        Me.loan_balancetxt.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.loan_balancetxt.Location = New System.Drawing.Point(239, 217)
+        Me.loan_balancetxt.Name = "loan_balancetxt"
+        Me.loan_balancetxt.Size = New System.Drawing.Size(207, 21)
+        Me.loan_balancetxt.TabIndex = 107
+        Me.loan_balancetxt.Text = "20000"
+        Me.loan_balancetxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Column3
+        '
+        Me.Column3.HeaderText = "Loan ID"
+        Me.Column3.Name = "Column3"
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.HeaderText = "Date"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        Me.DataGridViewTextBoxColumn1.Width = 120
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Amount Paid (P+I)"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.HeaderText = "Insurance"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        '
+        'Penalties
+        '
+        Me.Penalties.HeaderText = "Penalties"
+        Me.Penalties.Name = "Penalties"
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Outstanding Balance"
+        Me.Column2.Name = "Column2"
+        Me.Column2.Width = 120
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Remark"
+        Me.Column1.Name = "Column1"
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Collected By "
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        Me.DataGridViewTextBoxColumn4.Width = 150
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold)
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label10.Location = New System.Drawing.Point(240, 41)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(51, 15)
+        Me.Label10.TabIndex = 108
+        Me.Label10.Text = "Status:"
+        '
+        'BorrowersInfo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(862, 511)
-        Me.ControlBox = False
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.loan_balancetxt)
+        Me.Controls.Add(Me.Loan_idtxt)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Loan_status)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.AP_CONFIRMBTN)
         Me.Controls.Add(Me.Button3)
@@ -436,7 +544,7 @@ Partial Class BorrowersLoan
         Me.Controls.Add(Me.pictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.MaximizeBox = False
-        Me.Name = "BorrowersLoan"
+        Me.Name = "BorrowersInfo"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Borrower's Loan"
@@ -477,15 +585,23 @@ Partial Class BorrowersLoan
     Friend WithEvents Panel3 As Panel
     Private WithEvents Label9 As Label
     Private WithEvents Button3 As Button
-    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
-    Friend WithEvents Penalties As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
     Friend WithEvents AP_CONFIRMBTN As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Timer1 As Timer
     Private WithEvents Button4 As Button
+    Private WithEvents Loan_status As Label
+    Private WithEvents loan_balancetxt As TextBox
+    Private WithEvents Loan_idtxt As TextBox
+    Private WithEvents Label5 As Label
+    Private WithEvents Label8 As Label
+    Private WithEvents Label7 As Label
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
+    Friend WithEvents Penalties As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Private WithEvents Label10 As Label
 End Class

@@ -121,6 +121,12 @@
     <Compile Include="CIR\CIRFORMB.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CIR\Total_Computation.Designer.vb">
+      <DependentUpon>Total_Computation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CIR\Total_Computation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Collection\AddCollectionList.Designer.vb">
       <DependentUpon>AddCollectionList.vb</DependentUpon>
     </Compile>
@@ -139,10 +145,10 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Files_record.vb" />
-    <Compile Include="Borrowers\BorrowersLoan.Designer.vb">
-      <DependentUpon>BorrowersLoan.vb</DependentUpon>
+    <Compile Include="Borrowers\BorrowersInfo.Designer.vb">
+      <DependentUpon>BorrowersInfo.vb</DependentUpon>
     </Compile>
-    <Compile Include="Borrowers\BorrowersLoan.vb">
+    <Compile Include="Borrowers\BorrowersInfo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Borrowers\BorrowersList.Designer.vb">
@@ -282,8 +288,11 @@
     <EmbeddedResource Include="CIR\CIRFORMB.resx">
       <DependentUpon>CIRFORMB.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Borrowers\BorrowersLoan.resx">
-      <DependentUpon>BorrowersLoan.vb</DependentUpon>
+    <EmbeddedResource Include="Borrowers\BorrowersInfo.resx">
+      <DependentUpon>BorrowersInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CIR\Total_Computation.resx">
+      <DependentUpon>Total_Computation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Collection\Collections.resx">
       <DependentUpon>Collections.vb</DependentUpon>
