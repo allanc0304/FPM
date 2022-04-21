@@ -74,10 +74,6 @@ Partial Class AddLoanPayment
         Me.Label22.TabIndex = 63
         Me.Label22.Text = "Penalties :"
         '
-        'Label19
-        '
-
-        '
         'AP_CONFIRMBTN
         '
         Me.AP_CONFIRMBTN.BackColor = System.Drawing.Color.SeaGreen
@@ -144,7 +140,7 @@ Partial Class AddLoanPayment
         Me.Label7.Location = New System.Drawing.Point(28, 108)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(89, 16)
+        Me.Label7.Size = New System.Drawing.Size(122, 16)
         Me.Label7.TabIndex = 52
         Me.Label7.Text = "Enter Amount (P+I) :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -169,7 +165,7 @@ Partial Class AddLoanPayment
         Me.Label17.Location = New System.Drawing.Point(12, 50)
         Me.Label17.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(111, 16)
+        Me.Label17.Size = New System.Drawing.Size(140, 16)
         Me.Label17.TabIndex = 69
         Me.Label17.Text = "Outstanding Balance  :"
         '
@@ -182,10 +178,6 @@ Partial Class AddLoanPayment
         Me.AP_CB.ReadOnly = True
         Me.AP_CB.Size = New System.Drawing.Size(208, 22)
         Me.AP_CB.TabIndex = 71
-        '
-        'AP_REM
-        '
-
         '
         'Label2
         '
@@ -235,7 +227,7 @@ Partial Class AddLoanPayment
         Me.TextBox1.Location = New System.Drawing.Point(173, 136)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(208, 23)
+        Me.TextBox1.Size = New System.Drawing.Size(208, 20)
         Me.TextBox1.TabIndex = 79
         Me.TextBox1.Text = "15"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -258,7 +250,7 @@ Partial Class AddLoanPayment
         Me.TextBox2.Location = New System.Drawing.Point(173, 167)
         Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(208, 23)
+        Me.TextBox2.Size = New System.Drawing.Size(208, 20)
         Me.TextBox2.TabIndex = 81
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -306,7 +298,7 @@ Partial Class AddLoanPayment
         Me.TextBox3.Location = New System.Drawing.Point(171, 77)
         Me.TextBox3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(209, 23)
+        Me.TextBox3.Size = New System.Drawing.Size(209, 20)
         Me.TextBox3.TabIndex = 85
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -328,7 +320,7 @@ Partial Class AddLoanPayment
         Me.TextBox4.Location = New System.Drawing.Point(173, 226)
         Me.TextBox4.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(209, 23)
+        Me.TextBox4.Size = New System.Drawing.Size(209, 20)
         Me.TextBox4.TabIndex = 87
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -350,7 +342,7 @@ Partial Class AddLoanPayment
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(434, 261)
+        Me.ClientSize = New System.Drawing.Size(541, 411)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
