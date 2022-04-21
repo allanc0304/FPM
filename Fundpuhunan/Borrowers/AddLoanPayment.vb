@@ -56,6 +56,7 @@
         End If
         If ask = MsgBoxResult.Yes Then
             MsgBox("Payment Successful")
+
             Me.Close()
         Else
         End If
