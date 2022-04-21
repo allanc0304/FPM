@@ -66,7 +66,7 @@ Partial Class AddUserAccount
         Me.cmbboxPosition.Location = New System.Drawing.Point(138, 166)
         Me.cmbboxPosition.Name = "cmbboxPosition"
         Me.cmbboxPosition.Size = New System.Drawing.Size(435, 21)
-        Me.cmbboxPosition.TabIndex = 44
+        Me.cmbboxPosition.TabIndex = 29
         '
         'btnAddUserApply
         '
@@ -78,7 +78,7 @@ Partial Class AddUserAccount
         Me.btnAddUserApply.Location = New System.Drawing.Point(646, 277)
         Me.btnAddUserApply.Name = "btnAddUserApply"
         Me.btnAddUserApply.Size = New System.Drawing.Size(112, 34)
-        Me.btnAddUserApply.TabIndex = 43
+        Me.btnAddUserApply.TabIndex = 33
         Me.btnAddUserApply.Text = "Apply"
         Me.btnAddUserApply.UseVisualStyleBackColor = False
         '
@@ -121,7 +121,7 @@ Partial Class AddUserAccount
         Me.btnCFile.Location = New System.Drawing.Point(646, 233)
         Me.btnCFile.Name = "btnCFile"
         Me.btnCFile.Size = New System.Drawing.Size(112, 23)
-        Me.btnCFile.TabIndex = 39
+        Me.btnCFile.TabIndex = 32
         Me.btnCFile.Text = "Choose File"
         Me.btnCFile.UseVisualStyleBackColor = True
         '
@@ -149,7 +149,7 @@ Partial Class AddUserAccount
         Me.txtPassword.Location = New System.Drawing.Point(138, 236)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.Size = New System.Drawing.Size(435, 20)
-        Me.txtPassword.TabIndex = 36
+        Me.txtPassword.TabIndex = 31
         Me.txtPassword.UseSystemPasswordChar = True
         '
         'txtUsername
@@ -157,7 +157,7 @@ Partial Class AddUserAccount
         Me.txtUsername.Location = New System.Drawing.Point(138, 201)
         Me.txtUsername.Name = "txtUsername"
         Me.txtUsername.Size = New System.Drawing.Size(435, 20)
-        Me.txtUsername.TabIndex = 35
+        Me.txtUsername.TabIndex = 30
         '
         'Label8
         '
