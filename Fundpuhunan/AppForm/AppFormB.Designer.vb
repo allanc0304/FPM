@@ -178,30 +178,30 @@ Partial Class AppFormB
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.Label44.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.Location = New System.Drawing.Point(46, 1482)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(97, 20)
+        Me.Label44.Size = New System.Drawing.Size(105, 17)
         Me.Label44.TabIndex = 216
         Me.Label44.Text = "Checked By :"
         '
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.Label42.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.Location = New System.Drawing.Point(46, 1438)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(132, 20)
+        Me.Label42.Size = New System.Drawing.Size(131, 17)
         Me.Label42.TabIndex = 215
         Me.Label42.Text = "Amount of Loan :"
         '
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.Label41.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.Location = New System.Drawing.Point(46, 1392)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(143, 20)
+        Me.Label41.Size = New System.Drawing.Size(147, 17)
         Me.Label41.TabIndex = 214
         Me.Label41.Text = "Recommended by :"
         '
@@ -233,30 +233,30 @@ Partial Class AppFormB
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Bold)
+        Me.Label39.Font = New System.Drawing.Font("Arial Rounded MT Bold", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.Location = New System.Drawing.Point(320, 1584)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(124, 20)
+        Me.Label39.Size = New System.Drawing.Size(130, 17)
         Me.Label39.TabIndex = 201
         Me.Label39.Text = "Branch Manager"
         '
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Underline)
+        Me.Label38.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.Location = New System.Drawing.Point(264, 1563)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(235, 21)
+        Me.Label38.Size = New System.Drawing.Size(238, 18)
         Me.Label38.TabIndex = 200
         Me.Label38.Text = "             Edison C. Miranda            "
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label34.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.Location = New System.Drawing.Point(34, 1124)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(642, 42)
+        Me.Label34.Size = New System.Drawing.Size(643, 36)
         Me.Label34.TabIndex = 196
         Me.Label34.Text = "3. Ginawa ko ang salaysay na ito upang patunayan ang pagsang-ayon ko sa nasasa-lo" &
     "ob ng" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " kontratang ito kung saan akin itong nilagdaan."
@@ -264,10 +264,10 @@ Partial Class AppFormB
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label33.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.Location = New System.Drawing.Point(34, 1103)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(576, 21)
+        Me.Label33.Size = New System.Drawing.Size(569, 18)
         Me.Label33.TabIndex = 195
         Me.Label33.Text = "2. Ako lamang ang gagamit nito at ako rin ang may obligasyon na magbayad nito." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -292,20 +292,20 @@ Partial Class AppFormB
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label31.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.Location = New System.Drawing.Point(289, 1080)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(167, 21)
+        Me.Label31.Size = New System.Drawing.Size(166, 18)
         Me.Label31.TabIndex = 192
         Me.Label31.Text = ", na may halagang Php"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label30.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.Location = New System.Drawing.Point(37, 1079)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(40, 21)
+        Me.Label30.Size = New System.Drawing.Size(37, 18)
         Me.Label30.TabIndex = 191
         Me.Label30.Text = "Ika -"
         '
@@ -319,60 +319,60 @@ Partial Class AppFormB
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label29.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.Location = New System.Drawing.Point(411, 1045)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(265, 21)
+        Me.Label29.Size = New System.Drawing.Size(259, 18)
         Me.Label29.TabIndex = 189
         Me.Label29.Text = "Na nakuha ko ang aking loan noong "
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label28.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.Location = New System.Drawing.Point(172, 1045)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(267, 21)
+        Me.Label28.Size = New System.Drawing.Size(275, 18)
         Me.Label28.TabIndex = 188
         Me.Label28.Text = "FUNDPUHUNAN MICROFINANCE."
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label27.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.Location = New System.Drawing.Point(34, 1045)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(167, 21)
+        Me.Label27.Size = New System.Drawing.Size(163, 18)
         Me.Label27.TabIndex = 187
         Me.Label27.Text = "1. Ako ang kliyente ng "
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label26.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(42, 1024)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(276, 21)
+        Me.Label26.Size = New System.Drawing.Size(275, 18)
         Me.Label26.TabIndex = 186
         Me.Label26.Text = "na nagsasalaysay ng mga sumusunod."
         '
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label24.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(220, 1000)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(487, 21)
+        Me.Label24.Size = New System.Drawing.Size(486, 18)
         Me.Label24.TabIndex = 185
         Me.Label24.Text = "na matapos at manumpa ng naayon sa batas, Malaya at kusang loob "
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label25.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.Location = New System.Drawing.Point(32, 967)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(422, 21)
+        Me.Label25.Size = New System.Drawing.Size(416, 18)
         Me.Label25.TabIndex = 179
         Me.Label25.Text = " nasa wastong gulang, Filipino at kasalukuyang naninirahan"
         '
@@ -424,10 +424,10 @@ Partial Class AppFormB
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label23.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(32, 927)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(52, 21)
+        Me.Label23.Size = New System.Drawing.Size(52, 18)
         Me.Label23.TabIndex = 174
         Me.Label23.Text = "Ako si"
         '
@@ -469,10 +469,10 @@ Partial Class AppFormB
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label22.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.Location = New System.Drawing.Point(286, 883)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(200, 21)
+        Me.Label22.Size = New System.Drawing.Size(213, 18)
         Me.Label22.TabIndex = 173
         Me.Label22.Text = "SINUMPAANG SALAYSAY"
         '
@@ -545,11 +545,11 @@ Partial Class AppFormB
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label21.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Label21.Location = New System.Drawing.Point(292, 531)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(146, 21)
+        Me.Label21.Size = New System.Drawing.Size(151, 18)
         Me.Label21.TabIndex = 167
         Me.Label21.Text = "MGA KAGAMITAN"
         Me.Label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -557,20 +557,20 @@ Partial Class AppFormB
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.Label20.Location = New System.Drawing.Point(199, 470)
+        Me.Label20.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Location = New System.Drawing.Point(180, 471)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(267, 21)
+        Me.Label20.Size = New System.Drawing.Size(275, 18)
         Me.Label20.TabIndex = 166
         Me.Label20.Text = "FUNDPUHUNAN MICROFINANCE."
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label19.Font = New System.Drawing.Font("Arial Narrow", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(27, 449)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(669, 42)
+        Me.Label19.Size = New System.Drawing.Size(572, 40)
         Me.Label19.TabIndex = 165
         Me.Label19.Text = "ang talaan ng aking mga kagamitan o pag aari na kusang loob kong isusumite bilang" &
     " pagtugon" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " sa aking obligasyon sa "
@@ -578,40 +578,40 @@ Partial Class AppFormB
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label18.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(341, 428)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(355, 21)
+        Me.Label18.Size = New System.Drawing.Size(354, 18)
         Me.Label18.TabIndex = 164
         Me.Label18.Text = "sang ayon sa aking balanse. Katunayan nito narito" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label17.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(151, 428)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(193, 21)
+        Me.Label17.Size = New System.Drawing.Size(208, 18)
         Me.Label17.TabIndex = 163
         Me.Label17.Text = "6% OVERDUE INTEREST "
         '
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label16.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(21, 428)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(140, 21)
+        Me.Label16.Size = New System.Drawing.Size(140, 18)
         Me.Label16.TabIndex = 162
         Me.Label16.Text = "3. At karagdagang "
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label15.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(21, 386)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(658, 42)
+        Me.Label15.Size = New System.Drawing.Size(645, 36)
         Me.Label15.TabIndex = 161
         Me.Label15.Text = "2. Kung sakaling hindi ko ito mahulugan o pumalya sa lingguhang hulog ay nakahand" &
     "a akong" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " magbayad ng 3% kada araw ng penalty sang ayonsa palya ng aking hulog."
@@ -633,10 +633,10 @@ Partial Class AppFormB
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label14.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(342, 363)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(178, 21)
+        Me.Label14.Size = New System.Drawing.Size(180, 18)
         Me.Label14.TabIndex = 159
         Me.Label14.Text = "(petsa ng pagkakakuha)."
         '
@@ -650,30 +650,30 @@ Partial Class AppFormB
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label13.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(27, 362)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(112, 21)
+        Me.Label13.Size = New System.Drawing.Size(107, 18)
         Me.Label13.TabIndex = 157
         Me.Label13.Text = "simula ngayon"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label12.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(471, 340)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(146, 21)
+        Me.Label12.Size = New System.Drawing.Size(152, 18)
         Me.Label12.TabIndex = 156
         Me.Label12.Text = "APAT NA BUWAN "
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label11.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(329, 340)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(171, 21)
+        Me.Label11.Size = New System.Drawing.Size(169, 18)
         Me.Label11.TabIndex = 155
         Me.Label11.Text = "kada linggo sa loob ng "
         '
@@ -688,20 +688,20 @@ Partial Class AppFormB
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label10.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(26, 339)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(215, 21)
+        Me.Label10.Size = New System.Drawing.Size(209, 18)
         Me.Label10.TabIndex = 153
         Me.Label10.Text = "paghuhulog ng halagang Php"
         '
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label9.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(21, 304)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(644, 21)
+        Me.Label9.Size = New System.Drawing.Size(652, 18)
         Me.Label9.TabIndex = 152
         Me.Label9.Text = "1. Babayaran ko ang halaga kasama ang interest na 3.75% kada buwan sa pamamagitan" &
     " ng "
@@ -709,10 +709,10 @@ Partial Class AppFormB
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label8.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(28, 283)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(300, 21)
+        Me.Label8.Size = New System.Drawing.Size(297, 18)
         Me.Label8.TabIndex = 151
         Me.Label8.Text = "aking ipinapangako ang mga sumusunod."
         '
@@ -737,30 +737,30 @@ Partial Class AppFormB
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label6.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(292, 262)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(132, 21)
+        Me.Label6.Size = New System.Drawing.Size(130, 18)
         Me.Label6.TabIndex = 148
         Me.Label6.Text = "ng halagang (Php"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(28, 262)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(263, 21)
+        Me.Label5.Size = New System.Drawing.Size(270, 18)
         Me.Label5.TabIndex = 147
         Me.Label5.Text = "FUNDPUHUNAN MICROFINANCE"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label4.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(246, 227)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(366, 21)
+        Me.Label4.Size = New System.Drawing.Size(364, 18)
         Me.Label4.TabIndex = 146
         Me.Label4.Text = "at nagpapahayag na napagkalooban ng pautang ng"
         '
@@ -817,10 +817,10 @@ Partial Class AppFormB
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(28, 189)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(422, 21)
+        Me.Label3.Size = New System.Drawing.Size(416, 18)
         Me.Label3.TabIndex = 140
         Me.Label3.Text = " nasa wastong gulang, Filipino at kasalukuyang naninirahan"
         '
@@ -866,20 +866,20 @@ Partial Class AppFormB
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(28, 155)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(52, 21)
+        Me.Label2.Size = New System.Drawing.Size(52, 18)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Ako si"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.Label1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(-6, 27)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(734, 90)
+        Me.Label1.Size = New System.Drawing.Size(757, 72)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "KATUNAYAN NG PAGKAKAUTANG, PANGAKO SA PAGBABAYAD" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " AT KATIBAYAN NG PAGMAMAY-ARI A" &
     "T KUSANG LOOB NA PAGSUMITE." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -1094,7 +1094,7 @@ Partial Class AppFormB
         '
         Me.Button5.BackColor = System.Drawing.Color.SteelBlue
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button5.Location = New System.Drawing.Point(612, 578)
         Me.Button5.Name = "Button5"
@@ -1268,11 +1268,11 @@ Partial Class AppFormB
         Me.Button9.BackColor = System.Drawing.Color.SteelBlue
         Me.Button9.FlatAppearance.BorderSize = 0
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button9.Location = New System.Drawing.Point(467, 1633)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(116, 31)
+        Me.Button9.Size = New System.Drawing.Size(116, 47)
         Me.Button9.TabIndex = 377
         Me.Button9.Text = "Back"
         Me.Button9.UseVisualStyleBackColor = False
@@ -1293,7 +1293,7 @@ Partial Class AppFormB
         '
         Me.Button10.BackColor = System.Drawing.Color.SteelBlue
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button10.Location = New System.Drawing.Point(612, 609)
         Me.Button10.Name = "Button10"
@@ -1309,27 +1309,30 @@ Partial Class AppFormB
         'Label79
         '
         Me.Label79.AutoSize = True
-        Me.Label79.Location = New System.Drawing.Point(73, 1234)
+        Me.Label79.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(47, 1234)
         Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(129, 13)
+        Me.Label79.Size = New System.Drawing.Size(180, 18)
         Me.Label79.TabIndex = 263
         Me.Label79.Text = "HALAGA NG HINIHIRAM"
         '
         'Label80
         '
         Me.Label80.AutoSize = True
-        Me.Label80.Location = New System.Drawing.Point(287, 1234)
+        Me.Label80.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(264, 1234)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(136, 13)
+        Me.Label80.Size = New System.Drawing.Size(196, 18)
         Me.Label80.TabIndex = 264
         Me.Label80.Text = "TAGAL NG PAGBABAYAD"
         '
         'Label81
         '
         Me.Label81.AutoSize = True
-        Me.Label81.Location = New System.Drawing.Point(496, 1234)
+        Me.Label81.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Location = New System.Drawing.Point(480, 1234)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(145, 13)
+        Me.Label81.Size = New System.Drawing.Size(211, 18)
         Me.Label81.TabIndex = 265
         Me.Label81.Text = "PARAAN NG PAGBABAYAD"
         '
@@ -1337,11 +1340,11 @@ Partial Class AppFormB
         '
         Me.Button1.BackColor = System.Drawing.Color.Green
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
         Me.Button1.Location = New System.Drawing.Point(589, 1633)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(116, 31)
+        Me.Button1.Size = New System.Drawing.Size(116, 47)
         Me.Button1.TabIndex = 378
         Me.Button1.Text = "Proceed To CIR"
         Me.Button1.UseVisualStyleBackColor = False
