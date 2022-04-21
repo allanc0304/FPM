@@ -76,16 +76,7 @@ Partial Class AddLoanPayment
         '
         'Label19
         '
-        Me.Label19.AutoSize = True
-        Me.Label19.BackColor = System.Drawing.Color.Transparent
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.ForeColor = System.Drawing.Color.Black
-        Me.Label19.Location = New System.Drawing.Point(72, 123)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(61, 16)
-        Me.Label19.TabIndex = 60
-        Me.Label19.Text = "Remark :"
+
         '
         'AP_CONFIRMBTN
         '
@@ -194,12 +185,7 @@ Partial Class AddLoanPayment
         '
         'AP_REM
         '
-        Me.AP_REM.FormattingEnabled = True
-        Me.AP_REM.Items.AddRange(New Object() {"Updated", "Overdue"})
-        Me.AP_REM.Location = New System.Drawing.Point(147, 120)
-        Me.AP_REM.Name = "AP_REM"
-        Me.AP_REM.Size = New System.Drawing.Size(209, 24)
-        Me.AP_REM.TabIndex = 74
+
         '
         'Label2
         '
