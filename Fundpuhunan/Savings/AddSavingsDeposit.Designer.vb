@@ -162,6 +162,7 @@ Partial Class AddSavingsDeposit
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(434, 261)
+        Me.ControlBox = False
         Me.Controls.Add(Me.DS_CONFIRMBTN)
         Me.Controls.Add(Me.SD_RB)
         Me.Controls.Add(Me.Label10)
