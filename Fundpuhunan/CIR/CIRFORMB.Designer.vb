@@ -206,7 +206,7 @@ Partial Class CIRFORMB
         Me.btnCancel.AutoSize = True
         Me.btnCancel.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCancel.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Control
         Me.btnCancel.Location = New System.Drawing.Point(682, 1652)
         Me.btnCancel.Name = "btnCancel"
@@ -242,20 +242,20 @@ Partial Class CIRFORMB
         'Label85
         '
         Me.Label85.AutoSize = True
-        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label85.Location = New System.Drawing.Point(380, 1120)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(65, 16)
+        Me.Label85.Size = New System.Drawing.Size(63, 16)
         Me.Label85.TabIndex = 832
         Me.Label85.Text = "Remarks:"
         '
         'Label83
         '
         Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label83.Location = New System.Drawing.Point(373, 969)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(31, 16)
+        Me.Label83.Size = New System.Drawing.Size(30, 16)
         Me.Label83.TabIndex = 831
         Me.Label83.Text = "Php"
         '
@@ -270,10 +270,10 @@ Partial Class CIRFORMB
         'Label84
         '
         Me.Label84.AutoSize = True
-        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label84.Location = New System.Drawing.Point(373, 938)
         Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(31, 16)
+        Me.Label84.Size = New System.Drawing.Size(30, 16)
         Me.Label84.TabIndex = 829
         Me.Label84.Text = "Php"
         '
@@ -296,10 +296,10 @@ Partial Class CIRFORMB
         'Label51
         '
         Me.Label51.AutoSize = True
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label51.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.Location = New System.Drawing.Point(207, 1223)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(128, 16)
+        Me.Label51.Size = New System.Drawing.Size(129, 16)
         Me.Label51.TabIndex = 824
         Me.Label51.Text = "Other remarks, if any"
         '
@@ -314,30 +314,30 @@ Partial Class CIRFORMB
         'Label50
         '
         Me.Label50.AutoSize = True
-        Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label50.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.Location = New System.Drawing.Point(74, 1198)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(167, 16)
+        Me.Label50.Size = New System.Drawing.Size(165, 16)
         Me.Label50.TabIndex = 822
         Me.Label50.Text = "the principal amount of Php"
         '
         'Label49
         '
         Me.Label49.AutoSize = True
-        Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label49.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.Location = New System.Drawing.Point(625, 1174)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(279, 16)
+        Me.Label49.Size = New System.Drawing.Size(274, 16)
         Me.Label49.TabIndex = 821
         Me.Label49.Text = "the applicant borrower has the capacity to pay"
         '
         'chbCollateral
         '
         Me.chbCollateral.AutoSize = True
-        Me.chbCollateral.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbCollateral.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbCollateral.Location = New System.Drawing.Point(546, 1173)
         Me.chbCollateral.Name = "chbCollateral"
-        Me.chbCollateral.Size = New System.Drawing.Size(83, 20)
+        Me.chbCollateral.Size = New System.Drawing.Size(80, 20)
         Me.chbCollateral.TabIndex = 820
         Me.chbCollateral.Text = "Collateral"
         Me.chbCollateral.UseVisualStyleBackColor = True
@@ -345,10 +345,10 @@ Partial Class CIRFORMB
         'chbCharacter
         '
         Me.chbCharacter.AutoSize = True
-        Me.chbCharacter.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbCharacter.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbCharacter.Location = New System.Drawing.Point(465, 1173)
         Me.chbCharacter.Name = "chbCharacter"
-        Me.chbCharacter.Size = New System.Drawing.Size(84, 20)
+        Me.chbCharacter.Size = New System.Drawing.Size(82, 20)
         Me.chbCharacter.TabIndex = 819
         Me.chbCharacter.Text = "Character"
         Me.chbCharacter.UseVisualStyleBackColor = True
@@ -356,10 +356,10 @@ Partial Class CIRFORMB
         'chbIncome
         '
         Me.chbIncome.AutoSize = True
-        Me.chbIncome.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbIncome.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbIncome.Location = New System.Drawing.Point(398, 1173)
         Me.chbIncome.Name = "chbIncome"
-        Me.chbIncome.Size = New System.Drawing.Size(70, 20)
+        Me.chbIncome.Size = New System.Drawing.Size(68, 20)
         Me.chbIncome.TabIndex = 818
         Me.chbIncome.Text = "Income"
         Me.chbIncome.UseVisualStyleBackColor = True
@@ -367,10 +367,10 @@ Partial Class CIRFORMB
         'chbBusiness
         '
         Me.chbBusiness.AutoSize = True
-        Me.chbBusiness.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.chbBusiness.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chbBusiness.Location = New System.Drawing.Point(271, 1173)
         Me.chbBusiness.Name = "chbBusiness"
-        Me.chbBusiness.Size = New System.Drawing.Size(129, 20)
+        Me.chbBusiness.Size = New System.Drawing.Size(123, 20)
         Me.chbBusiness.TabIndex = 817
         Me.chbBusiness.Text = "Type of business"
         Me.chbBusiness.UseVisualStyleBackColor = True
@@ -378,20 +378,20 @@ Partial Class CIRFORMB
         'Label48
         '
         Me.Label48.AutoSize = True
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.Location = New System.Drawing.Point(192, 1172)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(76, 16)
+        Me.Label48.Size = New System.Drawing.Size(73, 16)
         Me.Label48.TabIndex = 816
         Me.Label48.Text = "Based from"
         '
         'Label47
         '
         Me.Label47.AutoSize = True
-        Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label47.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.Location = New System.Drawing.Point(76, 1146)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(341, 16)
+        Me.Label47.Size = New System.Drawing.Size(379, 18)
         Me.Label47.TabIndex = 815
         Me.Label47.Text = "CREDIT INVESTIGATOR'S RECOMMENDATION"
         '
@@ -430,30 +430,30 @@ Partial Class CIRFORMB
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(751, 1057)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(130, 16)
+        Me.Label1.Size = New System.Drawing.Size(125, 16)
         Me.Label1.TabIndex = 810
         Me.Label1.Text = "Name and Signature"
         '
         'Label44
         '
         Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.Location = New System.Drawing.Point(755, 1081)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(116, 16)
+        Me.Label44.Size = New System.Drawing.Size(115, 16)
         Me.Label44.TabIndex = 809
         Me.Label44.Text = "of Accounting Staff"
         '
         'Label42
         '
         Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.Location = New System.Drawing.Point(380, 1091)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(197, 16)
+        Me.Label42.Size = New System.Drawing.Size(196, 16)
         Me.Label42.TabIndex = 808
         Me.Label42.Text = "No. of Availment ( including this )"
         '
@@ -504,7 +504,7 @@ Partial Class CIRFORMB
         'Label40
         '
         Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label40.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.Location = New System.Drawing.Point(380, 1033)
         Me.Label40.Name = "Label40"
         Me.Label40.Size = New System.Drawing.Size(124, 16)
@@ -538,7 +538,7 @@ Partial Class CIRFORMB
         'Label39
         '
         Me.Label39.AutoSize = True
-        Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label39.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.Location = New System.Drawing.Point(76, 1119)
         Me.Label39.Name = "Label39"
         Me.Label39.Size = New System.Drawing.Size(137, 16)
@@ -548,20 +548,20 @@ Partial Class CIRFORMB
         'Label38
         '
         Me.Label38.AutoSize = True
-        Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.Location = New System.Drawing.Point(76, 1090)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(88, 16)
+        Me.Label38.Size = New System.Drawing.Size(89, 16)
         Me.Label38.TabIndex = 804
         Me.Label38.Text = "Maturity Date:"
         '
         'Label37
         '
         Me.Label37.AutoSize = True
-        Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label37.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.Location = New System.Drawing.Point(76, 1061)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(90, 16)
+        Me.Label37.Size = New System.Drawing.Size(88, 16)
         Me.Label37.TabIndex = 803
         Me.Label37.Text = "Date Granted:"
         '
@@ -576,10 +576,10 @@ Partial Class CIRFORMB
         'Label36
         '
         Me.Label36.AutoSize = True
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.Location = New System.Drawing.Point(76, 1032)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(123, 16)
+        Me.Label36.Size = New System.Drawing.Size(119, 16)
         Me.Label36.TabIndex = 801
         Me.Label36.Text = "Previous Loan: Php"
         '
@@ -590,40 +590,40 @@ Partial Class CIRFORMB
         'Label41
         '
         Me.Label41.AutoSize = True
-        Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label41.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.Location = New System.Drawing.Point(380, 1062)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(147, 16)
+        Me.Label41.Size = New System.Drawing.Size(144, 16)
         Me.Label41.TabIndex = 807
         Me.Label41.Text = "No. of Days Delinquent:"
         '
         'Label35
         '
         Me.Label35.AutoSize = True
-        Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.Location = New System.Drawing.Point(76, 1000)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(248, 16)
+        Me.Label35.Size = New System.Drawing.Size(281, 18)
         Me.Label35.TabIndex = 800
         Me.Label35.Text = "CONFIRMATION OF ACCOUNTING"
         '
         'Label34
         '
         Me.Label34.AutoSize = True
-        Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.Location = New System.Drawing.Point(76, 970)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(159, 16)
+        Me.Label34.Size = New System.Drawing.Size(152, 16)
         Me.Label34.TabIndex = 799
         Me.Label34.Text = "NET MONTHLY INCOME"
         '
         'Label33
         '
         Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label33.Location = New System.Drawing.Point(76, 938)
         Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(195, 16)
+        Me.Label33.Size = New System.Drawing.Size(185, 16)
         Me.Label33.TabIndex = 798
         Me.Label33.Text = "TOTAL MONTHLY EXPENSES"
         '
@@ -631,10 +631,10 @@ Partial Class CIRFORMB
         '
         Me.Label82.AutoSize = True
         Me.Label82.BackColor = System.Drawing.Color.Transparent
-        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label82.Location = New System.Drawing.Point(373, 906)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(31, 16)
+        Me.Label82.Size = New System.Drawing.Size(30, 16)
         Me.Label82.TabIndex = 797
         Me.Label82.Text = "Php"
         '
@@ -657,30 +657,30 @@ Partial Class CIRFORMB
         'Label80
         '
         Me.Label80.AutoSize = True
-        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label80.Location = New System.Drawing.Point(373, 877)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(31, 16)
+        Me.Label80.Size = New System.Drawing.Size(30, 16)
         Me.Label80.TabIndex = 794
         Me.Label80.Text = "Php"
         '
         'Label32
         '
         Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label32.Location = New System.Drawing.Point(178, 900)
         Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(63, 16)
+        Me.Label32.Size = New System.Drawing.Size(65, 16)
         Me.Label32.TabIndex = 793
         Me.Label32.Text = "e.5. Other"
         '
         'Label31
         '
         Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label31.Location = New System.Drawing.Point(178, 871)
         Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(114, 16)
+        Me.Label31.Size = New System.Drawing.Size(111, 16)
         Me.Label31.TabIndex = 792
         Me.Label31.Text = "e.4. Helper Salary"
         '
@@ -706,10 +706,10 @@ Partial Class CIRFORMB
         'Label81
         '
         Me.Label81.AutoSize = True
-        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label81.Location = New System.Drawing.Point(373, 850)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(31, 16)
+        Me.Label81.Size = New System.Drawing.Size(30, 16)
         Me.Label81.TabIndex = 790
         Me.Label81.Text = "Php"
         '
@@ -724,10 +724,10 @@ Partial Class CIRFORMB
         'Label73
         '
         Me.Label73.AutoSize = True
-        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label73.Location = New System.Drawing.Point(373, 820)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(31, 16)
+        Me.Label73.Size = New System.Drawing.Size(30, 16)
         Me.Label73.TabIndex = 788
         Me.Label73.Text = "Php"
         '
@@ -742,60 +742,60 @@ Partial Class CIRFORMB
         'Label72
         '
         Me.Label72.AutoSize = True
-        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label72.Location = New System.Drawing.Point(373, 791)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(31, 16)
+        Me.Label72.Size = New System.Drawing.Size(30, 16)
         Me.Label72.TabIndex = 786
         Me.Label72.Text = "Php"
         '
         'Label30
         '
         Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.Location = New System.Drawing.Point(178, 843)
         Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(88, 16)
+        Me.Label30.Size = New System.Drawing.Size(90, 16)
         Me.Label30.TabIndex = 785
         Me.Label30.Text = "e.3. Water Bill"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.Location = New System.Drawing.Point(178, 814)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(96, 16)
+        Me.Label29.Size = New System.Drawing.Size(99, 16)
         Me.Label29.TabIndex = 784
         Me.Label29.Text = "e.2. Electric Bill"
         '
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.Location = New System.Drawing.Point(178, 785)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(118, 16)
+        Me.Label28.Size = New System.Drawing.Size(115, 16)
         Me.Label28.TabIndex = 783
         Me.Label28.Text = "e.1. Transportation"
         '
         'Label27
         '
         Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.Location = New System.Drawing.Point(123, 761)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(108, 16)
+        Me.Label27.Size = New System.Drawing.Size(105, 16)
         Me.Label27.TabIndex = 782
         Me.Label27.Text = "e. Miscellaneous"
         '
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label26.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(123, 732)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(141, 16)
+        Me.Label26.Size = New System.Drawing.Size(140, 16)
         Me.Label26.TabIndex = 781
         Me.Label26.Text = "d. Amortization of Loan"
         '
@@ -821,20 +821,20 @@ Partial Class CIRFORMB
         'Label71
         '
         Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label71.Location = New System.Drawing.Point(373, 705)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(31, 16)
+        Me.Label71.Size = New System.Drawing.Size(30, 16)
         Me.Label71.TabIndex = 779
         Me.Label71.Text = "Php"
         '
         'Label25
         '
         Me.Label25.AutoSize = True
-        Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label25.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.Location = New System.Drawing.Point(162, 703)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(126, 16)
+        Me.Label25.Size = New System.Drawing.Size(122, 16)
         Me.Label25.TabIndex = 778
         Me.Label25.Text = "c.1. Total Allowance"
         '
@@ -907,10 +907,10 @@ Partial Class CIRFORMB
         'Label70
         '
         Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label70.Location = New System.Drawing.Point(375, 648)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(31, 16)
+        Me.Label70.Size = New System.Drawing.Size(30, 16)
         Me.Label70.TabIndex = 771
         Me.Label70.Text = "Php"
         '
@@ -925,10 +925,10 @@ Partial Class CIRFORMB
         'Label75
         '
         Me.Label75.AutoSize = True
-        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label75.Location = New System.Drawing.Point(375, 616)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(31, 16)
+        Me.Label75.Size = New System.Drawing.Size(30, 16)
         Me.Label75.TabIndex = 769
         Me.Label75.Text = "Php"
         '
@@ -943,10 +943,10 @@ Partial Class CIRFORMB
         'Label74
         '
         Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label74.Location = New System.Drawing.Point(376, 510)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(31, 16)
+        Me.Label74.Size = New System.Drawing.Size(30, 16)
         Me.Label74.TabIndex = 767
         Me.Label74.Text = "Php"
         '
@@ -961,7 +961,7 @@ Partial Class CIRFORMB
         'Label24
         '
         Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(125, 674)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(80, 16)
@@ -971,50 +971,50 @@ Partial Class CIRFORMB
         'Label23
         '
         Me.Label23.AutoSize = True
-        Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label23.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(125, 645)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(60, 16)
+        Me.Label23.Size = New System.Drawing.Size(59, 16)
         Me.Label23.TabIndex = 764
         Me.Label23.Text = "b. Rental"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.Location = New System.Drawing.Point(125, 616)
         Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(53, 16)
+        Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 763
         Me.Label22.Text = "a. Food"
         '
         'Label21
         '
         Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(77, 589)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(154, 16)
+        Me.Label21.Size = New System.Drawing.Size(173, 18)
         Me.Label21.TabIndex = 762
         Me.Label21.Text = "PERSONAL ( HOME )"
         '
         'Label20
         '
         Me.Label20.AutoSize = True
-        Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label20.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(78, 559)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(210, 16)
+        Me.Label20.Size = New System.Drawing.Size(232, 18)
         Me.Label20.TabIndex = 761
         Me.Label20.Text = "LESS: MONTHLY EXPENSES"
         '
         'Label19
         '
         Me.Label19.AutoSize = True
-        Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label19.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(77, 512)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(226, 16)
+        Me.Label19.Size = New System.Drawing.Size(217, 16)
         Me.Label19.TabIndex = 760
         Me.Label19.Text = "TOTAL GROSS MONTHLY INCOME"
         '
@@ -1038,10 +1038,10 @@ Partial Class CIRFORMB
         'Label69
         '
         Me.Label69.AutoSize = True
-        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label69.Location = New System.Drawing.Point(376, 440)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(31, 16)
+        Me.Label69.Size = New System.Drawing.Size(30, 16)
         Me.Label69.TabIndex = 757
         Me.Label69.Text = "Php"
         '
@@ -1056,10 +1056,10 @@ Partial Class CIRFORMB
         'Label79
         '
         Me.Label79.AutoSize = True
-        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label79.Location = New System.Drawing.Point(376, 407)
         Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(31, 16)
+        Me.Label79.Size = New System.Drawing.Size(30, 16)
         Me.Label79.TabIndex = 755
         Me.Label79.Text = "Php"
         '
@@ -1074,10 +1074,10 @@ Partial Class CIRFORMB
         'Label78
         '
         Me.Label78.AutoSize = True
-        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label78.Location = New System.Drawing.Point(376, 294)
         Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(31, 16)
+        Me.Label78.Size = New System.Drawing.Size(30, 16)
         Me.Label78.TabIndex = 753
         Me.Label78.Text = "Php"
         '
@@ -1092,10 +1092,10 @@ Partial Class CIRFORMB
         'Label76
         '
         Me.Label76.AutoSize = True
-        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label76.Location = New System.Drawing.Point(375, 375)
         Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(31, 16)
+        Me.Label76.Size = New System.Drawing.Size(30, 16)
         Me.Label76.TabIndex = 751
         Me.Label76.Text = "Php"
         '
@@ -1110,10 +1110,10 @@ Partial Class CIRFORMB
         'Label77
         '
         Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label77.Location = New System.Drawing.Point(376, 345)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(31, 16)
+        Me.Label77.Size = New System.Drawing.Size(30, 16)
         Me.Label77.TabIndex = 749
         Me.Label77.Text = "Php"
         '
@@ -1128,20 +1128,20 @@ Partial Class CIRFORMB
         'Label68
         '
         Me.Label68.AutoSize = True
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label68.Location = New System.Drawing.Point(376, 261)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(31, 16)
+        Me.Label68.Size = New System.Drawing.Size(30, 16)
         Me.Label68.TabIndex = 747
         Me.Label68.Text = "Php"
         '
         'Label67
         '
         Me.Label67.AutoSize = True
-        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label67.Location = New System.Drawing.Point(375, 233)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(31, 16)
+        Me.Label67.Size = New System.Drawing.Size(30, 16)
         Me.Label67.TabIndex = 746
         Me.Label67.Text = "Php"
         '
@@ -1156,20 +1156,20 @@ Partial Class CIRFORMB
         'Label59
         '
         Me.Label59.AutoSize = True
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label59.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label59.Location = New System.Drawing.Point(376, 203)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(31, 16)
+        Me.Label59.Size = New System.Drawing.Size(30, 16)
         Me.Label59.TabIndex = 744
         Me.Label59.Text = "Php"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(71, 106)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(118, 16)
+        Me.Label5.Size = New System.Drawing.Size(114, 16)
         Me.Label5.TabIndex = 743
         Me.Label5.Text = "Name of Borrower:"
         '
@@ -1184,27 +1184,27 @@ Partial Class CIRFORMB
         'Label18
         '
         Me.Label18.AutoSize = True
-        Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(71, 471)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(154, 16)
+        Me.Label18.Size = New System.Drawing.Size(173, 18)
         Me.Label18.TabIndex = 741
         Me.Label18.Text = "3. OTHER, ( Specify )"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(125, 439)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(241, 16)
+        Me.Label14.Size = New System.Drawing.Size(240, 16)
         Me.Label14.TabIndex = 740
         Me.Label14.Text = "b. Salary, Commission, etc. if Employed"
         '
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(135, 406)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(61, 16)
@@ -1214,7 +1214,7 @@ Partial Class CIRFORMB
         'Label16
         '
         Me.Label16.AutoSize = True
-        Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label16.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(135, 377)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(121, 16)
@@ -1224,37 +1224,37 @@ Partial Class CIRFORMB
         'Label17
         '
         Me.Label17.AutoSize = True
-        Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label17.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(125, 348)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(88, 16)
+        Me.Label17.Size = New System.Drawing.Size(87, 16)
         Me.Label17.TabIndex = 737
         Me.Label17.Text = "a. Gross Sale"
         '
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.Location = New System.Drawing.Point(71, 324)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(85, 16)
+        Me.Label13.Size = New System.Drawing.Size(96, 18)
         Me.Label13.TabIndex = 736
         Me.Label13.Text = "2. SPOUSE"
         '
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.Location = New System.Drawing.Point(125, 293)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(247, 16)
+        Me.Label12.Size = New System.Drawing.Size(248, 16)
         Me.Label12.TabIndex = 735
         Me.Label12.Text = "b. Salary, Commission, etc. if Employed :"
         '
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(135, 261)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(61, 16)
@@ -1264,7 +1264,7 @@ Partial Class CIRFORMB
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(135, 232)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(121, 16)
@@ -1282,30 +1282,30 @@ Partial Class CIRFORMB
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(125, 203)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(88, 16)
+        Me.Label9.Size = New System.Drawing.Size(87, 16)
         Me.Label9.TabIndex = 731
         Me.Label9.Text = "a. Gross Sale"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(71, 179)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(106, 16)
+        Me.Label8.Size = New System.Drawing.Size(122, 18)
         Me.Label8.TabIndex = 730
         Me.Label8.Text = "1. APPLICANT"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(71, 147)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(199, 16)
+        Me.Label7.Size = New System.Drawing.Size(222, 18)
         Me.Label7.TabIndex = 729
         Me.Label7.Text = "GROSS MONTHLY INCOME"
         '
@@ -1321,10 +1321,10 @@ Partial Class CIRFORMB
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(306, 61)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(361, 16)
+        Me.Label2.Size = New System.Drawing.Size(397, 18)
         Me.Label2.TabIndex = 727
         Me.Label2.Text = "STATEMENT OF MONTHLY INCOME && EXPENSES"
         '
@@ -1359,11 +1359,11 @@ Partial Class CIRFORMB
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label4.Location = New System.Drawing.Point(345, 9)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(284, 25)
+        Me.Label4.Size = New System.Drawing.Size(300, 24)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Credit Investigation Report 2"
         '
@@ -1388,22 +1388,22 @@ Partial Class CIRFORMB
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label6.Location = New System.Drawing.Point(128, 1290)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(305, 20)
+        Me.Label6.Size = New System.Drawing.Size(252, 16)
         Me.Label6.TabIndex = 850
         Me.Label6.Text = "( Please upload copy of Application Form )"
         '
         'Label43
         '
         Me.Label43.AutoSize = True
-        Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label43.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label43.Location = New System.Drawing.Point(594, 1290)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(255, 20)
+        Me.Label43.Size = New System.Drawing.Size(210, 16)
         Me.Label43.TabIndex = 851
         Me.Label43.Text = "( Please upload copy of CIR Form )"
         '
@@ -1411,7 +1411,7 @@ Partial Class CIRFORMB
         '
         Me.UploadAppForm.BackColor = System.Drawing.Color.Green
         Me.UploadAppForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.UploadAppForm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UploadAppForm.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UploadAppForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.UploadAppForm.Location = New System.Drawing.Point(215, 1553)
         Me.UploadAppForm.Name = "UploadAppForm"
@@ -1424,7 +1424,7 @@ Partial Class CIRFORMB
         '
         Me.UploadCIRForm.BackColor = System.Drawing.Color.Green
         Me.UploadCIRForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.UploadCIRForm.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UploadCIRForm.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UploadCIRForm.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.UploadCIRForm.Location = New System.Drawing.Point(651, 1553)
         Me.UploadCIRForm.Name = "UploadCIRForm"
@@ -1441,7 +1441,7 @@ Partial Class CIRFORMB
         '
         Me.Button1.BackColor = System.Drawing.Color.SeaGreen
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
         Me.Button1.Location = New System.Drawing.Point(808, 1652)
         Me.Button1.Name = "Button1"

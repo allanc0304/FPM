@@ -722,7 +722,7 @@ Public Class CIRFORMA
     Private Sub CIRFORMA_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.NOB_LN.Text = AppFormA.P1_LASTNAME.Text
         Me.NOB_GN.Text = AppFormA.P1_GIVENNAME.Text
-        Me.NOB_GN.Text = AppFormA.P1_MIDDLENAME.Text
+        Me.NOB_MN.Text = AppFormA.P1_MIDDLENAME.Text
         Me.NOB_SUFF.Text = AppFormA.P1_SUFFIX.Text
         Me.DOB_DTP.Value = AppFormA.DateTimePicker1.Value
         Me.CIR_AGE.Text = AppFormA.E1_AGE.Text
