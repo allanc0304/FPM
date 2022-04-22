@@ -559,8 +559,7 @@ Public Class CIRFORMA
     End Sub
 
     Private Sub CIR_NEXTBTN_Click(sender As Object, e As EventArgs) Handles CIR_NEXTBTN.Click
-        If NOB_LN.Text = "" Or NOB_GN.Text = "" Or NOB_MN.Text = "" Or
-        DOB_DTP.Text Or
+        If NOB_LN.Text = "" Or NOB_GN.Text = "" Or NOB_MN.Text = "" Or DOB_DTP.Text = "" Or
             CIR_AGE.Text = "" Or CIR_HOUSENO.Text = "" Or CIR_ST.Text = "" Or
             CIR_BRGY.Text = "" Or CIR_MUN.Text = "" Or CIR_PRO.Text = "" Or
             CIR_CONTACT.Text = "" Then
@@ -585,12 +584,8 @@ Public Class CIRFORMA
             MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             MessageBox.Show("FORM 1 COMPLETED PROCEEDING TO FORM 2 . . .", "FORM 1 DONE!", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
             Me.Hide()
         End If
-
-
-        Me.Hide()
     End Sub
 
     Private Sub ListView1_Click(sender As Object, e As EventArgs) Handles ListView1.Click

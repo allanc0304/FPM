@@ -36,17 +36,13 @@ Public Class CIRFORMB
 
     Private Async Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         If Vld(txtBMname, txtBLname, txtBFname, txtWBill, txtTranspo, txtSpoSalary, txtSpoNProfit, txtSpoGSale, txtSpoCSale, txtRental, txtPLoan, txtPersoOther, txtPAmount, txtNIncome, txtHSalary, txtFood, txtExpenses, txtEBill, txtDelinquent, txtBalance, txtAvailment, txtAppSalary, txtAppNProfit, txtAppGSale, txtAppCSale, txtAccSignature, txtAllowance, txtPAmount) = False Then
-
-            MessageBox.Show("Fill up all fields")
+            MsgBox("Fill up all fields", MsgBoxStyle.Exclamation)
 
         ElseIf PictureBoxAppForm.Image Is Nothing Then
-            MsgBox("Please Upload Copy of Application Form")
-
-
+            MsgBox("Please Upload Copy of Application Form", MsgBoxStyle.Exclamation)
 
         ElseIf PictureBoxCIR.Image Is Nothing Then
-            MsgBox("Please Upload Copy of Application Form")
-
+            MsgBox("Please Upload Copy of Application Form", MsgBoxStyle.Exclamation)
 
         Else
             Dim Ask As MsgBoxResult = MsgBox("Would you like to confirm and see computation", MsgBoxStyle.YesNo, "Exit")

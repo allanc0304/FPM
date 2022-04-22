@@ -206,11 +206,7 @@ Partial Class CIRFORMB
         Me.btnCancel.AutoSize = True
         Me.btnCancel.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-
-        Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
         Me.btnCancel.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
         Me.btnCancel.ForeColor = System.Drawing.SystemColors.Control
         Me.btnCancel.Location = New System.Drawing.Point(682, 1646)
         Me.btnCancel.Name = "btnCancel"
@@ -1357,7 +1353,7 @@ Partial Class CIRFORMB
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(974, 44)
+        Me.Panel1.Size = New System.Drawing.Size(991, 44)
         Me.Panel1.TabIndex = 847
         '
         'Label4
@@ -1445,11 +1441,7 @@ Partial Class CIRFORMB
         '
         Me.Button1.BackColor = System.Drawing.Color.SteelBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-
-        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
         Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-
         Me.Button1.ForeColor = System.Drawing.SystemColors.Control
         Me.Button1.Location = New System.Drawing.Point(808, 1646)
         Me.Button1.Name = "Button1"
@@ -1466,7 +1458,6 @@ Partial Class CIRFORMB
         Me.AutoScrollMargin = New System.Drawing.Size(0, 20)
         Me.ClientSize = New System.Drawing.Size(1008, 699)
         Me.ControlBox = False
-        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.UploadCIRForm)
         Me.Controls.Add(Me.UploadAppForm)
         Me.Controls.Add(Me.Label43)
