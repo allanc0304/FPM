@@ -584,6 +584,7 @@ Public Class CIRFORMA
             MessageBox.Show("Please fill up the required fields! ", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             MessageBox.Show("FORM 1 COMPLETED PROCEEDING TO FORM 2 . . .", "FORM 1 DONE!", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            CIRFORMB.Show()
             Me.Hide()
         End If
     End Sub
