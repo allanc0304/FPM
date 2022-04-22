@@ -1,4 +1,5 @@
 ﻿Public Class MyAccount
+    Dim ResizedImage As Image
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
 
     End Sub
@@ -65,9 +66,16 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        OpenFileDialog1.Filter = "All files|*.*"
+        OpenFileDialog1.Filter = "Picture Files (*)|*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.tiff"
         If OpenFileDialog1.ShowDialog = DialogResult.OK Then
             Button2.Text = OpenFileDialog1.FileName
+            PictureBox1.BackgroundImage = Image.FromFile(Button2.Text)
+
+            Dim NewSize As New Size(100, 100)
+            ResizedImage = New Bitmap(PictureBox1.BackgroundImage, NewSize)
+            PictureBox1.BackgroundImage = ResizedImage
+            PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+
         End If
     End Sub
 
@@ -80,4 +88,5 @@
 
 
     End Sub
+
 End Class

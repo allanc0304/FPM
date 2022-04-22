@@ -50,6 +50,7 @@ Partial Class AddUserAccount
         Me.ErrorProvider4 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider5 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider6 = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.pictureboxAddUser, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.ErrorProvider2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -286,11 +287,21 @@ Partial Class AddUserAccount
         '
         Me.ErrorProvider6.ContainerControl = Me
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(683, 117)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(31, 13)
+        Me.Label11.TabIndex = 43
+        Me.Label11.Text = "--------"
+        '
         'AddUserAccount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(838, 346)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.cmbboxPosition)
         Me.Controls.Add(Me.btnAddUserApply)
         Me.Controls.Add(Me.btnAddUserCancel)
@@ -355,4 +366,5 @@ Partial Class AddUserAccount
     Friend WithEvents ErrorProvider4 As ErrorProvider
     Friend WithEvents ErrorProvider5 As ErrorProvider
     Friend WithEvents ErrorProvider6 As ErrorProvider
+    Friend WithEvents Label11 As Label
 End Class

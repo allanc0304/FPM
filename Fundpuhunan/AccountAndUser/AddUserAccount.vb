@@ -1,23 +1,24 @@
 ﻿Public Class AddUserAccount
+    Dim ResizedImage As Image
 
     Private Sub btnAddUserApply_Click(sender As Object, e As EventArgs) Handles btnAddUserApply.Click
         If Vld(txtFname, txtLname, txtMname, cmbboxPosition, txtUsername, txtPassword) = False Then
-            MessageBox.Show("Fill up all fields")
+            MessageBox.Show("Fill up all fields", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         ElseIf cmbboxPosition.SelectedIndex < 0 Then
-            MessageBox.Show("Please choose position from drop down box")
+            MessageBox.Show("Please choose position from drop down box", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         ElseIf txtUsername.Text.Length <= 7 Then
-            MessageBox.Show("Username should have minimum length 8 alphanumeric characters")
+            MessageBox.Show("Username should have minimum length 8 alphanumeric characters", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         ElseIf txtPassword.Text.Length <= 7 Then
-            MessageBox.Show("Password should have minimum length 8 alphanumeric characters")
+            MessageBox.Show("Password should have minimum length 8 alphanumeric characters", "Required", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
         ElseIf pictureboxAddUser.Image Is Nothing Then
             MessageBox.Show("Upload user picture")
 
         Else
-                MsgBox("Adding Account Successfully", MsgBoxStyle.OkOnly, "Adding Account")
+            MsgBox("Adding Account Successfully", MsgBoxStyle.OkOnly, "Adding Account")
             Me.Close()
         End If
     End Sub
@@ -92,4 +93,18 @@
         Return True
     End Function
 
+    Private Sub btnCFile_Click(sender As Object, e As EventArgs) Handles btnCFile.Click
+        Dim OpenFileDialog1 As New OpenFileDialog
+        OpenFileDialog1.Filter = "Picture Files (*)|*.bmp;*.gif;*.jpg;*.jpeg;*.png;*.tiff"
+        If OpenFileDialog1.ShowDialog = DialogResult.OK Then
+            btnCFile.Text = OpenFileDialog1.FileName
+            pictureboxAddUser.BackgroundImage = Image.FromFile(btnCFile.Text)
+
+            Dim NewSize As New Size(100, 100)
+            ResizedImage = New Bitmap(pictureboxAddUser.BackgroundImage, NewSize)
+            pictureboxAddUser.BackgroundImage = ResizedImage
+            pictureboxAddUser.BackgroundImageLayout = ImageLayout.Stretch
+
+        End If
+    End Sub
 End Class
