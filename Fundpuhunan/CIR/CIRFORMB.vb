@@ -130,13 +130,13 @@ Public Class CIRFORMB
                 loanForm.Add("nonschooling_dependents", Convert.ToInt32(CIRFORMA.NOD_NS.Text))
                 loanForm.Add("elementary", Convert.ToInt32(CIRFORMA.ELEM_GS.Text))
                 loanForm.Add("highschool", Convert.ToInt32(CIRFORMA.HS_GS.Text))
-                loanForm.Add("college", Convert.ToInt32(CIRFORMA.COLLEGE_GS))
+                loanForm.Add("college", Convert.ToInt32(CIRFORMA.COLLEGE_GS.Text))
                 loanForm.Add("private_elementary", Convert.ToInt32(CIRFORMA.ELEM_PS.Text))
                 loanForm.Add("private_highschool", Convert.ToInt32(CIRFORMA.HS_PS.Text))
-                loanForm.Add("private_college", Convert.ToInt32(CIRFORMA.COLLEGE_PS))
+                loanForm.Add("private_college", Convert.ToInt32(CIRFORMA.COLLEGE_PS.Text))
                 loanForm.Add("elementary_tuition", Convert.ToDouble(CIRFORMA.ELEM_TF.Text))
-                loanForm.Add("highschool_tuition", Convert.ToDouble(CIRFORMA.HS_TF))
-                loanForm.Add("college_tuition", Convert.ToDouble(CIRFORMA.COLLEGE_TF))
+                loanForm.Add("highschool_tuition", Convert.ToDouble(CIRFORMA.HS_TF.Text))
+                loanForm.Add("college_tuition", Convert.ToDouble(CIRFORMA.COLLEGE_TF.Text))
                 loanForm.Add("loan_type", "new") 'tatanggalin na yung radioBtn kaya constant muna
                 loanForm.Add("applied_amount", Convert.ToDouble(CIRFORMA.TOL_AAP.Text))
                 loanForm.Add("purpose", CIRFORMA.TOL_PURP.Text)
@@ -246,7 +246,7 @@ Public Class CIRFORMB
                     liablity.Add("bank", item.SubItems(0).Text)
                     liablity.Add("creditor_name", item.SubItems(1).Text)
                     liablity.Add("loan_amount", Convert.ToDouble(item.SubItems(4).Text))
-                    liablity.Add("balance", Convert.ToDouble(item.SubItems(5)))
+                    liablity.Add("balance", Convert.ToDouble(item.SubItems(5).Text))
                     liablity.Add("date_granted", DateTime.ParseExact(
                                  item.SubItems(2).Text, "MMMM, dd, yyyy", CultureInfo.CurrentCulture))
                     liablity.Add("due_date", DateTime.ParseExact(
