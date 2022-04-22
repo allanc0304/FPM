@@ -156,7 +156,7 @@ Public Class AppFormA
         End If
     End Sub
 
-    Private Sub T4_HOUSENO_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T4_HOUSENO.KeyPress, E4_AGE.KeyPress
+    Private Sub T4_HOUSENO_KeyPress(sender As Object, e As KeyPressEventArgs) Handles T4_HOUSENO.KeyPress
         If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
             e.Handled = True
             MessageBox.Show("This is field will accept Numbers only")
@@ -254,5 +254,19 @@ Public Class AppFormA
         AppFormB.Show()
 
         Me.Hide()
+    End Sub
+
+
+    Private Sub E4_AGE_KeyPress(sender As Object, e As KeyPressEventArgs) Handles E4_AGE.KeyPress
+        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+            e.Handled = True
+            MessageBox.Show("This is field will accept Numbers only")
+        End If
+        If E4_AGE.Text.Length >= 2 Then
+            If e.KeyChar <> ControlChars.Back Then
+                e.Handled = True
+                MessageBox.Show("Error")
+            End If
+        End If
     End Sub
 End Class
