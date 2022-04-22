@@ -4,6 +4,7 @@ Imports System.IO
 Imports System.Globalization
 Public Class CIRFORMB
     Public Shared view As Boolean = False
+    Public Shared newBorrower = False
     Private Shared ReadOnly client As HttpClient = New HttpClient()
     Private Sub TxtBLname_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtBMname.KeyPress, txtBLname.KeyPress, txtBFname.KeyPress
         If Not Char.IsLetter(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
@@ -259,7 +260,9 @@ Public Class CIRFORMB
                 content.Add(New StringContent(JsonSerializer.Serialize(loanForm)), "loan")
                 content.Add(New StringContent(JsonSerializer.Serialize(collaterals)), "collaterals")
                 content.Add(New StringContent(JsonSerializer.Serialize(liablities)), "liabilities")
-                content.Add(New StringContent("true"), "new_borrower")
+                If (newBorrower = True) Then
+                    content.Add(New StringContent("true"), "new_borrower")
+                End If
                 content.Add(New StreamContent(
                             New FileStream(AppFormA.OpenFileDialog1.FileName, FileMode.Open)),
                             "borrowerPic")

@@ -25,6 +25,7 @@ Public Class BorrowersList
         AppFormB.view = False
         CIRFORMA.view = False
         CIRFORMB.view = False
+        CIRFORMB.newBorrower = True
 
         AppFormA = Nothing
         AppFormB = Nothing
