@@ -179,8 +179,13 @@ Partial Class AppFormA
         'Label89
         '
         Me.Label89.AutoSize = True
+
         Me.Label89.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label89.Location = New System.Drawing.Point(247, 1362)
+
+        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label89.Location = New System.Drawing.Point(247, 1353)
+
         Me.Label89.Name = "Label89"
         Me.Label89.Size = New System.Drawing.Size(85, 10)
         Me.Label89.TabIndex = 429
@@ -189,8 +194,13 @@ Partial Class AppFormA
         'Label88
         '
         Me.Label88.AutoSize = True
+
         Me.Label88.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label88.Location = New System.Drawing.Point(247, 1325)
+
+        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.Location = New System.Drawing.Point(247, 1316)
+
         Me.Label88.Name = "Label88"
         Me.Label88.Size = New System.Drawing.Size(98, 10)
         Me.Label88.TabIndex = 428
@@ -199,8 +209,13 @@ Partial Class AppFormA
         'Label87
         '
         Me.Label87.AutoSize = True
+
         Me.Label87.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label87.Location = New System.Drawing.Point(475, 1328)
+
+        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.Location = New System.Drawing.Point(475, 1319)
+
         Me.Label87.Name = "Label87"
         Me.Label87.Size = New System.Drawing.Size(36, 10)
         Me.Label87.TabIndex = 427
@@ -299,7 +314,11 @@ Partial Class AppFormA
         'Label74
         '
         Me.Label74.AutoSize = True
+
         Me.Label74.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
         Me.Label74.Location = New System.Drawing.Point(338, 1009)
         Me.Label74.Name = "Label74"
         Me.Label74.Size = New System.Drawing.Size(50, 10)
@@ -309,7 +328,11 @@ Partial Class AppFormA
         'Label73
         '
         Me.Label73.AutoSize = True
+
         Me.Label73.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
         Me.Label73.Location = New System.Drawing.Point(338, 969)
         Me.Label73.Name = "Label73"
         Me.Label73.Size = New System.Drawing.Size(55, 10)
@@ -320,6 +343,9 @@ Partial Class AppFormA
         '
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+ 
         Me.Label72.Location = New System.Drawing.Point(342, 931)
         Me.Label72.Name = "Label72"
         Me.Label72.Size = New System.Drawing.Size(50, 10)
@@ -329,7 +355,11 @@ Partial Class AppFormA
         'Label71
         '
         Me.Label71.AutoSize = True
+
         Me.Label71.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
         Me.Label71.Location = New System.Drawing.Point(342, 892)
         Me.Label71.Name = "Label71"
         Me.Label71.Size = New System.Drawing.Size(55, 10)
@@ -339,7 +369,11 @@ Partial Class AppFormA
         'Label68
         '
         Me.Label68.AutoSize = True
+
         Me.Label68.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+
         Me.Label68.Location = New System.Drawing.Point(318, 856)
         Me.Label68.Name = "Label68"
         Me.Label68.Size = New System.Drawing.Size(98, 10)
@@ -349,8 +383,13 @@ Partial Class AppFormA
         'Label70
         '
         Me.Label70.AutoSize = True
+
         Me.Label70.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label70.Location = New System.Drawing.Point(510, 675)
+
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Location = New System.Drawing.Point(510, 703)
+
         Me.Label70.Name = "Label70"
         Me.Label70.Size = New System.Drawing.Size(70, 10)
         Me.Label70.TabIndex = 409
@@ -359,8 +398,13 @@ Partial Class AppFormA
         'Label69
         '
         Me.Label69.AutoSize = True
+
         Me.Label69.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label69.Location = New System.Drawing.Point(217, 723)
+
+        Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label69.Location = New System.Drawing.Point(217, 751)
+
         Me.Label69.Name = "Label69"
         Me.Label69.Size = New System.Drawing.Size(33, 10)
         Me.Label69.TabIndex = 408
@@ -369,8 +413,13 @@ Partial Class AppFormA
         'Label67
         '
         Me.Label67.AutoSize = True
+
         Me.Label67.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label67.Location = New System.Drawing.Point(217, 683)
+
+        Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label67.Location = New System.Drawing.Point(217, 711)
+
         Me.Label67.Name = "Label67"
         Me.Label67.Size = New System.Drawing.Size(38, 10)
         Me.Label67.TabIndex = 407
@@ -469,8 +518,13 @@ Partial Class AppFormA
         'Label54
         '
         Me.Label54.AutoSize = True
+
         Me.Label54.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.Location = New System.Drawing.Point(521, 390)
+
+        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label54.Location = New System.Drawing.Point(521, 403)
+
         Me.Label54.Name = "Label54"
         Me.Label54.Size = New System.Drawing.Size(74, 10)
         Me.Label54.TabIndex = 394
@@ -479,8 +533,13 @@ Partial Class AppFormA
         'Label53
         '
         Me.Label53.AutoSize = True
+
         Me.Label53.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.Location = New System.Drawing.Point(209, 427)
+
+        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label53.Location = New System.Drawing.Point(209, 440)
+
         Me.Label53.Name = "Label53"
         Me.Label53.Size = New System.Drawing.Size(70, 10)
         Me.Label53.TabIndex = 393
@@ -489,8 +548,13 @@ Partial Class AppFormA
         'Label52
         '
         Me.Label52.AutoSize = True
+
         Me.Label52.Font = New System.Drawing.Font("Arial Rounded MT", 5.999999!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label52.Location = New System.Drawing.Point(195, 387)
+
+        Me.Label52.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label52.Location = New System.Drawing.Point(195, 400)
+
         Me.Label52.Name = "Label52"
         Me.Label52.Size = New System.Drawing.Size(36, 10)
         Me.Label52.TabIndex = 392
@@ -725,20 +789,31 @@ Partial Class AppFormA
         'T4_TYPEOFBUSINESS
         '
         Me.T4_TYPEOFBUSINESS.Location = New System.Drawing.Point(240, 1374)
+
+        Me.T4_TYPEOFBUSINESS.Location = New System.Drawing.Point(240, 1365)
+
         Me.T4_TYPEOFBUSINESS.Name = "T4_TYPEOFBUSINESS"
         Me.T4_TYPEOFBUSINESS.Size = New System.Drawing.Size(111, 20)
         Me.T4_TYPEOFBUSINESS.TabIndex = 339
         '
         'B4_BUSINESS
         '
+
         Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1337)
+
+        Me.B4_BUSINESS.Location = New System.Drawing.Point(240, 1328)
+
         Me.B4_BUSINESS.Name = "B4_BUSINESS"
         Me.B4_BUSINESS.Size = New System.Drawing.Size(111, 20)
         Me.B4_BUSINESS.TabIndex = 337
         '
         'E4_AGE
         '
+
         Me.E4_AGE.Location = New System.Drawing.Point(467, 1340)
+
+        Me.E4_AGE.Location = New System.Drawing.Point(467, 1331)
+
         Me.E4_AGE.Name = "E4_AGE"
         Me.E4_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E4_AGE.TabIndex = 338
@@ -844,7 +919,11 @@ Partial Class AppFormA
         'R2_RELIGION
         '
         Me.R2_RELIGION.ForeColor = System.Drawing.SystemColors.MenuText
+
         Me.R2_RELIGION.Location = New System.Drawing.Point(495, 687)
+
+        Me.R2_RELIGION.Location = New System.Drawing.Point(495, 715)
+
         Me.R2_RELIGION.Name = "R2_RELIGION"
         Me.R2_RELIGION.Size = New System.Drawing.Size(111, 20)
         Me.R2_RELIGION.TabIndex = 318
@@ -852,7 +931,11 @@ Partial Class AppFormA
         'B2_ANAK
         '
         Me.B2_ANAK.ForeColor = System.Drawing.SystemColors.MenuText
+
         Me.B2_ANAK.Location = New System.Drawing.Point(215, 735)
+
+        Me.B2_ANAK.Location = New System.Drawing.Point(215, 763)
+
         Me.B2_ANAK.Name = "B2_ANAK"
         Me.B2_ANAK.Size = New System.Drawing.Size(46, 20)
         Me.B2_ANAK.TabIndex = 319
@@ -860,7 +943,11 @@ Partial Class AppFormA
         'E2_AGE
         '
         Me.E2_AGE.ForeColor = System.Drawing.SystemColors.MenuText
+
         Me.E2_AGE.Location = New System.Drawing.Point(215, 695)
+
+        Me.E2_AGE.Location = New System.Drawing.Point(215, 723)
+
         Me.E2_AGE.Name = "E2_AGE"
         Me.E2_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E2_AGE.TabIndex = 317
@@ -925,7 +1012,10 @@ Partial Class AppFormA
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
+
         Me.Button1.Location = New System.Drawing.Point(589, 1444)
+
+        Me.Button1.Location = New System.Drawing.Point(589, 1415)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 30)
         Me.Button1.TabIndex = 333
@@ -935,8 +1025,13 @@ Partial Class AppFormA
         'RadioButton5
         '
         Me.RadioButton5.AutoSize = True
+
         Me.RadioButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton5.Location = New System.Drawing.Point(124, 7)
+
+        Me.RadioButton5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton5.Location = New System.Drawing.Point(124, 20)
+
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton5.TabIndex = 336
@@ -947,8 +1042,13 @@ Partial Class AppFormA
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
+
         Me.RadioButton6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton6.Location = New System.Drawing.Point(10, 7)
+
+        Me.RadioButton6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton6.Location = New System.Drawing.Point(10, 19)
+
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton6.TabIndex = 335
@@ -960,10 +1060,17 @@ Partial Class AppFormA
         '
         Me.Label17.AutoSize = True
         Me.Label17.BackColor = System.Drawing.Color.Transparent
+
         Me.Label17.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(76, 1372)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(131, 19)
+
+        Me.Label17.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label17.Location = New System.Drawing.Point(76, 1363)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(139, 21)
+
         Me.Label17.TabIndex = 329
         Me.Label17.Text = "Uri ng negosyo :"
         '
@@ -971,10 +1078,17 @@ Partial Class AppFormA
         '
         Me.Label18.AutoSize = True
         Me.Label18.BackColor = System.Drawing.Color.Transparent
+
         Me.Label18.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(76, 1334)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(141, 19)
+
+        Me.Label18.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label18.Location = New System.Drawing.Point(76, 1325)
+        Me.Label18.Name = "Label18"
+        Me.Label18.Size = New System.Drawing.Size(147, 21)
+
         Me.Label18.TabIndex = 328
         Me.Label18.Text = "Pinagkakakitaan :"
         '
@@ -982,10 +1096,17 @@ Partial Class AppFormA
         '
         Me.Label25.AutoSize = True
         Me.Label25.BackColor = System.Drawing.Color.Transparent
+
         Me.Label25.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.Location = New System.Drawing.Point(395, 1337)
         Me.Label25.Name = "Label25"
         Me.Label25.Size = New System.Drawing.Size(57, 19)
+
+        Me.Label25.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label25.Location = New System.Drawing.Point(395, 1328)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(57, 21)
+
         Me.Label25.TabIndex = 327
         Me.Label25.Text = "Edad :"
         '
@@ -1055,7 +1176,11 @@ Partial Class AppFormA
         'C1_CONTACT
         '
         Me.C1_CONTACT.ForeColor = System.Drawing.SystemColors.MenuText
+
         Me.C1_CONTACT.Location = New System.Drawing.Point(501, 401)
+
+        Me.C1_CONTACT.Location = New System.Drawing.Point(501, 414)
+
         Me.C1_CONTACT.Name = "C1_CONTACT"
         Me.C1_CONTACT.Size = New System.Drawing.Size(114, 20)
         Me.C1_CONTACT.TabIndex = 303
@@ -1063,14 +1188,22 @@ Partial Class AppFormA
         '
         'R1_RELIGION
         '
+
         Me.R1_RELIGION.Location = New System.Drawing.Point(188, 439)
+
+        Me.R1_RELIGION.Location = New System.Drawing.Point(188, 452)
+
         Me.R1_RELIGION.Name = "R1_RELIGION"
         Me.R1_RELIGION.Size = New System.Drawing.Size(111, 20)
         Me.R1_RELIGION.TabIndex = 304
         '
         'E1_AGE
         '
+
         Me.E1_AGE.Location = New System.Drawing.Point(188, 401)
+
+        Me.E1_AGE.Location = New System.Drawing.Point(188, 414)
+
         Me.E1_AGE.Name = "E1_AGE"
         Me.E1_AGE.Size = New System.Drawing.Size(46, 20)
         Me.E1_AGE.TabIndex = 302
@@ -1079,10 +1212,17 @@ Partial Class AppFormA
         '
         Me.Label19.AutoSize = True
         Me.Label19.BackColor = System.Drawing.Color.Transparent
+
         Me.Label19.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(53, 1018)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(217, 19)
+
+        Me.Label19.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label19.Location = New System.Drawing.Point(53, 1018)
+        Me.Label19.Name = "Label19"
+        Me.Label19.Size = New System.Drawing.Size(231, 21)
+
         Me.Label19.TabIndex = 314
         Me.Label19.Text = "Malinis na kita kada linggo :"
         '
@@ -1090,10 +1230,17 @@ Partial Class AppFormA
         '
         Me.Label20.AutoSize = True
         Me.Label20.BackColor = System.Drawing.Color.Transparent
+
         Me.Label20.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(53, 938)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(150, 19)
+
+        Me.Label20.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label20.Location = New System.Drawing.Point(53, 938)
+        Me.Label20.Name = "Label20"
+        Me.Label20.Size = New System.Drawing.Size(158, 21)
+
         Me.Label20.TabIndex = 313
         Me.Label20.Text = "Linguhang gastos :"
         '
@@ -1101,21 +1248,34 @@ Partial Class AppFormA
         '
         Me.Label21.AutoSize = True
         Me.Label21.BackColor = System.Drawing.Color.Transparent
+
         Me.Label21.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(53, 978)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(214, 19)
-        Me.Label21.TabIndex = 312
+
+        Me.Label21.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label21.Location = New System.Drawing.Point(53, 978)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(228, 21)
+   Me.Label21.TabIndex = 312
         Me.Label21.Text = "Linguhang kita ng pamilya :"
         '
         'Label22
         '
         Me.Label22.AutoSize = True
         Me.Label22.BackColor = System.Drawing.Color.Transparent
+
         Me.Label22.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label22.Location = New System.Drawing.Point(53, 903)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(128, 19)
+
+        Me.Label22.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label22.Location = New System.Drawing.Point(53, 903)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(136, 21)
+
         Me.Label22.TabIndex = 311
         Me.Label22.Text = "Linguhang kita :"
         '
@@ -1123,28 +1283,47 @@ Partial Class AppFormA
         '
         Me.Label23.AutoSize = True
         Me.Label23.BackColor = System.Drawing.Color.Transparent
+
         Me.Label23.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.Location = New System.Drawing.Point(53, 868)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(141, 19)
+
+        Me.Label23.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label23.Location = New System.Drawing.Point(53, 868)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(147, 21)
+
         Me.Label23.TabIndex = 310
         Me.Label23.Text = "Pinagkakakitaan :"
         '
         'Label24
         '
         Me.Label24.AutoSize = True
+
         Me.Label24.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.Location = New System.Drawing.Point(212, 821)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(319, 19)
+
+        Me.Label24.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label24.Location = New System.Drawing.Point(212, 821)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(323, 21)
+
         Me.Label24.TabIndex = 309
         Me.Label24.Text = "IMPORMASYON NG PINAGKAKAKITAAN"
         '
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
+
         Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton3.Location = New System.Drawing.Point(122, 9)
+
+        Me.RadioButton3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton3.Location = New System.Drawing.Point(122, 19)
+
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton3.TabIndex = 316
@@ -1155,8 +1334,13 @@ Partial Class AppFormA
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
+
         Me.RadioButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton4.Location = New System.Drawing.Point(8, 9)
+
+        Me.RadioButton4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton4.Location = New System.Drawing.Point(8, 18)
+
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton4.TabIndex = 315
@@ -1168,10 +1352,17 @@ Partial Class AppFormA
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.Color.Transparent
+
         Me.Label9.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.Location = New System.Drawing.Point(391, 687)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(85, 19)
+
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label9.Location = New System.Drawing.Point(391, 715)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(93, 21)
+
         Me.Label9.TabIndex = 306
         Me.Label9.Text = "Relihiyon :"
         '
@@ -1179,10 +1370,17 @@ Partial Class AppFormA
         '
         Me.Label10.AutoSize = True
         Me.Label10.BackColor = System.Drawing.Color.Transparent
+
         Me.Label10.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(54, 725)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(132, 19)
+
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label10.Location = New System.Drawing.Point(54, 753)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(137, 21)
+
         Me.Label10.TabIndex = 305
         Me.Label10.Text = "Bilang ng Anak :"
         '
@@ -1190,10 +1388,17 @@ Partial Class AppFormA
         '
         Me.Label11.AutoSize = True
         Me.Label11.BackColor = System.Drawing.Color.Transparent
+
         Me.Label11.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(54, 684)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(57, 19)
+
+        Me.Label11.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label11.Location = New System.Drawing.Point(54, 712)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(57, 21)
+
         Me.Label11.TabIndex = 304
         Me.Label11.Text = "Edad :"
         '
@@ -1263,8 +1468,13 @@ Partial Class AppFormA
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
+
         Me.RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton2.Location = New System.Drawing.Point(120, 7)
+
+        Me.RadioButton2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton2.Location = New System.Drawing.Point(120, 18)
+
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton2.TabIndex = 301
@@ -1275,8 +1485,13 @@ Partial Class AppFormA
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
+
         Me.RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton1.Location = New System.Drawing.Point(6, 7)
+
+        Me.RadioButton1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton1.Location = New System.Drawing.Point(6, 17)
+
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(48, 17)
         Me.RadioButton1.TabIndex = 300
@@ -1342,10 +1557,17 @@ Partial Class AppFormA
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
+
         Me.Label8.Font = New System.Drawing.Font("Arial Rounded MT", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.Location = New System.Drawing.Point(368, 398)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(106, 19)
+
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label8.Location = New System.Drawing.Point(361, 411)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(111, 21)
+
         Me.Label8.TabIndex = 289
         Me.Label8.Text = "Contact No. :"
         '
@@ -1353,10 +1575,17 @@ Partial Class AppFormA
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
+
         Me.Label7.Font = New System.Drawing.Font("Arial Rounded MT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(48, 436)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(82, 19)
+
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label7.Location = New System.Drawing.Point(48, 449)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(93, 21)
+
         Me.Label7.TabIndex = 288
         Me.Label7.Text = "Relihiyon :"
         '
@@ -1364,10 +1593,17 @@ Partial Class AppFormA
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
+
         Me.Label6.Font = New System.Drawing.Font("Arial Rounded MT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(48, 398)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 19)
+
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI Emoji", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label6.Location = New System.Drawing.Point(48, 415)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(57, 21)
+
         Me.Label6.TabIndex = 287
         Me.Label6.Text = "Edad :"
         '
@@ -1444,7 +1680,11 @@ Partial Class AppFormA
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+
         Me.Button3.Location = New System.Drawing.Point(483, 1444)
+
+        Me.Button3.Location = New System.Drawing.Point(483, 1415)
+
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(100, 30)
         Me.Button3.TabIndex = 340
@@ -1541,7 +1781,11 @@ Partial Class AppFormA
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonFace
+
         Me.Button2.Location = New System.Drawing.Point(589, 1444)
+
+        Me.Button2.Location = New System.Drawing.Point(589, 1415)
+
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(101, 30)
         Me.Button2.TabIndex = 341

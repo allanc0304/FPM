@@ -1,6 +1,7 @@
 ﻿Imports System.Net.Http
 Imports System.Text.Json
 Imports System.IO
+Imports System.Globalization
 Public Class CIRFORMB
     Public Shared view As Boolean = False
     Private Shared ReadOnly client As HttpClient = New HttpClient()
@@ -36,17 +37,13 @@ Public Class CIRFORMB
 
     Private Async Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         If Vld(txtBMname, txtBLname, txtBFname, txtWBill, txtTranspo, txtSpoSalary, txtSpoNProfit, txtSpoGSale, txtSpoCSale, txtRental, txtPLoan, txtPersoOther, txtPAmount, txtNIncome, txtHSalary, txtFood, txtExpenses, txtEBill, txtDelinquent, txtBalance, txtAvailment, txtAppSalary, txtAppNProfit, txtAppGSale, txtAppCSale, txtAccSignature, txtAllowance, txtPAmount) = False Then
-
-            MessageBox.Show("Fill up all fields")
+            MsgBox("Fill up all fields", MsgBoxStyle.Exclamation)
 
         ElseIf PictureBoxAppForm.Image Is Nothing Then
-            MsgBox("Please Upload Copy of Application Form")
-
-
+            MsgBox("Please Upload Copy of Application Form", MsgBoxStyle.Exclamation)
 
         ElseIf PictureBoxCIR.Image Is Nothing Then
-            MsgBox("Please Upload Copy of Application Form")
-
+            MsgBox("Please Upload Copy of Application Form", MsgBoxStyle.Exclamation)
 
         Else
             Dim Ask As MsgBoxResult = MsgBox("Would you like to confirm and see computation", MsgBoxStyle.YesNo, "Exit")
@@ -110,7 +107,8 @@ Public Class CIRFORMB
                 loanForm.Add("term_payment", Convert.ToInt32(AppFormB.PH1_PAGHULOG.Text))
                 loanForm.Add("terms", Convert.ToInt32(AppFormB.TP2_TAGAL_NG_PAGBAYAD.Text))
                 loanForm.Add("start_date", AppFormB.DateTimePicker1.Value.Date)
-                loanForm.Add("payment_mode", AppFormB.PP2_PARAAN_PAGBAYAD.Text)
+                'loanForm.Add("payment_mode", AppFormB.PP2_PARAAN_PAGBAYAD.Text)
+                loanForm.Add("payment_mode", "weekly")
                 loanForm.Add("recommendedby_name", AppFormB.R2_RECOMMENDED.Text)
                 loanForm.Add("checkedby_name", AppFormB.CB2_CHECKEDBY.Text)
                 loanForm.Add("relative_fn", CIRFORMA.NOR_GN.Text)
@@ -221,16 +219,17 @@ Public Class CIRFORMB
                 loanForm.Add("principal_amount", Convert.ToDouble(txtPAmount.Text))
                 loanForm.Add("remark", txtRecRemarks.Text)
                 loanForm.Add("accounting_staff_remark", txtAccRemarks.Text)
+                loanForm.Add("status", "pending")
 
                 Dim collaterals As List(Of Dictionary(Of String, Object)) =
                 New List(Of Dictionary(Of String, Object))
                 For Each item As ListViewItem In CIRFORMA.ListView2.Items
                     Dim collateral As Dictionary(Of String, Object) = New Dictionary(Of String, Object)
-                    collateral.Add("description", item.SubItems(0))
-                    collateral.Add("model", item.SubItems(1))
-                    collateral.Add("serial_no", item.SubItems(2))
-                    collateral.Add("purchase_year", item.SubItems(3))
-                    collateral.Add("price", item.SubItems(4))
+                    collateral.Add("description", item.SubItems(0).Text)
+                    collateral.Add("model", item.SubItems(1).Text)
+                    collateral.Add("serial_no", item.SubItems(2).Text)
+                    collateral.Add("purchase_year", Convert.ToInt32(item.SubItems(3).Text))
+                    collateral.Add("price", Convert.ToDouble(item.SubItems(4).Text))
                     collaterals.Add(collateral)
                 Next
 
@@ -239,20 +238,24 @@ Public Class CIRFORMB
 
                 For Each item As ListViewItem In CIRFORMA.ListView1.Items
                     Dim liablity As Dictionary(Of String, Object) = New Dictionary(Of String, Object)
-                    liablity.Add("bank", item.SubItems(0))
-                    liablity.Add("creditor_name", item.SubItems(1))
-                    liablity.Add("loan_amount", item.SubItems(4))
-                    liablity.Add("balance", item.SubItems(5))
-                    liablity.Add("date_granted", item.SubItems(2))
-                    liablity.Add("due_date", item.SubItems(3))
+                    liablity.Add("bank", item.SubItems(0).Text)
+                    liablity.Add("creditor_name", item.SubItems(1).Text)
+                    liablity.Add("loan_amount", Convert.ToDouble(item.SubItems(4).Text))
+                    liablity.Add("balance", Convert.ToDouble(item.SubItems(5)))
+                    liablity.Add("date_granted", DateTime.ParseExact(
+                                 item.SubItems(2).Text, "MMMM, dd, yyyy", CultureInfo.CurrentCulture))
+                    liablity.Add("due_date", DateTime.ParseExact(
+                                 item.SubItems(3).Text, "MMMM, dd, yyyy", CultureInfo.CurrentCulture))
                     liablities.Add(liablity)
                 Next
 
-                Dim url As String = "http://wllaneconsulting.com/fundpuhunan/add_loan.php"
+                'Dim url As String = "http://wllaneconsulting.com/fundpuhunan/add_loan.php"
+                Dim url As String = "http://localhost:8080/add_loan.php"
                 Dim content As MultipartFormDataContent = New MultipartFormDataContent()
-                ' content.Add(New StringContent(JsonSerializer.Serialize(loanForm)), "loan") '
-                ' content.Add(New StringContent(JsonSerializer.Serialize(collaterals)), "collaterals") '
-                ' content.Add(New StringContent(JsonSerializer.Serialize(liablities)), "liabilities")'
+                content.Add(New StringContent(JsonSerializer.Serialize(loanForm)), "loan")
+                content.Add(New StringContent(JsonSerializer.Serialize(collaterals)), "collaterals")
+                content.Add(New StringContent(JsonSerializer.Serialize(liablities)), "liabilities")
+                content.Add(New StringContent("true"), "new_borrower")
                 content.Add(New StreamContent(
                             New FileStream(AppFormA.OpenFileDialog1.FileName, FileMode.Open)),
                             "borrowerPic")

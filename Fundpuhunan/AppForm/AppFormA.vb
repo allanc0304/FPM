@@ -172,11 +172,11 @@ Public Class AppFormA
             '  MessageBox.Show("Fill up all fields")
 
         ElseIf Vld(P3_BUSINESS, L3_SALARY, L3_EXPENSES, L3_WEEKLYINCOME, M3_CLEANSALARY) = False Then
-            MessageBox.Show("Fill up all fields")
+            MsgBox("Fill up all fields", MsgBoxStyle.Exclamation)
 
 
         ElseIf Vld(P4_LASTNAME, P4_GIVENNAME, P4_MIDDLENAME, T4_HOUSENO, T4_STREET, T4_BARANGAY, T4_PROVINCE, T4_MUNICIPALITY, E4_AGE, T4_TYPEOFBUSINESS, B4_BUSINESS) = False Then
-            MessageBox.Show("Fill up all fields")
+            MsgBox("Fill up all fields", MsgBoxStyle.Exclamation)
 
 
             Exit Sub
