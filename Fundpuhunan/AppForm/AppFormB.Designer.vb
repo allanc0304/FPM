@@ -1270,9 +1270,9 @@ Partial Class AppFormB
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button9.Location = New System.Drawing.Point(467, 1633)
+        Me.Button9.Location = New System.Drawing.Point(471, 1633)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(116, 47)
+        Me.Button9.Size = New System.Drawing.Size(116, 31)
         Me.Button9.TabIndex = 377
         Me.Button9.Text = "Back"
         Me.Button9.UseVisualStyleBackColor = False
@@ -1342,9 +1342,9 @@ Partial Class AppFormB
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(589, 1633)
+        Me.Button1.Location = New System.Drawing.Point(588, 1633)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(116, 47)
+        Me.Button1.Size = New System.Drawing.Size(116, 31)
         Me.Button1.TabIndex = 378
         Me.Button1.Text = "Proceed To CIR"
         Me.Button1.UseVisualStyleBackColor = False

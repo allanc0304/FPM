@@ -1144,7 +1144,7 @@ Partial Class AppFormA
         '
         Me.RadioButton3.AutoSize = True
         Me.RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton3.Location = New System.Drawing.Point(122, 10)
+        Me.RadioButton3.Location = New System.Drawing.Point(122, 9)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(59, 17)
         Me.RadioButton3.TabIndex = 316
@@ -1365,7 +1365,7 @@ Partial Class AppFormA
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Arial Rounded MT", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(54, 398)
+        Me.Label6.Location = New System.Drawing.Point(48, 398)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(53, 19)
         Me.Label6.TabIndex = 287
@@ -1507,7 +1507,7 @@ Partial Class AppFormA
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(732, 34)
+        Me.Panel1.Size = New System.Drawing.Size(749, 34)
         Me.Panel1.TabIndex = 437
         '
         'Label49
@@ -1550,6 +1550,7 @@ Partial Class AppFormA
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Controls.Add(Me.RadioButton2)
         Me.GroupBox1.Location = New System.Drawing.Point(188, 351)
@@ -1585,7 +1586,7 @@ Partial Class AppFormA
         Me.AutoScroll = True
         Me.AutoScrollMargin = New System.Drawing.Size(0, 50)
         Me.BackColor = System.Drawing.SystemColors.Control
-        Me.ClientSize = New System.Drawing.Size(749, 649)
+        Me.ClientSize = New System.Drawing.Size(766, 649)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
