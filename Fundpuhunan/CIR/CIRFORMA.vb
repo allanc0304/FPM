@@ -559,7 +559,12 @@ Public Class CIRFORMA
     End Sub
 
     Private Sub CIR_NEXTBTN_Click(sender As Object, e As EventArgs) Handles CIR_NEXTBTN.Click
+
         If NOB_LN.Text = "" Or NOB_GN.Text = "" Or NOB_MN.Text = "" Or DOB_DTP.Text = "" Or
+
+        If NOB_LN.Text = "" Or NOB_GN.Text = "" Or NOB_MN.Text = "" Or
+        DOB_DTP.Text = "" Or
+
             CIR_AGE.Text = "" Or CIR_HOUSENO.Text = "" Or CIR_ST.Text = "" Or
             CIR_BRGY.Text = "" Or CIR_MUN.Text = "" Or CIR_PRO.Text = "" Or
             CIR_CONTACT.Text = "" Then
