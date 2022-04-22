@@ -49,16 +49,15 @@ Partial Class AddLoanPayment
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.AP_INS = New System.Windows.Forms.TextBox()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.AP_SAV = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
-        Me.Label18 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.AP_REM = New System.Windows.Forms.TextBox()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.AP_WEEK = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
         CType(Me.ErrorProvider1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -69,7 +68,7 @@ Partial Class AddLoanPayment
         Me.AP_PEN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.AP_PEN.Name = "AP_PEN"
         Me.AP_PEN.Size = New System.Drawing.Size(208, 22)
-        Me.AP_PEN.TabIndex = 64
+        Me.AP_PEN.TabIndex = 76
         Me.AP_PEN.Text = "0"
         Me.AP_PEN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -96,7 +95,7 @@ Partial Class AddLoanPayment
         Me.AP_CONFIRMBTN.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.AP_CONFIRMBTN.Name = "AP_CONFIRMBTN"
         Me.AP_CONFIRMBTN.Size = New System.Drawing.Size(98, 34)
-        Me.AP_CONFIRMBTN.TabIndex = 55
+        Me.AP_CONFIRMBTN.TabIndex = 79
         Me.AP_CONFIRMBTN.Text = "Confirm"
         Me.AP_CONFIRMBTN.UseVisualStyleBackColor = False
         '
@@ -120,7 +119,7 @@ Partial Class AddLoanPayment
         Me.AP_COLB.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.AP_COLB.Name = "AP_COLB"
         Me.AP_COLB.Size = New System.Drawing.Size(209, 22)
-        Me.AP_COLB.TabIndex = 57
+        Me.AP_COLB.TabIndex = 78
         Me.AP_COLB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
@@ -142,7 +141,7 @@ Partial Class AddLoanPayment
         Me.AP_EA.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.AP_EA.Name = "AP_EA"
         Me.AP_EA.Size = New System.Drawing.Size(209, 22)
-        Me.AP_EA.TabIndex = 53
+        Me.AP_EA.TabIndex = 73
         Me.AP_EA.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label7
@@ -364,15 +363,15 @@ Partial Class AddLoanPayment
         Me.Label13.TabIndex = 80
         Me.Label13.Text = "Php"
         '
-        'TextBox5
+        'AP_INS
         '
-        Me.TextBox5.Location = New System.Drawing.Point(172, 137)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox5.TabIndex = 79
-        Me.TextBox5.Text = "15"
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.AP_INS.Location = New System.Drawing.Point(172, 137)
+        Me.AP_INS.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_INS.Name = "AP_INS"
+        Me.AP_INS.Size = New System.Drawing.Size(209, 22)
+        Me.AP_INS.TabIndex = 74
+        Me.AP_INS.Text = "15"
+        Me.AP_INS.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label14
         '
@@ -400,14 +399,14 @@ Partial Class AddLoanPayment
         Me.Label15.TabIndex = 83
         Me.Label15.Text = "Php"
         '
-        'TextBox6
+        'AP_SAV
         '
-        Me.TextBox6.Location = New System.Drawing.Point(172, 165)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox6.TabIndex = 82
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.AP_SAV.Location = New System.Drawing.Point(172, 165)
+        Me.AP_SAV.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_SAV.Name = "AP_SAV"
+        Me.AP_SAV.Size = New System.Drawing.Size(209, 22)
+        Me.AP_SAV.TabIndex = 75
+        Me.AP_SAV.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label16
         '
@@ -422,27 +421,14 @@ Partial Class AddLoanPayment
         Me.Label16.TabIndex = 81
         Me.Label16.Text = "Savings:"
         '
-        'Label18
+        'AP_REM
         '
-        Me.Label18.AutoSize = True
-        Me.Label18.BackColor = System.Drawing.Color.Transparent
-        Me.Label18.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.ForeColor = System.Drawing.Color.Black
-        Me.Label18.Location = New System.Drawing.Point(390, 232)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(32, 15)
-        Me.Label18.TabIndex = 86
-        Me.Label18.Text = "Php"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(173, 230)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox7.TabIndex = 85
-        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.AP_REM.Location = New System.Drawing.Point(173, 230)
+        Me.AP_REM.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_REM.Name = "AP_REM"
+        Me.AP_REM.Size = New System.Drawing.Size(209, 22)
+        Me.AP_REM.TabIndex = 77
+        Me.AP_REM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label19
         '
@@ -470,14 +456,14 @@ Partial Class AddLoanPayment
         Me.Label20.TabIndex = 89
         Me.Label20.Text = "Php"
         '
-        'TextBox8
+        'AP_WEEK
         '
-        Me.TextBox8.Location = New System.Drawing.Point(171, 81)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(209, 22)
-        Me.TextBox8.TabIndex = 88
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.AP_WEEK.Location = New System.Drawing.Point(171, 81)
+        Me.AP_WEEK.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.AP_WEEK.Name = "AP_WEEK"
+        Me.AP_WEEK.Size = New System.Drawing.Size(209, 22)
+        Me.AP_WEEK.TabIndex = 72
+        Me.AP_WEEK.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label21
         '
@@ -500,16 +486,15 @@ Partial Class AddLoanPayment
         Me.ClientSize = New System.Drawing.Size(492, 358)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label20)
-        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.AP_WEEK)
         Me.Controls.Add(Me.Label21)
-        Me.Controls.Add(Me.Label18)
-        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.AP_REM)
         Me.Controls.Add(Me.Label19)
         Me.Controls.Add(Me.Label15)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.AP_SAV)
         Me.Controls.Add(Me.Label16)
         Me.Controls.Add(Me.Label13)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.AP_INS)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -565,15 +550,14 @@ Partial Class AddLoanPayment
     Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Label12 As Label
     Friend WithEvents Label20 As Label
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents AP_WEEK As TextBox
     Friend WithEvents Label21 As Label
-    Friend WithEvents Label18 As Label
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents AP_REM As TextBox
     Friend WithEvents Label19 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents AP_SAV As TextBox
     Friend WithEvents Label16 As Label
     Friend WithEvents Label13 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents AP_INS As TextBox
     Friend WithEvents Label14 As Label
 End Class
