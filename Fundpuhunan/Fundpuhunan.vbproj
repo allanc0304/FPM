@@ -294,6 +294,9 @@
     <EmbeddedResource Include="CIR\Total_Computation.resx">
       <DependentUpon>Total_Computation.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Collection\AddCollectionList.resx">
+      <DependentUpon>AddCollectionList.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Collection\Collections.resx">
       <DependentUpon>Collections.vb</DependentUpon>
     </EmbeddedResource>

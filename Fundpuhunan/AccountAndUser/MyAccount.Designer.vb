@@ -30,16 +30,14 @@ Partial Class MyAccount
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -54,6 +52,20 @@ Partial Class MyAccount
         Me.Label4 = New System.Windows.Forms.Label()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.Label38 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label35 = New System.Windows.Forms.Label()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label34 = New System.Windows.Forms.Label()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -140,46 +152,13 @@ Partial Class MyAccount
         Me.Button1.Text = "SAVE"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Arial", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Label3.Location = New System.Drawing.Point(239, 159)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(97, 18)
-        Me.Label3.TabIndex = 281
-        Me.Label3.Text = "Account ID:"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Arial", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Label5.Location = New System.Drawing.Point(239, 199)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(57, 18)
-        Me.Label5.TabIndex = 282
-        Me.Label5.Text = "Name:"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Arial", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Label6.Location = New System.Drawing.Point(239, 241)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(76, 18)
-        Me.Label6.TabIndex = 283
-        Me.Label6.Text = "Position:"
-        '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Font = New System.Drawing.Font("Arial", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.LinkLabel1.LinkColor = System.Drawing.Color.Blue
-        Me.LinkLabel1.Location = New System.Drawing.Point(380, 278)
+        Me.LinkLabel1.Location = New System.Drawing.Point(413, 344)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(98, 15)
         Me.LinkLabel1.TabIndex = 287
@@ -196,42 +175,22 @@ Partial Class MyAccount
         Me.Label10.Text = "_________________________________________________________________________________" &
     "________________________________________"
         '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(383, 155)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
-        Me.TextBox4.Size = New System.Drawing.Size(137, 20)
-        Me.TextBox4.TabIndex = 290
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Location = New System.Drawing.Point(383, 195)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ReadOnly = True
-        Me.TextBox5.Size = New System.Drawing.Size(137, 20)
-        Me.TextBox5.TabIndex = 291
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Location = New System.Drawing.Point(383, 237)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.ReadOnly = True
-        Me.TextBox6.Size = New System.Drawing.Size(137, 20)
-        Me.TextBox6.TabIndex = 292
-        '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.Panel2)
         Me.GroupBox1.Location = New System.Drawing.Point(12, 477)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(724, 219)
+        Me.GroupBox1.Size = New System.Drawing.Size(724, 285)
         Me.GroupBox1.TabIndex = 293
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Visible = False
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.TextBox5)
+        Me.Panel2.Controls.Add(Me.Label5)
+        Me.Panel2.Controls.Add(Me.TextBox4)
+        Me.Panel2.Controls.Add(Me.Label3)
         Me.Panel2.Controls.Add(Me.Label11)
         Me.Panel2.Controls.Add(Me.Button4)
         Me.Panel2.Controls.Add(Me.Button3)
@@ -244,9 +203,45 @@ Partial Class MyAccount
         Me.Panel2.Controls.Add(Me.Label12)
         Me.Panel2.Location = New System.Drawing.Point(26, 16)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(692, 197)
+        Me.Panel2.Size = New System.Drawing.Size(692, 257)
         Me.Panel2.TabIndex = 288
         Me.Panel2.Visible = False
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Location = New System.Drawing.Point(247, 98)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(416, 20)
+        Me.TextBox5.TabIndex = 302
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label5.Location = New System.Drawing.Point(109, 102)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(117, 16)
+        Me.Label5.TabIndex = 301
+        Me.Label5.Text = "Phone Number :"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(247, 72)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(416, 20)
+        Me.TextBox4.TabIndex = 300
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label3.Location = New System.Drawing.Point(109, 76)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(54, 16)
+        Me.Label3.TabIndex = 299
+        Me.Label3.Text = "Email :"
         '
         'Label11
         '
@@ -265,7 +260,7 @@ Partial Class MyAccount
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(425, 158)
+        Me.Button4.Location = New System.Drawing.Point(425, 194)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(116, 36)
         Me.Button4.TabIndex = 298
@@ -278,7 +273,7 @@ Partial Class MyAccount
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(547, 158)
+        Me.Button3.Location = New System.Drawing.Point(547, 194)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(116, 36)
         Me.Button3.TabIndex = 291
@@ -287,7 +282,7 @@ Partial Class MyAccount
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(247, 114)
+        Me.TextBox3.Location = New System.Drawing.Point(247, 150)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(416, 20)
         Me.TextBox3.TabIndex = 297
@@ -295,7 +290,7 @@ Partial Class MyAccount
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(247, 79)
+        Me.TextBox2.Location = New System.Drawing.Point(247, 124)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(416, 20)
         Me.TextBox2.TabIndex = 296
@@ -311,7 +306,7 @@ Partial Class MyAccount
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(247, 143)
+        Me.CheckBox1.Location = New System.Drawing.Point(247, 179)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(102, 17)
         Me.CheckBox1.TabIndex = 294
@@ -323,7 +318,7 @@ Partial Class MyAccount
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label14.Location = New System.Drawing.Point(109, 118)
+        Me.Label14.Location = New System.Drawing.Point(109, 154)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(113, 16)
         Me.Label14.TabIndex = 293
@@ -334,7 +329,7 @@ Partial Class MyAccount
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label13.Location = New System.Drawing.Point(109, 83)
+        Me.Label13.Location = New System.Drawing.Point(109, 128)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(132, 16)
         Me.Label13.TabIndex = 292
@@ -372,22 +367,184 @@ Partial Class MyAccount
         'Timer1
         '
         '
+        'TextBox9
+        '
+        Me.TextBox9.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox9.Location = New System.Drawing.Point(365, 208)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.ReadOnly = True
+        Me.TextBox9.Size = New System.Drawing.Size(207, 21)
+        Me.TextBox9.TabIndex = 308
+        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label38
+        '
+        Me.Label38.AutoSize = True
+        Me.Label38.BackColor = System.Drawing.SystemColors.Control
+        Me.Label38.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label38.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label38.Location = New System.Drawing.Point(232, 215)
+        Me.Label38.Name = "Label38"
+        Me.Label38.Size = New System.Drawing.Size(88, 16)
+        Me.Label38.TabIndex = 307
+        Me.Label38.Text = "Date of Birth:"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox8.Location = New System.Drawing.Point(365, 305)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.ReadOnly = True
+        Me.TextBox8.Size = New System.Drawing.Size(255, 21)
+        Me.TextBox8.TabIndex = 306
+        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label35
+        '
+        Me.Label35.AutoSize = True
+        Me.Label35.BackColor = System.Drawing.SystemColors.Control
+        Me.Label35.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label35.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label35.Location = New System.Drawing.Point(232, 307)
+        Me.Label35.Name = "Label35"
+        Me.Label35.Size = New System.Drawing.Size(47, 16)
+        Me.Label35.TabIndex = 305
+        Me.Label35.Text = "Email:"
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox7.Location = New System.Drawing.Point(365, 272)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.ReadOnly = True
+        Me.TextBox7.Size = New System.Drawing.Size(255, 21)
+        Me.TextBox7.TabIndex = 304
+        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.SystemColors.Control
+        Me.Label34.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label34.Location = New System.Drawing.Point(232, 274)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(103, 16)
+        Me.Label34.TabIndex = 303
+        Me.Label34.Text = "Phone Number:"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox10.Location = New System.Drawing.Point(365, 240)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.ReadOnly = True
+        Me.TextBox10.Size = New System.Drawing.Size(255, 21)
+        Me.TextBox10.TabIndex = 302
+        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.SystemColors.Control
+        Me.Label33.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label33.Location = New System.Drawing.Point(232, 242)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(124, 16)
+        Me.Label33.TabIndex = 301
+        Me.Label33.Text = "Complete Address:"
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox11.Location = New System.Drawing.Point(365, 182)
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.ReadOnly = True
+        Me.TextBox11.Size = New System.Drawing.Size(207, 21)
+        Me.TextBox11.TabIndex = 300
+        Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.SystemColors.Control
+        Me.Label8.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label8.Location = New System.Drawing.Point(232, 187)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(36, 16)
+        Me.Label8.TabIndex = 299
+        Me.Label8.Text = "Age:"
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox12.Location = New System.Drawing.Point(365, 154)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.ReadOnly = True
+        Me.TextBox12.Size = New System.Drawing.Size(207, 21)
+        Me.TextBox12.TabIndex = 298
+        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.SystemColors.Control
+        Me.Label9.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label9.Location = New System.Drawing.Point(232, 156)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(74, 16)
+        Me.Label9.TabIndex = 297
+        Me.Label9.Text = "Full Name:"
+        '
+        'TextBox13
+        '
+        Me.TextBox13.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.TextBox13.Location = New System.Drawing.Point(365, 125)
+        Me.TextBox13.Name = "TextBox13"
+        Me.TextBox13.ReadOnly = True
+        Me.TextBox13.Size = New System.Drawing.Size(207, 21)
+        Me.TextBox13.TabIndex = 296
+        Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.BackColor = System.Drawing.SystemColors.Control
+        Me.Label15.Font = New System.Drawing.Font("Arial", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.Label15.Location = New System.Drawing.Point(232, 128)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(83, 16)
+        Me.Label15.TabIndex = 295
+        Me.Label15.Text = "Account  ID:"
+        '
         'MyAccount
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
         Me.ClientSize = New System.Drawing.Size(945, 760)
+        Me.Controls.Add(Me.TextBox9)
+        Me.Controls.Add(Me.Label38)
+        Me.Controls.Add(Me.TextBox8)
+        Me.Controls.Add(Me.Label35)
+        Me.Controls.Add(Me.TextBox7)
+        Me.Controls.Add(Me.Label34)
+        Me.Controls.Add(Me.TextBox10)
+        Me.Controls.Add(Me.Label33)
+        Me.Controls.Add(Me.TextBox11)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.TextBox12)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.TextBox13)
+        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.LinkLabel1)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.PictureBox1)
@@ -415,14 +572,8 @@ Partial Class MyAccount
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Label10 As Label
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label11 As Label
@@ -440,4 +591,22 @@ Partial Class MyAccount
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents Label7 As Label
     Friend WithEvents Timer1 As Timer
+    Private WithEvents TextBox9 As TextBox
+    Private WithEvents Label38 As Label
+    Private WithEvents TextBox8 As TextBox
+    Private WithEvents Label35 As Label
+    Private WithEvents TextBox7 As TextBox
+    Private WithEvents Label34 As Label
+    Private WithEvents TextBox10 As TextBox
+    Private WithEvents Label33 As Label
+    Private WithEvents TextBox11 As TextBox
+    Private WithEvents Label8 As Label
+    Private WithEvents TextBox12 As TextBox
+    Private WithEvents Label9 As Label
+    Private WithEvents TextBox13 As TextBox
+    Private WithEvents Label15 As Label
+    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label3 As Label
 End Class
