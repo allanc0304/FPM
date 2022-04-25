@@ -1,5 +1,7 @@
-﻿Public Class MyAccount
-    Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
+﻿Imports System.Text.RegularExpressions
+
+Public Class MyAccount
+    Private Sub Label3_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -80,4 +82,25 @@
 
 
     End Sub
+
+    Private Sub TextBox5_Validated(sender As Object, e As EventArgs) Handles TextBox5.Validated
+
+
+        Dim phone As New Regex("09\d{9}$")
+        'phone number like 092-3470-9218
+        If (Not phone.IsMatch(TextBox5.Text)) Then
+            MsgBox("Phone Number is Invalid")
+            TextBox5.Text = ""
+        End If
+    End Sub
+
+
+
+    Private Sub TextBox5_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox5.KeyPress
+        If Not Char.IsNumber(e.KeyChar) And Not e.KeyChar = Chr(Keys.Delete) And Not e.KeyChar = Chr(Keys.Back) And Not e.KeyChar = Chr(Keys.Space) Then
+            e.Handled = True
+            MessageBox.Show("This is field will accept Numbers only")
+        End If
+    End Sub
+
 End Class
